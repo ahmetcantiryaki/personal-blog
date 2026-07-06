@@ -9,7 +9,7 @@ import { JsonLd } from '@/components/seo/json-ld'
 import { getDictionary } from '@/i18n'
 import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { websiteJsonLd } from '@/lib/json-ld'
-import { listPosts } from '@/lib/posts'
+import { getFeaturedPost, listPosts } from '@/lib/posts'
 import { buildPageMetadata } from '@/lib/seo'
 import { listCategories } from '@/lib/taxonomy'
 import { routes } from '@/lib/routes'
@@ -46,13 +46,21 @@ export default async function Home({ params, searchParams }: HomeProps) {
   const page = parsePage((await searchParams).page)
   const dict = getDictionary(locale)
 
-  const [{ posts, totalPages }, categories] = await Promise.all([
-    listPosts({ locale, page }),
+  // The newest post is the featured hero (page 1 only). It is excluded from the
+  // grid on EVERY page so the grid is a consistent 9-per-page window over the
+  // remaining posts — no post duplicated or skipped across pages.
+  const [featuredPost, categories] = await Promise.all([
+    getFeaturedPost(locale),
     listCategories(locale),
   ])
 
-  const featured = page === 1 ? posts[0] : undefined
-  const gridPosts = featured ? posts.slice(1) : posts
+  const { posts: gridPosts, totalPages } = await listPosts({
+    locale,
+    page,
+    excludeId: featuredPost?.id,
+  })
+
+  const featured = page === 1 ? featuredPost : undefined
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">

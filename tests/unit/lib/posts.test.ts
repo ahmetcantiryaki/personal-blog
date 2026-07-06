@@ -57,6 +57,21 @@ describe('listPosts', () => {
     expect(JSON.stringify(where)).toContain('tags.slug')
   })
 
+  it('excludes a given post id from the grid window', async () => {
+    fake.find.mockResolvedValue(findResult([]))
+    await listPosts({ locale: 'tr', excludeId: 10 })
+    const where = JSON.stringify(fake.find.mock.calls[0][0].where)
+    expect(where).toContain('not_equals')
+    expect(where).toContain('10')
+  })
+
+  it('does not add an id filter when no excludeId is given', async () => {
+    fake.find.mockResolvedValue(findResult([]))
+    await listPosts({ locale: 'tr' })
+    const where = JSON.stringify(fake.find.mock.calls[0][0].where)
+    expect(where).not.toContain('not_equals')
+  })
+
   it('exposes the default page size', () => {
     expect(POSTS_PER_PAGE).toBe(9)
   })

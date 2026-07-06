@@ -46,6 +46,13 @@ interface ListArgs {
   limit?: number
   categorySlug?: string
   tagSlug?: string
+  /**
+   * Exclude a single post id from the results. The home page uses this to keep
+   * the newest post (rendered as the featured hero) out of the grid on every
+   * page, so the grid window stays a consistent `limit`-per-page over the
+   * remaining posts with no post duplicated or skipped across pages.
+   */
+  excludeId?: number
 }
 
 /** Paginated list of published posts, newest first, optional category/tag filter. */
@@ -55,12 +62,14 @@ export async function listPosts({
   limit = POSTS_PER_PAGE,
   categorySlug,
   tagSlug,
+  excludeId,
 }: ListArgs): Promise<PaginatedPosts> {
   const payload = await getPayloadClient()
 
   const and: Where[] = [basePublished]
   if (categorySlug) and.push({ 'category.slug': { equals: categorySlug } })
   if (tagSlug) and.push({ 'tags.slug': { equals: tagSlug } })
+  if (typeof excludeId === 'number') and.push({ id: { not_equals: excludeId } })
 
   const result = await payload.find({
     collection: 'posts',

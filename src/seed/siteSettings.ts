@@ -21,7 +21,7 @@ const SITE_COPY: Record<(typeof LOCALES)[number], LocalizedSiteCopy> = {
   },
 }
 
-const SOCIAL_LINKS = [{ label: 'GitHub', url: 'https://github.com/ahmetcantiryaki' }]
+const SOCIAL_LINKS: { label: string; url: string }[] = []
 
 /**
  * Idempotently populate the siteSettings global with localized copy and social
