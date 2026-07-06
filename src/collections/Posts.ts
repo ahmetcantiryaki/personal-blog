@@ -1,6 +1,7 @@
 import type { Access, CollectionConfig } from 'payload'
 
 import { isAdmin, isAdminUser } from '@/access/roles'
+import { capReadLimit } from '@/hooks/capReadLimit'
 import { computeReadingTime } from '@/hooks/computeReadingTime'
 import { formatSlug } from '@/hooks/formatSlug'
 
@@ -27,6 +28,7 @@ export const Posts: CollectionConfig = {
   },
   hooks: {
     beforeChange: [computeReadingTime],
+    beforeOperation: [capReadLimit],
   },
   fields: [
     {
@@ -54,6 +56,7 @@ export const Posts: CollectionConfig = {
       required: true,
       localized: true,
       index: true,
+      unique: true,
       hooks: {
         beforeValidate: [formatSlug('title')],
       },

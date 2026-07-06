@@ -1,6 +1,7 @@
 import type { Access, CollectionConfig } from 'payload'
 
 import { adminFieldAccess, getUser, isAdmin, isAdminUser } from '@/access/roles'
+import { enforcePasswordPolicy } from '@/hooks/enforcePasswordPolicy'
 import { enforceReaderRole } from '@/hooks/enforceReaderRole'
 
 /** Admins read everyone; authenticated users read only themselves. */
@@ -29,6 +30,7 @@ export const Users: CollectionConfig = {
     delete: isAdmin,
   },
   hooks: {
+    beforeValidate: [enforcePasswordPolicy],
     beforeChange: [enforceReaderRole],
   },
   fields: [

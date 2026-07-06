@@ -1,7 +1,8 @@
 import type { CollectionConfig, FieldAccess } from 'payload'
 
-import { isAuthenticated, isPublic } from '@/access/roles'
+import { isAuthenticated } from '@/access/roles'
 import { isOwnerOrAdmin } from '@/access/ownership'
+import { capReadLimit } from '@/hooks/capReadLimit'
 import { forceOwner } from '@/hooks/forceOwner'
 
 /** The `user` relationship is immutable once created. */
@@ -17,7 +18,9 @@ interface ReactionOptions {
  * Likes and bookmarks share an identical shape and rules:
  * - a user may create their own row (owner is forced server-side),
  * - only the owner (or an admin) may delete,
- * - reads are public so counts can be shown,
+ * - row reads are owner-or-admin only (privacy): who liked/bookmarked what is
+ *   never enumerable by anonymous callers. Public counts are still exposed via
+ *   the `overrideAccess: true` count queries in lib/reactions + the state route.
  * - (user, post) is unique so a user cannot react twice.
  */
 export const reactionCollection = ({
@@ -36,13 +39,14 @@ export const reactionCollection = ({
     group: 'Engagement',
   },
   access: {
-    read: isPublic,
+    read: isOwnerOrAdmin,
     create: isAuthenticated,
     update: isOwnerOrAdmin,
     delete: isOwnerOrAdmin,
   },
   hooks: {
     beforeChange: [forceOwner],
+    beforeOperation: [capReadLimit],
   },
   indexes: [
     {

@@ -92,36 +92,55 @@ export const upsertArticle = async (
 
   const primaryData = { ...commonData, ...buildLocalizedData(primary, convert) }
 
+  // Surface a slug/unique collision (or any write failure) with the offending
+  // translationKey + locale + slug instead of a raw Postgres/Payload stack.
+  const surface = async <T>(locale: SeedLocale, slug: string, op: () => Promise<T>): Promise<T> => {
+    try {
+      return await op()
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error)
+      throw new Error(
+        `seed: failed to upsert "${group.translationKey}" [${locale}] slug="${slug}": ${message}`,
+      )
+    }
+  }
+
   let id: ID
   const current = existing.docs[0]
   if (current) {
-    const updated = await payload.update({
-      collection: 'posts',
-      id: current.id,
-      locale: primaryLocale,
-      data: primaryData,
-      overrideAccess: true,
-    })
+    const updated = await surface(primaryLocale, primary.resolvedSlug, () =>
+      payload.update({
+        collection: 'posts',
+        id: current.id,
+        locale: primaryLocale,
+        data: primaryData,
+        overrideAccess: true,
+      }),
+    )
     id = updated.id
   } else {
-    const created = await payload.create({
-      collection: 'posts',
-      locale: primaryLocale,
-      data: primaryData,
-      overrideAccess: true,
-    })
+    const created = await surface(primaryLocale, primary.resolvedSlug, () =>
+      payload.create({
+        collection: 'posts',
+        locale: primaryLocale,
+        data: primaryData,
+        overrideAccess: true,
+      }),
+    )
     id = created.id
   }
 
   const otherLocale: SeedLocale = primaryLocale === 'tr' ? 'en' : 'tr'
   const other = group.byLocale[otherLocale]
   if (other) {
-    await payload.update({
-      collection: 'posts',
-      id,
-      locale: otherLocale,
-      data: buildLocalizedData(other, convert),
-      overrideAccess: true,
-    })
+    await surface(otherLocale, other.resolvedSlug, () =>
+      payload.update({
+        collection: 'posts',
+        id,
+        locale: otherLocale,
+        data: buildLocalizedData(other, convert),
+        overrideAccess: true,
+      }),
+    )
   }
 }

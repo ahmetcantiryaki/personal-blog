@@ -1,6 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { isAdmin, isPublic } from '@/access/roles'
+import { capReadLimit } from '@/hooks/capReadLimit'
 import { formatSlug } from '@/hooks/formatSlug'
 
 export const Categories: CollectionConfig = {
@@ -15,6 +16,9 @@ export const Categories: CollectionConfig = {
     create: isAdmin,
     update: isAdmin,
     delete: isAdmin,
+  },
+  hooks: {
+    beforeOperation: [capReadLimit],
   },
   fields: [
     {
@@ -43,6 +47,7 @@ export const Categories: CollectionConfig = {
       required: true,
       localized: true,
       index: true,
+      unique: true,
       hooks: {
         beforeValidate: [formatSlug('title')],
       },
