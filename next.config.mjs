@@ -2,8 +2,28 @@ import { withPayload } from '@payloadcms/next/withPayload'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Payload/Next 15 App Router. Frontend team will extend (images, i18n rewrites, etc.).
+  // Payload/Next App Router. Frontend team will extend (images, i18n rewrites, etc.).
   reactStrictMode: true,
+  // Baseline security headers on every response. No CSP (Payload admin + inline
+  // styles make a correct policy high-maintenance). X-Frame-Options is
+  // SAMEORIGIN rather than DENY so Payload admin live-preview can iframe the
+  // frontend on the same origin.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=(), browsing-topics=()',
+          },
+        ],
+      },
+    ]
+  },
   experimental: {
     // Posts/categories/tags are prerendered (SSG + ISR) via generateStaticParams,
     // so the build renders 100+ pages that each hit Payload/Postgres. The Supabase
