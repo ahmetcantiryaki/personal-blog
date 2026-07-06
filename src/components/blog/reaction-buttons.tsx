@@ -15,9 +15,9 @@ interface ReactionButtonsProps {
   postId: number
   locale: Locale
   dict: Dictionary
-  isLoggedIn: boolean
-  initialLikes: { count: number; active: boolean }
-  initialBookmarks: { count: number; active: boolean }
+  /** Server-rendered public counts (static/ISR). Active state hydrates client-side. */
+  initialLikes: number
+  initialBookmarks: number
   /** Path to return to after login (this post's URL). */
   returnTo: string
 }
@@ -28,21 +28,62 @@ interface ToggleState {
   pending: boolean
 }
 
+interface StateResponse {
+  isLoggedIn: boolean
+  likes: { active: boolean; count: number }
+  bookmarks: { active: boolean; count: number }
+}
+
+/**
+ * Like/bookmark buttons. Counts arrive from the server so the post page can be
+ * statically rendered (ISR); the viewer's own active state + login status are
+ * fetched on mount from `/api/reactions/state`. Toggling stays optimistic.
+ */
 export function ReactionButtons({
   postId,
   locale,
   dict,
-  isLoggedIn,
   initialLikes,
   initialBookmarks,
   returnTo,
 }: ReactionButtonsProps) {
   const router = useRouter()
-  const [likes, setLikes] = React.useState<ToggleState>({ ...initialLikes, pending: false })
-  const [bookmarks, setBookmarks] = React.useState<ToggleState>({
-    ...initialBookmarks,
+  const [isLoggedIn, setIsLoggedIn] = React.useState(false)
+  const [likes, setLikes] = React.useState<ToggleState>({
+    count: initialLikes,
+    active: false,
     pending: false,
   })
+  const [bookmarks, setBookmarks] = React.useState<ToggleState>({
+    count: initialBookmarks,
+    active: false,
+    pending: false,
+  })
+
+  // Hydrate the viewer's active state + login status after mount.
+  React.useEffect(() => {
+    let active = true
+    fetch(`/api/reactions/state?postId=${postId}`, {
+      headers: { 'Content-Type': 'application/json' },
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: StateResponse | null) => {
+        if (!active || !data) return
+        setIsLoggedIn(data.isLoggedIn)
+        setLikes((prev) => ({ ...prev, active: data.likes.active, count: data.likes.count }))
+        setBookmarks((prev) => ({
+          ...prev,
+          active: data.bookmarks.active,
+          count: data.bookmarks.count,
+        }))
+      })
+      .catch(() => {
+        /* keep server counts; toggling will prompt login as needed */
+      })
+    return () => {
+      active = false
+    }
+  }, [postId])
 
   const toggle = React.useCallback(
     async (
