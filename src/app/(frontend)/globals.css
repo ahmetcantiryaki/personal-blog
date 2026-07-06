@@ -1,0 +1,317 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/*
+ * Woyable design system — warm stone base, one dusty-teal accent.
+ * Calm, editorial, typography-led. Both themes first-class.
+ * Dark mode is toggled via the `.dark` class (next-themes, class strategy).
+ */
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 0.6rem;
+
+  /* Warm stone light theme */
+  --background: oklch(0.991 0.003 83);
+  --foreground: oklch(0.268 0.006 56);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+
+  /* Accent: dusty teal — used sparingly for links, actions, focus */
+  --primary: oklch(0.556 0.058 192);
+  --primary-foreground: oklch(0.99 0.005 180);
+
+  --secondary: oklch(0.965 0.005 83);
+  --secondary-foreground: oklch(0.34 0.008 56);
+
+  --muted: oklch(0.965 0.005 83);
+  --muted-foreground: oklch(0.53 0.008 56);
+
+  --accent: oklch(0.955 0.012 190);
+  --accent-foreground: oklch(0.34 0.02 200);
+
+  --destructive: oklch(0.577 0.185 27);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(0.9 0.005 83);
+  --input: oklch(0.9 0.005 83);
+  --ring: oklch(0.556 0.058 192);
+}
+
+.dark {
+  /* Deep warm charcoal — never pure black */
+  --background: oklch(0.196 0.006 66);
+  --foreground: oklch(0.925 0.005 83);
+
+  --card: oklch(0.232 0.006 66);
+  --card-foreground: var(--foreground);
+
+  --popover: oklch(0.232 0.006 66);
+  --popover-foreground: var(--foreground);
+
+  /* Slightly desaturated teal for dark */
+  --primary: oklch(0.685 0.062 190);
+  --primary-foreground: oklch(0.2 0.01 200);
+
+  --secondary: oklch(0.268 0.006 66);
+  --secondary-foreground: oklch(0.9 0.005 83);
+
+  --muted: oklch(0.268 0.006 66);
+  --muted-foreground: oklch(0.685 0.008 66);
+
+  --accent: oklch(0.3 0.014 195);
+  --accent-foreground: oklch(0.9 0.01 190);
+
+  --destructive: oklch(0.62 0.19 25);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(0.32 0.006 66);
+  --input: oklch(0.34 0.006 66);
+  --ring: oklch(0.685 0.062 190);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv11', 'ss01';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Consistent, visible focus rings for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background: color-mix(in oklch, var(--color-primary) 25%, transparent);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/*
+ * Article prose — editorial, generous, readable. Serif body via --font-serif.
+ * Scoped to `.prose` so it never leaks into chrome.
+ */
+@layer components {
+  .prose {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--color-foreground);
+    max-width: 68ch;
+  }
+
+  .prose > * + * {
+    margin-top: 1.25em;
+  }
+
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+    scroll-margin-top: 6rem;
+    color: var(--color-foreground);
+  }
+
+  .prose h2 {
+    font-size: 1.6rem;
+    margin-top: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .prose h3 {
+    font-size: 1.3rem;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+  }
+
+  .prose h4 {
+    font-size: 1.1rem;
+    margin-top: 1.6em;
+  }
+
+  .prose p {
+    text-wrap: pretty;
+  }
+
+  .prose a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: color-mix(in oklch, var(--color-primary) 40%, transparent);
+  }
+
+  .prose a:hover {
+    text-decoration-color: var(--color-primary);
+  }
+
+  .prose strong {
+    font-weight: 650;
+    color: var(--color-foreground);
+  }
+
+  .prose ul,
+  .prose ol {
+    padding-left: 1.5em;
+  }
+
+  .prose ul {
+    list-style-type: disc;
+  }
+
+  .prose ol {
+    list-style-type: decimal;
+  }
+
+  .prose li {
+    margin-top: 0.5em;
+    padding-left: 0.35em;
+  }
+
+  .prose li::marker {
+    color: var(--color-muted-foreground);
+  }
+
+  .prose blockquote {
+    border-left: 3px solid var(--color-primary);
+    padding-left: 1.25em;
+    font-style: italic;
+    color: var(--color-muted-foreground);
+  }
+
+  .prose hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2.5em 0;
+  }
+
+  .prose img {
+    border-radius: var(--radius-lg);
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Inline code */
+  .prose :not(pre) > code {
+    font-family: ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
+    font-size: 0.86em;
+    background: var(--color-muted);
+    padding: 0.15em 0.4em;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+    white-space: nowrap;
+  }
+
+  /* Code blocks */
+  .prose pre {
+    font-family: ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    background: oklch(0.22 0.006 66);
+    color: oklch(0.9 0.005 83);
+    padding: 1.1rem 1.25rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border);
+    overflow-x: auto;
+  }
+
+  .prose pre code {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    white-space: pre;
+    color: inherit;
+  }
+
+  /* Tables */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .prose thead {
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .prose th {
+    text-align: left;
+    font-weight: 600;
+    padding: 0.6em 0.9em;
+  }
+
+  .prose td {
+    padding: 0.6em 0.9em;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .prose tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
