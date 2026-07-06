@@ -10,6 +10,7 @@ import { Label } from '@/components/ui/label'
 import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
 import { routes } from '@/lib/routes'
+import { notifyAuthChanged } from '@/lib/use-current-user'
 
 interface LoginFormProps {
   locale: Locale
@@ -59,6 +60,9 @@ export function LoginForm({ locale, dict, returnTo }: LoginFormProps) {
         setPending(false)
         return
       }
+      // Tell the header/mobile auth widgets to re-resolve the session now, so
+      // the avatar menu appears without a hard reload.
+      notifyAuthChanged()
       router.push(returnTo || routes.home(locale))
       router.refresh()
     } catch {

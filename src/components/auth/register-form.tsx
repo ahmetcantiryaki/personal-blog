@@ -10,6 +10,7 @@ import { Label } from '@/components/ui/label'
 import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
 import { routes } from '@/lib/routes'
+import { notifyAuthChanged } from '@/lib/use-current-user'
 
 interface RegisterFormProps {
   locale: Locale
@@ -76,6 +77,9 @@ export function RegisterForm({ locale, dict, returnTo }: RegisterFormProps) {
         router.push(routes.login(locale, returnTo))
         return
       }
+      // Header/mobile auth widgets re-resolve the session immediately so the
+      // avatar menu appears without a hard reload.
+      notifyAuthChanged()
       router.push(returnTo || routes.home(locale))
       router.refresh()
     } catch {

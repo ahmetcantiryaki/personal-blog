@@ -4,10 +4,9 @@ import { freshUser, loginUser, registerUser } from './helpers/api'
 
 /** Journey 6 — Register a fresh user via the UI; header shows the user menu. */
 
-// KNOWN APP BUG (reported): the header auth widget (useCurrentUser) fetches
-// /api/users/me once on mount and router.refresh() does not re-run it, so the
-// avatar only appears after a full page load. Tests reload once after the SPA
-// redirect to observe the logged-in header.
+// The header auth widget (useCurrentUser) re-resolves the session on the
+// `auth-changed` event the login/register forms fire, so the avatar menu
+// appears right after the SPA redirect — no reload required.
 
 test('register through the form auto-logs-in and shows the avatar menu (en)', async ({
   page,
@@ -23,11 +22,9 @@ test('register through the form auto-logs-in and shows the avatar menu (en)', as
   await form.getByLabel('Password').fill(user.password)
   await form.getByRole('button', { name: 'Sign up' }).click()
 
-  // Successful register + auto-login lands back on the home page.
+  // Successful register + auto-login lands back on the home page; the header
+  // re-resolves the session via the `auth-changed` event — no reload needed.
   await expect(page).toHaveURL(/\/en$/)
-
-  // Full load so the header re-resolves the session (see bug note above).
-  await page.reload()
 
   const avatarButton = page.getByRole('button', { name: 'Account' })
   await expect(avatarButton).toBeVisible()
@@ -64,8 +61,7 @@ test('login form signs in an existing user (tr)', async ({ page }) => {
 
   await expect(page).toHaveURL(/\/tr$/)
 
-  // Full load so the header re-resolves the session (see bug note above).
-  await page.reload()
+  // No reload: the header updates via the `auth-changed` event.
   await expect(page.getByRole('button', { name: 'Hesap' })).toBeVisible()
 })
 
