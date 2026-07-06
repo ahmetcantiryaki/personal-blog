@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-07-06T16:07:28.022Z",
+  "tool": "seed/content QA audit (gray-matter parser)",
+  "criteria": {
+    "expectedRealPerLocale": 50,
+    "requiredKeys": [
+      "title",
+      "slug",
+      "translationKey",
+      "locale",
+      "excerpt",
+      "category",
+      "tags",
+      "publishedAt",
+      "seoTitle",
+      "seoDescription"
+    ],
+    "allowedCategories": [
+      "ai",
+      "web-development",
+      "software-engineering",
+      "devops-cloud",
+      "career-productivity"
+    ],
+    "minBodyWords": 500,
+    "slugPattern": "ascii-kebab-case ^[a-z0-9]+(-[a-z0-9]+)*$",
+    "scaffoldSamplesIgnored": "translationKey 'sample' or scaffold shape (coverStyle/categoryTitle, no locale)"
+  },
+  "counts": {
+    "totalMdFiles": 102,
+    "perLocaleTotal": {
+      "en": 51,
+      "tr": 51
+    },
+    "perLocaleReal": {
+      "en": 50,
+      "tr": 50
+    },
+    "realPosts": 100,
+    "samplesIgnored": 2,
+    "parseErrors": 0,
+    "invalidFiles": 0,
+    "missingPairs": 0,
+    "duplicateSlugs": 0,
+    "duplicateTranslationKeys": 0
+  },
+  "missingPairs": [],
+  "invalidFiles": [],
+  "duplicateSlugs": [],
+  "duplicateTranslationKeys": [],
+  "parseErrors": [],
+  "samplesIgnored": [
+    {
+      "file": "en/hello-woyable.md",
+      "translationKey": "merhaba-woyable",
+      "reason": "pre-existing scaffold sample (coverStyle/categoryTitle present, no locale field, category \"urunler\") — excluded from validation"
+    },
+    {
+      "file": "tr/merhaba-woyable.md",
+      "translationKey": "merhaba-woyable",
+      "reason": "pre-existing scaffold sample (coverStyle/categoryTitle present, no locale field, category \"urunler\") — excluded from validation"
+    }
+  ]
+}
