@@ -56,7 +56,10 @@ export async function getReactedPostIds(kind: ReactionKind, user: User): Promise
     where: { user: { equals: user.id } },
     depth: 0,
     limit: 500,
+    // Row reads are owner-or-admin only; pass the user so access resolves to the
+    // owner's own rows instead of being treated as an anonymous (denied) request.
     overrideAccess: false,
+    user,
     sort: '-createdAt',
     pagination: false,
   })
