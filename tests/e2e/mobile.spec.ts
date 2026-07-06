@@ -46,14 +46,11 @@ test('post detail is readable at 375px (hero, meta, content)', async ({ page }) 
   await expect(page.locator('article time[datetime]').first()).toBeVisible()
 })
 
-// QUARANTINED — real app bug, not flakiness (1 of max 2).
-// The TR RAG post renders a markdown code fence as a plain <p> with <br>s and
-// a literal trailing ``` (markdown→lexical seed conversion bug). Its
-// unbreakable `connection="postgresql+psycopg://user:pass@..."` line makes
-// document.scrollWidth 520px at a 375px viewport (145px horizontal overflow).
-// Re-enable once the content/conversion fix lands: the assertion below is the
-// regression net.
-test.fixme('post detail has no horizontal overflow at 375px', async ({ page }) => {
+// Regression net for the markdown→lexical code-fence fix: fenced code now
+// renders as a real <pre> with overflow-x-auto, so long unbreakable lines
+// (e.g. `connection="postgresql+psycopg://user:pass@..."`) scroll inside the
+// block instead of widening the document at a 375px viewport.
+test('post detail has no horizontal overflow at 375px', async ({ page }) => {
   await page.goto(`/tr/posts/${TR_POST_SLUG}`)
   await expect(page.locator('article header h1')).toBeVisible()
 
