@@ -1,54 +1,78 @@
-import config from '@payload-config'
 import { notFound } from 'next/navigation'
-import { getPayload } from 'payload'
-import React from 'react'
 
-const LOCALES = ['tr', 'en'] as const
-type Locale = (typeof LOCALES)[number]
+import { CategoryChips } from '@/components/blog/category-chips'
+import { FeaturedPost } from '@/components/blog/featured-post'
+import { Pagination } from '@/components/blog/pagination'
+import { PostGrid } from '@/components/blog/post-grid'
+import { getDictionary } from '@/i18n'
+import { isLocale } from '@/i18n/config'
+import { listPosts } from '@/lib/posts'
+import { listCategories } from '@/lib/taxonomy'
+import { routes } from '@/lib/routes'
 
-const isLocale = (value: string): value is Locale => (LOCALES as readonly string[]).includes(value)
+export const revalidate = 300
 
-export function generateStaticParams(): { locale: Locale }[] {
-  return LOCALES.map((locale) => ({ locale }))
-}
-
-interface PageProps {
+interface HomeProps {
   params: Promise<{ locale: string }>
+  searchParams: Promise<{ page?: string }>
 }
 
-/**
- * Phase 1 placeholder home page. Lists published post titles for the locale via
- * the Payload Local API to prove end-to-end data flow. The frontend team
- * replaces this with the real design.
- */
-export default async function LocaleHome({ params }: PageProps) {
+const parsePage = (value?: string): number => {
+  const n = Number.parseInt(value ?? '1', 10)
+  return Number.isFinite(n) && n > 0 ? n : 1
+}
+
+export default async function Home({ params, searchParams }: HomeProps) {
   const { locale } = await params
   if (!isLocale(locale)) notFound()
 
-  const payload = await getPayload({ config })
-  const { docs } = await payload.find({
-    collection: 'posts',
-    where: { status: { equals: 'published' } },
-    locale,
-    depth: 0,
-    limit: 50,
-    overrideAccess: false,
-    sort: '-publishedAt',
-  })
+  const page = parsePage((await searchParams).page)
+  const dict = getDictionary(locale)
+
+  const [{ posts, totalPages }, categories] = await Promise.all([
+    listPosts({ locale, page }),
+    listCategories(locale),
+  ])
+
+  const featured = page === 1 ? posts[0] : undefined
+  const gridPosts = featured ? posts.slice(1) : posts
 
   return (
-    <main style={{ maxWidth: 720, margin: '0 auto', padding: '2rem 1rem', fontFamily: 'system-ui' }}>
-      <h1>Woyable Blog</h1>
-      <p>Locale: {locale}</p>
-      {docs.length === 0 ? (
-        <p>No published posts yet.</p>
-      ) : (
-        <ul>
-          {docs.map((post) => (
-            <li key={post.id}>{post.title}</li>
-          ))}
-        </ul>
-      )}
-    </main>
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <header className="mb-10 max-w-2xl">
+        <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
+          {dict.siteName}
+        </h1>
+        <p className="mt-3 text-lg text-muted-foreground">{dict.tagline}</p>
+      </header>
+
+      <div className="mb-10">
+        <CategoryChips categories={categories} locale={locale} dict={dict} activeSlug={null} />
+      </div>
+
+      {featured ? (
+        <section aria-label={dict.home.featured} className="mb-14">
+          <FeaturedPost post={featured} locale={locale} dict={dict} />
+        </section>
+      ) : null}
+
+      <section aria-label={dict.home.latest}>
+        {page === 1 ? (
+          <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+            {dict.home.latest}
+          </h2>
+        ) : null}
+        <PostGrid posts={gridPosts} locale={locale} dict={dict} />
+      </section>
+
+      <div className="mt-12">
+        <Pagination
+          page={page}
+          totalPages={totalPages}
+          hrefForPage={(p) => `${routes.home(locale)}?page=${p}`}
+          labels={{ previous: dict.nav.home, next: dict.nav.home }}
+        />
+      </div>
+    </div>
   )
 }

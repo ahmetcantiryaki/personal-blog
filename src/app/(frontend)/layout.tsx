@@ -1,19 +1,20 @@
 import type { Metadata } from 'next'
 import React from 'react'
 
+import './globals.css'
+
 export const metadata: Metadata = {
-  title: 'Woyable Blog',
-  description: 'A multilingual, SEO-first blog platform.',
+  title: {
+    default: 'Woyable',
+    template: '%s — Woyable',
+  },
+  description: 'A calm, multilingual journal on software, AI and the web.',
 }
 
 /**
- * Root layout for the public frontend route group. Intentionally bare — the
- * frontend team (Mert) owns the design system, theming and typography.
+ * Route-group wrapper for the public frontend. The `<html>`/`<body>` shell is
+ * rendered in `[locale]/layout.tsx` so the `lang` attribute is locale-correct.
  */
 export default function FrontendLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="tr">
-      <body>{children}</body>
-    </html>
-  )
+  return children
 }
