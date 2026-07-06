@@ -2,7 +2,6 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 
 import { postgresAdapter } from '@payloadcms/db-postgres'
-import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { buildConfig } from 'payload'
 
 import { Bookmarks } from '@/collections/Bookmarks'
@@ -12,6 +11,7 @@ import { PageViews } from '@/collections/PageViews'
 import { Posts } from '@/collections/Posts'
 import { Tags } from '@/collections/Tags'
 import { Users } from '@/collections/Users'
+import { blogEditor } from '@/fields/blogEditor'
 import { SiteSettings } from '@/globals/SiteSettings'
 
 const filename = fileURLToPath(import.meta.url)
@@ -34,14 +34,26 @@ export default buildConfig({
   },
   collections: [Users, Posts, Categories, Tags, Likes, Bookmarks, PageViews],
   globals: [SiteSettings],
-  editor: lexicalEditor(),
+  // Shared editor (default features + fenced-code block). The seed converter
+  // derives its config from this very instance, so ``` fences become real code
+  // blocks instead of being re-parsed as markdown headings.
+  editor: blogEditor,
   localization: {
     locales: [
       { label: 'Türkçe', code: 'tr' },
       { label: 'English', code: 'en' },
     ],
     defaultLocale: 'tr',
-    fallback: true,
+    // No cross-locale fallback: a missing locale must surface as null so
+    // listing/sitemap/hreflang guards can skip it instead of silently serving
+    // the default locale's content under the wrong URL.
+    fallback: false,
+  },
+  graphQL: {
+    // Lock down GraphQL in production: no schema introspection and no
+    // playground. Both remain available in development.
+    disableIntrospectionInProduction: true,
+    disablePlaygroundInProduction: true,
   },
   db: postgresAdapter({
     pool: {
