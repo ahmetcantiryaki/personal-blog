@@ -3,6 +3,7 @@ import React from 'react'
 
 import { Footer } from '@/components/layout/footer'
 import { Header } from '@/components/layout/header'
+import { RouteProgress } from '@/components/layout/route-progress'
 import { JsonLd } from '@/components/seo/json-ld'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 import { Toaster } from '@/components/ui/sonner'
@@ -33,25 +34,27 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${newsreader.variable}`}>
       <body className="min-h-dvh bg-background font-sans text-foreground antialiased">
         <JsonLd data={organizationJsonLd()} />
-        {/* NOTE: nextjs-toploader removed — its history.pushState override breaks
-            Next 16 App Router query-only navigation (e.g. ?page=2). Re-add a
-            route progress bar via @bprogress/next (Next 16-compatible) if desired. */}
-        <ThemeProvider>
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
-          >
-            {dict.nav.home}
-          </a>
-          <div className="flex min-h-dvh flex-col">
-            <Header locale={locale} dict={dict} siteName={settings.siteName} />
-            <main id="main-content" className="flex-1">
-              {children}
-            </main>
-            <Footer locale={locale} dict={dict} settings={settings} />
-          </div>
-          <Toaster />
-        </ThemeProvider>
+        {/* Route-transition progress bar (Next 16-compatible via @bprogress/next):
+            listens to anchor clicks instead of patching history.pushState, so
+            query-only navigation (e.g. ?page=2 pagination) still works. */}
+        <RouteProgress>
+          <ThemeProvider>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+            >
+              {dict.nav.home}
+            </a>
+            <div className="flex min-h-dvh flex-col">
+              <Header locale={locale} dict={dict} siteName={settings.siteName} />
+              <main id="main-content" className="flex-1">
+                {children}
+              </main>
+              <Footer locale={locale} dict={dict} settings={settings} />
+            </div>
+            <Toaster />
+          </ThemeProvider>
+        </RouteProgress>
       </body>
     </html>
   )
