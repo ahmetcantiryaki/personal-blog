@@ -1,12 +1,15 @@
 import type { Metadata } from 'next'
 import React from 'react'
 
+import { SITE_NAME, SITE_URL } from '@/lib/seo'
+
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Woyable',
-    template: '%s — Woyable',
+    default: SITE_NAME,
+    template: `%s — ${SITE_NAME}`,
   },
   description: 'A calm, multilingual journal on software, AI and the web.',
 }

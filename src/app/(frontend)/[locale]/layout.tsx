@@ -3,11 +3,13 @@ import React from 'react'
 
 import { Footer } from '@/components/layout/footer'
 import { Header } from '@/components/layout/header'
+import { JsonLd } from '@/components/seo/json-ld'
 import { ThemeProvider } from '@/components/theme/theme-provider'
 import { Toaster } from '@/components/ui/sonner'
 import { getDictionary } from '@/i18n'
 import { LOCALES, isLocale, type Locale } from '@/i18n/config'
 import { inter, newsreader } from '@/lib/fonts'
+import { organizationJsonLd } from '@/lib/json-ld'
 import { getSiteSettings } from '@/lib/site-settings'
 
 export function generateStaticParams(): { locale: Locale }[] {
@@ -30,6 +32,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${newsreader.variable}`}>
       <body className="min-h-dvh bg-background font-sans text-foreground antialiased">
+        <JsonLd data={organizationJsonLd()} />
         <ThemeProvider>
           <a
             href="#main-content"

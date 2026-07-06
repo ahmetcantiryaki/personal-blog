@@ -4,10 +4,11 @@ import { notFound, redirect } from 'next/navigation'
 import { PostGrid } from '@/components/blog/post-grid'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { getCurrentUser } from '@/lib/auth'
 import { getPostsByIds } from '@/lib/posts'
 import { getReactedPostIds } from '@/lib/reactions'
+import { buildPageMetadata } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
 export const dynamic = 'force-dynamic'
@@ -19,7 +20,16 @@ interface ProfilePageProps {
 export async function generateMetadata({ params }: ProfilePageProps): Promise<Metadata> {
   const { locale } = await params
   if (!isLocale(locale)) return {}
-  return { title: getDictionary(locale).profile.title }
+  const dict = getDictionary(locale)
+  return buildPageMetadata({
+    locale,
+    title: dict.profile.title,
+    paths: Object.fromEntries(LOCALES.map((l) => [l, routes.profile(l)])) as Record<
+      Locale,
+      string
+    >,
+    noindex: true,
+  })
 }
 
 export default async function ProfilePage({ params }: ProfilePageProps) {

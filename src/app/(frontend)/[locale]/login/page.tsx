@@ -4,8 +4,9 @@ import { notFound, redirect } from 'next/navigation'
 import { AuthCard } from '@/components/auth/auth-card'
 import { LoginForm } from '@/components/auth/login-form'
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { getCurrentUser } from '@/lib/auth'
+import { buildPageMetadata } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
 export const dynamic = 'force-dynamic'
@@ -18,7 +19,14 @@ interface LoginPageProps {
 export async function generateMetadata({ params }: LoginPageProps): Promise<Metadata> {
   const { locale } = await params
   if (!isLocale(locale)) return {}
-  return { title: getDictionary(locale).auth.loginTitle }
+  const dict = getDictionary(locale)
+  return buildPageMetadata({
+    locale,
+    title: dict.auth.loginTitle,
+    description: dict.auth.loginSubtitle,
+    paths: Object.fromEntries(LOCALES.map((l) => [l, routes.login(l)])) as Record<Locale, string>,
+    noindex: true,
+  })
 }
 
 /** Only accept same-origin relative return paths to avoid open redirects. */

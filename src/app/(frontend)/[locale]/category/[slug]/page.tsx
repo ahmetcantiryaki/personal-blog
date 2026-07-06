@@ -4,13 +4,18 @@ import { notFound } from 'next/navigation'
 import { CategoryChips } from '@/components/blog/category-chips'
 import { Pagination } from '@/components/blog/pagination'
 import { PostGrid } from '@/components/blog/post-grid'
+import { JsonLd } from '@/components/seo/json-ld'
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
+import { breadcrumbJsonLd, collectionPageJsonLd } from '@/lib/json-ld'
 import { listPosts } from '@/lib/posts'
+import { buildPageMetadata, getTaxonomyAlternateSlugs, pathsFromSlugs } from '@/lib/seo'
 import { getCategoryBySlug, listCategories } from '@/lib/taxonomy'
 import { routes } from '@/lib/routes'
 
 export const revalidate = 300
+// All categories are prerendered; unknown slugs return a genuine 404.
+export const dynamicParams = false
 
 interface CategoryPageProps {
   params: Promise<{ locale: string; slug: string }>
@@ -22,30 +27,69 @@ const parsePage = (value?: string): number => {
   return Number.isFinite(n) && n > 0 ? n : 1
 }
 
+/** Prerender each category in every locale; unknown slugs still render on demand. */
+export async function generateStaticParams(): Promise<{ locale: Locale; slug: string }[]> {
+  const params: { locale: Locale; slug: string }[] = []
+  for (const locale of LOCALES) {
+    const categories = await listCategories(locale)
+    for (const category of categories) {
+      if (category.slug) params.push({ locale, slug: category.slug })
+    }
+  }
+  return params
+}
+
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
   const { locale, slug } = await params
   if (!isLocale(locale)) return {}
   const category = await getCategoryBySlug(locale, slug)
-  return category ? { title: category.title, description: category.description || undefined } : {}
+  if (!category) return {}
+
+  const dict = getDictionary(locale)
+  const slugs = await getTaxonomyAlternateSlugs('categories', category.id)
+  const paths = pathsFromSlugs(slugs, routes.category)
+
+  return buildPageMetadata({
+    locale,
+    title: `${category.title} — ${dict.category.title}`,
+    description: category.description || `${dict.category.postsIn} · ${category.title}`,
+    paths,
+    type: 'website',
+  })
 }
 
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
 
-  const category = await getCategoryBySlug(locale as Locale, slug)
+  const category = await getCategoryBySlug(locale, slug)
   if (!category) notFound()
 
   const page = parsePage((await searchParams).page)
-  const dict = getDictionary(locale as Locale)
+  const dict = getDictionary(locale)
 
   const [{ posts, totalPages }, categories] = await Promise.all([
-    listPosts({ locale: locale as Locale, page, categorySlug: slug }),
-    listCategories(locale as Locale),
+    listPosts({ locale, page, categorySlug: slug }),
+    listCategories(locale),
   ])
+
+  const canonicalPath = routes.category(locale, slug)
+  const jsonLd = [
+    collectionPageJsonLd({
+      locale,
+      url: canonicalPath,
+      name: category.title,
+      description: category.description || undefined,
+    }),
+    breadcrumbJsonLd([
+      { name: dict.nav.home, url: routes.home(locale) },
+      { name: category.title, url: canonicalPath },
+    ]),
+  ]
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <JsonLd data={jsonLd} />
       <header className="mb-8">
         <p className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
           {dict.category.title}
@@ -59,26 +103,16 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
       </header>
 
       <div className="mb-10">
-        <CategoryChips
-          categories={categories}
-          locale={locale as Locale}
-          dict={dict}
-          activeSlug={slug}
-        />
+        <CategoryChips categories={categories} locale={locale} dict={dict} activeSlug={slug} />
       </div>
 
-      <PostGrid
-        posts={posts}
-        locale={locale as Locale}
-        dict={dict}
-        emptyMessage={dict.category.empty}
-      />
+      <PostGrid posts={posts} locale={locale} dict={dict} emptyMessage={dict.category.empty} />
 
       <div className="mt-12">
         <Pagination
           page={page}
           totalPages={totalPages}
-          hrefForPage={(p) => `${routes.category(locale as Locale, slug)}?page=${p}`}
+          hrefForPage={(p) => `${routes.category(locale, slug)}?page=${p}`}
         />
       </div>
     </div>

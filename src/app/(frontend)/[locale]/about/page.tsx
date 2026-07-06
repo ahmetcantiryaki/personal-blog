@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
+import { buildPageMetadata } from '@/lib/seo'
 import { getSiteSettings } from '@/lib/site-settings'
+import { routes } from '@/lib/routes'
 
 export const revalidate = 300
 
@@ -14,7 +16,15 @@ interface AboutPageProps {
 export async function generateMetadata({ params }: AboutPageProps): Promise<Metadata> {
   const { locale } = await params
   if (!isLocale(locale)) return {}
-  return { title: getDictionary(locale).about.title }
+  const dict = getDictionary(locale)
+  const settings = await getSiteSettings(locale)
+  return buildPageMetadata({
+    locale,
+    title: dict.about.title,
+    description: settings.tagline,
+    paths: Object.fromEntries(LOCALES.map((l) => [l, routes.about(l)])) as Record<Locale, string>,
+    type: 'website',
+  })
 }
 
 export default async function AboutPage({ params }: AboutPageProps) {

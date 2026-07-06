@@ -6,8 +6,9 @@ import { PostGrid } from '@/components/blog/post-grid'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { searchPosts } from '@/lib/posts'
+import { buildPageMetadata } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
 export const dynamic = 'force-dynamic'
@@ -20,7 +21,14 @@ interface SearchPageProps {
 export async function generateMetadata({ params }: SearchPageProps): Promise<Metadata> {
   const { locale } = await params
   if (!isLocale(locale)) return {}
-  return { title: getDictionary(locale).search.title }
+  const dict = getDictionary(locale)
+  return buildPageMetadata({
+    locale,
+    title: dict.search.title,
+    description: dict.search.placeholder,
+    paths: Object.fromEntries(LOCALES.map((l) => [l, routes.search(l)])) as Record<Locale, string>,
+    noindex: true,
+  })
 }
 
 export default async function SearchPage({ params, searchParams }: SearchPageProps) {

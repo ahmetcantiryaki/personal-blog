@@ -4,8 +4,9 @@ import { notFound, redirect } from 'next/navigation'
 import { AuthCard } from '@/components/auth/auth-card'
 import { RegisterForm } from '@/components/auth/register-form'
 import { getDictionary } from '@/i18n'
-import { isLocale, type Locale } from '@/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { getCurrentUser } from '@/lib/auth'
+import { buildPageMetadata } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
 export const dynamic = 'force-dynamic'
@@ -18,7 +19,17 @@ interface RegisterPageProps {
 export async function generateMetadata({ params }: RegisterPageProps): Promise<Metadata> {
   const { locale } = await params
   if (!isLocale(locale)) return {}
-  return { title: getDictionary(locale).auth.registerTitle }
+  const dict = getDictionary(locale)
+  return buildPageMetadata({
+    locale,
+    title: dict.auth.registerTitle,
+    description: dict.auth.registerSubtitle,
+    paths: Object.fromEntries(LOCALES.map((l) => [l, routes.register(l)])) as Record<
+      Locale,
+      string
+    >,
+    noindex: true,
+  })
 }
 
 const safeReturnTo = (value?: string): string | undefined =>
