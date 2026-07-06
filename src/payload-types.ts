@@ -220,6 +220,10 @@ export interface Post {
  */
 export interface Category {
   id: number;
+  /**
+   * Stable key shared across locales. Do not change after creation.
+   */
+  key: string;
   title: string;
   /**
    * URL-safe identifier. Auto-generated from the title if left blank.
@@ -235,6 +239,10 @@ export interface Category {
  */
 export interface Tag {
   id: number;
+  /**
+   * Stable key shared across locales. Do not change after creation.
+   */
+  key: string;
   title: string;
   /**
    * URL-safe identifier. Auto-generated from the title if left blank.
@@ -426,6 +434,7 @@ export interface PostsSelect<T extends boolean = true> {
  * via the `definition` "categories_select".
  */
 export interface CategoriesSelect<T extends boolean = true> {
+  key?: T;
   title?: T;
   slug?: T;
   description?: T;
@@ -437,6 +446,7 @@ export interface CategoriesSelect<T extends boolean = true> {
  * via the `definition` "tags_select".
  */
 export interface TagsSelect<T extends boolean = true> {
+  key?: T;
   title?: T;
   slug?: T;
   updatedAt?: T;

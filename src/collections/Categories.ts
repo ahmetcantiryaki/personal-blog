@@ -18,6 +18,20 @@ export const Categories: CollectionConfig = {
   },
   fields: [
     {
+      // Non-localized stable identifier. One category doc per key, carrying both
+      // locale rows. Used by the seed pipeline for idempotent upserts and to pair
+      // localized slugs for hreflang.
+      name: 'key',
+      type: 'text',
+      required: true,
+      unique: true,
+      index: true,
+      admin: {
+        position: 'sidebar',
+        description: 'Stable key shared across locales. Do not change after creation.',
+      },
+    },
+    {
       name: 'title',
       type: 'text',
       required: true,

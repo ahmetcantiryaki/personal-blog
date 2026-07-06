@@ -26,9 +26,10 @@ export const frontMatterSchema = z.object({
       value === undefined ? undefined : value instanceof Date ? value.toISOString() : value,
     ),
   category: z.string().trim().optional(),
-  categoryTitle: z.string().trim().optional(),
   tags: z.array(z.string().trim().min(1)).default([]),
-  coverStyle: z.enum(['aurora', 'dusk', 'meadow', 'ocean', 'ember']).default('aurora'),
+  // Optional: real content omits it, so the seed derives a deterministic style
+  // from the translationKey. An explicit value (legacy content) still wins.
+  coverStyle: z.enum(['aurora', 'dusk', 'meadow', 'ocean', 'ember']).optional(),
   seoTitle: z.string().trim().optional(),
   seoDescription: z.string().trim().optional(),
 })
