@@ -70,6 +70,10 @@ export default defineConfig({
       DATABASE_URI: databaseUri,
       NODE_OPTIONS: '--no-deprecation',
       PORT: String(PORT),
+      // The suite drives many register/login/track calls from one localhost IP;
+      // disable the per-IP limiter so legitimate test traffic isn't throttled.
+      // 429 behaviour is covered by unit tests + a manual curl smoke.
+      RATE_LIMIT_DISABLED: '1',
     },
   },
 })

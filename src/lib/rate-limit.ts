@@ -47,6 +47,13 @@ export function rateLimit(
   windowMs: number,
   now: number = Date.now(),
 ): RateLimitResult {
+  // Break-glass / test escape hatch. Off in production (unset); the e2e suite
+  // sets it so its many register/login/track calls from a single localhost IP
+  // don't trip the limiter. NEVER set this in a real deployment.
+  if (process.env.RATE_LIMIT_DISABLED === '1') {
+    return { ok: true, remaining: limit, retryAfterSeconds: 0 }
+  }
+
   const cutoff = now - windowMs
   const hits = (buckets.get(key) ?? []).filter((t) => t > cutoff)
 
