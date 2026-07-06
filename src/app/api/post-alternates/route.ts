@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 
 import { LOCALES, type Locale } from '@/i18n/config'
+import { logger } from '@/lib/logger'
 import { postAlternatesQuerySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
@@ -65,7 +66,7 @@ export async function GET(req: Request): Promise<NextResponse> {
 
     return NextResponse.json(alternates)
   } catch (error) {
-    console.error('post-alternates: failed', error)
+    logger.error('post-alternates: failed', { err: String(error) })
     return NextResponse.json({ tr: null, en: null })
   }
 }

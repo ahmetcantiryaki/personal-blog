@@ -27,6 +27,19 @@ describe('trackBodySchema', () => {
   it('rejects a non-string path', () => {
     expect(trackBodySchema.safeParse({ path: 123 }).success).toBe(false)
   })
+
+  it('accepts locale-prefixed paths for both locales', () => {
+    expect(trackBodySchema.safeParse({ path: '/tr' }).success).toBe(true)
+    expect(trackBodySchema.safeParse({ path: '/en' }).success).toBe(true)
+    expect(trackBodySchema.safeParse({ path: '/en/posts/how-to' }).success).toBe(true)
+  })
+
+  it('rejects non-locale-prefixed paths (junk-row guard)', () => {
+    expect(trackBodySchema.safeParse({ path: '/wp-admin' }).success).toBe(false)
+    expect(trackBodySchema.safeParse({ path: '/api/track' }).success).toBe(false)
+    expect(trackBodySchema.safeParse({ path: '/trend' }).success).toBe(false)
+    expect(trackBodySchema.safeParse({ path: 'tr/posts/x' }).success).toBe(false)
+  })
 })
 
 describe('reactionBodySchema', () => {

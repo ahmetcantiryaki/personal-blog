@@ -2,6 +2,7 @@ import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 
+import { logger } from '@/lib/logger'
 import { reactionStateQuerySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
@@ -86,7 +87,7 @@ export async function GET(req: Request): Promise<NextResponse> {
     }
     return NextResponse.json(body)
   } catch (error) {
-    console.error('reactions/state: failed', error)
+    logger.error('reactions/state: failed', { err: String(error) })
     return NextResponse.json({ error: 'Something went wrong' }, { status: 500 })
   }
 }

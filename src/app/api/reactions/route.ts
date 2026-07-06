@@ -2,6 +2,8 @@ import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 
+import { logger } from '@/lib/logger'
+import { clientIp, rateLimit } from '@/lib/rate-limit'
 import { reactionBodySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
@@ -9,15 +11,36 @@ export const dynamic = 'force-dynamic'
 
 const bodySchema = reactionBodySchema
 
+type Payload = Awaited<ReturnType<typeof getPayload>>
+type ReactionKind = 'likes' | 'bookmarks'
+
 interface ToggleResult {
   active: boolean
   count: number
 }
 
+/** Whether the user currently has a row for (kind, post). Count-based, override. */
+async function reactionExists(
+  payload: Payload,
+  kind: ReactionKind,
+  postId: number,
+  userId: number,
+): Promise<boolean> {
+  const { totalDocs } = await payload.count({
+    collection: kind,
+    where: { and: [{ post: { equals: postId } }, { user: { equals: userId } }] },
+    overrideAccess: true,
+  })
+  return totalDocs > 0
+}
+
 /**
  * POST /api/reactions — toggle the current user's like/bookmark on a post.
  * Requires an authenticated session (Payload cookie). Body: { kind, postId }.
- * Returns { active, count } with the fresh public count.
+ * Rate limited to 30/min per IP. Idempotent under double-tap: a create that
+ * loses the unique (user,post) race resolves to active:true, and a delete of an
+ * already-removed row resolves to active:false — neither 500s. Returns
+ * { active, count } with the fresh public count.
  */
 export async function POST(req: Request): Promise<NextResponse> {
   try {
@@ -25,6 +48,15 @@ export async function POST(req: Request): Promise<NextResponse> {
     const parsed = bodySchema.safeParse(json)
     if (!parsed.success) {
       return NextResponse.json({ error: 'Invalid request body' }, { status: 400 })
+    }
+
+    const ip = clientIp(req.headers)
+    const limited = rateLimit(`reactions:${ip}`, 30, 60_000)
+    if (!limited.ok) {
+      return NextResponse.json(
+        { error: 'Too many requests' },
+        { status: 429, headers: { 'Retry-After': String(limited.retryAfterSeconds) } },
+      )
     }
 
     const payload = await getPayload({ config })
@@ -62,21 +94,29 @@ export async function POST(req: Request): Promise<NextResponse> {
     })
 
     let active: boolean
-    if (existing.docs[0]) {
-      await payload.delete({
-        collection: kind,
-        id: existing.docs[0].id,
-        overrideAccess: false,
-        user,
-      })
+    const current = existing.docs[0]
+    if (current) {
+      try {
+        await payload.delete({ collection: kind, id: current.id, overrideAccess: false, user })
+      } catch (err) {
+        // Idempotent: if the row is already gone (concurrent double-tap), the
+        // desired end state is reached; only rethrow a genuine failure.
+        if (await reactionExists(payload, kind, postId, user.id)) throw err
+      }
       active = false
     } else {
-      await payload.create({
-        collection: kind,
-        data: { post: postId, user: user.id },
-        overrideAccess: false,
-        user,
-      })
+      try {
+        await payload.create({
+          collection: kind,
+          data: { post: postId, user: user.id },
+          overrideAccess: false,
+          user,
+        })
+      } catch (err) {
+        // Idempotent: a concurrent create won the unique (user,post) race, so a
+        // row now exists — treat as active; only rethrow if it truly failed.
+        if (!(await reactionExists(payload, kind, postId, user.id))) throw err
+      }
       active = true
     }
 
@@ -89,7 +129,7 @@ export async function POST(req: Request): Promise<NextResponse> {
     const result: ToggleResult = { active, count: totalDocs }
     return NextResponse.json(result)
   } catch (error) {
-    console.error('reactions: toggle failed', error)
+    logger.error('reactions: toggle failed', { err: String(error) })
     return NextResponse.json({ error: 'Something went wrong' }, { status: 500 })
   }
 }

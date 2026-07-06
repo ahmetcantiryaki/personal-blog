@@ -8,9 +8,21 @@ import { LOCALES } from '@/i18n/config'
  * booting Payload, and so every route validates identically.
  */
 
+/**
+ * Only locale-prefixed frontend paths are trackable. Anything else (probes,
+ * bots hitting `/wp-admin`, `/api/...`) is rejected so it can't grow junk rows
+ * in `pageViews`.
+ */
+const LOCALE_PATH_RE = new RegExp(`^/(${LOCALES.join('|')})(/|$)`)
+
 /** Body of `POST /api/track` — anonymous page-view increment. */
 export const trackBodySchema = z.object({
-  path: z.string().trim().min(1).max(2048),
+  path: z
+    .string()
+    .trim()
+    .min(1)
+    .max(2048)
+    .regex(LOCALE_PATH_RE, 'Path must be a locale-prefixed route'),
   slug: z.string().trim().min(1).max(512).optional(),
 })
 export type TrackBody = z.infer<typeof trackBodySchema>

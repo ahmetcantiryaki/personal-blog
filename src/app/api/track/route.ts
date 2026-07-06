@@ -2,6 +2,8 @@ import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 
+import { LOCALES } from '@/i18n/config'
+import { clientIp, rateLimit } from '@/lib/rate-limit'
 import { trackBodySchema } from '@/lib/validation'
 
 /** Minimal shape we rely on from the underlying node-postgres pool. */
@@ -22,11 +24,20 @@ const startOfUtcDay = (): string => {
 
 const noContent = new NextResponse(null, { status: 204 })
 
+const tooMany = (retryAfterSeconds: number): NextResponse =>
+  NextResponse.json(
+    { error: 'Too many requests' },
+    { status: 429, headers: { 'Retry-After': String(retryAfterSeconds) } },
+  )
+
 /**
  * POST /api/track — increment the view counter for a page.
  * Body: { path: string, slug?: string }. Anonymous, no auth.
- * Uses an ON CONFLICT upsert on (path, date) so concurrent requests are
- * race-tolerant. Never throws to the client; failures are logged server-side.
+ *
+ * Rate limited per IP (20/min) with a per-(IP,path) dedup (1/min) so a single
+ * mount can't be replayed into inflated counts. Uses an ON CONFLICT upsert on
+ * (path, date) so concurrent requests are race-tolerant. Never throws to the
+ * client; failures are logged server-side.
  */
 export async function POST(req: Request): Promise<NextResponse> {
   let payload: Awaited<ReturnType<typeof getPayload>> | undefined
@@ -39,20 +50,35 @@ export async function POST(req: Request): Promise<NextResponse> {
     }
 
     const { path, slug } = parsed.data
+
+    // Per-IP flood guard first, then a per-(IP,path) dedup window.
+    const ip = clientIp(req.headers)
+    const perIp = rateLimit(`track:${ip}`, 20, 60_000)
+    if (!perIp.ok) return tooMany(perIp.retryAfterSeconds)
+    const dedup = rateLimit(`track:${ip}:${path}`, 1, 60_000)
+    if (!dedup.ok) return noContent // duplicate view within the minute — drop, don't double-count
+
     payload = await getPayload({ config })
 
-    // Resolve the related post by slug (any locale) when provided.
+    // Resolve the related post by slug in ANY locale (slugs differ per locale,
+    // and fallback is disabled) so a view is attributed to the right post.
     let postId: number | string | null = null
     if (slug) {
-      const result = await payload.find({
-        collection: 'posts',
-        where: { slug: { equals: slug } },
-        limit: 1,
-        depth: 0,
-        overrideAccess: true,
-        pagination: false,
-      })
-      postId = result.docs[0]?.id ?? null
+      for (const locale of LOCALES) {
+        const result = await payload.find({
+          collection: 'posts',
+          where: { slug: { equals: slug } },
+          locale,
+          limit: 1,
+          depth: 0,
+          overrideAccess: true,
+          pagination: false,
+        })
+        if (result.docs[0]) {
+          postId = result.docs[0].id
+          break
+        }
+      }
     }
 
     const day = startOfUtcDay()
@@ -74,7 +100,8 @@ export async function POST(req: Request): Promise<NextResponse> {
     if (payload) {
       payload.logger.error({ err: error }, 'track: failed to record page view')
     } else {
-      console.error('track: failed to record page view', error)
+      const { logger } = await import('@/lib/logger')
+      logger.error('track: failed to record page view', { err: String(error) })
     }
     return noContent
   }

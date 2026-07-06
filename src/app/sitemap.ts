@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import type { Where } from 'payload'
 
 import { DEFAULT_LOCALE, LOCALES, type Locale } from '@/i18n/config'
+import { logger } from '@/lib/logger'
 import { getPayloadClient } from '@/lib/payload'
 import { absoluteUrl } from '@/lib/seo'
 import { routes } from '@/lib/routes'
@@ -144,7 +145,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
     return [...staticEntries, ...posts, ...categories, ...tags]
   } catch (error) {
-    console.error('sitemap: failed to load collections', error)
+    logger.error('sitemap: failed to load collections', { err: String(error) })
     return staticEntries
   }
 }
