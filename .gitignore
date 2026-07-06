@@ -38,6 +38,12 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 
+# tests
+coverage/
+test-results/
+playwright-report/
+blob-report/
+
 # temp
 _scaffold/
 .mcp.json
