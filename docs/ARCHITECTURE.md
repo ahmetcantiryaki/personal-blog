@@ -3,7 +3,7 @@
 A modern, multilingual, SEO-first blog platform. Not a "personal blog" — a full blog product
 with reader accounts, likes/bookmarks, and analytics.
 
-Production URL: https://woyable-test.vercel.app
+Production URL: https://woyable.com (Vercel project: woyable-test)
 Repo: github.com/ahmetcantiryaki/personal-blog (public, personal account)
 
 ## Tech Stack (FINAL — do not re-litigate)
