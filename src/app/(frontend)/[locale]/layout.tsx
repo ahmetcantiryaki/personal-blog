@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import NextTopLoader from 'nextjs-toploader'
 import React from 'react'
 
 import { Footer } from '@/components/layout/footer'
@@ -33,6 +34,15 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${newsreader.variable}`}>
       <body className="min-h-dvh bg-background font-sans text-foreground antialiased">
         <JsonLd data={organizationJsonLd()} />
+        {/* Top progress bar for route transitions — uses the theme accent so it
+            adapts to light/dark. Height kept subtle; no spinner (design calls
+            for calm, minimal chrome). */}
+        <NextTopLoader
+          color="var(--primary)"
+          height={3}
+          showSpinner={false}
+          shadow="0 0 8px var(--primary)"
+        />
         <ThemeProvider>
           <a
             href="#main-content"
