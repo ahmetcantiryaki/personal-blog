@@ -1,17 +1,14 @@
 import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
-import { z } from 'zod'
 
 import { LOCALES, type Locale } from '@/i18n/config'
+import { postAlternatesQuerySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
-const querySchema = z.object({
-  slug: z.string().trim().min(1).max(512),
-  from: z.enum(LOCALES),
-})
+const querySchema = postAlternatesQuerySchema
 
 /**
  * GET /api/post-alternates?slug=&from= — resolve a post's per-locale slugs via

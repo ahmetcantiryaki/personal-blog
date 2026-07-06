@@ -1,15 +1,13 @@
 import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
-import { z } from 'zod'
+
+import { reactionBodySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
-const bodySchema = z.object({
-  kind: z.enum(['likes', 'bookmarks']),
-  postId: z.coerce.number().int().positive(),
-})
+const bodySchema = reactionBodySchema
 
 interface ToggleResult {
   active: boolean

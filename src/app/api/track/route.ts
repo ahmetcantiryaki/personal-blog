@@ -1,7 +1,8 @@
 import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
-import { z } from 'zod'
+
+import { trackBodySchema } from '@/lib/validation'
 
 /** Minimal shape we rely on from the underlying node-postgres pool. */
 interface QueryablePool {
@@ -11,10 +12,7 @@ interface QueryablePool {
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
-const bodySchema = z.object({
-  path: z.string().trim().min(1).max(2048),
-  slug: z.string().trim().min(1).max(512).optional(),
-})
+const bodySchema = trackBodySchema
 
 /** UTC midnight of "now" as an ISO string, so all views on a day share a row. */
 const startOfUtcDay = (): string => {

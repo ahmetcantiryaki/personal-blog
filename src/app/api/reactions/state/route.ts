@@ -1,14 +1,13 @@
 import config from '@payload-config'
 import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
-import { z } from 'zod'
+
+import { reactionStateQuerySchema } from '@/lib/validation'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
-const querySchema = z.object({
-  postId: z.coerce.number().int().positive(),
-})
+const querySchema = reactionStateQuerySchema
 
 interface ReactionStateResponse {
   isLoggedIn: boolean

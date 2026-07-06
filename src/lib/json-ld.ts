@@ -5,6 +5,27 @@ import { absoluteUrl, SITE_AUTHOR, SITE_NAME, SITE_URL } from './seo'
 /** A minimal structural type for JSON-LD graph nodes. */
 export type JsonLdNode = Record<string, unknown>
 
+/**
+ * Characters that must be escaped so JSON-LD can't break out of a `<script>`:
+ * the HTML-significant `<` `>` `&`, plus the JS line/paragraph separators
+ * (U+2028 / U+2029) which are valid in JSON strings but break inline scripts.
+ * Built via `RegExp` from a string so the separators stay as escapes (a literal
+ * regex can't contain real line terminators).
+ */
+const UNSAFE = new RegExp('[<>&\\u2028\\u2029]', 'g')
+
+function escapeChar(char: string): string {
+  return `\\u${char.charCodeAt(0).toString(16).padStart(4, '0')}`
+}
+
+/**
+ * Serialize JSON-LD safely for inline `<script>` embedding. Prevents stored-XSS
+ * via post content (titles, excerpts) flowing into JSON-LD.
+ */
+export function serializeJsonLd(data: JsonLdNode): string {
+  return JSON.stringify(data).replace(UNSAFE, escapeChar)
+}
+
 const BCP47: Record<Locale, string> = { tr: 'tr-TR', en: 'en-US' }
 
 /** The publishing Organization, reused as author/publisher across schemas. */
