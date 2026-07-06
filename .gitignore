@@ -47,3 +47,6 @@ blob-report/
 # temp
 _scaffold/
 .mcp.json
+
+.vercel
+.env*
