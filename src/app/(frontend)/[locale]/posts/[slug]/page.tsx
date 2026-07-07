@@ -54,12 +54,24 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
   const slugs = await getPostAlternateSlugs(post.translationKey)
   const paths = pathsFromSlugs(slugs, routes.post)
 
+  // Prefer the hand-drawn cover as the share image; it overrides the dynamic
+  // `opengraph-image` file. Posts without a cover fall through to that route.
+  const image = post.coverImage
+    ? {
+        url: absoluteUrl(post.coverImage),
+        width: 1344,
+        height: 768,
+        alt: post.seo?.seoTitle || post.title,
+      }
+    : undefined
+
   return buildPageMetadata({
     locale,
     title: post.seo?.seoTitle || post.title,
     description,
     paths,
     type: 'article',
+    image,
     article: {
       publishedTime: post.publishedAt || undefined,
       modifiedTime: post.updatedAt,
@@ -105,7 +117,10 @@ export default async function PostPage({ params }: PostPageProps) {
       description,
       datePublished: post.publishedAt || undefined,
       dateModified: post.updatedAt,
-      imageUrl: absoluteUrl(`${postUrl}/opengraph-image`),
+      // Cover art when present (matches the OG image); dynamic route otherwise.
+      imageUrl: post.coverImage
+        ? absoluteUrl(post.coverImage)
+        : absoluteUrl(`${postUrl}/opengraph-image`),
       section: post.category?.title ?? undefined,
       tags: post.tags?.map((t) => t.title),
     }),

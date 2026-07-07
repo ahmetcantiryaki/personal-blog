@@ -57,6 +57,19 @@ function buildAlternates(current: Locale, pathByLocale: PathByLocale): Metadata[
   }
 }
 
+/**
+ * An explicit OG/Twitter share image (e.g. a hand-drawn cover). When supplied it
+ * overrides the file-based `opengraph-image` convention for this page — Next
+ * gives explicit metadata images precedence. Omit it to fall back to the
+ * dynamic route.
+ */
+export interface OgImage {
+  url: string
+  width: number
+  height: number
+  alt: string
+}
+
 interface PageMetadataInput {
   locale: Locale
   title: string
@@ -66,6 +79,12 @@ interface PageMetadataInput {
   type?: 'website' | 'article'
   /** Search / auth / profile pages: keep them out of the index. */
   noindex?: boolean
+  /**
+   * Explicit share image. When present it is emitted as both the Open Graph and
+   * Twitter image, overriding the segment's `opengraph-image` file. When absent,
+   * the file-based dynamic route remains the source of the card image.
+   */
+  image?: OgImage
   article?: {
     publishedTime?: string
     modifiedTime?: string
@@ -82,9 +101,15 @@ interface PageMetadataInput {
  * images are supplied by the file-based `opengraph-image` in each segment.
  */
 export function buildPageMetadata(input: PageMetadataInput): Metadata {
-  const { locale, title, description, paths, type = 'website', noindex, article } = input
+  const { locale, title, description, paths, type = 'website', noindex, image, article } = input
   const desc = description?.trim() || undefined
   const canonical = paths[locale] ? absoluteUrl(paths[locale] as string) : undefined
+
+  // Only attach images when an explicit one is provided; otherwise leave the
+  // key unset so Next's `opengraph-image` file convention supplies the card.
+  const images = image
+    ? [{ url: image.url, width: image.width, height: image.height, alt: image.alt }]
+    : undefined
 
   const ogBase = {
     title,
@@ -93,6 +118,7 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
     siteName: SITE_NAME,
     locale: OG_LOCALE[locale],
     alternateLocale: LOCALES.filter((l) => l !== locale).map((l) => OG_LOCALE[l]),
+    ...(images ? { images } : {}),
   }
 
   const openGraph: Metadata['openGraph'] =
@@ -120,6 +146,7 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
       card: 'summary_large_image',
       title,
       description: desc,
+      ...(image ? { images: [image.url] } : {}),
     },
   }
 }

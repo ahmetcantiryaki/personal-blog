@@ -87,6 +87,38 @@ describe('buildPageMetadata', () => {
     expect((meta.openGraph as any).type).toBe('website')
   })
 
+  it('emits explicit OG + Twitter images when a cover image is supplied', () => {
+    const meta = buildPageMetadata({
+      locale: 'tr',
+      title: 'Kapaklı yazı',
+      paths: { tr: '/tr/posts/x' },
+      type: 'article',
+      image: {
+        url: `${SITE}/covers/build-rag-system.jpg`,
+        width: 1344,
+        height: 768,
+        alt: 'Kapaklı yazı',
+      },
+    })
+    const og = meta.openGraph as any
+    expect(og.images).toEqual([
+      { url: `${SITE}/covers/build-rag-system.jpg`, width: 1344, height: 768, alt: 'Kapaklı yazı' },
+    ])
+    const tw = meta.twitter as any
+    expect(tw.images).toEqual([`${SITE}/covers/build-rag-system.jpg`])
+  })
+
+  it('omits images entirely when no cover is supplied (falls back to opengraph-image file)', () => {
+    const meta = buildPageMetadata({
+      locale: 'tr',
+      title: 'Kapaksız yazı',
+      paths: { tr: '/tr/posts/y' },
+      type: 'article',
+    })
+    expect((meta.openGraph as any).images).toBeUndefined()
+    expect((meta.twitter as any).images).toBeUndefined()
+  })
+
   it('builds an article open-graph with article metadata', () => {
     const meta = buildPageMetadata({
       locale: 'en',

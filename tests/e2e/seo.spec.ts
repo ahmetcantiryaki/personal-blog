@@ -40,17 +40,61 @@ for (const locale of ['tr', 'en'] as const) {
   })
 }
 
-test('per-post opengraph-image returns a PNG', async ({ page, request }) => {
-  // The generated OG route carries a per-build hash suffix
-  // (e.g. /opengraph-image-abc123), so resolve the real URL from the page meta.
+test('a post with a hand-drawn cover exposes it as og:image + twitter:image', async ({
+  page,
+  request,
+}) => {
+  // The RAG post ships a hand-drawn cover, so explicit metadata images override
+  // the dynamic opengraph-image file (that precedence is the whole point).
   await page.goto(`/tr/posts/${TR_POST_SLUG}`)
+
   const ogImageUrl = await page
     .locator('meta[property="og:image"]')
     .first()
     .getAttribute('content')
   expect(ogImageUrl, 'post page should declare an og:image').toBeTruthy()
+  // Absolute URL pointing at the static cover JPG (never the dynamic route).
+  expect(ogImageUrl).toMatch(/^https?:\/\/[^/]+\/covers\/.+\.jpg$/)
 
-  const res = await request.get(ogImageUrl as string)
+  // Correct intrinsic dimensions are advertised for the 1344×768 covers.
+  await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute('content', '1344')
+  await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute('content', '768')
+
+  // Twitter mirrors the same image (card is summary_large_image site-wide).
+  const twitterImageUrl = await page
+    .locator('meta[name="twitter:image"]')
+    .first()
+    .getAttribute('content')
+  expect(twitterImageUrl).toBe(ogImageUrl)
+
+  // The cover actually resolves and is a JPEG. og:image is an absolute
+  // production URL (SITE_URL), so fetch its path against the server under test.
+  const coverPath = new URL(ogImageUrl as string).pathname
+  const res = await request.get(coverPath)
+  expect(res.status()).toBe(200)
+  expect(res.headers()['content-type']).toContain('image/jpeg')
+  const body = await res.body()
+  expect(body.length).toBeGreaterThan(1000)
+})
+
+test('pages without an explicit cover fall back to the dynamic opengraph-image PNG', async ({
+  page,
+  request,
+}) => {
+  // The home page sets no explicit image, so the file-convention opengraph-image
+  // route supplies its card — proving that fallback (and the route) still works.
+  await page.goto('/tr')
+  const ogImageUrl = await page
+    .locator('meta[property="og:image"]')
+    .first()
+    .getAttribute('content')
+  expect(ogImageUrl, 'home page should declare a dynamic og:image').toBeTruthy()
+  // It is the generated route, not a static cover JPG.
+  expect(ogImageUrl).not.toMatch(/\/covers\//)
+
+  // Absolute (SITE_URL) URL → fetch its path against the server under test.
+  const ogPath = new URL(ogImageUrl as string).pathname
+  const res = await request.get(ogPath)
   expect(res.status()).toBe(200)
   expect(res.headers()['content-type']).toContain('image/png')
   const body = await res.body()
