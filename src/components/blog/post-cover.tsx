@@ -46,9 +46,9 @@ export function PostCover({
         fill
         sizes={sizes}
         // Fine ink-crosshatch illustrations lose their linework at the default
-        // q75 when downscaled into card slots; q90 keeps them crisp
-        // (whitelisted via images.qualities in next.config.mjs).
-        quality={90}
+        // q75 when downscaled into card slots; q92 keeps the linework crisp on
+        // the white paper backgrounds (whitelisted via images.qualities).
+        quality={92}
         className={cn('object-cover', className)}
       />
     )

@@ -6,9 +6,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     // Hand-drawn covers are fine ink crosshatch — the default q75 smears the
-    // linework when downscaled into card slots, so PostCover requests q90.
-    // Next only serves quality values listed here.
-    qualities: [75, 90],
+    // linework when downscaled into card slots, so PostCover requests q92.
+    // Next only serves quality values listed here (90 kept for cache overlap
+    // during rollout of the previous q90 build).
+    qualities: [75, 90, 92],
   },
   // Baseline security headers on every response. No CSP (Payload admin + inline
   // styles make a correct policy high-maintenance). X-Frame-Options is

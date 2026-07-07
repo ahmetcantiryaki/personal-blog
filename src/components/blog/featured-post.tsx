@@ -21,7 +21,7 @@ export function FeaturedPost({ post, locale, dict }: FeaturedPostProps) {
   const href = routes.post(locale, post.slug)
 
   return (
-    <article className="group relative grid overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md md:grid-cols-2">
+    <article className="relative grid overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm md:grid-cols-2">
       <div className="aspect-[16/10] overflow-hidden md:aspect-auto">
         <div className="relative h-full w-full">
           <PostCover

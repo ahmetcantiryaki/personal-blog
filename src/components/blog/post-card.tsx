@@ -19,7 +19,7 @@ export function PostCard({ post, locale, dict }: PostCardProps) {
   const href = routes.post(locale, post.slug)
 
   return (
-    <article className="group relative flex flex-col overflow-hidden rounded-lg border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md">
+    <article className="relative flex flex-col overflow-hidden rounded-lg border border-border/70 bg-card shadow-sm">
       <div className="aspect-[16/10] overflow-hidden">
         <div className="relative h-full w-full">
           <PostCover
