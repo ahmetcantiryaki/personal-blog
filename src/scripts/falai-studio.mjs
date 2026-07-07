@@ -22,10 +22,55 @@ const outDir = path.join(projectRoot, 'local-studio-output')
 const PORT = 4321
 const HOST = '127.0.0.1' // yalnızca localhost — dışarıya açılmaz
 
-/** Model kataloğu: uç nokta + megapiksel başına fiyat (USD, fal.ai fiyatları). */
+/**
+ * Model kataloğu (fal.ai metin→görsel modelleri).
+ *  price: { type: 'mp' (megapiksel başına) | 'image' (görsel başına), usd }
+ *  sizing: 'size'  → image_size {width,height} gönderilir
+ *          'ratio' → en yakın aspect_ratio gönderilir (model özel boyut kabul etmez)
+ *  minPixels: modelin istediği minimum toplam piksel (boyut orantılı büyütülür)
+ */
 const MODELS = {
-  'fal-ai/flux/schnell': { label: 'FLUX.1 [schnell] — hızlı ve ucuz', pricePerMP: 0.003 },
-  'fal-ai/flux/dev': { label: 'FLUX.1 [dev] — daha kaliteli', pricePerMP: 0.025 },
+  'fal-ai/flux/schnell': {
+    label: 'FLUX.1 [schnell] — en hızlı, en ucuz',
+    price: { type: 'mp', usd: 0.003 },
+    sizing: 'size',
+  },
+  'fal-ai/flux/dev': {
+    label: 'FLUX.1 [dev] — dengeli kalite',
+    price: { type: 'mp', usd: 0.025 },
+    sizing: 'size',
+  },
+  'fal-ai/flux-pro/v1.1': {
+    label: 'FLUX 1.1 [pro] — yüksek kalite',
+    price: { type: 'image', usd: 0.04 },
+    sizing: 'size',
+  },
+  'fal-ai/flux-pro/v1.1-ultra': {
+    label: 'FLUX 1.1 [pro] ultra — en yüksek çözünürlük',
+    price: { type: 'image', usd: 0.06 },
+    sizing: 'ratio',
+  },
+  'fal-ai/nano-banana': {
+    label: 'Nano Banana (Gemini Flash Image) — metin/düzen iyi',
+    price: { type: 'image', usd: 0.0398 },
+    sizing: 'ratio',
+  },
+  'fal-ai/bytedance/seedream/v4/text-to-image': {
+    label: 'Seedream v4 (ByteDance) — fotogerçekçi',
+    price: { type: 'image', usd: 0.03 },
+    sizing: 'size',
+    minPixels: 960 * 960,
+  },
+  'fal-ai/qwen-image': {
+    label: 'Qwen Image — ucuz, metne sadık',
+    price: { type: 'mp', usd: 0.02 },
+    sizing: 'size',
+  },
+  'fal-ai/recraft/v3/text-to-image': {
+    label: 'Recraft v3 — illüstrasyon/tasarım',
+    price: { type: 'image', usd: 0.04 },
+    sizing: 'size',
+  },
 }
 
 const SIZES = [
@@ -34,6 +79,20 @@ const SIZES = [
   { w: 1280, h: 720, label: 'Geniş 16:9 (1280×720)' },
   { w: 768, h: 1344, label: 'Dikey (768×1344)' },
 ]
+
+/** ratio-modelleri için seçilen boyuta en yakın desteklenen oran. */
+const RATIOS = ['21:9', '16:9', '3:2', '4:3', '1:1', '3:4', '2:3', '9:16']
+const nearestRatio = (w, h) => {
+  const target = w / h
+  let best = RATIOS[0]
+  let bestDiff = Infinity
+  for (const r of RATIOS) {
+    const [a, b] = r.split(':').map(Number)
+    const diff = Math.abs(a / b - target)
+    if (diff < bestDiff) { bestDiff = diff; best = r }
+  }
+  return best
+}
 
 const readEnv = async () => {
   const raw = await readFile(path.join(projectRoot, '.env'), 'utf8')
@@ -61,24 +120,39 @@ if (!FAL_KEY) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 const generate = async ({ prompt, model, width, height, seed }) => {
+  const spec = MODELS[model]
   const auth = { Authorization: `Key ${FAL_KEY}` }
   const started = Date.now()
+
+  // Modelin şemasına göre boyut parametresini kur.
+  const input = {
+    prompt,
+    num_images: 1,
+    output_format: 'jpeg',
+    ...(Number.isFinite(seed) ? { seed } : {}),
+  }
+  if (spec.sizing === 'ratio') {
+    input.aspect_ratio = nearestRatio(width, height)
+  } else {
+    let w = width
+    let h = height
+    if (spec.minPixels && w * h < spec.minPixels) {
+      const scale = Math.sqrt(spec.minPixels / (w * h))
+      w = Math.ceil((w * scale) / 8) * 8
+      h = Math.ceil((h * scale) / 8) * 8
+    }
+    input.image_size = { width: w, height: h }
+  }
 
   const submit = await fetch(`https://queue.fal.run/${model}`, {
     method: 'POST',
     headers: { ...auth, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      prompt,
-      image_size: { width, height },
-      num_images: 1,
-      output_format: 'jpeg',
-      ...(Number.isFinite(seed) ? { seed } : {}),
-    }),
+    body: JSON.stringify(input),
   })
   if (!submit.ok) throw new Error(`fal.ai submit ${submit.status}: ${await submit.text()}`)
   const { status_url, response_url } = await submit.json()
 
-  const deadline = Date.now() + 180_000
+  const deadline = Date.now() + 300_000
   while (Date.now() < deadline) {
     const st = await (await fetch(status_url, { headers: auth })).json()
     if (st.status === 'COMPLETED') break
@@ -102,9 +176,11 @@ const generate = async ({ prompt, model, width, height, seed }) => {
     url: `/out/${file}`,
     ms: Date.now() - started,
     kb: Math.round(bytes.length / 1024),
-    width: image.width,
-    height: image.height,
-    seed: result.seed,
+    width: image.width || null,
+    height: image.height || null,
+    seed: result.seed ?? null,
+    sentAs: spec.sizing === 'ratio' ? `aspect_ratio=${input.aspect_ratio}` :
+      `image_size=${input.image_size.width}x${input.image_size.height}`,
   }
 }
 
@@ -132,6 +208,7 @@ const HTML = `<!doctype html>
   .cost { margin-top: 1rem; padding: .7rem .9rem; background: #f2efe9; border-radius: 9px;
           font-size: .85rem; display: flex; justify-content: space-between; }
   .cost b { color: #2f7d78; }
+  .note { font-size: .75rem; color: #8a8378; margin-top: .35rem; }
   button { margin-top: 1rem; width: 100%; padding: .75rem; border: 0; border-radius: 9px;
            background: #2f7d78; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
   button:disabled { opacity: .55; cursor: wait; }
@@ -169,6 +246,7 @@ const HTML = `<!doctype html>
     <span>Görsel başına tahmini maliyet</span>
     <b id="cost">—</b>
   </div>
+  <div class="note" id="note"></div>
 
   <button id="go">Görsel Oluştur</button>
 
@@ -179,14 +257,28 @@ const HTML = `<!doctype html>
   </div>
 </main>
 <script>
-  const PRICES = __PRICES__;
+  const MODEL_INFO = __MODEL_INFO__;
   const el = (id) => document.getElementById(id);
+
+  function currentCost() {
+    const [w, h] = el('size').value.split('x').map(Number);
+    const info = MODEL_INFO[el('model').value];
+    if (info.price.type === 'image') return info.price.usd;
+    return ((w * h) / 1e6) * info.price.usd;
+  }
 
   function updateCost() {
     const [w, h] = el('size').value.split('x').map(Number);
-    const mp = (w * h) / 1e6;
-    const usd = mp * PRICES[el('model').value];
-    el('cost').textContent = '~$' + usd.toFixed(4) + '  (' + mp.toFixed(2) + ' MP)';
+    const info = MODEL_INFO[el('model').value];
+    const usd = currentCost();
+    if (info.price.type === 'image') {
+      el('cost').textContent = '~$' + usd.toFixed(4) + '  (görsel başına sabit)';
+    } else {
+      el('cost').textContent = '~$' + usd.toFixed(4) + '  (' + ((w * h) / 1e6).toFixed(2) + ' MP × $' + info.price.usd + '/MP)';
+    }
+    el('note').textContent = info.sizing === 'ratio'
+      ? 'Not: bu model özel boyut kabul etmez; seçilen boyuta en yakın en-boy oranı gönderilir.'
+      : (info.minPixels ? 'Not: bu model küçük boyutları desteklemez; gerekirse boyut orantılı büyütülür.' : '');
   }
   el('model').addEventListener('change', updateCost);
   el('size').addEventListener('change', updateCost);
@@ -197,6 +289,8 @@ const HTML = `<!doctype html>
     if (!prompt) { el('prompt').focus(); return; }
     const [width, height] = el('size').value.split('x').map(Number);
     const seedRaw = el('seed').value.trim();
+    const usd = currentCost();
+    const modelLabel = MODEL_INFO[el('model').value].label;
 
     el('go').disabled = true;
     el('go').textContent = 'Üretiliyor…';
@@ -214,13 +308,13 @@ const HTML = `<!doctype html>
       if (!res.ok) throw new Error(data.error || res.statusText);
 
       el('img').src = data.url + '?t=' + Date.now();
-      const mp = (width * height) / 1e6;
-      const usd = mp * PRICES[el('model').value];
       el('meta').innerHTML =
+        '<span><b>Model:</b> ' + modelLabel + '</span>' +
         '<span><b>Süre:</b> ' + (data.ms / 1000).toFixed(1) + ' sn</span>' +
-        '<span><b>Boyut:</b> ' + data.width + '×' + data.height + '</span>' +
+        (data.width ? '<span><b>Boyut:</b> ' + data.width + '×' + data.height + '</span>' : '') +
+        '<span><b>İstek:</b> ' + data.sentAs + '</span>' +
         '<span><b>Dosya:</b> local-studio-output/' + data.file + ' (' + data.kb + ' KB)</span>' +
-        '<span><b>Seed:</b> ' + data.seed + '</span>' +
+        (data.seed !== null ? '<span><b>Seed:</b> ' + data.seed + '</span>' : '') +
         '<span><b>Maliyet:</b> ~$' + usd.toFixed(4) + '</span>';
       el('result').classList.remove('hidden');
     } catch (e) {
@@ -235,14 +329,19 @@ const HTML = `<!doctype html>
 </body>
 </html>`
 
+const modelInfoForClient = Object.fromEntries(
+  Object.entries(MODELS).map(([id, m]) => [
+    id,
+    { label: m.label, price: m.price, sizing: m.sizing, minPixels: m.minPixels || null },
+  ]),
+)
+
 const page = HTML
   .replace('__MODEL_OPTIONS__', Object.entries(MODELS)
     .map(([id, m]) => `<option value="${id}">${m.label}</option>`).join(''))
   .replace('__SIZE_OPTIONS__', SIZES
     .map((s) => `<option value="${s.w}x${s.h}">${s.label}</option>`).join(''))
-  .replace('__PRICES__', JSON.stringify(
-    Object.fromEntries(Object.entries(MODELS).map(([id, m]) => [id, m.pricePerMP])),
-  ))
+  .replace('__MODEL_INFO__', JSON.stringify(modelInfoForClient))
 
 const readBody = (req) => new Promise((resolve, reject) => {
   let body = ''
@@ -292,5 +391,6 @@ const server = http.createServer(async (req, res) => {
 })
 
 server.listen(PORT, HOST, () => {
-  console.log(`fal.ai Studio hazır → http://localhost:${PORT}  (durdurmak için Ctrl+C)`)
+  console.log(`fal.ai Studio hazır → http://localhost:${PORT}`)
+  console.log(`Modeller: ${Object.keys(MODELS).length} adet. Durdurmak için Ctrl+C.`)
 })
