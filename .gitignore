@@ -51,3 +51,7 @@ _scaffold/
 .vercel
 .env*
 local-studio-output/
+
+# local exports / lists (never publish)
+content-export.*
+article-titles.txt
