@@ -200,7 +200,9 @@ const generateBackground = async (falKey, prompt, seed) => {
 
 /**
  * Resolve a logo SVG: curated official press-kit file in assets/brand-logos/
- * first, simple-icons CDN (official brand path data + brand colour) as fallback.
+ * first, simple-icons CDN (official brand path data + brand colour) as
+ * fallback. Returns null (with a warning) when the slug resolves nowhere, so a
+ * missing mark degrades to fewer logos instead of failing the whole cover.
  */
 const fetchLogoSvg = async (slug) => {
   const localPath = path.join(projectRoot, 'assets', 'brand-logos', `${slug}.svg`)
@@ -211,7 +213,8 @@ const fetchLogoSvg = async (slug) => {
   const url = `https://cdn.simpleicons.org/${encodeURIComponent(slug)}`
   const res = await fetch(url)
   if (!res.ok) {
-    throw new Error(`Logo "${slug}" not found locally and CDN returned ${res.status} (${url})`)
+    console.warn(`  logo "${slug}": SKIPPED — not local and CDN returned ${res.status}`)
+    return null
   }
   console.log(`  logo "${slug}": fetched from simple-icons CDN`)
   return Buffer.from(await res.arrayBuffer())
@@ -329,8 +332,11 @@ const main = async () => {
   let finalBytes = background
   if (logoSlugs.length > 0) {
     const logoSvgs = []
-    for (const slug of logoSlugs) logoSvgs.push(await fetchLogoSvg(slug))
-    finalBytes = await compositeLogos(background, logoSvgs)
+    for (const slug of logoSlugs) {
+      const svg = await fetchLogoSvg(slug)
+      if (svg) logoSvgs.push(svg)
+    }
+    if (logoSvgs.length > 0) finalBytes = await compositeLogos(background, logoSvgs)
   }
 
   const outDir = path.join(projectRoot, 'public', 'covers')
