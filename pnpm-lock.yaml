@@ -8,6 +8,9 @@ dependencies:
   '@bprogress/next':
     specifier: ^3.2.12
     version: 3.2.12(next@16.2.10)(react-dom@19.2.7)(react@19.2.7)
+  '@next/third-parties':
+    specifier: 16.2.10
+    version: 16.2.10(next@16.2.10)(react@19.2.7)
   '@payloadcms/db-postgres':
     specifier: 3.85.2
     version: 3.85.2(payload@3.85.2)
@@ -1997,6 +2000,17 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@next/third-parties@16.2.10(next@16.2.10)(react@19.2.7):
+    resolution: {integrity: sha512-H3yxCMLziM1JKXnjQv83WBH2cp1fB1vMxpC1/bBTpvvaesBEuRuprpzq5RI32atis0VhUZflgdpJdGNZIGpQaQ==}
+    peerDependencies:
+      next: ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0-beta.0
+      react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
+    dependencies:
+      next: 16.2.10(@playwright/test@1.61.1)(react-dom@19.2.7)(react@19.2.7)(sass@1.77.4)
+      react: 19.2.7
+      third-party-capital: 1.0.20
+    dev: false
 
   /@payloadcms/db-postgres@3.85.2(payload@3.85.2):
     resolution: {integrity: sha512-nHsLh0yJQni3d0GsaxkSifxzTM3WyOU85Nhy0imW054/KR3RDd75b6qDaROIdVZuU57Y9xR9nLRjZBb6fd91uA==}
@@ -6025,6 +6039,10 @@ packages:
       glob: 10.5.0
       minimatch: 10.2.5
     dev: true
+
+  /third-party-capital@1.0.20:
+    resolution: {integrity: sha512-oB7yIimd8SuGptespDAZnNkzIz+NWaJCu2RMsbs4Wmp9zSDUM8Nhi3s2OOcqYuv3mN4hitXc8DVx+LyUmbUDiA==}
+    dev: false
 
   /thread-stream@3.2.0:
     resolution: {integrity: sha512-zLBvqpwr4Esa0kRjcrzGU6zL25lePWaCLMx0RQFrmteozIfeNdaMLpG5U7PeHzvlFkAWaRKA9/KVW4F60iB+qw==}

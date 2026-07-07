@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import React from 'react'
 
+import { GoogleTagManager, GoogleTagManagerNoScript } from '@/components/analytics/google-tag-manager'
 import { Footer } from '@/components/layout/footer'
 import { Header } from '@/components/layout/header'
 import { RouteProgress } from '@/components/layout/route-progress'
@@ -33,6 +34,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${newsreader.variable}`}>
       <body className="min-h-dvh bg-background font-sans text-foreground antialiased">
+        <GoogleTagManagerNoScript />
         <JsonLd data={organizationJsonLd()} />
         {/* Route-transition progress bar (Next 16-compatible via @bprogress/next):
             listens to anchor clicks instead of patching history.pushState, so
@@ -55,6 +57,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
             <Toaster />
           </ThemeProvider>
         </RouteProgress>
+        <GoogleTagManager />
       </body>
     </html>
   )
