@@ -1,26 +1,132 @@
 # Woyable Cover Art — AI Image System
 
 How every AI-generated post cover is art-directed so the whole catalogue shares
-one visual identity — consistent with the site's warm-stone design tokens
-(`src/app/(frontend)/globals.css`) and the five SVG cover palettes
-(`src/components/blog/cover-palettes.ts`). AI covers and the SVG fallbacks are
-deliberately **one family**: same per-category accent hue.
+one visual identity. Covers are saved to `public/covers/<translationKey>.jpg` and
+consumed by the post's `coverImage` (shared by both locales). When no cover
+exists, the deterministic SVG `CoverArt` fallback still renders — the fallback
+stays forever; AI covers are progressive enhancement.
 
-**Current direction: BOLD COMPOSITE** (architect's decision, 2026-07-07) — an
-energetic FLUX schnell background in the site palette, with 1-3 **official
-brand logos** composited crisply on soft plates via `sharp`. The model never
-draws logos or text itself (it garbles them); real SVG marks are overlaid
-programmatically, so they stay pixel-accurate. The earlier **calm** style
-remains available as an alternative (`--style calm`).
+## OFFICIAL DIRECTION: HAND-DRAWN VINTAGE (2026-07)
+
+The catalogue's official cover style is a **hand-drawn vintage illustration**:
+ink + watercolour with detailed crosshatch on the **left half** (a whimsical
+metaphor for the article's core idea, often featuring a small brass robot
+mascot), and the **right half** left as white space carrying a **handwritten
+Turkish hook** with a wobbly hand-drawn arrow curving toward the illustration.
+The hook is a short, punchy question that makes the reader curious.
+
+- **Model**: fal.ai `fal-ai/nano-banana` (Gemini Flash Image) via the queue REST
+  API. Chosen because, unlike FLUX, it renders short handwritten text legibly.
+- **Aspect ratio**: `16:9` (nano-banana is a ratio-model; it produces **1344×768**).
+- **Seed**: a **new random seed every image** — this is trial-and-error art, not
+  deterministic. Re-running makes a fresh variant; keep the one you like.
+- **Output**: JPEG, `public/covers/<translationKey>.jpg` (100–600 KB is the sane band).
+- **Cost**: ~**$0.0398/image** (~$2.40 for the full 66-post catalogue).
+- **Generator**: `src/scripts/generate-kapak-batch.mjs` (the executable source of
+  truth; this doc documents it verbatim — keep the two in sync). No `sharp`
+  compositing — nano-banana draws the whole frame including the text.
+- **Prompt library**: the 66 ready prompts live in `kapak-promptlari.md` (repo
+  root, gitignored from deploy but kept locally). Each entry maps to a post's
+  `translationKey` by exact Turkish title via `seed/content/link-map.json`.
+
+### Fixed template (verbatim from `kapak-promptlari.md` header)
+
+> **Sabit şablon:** Sol yarıda el çizimi metafor (mürekkep + suluboya,
+> crosshatch), sağ yarıda beyaz boşluk + el yazısı kanca + illüstrasyona kıvrılan
+> karalama ok.
+>
+> **Kullanım notları:**
+> - `Spell exactly` satırındaki metin kapağa yazılacak kancadır.
+> - ⚠ işaretli kancalar Türkçe özel karakter (ş, ğ, ı, ö, ü, ç) içerir — model
+>   bozarsa parantezdeki karaktersiz alternatifi kullan ya da yazıyı sonradan ekle.
+> - Stil tutarlılığı için ilk beğendiğin kapağı sonraki üretimlerde referans
+>   görsel olarak ver.
+
+Every prompt follows this exact skeleton (fill the CAPS placeholders):
+
+```
+Hand-drawn vintage illustration, 16:9. LEFT half: {SCENE — a whimsical ink +
+watercolour metaphor for the article, detailed crosshatch, plain white paper
+background}. RIGHT half: empty white space with handwritten text "{HOOK}" — thin
+monoline felt-tip handwriting, slightly bouncy baseline, rounded letters, dark
+sepia brown, text filling one third of image width, vertically centered[, two
+lines]. One sketchy wobbly arrow above the text curving left toward the {SUBJECT}.
+Spell exactly: "{HOOK}"
+```
+
+**Series identity — never change these fixed phrases** (they are what makes the
+catalogue read as one series): `ink and watercolor`, `detailed crosshatch`,
+`felt-tip handwriting`, `dark sepia brown`, `wobbly arrow`. The recurring
+`small brass robot` mascot is intentional; drop it from a prompt only if a scene
+genuinely has no place for it.
+
+### Turkish-character caveat (important)
+
+nano-banana renders **ASCII Latin handwriting reliably** but frequently garbles
+Turkish diacritics (ş, ğ, ı, ö, ü, ç). So every hook is written in a **diacritic-free**
+form (e.g. "Neden Uydurur?" instead of "Neden Uydurur?" with the real ü, or
+"Garson Ne Getirir?"). If you must ship the fully-accented hook, generate the
+frame **without text** and add the caption afterward in Canva/Figma with the
+Caveat font. Incidental in-scene signage (labels drawn inside the left-half
+illustration) may still garble — that is acceptable; only the **main hook** must
+be clean and correctly spelled.
+
+## Generating covers
+
+### Full catalogue (batch)
+
+```bash
+node src/scripts/generate-kapak-batch.mjs
+#   --dry-run       print the title→translationKey mapping only (no API, no writes)
+#   --force-regen   ignore studio reuse and regenerate every row
+```
+
+Reads `kapak-promptlari.md` + `seed/content/link-map.json`, generates one image
+per post at ≤3 concurrency, and writes `public/covers/<translationKey>.jpg`. Rows
+that already have an approved attempt in `local-studio-output/kapak/` are
+**reused** (their first attempt, `a1`, is copied — never regenerated). Each new
+cover is generated **once** and the first output is accepted (no quality-based
+regeneration); a hard API/network failure is retried at most once.
+
+### Single cover (daily routine) — REQUIRED invocation
+
+The daily cloud agent crafts a fresh prompt per new article, following the fixed
+template above, and calls the generator in single mode:
+
+```bash
+# from a prompt file
+node src/scripts/generate-kapak-batch.mjs --single <translationKey> --prompt-file <path>
+
+# from an inline prompt
+node src/scripts/generate-kapak-batch.mjs --single <translationKey> --prompt "<full prompt>"
+
+# from stdin
+echo "<full prompt>" | node src/scripts/generate-kapak-batch.mjs --single <translationKey>
+```
+
+The routine should: (1) write a prompt following the fixed template with a
+diacritic-free hook; (2) pass the post's `translationKey`; (3) after generation,
+eyeball `public/covers/<translationKey>.jpg` and confirm the hook is legible and
+correctly spelled. No reseed is needed — the `coverImage` path is unchanged, so
+the DB already points at the file.
+
+---
+
+## LEGACY ALTERNATIVE — BOLD COMPOSITE (superseded 2026-07)
+
+The previous direction — kept documented and runnable as an alternative — was an
+energetic FLUX schnell background in the site palette, with 1-3 **official brand
+logos** composited crisply on soft plates via `sharp`. The model never draws
+logos or text itself (it garbles them); real SVG marks are overlaid
+programmatically, so they stay pixel-accurate. The **calm** style below is the
+same pipeline with opposite energy.
 
 - **Model**: fal.ai `fal-ai/flux/schnell` (FLUX.1 [schnell]) via the queue REST API.
 - **Size**: landscape **1216×640** (an allowed FLUX custom size, ≈ the 1200×630 OG ratio).
 - **Output**: JPEG, saved to `public/covers/<translationKey>.jpg`.
-- **Generator**: `src/scripts/generate-cover.mjs` (the executable source of truth;
-  this doc documents it verbatim — keep the two in sync). `sharp` is a
-  devDependency only and never enters the production runtime bundle.
-- **Fallback**: when no `coverImage` exists, the deterministic SVG `CoverArt` still
-  renders. The fallback stays forever; AI covers are progressive enhancement.
+- **Generator**: `src/scripts/generate-cover.mjs` (still the executable source of
+  truth for this legacy style). `sharp` is a devDependency only and never enters
+  the production runtime bundle.
 
 ## Design tokens echoed into the prompt
 
