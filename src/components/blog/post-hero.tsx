@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 import type { Dictionary } from '@/i18n'
@@ -20,16 +21,29 @@ export function PostHero({ post, locale, dict }: PostHeroProps) {
   return (
     <header className="mb-10">
       <div className="overflow-hidden rounded-xl border border-border/70">
-        <div className="relative aspect-video">
-          <PostCover
-            coverImage={post.coverImage}
-            style={post.coverStyle}
-            title={post.title}
-            seed={post.slug}
-            variant="plain"
+        {post.coverImage ? (
+          <Image
+            src={post.coverImage}
+            alt={post.title}
+            width={1344}
+            height={768}
             sizes="(min-width: 768px) 768px, 100vw"
+            quality={92}
+            priority
+            className="h-auto w-full"
           />
-        </div>
+        ) : (
+          <div className="relative aspect-video">
+            <PostCover
+              coverImage={post.coverImage}
+              style={post.coverStyle}
+              title={post.title}
+              seed={post.slug}
+              variant="plain"
+              sizes="(min-width: 768px) 768px, 100vw"
+            />
+          </div>
+        )}
       </div>
 
       <div className="mt-8">
