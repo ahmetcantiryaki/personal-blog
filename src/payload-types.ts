@@ -211,6 +211,10 @@ export interface Post {
    * Gradient theme used by the generated OG/cover image.
    */
   coverStyle: 'aurora' | 'dusk' | 'meadow' | 'ocean' | 'ember';
+  /**
+   * Path or URL of the cover image; leave empty for generated SVG art.
+   */
+  coverImage?: string | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -426,6 +430,7 @@ export interface PostsSelect<T extends boolean = true> {
   readingTime?: T;
   status?: T;
   coverStyle?: T;
+  coverImage?: T;
   updatedAt?: T;
   createdAt?: T;
 }

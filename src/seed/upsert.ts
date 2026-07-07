@@ -1,5 +1,6 @@
 import type { Payload } from 'payload'
 
+import { coverImageForKey } from './coverImage'
 import { coverStyleForKey } from './coverStyle'
 import { LOCALES, type ParsedArticle, type SeedLocale } from './frontmatter'
 import type { ArticleGroup } from './loader'
@@ -71,11 +72,14 @@ export const upsertArticle = async (
   const category = resolveCategory(payload, group, taxonomy)
   const tags = resolveTags(payload, group, taxonomy)
 
+  const coverImage = coverImageForKey(group.translationKey)
+
   const commonData = {
     translationKey: group.translationKey,
     status: primary.frontMatter.status,
     publishedAt: primary.frontMatter.publishedAt,
     coverStyle: primary.frontMatter.coverStyle ?? coverStyleForKey(group.translationKey),
+    ...(coverImage !== undefined ? { coverImage } : {}),
     ...(category !== undefined ? { category } : {}),
     ...(tags.length > 0 ? { tags } : {}),
   }

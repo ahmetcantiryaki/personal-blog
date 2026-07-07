@@ -5,7 +5,7 @@ import type { Locale } from '@/i18n/config'
 import type { PostWithRelations } from '@/lib/posts'
 import { routes } from '@/lib/routes'
 
-import { CoverArt } from './cover-art'
+import { PostCover } from './post-cover'
 import { PostMeta } from './post-meta'
 
 interface PostCardProps {
@@ -21,13 +21,15 @@ export function PostCard({ post, locale, dict }: PostCardProps) {
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-lg border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md">
       <div className="aspect-[16/10] overflow-hidden">
-        <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
-          <CoverArt
+        <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
+          <PostCover
+            coverImage={post.coverImage}
             style={post.coverStyle}
             title={post.title}
             seed={post.slug}
             categoryLabel={post.category?.title}
             variant="card"
+            sizes="(min-width: 1024px) 360px, (min-width: 640px) 50vw, 100vw"
           />
         </div>
       </div>

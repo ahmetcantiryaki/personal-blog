@@ -5,7 +5,7 @@ import type { Locale } from '@/i18n/config'
 import type { PostWithRelations } from '@/lib/posts'
 import { routes } from '@/lib/routes'
 
-import { CoverArt } from './cover-art'
+import { PostCover } from './post-cover'
 import { PostMeta } from './post-meta'
 import { TagList } from './tag-list'
 
@@ -20,8 +20,15 @@ export function PostHero({ post, locale, dict }: PostHeroProps) {
   return (
     <header className="mb-10">
       <div className="overflow-hidden rounded-xl border border-border/70">
-        <div className="aspect-[16/7]">
-          <CoverArt style={post.coverStyle} title={post.title} seed={post.slug} variant="plain" />
+        <div className="relative aspect-[16/7]">
+          <PostCover
+            coverImage={post.coverImage}
+            style={post.coverStyle}
+            title={post.title}
+            seed={post.slug}
+            variant="plain"
+            sizes="(min-width: 768px) 768px, 100vw"
+          />
         </div>
       </div>
 

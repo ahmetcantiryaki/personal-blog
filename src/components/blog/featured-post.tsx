@@ -7,7 +7,7 @@ import type { PostWithRelations } from '@/lib/posts'
 import { routes } from '@/lib/routes'
 import { Badge } from '@/components/ui/badge'
 
-import { CoverArt } from './cover-art'
+import { PostCover } from './post-cover'
 import { PostMeta } from './post-meta'
 
 interface FeaturedPostProps {
@@ -23,13 +23,15 @@ export function FeaturedPost({ post, locale, dict }: FeaturedPostProps) {
   return (
     <article className="group relative grid overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md md:grid-cols-2">
       <div className="aspect-[16/10] overflow-hidden md:aspect-auto">
-        <div className="h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
-          <CoverArt
+        <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
+          <PostCover
+            coverImage={post.coverImage}
             style={post.coverStyle}
             title={post.title}
             seed={post.slug}
             categoryLabel={post.category?.title}
             variant="hero"
+            sizes="(min-width: 768px) 50vw, 100vw"
           />
         </div>
       </div>

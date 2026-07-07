@@ -146,5 +146,16 @@ export const Posts: CollectionConfig = {
         description: 'Gradient theme used by the generated OG/cover image.',
       },
     },
+    {
+      // Non-localized: both locales share one image. Set by the seed pipeline
+      // when public/covers/<translationKey>.jpg exists; empty falls back to the
+      // deterministic SVG cover art.
+      name: 'coverImage',
+      type: 'text',
+      admin: {
+        position: 'sidebar',
+        description: 'Path or URL of the cover image; leave empty for generated SVG art.',
+      },
+    },
   ],
 }
