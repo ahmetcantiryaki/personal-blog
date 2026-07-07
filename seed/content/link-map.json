@@ -656,6 +656,126 @@
         "slug": "zero-downtime-deployments",
         "title": "How to Achieve Zero-Downtime Deployments"
       }
+    },
+    {
+      "translationKey": "agent-first-dev-tools",
+      "category": "web-development",
+      "tr": {
+        "slug": "agent-odakli-gelistirici-araclari",
+        "title": "Geliştirici Araçları Artık AI Ajanları İçin"
+      },
+      "en": {
+        "slug": "agent-first-dev-tools",
+        "title": "Your Dev Tools Are Now Built for AI Agents"
+      }
+    },
+    {
+      "translationKey": "agentjacking-ai-agent-security",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "agentjacking-yeni-ai-ajan-saldirisi",
+        "title": "Agentjacking: Yeni AI Ajan Saldırısı"
+      },
+      "en": {
+        "slug": "agentjacking-ai-agent-attack",
+        "title": "Agentjacking: The New AI Agent Attack Class"
+      }
+    },
+    {
+      "translationKey": "ai-slop-open-source-security",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-copu-acik-kaynak-guvenligi",
+        "title": "AI Çöpü Açık Kaynak Güvenliğini Zorluyor"
+      },
+      "en": {
+        "slug": "ai-slop-open-source-security",
+        "title": "AI Slop Is Breaking Open-Source Security"
+      }
+    },
+    {
+      "translationKey": "claude-code-subagents",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-subagent-arka-plan-ajanlari",
+        "title": "Claude Code Subagent ve Arka Plan Ajanları: İş Akışı Rehberi"
+      },
+      "en": {
+        "slug": "claude-code-subagents-background-agents",
+        "title": "Claude Code Subagents and Background Agents: A Workflow Guide"
+      }
+    },
+    {
+      "translationKey": "frontier-model-comparison-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-gpt-5-6-gemini-3-5-kiyaslamasi",
+        "title": "Claude Sonnet 5, GPT-5.6 ve Gemini 3.5 Kıyaslaması"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-vs-gpt-5-6-vs-gemini-3-5",
+        "title": "Claude Sonnet 5 vs GPT-5.6 vs Gemini 3.5"
+      }
+    },
+    {
+      "translationKey": "junior-developer-job-market-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "junior-yazilimci-isleri-2026",
+        "title": "2026'da Junior Yazılımcı İşleri: Mit ve Gerçek"
+      },
+      "en": {
+        "slug": "junior-developer-jobs-2026",
+        "title": "Junior Dev Jobs in 2026: Myth vs Data"
+      }
+    },
+    {
+      "translationKey": "local-llm-runtimes",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ollama-vllm-llamacpp-yerel-llm-calistirma",
+        "title": "Ollama, vLLM ve llama.cpp: Yerel LLM Çalıştırma"
+      },
+      "en": {
+        "slug": "ollama-vs-vllm-vs-llamacpp-local-llm",
+        "title": "Ollama vs vLLM vs llama.cpp: Local LLMs"
+      }
+    },
+    {
+      "translationKey": "open-source-saas-alternatives",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "acik-kaynak-saas-alternatifleri-2026",
+        "title": "2026 İçin 12 Açık Kaynak SaaS Alternatifi"
+      },
+      "en": {
+        "slug": "open-source-saas-alternatives-2026",
+        "title": "12 Open-Source SaaS Alternatives for 2026"
+      }
+    },
+    {
+      "translationKey": "openclaw-self-hosted-ai-agent",
+      "category": "ai",
+      "tr": {
+        "slug": "openclaw-kendi-sunucunda-ai-ajani-riskleri",
+        "title": "OpenClaw: Kendi Sunucunda AI Ajanı ve Riskleri"
+      },
+      "en": {
+        "slug": "openclaw-self-hosted-ai-agent",
+        "title": "OpenClaw: Self-Hosted AI Agent and Its Risks"
+      }
+    },
+    {
+      "translationKey": "weekend-ai-project-ideas",
+      "category": "ai",
+      "tr": {
+        "slug": "hafta-sonu-ai-projeleri",
+        "title": "Bu Hafta Sonu Yapılacak 5 AI Projesi"
+      },
+      "en": {
+        "slug": "ai-project-ideas-weekend",
+        "title": "5 AI Project Ideas to Build This Weekend"
+      }
     }
   ]
 }
