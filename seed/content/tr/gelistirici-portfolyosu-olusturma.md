@@ -3,25 +3,25 @@ title: "Fark Yaratan Geliştirici Portfolyosu Oluşturma"
 slug: "gelistirici-portfolyosu-olusturma"
 translationKey: "developer-portfolio-guide"
 locale: "tr"
-excerpt: "2026 için pratik geliştirici portfolyosu oluşturma rehberi: hangi projeleri seçmelisin, vaka çalışmasını nasıl yazarsın ve sessizce mülakat kaybettiren hatalar."
+excerpt: "Kodun yarısını yapay zekânın yazdığı bir dünyada 2026 geliştirici portfolyosu rehberi: nicelik değil muhakeme kanıtla, inceleyenin 60 saniyelik taramasını mülakata çevir."
 category: "career-productivity"
 tags: ["portfolio", "career", "job-search", "personal-branding"]
-publishedAt: "2026-05-18"
+publishedAt: "2026-07-06"
 seoTitle: "Geliştirici Portfolyosu Oluşturma Rehberi 2026"
-seoDescription: "2026 geliştirici portfolyosu oluşturma rehberi: doğru projeleri seç, gerçek vaka çalışmaları yaz ve portfolyonu mülakat davetine çevir."
+seoDescription: "2026 geliştirici portfolyosu rehberi: muhakemeni kanıtlayan projeler seç, gerçek vaka çalışmaları yaz ve portfolyonu mülakat davetine çevir."
 ---
 
-Fark yaratan bir geliştirici portfolyosu, tutorial kopyalarından oluşan uzun bir listeyi değil; gerçek vaka çalışmalarıyla anlatılan üç dört derin projeyi gösterir. Bu geliştirici portfolyosu oluşturma rehberi; proje seçimini, sonuç odaklı proje anlatımını ve işe alım yöneticisinin değerini 60 saniyede kavrayabileceği bir site yapısını adım adım anlatıyor. Mülakatı derinlik ve kanıt kazandırır, proje sayısı değil.
+Çoğu iş arayanın duymak istemediği rahatsız edici gerçek şu: 2026'da portfolyondaki cilalı, özellik dolu bir proje artık yetenek kanıtı değil. Varsayılan durum. İnceleyenler artık büyük kısmını bir yapay zekâ asistanının yazdığını varsayıyor ve genelde de haklılar — 2025 Stack Overflow anketine göre [geliştiricilerin %84'ü yapay zekâ araçları kullanıyor ya da kullanmayı planlıyor](https://survey.stackoverflow.co/2025/ai), %51'i her gün. Cilalı demo artık asgari koşulsa, "daha etkileyici projeler" yanlış hedeftir.
 
-Backend ve full-stack pozisyonları için işe alım yaparken yüzlerce portfolyo inceledim. Geri dönüş alanların ortak yönü belliydi: az sayıda proje, net hikâyeler ve kişinin gerçekten bir şey yayına alıp sürdürdüğünü gösteren kanıtlar. Hadi böyle bir portfolyo kuralım.
+Fark yaratan bir geliştirici portfolyosu, çoğu rehberin söylediğinin tersini yapar: daha az şeyi daha derin gösterir ve yapay zekânın taklit edemediği tek şeyi öne çıkarır — senin muhakemeni. Backend ve full-stack pozisyonları için işe alım yaparken yüzlerce portfolyo inceledim; geri dönüş her zaman aynı profile gitti: üç dört proje, dürüst anlatımlar ve kişinin gerçekten bir şey yayına alıp sürdürdüğüne dair kanıt. Hadi böyle bir portfolyo kuralım.
 
 ## 2026'da bir geliştirici portfolyosunu ne fark ettirir?
 
-Fark yaratan portfolyo; senin yayına alabildiğini, hata ayıklayabildiğini ve iletişim kurabildiğini kanıtlar. 2026'da bu; incelenebilir canlı projeler, problemi ve kararlarını açıklayan kısa vaka çalışmaları ve ödünleşimleri dürüstçe anlatan notlar demektir. Sıradan yapılacaklar listesi uygulamaları ve değiştirilmemiş tutorial projeleri artık gürültü gibi okunuyor, çünkü yapay zekâ bunları saniyeler içinde üretiyor.
+Fark yaratan portfolyo; gerçek kısıtlar altında yayına alabildiğini, hata ayıklayabildiğini ve iletişim kurabildiğini kanıtlar. Bu değişmedi. Değişen şey ispat yükü. Bir junior tek komutla CRUD uygulaması iskeleti kurabiliyorsa, ilginç sinyal artık "çalışıyor" değil — *neden böyle yaptığın*. Neden belge veritabanı yerine Postgres. p95 gecikmesini nasıl düşürdüğün. Gece 2'de üretimde neyin bozulduğu ve teşhisi nasıl koyduğun.
 
-Çıta yükseldi. Herkes bir komutla CRUD uygulaması iskeleti kurabiliyorsa, seni ayıran şey muhakemedir: neden belge veritabanı yerine Postgres seçtiğin, p95 gecikmesini nasıl düşürdüğün, üretimde neyin bozulup nasıl düzelttiğin. Sadece çıktıyı değil, düşünme biçimini göster.
+Çıta yükseldi çünkü zemin yükseldi. Neredeyse evrensel yapay zekâ kullanımını raporlayan aynı anket, [geliştiricilerin bir numaralı sıkıntısının (%66)](https://survey.stackoverflow.co/2025/ai) "neredeyse doğru ama tam değil" yapay zekâ çıktısı olduğunu, %45'inin ise yapay zekâ üretimi kodu ayıklamanın yazmaktan daha fazla vakit aldığını söylediğini buldu. İşte senin fırsatın. "Neredeyse doğru"yu yakaladığını gösteren bir portfolyo — kaçındığın migration, sildiğin soyutlama — hiçbir üretilmiş arayüzün veremeyeceği bir senior sinyali verir.
 
-İnceleyenler önce göz gezdirir, sonra okur. Senin işin bu ilk taramayı tatmin edici kılmak:
+İnceleyenler önce göz gezdirir, sonra okur. Bu ilk taramayı tatmin edici kıl:
 
 - Sayfanın en üstünde **tek cümlelik bir değer ifadesi** ("Backend geliştirici, Go ve Postgres, ödeme sistemleri kuruyorum").
 - Her biri ekran görüntüsü, canlı bağlantı ve repo içeren **üç ila beş öne çıkan proje**.
@@ -30,23 +30,25 @@ Fark yaratan portfolyo; senin yayına alabildiğini, hata ayıklayabildiğini ve
 
 ## Geliştirici portfolyosuna hangi projeleri koymalısın?
 
-Hem çeşitlilik hem derinlik gösteren projeleri koy: uçtan uca kendin yaptığın bir amiral gemisi uygulama, zor bir teknik problemi çözdüğünü gösteren bir proje ve bir açık kaynak veya ekip katkısı. Kalite, nicelikten üstündür. İyi belgelenmiş üç güçlü proje, yarım kalmış on repoyu her seferinde geride bırakır.
+Hem çeşitlilik hem derinlik gösteren projeleri koy: uçtan uca kendin yaptığın bir amiral gemisi uygulama, zor bir teknik problemi çözdüğünü gösteren bir proje ve bir açık kaynak veya ekip katkısı. Kalite nicelikten üstündür — iyi belgelenmiş üç güçlü proje, yarım kalmış on repoyu her seferinde geride bırakır.
 
-İşe alım yöneticisinin gerçek sorusuna cevap veren projeleri seç: "Bu kişi benim sorunlarımı çözebilir mi?" Şu hızlı filtreyi kullan.
+Bunun arkasında gerçek bir piyasa sinyali var. 2026'da işe alım talebi yapay zekâ, ML, veri ve güvenlik uzmanlarına ciddi biçimde kaydı; bu segment yıllık yaklaşık %163 büyürken yapay zekânın otomatikleştirdiği rutin işlerde alım yavaşladı. Tercümesi: yapay zekânın tek seferde çözemeyeceği bir probleme dokunan en az bir proje seç — retrieval grounding, bir değerlendirme (eval) düzeneği, gecikmeye duyarlı bir servis — ve bu ayrımın doğru tarafında dur.
+
+İşe alım yöneticisinin gerçek sorusuna cevap veren projeleri seç: "Bu kişi benim sorunlarımı çözebilir mi?" Şu filtreyi kullan.
 
 | Proje türü | Neyi kanıtlar | Şu durumda ekle |
 |---|---|---|
 | Amiral gemisi ürün | Uçtan uca sahiplik | Canlıysa ve her katmanını anlatabiliyorsan |
 | Zor problem projesi | Teknik derinlik | Kolay olmayan bir kısıtı çözdüyse (ölçek, gecikme, doğruluk) |
+| Yapay zekâ/agent sistemi | 2026 piyasa uyumu | Sadece API sarmalayıcı değil, eval veya retrieval katmanını kurduysan |
 | Açık kaynak katkısı | Ekip çalışması | PR'ın gerçek bir projeye birleştirildiyse |
-| Alan projesi | Sektöre uygunluk | Hedeflediğin rollerle örtüşüyorsa |
 | Tutorial kopyası | Neredeyse hiçbir şey | Asla — ciddi biçimde genişletip yeniden kurgulamadıysan |
 
-Bir proje yalnızca üstüne adını yazdığın bir framework başlangıç şablonuysa çıkar. İnceleyen kişi bu repoyu bu ay elli kez gördü.
+Bir proje yalnızca üstüne adını yazdığın bir framework başlangıç şablonuysa çıkar. İnceleyen bu repoyu bu ay elli kez gördü — ve çoğunu bir yapay zekâ üretti.
 
 ### Kaç proje yeterli?
 
-Üç ila beş öne çıkan proje ideal aralıktır. Üçten az olması zayıf görünür; altıdan fazlası dikkati dağıtır ve önceliklendirme yapamadığın izlenimi verir. Acımasızca seç, geri kalanı için "GitHub'da daha fazlası" bölümü ekle.
+Üç ila beş öne çıkan proje ideal aralıktır. Üçten az olması zayıf görünür; altıdan fazlası dikkati dağıtır ve önceliklendirme yapamadığın izlenimi verir. Acımasızca seç, geri kalanı için "GitHub'da daha fazlası" bölümü ekle. Asıl eksiğin proje derinliğiyse, [junior'dan senior'a yol haritamız](/tr/posts/juniordan-senior-gelistiriciye) inceleyenlerin taradığı o muhakemeyi ele alıyor.
 
 ## Okunan bir proje vaka çalışması nasıl yazılır?
 
@@ -73,7 +75,7 @@ seçtim; hacim 10 katına çıktığında geçiş yolunu belgeledim.
 **Teknoloji:** Go, Postgres, Redis, React. Canlı demo · Kaynak
 ```
 
-O son blok işin ağırlığını taşıyor. Kapsamı, ölçülebilir bir kazanımı ve neyi değiştireceğine dair öz farkındalığı gösteriyor. Dürüst ödünleşim satırı, senior sinyalini junior'dan ayıran şeydir.
+O son blok işin ağırlığını taşıyor. Kapsamı, ölçülebilir bir kazanımı ve neyi değiştireceğine dair öz farkındalığı gösteriyor. Dürüst ödünleşim satırı, senior sinyalini junior'dan ayıran şeydir — ve senin yerine hiçbir yapay zekânın yazmadığı kısım budur. Bunları yazmak tuhaf geliyorsa, aynı kaslar iyi bir README'ye de geçer; [geliştiricilerin seveceği dokümantasyon](/tr/posts/teknik-dokumantasyon-yazma) yazımız doğrudan işine yarar.
 
 ## Portfolyo ana sayfanda ne olmalı?
 
@@ -86,13 +88,21 @@ Boş repodan paylaşılabilir bağlantıya gitmek için şu sırayı izle:
 3. **Her biri için vaka çalışması yaz**, dört bloklu şablonla.
 4. **Kısa bir Hakkımda bölümü ekle** — iki paragraf, bir fotoğraf, konum ve müsaitlik.
 5. **İletişimi zahmetsiz yap** — e-posta, LinkedIn, GitHub ve PDF özgeçmiş.
-6. **Canlı bir sürüm yayına al** — Vercel, Netlify veya GitHub Pages, özel alan adıyla.
-7. **Yükleme hızını ve mobili test et** — Lighthouse ile 90+ performans puanı hedefle.
+6. **Canlı bir sürüm yayına al**, özel alan adıyla bir host üzerinde (aşağıdaki tabloya bak).
+7. **Yükleme hızını ve mobili test et.** "İyi" Core Web Vitals eşiklerini hedefle: [LCP 2,5 sn altı, INP 200 ms altı, CLS 0,1 altı](https://web.dev/articles/defining-core-web-vitals-thresholds).
 8. **Temel analitik ekle** ki hangi projelere tıklandığını bilesin.
 9. **Yaygın paylaşımdan önce bir kişiden geri bildirim al.**
 10. **Üç ayda bir güncelle** ki hiçbir şey terk edilmiş görünmesin.
 
-Süslü bir framework'e ihtiyacın yok. Statik bir site, temiz bir şablon ve gerçek içerik; arkasında iki zayıf proje olan özel yapım bir Three.js ana sayfasını her zaman geçer.
+Süslü bir framework'e ya da ücretli bir plana ihtiyacın yok. Ücretsiz bir host üzerindeki statik bir site, arkasında iki zayıf proje olan özel yapım bir Three.js ana sayfasını geçer. Temmuz 2026 itibarıyla üç yaygın host şöyle sıralanıyor:
+
+| Host | Ücretsiz katman | Özel alan adı | Dikkat |
+|---|---|---|---|
+| GitHub Pages | Ücretsiz, yalnızca statik | Ücretsiz | SSR veya serverless yok — sadece düz statik derlemeler |
+| Netlify | Ücretsiz, ticari kullanıma izinli | Ücretsiz | Nisan 2026'da koltuk başına fiyatı kaldırdı; Pro sabit 20 $/ay |
+| Vercel | Hobby (ücretsiz) | Ücretsiz | Hobby ticari kullanımı yasaklar; Pro kullanıcı başına 20 $/ay |
+
+Statik bir portfolyo için üçü de fiilen ücretsiz. Deploy akışını zaten bildiğin olanı seç — host tercihi buradaki en önemsiz karar.
 
 ## Sessizce mülakat kaybettiren yaygın hatalar
 
@@ -101,27 +111,27 @@ En büyük hatalar; çok sayıda zayıf proje göstermek, canlı bağlantıları
 Şunlara dikkat et:
 
 - **Bozuk veya eksik canlı bağlantılar.** İnceleyen tıklayamıyorsa proje neredeyse sayılmaz. Demoları canlı tut ya da kaldır.
-- **README yokluğu.** Kurulum adımı ve açıklama içermeyen repo yarım kalmış okunur.
+- **README yokluğu.** Kurulum adımı ve açıklama içermeyen repo yarım kalmış — ya da yapay zekâ dökümü — okunur.
 - **Etkisiz açıklamalar.** "React ve Node ile yapıldı" hiçbir şey söylemez. "Ödeme hatalarını %22 azalttım" her şeyi söyler.
 - **Duvar gibi Hakkımda sayfası.** Kimse okumaz. İki paragraf, sonra yoldan çekil.
-- **Kopyala-yapıştır tutorial projeleri.** Anında tanınır, anında değersizleşir.
-- **Yavaş, ağır sayfalar.** 6 saniyelik yükleme ilk taramayı kaybettirir.
+- **Parmak izi olmayan, üretildiği belli projeler.** Her proje üretilmiş görünüyor ve tek bir zor kararı anlatamıyorsan, inceleyen karar veremeyeceğini varsayar.
+- **Yavaş, ağır sayfalar.** INP artık en çok başarısız olunan Core Web Vital — 2026'da sitelerin %43'ü 200 ms eşiğini geçemiyor. Takılan bir sayfa ilk taramayı kaybettirir.
 
-İşini sunmak için daha fazlası: [ön elemeyi geçen teknik özgeçmiş yazma](#) ve [geliştirici olarak kişisel marka oluşturma](#) rehberlerimize göz at. [Teknik mülakata hazırlanma](#) yazımızla birlikte bunlar, güçlü bir [kariyer ve üretkenlik](#) araç setinin çekirdeğini oluşturur.
+İşini sunmak için daha fazlası: [teknik mülakata hazırlanma](/tr/posts/teknik-mulakat-hazirligi) ve [yapay zekâ araçlarını gücünü kaybetmeden kullanma](/tr/posts/ai-gelistirici-verimliligi) rehberlerimize göz at. Bunlar birlikte güçlü bir [kariyer ve üretkenlik](/tr/category/kariyer-uretkenlik) araç setinin çekirdeğini oluşturur.
 
 ## Sıkça Sorulan Sorular
 
 ### Özel kodlanmış bir portfolyo mu gerekli, şablon yeterli mi?
 
-Temiz bir şablon tamamen yeterlidir ve çoğu zaman daha akıllıcadır. İnceleyenler portfolyonun navbar'ını kendin mi yaptın diye değil, öne çıkan projelerini ve vaka çalışmalarını değerlendirir. Çabanı güçlü proje anlatımlarına ve hızlı, okunabilir bir siteye harca. Özel kodu, portfolyonun kendisinin iş örneği olduğu front-end rolleri için sakla.
+Temiz bir şablon tamamen yeterlidir ve çoğu zaman daha akıllıcadır. İnceleyenler navbar'ı kendin mi yaptın diye değil, öne çıkan projelerini ve vaka çalışmalarını değerlendirir. Çabanı güçlü anlatımlara ve hızlı, okunabilir bir siteye harca. Özel kodu, portfolyonun kendisinin iş örneği olduğu front-end rolleri için sakla.
 
 ### Henüz profesyonel deneyimim yoksa proje koymalı mıyım?
 
-Evet — kişisel ve açık kaynak projeler, ilk işinden önce yeteneğini kanıtlamanın tam olarak yoludur. İyi anladığın gerçek bir problemi çözen iki üç proje yap, bunları vaka çalışmalarıyla belgele ve açık kaynak bir repoya birleştirilen bir pull request gönder. Bu kombinasyon inisiyatif ve ekip çalışması gösterir; junior alımının aradığı şey budur.
+Evet — kişisel ve açık kaynak projeler, ilk işinden önce yeteneğini kanıtlamanın tam olarak yoludur. İyi anladığın gerçek bir problemi çözen iki üç proje yap, bunları vaka çalışmalarıyla belgele ve açık kaynak bir repoya birleştirilen bir pull request gönder. 2026'da junior işleri giderek otomatikleşirken, bu muhakeme ve ekip çalışması kanıtı uzun bir özgeçmişten daha çok değer taşır.
 
-### Geliştirici portfolyomu ne sıklıkla güncellemeliyim?
+### Yapay zekâ dakikalar içinde portfolyo üretebiliyorken nasıl fark yaratırım?
 
-Üç ayda bir ve önemli her projeden sonra gözden geçir. Eskimiş görüneni çıkar, bozuk demo bağlantılarını düzelt, en güçlü güncel işini öne al. 2023 telif hakkı ve ölü bağlantılarla terk edilmiş bir portfolyo hareketsizlik sinyali verir; bu geliştirici portfolyosu oluşturma rehberinin önlemeye çalıştığı şeyin tam tersidir.
+Yapay zekânın taklit edemediği kısımlara yaslan. Gerçek bir ödünleşimi anlat, teşhis ettiğin bir hatayı göster ve her projeye ölçülebilir bir sonuç koy. 2026'daki inceleyenler binlerce üretilmiş demo gördü; yaklaşımının *neden* işe yaradığını anladığını kanıtlayan tek bir cümle, bir cilalı ekran daha göstermekten üstündür.
 
 ### Portfolyo bağlantımı özgeçmişime ve LinkedIn'e koymalı mıyım?
 

@@ -3,23 +3,23 @@ title: "Clean Code Principles: A Practical Checklist"
 slug: "clean-code-principles-checklist"
 translationKey: "clean-code-principles"
 locale: "en"
-excerpt: "A practical clean code principles checklist: audit naming, function size, comments, and testability step by step in every code review before you merge."
+excerpt: "With AI writing half the code, clean code principles matter more, not less. A checklist to audit naming, function size, comments, and tests in 30 seconds per PR."
 category: "software-engineering"
 tags: ["clean-code", "best-practices", "code-quality"]
-publishedAt: "2026-04-25"
-seoTitle: "Clean Code Principles: A Practical Checklist"
-seoDescription: "A practical clean code principles checklist: audit naming, small functions, comments, and testability step by step in every code review before you merge."
+publishedAt: "2026-07-01"
+seoTitle: "Clean Code Principles: A Practical Checklist (2026)"
+seoDescription: "A clean code principles checklist for the AI era: audit naming, small functions, comments, and testability step by step in every code review before you merge."
 ---
 
-A clean code principles checklist serves one goal: optimize code for the next person who reads it, not the person who wrote it. In practice that means intention-revealing names, small single-purpose functions, self-explanatory structure, and solid tests. This checklist turns those ideas into concrete checks you can run in 30 seconds on every pull request.
+Here's the belief most developers now hold: since AI writes roughly 41% of code, clean code principles are a nice-to-have; the model produces something that "works" anyway. The data says the opposite. As of July 2026, the strongest signals show that discipline didn't die, its price went up.
 
-Work through the items in order during code review and you'll trade vague "feels off" feedback for measurable quality decisions.
+Google's [2025 DORA report](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report) found that AI acts as a multiplier of existing engineering practice: it lifts throughput by an estimated 2-18%, but where discipline is weak it also raises the change failure rate. In other words, AI ships bad code faster. That's exactly why this checklist exists, to audit the code that ships, no matter who wrote it, in 30 seconds.
 
 ## What does clean code actually mean?
 
 Clean code is code that, beyond working correctly, is easy to read, easy to change, and low-risk to touch. In Robert C. Martin's definition, clean code is code where "each function does one thing and does it well." The point isn't to look clever; it's that whoever opens the file six months later (usually you) can move forward without losing context.
 
-In short, clean code isn't a style preference, it's a maintenance-cost decision. Over a system's lifetime, code is read far more than it's written, so investment in readability pays back directly.
+This isn't a style preference, it's a maintenance-cost decision. And the cost is real: GitClear's analysis of 211 million lines found code churn rising from 4.5% in 2023 to 5.7% in 2024, refactoring down 39.9%, and copy-pasted lines up 17.1%. The "we shipped it fast" feeling returns as maintenance debt 30 to 90 days later.
 
 ## The clean code principles checklist (step by step)
 
@@ -28,7 +28,7 @@ Follow this order when reviewing a pull request. Each item is independently chec
 1. **Read names for intent.** Do variable, function, and class names explain what they do without a comment? Names like `d`, `tmp`, or `data2` should be renamed.
 2. **Measure function size.** Each function should carry one responsibility; consider splitting bodies over 20 lines, and almost always split anything over 50.
 3. **Question every comment.** Does the comment explain "why" rather than "what"? Delete comments that restate the code; keep ones that explain a hidden decision.
-4. **Hunt duplication.** Is the same logic copied in two or three places? Extract DRY violations into a shared function, but avoid premature abstraction.
+4. **Hunt duplication.** This is where AI assistants stumble most: is the same logic copied in two or three places? Extract DRY violations into a shared function, but avoid premature abstraction.
 5. **Reduce nesting.** If `if`/`for` blocks nest deeper than 3 levels, flatten them with early returns (guard clauses).
 6. **Clear out magic numbers.** Inline values like `86400` or `0.15` should move to named constants.
 7. **Audit error handling.** Are errors swallowed silently? Every error should be handled or propagated with meaningful context.
@@ -48,7 +48,7 @@ The comparison below shows the smells we see most often and their cleaned-up ver
 | Vague verb | `handleData()` | `normalizeInvoiceRows()` | What it does is measurable |
 | Magic number | `if (age > 18)` | `if (age > LEGAL_ADULT_AGE)` | The decision's meaning is visible |
 
-On one team project we found 12 different functions named `process()`; none said what they "processed." After renaming, review time dropped noticeably because nobody had to dive into the body anymore.
+On one team project we found 12 different functions named `process()`; none said what they "processed." After renaming, review time dropped noticeably because nobody had to dive into the body.
 
 ## How small should functions be?
 
@@ -72,11 +72,24 @@ function saveUser(input) {
 }
 ```
 
-The second version looks longer, but each piece is independently testable and the `saveUser` body now reads like a summary. This decomposition also clarifies design decisions; to go deeper, see our [software design patterns guide](/blog/design-patterns-for-developers).
+The second version looks longer, but each piece is independently testable and the `saveUser` body now reads like a summary. To go deeper, see our [software design patterns guide](/en/posts/design-patterns-for-developers) and, for type-level cleanliness, our [advanced TypeScript patterns article](/en/posts/advanced-typescript-patterns).
+
+## Does the linter finish the job, or do you still need human review?
+
+They're two different layers; neither replaces the other. The linter catches mechanical rules (formatting, unused variables, magic numbers); the human judges intent and design. But the tooling moves fast, so keep your versions current:
+
+| Tool | Current status (Jul 2026) | What it catches | Note |
+|------|---------------------------|-----------------|------|
+| [ESLint](https://eslint.org/blog/2026/02/eslint-v10.0.0-released/) | v10 (Feb 2026); v9 EOL Aug 6, 2026 | Style, likely bugs, usage patterns | `.eslintrc` fully removed in v10, flat config is now mandatory |
+| [SonarQube Server](https://docs.sonarsource.com/sonarqube-server/2026.1/quality-standards-administration/ai-code-assurance/overview) | 2026.1 LTA | Complexity, code smells, security | Stricter "Sonar way for AI Code" quality gate for AI-written code |
+| Prettier | v3.x | Formatting only | Ends the debate, doesn't measure quality |
+| Human review | — | Intent, naming, design | The one layer you can't automate |
+
+Practical rule: push everything mechanical into CI so human review focuses only where judgment is needed. It's no accident SonarQube now ships a separate "AI Code" gate; auditing assistant-generated code more strictly is now mainstream.
 
 ## Should I write a comment or fix the code?
 
-The rule is simple: the urge to write a comment is often a sign the code isn't clear enough. Try to make the comment unnecessary by fixing the name and structure first; only write a comment when the "why" can't be inferred from the code. A good comment documents a decision, a trade-off, or an unexpected constraint.
+The rule is simple: the urge to write a comment is often a sign the code isn't clear enough. Try to make it unnecessary by fixing the name and structure first; only write a comment when the "why" can't be inferred from the code.
 
 - **Delete:** Comments that restate code, like `i++; // increment i`.
 - **Write:** Comments that surface hidden knowledge, like `// Provider API returns 500 for requests over 30s, so 25s timeout`.
@@ -85,42 +98,35 @@ The rule is simple: the urge to write a comment is often a sign the code isn't c
 
 ## Where do tests fit in clean code?
 
-Tests are clean code's safety net: without good tests, every refactoring becomes a gamble. A clean test suite verifies behavior, not implementation detail, so your tests survive when you change the internals. A good test is also living documentation because it shows the function's expected use.
+Tests are clean code's safety net: without good tests, every refactoring is a gamble. A clean test suite verifies behavior, not implementation detail, so tests survive when you change the internals. In review, check: is coverage behavior-focused, do test names reveal intent, are tests isolated, and are edge cases (empty input, null, boundary values) covered?
 
-In code review, check the test side for these:
-
-- **Is coverage behavior-focused?** 100% line coverage is worthless if it tests the wrong things.
-- **Do test names reveal intent?** Prefer `throws on invalid email` over `test1`.
-- **Are tests isolated?** If one test's order affects another, there's hidden state leaking.
-- **Are edge cases present?** Are empty input, null, boundary values, and error paths tested?
-
-If you want to embed test-first work in the team, you'll find the process details in our [advanced TypeScript patterns article](/blog/advanced-typescript-patterns) and the wider frame on our [software engineering category page](/blog/software-engineering).
+If you want to embed test-first work in the team, see our guide on [how to write unit tests that actually help](/en/posts/how-to-write-unit-tests) and the wider frame on our [software engineering](/en/category/software-engineering) category page.
 
 ## The most common clean code mistakes
 
-Well-intentioned habits that backfire, which we see over and over in hundreds of reviews:
+Well-intentioned habits that backfire, seen over and over in hundreds of reviews:
 
-- **Premature abstraction.** Generalizing logic that has fewer than two instances because "we'll need it later" makes code unreadable. See the duplication first, then abstract.
-- **Shortening names.** Writing `calcTot()` to save a few characters creates a translation step in every reader's head.
+- **Premature abstraction.** Generalizing logic with fewer than two instances because "we'll need it later" makes code unreadable. See the duplication first, then abstract.
+- **Accepting AI output blindly.** Remember the eight-fold jump in duplicated blocks; the [mistakes people make with AI coding assistants](/en/posts/ai-coding-assistant-mistakes) usually stem from the "it works, so it must be clean" fallacy.
 - **Papering over bad code with comments.** Instead of a long comment explaining a complex block, extract the block into a named function.
-- **Cleaning everything in one shot.** A massive "cleanup" PR is unreviewable; small, focused changes always win.
+- **Cleaning everything in one shot.** A massive "cleanup" PR is unreviewable; small, focused changes always win. For old code, follow a [safe legacy refactoring](/en/posts/how-to-refactor-legacy-code) approach.
 
-Avoiding these traps turns clean code principles from a list of rules into a daily habit. The goal isn't perfection, it's leaving the code a little cleaner than you found it on every touch.
+The goal isn't perfection, it's leaving the code a little cleaner than you found it.
 
 ## Frequently Asked Questions
 
+### Do clean code principles still matter now that AI writes code?
+
+More than before. In the 2025 DORA report, 59% of respondents saw a positive AI effect on code quality, yet 30% report little or no trust in the code it generates. AI is a multiplier of existing discipline; on a team without a checklist, the only thing that speeds up is the technical debt.
+
 ### Do clean code principles hurt performance?
 
-Usually not. Splitting functions or naming variables is already optimized away by modern compilers and JITs, so it rarely has a measurable cost. If you see a bottleneck on a genuine hot path, measure it and optimize locally, but don't sacrifice the whole codebase's readability in the name of "performance."
+Usually not. Splitting functions or naming variables is already optimized away by modern compilers and JITs, so it rarely has a measurable cost. If you hit a bottleneck on a genuine hot path, measure and optimize locally, but don't sacrifice the whole codebase's readability for it.
 
 ### How do I apply this checklist in code review?
 
-Add the list to your PR template as a checkbox block and go top to bottom on each review. It slows you down for the first few weeks, but within a few sprints the items become automatic. Tip: if a PR has more than five violations, a short pairing session with the author is faster than commenting each item.
-
-### Where's the line between clean code and over-engineering?
-
-The line comes down to one question: does this abstraction solve a concrete duplication that exists today, or a hypothetical future? Clean code reduces existing complexity; over-engineering adds complexity for a need that doesn't exist yet. When in doubt, choose the simpler, less abstract option.
+Add the list to your PR template as a checkbox block and go top to bottom on each review. It slows you down for the first few weeks, but within a few sprints the items become automatic. If a PR has more than five violations, a short pairing session with the author beats commenting on each one.
 
 ### Where should I start in a legacy codebase?
 
-Don't do a big top-to-bottom cleanup; apply the "boy scout rule" instead: leave every file you touch a little cleaner than you found it. Only improve code you're already working on, protect it with a test, and keep the change small. That way the codebase improves over time without taking on risk.
+Don't do a big top-to-bottom cleanup; apply the "boy scout rule" instead: leave every file you touch a little cleaner than you found it. Only improve code you're already working on, protect it with a test, and keep the change small. The codebase then improves over time without taking on risk.

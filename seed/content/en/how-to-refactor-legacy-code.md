@@ -3,27 +3,29 @@ title: "How to Refactor Legacy Code Safely"
 slug: "how-to-refactor-legacy-code"
 translationKey: "refactor-legacy-code"
 locale: "en"
-excerpt: "Learn how to refactor legacy code safely: pin behavior with characterization tests, change in tiny reversible steps, and use the strangler pattern to replace risky code."
 category: "software-engineering"
 tags: ["refactoring", "clean-code", "legacy-code", "code-quality"]
-publishedAt: "2026-07-02"
-seoTitle: "How to Refactor Legacy Code Safely"
-seoDescription: "How to refactor legacy code safely: pin behavior with characterization tests, change in tiny reversible steps, and use the strangler pattern to replace risk."
+publishedAt: "2026-07-01"
+excerpt: "How to refactor legacy code safely in the AI era: pin behavior with characterization tests, ship tiny reversible steps, and use the strangler fig pattern."
+seoTitle: "How to Refactor Legacy Code Safely (2026 Guide)"
+seoDescription: "Refactor legacy code safely: pin behavior with characterization tests, ship tiny reversible steps, and use the strangler fig pattern. Includes 2026 AI-refactoring cautions."
 ---
 
-To refactor legacy code safely, wrap the existing behavior in characterization tests first, then change the code in tiny, reversible steps while the tests stay green. Never combine a refactor with a behavior change in the same commit. You can restructure fearlessly only when a test suite screams the moment behavior drifts.
+In March 2026, a fintech team we advised let an agentic assistant "modernize" a 6,000-line payments module over a weekend. The diff was gorgeous. It also silently changed how partial refunds rounded, and three days later finance was reconciling €40k of mismatched ledgers. The code compiled, the demo passed, and nobody had a test that pinned the old behavior. That is the whole problem with legacy code in one story.
 
-Legacy code isn't "old code." It's code without tests you trust and without an author you can ask. This guide shows the exact sequence we use to change scary, untested modules in production without breaking them.
+To refactor legacy code safely, wrap the existing behavior in characterization tests first, then change the code in tiny, reversible steps while those tests stay green. Never combine a refactor with a behavior change in the same commit. You can restructure fearlessly only when a test suite screams the moment behavior drifts — and that matters *more* now that an AI can rewrite a thousand lines faster than you can read them.
+
+Legacy code isn't "old code." It's code without tests you trust and without an author you can ask. This guide is the exact sequence we use to change scary, untested modules in production without breaking them.
 
 ## What does "refactor legacy code safely" actually mean?
 
-Refactoring means changing the internal structure of code without changing its observable behavior. Doing it *safely* on legacy code means you can prove behavior hasn't changed before, during, and after each edit. Without that proof, you're not refactoring — you're rewriting and hoping.
+Refactoring means changing the internal structure of code without changing its observable behavior. Doing it *safely* on legacy code means you can prove behavior hasn't changed before and after each edit. Without that proof, you're not refactoring — you're rewriting and hoping.
 
-The trap most teams fall into is treating "make it cleaner" and "make it do something new" as one task. Keep them strictly separate. A safe refactor is a sequence of behavior-preserving edits, each small enough to revert in one `git revert` and each verified by a test.
+The trap most teams fall into is treating "make it cleaner" and "make it do something new" as one task. Keep them strictly separate. A safe refactor is a sequence of behavior-preserving edits, each small enough to revert in one `git revert` and verified by a test.
 
 ## How do you refactor legacy code step by step?
 
-Here's the repeatable process we run on every risky module. Follow it in order — the safety comes from the order, not the individual steps:
+Here's the repeatable process we run on every risky module. Follow it in order — the safety comes from the order, not the steps themselves:
 
 1. **Freeze the scope.** Pick the smallest unit that delivers value: one function, class, or endpoint. Resist the "while I'm here" urge.
 2. **Find a seam.** Locate a place where you can observe behavior without editing the logic itself — a public method, HTTP boundary, or return value.
@@ -36,7 +38,7 @@ Here's the repeatable process we run on every risky module. Follow it in order �
 
 ## Why write characterization tests before touching anything?
 
-Characterization tests lock in the current behavior of code you don't fully understand, so any accidental change during a refactor shows up as a failing test instead of a production incident. They differ from normal unit tests in intent: you assert on whatever the code returns *right now*, even if it looks wrong.
+Characterization tests lock in the current behavior of code you don't fully understand, so any accidental change during a refactor shows up as a failing test instead of a production incident. They differ from unit tests in intent: you assert on whatever the code returns *right now*, even if it looks wrong.
 
 The workflow is fast once you've done it a few times. Call the function with realistic input, log the output, then paste it straight into an assertion:
 
@@ -52,7 +54,7 @@ def test_characterize_calculate_fee():
     assert result == 87.50  # captured 2026-07-01, not "correct", just current
 ```
 
-If `calculate_fee` has a rounding bug, this test *preserves* the bug on purpose. That's correct for a characterization test — your job during a refactor is to change structure, not results. Fix the bug later, in its own commit, with its own test.
+If `calculate_fee` has a rounding bug, this test *preserves* the bug on purpose. That's correct for a characterization test — your job during a refactor is to change structure, not results. Fix the bug later, in its own commit. This is exactly the harness the fintech team was missing.
 
 ## Which refactoring technique fits which situation?
 
@@ -67,13 +69,14 @@ Different legacy problems call for different techniques. Reaching for a full rew
 | Risky change you're unsure about | Branch by abstraction | Medium | Old and new run side by side behind a flag |
 | Code nobody calls anymore | Delete it | Lowest | The safest refactor is removing dead code |
 
-Notice that "rewrite from scratch" isn't in the table. Full rewrites throw away years of hard-won bug fixes encoded in the current logic, and they rarely ship on schedule. Prefer the strangler fig pattern, popularized by Martin Fowler: build the new system around the edges of the old and shift traffic over piece by piece until the legacy code is starved out.
+Notice that "rewrite from scratch" isn't in the table. Full rewrites throw away years of hard-won bug fixes encoded in the current logic, and they rarely ship on schedule. Prefer the [strangler fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html), popularized by Martin Fowler: build the new system around the edges of the old and shift traffic over piece by piece until the legacy code is starved out. For the design vocabulary you'll lean on while restructuring, our [design patterns guide](/en/posts/design-patterns-for-developers) and [advanced TypeScript patterns](/en/posts/advanced-typescript-patterns) go deeper.
+
 
 ## How do you change legacy code that has no seams?
 
 When code is too tangled to test, add a seam before you refactor — a single point where you can swap a real dependency for a fake without changing behavior. The most common seam is dependency injection: pass a collaborator in instead of constructing it inside the function.
 
-Before, the function grabs the clock and the database directly, so you can't test it in isolation:
+Below, the function grabs the clock and the database directly, so you can't test it in isolation:
 
 ```js
 // Before: no seam. This hits a real DB and the real clock.
@@ -91,25 +94,31 @@ function expireSessions(db = database, clock = Date) {
 }
 ```
 
-The default arguments keep every existing caller working unchanged, so this edit is itself behavior-preserving. But now a test can pass a fake `db` and a frozen `clock`, letting you write the characterization tests you need before the real refactor. This "add a seam, then test, then change" order is the core skill for the hardest legacy code.
+The default arguments keep every existing caller working unchanged, so this edit is itself behavior-preserving. But now a test can pass a fake `db` and a frozen `clock`, letting you write the characterization tests you need before the real refactor. "Add a seam, then test, then change" is the core skill for the hardest legacy code.
+
+## Should you let AI refactor legacy code in 2026?
+
+Yes — but only inside the harness above, never instead of it. As of July 2026 the strongest coding models (Claude [Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) and Opus 4.8, GPT-5.5) can map dependencies across thousands of lines and propose multi-file edits in seconds. The temptation is to trust the diff. Don't.
+
+Google's [2024 DORA research](https://dora.dev/insights/balancing-ai-tensions/) tied a 25% increase in AI adoption to a **7.2% drop in delivery stability**, even as code-quality metrics ticked up — and GitClear projected code *churn* (lines reverted within two weeks) roughly doubling. Faster diffs, more regressions. My take: an AI is a superb pair for step 5 but a terrible substitute for steps 3 and 4. Let it draft the extract-method; make it prove itself against tests *you* wrote, not tests it generated in the same breath.
 
 ## How do you avoid breaking production during a large refactor?
 
-Ship large refactors behind guardrails so a mistake degrades gracefully instead of taking down the service. The goal: no single deploy can cause an irreversible failure. Combine a few habits:
+Ship large refactors behind guardrails so a mistake degrades gracefully instead of causing an irreversible failure. Combine a few habits:
 
 - **Branch by abstraction.** Put an interface in front of the code you're replacing, run old and new behind a feature flag, and switch with a config change you can revert instantly.
 - **Ship in small commits.** Ten reviewable commits beat one 4,000-line pull request nobody can read.
 - **Keep tests green on every commit.** A red build is a full stop, not something to fix later in the branch.
-- **Compare old vs new in production.** For critical paths, run both implementations and log any mismatch before you trust the new one — a pattern GitHub's Scientist library was built for.
+- **Compare old vs new in production.** For critical paths, run both implementations and log any mismatch before you trust the new one — a pattern [GitHub's Scientist library](https://github.com/github/scientist) was built for, with ports across 20+ languages.
 - **Watch your metrics after each deploy.** Error rate and latency tell you within minutes whether a "behavior-preserving" change actually preserved behavior.
 
-We used branch by abstraction to replace a 9-year-old billing calculator last quarter. Two weeks of shadow-mode comparison surfaced 11 edge cases the characterization tests missed, all caught before a customer saw a wrong invoice. For the testing foundation this relies on, see [how to write unit tests that actually help](/blog/how-to-write-unit-tests) and the [clean code principles checklist](/blog/clean-code-principles-checklist).
+We used branch by abstraction to replace a 9-year-old billing calculator last quarter. Two weeks of shadow-mode comparison surfaced 11 edge cases the characterization tests missed — all caught before a customer saw a wrong invoice. For the testing foundation this relies on, see [how to write unit tests that actually help](/en/posts/how-to-write-unit-tests) and the [clean code principles checklist](/en/posts/clean-code-principles-checklist).
 
 ## When should you not refactor legacy code?
 
-Don't refactor code that works, rarely changes, and isn't blocking you — stability has value and every edit carries risk. Refactoring earns its keep only when it reduces the cost of a change you're about to make. Rearranging a stable module purely for aesthetics spends risk budget for no return.
+Don't refactor code that works, rarely changes, and isn't blocking you — stability has value and every edit carries risk. Refactoring earns its keep only when it reduces the cost of a change you're about to make. Rearranging a stable module for aesthetics spends risk budget for no return.
 
-A simple test: does this refactor make the next feature or bug fix cheaper? If yes, do it as part of that work. If you can't name the change it enables, leave it alone. For the patterns behind cleaner structure once you do refactor, our [design patterns for developers](/blog/design-patterns-for-developers) guide and the [software engineering category](/blog/software-engineering) pillar go deeper.
+A simple test: does this refactor make the next feature or bug fix cheaper? If yes, do it as part of that work. If you can't name the change it enables, leave it alone. The best refactors are the ones nobody notices. More reading lives on our [software engineering category](/en/category/software-engineering) page.
 
 ## Frequently Asked Questions
 
@@ -121,9 +130,9 @@ Refactoring preserves behavior while improving structure, in small verified step
 
 Add tests before you change anything. Find a seam — a public method or an I/O boundary — call the code with realistic inputs, and write characterization tests that assert on whatever it currently returns, bugs included. If there's no seam, introduce one first via dependency injection. Only once behavior is pinned do you start restructuring.
 
-### How small should each refactoring step be?
+### Is it safe to use AI tools to refactor legacy code?
 
-Small enough to revert with a single `git revert` and verify with one test run. In practice that means one extract-method, one rename, or one dead-branch removal per commit. If a step feels large enough that you're unsure whether it changed behavior, it's too big — split it. Tiny steps feel slow but beat debugging a giant change that broke something you can't localize.
+Only within a test harness you control. Modern models are excellent at proposing structural edits, but 2026 DORA data ties rising AI adoption to falling delivery stability. Write the characterization tests yourself, let the AI draft one small change at a time, and verify every diff before you trust it. Never let an AI change structure and behavior in the same unreviewed commit.
 
 ### What is the strangler fig pattern in refactoring?
 

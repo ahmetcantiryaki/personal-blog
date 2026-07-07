@@ -3,83 +3,69 @@ title: "REST mi GraphQL mi: Doğru API Seçimi"
 slug: "rest-mi-graphql-mi"
 translationKey: "rest-vs-graphql"
 locale: "tr"
-excerpt: "REST mi GraphQL mi kararı tek soruya iner: veri erişimini kim kontrol etsin? Karşılaştırma tablosu, gerçek benchmark rakamları ve karar rehberi içeride."
 category: "software-engineering"
 tags: ["api-design", "rest", "graphql", "backend"]
-publishedAt: "2026-05-04"
-seoTitle: "REST mi GraphQL mi: Doğru API Seçimi"
-seoDescription: "REST mi GraphQL mi? İkisini üretim açısından karşılaştırıyoruz: karar tablosu, gerçek gecikme ve payload rakamları, ne zaman hangisini seçeceğinizi netleştiriyoruz."
+publishedAt: "2026-07-03"
+seoTitle: "REST mi GraphQL mi: 2026'da Doğru API Seçimi"
+seoDescription: "REST mi GraphQL mi tartışması 2026'da yanlış soru. tRPC ve gRPC'yi de içeren güncel karşılaştırma tablosu, gerçek gecikme rakamları ve karar rehberi içeride."
+excerpt: "Çoğu geliştirici REST mi GraphQL mi meselesini iki atlı bir yarış sanıyor. Temmuz 2026 itibarıyla bu bakış eskidi. tRPC ve gRPC'yi de tabloya koyan dürüst karşılaştırma."
 ---
 
-**REST mi GraphQL mi** kararı tek soruya iner: veri erişiminin şeklini sunucu mu yoksa istemci mi belirlesin? REST'te her uç nokta sabit bir yanıt döner; istemci ne verdiyseniz onu alır. GraphQL'de istemci tek bir uçtan tam olarak istediği alanları sorgular. Basit, kaynak odaklı ve önbelleklenebilir API'ler için REST, çok istemcili ve iç içe veri ihtiyacı olan ürünler için GraphQL kullanın.
+Çoğu geliştirici **REST mi GraphQL mi** sorusunu tek kemerli bir şampiyonluk maçı gibi tartışıyor: bir taraf seç, yayına al, code review'da savun. Temmuz 2026 itibarıyla bu, API tasarımını düşünmenin en işe yaramaz yolu. Dürüst cevap şu: ikisi de kesin galip değil, üretimde baskın desen ikisinin melezi ve herkes taraf tutarken iki yeni oyuncu soruyu sessizce baştan yazdı.
 
-Bu yazıda ikisini üretim ortamından örneklerle, gerçek payload ve gecikme rakamlarıyla karşılaştırıyorum. Amaç net: bir sonraki servisi tasarlarken hangisini seçeceğinizi dakikalar içinde bilin.
+Konferans slaytına konmayan nüans şu: REST ve GraphQL *farklı* problemleri çözer. 2026'da asıl karar nadiren "hangisi", çoğu zaman "hangi kombinasyon ve nerede" sorusudur. Bu yazıda ikisini üretim örnekleri ve güncel rakamlarla karşılaştırıyorum, sonra tRPC ve gRPC'yi aynı tabloya koyup gerçekten seçim yapabilmenizi sağlıyorum.
 
-## REST ve GraphQL arasındaki fark nedir?
+## REST ve GraphQL aslında ne demek?
 
-Kısa cevap: REST, her biri sabit bir veri yapısı dönen çok sayıda uç noktaya (`/users`, `/users/1/orders`) dayanır. GraphQL ise tek bir uç noktaya (`/graphql`) dayanır ve istemci, dönecek alanları bir sorgu diliyle kendisi tanımlar. Fark, veri şeklini kimin belirlediğidir: REST'te sunucu, GraphQL'de istemci.
+REST çok sayıda uç noktaya (`/users`, `/users/1/orders`) dayanır; her biri sunucunun belirlediği sabit bir veri şekli döner. GraphQL ise tek uç noktaya (`/graphql`) dayanır ve istemci, tam istediği alanları bir sorgu diliyle kendi tanımlar. Yük taşıyan fark şu: REST'te yanıtın şeklini sunucu, GraphQL'de istemci belirler.
 
-REST, Roy Fielding'in 2000 tarihli doktora tezinde tanımlanan bir mimari stildir; kaynakları HTTP fiilleri (`GET`, `POST`, `PUT`, `DELETE`) üzerinden yönetir. GraphQL ise Facebook'un 2015'te açık kaynaklattığı, 2018'den beri [GraphQL Foundation](https://graphql.org/) altında yürütülen bir sorgu dilidir.
+REST, Roy Fielding'in 2000 tarihli tezinden gelen, HTTP fiilleriyle (`GET`, `POST`, `PUT`, `DELETE`) çalışan bir mimari stildir. GraphQL, Facebook'un 2015'te açık kaynaklattığı, 2019'dan beri [GraphQL Foundation](https://graphql.org/) tarafından yürütülen bir sorgu dilidir. Hem de canlı: [Eylül 2025 spesifikasyonu](https://spec.graphql.org/September2025/) 2021 sürümünün yerini alan güncel kararlı sürüm ve tamamlayıcı GraphQL-over-HTTP spesifikasyonu, eskiden her sunucunun kendi bildiğini okuduğu taşıma katmanı semantiğini nihayet standartlaştırdı.
 
-Basit bir sezgi: Mobil uygulamanız bir ekran için üç ayrı REST çağrısı yapıp gelen verinin yarısını atıyorsa, GraphQL'in çözdüğü sorun tam olarak budur. Tek bir uç noktanın döndüğü sabit yanıt her istemciye yetiyorsa, REST'in sadeliğini bırakmak için bir nedeniniz yok.
+Basit bir sezgi hâlâ geçerli: Mobil uygulamanız bir ekran için üç REST çağrısı yapıp gelen verinin yarısını atıyorsa, GraphQL tam olarak bunu öldürmek için tasarlandı. Tek uç noktanın sabit yanıtı her istemciye yetiyorsa, REST'in sadeliğini bırakmak size hiçbir şey kazandırmaz.
 
-## Karşılaştırma tablosu: REST vs GraphQL
+## Karşılaştırma tablosu: REST vs GraphQL vs tRPC vs gRPC
 
-Aşağıdaki tablo iki yaklaşımı üretim açısından önemli boyutlarda karşılaştırıyor. Karar verirken en çok bu satırlara bakın.
+Bu tablonun iki sütunlu hâli 2021 kalıntısıdır. Aşağıdaki, ekiplerin Temmuz 2026 itibarıyla API katmanını gerçekten nasıl seçtiğine uyan sürüm.
 
-| Boyut | REST | GraphQL |
-|-------|------|---------|
-| Uç nokta | Kaynak başına çok sayıda | Tek uç (`/graphql`) |
-| Veri şeklini belirleyen | Sunucu | İstemci (sorgu) |
-| Over/under-fetching | Sık görülür | Sorguyla önlenir |
-| HTTP önbelleği | Doğal, URL bazlı | Zor, özel katman gerekir |
-| Öğrenme eğrisi | Düşük | Orta-yüksek |
-| Dosya yükleme | Doğal (multipart) | Ek spesifikasyon gerekir |
-| Hata modeli | HTTP durum kodları | Genelde 200 + `errors` alanı |
-| En uygun senaryo | Basit CRUD, açık API | Çok istemcili, iç içe veri |
+| Boyut | REST | GraphQL | tRPC | gRPC |
+|-------|------|---------|------|------|
+| Uç nokta | Kaynak başına çok | Tek (`/graphql`) | RPC prosedürleri | HTTP/2 üstü RPC |
+| Veri şeklini belirleyen | Sunucu | İstemci (sorgu) | Paylaşılan TS tipleri | Protobuf şeması |
+| Over/under-fetching | Sık | Sorguyla önlenir | Minimum | Minimum |
+| HTTP önbelleği | Doğal, URL bazlı | Zor, katman gerekir | Sınırlı | Sınırlı |
+| Diller arası | Evrensel | Evrensel | Yalnız TypeScript | Mükemmel |
+| Öğrenme eğrisi | Düşük | Orta-yüksek | Çok düşük (TS ekipleri) | Orta |
+| En uygun | Kamuya açık & CRUD | Çok istemcili, iç içe | TS monorepo | Düşük gecikmeli iç servis |
 
-Pratik kural: Kaynaklarınız düz ve öngörülebilirse ve önbellek önemliyse REST. İstemcileriniz aynı veriden farklı kesitler istiyorsa ve iç içe ilişkiler çoksa GraphQL.
+Pratik kural: Kamuya açık, düz ve önbeklenebilir kaynaklar REST'e yaslanır. Aynı iç içe verinin farklı kesitlerini çeken çeşitli istemciler GraphQL'e yaslanır. TypeScript full-stack monorepo muhtemelen ikisini de değil, tRPC'yi ister. Gecikme bütçesi altında konuşan iki iç mikroservis gRPC ister. Bu tür bir ödünleşim matrisi tam olarak bir [sistem tasarımı mülakatında](/tr/posts/sistem-tasarimi-mulakati) karşınıza çıkar ve doğru kurmak, herhangi bir protokolü ezberlemekten daha önemlidir.
 
-## REST ne zaman kullanılır?
+## REST hâlâ ne zaman kazanır?
 
-Kısa cevap: Kaynaklarınız net tanımlıysa, HTTP önbelleği ve CDN kullanımı önemliyse, API'niz kamuya açık veya üçüncü taraflarca tüketilecekse REST kullanın. CRUD ağırlıklı servislerin çoğu, GraphQL'in ek karmaşıklığına hiç girmeden REST ile daha basit ve daha dayanıklı çözülür.
+Kaynaklar net tanımlıysa, HTTP önbelleği ve CDN önemliyse, API'niz kamuya açıksa veya üçüncü taraflarca tüketilecekse REST kullanın. Temmuz 2026 itibarıyla REST hâlâ kamuya açık web API'lerinin yaklaşık %83'ünün önünde duruyor ve ekiplerin yaklaşık %93'ü bir yerlerde REST yayınlıyor. Bu atalet değil, uyum.
 
 REST'in parladığı yerler:
 
-- **Kamuya açık API'ler:** Stripe, GitHub ve Twilio gibi platformların çoğu hâlâ REST sunar; keşfedilebilir, önbelleklenebilir ve `curl` ile test edilebilir.
-- **CDN ve tarayıcı önbelleği:** `GET /products/42` çağrısını `Cache-Control` ve `ETag` ile bedavaya önbelleklersiniz. Bu, GraphQL'de ciddi ek iş demektir.
-- **Basit CRUD servisleri:** Kaynak sayısı azsa ve ilişkiler sığsa, GraphQL şeması ve resolver katmanı gereksiz bir yüktür.
+- **Kamuya açık API'ler:** Stripe, GitHub ve Twilio hâlâ REST sunuyor, artık neredeyse tümü OpenAPI 3.1 ile belgeleniyor. Keşfedilebilir, önbeklenebilir ve `curl` ile test edilebilir.
+- **CDN ve tarayıcı önbelleği:** `GET /products/42` çağrısı `Cache-Control` ve `ETag` ile bedavaya önbeklenir. Bunu GraphQL'de tekrarlamak ciddi iş demektir.
+- **Basit CRUD servisleri:** Az kaynak ve sığ ilişki, GraphQL şeması ve resolver katmanını gereksiz yük yapar.
 
-Gerçek bir örnek: Bir SaaS müşterimizde ürün kataloğu API'sini önce GraphQL ile kurmuştuk. Ancak yanıtların %90'ı aynı üç alanı istiyordu ve CDN önbelleğini kaybetmek origin'e gelen isteği 6 kat artırdı. REST'e geri döndüğümüzde CDN isabet oranı %94'e çıktı ve p95 gecikme 210 ms'den 45 ms'ye indi.
+Gerçek bir örnek: Bir SaaS müşterimizde ürün kataloğu API'sini önce GraphQL ile kurmuştuk. Ama yanıtların %90'ı aynı üç alanı istiyordu ve CDN önbeklemesini kaybetmek origin trafiğini 6 katına çıkardı. REST'e dönmek CDN isabet oranını %94'e taşıdı ve p95 gecikmeyi 210 ms'den 45 ms'ye düşürdü.
 
 ```http
-# REST: her kaynak kendi URL'sinde, HTTP ile önbelleklenebilir
+# REST: her kaynak kendi URL'sinde, HTTP ile önbeklenebilir
 GET /api/products/42 HTTP/1.1
 Accept: application/json
 Cache-Control: max-age=300
 
 # Yanıt: sunucunun belirlediği sabit şekil
-{
-  "id": 42,
-  "name": "Kablosuz Kulaklık",
-  "price": 1299,
-  "stock": 17
-}
+{ "id": 42, "name": "Kablosuz Kulaklık", "price": 1299, "stock": 17 }
 ```
 
-Bu çağrının kaç alan döneceğini ve nasıl önbellekleneceğini önceden biliyorsunuz. Öngörülebilirlik ve önbellek, işte REST'in değeri budur.
+Bu çağrının kaç alan döneceğini ve nasıl önbekleneceğini göndermeden bilirsiniz. Öngörülebilirlik ve önbellek, REST'in bütün değeri budur.
 
-## GraphQL ne zaman kullanılır?
+## GraphQL ek karmaşıklığını ne zaman hak eder?
 
-Kısa cevap: Farklı istemcileriniz (web, iOS, Android) aynı veriden farklı kesitler istiyorsa, veriniz derin iç içe ilişkiler barındırıyorsa ve over-fetching ölçülebilir bir sorunsa GraphQL kullanın. GraphQL, şema ve resolver katmanının ek maliyetini ancak birden çok istemcinin esneklik ihtiyacında geri öder.
-
-GraphQL'in parladığı yerler:
-
-- **Çok istemcili ürünler:** Mobil ekran 4 alan isterken web sürümü 20 alan isteyebilir. Tek sorgu diliyle ikisi de tam ihtiyacını alır, N+1 çağrı ortadan kalkar.
-- **İç içe veri grafları:** "Kullanıcı → siparişler → ürünler → yorumlar" gibi bir ağacı tek istekte, tek gidiş-dönüşte çekersiniz.
-- **Hızlı gelişen frontend'ler:** İstemci yeni bir alana ihtiyaç duyduğunda backend'de yeni bir uç nokta açmaya gerek kalmaz; şemada alan zaten varsa sorguya ekler.
-
-GraphQL kurarken üç şey şarttır. Birincisi, **N+1 sorgu koruması**: DataLoader gibi bir toplu yükleyici olmadan iç içe resolver'lar veritabanını yüzlerce sorguyla boğar. Bir üretim servisimizde tek bir GraphQL isteği, DataLoader eklenmeden önce 340 SQL sorgusu üretmişti. İkincisi, **sorgu derinliği ve karmaşıklık sınırı**; yoksa kötü niyetli bir istemci iç içe sorguyla sunucuyu düşürebilir. Üçüncüsü, **kalıcı sorgular (persisted queries)** ile önbellek ve güvenlik kazanımı.
+Farklı istemcileriniz (web, iOS, Android) aynı verinin farklı kesitlerini istiyorsa, ilişkiler derin iç içeyse ve over-fetching ölçülebilirse GraphQL kullanın. Bağımsız 2026 benchmark'ları, birkaç REST gidiş-dönüşü gerektirecek karmaşık sorgularda GraphQL'i yaklaşık %28 daha hızlı (kabaca 180 ms'ye 250 ms) gösteriyor; buna karşılık REST saniyede yaklaşık %33 daha fazla basit istek karşılıyor. Dikkatli okuyun: kazanç gidiş-dönüş sayısıyla ilgili, protokolün ham hızıyla değil.
 
 ```graphql
 # GraphQL: istemci tam istediği alanları tanımlar, tek istek
@@ -88,47 +74,50 @@ query {
     name
     orders(last: 3) {
       total
-      items {
-        productName
-        price
-      }
+      items { productName price }
     }
   }
 }
 ```
 
-Bu tek sorgu, REST'te 3-4 ayrı çağrı gerektirecek veriyi tek gidiş-dönüşte döner. Mobilde bu, hem gecikme hem batarya kazancı demektir.
+Bu tek sorgu, REST'te 3-4 çağrı gerektirecek veriyi döner. Ama GraphQL bedava değil. Üç şey şarttır. Birincisi, **N+1 koruması**: DataLoader gibi bir toplu yükleyici olmadan iç içe resolver'lar veritabanını döver. Bir üretim servisimizde tek istek, batching eklenmeden önce 340 SQL sorgusu üretmişti; bu patoloji [veritabanı indekslemeyi](/tr/posts/veritabani-indeksleme) de birden aciliyet hâline getirir. İkincisi, **sorgu derinliği ve karmaşıklık sınırı**; yoksa kötü niyetli bir istemci tek bir iç içe sorguyla sizi düşürür. Üçüncüsü, önbellek ve güvenlik için **kalıcı sorgular (persisted queries)**.
+
+## 2026 sürprizi: tRPC ve gRPC soruyu değiştirdi
+
+İşte iddialı görüş: Ekiplerin büyük bir kısmı için "REST mi GraphQL mi" sorusunun 2026 cevabı *hiçbiri*.
+
+TypeScript yığınının iki ucuna da sahipseniz, [**tRPC v11**](https://trpc.io/blog/announcing-trpc-v11) (SSE abonelikleri ve birinci sınıf TanStack Start entegrasyonuyla geldi) size uçtan uca tip güvenliği verir: şema yok, codegen yok, neredeyse sıfır istemci boilerplate. API'niz artık tipli fonksiyon çağrılarından ibaret. Bir monorepo için bu, elle REST handler ve istemci fetcher yazmaktan kesinlikle daha iyi bir geliştirici deneyimidir ve tipleri akıtmak için [ileri TypeScript kalıplarına](/tr/posts/ileri-typescript-kaliplari) dayanır. Şartı: yalnız TypeScript, yani kamuya açık veya çok dilli tüketici yok.
+
+Gecikme bütçesi altında servis-servis iç trafik içinse **gRPC** ve Protobuf pragmatik varsayılan olmayı sürdürüyor; Connect protokolü ve Buf araçları geliştirici deneyimini üç yıl öncesine göre çok daha az sancılı yaptı. [Mikroservis mi monolit mi](/tr/posts/mikroservis-mi-monolit-mi) kararının API katmanı seçiminizi sessizce zorladığı yer tam burası: servisler arası fan-out RPC, gRPC'yi kamuya açık REST'in asla yapamayacağı biçimde ödüllendirir.
+
+Asıl kazanan desen ise Backend-for-Frontend oldu: altta REST ve gRPC mikroservislerini toplayan bir GraphQL veya tRPC katmanı. Netflix, GitHub, Shopify ve The New York Times bunun bir sürümünü çalıştırıyor. 2026'nın olgun mimarileri ideolojik değil, pragmatik.
 
 ## REST mi GraphQL mi: nasıl karar veririm?
 
-Kısa cevap: Şu üç soruyu sırayla sorun. "Tek tip bir istemcim ve düz kaynaklarım mı var?" Evet ise REST. "HTTP/CDN önbelleği kritik mi?" Evet ise REST. "Birden çok istemci aynı veriden farklı kesitler mi istiyor?" Evet ise GraphQL'e kayın. Üçünde de GraphQL'e doğru gidiyorsanız GraphQL kullanın.
+Şunları sırayla sorun ve ilk güçlü "evet"te durun:
 
-Kararı hızlandıran pratik ölçütler:
+1. **İki ucu da TypeScript'te mi tutuyorsunuz?** Her şeyden önce tRPC'ye uzanın.
+2. **İç, gecikmeye duyarlı servis çağrıları mı?** gRPC.
+3. **Kamuya açık veya üçüncü taraf tüketici, ya da önbellek kritik mi?** REST.
+4. **Birden çok istemci iç içe verinin farklı kesitlerini mi çekiyor?** GraphQL, ilk günden N+1 ve derinlik sınırlarıyla.
+5. **Büyük ve karışık mı?** REST/gRPC servisleri üstünde bir BFF katmanı; sıkıcı ama ölçeklenen cevap.
 
-1. **En basit çözümden başlayın.** Tek istemciniz varsa ve kaynaklarınız sığsa REST yeterlidir; GraphQL şeması gereksiz bir bakım yüküdür.
-2. **Önbellek ve CDN önemliyse REST seçin.** GraphQL'de `POST` tabanlı sorgular tarayıcı ve CDN önbelleğini doğal olarak kullanamaz.
-3. **Over-fetching ölçülebilir bir sorunsa GraphQL seçin.** Mobil istemciniz her ekranda verinin yarısını atıyorsa, bant genişliği ve gecikme kazancı gerçektir.
-4. **Ekip olgunluğunu hesaba katın.** GraphQL'de N+1, derinlik saldırıları ve önbellek yönetimi ek uzmanlık ister; ekibiniz buna hazır değilse REST daha güvenlidir.
-5. **Hibrit düşünün.** En dayanıklı sistemlerin çoğu dışa REST sunarken, karmaşık iç içe okuma ekranları için tek bir GraphQL katmanı ekler.
-
-2026'da gördüğümüz olgun mimarilerin çoğu ideolojik değil pragmatik: çekirdek kaynaklar için REST, agregasyon ağırlıklı frontend ekranları için ise bir GraphQL geçidi (gateway). Bu, REST'in önbellek ve sadeliğini korurken GraphQL'in esnekliğini gerektiği yerde alır.
-
-Konu kümemizdeki ilgili yazılar: [pratik API tasarım desenleri](#), [backend performans optimizasyonu](#) ve [API versiyonlama stratejileri](#). Kategori temeli için [yazılım mühendisliği rehberimize](#) göz atın.
+Ekip olgunluğunu dürüstçe hesaba katın: GraphQL, küçük bir ekibin sahip olmayabileceği N+1, derinlik saldırısı ve önbellek yönetimi uzmanlığı ister. Bu ödünleşimlerin dahası için [yazılım mühendisliği](/tr/category/yazilim-muhendisligi) yazılarımıza göz atın.
 
 ## Sıkça Sorulan Sorular
 
 ### REST mi GraphQL mi, hangisi daha hızlı?
 
-Duruma bağlı. Tek bir basit kaynak için REST, HTTP önbelleği sayesinde neredeyse her zaman daha hızlıdır. Ancak bir ekran için 4 ayrı REST çağrısı gerekiyorsa, GraphQL tek istekle daha düşük toplam gecikme sağlar. Hız farkı protokolden değil, kaç gidiş-dönüş yaptığınızdan gelir.
+Gidiş-dönüşe bağlı. Tek bir basit kaynak için REST, HTTP önbelleği sayesinde neredeyse her zaman daha hızlıdır. Bir ekran için 4 ayrı çağrı gerekiyorsa, GraphQL bunları tek isteğe indirerek toplam gecikmede kazanır; 2026 benchmark'larında kabaca %28. Hız farkı protokolden değil, kaç gidiş-dönüş yaptığınızdan gelir.
 
 ### GraphQL REST'in yerini alacak mı?
 
-Hayır. 2026 itibarıyla ikisi bir arada yaşıyor. GraphQL, çok istemcili ve iç içe veri senaryolarında güçlü; REST ise basit CRUD, kamuya açık API ve önbellek gerektiren durumlarda hâlâ varsayılan seçim. Çoğu olgun ekip ikisini duruma göre birlikte kullanıyor.
+Hayır. Temmuz 2026 itibarıyla ikisi bir arada yaşıyor ve REST hâlâ kamuya açık API'lerin yaklaşık %83'ünün önünde. GraphQL çok istemcili, iç içe veri senaryolarında güçlü; REST kamuya açık API, basit CRUD ve önbellek gerektiren her şeyde varsayılan. Çoğu olgun ekip ikisini birlikte çalıştırıyor.
 
-### İkisini aynı sistemde kullanabilir miyim?
+### tRPC ve gRPC bu tabloda nereye oturur?
 
-Evet, hibrit yaklaşım yaygın. Çekirdek kaynaklarınızı REST ile sunup, karmaşık okuma ekranları için üstüne bir GraphQL geçidi ekleyebilirsiniz. Böylece REST'in önbellek ve sadeliğini korurken, agregasyon gereken yerde GraphQL esnekliğini alırsınız.
+tRPC, istemci ve sunucuyu birlikte kontrol ettiğiniz TypeScript monorepo için en iyi seçim; sıfır codegen ile uçtan uca tip güvenliği sunar. gRPC, düşük gecikmeli servis-servis iç çağrılar için varsayılan. İkisi de kamuya açık API'de REST'in yerini tutmaz ama kendi nişlerinde çoğu zaman GraphQL'i geçer.
 
 ### GraphQL'de en sık yapılan hata nedir?
 
-N+1 sorgu problemi. İç içe resolver'lar, her alt nesne için ayrı veritabanı sorgusu tetikleyerek performansı çökertir. Çözüm, DataLoader gibi bir toplu yükleyici (batching) katmanı kullanmak ve sorgu derinliği ile karmaşıklığına sınır koymaktır.
+N+1 sorgu problemi. İç içe resolver'lar her alt nesne için ayrı bir veritabanı sorgusu tetikleyerek performansı çökertir. Çözüm, DataLoader gibi bir batching katmanı ve sorgu derinliği ile karmaşıklığına konan sert sınırlar.

@@ -3,23 +3,23 @@ title: "Yazılımcı Olarak Tükenmişlik Nasıl Önlenir"
 slug: "yazilimci-tukenmisligi"
 translationKey: "avoid-developer-burnout"
 locale: "tr"
-excerpt: "Yazılımcı tükenmişliği erken sinyalleri okunup sürdürülebilir tempo kurulunca önlenebilir. 2026 için pratik, sahadan bir korunma rehberi."
+excerpt: "Yazılımcı tükenmişliği erken sinyaller okunup sürdürülebilir tempo kurulunca önlenir, istifayla değil. Güncel 2026 verileriyle sahadan bir rehber."
 category: "career-productivity"
 tags: ["burnout", "well-being", "career", "productivity"]
-publishedAt: "2026-05-08"
-seoTitle: "Yazılımcı Tükenmişliği Nasıl Önlenir? Pratik Rehber"
-seoDescription: "Yazılımcı tükenmişliği nasıl önlenir? Erken sinyaller, sürdürülebilir tempo, sınır koyma ve toparlanma için 2026'dan pratik, sahadan adımlar."
+publishedAt: "2026-07-05"
+seoTitle: "Yazılımcı Tükenmişliği Nasıl Önlenir? 2026 Rehberi"
+seoDescription: "Yazılımcı tükenmişliği nasıl önlenir? Erken sinyaller, AI kaynaklı iş yükü, on-call düzeni ve toparlanma için güncel 2026 verileriyle sahadan adımlar."
 ---
 
-Yazılımcı tükenmişliği, işi bırakınca değil, ilk sinyaller görmezden gelinince başlar. Önlemenin yolu tek büyük karar değil, küçük ve tekrarlanan sınırlar koymaktır: iş yükünü ölçmek, sürdürülebilir bir tempo kurmak, mesai sonunda gerçekten kopmak ve toparlanmayı takvime yazmak. Bu rehber, dört yılda üç ekipte denenmiş pratik adımları 2026 gerçekleriyle anlatıyor.
+Yazılımcı tükenmişliği, işi bırakınca değil, ilk sinyaller görmezden gelinince başlar. Önlemenin yolu tek büyük karar değil, küçük ve tekrarlanan sınırlar koymaktır: iş yükünü ölçmek, sürdürülebilir bir tempo kurmak, mesai sonunda gerçekten kopmak ve toparlanmayı takvime yazmak. Bu rehber, dört yılda üç ekipte denenmiş pratik adımları Temmuz 2026'nın sahadaki gerçekleriyle anlatıyor.
 
-## Yazılımcı tükenmişliği nedir?
+## Yazılımcı tükenmişliği nedir ve ne kadar yaygın?
 
-Yazılımcı tükenmişliği; sürekli iş stresinin yol açtığı fiziksel, duygusal ve zihinsel bir yorgunluk durumudur. Üç bileşeni vardır: enerji tükenmesi, işe karşı sinizm veya mesafe, ve kendini yetersiz hissetme. Dünya Sağlık Örgütü bunu 2019'da "mesleki bir olgu" olarak tanımladı; bir hastalık değil, ama gerçek ve ölçülebilir bir risktir.
+Yazılımcı tükenmişliği; sürekli iş stresinin yol açtığı fiziksel, duygusal ve zihinsel bir yorgunluk durumudur. Dünya Sağlık Örgütü bunu [ICD-11'de "mesleki bir olgu"](https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases) olarak tanımlar; üç bileşeni vardır: enerji tükenmesi, işe karşı sinizm veya mesafe, ve mesleki yeterlilik hissinin azalması. Bir hastalık değildir; ama gerçek, ölçülebilir ve teknoloji dünyasında ürkütücü derecede yaygındır.
+
+Sayılar hiç ince değil. Temmuz 2026 itibarıyla [Stack Overflow'un en güncel geliştirici anketi](https://survey.stackoverflow.co/2025), profesyonel geliştiricilerin yalnızca **%24'ünün işinde mutlu** olduğunu buldu; bir önceki yılki %20'ye göre kıl payı iyileşme. Sektör raporları, tükenmişlik yaşadığını söyleyen geliştirici oranını %80'in üzerine koyuyor ve en büyük tetikleyici olarak yüksek iş yükünü işaret ediyor.
 
 Bu, "yorgun bir hafta" değildir. Tükenmişlik biriken bir borçtur: kısa vadede üretkenlik gibi görünen aşırı çalışma, faiziyle geri döner. Önemli olan, sistemi çökmeden önce sinyalleri okumaktır.
-
-Yazılımcı tükenmişliğini diğer mesleklerden ayıran birkaç yapısal etken var: sürekli bağlam değiştirme, "her şeyi bilme" baskısı, gece yarısı prod alarmları ve hiç bitmeyen bir öğrenme koşusu. 2026'da yapay zekâ araçları rutin işi hızlandırsa da, beklentiyi de yükselttiği için yükü otomatik olarak azaltmıyor. Bu yüzden tükenmişliği önlemek, artık bir "irade" değil, bir sistem tasarımı meselesi.
 
 ## Yazılımcı tükenmişliğinin erken belirtileri nelerdir?
 
@@ -36,6 +36,12 @@ Sahada en sık gördüğümüz erken belirtiler:
 
 Bu listede üç ve üzeri madde size tanıdık geliyorsa, bu rehberin geri kalanını okuma sırası bir "keşke"den bir "şimdi"ye dönüşür.
 
+## Yapay zekâ tükenmişliği gerçekten artırıyor mu?
+
+2026'nın asıl sorusu bu ve dürüst cevap: artırabilir. Geliştiricilerin yaklaşık %84'ü artık GenAI araçlarını kullanıyor ya da kullanmayı planlıyor; ama hızlanan otomatik tamamlama yükü otomatikman hafifletmedi. Tükenmişliği GenAI kullanımına karşı modelleyen 2025 tarihli bir çalışma ([From Gains to Strains](https://arxiv.org/abs/2510.07435), 442 geliştirici), yapay zekânın **iş taleplerini artırdığını** buldu: yöneticiler daha fazla işi daha hızlı tempoda dağıtıyor, geliştiriciler de AI'ın ürettiği kodu ayıklamak ve güvenli hale getirmek için fazladan saat harcıyor. Harness'ın 2025 teslimat raporu bunu doğruluyor: geliştiricilerin %67'si AI kodunu ayıklamaya eskisinden *daha fazla* zaman harcadığını söyledi.
+
+Az biberli görüşüm: AI etrafındaki üretkenlik anlatısı kaleyi sessizce oynattı. Çıktınız iki katına çıkarsa, beklenti üç katına çıkıyor. AI'ı, aşağıdaki sürdürülebilir tempo matematiğini atlamanın bahanesi değil, *neyi* incelediğinizi değiştiren bir araç olarak görün. Yükü artırmadan faydayı almak isterseniz, [yapay zekâ araçlarıyla geliştirici verimliliği](/tr/posts/ai-gelistirici-verimliligi) yazımız araçların nerede gerçekten zaman kazandırdığını, nerede sadece yer değiştirdiğini anlatıyor.
+
 ## Yazılımcı tükenmişliği nasıl önlenir? (8 adım)
 
 Aşağıdaki sıra, tek seferlik bir çözüm değil, haftalık olarak sürdürdüğünüzde işe yarayan bir sistemdir. Küçük başlayın, bir alışkanlığı oturtmadan diğerine geçmeyin.
@@ -45,9 +51,20 @@ Aşağıdaki sıra, tek seferlik bir çözüm değil, haftalık olarak sürdürd
 3. **Net bir kapanış ritüeli kurun.** Günün sonunda son commit'i atın, yarının ilk görevini yazın, dizüstünü kapatın. Beyin "iş bitti" sinyalini ritüelle alır.
 4. **Bildirimleri sınırlayın.** Slack ve e-postayı mesai dışında sessize alın. Gerçek acil durumlar için ayrı bir on-call kanalı olsun; geri kalanı bekleyebilir.
 5. **Hayır demeyi öğrenin.** Her yeni işe "evet" demek, mevcut işlerin kalitesini düşürür. Kapasitenizi yöneticinizle yazılı ve şeffaf paylaşın.
-6. **Derin iş için blok açın.** Takviminize odak bloklarını gerçek toplantı gibi yazın. Parçalanmış bir gün, tükenmişliğin en sinsi yakıtıdır.
+6. **Derin iş için blok açın.** Takviminize odak bloklarını gerçek toplantı gibi yazın. Parçalanmış bir gün, tükenmişliğin en sinsi yakıtıdır; [yoğun geliştiriciler için zaman yönetimi](/tr/posts/gelistiriciler-icin-zaman-yonetimi) tam da burada işe yarar.
 7. **Molaları ve izni tam kullanın.** Kısa yürüyüşler, öğle arası ve tam kullanılan yıllık izin lüks değil, bakım işidir. İzinde devir dokümanı bırakıp gerçekten kopun.
 8. **Düzenli check-in yapın.** Ayda bir kendinize "enerjim nasıl, sinizmim arttı mı?" diye sorun. Sinyal erkense küçük ayar yeter.
+
+Kapanış ritüeli bir betik kadar somut olabilir. Benimki üç satır:
+
+```bash
+# Gün sonu kapanış ritüeli
+git commit -am "wip: checkout retry mantigi"         # işi park et
+echo "YARIN: flaky checkout testini duzelt" >> ~/next.md   # açık döngüyü boşalt
+osascript -e 'display notification "Mesai bitti" with title "Kapaniyor"'
+```
+
+Mesele kodun kendisi değil; beyninize tekrarlanabilir bir "gün kapandı" sinyali vererek açık döngülerin arka planda çalışmasını durdurmak.
 
 ## Sürdürülebilir tempo mu, kahramanlık mı: hangisi daha çok iş çıkarır?
 
@@ -62,11 +79,11 @@ Uzun vadede sürdürülebilir tempo her ölçüde kazanır. Aşırı mesai kısa
 | 12 aylık toplam çıktı | Daha yüksek | Daha düşük |
 | Terfi olasılığı | Yüksek (güvenilir) | Düşük (öngörülemez) |
 
-Çıkarım net: yöneticiniz gerçekten iyiyse, sürdürülebilir tempoyu bir zayıflık değil, güvenilir teslimatın işareti olarak okur. Tükenmiş bir geliştirici en iyi ihtimalle durağan kalır.
+Çıkarım net: yöneticiniz gerçekten iyiyse, sürdürülebilir tempoyu bir zayıflık değil, güvenilir teslimatın işareti olarak okur. Tükenmiş bir geliştirici en iyi ihtimalle durağan kalır. Aynı denge [junior'dan senior'a giden yolda](/tr/posts/juniordan-senior-gelistiriciye) da karşınıza çıkar: güvenilirlik birikir, kahramanlık birikmez.
 
 ## On-call ve prod alarmları tükenmişliği nasıl hızlandırır?
 
-Kesintili uyku ve öngörülemeyen alarm yükü, tükenmişliğin en hızlı yollarından biridir çünkü toparlanmayı imkânsız kılar. İnsan beyni, "her an patlayabilir" beklentisiyle dinlenemez. On-call'u insani tutmak, kişisel disiplinden çok ekip düzeyinde bir tasarım meselesidir.
+Kesintili uyku ve öngörülemeyen alarm yükü, tükenmişliğin en hızlı yollarından biridir çünkü toparlanmayı imkânsız kılar. 2026 verisi acımasız: nöbetteki mühendis haftada kabaca **50 alarm alıyor ve bunların yalnızca %2-5'i bir insan müdahalesi gerektiriyor**. DevOps ekipleri üzerine anketler, alarmların çoğunun yanlış pozitif olduğunu ve nöbetçilerin büyük kısmının alarm hacminden bunaldığını gösteriyor. Google'ın [SRE Workbook](https://sre.google/workbook/on-call/)'u hâlâ **vardiya başına 2-3 aksiyon gerektiren olay** tavanını öneriyor; çoğu ekip bu sınırı fersah fersah aşıyor.
 
 Pratikte işe yarayan korumalar:
 
@@ -75,7 +92,7 @@ Pratikte işe yarayan korumalar:
 - **Nöbet sonrası toparlanma verin:** yoğun bir gece sonrası ertesi sabahı resmen izinli sayın.
 - **Runbook yazın:** her alarmın yanında ne yapılacağı yazılıysa, gece yarısı stresi yarıya iner.
 
-Bir alarm sizi uyandırıp hiçbir şey yaptırmıyorsa, o alarmı düzeltmek bir altyapı işi değil, bir sağlık işidir. 2026'da birçok ekip nöbet yükünü ölçmeye başladı: haftalık alarm sayısı, mesai dışı müdahale süresi ve ortalama toparlanma açığı artık bir sağlık göstergesi olarak izleniyor. Bu sayılar yükselirken sessiz kalmak, tükenmişliği bir ekip sorunu olmaktan çıkarıp bireysel bir çöküşe dönüştürür.
+Bir alarm sizi uyandırıp hiçbir şey yaptırmıyorsa, o alarmı düzeltmek bir altyapı işi değil, bir sağlık işidir. 2026'da birçok olay yönetimi platformu artık alarm hacmini, mesai dışı çağrıları ve toparlanma açığını bir tükenmişlik göstergesi olarak izleyen "on-call sağlığı" panelleri sunuyor. Bu sayılar yükselirken sessiz kalmak, tükenmişliği bir ekip sorunu olmaktan çıkarıp bireysel bir çöküşe dönüştürür.
 
 ## Tükenmişlik başladıysa nasıl toparlanılır?
 
@@ -88,7 +105,7 @@ Somut ilk adımlar:
 - **Uyku, hareket ve sosyal bağ** üçlüsünü ilaç gibi programlayın; bunlar toparlanmanın temelidir.
 - **Belirtiler haftalarca sürüyorsa** bir profesyonelden destek alın. Tükenmişlik ile klinik depresyon çakışabilir ve bu bir zayıflık değil, tıbbi bir konudur.
 
-İzolasyon da bir risktir. Uzaktan çalışan bir ekipte, haftada bir gayriresmî sohbet veya bir eşli programlama seansı hem ruh sağlığınızı hem görünürlüğünüzü korur. Daha geniş bağlam için [uzaktan çalışan geliştirici kariyeri](/tr/uzaktan-gelistirici-kariyeri) ve günlük iş akışını hafifleten [yapay zekâ araçlarıyla geliştirici verimliliği](/tr/ai-gelistirici-verimliligi) yazılarımıza da göz atın.
+İzolasyon da bir risktir. Uzaktan çalışan bir ekipte, haftada bir gayriresmî sohbet veya bir eşli programlama seansı hem ruh sağlığınızı hem görünürlüğünüzü korur; [uzaktan çalışan geliştirici kariyeri](/tr/posts/uzaktan-gelistirici-kariyeri) yazımız bunu derinlemesine ele alıyor. Bu alandaki diğer yazılar için [Kariyer & Üretkenlik](/tr/category/kariyer-uretkenlik) kategorisine göz atabilirsiniz.
 
 ## Sıkça Sorulan Sorular
 

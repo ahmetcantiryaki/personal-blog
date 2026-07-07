@@ -3,25 +3,27 @@ title: "Sıfırdan CI/CD Pipeline Nasıl Kurulur"
 slug: "cicd-pipeline-nasil-kurulur"
 translationKey: "build-cicd-pipeline"
 locale: "tr"
-excerpt: "CI/CD pipeline nasıl kurulur? Aşamalar, çalışan bir GitHub Actions yapılandırması, test kapıları, dağıtım ve kaçınılması gereken hatalar adım adım."
 category: "devops-cloud"
 tags: ["ci-cd", "devops", "automation", "deployment"]
-publishedAt: "2026-05-06"
+publishedAt: "2026-07-06"
+excerpt: "CI/CD pipeline nasıl kurulur? Aşamalar, Node 24 üzerinde çalışan bir GitHub Actions yapılandırması, test kapıları, dağıtım ve kaçınılması gereken hatalar."
 seoTitle: "Sıfırdan CI/CD Pipeline Nasıl Kurulur (2026)"
-seoDescription: "CI/CD pipeline nasıl kurulur adım adım: GitHub Actions ile derleme, test ve dağıtım aşamalarını gerçek yapılandırma, kapılar ve geri alma ile kurun."
+seoDescription: "CI/CD pipeline nasıl kurulur adım adım: 2026'ya hazır bir GitHub Actions yapılandırmasıyla derleme, test ve dağıtımı gerçek kapılar ve geri alma ile kurun."
 ---
 
-CI/CD pipeline kurmak için Git deponuzu, her push'ta aynı adımları çalıştıran bir otomasyon aracına bağlarsınız: bağımlılıkları kur, derle, testleri çalıştır ve her şey geçerse dağıt. Bu döngü, "benim makinemde çalışıyordu" derdini tekrarlanabilir ve denetlenebilir bir sürece dönüştürür. Bu rehberde tüm hattı, bugün kopyalayıp çalıştırabileceğiniz bir GitHub Actions yapılandırmasıyla anlatıyoruz.
+2 Haziran 2026 sabahı, bir sürü yeşil pipeline sessizce kırmızıya döndü. O gün GitHub tüm JavaScript action'larını varsayılan olarak Node.js 24 üzerinde çalışmaya zorladı ve hâlâ `actions/checkout@v3` sabitleyen ekipler kendilerini bir deprecation duvarının önünde buldu. Çoğu için düzeltme on dakika sürdü: `@v6`'ya yükselt, bitti. Ama panikleyenler, kendi pipeline'ını hiç gerçekten anlamamış olanlardı. İki yıl önce bir YAML dosyası kopyalamış ve dua ediyorlardı.
+
+O ekip olmayın. İşte gerçekten anladığınız bir CI/CD pipeline nasıl kurulur ve bugün çalışan bir yapılandırmayla nasıl başlanır.
 
 ## CI/CD pipeline nedir ve neden kurulur?
 
 CI/CD pipeline, kodu commit'ten üretime elle müdahale olmadan taşıyan otomatik bir dizidir. **CI** (sürekli entegrasyon) her değişikliği derleyip test eder; böylece hatalar yayın gününde değil dakikalar içinde ortaya çıkar. **CD** (sürekli teslimat ya da dağıtım) testi geçen sürümleri otomatik olarak staging veya üretime gönderir.
 
-Bunu, yayınlamanın yavaş ve hataya açık kısımlarını ortadan kaldırmak için kurarsınız. Elle yapılan dağıtımlar zamanla sapar, test atlar ve ritüeli bilen tek kişiye bağımlı kalır. Bir pipeline her seferinde aynı adımları çalıştırır, bozuk kodun merge olmasını engeller ve kimin neyi değiştirdiğine dair kayıt tutar. İki kişiyi aşan her ekipte ilk ayında kendini amorti eder. Konteyner kullanıyorsanız bunu [üretim için Docker en iyi pratikleri](/blog/devops-cloud) rehberimizle birleştirin.
+Bunu, yayınlamanın yavaş ve hataya açık kısımlarını ortadan kaldırmak için kurarsınız. Elle yapılan dağıtımlar zamanla sapar, test atlar ve ritüeli bilen tek kişiye bağımlı kalır. Bir pipeline her seferinde aynı adımları çalıştırır, bozuk kodun merge olmasını engeller ve kimin neyi değiştirdiğine dair kayıt tutar. İki kişiyi aşan her ekipte ilk ayında kendini amorti eder. Konteyner kullanıyorsanız bunu [üretim için Docker en iyi pratikleri](/tr/posts/docker-en-iyi-pratikleri) rehberimizle birleştirin.
 
 ## CI/CD pipeline aşamaları nelerdir?
 
-Standart bir pipeline altı aşamadan geçer; her biri, kötü kodun kullanıcılara ulaşmasını durduran bir kapıdır. CI/CD pipeline nasıl kurulur sorusunun başlangıcı, her aşamanın ne yaptığını ve nerede tıkandığını bilmektir.
+Standart bir pipeline altı aşamadan geçer; her biri, kötü kodun kullanıcılara ulaşmasını durduran bir kapıdır.
 
 1. **Kaynak.** Bir push ya da pull request pipeline'ı tetikler. Runner, tam olarak sizin commit'inizi çeker.
 2. **Derleme.** Bağımlılıkları kur ve uygulamayı derle veya paketle. Bu başarısız olursa alt adımların hiçbiri çalışmaz.
@@ -34,7 +36,7 @@ Hızlı ve ucuz aşamaları başa koyun. Bir lint hatası, 12 dakikalık test pa
 
 ## GitHub Actions ile CI/CD pipeline nasıl kurulur?
 
-Tek bir workflow dosyasıyla başlayın ve aşamaları kademeli ekleyin. Aşağıda, `main` dalına her push'ta derleyip test eden ve dağıtan, bir Node.js uygulaması için gerçek ve minimal bir pipeline var. GitHub'ın barındırdığı runner'larda çalışır, yani yönetecek bir sunucu yok.
+Tek bir workflow dosyasıyla başlayın ve aşamaları kademeli ekleyin. Aşağıda, `main` dalına her push'ta derleyip test eden ve dağıtan, bir Node.js uygulaması için gerçek ve minimal bir pipeline var. GitHub'ın barındırdığı runner'larda çalışır, yani yönetecek bir sunucu yok. Güncel action major sürümlerine dikkat edin: runner'lar artık varsayılan olarak Node 24 çalışma zamanını kullandığı için `checkout@v6` ve `setup-node@v6` gerekiyor. Node 24'ün kendisi de Nisan 2028'e dek desteklenen [aktif LTS hattı](https://nodejs.org/en/about/previous-releases).
 
 ```yaml
 # .github/workflows/ci.yml
@@ -49,10 +51,10 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "npm"
       - run: npm ci
       - run: npm run lint
@@ -65,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: echo "Dağıtılıyor commit ${{ github.sha }}"
         # kendi dağıtım komutunuzla değiştirin, örn. flyctl deploy
 ```
@@ -74,17 +76,19 @@ jobs:
 
 ## Hangi CI/CD aracını seçmelisiniz?
 
-Kodunuza ve ekibinize en yakın aracı seçin. 2026'da çoğu ekip için platformun yerleşik seçeneği kazanır; çünkü kurulum neredeyse sıfırdır ve secret'lar, izinler ve loglar zaten entegredir.
+Kodunuza ve ekibinize en yakın aracı seçin. Kullanım verileri de bunu doğruluyor: 2026 ortası itibarıyla GitHub Actions kurumların yaklaşık %33'üyle önde; Jenkins %28, GitLab CI %19 civarında. Platformun yerleşik seçeneği genelde kazanır; çünkü kurulum neredeyse sıfırdır ve secret'lar, izinler ve loglar zaten entegredir.
 
-| Araç | Kime uygun | Barındırma | Notlar |
-|------|-----------|------------|--------|
-| GitHub Actions | GitHub'daki depolar | Bulut + kendi sunucu | Devasa marketplace, açık depolara ücretsiz kota |
-| GitLab CI/CD | GitLab kullanıcıları, tam DevOps paketi | Bulut + kendi sunucu | Yerleşik registry, monorepo için güçlü |
+| Araç | Kime uygun | Barındırma | 2026 notu |
+|------|-----------|------------|-----------|
+| GitHub Actions | GitHub'daki depolar | Bulut + kendi sunucu | ~%33 kullanım; runner fiyatları 1 Oca 2026'da ~%40 düştü; Agentic Workflows önizlemede |
+| GitLab CI/CD | Tam DevOps paketi | Bulut + kendi sunucu | ~%19 kullanım; yerleşik SAST, DAST, registry, SBOM |
+| Jenkins | Tam kontrol, eski sistemler | Kendi sunucu | ~%28 kullanım; 1.800+ eklenti, en çok bakım |
 | CircleCI | Hıza odaklı ekipler | Bulut + kendi sunucu | Hızlı önbellek, esnek paralellik |
-| Jenkins | Tam kontrol, eski sistemler | Kendi sunucu | En esnek, en çok bakım isteyen |
-| Argo CD | Kubernetes GitOps | Kendi sunucu | Bildirimsel CD, Git'ten kümeye senkron |
+| Argo CD | Kubernetes GitOps | Kendi sunucu | Bildirimsel CD; K8s için fiili CD katmanı |
 
-Zaten bu platformlardaysanız varsayılan olarak GitHub Actions veya GitLab CI/CD seçin. Jenkins'e yalnızca başka hiçbir aracın sunmadığı eklentilere ya da yerinde (on-prem) kontrole ihtiyacınız olduğunda başvurun. Kubernetes'e dağıtıyorsanız Argo CD artı bir GitOps akışı, [Kubernetes maliyet optimizasyonu](/blog/devops-cloud) rehberimizle iyi uyum sağlar.
+2026'nın baskın mimarisi açıkçası sıkıcı ama doğru olan: CI yarısı için GitHub Actions ya da GitLab CI, CD yarısı için Argo CD. Jenkins'e yalnızca başka hiçbir aracın sunmadığı eklentilere ya da yerinde (on-prem) kontrole ihtiyacınız olduğunda başvurun. Kubernetes'e dağıtıyorsanız Argo CD'yi [Kubernetes maliyet optimizasyonu](/tr/posts/kubernetes-maliyet-optimizasyonu) rehberimizle eşleştirin ve senkronu kurmadan önce [GitOps nedir](/tr/posts/gitops-nedir) yazımızı okuyun.
+
+Maliyet tarafı: Free plandaki özel bir depo ayda 2.000 Linux dakikası ve 500 MB artifact depolaması alır. Bunu aşınca her ek Linux 2-çekirdek dakikası 0,006 dolar; 1 Ocak 2026'da 0,008 dolardan indirildi. Açık depolar ücretsiz kalıyor.
 
 ## Test ve dağıtım kapılarını nasıl eklersiniz?
 
@@ -103,9 +107,9 @@ Kurduğumuz neredeyse her pipeline'da üç arıza karşımıza çıkar.
 
 - **Kararsız (flaky) testler.** Yerelde geçen bir test CI'da rastgele başarısız olur; genelde bir zamanlama ya da sıralama sorunudur. Kararsız testi karantinaya al, yarış durumunu düzelt ve asla otomatik yeniden denemeyle üstünü örtme; yeniden denemeler gerçek hataları gizler.
 - **Yavaş pipeline'lar.** 25 dakikalık bir çalışma geri bildirim döngüsünü öldürür. Bağımlılıkları önbelleğe al, test paketlerini paralel işlerde çalıştır ve hızlı denetimleri (lint, tip denetimi) yavaşlardan (e2e) ayır ki hatalar erken ortaya çıksın.
-- **Sızan ya da eksik secret'lar.** Token'ları asla YAML içine gömme. Bunları platformun şifreli secret deposunda sakla ve değişken olarak referans ver. Bir commit'e değmiş her şeyi döndür (rotate).
+- **Sızan ya da eksik secret'lar.** Token'ları asla YAML içine gömme. Bunları platformun [şifreli secret deposunda](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) sakla ve değişken olarak referans ver. Bir commit'e değmiş her şeyi döndür (rotate).
 
-Optimize etmeden önce pipeline'ınızı ölçün. Derleme süresini, başarısızlık oranını ve bir düzeltmenin üretime ulaşma süresini takip edin. Bu sayılar, size nereye efor harcayacağınızı tahmin yürütmekten çok daha iyi söyler.
+Optimize etmeden önce pipeline'ınızı ölçün. Derleme süresini, başarısızlık oranını ve bir düzeltmenin üretime ulaşma süresini takip edin; teslim sağlığını öngören DORA metrikleri bunlardır. Bu sayılar, size nereye efor harcayacağınızı tahmin yürütmekten çok daha iyi söyler. Dağıtım güvenliği darboğazınızsa bir sonraki durak [kesintisiz deployment](/tr/posts/kesintisiz-deployment) rehberimiz.
 
 ## Sıkça Sorulan Sorular
 

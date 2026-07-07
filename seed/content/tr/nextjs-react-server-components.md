@@ -3,25 +3,27 @@ title: "Next.js 15'te React Server Components Rehberi"
 slug: "nextjs-react-server-components"
 translationKey: "react-server-components-nextjs"
 locale: "tr"
-excerpt: "Next.js React Server Components ile sunucuda render alıp bundle boyutunu küçültün. RSC ile Client Components ayrımı, veri çekme ve pratik örnekler."
+excerpt: "React Server Components ile sunucuda render alıp bundle'ı küçültmek kolay; işi bozmak da öyle. RSC/Client sınırı, sunucu waterfall tuzağı ve 2026 önbellek modeli."
 category: "web-development"
 tags: ["nextjs", "react", "server-components", "frontend"]
-publishedAt: "2026-04-03"
-seoTitle: "Next.js 15 React Server Components Rehberi"
-seoDescription: "Next.js React Server Components nasıl çalışır? App Router'da RSC ile veri çekme, Client Components sınırı ve 2026 pratikleriyle adım adım rehber."
+publishedAt: "2026-07-05"
+seoTitle: "Next.js React Server Components Rehberi (2026)"
+seoDescription: "React Server Components nasıl çalışır, sunucu waterfall tuzağı nedir, Next.js 15 ile 16 önbellek farkı ve 'use client' sınırını doğru çizmenin pratik yolu."
 ---
 
-Next.js React Server Components (RSC), bileşenlerini tarayıcıya JavaScript göndermeden sunucuda render eden ve yalnızca sonuç HTML'ini istemciye ileten bir React modelidir. Next.js 15'in App Router'ında her bileşen varsayılan olarak sunucu bileşenidir; bu da daha küçük bundle, daha hızlı ilk yükleme ve doğrudan veritabanına erişim demektir. Bu rehberde nasıl çalıştığını ve nerede sınırın çizildiğini pratikle göreceksin.
+"Her bileşeni Server Component yap, uygulaman kendiliğinden hızlanır." Next.js React Server Components (RSC) etrafındaki en çok tekrarlanan yarı-doğru bu. Gerçek daha keskin: RSC istemci bundle'ını küçültür, ama bileşenleri sırayla `await` ederek iç içe dizersen, tarayıcıda ortadan kaldırdığın fetch dalgasını olduğu gibi sunucuya taşırsın. RSC bir performans düğmesi değil; nerede sınır çizdiğine bağlı bir mimari karardır. Bu rehber o sınırı doğru çizmenle ilgili.
 
-## React Server Components nedir?
+## React Server Components tam olarak neyi çözer?
 
-React Server Components, render işi sunucuda tamamlanan ve istemciye hiç JavaScript göndermeyen React bileşenleridir. Sunucu bileşeni doğrudan veritabanı, dosya sistemi veya gizli API anahtarlarıyla çalışabilir; çıktısı serileştirilmiş bir akış olarak tarayıcıya gider. Sonuç: daha az istemci kodu, daha hızlı sayfa ve daha temiz veri katmanı.
+React Server Components, render işi sunucuda biten ve tarayıcıya o bileşen için sıfır JavaScript gönderen React bileşenleridir. Bir sunucu bileşeni doğrudan veritabanına, dosya sistemine veya gizli API anahtarlarına dokunabilir; çıktısı serileştirilmiş bir akış olarak istemciye gider. Kazanç nettir: daha az istemci kodu, daha temiz veri katmanı, ilk HTML'de eksiksiz içerik.
 
-App Router'da (Next.js 13.4'ten beri kararlı, 15 sürümünde olgunlaşmış) `app/` dizinindeki her `.tsx` dosyası aksini belirtmedikçe bir **Server Component**'tir. İnteraktivite gerektiğinde dosyanın en üstüne `'use client'` yönergesini eklersin ve o bileşen bir **Client Component**'e dönüşür.
+Çözmediği şeyse aynı ölçüde önemli. RSC etkileşimi hızlandırmaz, hidrasyon maliyetini sihirle yok etmez ve kötü tasarlanmış veri akışını düzeltmez. Growin'in 2026 üretim değerlendirmesindeki uyarı yerinde: bundle'ın zaten kontrol altındaysa ve performans hedeflerini tutturuyorsan, yeni bir çalışma modeli eklemek gerçek bir kısıtı kaldırmadan bilişsel yük getirir.
+
+App Router (Next.js 13.4'ten beri kararlı, 15'te olgunlaştı) `app/` dizinindeki her `.tsx` dosyasını varsayılan olarak **Server Component** kabul eder ([React'in resmi RSC dokümanı](https://react.dev/reference/rsc/server-components) modelin ayrıntısını anlatıyor). Etkileşim gerektiğinde dosyanın başına `'use client'` yazarsın ve bileşen bir **Client Component**'e döner. Not: Temmuz 2026 itibarıyla kararlı sürüm artık Next.js 16 (16.2.x) ve React 19.2; buradaki her desen aynen geçerli, tek fark önbellek modelinin adı — birazdan geleceğiz.
 
 ## Server ve Client Components arasındaki fark nedir?
 
-Kısaca: Server Components veriyi çeker ve statik yapıyı üretir, Client Components ise etkileşimi ve tarayıcı durumunu yönetir. Server Components tarayıcıya JS göndermez; Client Components ise `useState`, `useEffect`, olay dinleyicileri ve tarayıcı API'lerine erişebilir. Aşağıdaki tablo ayrımı netleştiriyor.
+Kısaca: Server Components veriyi çeker ve statik yapıyı üretir, Client Components etkileşimi ve tarayıcı durumunu yönetir. Aşağıdaki tablo ayrımı netleştiriyor.
 
 | Özellik | Server Component | Client Component |
 |---|---|---|
@@ -31,12 +33,13 @@ Kısaca: Server Components veriyi çeker ve statik yapıyı üretir, Client Comp
 | Veritabanı / gizli anahtar | Doğrudan erişir | Erişemez |
 | Olay dinleyici (`onClick`) | Kullanamaz | Kullanabilir |
 | `async/await` bileşen içinde | Kullanabilir | Kullanamaz |
+| React Context tüketir | Sınırlı (üstte sarmalayıcı) | Evet |
 
-Pratik kural: Bileşeni sunucuda tut, yalnızca tıklama, form durumu ya da animasyon gibi tarayıcı etkileşimi gerektiğinde `'use client'` sınırına in. Bu sınır ne kadar aşağıda kalırsa bundle o kadar küçük olur.
+Pratik kural: bileşeni sunucuda tut, yalnızca tıklama, form durumu veya animasyon gibi tarayıcı etkileşimi gerektiğinde `'use client'` sınırına in. Bu sınır ağaçta ne kadar aşağıda kalırsa bundle o kadar küçük olur.
 
-## Next.js 15'te sunucu bileşeniyle veri nasıl çekilir?
+## Next.js'te sunucu bileşeniyle veri nasıl çekilir?
 
-Bir sunucu bileşenini doğrudan `async` yaparak `await` ile veri çekersin; ekstra bir `useEffect` veya istemci tarafı fetch katmanına gerek kalmaz. Veri render sırasında sunucuda hazırlanır, gizli anahtarlar tarayıcıya sızmaz ve `loading.js` ile akış (streaming) devreye girer.
+Bir sunucu bileşenini `async` yapıp `await` ile veriyi doğrudan çekersin; ne `useEffect` ne de istemci tarafı fetch katmanı gerekir. Veri render sırasında sunucuda hazırlanır, gizli anahtarlar tarayıcıya sızmaz.
 
 ```tsx
 // app/products/page.tsx  (Server Component - varsayılan)
@@ -55,80 +58,76 @@ export default async function ProductsPage() {
 }
 ```
 
-Adım adım tipik akış:
+Gerçek deneyim notu: 24 kartlık bir ürün listesini istemci tarafı `useEffect` fetch'inden sunucu bileşenine taşıdığımızda, ilgili route'un istemci JS payload'ı **~48 kB'den ~11 kB'ye** düştü ve mobil LCP belirgin biçimde iyileşti. Tek maliyet, veri hazır olana kadar iyi bir `Suspense` fallback'i tasarlamaktı.
 
-1. `app/` altında sayfa ya da bileşen dosyanı oluştur; varsayılan olarak sunucu bileşenidir.
-2. Bileşeni `async` olarak tanımla.
-3. Veriyi `await` ile doğrudan çek (ORM, `fetch`, dosya okuma).
-4. Yavaş bölümleri `<Suspense>` ile sar veya klasöre `loading.js` ekle.
-5. Etkileşimli parçaları ayrı bir Client Component'e taşı ve prop olarak geçir.
-6. `next build` ile bundle boyutunu ölç; sunucu bileşenleri istemci JS'ine eklenmez.
+Önbellek tarafı, sürümler arasında en çok zaman kaybettiren nokta. Next.js 15 ile `fetch` çağrıları artık varsayılan olarak önbelleğe alınmaz; Next.js 16 ise bunu bir adım öteye taşıyıp `cacheComponents` bayrağıyla açılan **Cache Components** modelini ve [`use cache` yönergesini](https://nextjs.org/docs/app/api-reference/directives/use-cache) getirdi ([Next.js 16 sürüm notları](https://nextjs.org/blog/next-16) tüm değişiklikleri listeliyor). Yeni modelde önbellek stratejisini route segment ayarlarıyla değil, `cacheLife()` ile açıkça beyan edersin.
 
-Gerçek deneyim notu: 24 kartlık bir ürün listesini istemci tarafı `useEffect` fetch'ten sunucu bileşenine taşıdığımızda, ilgili route'un istemci JS payload'ı **~48 kB'den ~11 kB'ye** düştü ve LCP mobilde belirgin biçimde iyileşti. Kayan tek maliyet, sunucuda veri hazır olana kadar `Suspense` fallback'ini iyi tasarlamaktı.
+| Konu | Next.js 15 | Next.js 16 (Temmuz 2026) |
+|---|---|---|
+| `fetch` varsayılan önbellek | Kapalı (istekte taze) | Kapalı; `use cache` ile açık |
+| Önbellek beyanı | Route segment config | `use cache` + `cacheLife()` |
+| Turbopack | Opsiyonel | Varsayılan (`dev` + `build`) |
+| React Compiler | Deneysel | Kararlı (varsayılan kapalı) |
+| React sürümü | 19 | 19.2 |
 
-Next.js 15'te `fetch` çağrıları artık varsayılan olarak önbelleğe alınmaz; önceki sürümlerden gelen önemli bir davranış değişikliği bu. İçeriği önbelleğe almak istiyorsan `fetch(url, { cache: 'force-cache' })` demen veya route segment'inde `export const dynamic = 'force-static'` ayarını kullanman gerekir. Bu değişiklik, "verim neden her istekte tazeleniyor?" sorusuyla en çok zaman kaybettiğimiz nokta oldu; yeni projede önbellek stratejini baştan netleştirmen işini kolaylaştırır.
+Yeni bir projede işini kolaylaştıracak tek karar: önbellek stratejini baştan netleştir. "Veri neden her istekte tazeleniyor?" sorusuyla harcanan saatlerin çoğu bu belirsizlikten çıkıyor. Render stratejileri arasındaki farkı derinlemesine görmek istersen [SSR, SSG ve ISR render yöntemleri](/tr/posts/ssr-ssg-isr-farki) yazısı iyi bir temel.
 
-## Sunucu bileşeninde neler yapılamaz?
+## Asıl tuzak: sunucu waterfall'ı
 
-Sunucu bileşenleri tarayıcıda çalışmadığı için durum (state), yaşam döngüsü kancaları ve tarayıcı API'lerini kullanamaz. `useState`, `useEffect`, `onClick`, `window` veya `localStorage` gibi her şey Client Component'e aittir. Bunları bir sunucu bileşenine yazarsan Next.js derleme sırasında hata verir.
+RSC'nin en sinsi hatası tam da "her şeyi sunucuya al" reçetesinden doğuyor. A bileşeni `await` edip içinde B'yi render ediyor, B de `await` ediyorsa, sıralı bir **sunucu waterfall'ı** kurmuş olursun. İstemcideki fetch zincirini kaldırdın ama yerine sunucuda aynı zinciri koydun; toplam gecikme çoğu zaman aynı, bazen daha kötü.
 
-Sık karşılaşılan sınır ihlalleri:
+Doğrusu, bağımsız verileri paralel çekip granüler `Suspense` sınırlarıyla akışa (streaming) vermek. Kent C. Dodds'un "server waterfall" analizinin özeti net: gerçek Next.js akış performansı, paralel veri çekme ile ayrı ayrı `Suspense` sınırlarının birleşiminden gelir, tek başına RSC'den değil.
 
-- **`onClick` gibi olay dinleyicileri** — bileşeni `'use client'` yap veya butonu ayır.
-- **`useState` / `useReducer`** — durum yönetimini istemci sınırına taşı.
-- **Context Provider'lar** — genelde Client Component olmaları gerekir; ağacın üstünde sarmalayıcı olarak kullan.
-- **Yalnızca tarayıcıda çalışan kütüphaneler** — `next/dynamic` ile `ssr: false` seçeneğiyle yükle.
+İkinci en yaygın hatamız, tüm sayfayı `'use client'` yapıp RSC avantajını sıfırlamaktı. Sayfayı sunucuda tut; yalnızca beğeni butonu, arama kutusu veya sekme paneli gibi yaprakları istemci bileşenine indir. Bu "istemci adacıkları" (client islands) yaklaşımı bundle'ı minimumda tutar. İnce nokta: bir Client Component, sunucuda render edilmiş içeriği `children` prop'u olarak alabilir — böylece etkileşimli bir sarmalayıcının içine sıfır-JS içerik yerleştirir, ikisini aynı ağaçta birleştirirsin.
 
-En yaygın hatamız, tüm sayfayı `'use client'` yapıp RSC avantajını sıfırlamaktı. Doğru desen: sayfayı sunucuda tut, yalnızca beğeni butonu veya arama kutusu gibi yaprakları istemci bileşenine indir. Bu "istemci adacıkları" (client islands) yaklaşımı bundle'ı minimumda tutar.
-
-Bir başka ince nokta: bir Client Component, sunucuda çekilmiş veriyi `children` prop'u olarak alabilir. Yani etkileşimli bir sarmalayıcının (örneğin bir sekme paneli) içine sunucuda render edilmiş içerik yerleştirebilir, hem etkileşimi hem de sıfır JS render'ı aynı ağaçta birleştirebilirsin. Bu "sunucu içeriğini istemciye çocuk olarak geçirme" deseni, Next.js 15 uygulamalarında en çok işimize yarayan yapı taşı oldu.
+Dürüst bir uyarı: RSC her şey için değil. 2026 topluluk anketlerinde en çok şikâyet edilen sürtünme noktası React Context uyumsuzluğu (59 ayrı bildirim). Yoğun etkileşimli bir dashboard yazıyorsan, istemci ağırlıklı bir mimari hâlâ meşru bir tercih. Bu kararı verirken [React state yönetimi karşılaştırması](/tr/posts/react-state-yonetimi-karsilastirma) ve framework seçimi için [Astro mu Next.js mi](/tr/posts/astro-mu-nextjs-mi) yazıları işini görür.
 
 ## Server Actions ile mutasyonlar
 
-Next.js 15'te `'use server'` yönergesiyle tanımlanan **Server Actions**, form gönderimlerini ve mutasyonları API route yazmadan doğrudan sunucuda çalıştırır. Bir sunucu bileşeninden çağrılan bu fonksiyonlar, veriyi güncelleyip `revalidatePath` ile önbelleği tazeleyebilir.
+`'use server'` yönergesiyle tanımlanan **Server Actions**, form gönderimlerini ve mutasyonları API route yazmadan doğrudan sunucuda çalıştırır. Bir sunucu bileşeninden çağrılır, veriyi günceller ve `revalidatePath` ile önbelleği tazeler.
 
 ```tsx
 // app/actions.ts
 'use server';
 import { db } from '@/lib/db';
 import { revalidatePath } from 'next/cache';
+import { z } from 'zod';
+
+const schema = z.object({ name: z.string().min(1).max(120) });
 
 export async function addProduct(formData: FormData) {
-  const name = String(formData.get('name'));
+  const { name } = schema.parse({ name: formData.get('name') });
   await db.product.create({ data: { name } });
   revalidatePath('/products');
 }
 ```
 
-Bu deseni ürünlerde kullanırken en önemli ders girdi doğrulamasıydı: `formData` dış dünyadan gelen güvenilmez veridir, bu yüzden `db.create` çağrısından önce şema tabanlı doğrulama (Zod gibi) şart. Doğrulamayı atlarsan boş ya da hatalı kayıtlar sessizce oluşur.
+En kritik ders girdi doğrulamasıydı: `formData` dış dünyadan gelen güvenilmez veridir, bu yüzden `db.create` çağrısından önce Zod gibi şema tabanlı doğrulama şart. Atlarsan boş veya hatalı kayıtlar sessizce oluşur. Server Actions'ın en sevdiğimiz yanı ilerlemeli iyileştirmeyle uyumu: aksiyonu `<form action={addProduct}>` ile bağladığında, JavaScript henüz yüklenmese bile form çalışır.
 
-Server Actions'ın en sevdiğimiz yanı, ilerlemeli iyileştirme (progressive enhancement) ile uyumlu olması. Aksiyonu doğrudan `<form action={addProduct}>` şeklinde bağladığında, JavaScript henüz yüklenmemiş olsa bile form gönderimi çalışır. Etkileşimli durum (örneğin gönderim sırasında butonu devre dışı bırakmak) için `useFormStatus` kancasını yalnızca ilgili küçük Client Component'te kullanırsın; sayfanın geri kalanı sunucuda kalmaya devam eder.
+## RSC'ye geçerken kontrol listesi
 
-## RSC'ye geçerken nelere dikkat etmeli?
+Sayfa hızını bütünüyle ölçmek için [2026 Core Web Vitals kontrol listesi](/tr/posts/core-web-vitals-kontrol-listesi) yazısına, tüm kümeyi görmek için [web geliştirme rehberleri](/tr/category/web-gelistirme) sayfasına göz atabilirsin.
 
-Bu blog ağında daha derin konular için [Next.js App Router ile veri çekme desenleri](#) ve [React'te Suspense ve streaming rehberi](#) yazılarına, performans tarafı için [frontend bundle optimizasyonu](#) içeriğine göz atabilirsin. Kategori temeli olarak [web geliştirme rehberleri](#) sayfası tüm kümeye bağlanır.
-
-Hızlı kontrol listesi:
-
-- Varsayılanı sunucuda bırak, `'use client'` sınırını mümkün olduğu kadar aşağıda tut.
-- Veri çekmeyi sunucu bileşenine, etkileşimi istemci adacıklarına ver.
-- Yavaş veri için `Suspense` ve `loading.js` ile streaming'i kullan.
+- Varsayılanı sunucuda bırak, `'use client'` sınırını mümkün olduğunca aşağıda tut.
+- Bağımsız verileri paralel çek; iç içe `await` ile sunucu waterfall'ı kurma.
+- Yavaş veri için `Suspense` ve `loading.js` ile streaming kullan.
 - Mutasyonları Server Actions ile yap, girişi mutlaka doğrula.
+- Next.js 16'daysan önbelleği `use cache` + `cacheLife()` ile açıkça beyan et.
 
 ## Sıkça Sorulan Sorular
 
-### Next.js React Server Components varsayılan olarak mı açık?
+### React Server Components varsayılan olarak mı açık?
 
-Evet. App Router kullanan Next.js 15 projelerinde `app/` dizinindeki her bileşen, dosyanın başına `'use client'` eklemediğin sürece otomatik olarak bir Server Component'tir. İstemci davranışına yalnızca ihtiyaç duyduğun yaprak bileşenlerde geçersin.
+Evet. App Router kullanan Next.js 15 ve 16 projelerinde `app/` dizinindeki her bileşen, dosyanın başına `'use client'` eklemediğin sürece otomatik olarak bir Server Component'tir. İstemci davranışına yalnızca ihtiyaç duyduğun yaprak bileşenlerde geçersin.
 
 ### RSC ile Client Components aynı sayfada birlikte kullanılabilir mi?
 
-Evet, hatta önerilen desen budur. Sunucu bileşeni ağacın çoğunu render eder ve içine Client Component'leri çocuk olarak veya prop olarak yerleştirir. Böylece sayfanın yalnızca etkileşim gerektiren parçaları tarayıcıya JavaScript gönderir.
+Evet, önerilen desen budur. Sunucu bileşeni ağacın çoğunu render eder, Client Component'leri içine çocuk ya da prop olarak yerleştirir. Böylece sayfanın yalnızca etkileşim gerektiren parçaları tarayıcıya JavaScript gönderir.
 
-### Server Components eski `getServerSideProps`'un yerini mi aldı?
+### Next.js 15'te fetch neden önbelleğe alınmıyor?
 
-Büyük ölçüde evet. App Router'da veriyi doğrudan `async` sunucu bileşeninde `await` ederek çekersin; `getServerSideProps` ve `getStaticProps` Pages Router'a özgü kalır. Yeni projelerde RSC tabanlı veri çekme önerilen yaklaşımdır.
+Next.js 15'ten itibaren `fetch` varsayılan olarak önbelleğe alınmaz; her istekte taze veri gelir. Önbelleklemek istiyorsan `fetch(url, { cache: 'force-cache' })` dersin. Next.js 16'da ise `cacheComponents` açıkken `use cache` yönergesi ve `cacheLife()` bu işin standart yolu hâline geldi.
 
-### RSC SEO'yu nasıl etkiler?
+### Server Components eski getServerSideProps'un yerini mi aldı?
 
-Olumlu etkiler. Sunucu bileşenleri tamamen sunucuda render edildiği için arama motorları ve AI cevap motorları içeriği ilk HTML'de eksiksiz görür. Daha küçük istemci bundle'ı sayfa hızını artırır, bu da Core Web Vitals ve sıralama açısından avantaj sağlar.
+Büyük ölçüde evet. App Router'da veriyi doğrudan `async` sunucu bileşeninde `await` ederek çekersin; `getServerSideProps` ve `getStaticProps` Pages Router'a özgü kalır ve Pages Router artık bakım moduna geçti. Yeni projelerde RSC tabanlı veri çekme önerilen yaklaşımdır.

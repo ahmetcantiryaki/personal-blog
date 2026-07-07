@@ -3,23 +3,23 @@ title: "Core Web Vitals Checklist for 2026"
 slug: "core-web-vitals-checklist"
 translationKey: "core-web-vitals-checklist"
 locale: "en"
-excerpt: "A practical Core Web Vitals checklist for 2026: measure LCP, INP, and CLS with real field data, then fix the most common issues step by step."
+excerpt: "A field-tested Core Web Vitals checklist for 2026: measure LCP, INP, and CLS with real CrUX data, fix the worst metric first, and verify with July 2026 tooling."
 category: "web-development"
 tags: ["core-web-vitals", "web-performance", "frontend", "seo"]
-publishedAt: "2026-04-13"
+publishedAt: "2026-07-02"
 seoTitle: "Core Web Vitals Checklist for 2026"
-seoDescription: "A practical Core Web Vitals checklist for 2026: measure LCP, INP, and CLS with real field data and fix the most common issues step by step."
+seoDescription: "A practical Core Web Vitals checklist for 2026: measure LCP, INP, and CLS with real CrUX field data and fix the most common issues step by step."
 ---
 
-To pass Core Web Vitals, get all three metrics under their thresholds: **LCP below 2.5 seconds**, **INP below 200 milliseconds**, and **CLS below 0.1**. This Core Web Vitals checklist helps you measure with real user data (CrUX) instead of lab tests, prioritize the worst offender, and turn your pages green fast in 2026.
+If dozens of site audits taught us one thing, it's this: Core Web Vitals work starts with data, not guesses. Memorize the three thresholds and get under them: **LCP below 2.5 seconds**, **INP below 200 milliseconds**, **CLS below 0.1**. This Core Web Vitals checklist gets you measuring with real user data (CrUX) instead of fiddling with Lighthouse scores, closing the metric that bleeds the most first, and turning pages green fast.
 
-Work through the steps in order and you'll stop guessing and start fixing the issues that actually move the needle.
+Work the steps in order and you'll stop asking "is this the thing slowing us down?" and go straight for the issue that actually moves the needle.
 
 ## What do Core Web Vitals measure in 2026?
 
-Core Web Vitals are Google's set of metrics that summarize user experience across three dimensions: loading (LCP), responsiveness (INP), and visual stability (CLS). INP replaced FID in March 2024, and as of 2026 all three are ranking signals on mobile and desktop. The goal is passing the threshold at the 75th percentile of your field data.
+Core Web Vitals are Google's set of metrics summarizing user experience across three dimensions: loading (LCP), responsiveness (INP), and visual stability (CLS). INP replaced FID in March 2024, and as of July 2026 all three are ranking signals on mobile and desktop. The goal is passing the threshold at the **75th percentile** of your field data — meaning even the slowest quarter of your real visitors has to stay under it.
 
-In short, one fast load isn't enough. Google expects even the slowest quarter of your real visitors to stay under the threshold.
+Our experience is blunt: of the three, INP is the hardest to pass. LCP and CLS you can tidy up with a few correct `preload`s and size declarations; INP won't budge until you pay down the JavaScript debt on the main thread.
 
 | Metric | What it measures | Good | Needs work | Poor |
 |--------|------------------|------|------------|------|
@@ -56,7 +56,7 @@ The three interventions that pay off most in practice:
 <img src="/hero.avif" width="1200" height="600" fetchpriority="high" alt="Product image" />
 ```
 
-Switching to modern image formats (AVIF, WebP) and sizing correctly with `srcset` also frees up a lot of your LCP budget. For a deeper dive, see our [guide to modern image formats](/blog/modern-image-formats).
+Switching to modern image formats (AVIF, WebP) and sizing correctly with `srcset` frees up a lot of your LCP budget — see our [guide to optimizing images for web performance](/en/posts/optimize-images-web-performance). Which rendering strategy to use to speed up that server response is exactly what our [SSR vs SSG vs ISR breakdown](/en/posts/ssr-vs-ssg-vs-isr) covers.
 
 ## Why does INP spike, and how do I fix it?
 
@@ -65,11 +65,11 @@ INP usually spikes because the main thread is clogged with long tasks. When a us
 Where to focus:
 
 - **Audit third-party scripts.** Analytics, chat, and ad scripts are the most common INP offenders. Use `async`/`defer` or load them after the first interaction.
-- **Break up long tasks.** Give the main thread room to breathe with `scheduler.yield()` or `setTimeout`; keep every task under 50 ms.
+- **Break up long tasks.** `scheduler.yield()` gives the main thread room to breathe while letting the task keep its place in the queue. As of July 2026 it ships in Chrome and Firefox 142; since it isn't in every browser yet, keep a `setTimeout` fallback.
 - **Kill unnecessary React re-renders.** Reduce wasted work with `useMemo`, `useCallback`, and list virtualization.
 - **Use `content-visibility: auto`.** Deferring the render cost of off-screen sections speeds up interaction response.
 
-On the framework side, your hydration strategy matters too. We covered server components and selective hydration in detail in our [React performance optimization article](/blog/react-performance-optimization).
+On the framework side, your hydration strategy matters too. We covered how server components and selective hydration affect INP in detail in our [React Server Components in Next.js 15 guide](/en/posts/react-server-components-nextjs-15).
 
 ## Quick ways to get CLS close to zero
 
@@ -82,9 +82,7 @@ The essence of lowering CLS is letting the browser know how much space an elemen
 
 ## How do I monitor Core Web Vitals in production?
 
-To catch regressions without waiting on field data, set up real user monitoring (RUM). Google's official `web-vitals` library measures all three metrics in the browser and sends them to your analytics endpoint. That way you see whether a deploy broke INP the same day, instead of waiting 28 days.
-
-A practical setup looks like this:
+To catch regressions without waiting 28 days on field data, set up real user monitoring (RUM). Google's official `web-vitals` library (at 5.3 as of July 2026) measures all three metrics in the browser and sends them to your analytics endpoint. That way you see whether a deploy broke INP the same day.
 
 ```js
 import { onLCP, onINP, onCLS } from 'web-vitals';
@@ -100,16 +98,26 @@ onCLS(send);
 
 Slice this data by page template, device type, and connection speed. Most teams look at the average and miss the problem sitting at the 75th percentile; always report by percentile.
 
+Which lever moves which metric? This matrix helps you orient in the first 30 minutes of an audit:
+
+| Intervention | Primary impact | Effort | When |
+|--------------|----------------|--------|------|
+| `fetchpriority` + `preload` on hero | LCP | Low | LCP > 2.5 s and the element is an image |
+| TTFB / edge cache (SSG-ISR) | LCP | Medium | Server response > 600 ms |
+| Split long tasks with `scheduler.yield()` | INP | Medium | INP > 200 ms |
+| Defer third-party scripts | INP | Low | Analytics/chat/ads present |
+| Set `width`/`height` on media | CLS | Low | Shifting during load |
+
 ## The most common Core Web Vitals mistakes
 
-The mistakes we see over and over in audits that quietly sink a Core Web Vitals effort:
+The mistakes we see over and over in audits that quietly sink a well-meant effort:
 
 - **Trusting lab scores.** Scoring 100 in Lighthouse doesn't mean you pass in the field. CrUX decides.
 - **Lazy-loading the hero image.** Adding `loading="lazy"` to an above-the-fold image directly delays LCP.
 - **Over-optimizing a single metric.** If you fix CLS by shipping a huge JavaScript bundle, you'll wreck INP; monitor all three together.
 - **Not auditing third-party scripts.** Most INP problems originate not in your code but in tags added after the fact.
 
-Avoiding these traps alone turns many pages green. For a wider view, see our [web performance fundamentals article](/blog/web-performance-fundamentals) and the [other frontend guides on our category page](/blog/web-development).
+Avoiding these traps alone turns many pages green. Style mistakes that bloat your utilities indirectly strain INP too; our [Tailwind CSS mistakes to avoid](/en/posts/tailwind-css-mistakes) and the [other guides in the Web Development category](/en/category/web-development) are a good next stop.
 
 ## Frequently Asked Questions
 
@@ -127,4 +135,4 @@ INP reports a value close to the slowest of all interactions a user makes throug
 
 ### Which tools should I use for Core Web Vitals?
 
-For field data, PageSpeed Insights and the CrUX Dashboard; for live monitoring, the `web-vitals` JavaScript library; for debugging, the Chrome DevTools Performance panel and Lighthouse. If you want continuous monitoring, add a real user monitoring (RUM) solution.
+For field data, PageSpeed Insights and the CrUX Dashboard; for live monitoring, the official [`web-vitals`](https://github.com/GoogleChrome/web-vitals) library; for debugging, the Chrome DevTools Performance panel and Lighthouse. For metric-moving tactics, Google's [top CWV improvements](https://web.dev/articles/top-cwv) and the [`scheduler.yield()` guide](https://developer.chrome.com/blog/use-scheduler-yield) are the primary sources.

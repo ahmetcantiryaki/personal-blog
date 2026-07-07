@@ -3,15 +3,15 @@ title: "Docker Best Practices for Production"
 slug: "docker-best-practices-production"
 translationKey: "docker-best-practices"
 locale: "en"
-excerpt: "Docker best practices for production: a practical checklist covering multi-stage builds, non-root users, image scanning, health checks, and resource limits."
+excerpt: "Docker best practices for production: a practical, 2026-current checklist covering multi-stage builds, non-root users, image scanning, health checks, and resource limits."
 category: "devops-cloud"
 tags: ["docker", "containers", "devops", "best-practices"]
-publishedAt: "2026-04-17"
+publishedAt: "2026-07-01"
 seoTitle: "Docker Best Practices for Production (2026)"
-seoDescription: "Docker best practices production checklist: multi-stage builds, non-root users, image scanning, health checks, and resource limits for ship-ready containers."
+seoDescription: "Docker best practices production checklist: multi-stage builds, non-root users, Docker Scout image scanning, health checks, and resource limits for ship-ready containers."
 ---
 
-Docker best practices for production center on small, pinned base images, non-root users, multi-stage builds, image scanning, health checks, and resource limits. These six moves shrink image size, cut your attack surface, and reduce the number of 3 a.m. pages you get. Below is a checklist that walks each one with real commands.
+Docker best practices for production center on small, pinned base images, non-root users, multi-stage builds, image scanning, health checks, and resource limits. These six moves shrink image size, cut your attack surface, and reduce the number of 3 a.m. pages you get. Below is a checklist that walks each one with real commands, updated to the versions shipping as of July 2026.
 
 This isn't a concept explainer; it's the audit list we actually run. We ran every item while shipping a Node.js API to production, including the steps that dropped our image from 1.1 GB to 180 MB.
 
@@ -21,7 +21,7 @@ Short answer: there are ten checks every image should pass before it ships. Bake
 
 | Check | Why it matters | Quick fix |
 |-------|----------------|-----------|
-| Pinned base image tag | `latest` drifts every build | Exact version like `node:22.14-alpine3.21` |
+| Pinned base image tag | `latest` drifts every build | Exact version like `node:24.18-alpine3.22` |
 | Multi-stage build | Keep build tools out of the image | `AS build` + `AS runtime` |
 | Non-root user | Limits blast radius on escape | `USER app` |
 | .dockerignore | Stop secrets and `node_modules` leaks | `.git`, `.env`, `node_modules` |
@@ -32,23 +32,33 @@ Short answer: there are ten checks every image should pass before it ships. Bake
 | Read-only filesystem | Block runtime tampering | `--read-only` |
 | Secret management | Keep secrets out of layers | BuildKit secrets |
 
+Note: with [Docker Engine 28](https://docs.docker.com/engine/release-notes/28/), BuildKit is now the default builder, so most of the steps below work with no extra configuration.
+
+## Which base image and tag should I pick?
+
+Don't use the `latest` tag in production; it can point to a different image on every build and breaks reproducibility. Pin to a fixed, version-locked tag instead. On the Node.js side, as of July 2026 the Active LTS is **Node.js 24 (Krypton)**; Node.js 26 shipped in April 2026 but doesn't enter LTS until October 2026 (see the [official Node image](https://hub.docker.com/_/node) for current tags). For production, stay on LTS: a tag like `node:24.18-alpine3.22` pins both the runtime version and the base distro.
+
+Go one step further and pin the image by digest (`node@sha256:...`). That way, even if the publisher silently republishes under the same tag, you run exactly the bytes you tested. It's the cheapest security win in this list of Docker best practices.
+
 ## Why should you use multi-stage builds?
 
-A multi-stage build separates the compile stage from the runtime stage, stripping compilers, dev dependencies, and intermediate files out of the final image. The result is usually a 5-10x smaller image and a noticeably tighter attack surface. It's the single highest-ROI move in this list of Docker best practices.
+A multi-stage build separates the compile stage from the runtime stage, stripping compilers, dev dependencies, and intermediate files out of the final image. The result is usually a 5-10x smaller image and a noticeably tighter attack surface. It's the single highest-ROI move on this list.
 
-Shipping a single-stage Node image, we started at 1.1 GB. Switching to multi-stage dropped the same app to 180 MB, because `devDependencies` and build artifacts never made it into the final layer.
+Shipping a single-stage Node image, we started at 1.1 GB. Switching to multi-stage dropped the same app to 180 MB, because `devDependencies` and build artifacts never made it into the final layer. A smaller image isn't just about disk: pull times drop, deploys speed up, and there are fewer binaries to hand an attacker.
+
+A practical rule: copy only what the runtime needs into the final stage. Compilers, test tools, `git` history, and source `.ts` files are useless in a runtime image.
 
 ```dockerfile
 # Stage 1: build
-FROM node:22.14-alpine3.21 AS build
+FROM node:24.18-alpine3.22 AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+RUN --mount=type=cache,target=/root/.npm npm ci
 COPY . .
 RUN npm run build
 
 # Stage 2: runtime
-FROM node:22.14-alpine3.21 AS runtime
+FROM node:24.18-alpine3.22 AS runtime
 WORKDIR /app
 ENV NODE_ENV=production
 COPY package*.json ./
@@ -72,11 +82,11 @@ RUN addgroup -S app && adduser -S app -G app
 USER app
 ```
 
-Verification is simple: `docker exec <container> whoami` should return `app` or `node`, not `root`. On Kubernetes, enforce the same guarantee at the pod level with `securityContext.runAsNonRoot: true`.
+Verification is simple: `docker exec <container> whoami` should return `app` or `node`, not `root`. On Kubernetes, enforce the same guarantee at the pod level with `securityContext.runAsNonRoot: true`. We collected the usual cluster-level slip-ups in [10 Kubernetes mistakes to avoid](/en/posts/kubernetes-mistakes-to-avoid).
 
 ## How do you scan Docker images for vulnerabilities?
 
-Scan images in your CI pipeline with `docker scout cves` or Trivy to catch known CVEs before they reach production. As of 2026, Docker Scout ships with Docker Desktop and the CLI, so there's nothing extra to install. Put the scan step right after the build and fail the build on high or critical findings.
+Scan images in your CI pipeline with `docker scout cves` or Trivy to catch known CVEs before they reach production. As of July 2026, [Docker Scout](https://docs.docker.com/scout/) ships with Docker Desktop and the CLI, so there's nothing extra to install. It aggregates data from 23 advisory sources including NVD and the GitHub Advisory Database, and shows CVSS v4 scores when available. Put the scan step right after the build and fail the build on high or critical findings.
 
 ```bash
 # Quick local check
@@ -86,13 +96,13 @@ docker scout cves my-api:1.4.0
 docker scout cves --exit-code --only-severity critical,high my-api:1.4.0
 ```
 
-In one real incident, a team that hadn't refreshed its base image in three months got seven critical `openssl` CVEs flagged in a single scan. The fix wasn't in their code; it was bumping the base image tag to the current patched release. Lesson: run scans on a schedule, not just on the first release.
+If you prefer open source, [Trivy](https://github.com/aquasecurity/trivy/releases/latest) is a strong alternative; the latest stable release in early July 2026 is **v0.70.0** (April 17, 2026). Heads up: that release rotated the GPG signing keys for the deb and rpm repos, so pipelines that install Trivy from the package repository need to re-import the new key first.
 
-## How do you optimize layer caching?
+In one real incident, a team that hadn't refreshed its base image in three months got seven critical `openssl` CVEs flagged in a single scan. The fix wasn't in their code; it was bumping the base image tag to the current patched release. Lesson: run scans on a schedule, not just on the first release. To wire the same discipline into your delivery flow, see [how to build a CI/CD pipeline from scratch](/en/posts/how-to-build-cicd-pipeline).
 
-Put rarely changing layers near the top of your Dockerfile so Docker's cache does the most work. Docker caches each instruction as a layer, and when one layer changes, every layer below it is rebuilt. Copying dependencies before source code lets the `npm ci` step come from cache whenever only the code changes.
+## How do you tune layer caching, health checks, and limits?
 
-Get the ordering wrong and every tiny code change reinstalls all dependencies, blowing up your CI time. The correct order is:
+Put rarely changing layers near the top of your Dockerfile so Docker's cache does the most work. Docker caches each instruction as a layer, and when one layer changes, every layer below it is rebuilt. Copying dependencies before source code lets the `npm ci` step come from cache whenever only the code changes. The correct order is:
 
 1. Choose the base image (`FROM`)
 2. Set the working directory (`WORKDIR`)
@@ -101,11 +111,7 @@ Get the ordering wrong and every tiny code change reinstalls all dependencies, b
 5. Copy the application source (`COPY . .`)
 6. Build (`RUN npm run build`)
 
-Keep BuildKit on (the default in 2026) and use `--mount=type=cache` to persist your package manager cache across builds. That speeds up dependency downloads even on clean builds.
-
-## How do you add health checks and resource limits?
-
-Use the `HEALTHCHECK` directive to prove the container is actually serving, and `--memory` and `--cpus` flags to keep resource usage bounded. Without a health check, your orchestrator can't tell that the process is up but the app is hung. Without limits, a single leak can starve the whole host.
+Use BuildKit's `--mount=type=cache` to persist your package manager cache across builds; that speeds up dependency downloads even on clean builds. On the runtime side, use `HEALTHCHECK` to prove the container is actually serving, and `--memory` and `--cpus` to keep resource usage bounded.
 
 ```bash
 docker run -d \
@@ -118,9 +124,9 @@ docker run -d \
   my-api:1.4.0
 ```
 
-If you use Compose or Kubernetes, keep the same settings in your declarative files. On Kubernetes, mirror them with `resources.limits` plus `livenessProbe`/`readinessProbe`; the readiness probe keeps traffic away from a pod that isn't ready.
+Without a health check, your orchestrator can't tell that the process is up but the app is hung. Making the root filesystem `--read-only` and mounting only the paths you need (like `/tmp`) as `--tmpfs` shuts the door on most runtime tampering. On Kubernetes, mirror these with `resources.limits` plus `livenessProbe`/`readinessProbe`.
 
-To go deeper, read our guides on [container security fundamentals](/en/blog/container-security-fundamentals) and, on the orchestration side, [Kubernetes production setup](/en/blog/kubernetes-production-setup). We group every related guide under the [DevOps and cloud](/en/blog/category/devops-cloud) category.
+My opinionated take: the most-neglected item here isn't image scanning, it's digest pinning. Even during a clean [zero-downtime deployment](/en/posts/zero-downtime-deployments), the "same tag" assumption can bite you silently. For the wider picture, browse the [DevOps and Cloud](/en/category/devops-cloud) category.
 
 ## Frequently Asked Questions
 
@@ -133,5 +139,5 @@ A multi-stage build. By keeping build tools and dev dependencies out of the fina
 ### How do I keep secrets safe in a Dockerfile?
 Never pass secrets via `ENV` or `ARG`; they get baked into layers and are readable with `docker history`. Use BuildKit's `--mount=type=secret` instead, and for runtime secrets inject environment variables or a secret manager (Vault, AWS Secrets Manager) at run time.
 
-### Should I use the `latest` tag in production?
-No. `latest` can point to a different image on every build, which breaks reproducibility and causes silent failures. Always use fixed, version-pinned tags like `node:22.14-alpine3.21`, and pin to a digest (`@sha256:...`) when you can.
+### Which Node.js tag should I use in production?
+Stay on Active LTS. As of July 2026 that's Node.js 24; pick a tag like `node:24.18-alpine3.22` that pins both the version and the Alpine distro, and pin to a digest (`@sha256:...`) when you can. Node.js 26 has shipped but isn't LTS until October 2026, so waiting is the safer call for critical production.

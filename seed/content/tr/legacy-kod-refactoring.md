@@ -3,17 +3,19 @@ title: "Legacy Kod Güvenli Şekilde Nasıl Refactor Edilir"
 slug: "legacy-kod-refactoring"
 translationKey: "refactor-legacy-code"
 locale: "tr"
-excerpt: "Legacy kod refactoring'i güvenli yapmanın yolu: davranışı karakterizasyon testleriyle sabitleyin, küçük geri alınabilir adımlarla değiştirin ve strangler desenini kullanın."
 category: "software-engineering"
 tags: ["refactoring", "clean-code", "legacy-code", "code-quality"]
-publishedAt: "2026-07-02"
-seoTitle: "Legacy Kod Güvenli Refactor: Adım Adım Rehber"
-seoDescription: "Legacy kod refactoring'i güvenli yapın: davranışı karakterizasyon testiyle sabitleyin, küçük geri alınabilir adımlarla ilerleyin, strangler desenini kullanın."
+publishedAt: "2026-07-01"
+excerpt: "AI çağında legacy kod refactoring'i güvenli yapın: davranışı karakterizasyon testiyle sabitleyin, geri alınabilir adımlar ve strangler fig deseniyle ilerleyin."
+seoTitle: "Legacy Kod Güvenli Refactor: 2026 Rehberi"
+seoDescription: "Legacy kod refactoring'i güvenli yapın: davranışı karakterizasyon testiyle sabitleyin, geri alınabilir adımlarla ilerleyin, strangler fig desenini kullanın."
 ---
 
-Legacy kod refactoring'i güvenli yapmanın özü şudur: önce mevcut davranışı karakterizasyon testleriyle sarın, sonra kodu testler yeşil kaldıkça küçük ve geri alınabilir adımlarla değiştirin. Bir refactor ile davranış değişikliğini asla aynı commit'te birleştirmeyin. İşin tamamı budur; yapıyı ancak davranış kaydığı an bağıran bir test paketiniz varsa korkusuzca değiştirebilirsiniz.
+Mart 2026'da danışmanlık yaptığımız bir fintech ekibi, 6.000 satırlık bir ödeme modülünü bir hafta sonunda agentic bir asistana "modernize" ettirdi. Diff muhteşemdi. Ayrıca kısmi iadelerin nasıl yuvarlandığını sessizce değiştirmişti; üç gün sonra finans ekibi 40 bin euroluk uyuşmayan muhasebe kayıtlarıyla boğuşuyordu. Kod derleniyordu, demo geçmişti ve kimsenin eski davranışı sabitleyen bir testi yoktu. Legacy kodun bütün derdi bu tek hikâyede.
 
-Legacy kod "eski kod" demek değildir. Güvendiğiniz testi olmayan ve soru soracağınız bir yazarı bulunmayan koddur. Bu rehber, korkutucu ve testsiz modülleri production'da kırmadan değiştirmek için kullandığımız tam sırayı ve ne zaman *hiç* refactor yapmamak gerektiğini anlatıyor.
+Legacy kod refactoring'i güvenli yapmanın özü şudur: önce mevcut davranışı karakterizasyon testleriyle sarın, sonra kodu testler yeşil kaldıkça küçük ve geri alınabilir adımlarla değiştirin. Bir refactor ile davranış değişikliğini asla aynı commit'te birleştirmeyin. Yapıyı korkusuzca ancak davranış kaydığı an bağıran bir test paketiniz varsa değiştirebilirsiniz; ve bu kural, bir yapay zekânın bin satırı okuyabildiğinizden hızlı yeniden yazabildiği şu dönemde *daha da* önemli.
+
+Legacy kod "eski kod" demek değildir. Güvendiğiniz testi olmayan ve soru soracağınız bir yazarı bulunmayan koddur. Bu rehber, korkutucu ve testsiz modülleri production'da kırmadan değiştirmek için kullandığımız tam sıradır.
 
 ## "Legacy kodu güvenli refactor etmek" tam olarak ne demek?
 
@@ -52,7 +54,7 @@ def test_characterize_calculate_fee():
     assert result == 87.50  # 2026-07-01'de yakalandı; "doğru" değil, sadece mevcut
 ```
 
-`calculate_fee` içinde bir yuvarlama hatası varsa bu test o hatayı bilerek *korur*. Karakterizasyon testi için doğru davranış budur; refactor sırasında işiniz sonucu değil yapıyı değiştirmektir. Hatayı sonra, kendi commit'inde ve amaçlanan değişikliği belgeleyen kendi testiyle düzeltirsiniz.
+`calculate_fee` içinde bir yuvarlama hatası varsa bu test o hatayı bilerek *korur*. Karakterizasyon testi için doğru davranış budur; refactor sırasında işiniz sonucu değil yapıyı değiştirmektir. Hatayı sonra, kendi commit'inde ve amaçlanan değişikliği belgeleyen kendi testiyle düzeltirsiniz. Yukarıdaki fintech ekibinin eksikliği tam olarak bu ağdı.
 
 ## Hangi refactoring tekniği hangi duruma uyar?
 
@@ -67,7 +69,7 @@ Farklı legacy sorunları farklı teknikler ister. Bir dikiş yeterken tam yenid
 | Emin olmadığın riskli değişiklik | Soyutlamayla dallanma | Orta | Eski ve yeni bir flag arkasında yan yana çalışır |
 | Artık kimsenin çağırmadığı kod | Sil | En düşük | En güvenli refactor ölü kodu kaldırmaktır |
 
-Dikkat edin: "sıfırdan yeniden yaz" tabloda yok. Tam yeniden yazımlar mevcut mantığa gömülü, yıllarca kazanılmış hata düzeltmelerini çöpe atar ve nadiren zamanında biter. Martin Fowler'ın popülerleştirdiği strangler fig desenini tercih edin: yeni sistemi eskinin kenarlarında inşa edip trafiği parça parça kaydırın, ta ki legacy kod açlıktan sönene kadar.
+Dikkat edin: "sıfırdan yeniden yaz" tabloda yok. Tam yeniden yazımlar mevcut mantığa gömülü, yıllarca kazanılmış hata düzeltmelerini çöpe atar ve nadiren zamanında biter. Martin Fowler'ın popülerleştirdiği [strangler fig desenini](https://martinfowler.com/bliki/StranglerFigApplication.html) tercih edin: yeni sistemi eskinin kenarlarında inşa edip trafiği parça parça kaydırın, ta ki legacy kod açlıktan sönene kadar. Yeniden yapılandırırken dayanacağınız tasarım söz dağarcığı için [tasarım kalıpları rehberimize](/tr/posts/yazilim-tasarim-kaliplari) ve [ileri TypeScript kalıpları](/tr/posts/ileri-typescript-kaliplari) yazımıza bakın.
 
 ## Dikişi olmayan legacy kod nasıl değiştirilir?
 
@@ -93,6 +95,12 @@ function expireSessions(db = database, clock = Date) {
 
 Varsayılan argümanlar mevcut tüm çağıranları değişmeden çalışır tutar, yani bu düzenlemenin kendisi davranış korur. Ama artık bir test sahte `db` ve donmuş bir `clock` geçirebilir; bu da asıl refactor'dan önce ihtiyacınız olan karakterizasyon testlerini yazmanızı sağlar. "Dikiş ekle, sonra test et, sonra değiştir" sırası en zor legacy kod için temel beceridir.
 
+## 2026'da legacy kodu AI'a refactor ettirmeli misiniz?
+
+Evet; ama yalnızca yukarıdaki test ağının *içinde*, onun yerine asla. Temmuz 2026 itibarıyla en güçlü kod modelleri (Claude [Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) ve Opus 4.8, GPT-5.5) binlerce satır arasında bağımlılık haritası çıkarıp bir insanın bir günü alacak çok dosyalı düzenlemeler önerebiliyor. Cazibe diff'e güvenmek. Güvenmeyin.
+
+Google'ın [2024 DORA araştırması](https://dora.dev/insights/balancing-ai-tensions/), AI benimsemesindeki %25'lik artışın kod kalitesi metrikleri yükselse bile teslimat kararlılığında **%7,2'lik düşüşle** ilişkili olduğunu buldu; GitClear'ın uzun dönemli analizi ise iki hafta içinde geri alınan veya yeniden yazılan satırlar (kod churn'ü) için yaklaşık iki katına çıkış öngördü. Daha hızlı diff, daha çok regresyon. Kişisel görüşüm: bir yapay zeka, 5. adım (tek bir yapısal değişiklik yap) için mükemmel bir eş; ama 3. ve 4. adımların kötü bir ikamesidir. Metot çıkarmayı ona taslaklatın; kendisini, *sizin* yazdığınız testlere karşı kanıtlamaya zorlayın, aynı nefeste ürettiği testlere değil.
+
 ## Büyük bir refactor'da production nasıl kırılmaz?
 
 Büyük refactor'ları, bir hata servisi çökertmek yerine zarif biçimde bozulacak şekilde korumalarla yayınlayın. Amaç, tek bir deploy'un geri alınamaz bir arızaya yol açamamasıdır. Birkaç pratik alışkanlığı birleştirin:
@@ -100,16 +108,16 @@ Büyük refactor'ları, bir hata servisi çökertmek yerine zarif biçimde bozul
 - **Soyutlamayla dallanın.** Değiştirdiğiniz kodun önüne bir arayüz koyun, eski ve yeni implementasyonu bir feature flag arkasında çalıştırın ve anında geri alınabilir bir config değişikliğiyle geçiş yapın.
 - **Küçük commit'lerle yayınlayın.** İncelenebilir on commit, kimsenin gerçekten okuyamadığı 4.000 satırlık bir PR'dan iyidir.
 - **Her commit'te testleri yeşil tutun.** Kırmızı build "sonra düzeltirim" değil, tam duraktır.
-- **Production'da eski ile yeniyi karşılaştırın.** Kritik yollarda iki implementasyonu birlikte çalıştırıp uyuşmazlıkları loglayın; GitHub'ın Scientist kütüphanesi tam bunun için yapılmıştır.
+- **Production'da eski ile yeniyi karşılaştırın.** Kritik yollarda iki implementasyonu birlikte çalıştırıp uyuşmazlıkları loglayın; [GitHub'ın Scientist kütüphanesi](https://github.com/github/scientist) tam bunun için yapılmıştır ve 20'den fazla dile portu vardır.
 - **Her deploy sonrası metrikleri izleyin.** Hata oranı ve gecikme, "davranış koruyan" bir değişikliğin gerçekten koruyup korumadığını dakikalar içinde söyler.
 
-Geçen çeyrekte 9 yıllık bir faturalama hesaplayıcısını soyutlamayla dallanarak değiştirdik. İki hafta gölge modda iki motoru birlikte çalıştırmak, karakterizasyon testlerinin kaçırdığı 11 kenar durumu ortaya çıkardı; hepsi tek bir müşteri yanlış fatura görmeden yakalandı. Bunun dayandığı test temeli için [işe yarayan unit testler nasıl yazılır](/blog/unit-test-nasil-yazilir) rehberimize, yapı hedefleri için de [temiz kod prensipleri kontrol listesine](/blog/temiz-kod-prensipleri) bakın.
+Geçen çeyrekte 9 yıllık bir faturalama hesaplayıcısını soyutlamayla dallanarak değiştirdik. İki hafta gölge modda iki motoru birlikte çalıştırmak, karakterizasyon testlerinin kaçırdığı 11 kenar durumu ortaya çıkardı; hepsi tek bir müşteri yanlış fatura görmeden yakalandı. Bunun dayandığı test temeli için [işe yarayan unit testler nasıl yazılır](/tr/posts/unit-test-nasil-yazilir) rehberimize, yapı hedefleri için de [temiz kod prensipleri kontrol listesine](/tr/posts/temiz-kod-prensipleri) bakın.
 
 ## Legacy kodu ne zaman refactor etmemeli?
 
 Çalışan, nadiren değişen ve önünüzü tıkamayan kodu refactor etmeyin; kararlılığın değeri vardır ve her düzenleme risk taşır. Refactoring ancak yapmak üzere olduğunuz bir değişikliğin maliyetini düşürüyorsa hak eder. Kararlı bir modülü sırf estetik için yeniden diziyorsanız, karşılığı olmayan bir risk bütçesi harcıyorsunuz.
 
-Basit bir test: bu refactor bir sonraki özelliği veya hata düzeltmesini ucuzlatıyor mu? Evetse, o işin parçası olarak yapın. Mümkün kıldığı değişikliği adlandıramıyorsanız, dokunmayın. En iyi refactor'lar, açtıkları özellik sorunsuz yayınlandığı için kimsenin fark etmediği olanlardır. Refactor sonrası daha temiz yapının ardındaki kalıplar için [geliştiriciler için tasarım kalıpları](/blog/yazilim-tasarim-kaliplari) rehberimiz ve [yazılım mühendisliği kategori](/blog/software-engineering) sayfamız daha derine iner.
+Basit bir test: bu refactor bir sonraki özelliği veya hata düzeltmesini ucuzlatıyor mu? Evetse, o işin parçası olarak yapın. Mümkün kıldığı değişikliği adlandıramıyorsanız, dokunmayın. En iyi refactor'lar, açtıkları özellik sorunsuz yayınlandığı için kimsenin fark etmediği olanlardır. Daha fazlası için [yazılım mühendisliği kategori](/tr/category/yazilim-muhendisligi) sayfamıza göz atın.
 
 ## Sıkça Sorulan Sorular
 
@@ -121,9 +129,9 @@ Refactoring, mevcut testlere karşı küçük ve doğrulanmış adımlarla davra
 
 Bir şeyi değiştirmeden önce test ekleyin. Bir dikiş bulun (public metot ya da bir I/O sınırı), kodu gerçekçi girdilerle çağırın ve hatalar dahil şu an ne döndürüyorsa ona assert eden karakterizasyon testleri yazın. Dikiş yoksa, önce bağımlılık enjeksiyonuyla bir dikiş ekleyin; bu düzenlemenin kendisi davranış korur. Davranış sabitlendikten sonra yeniden yapılandırmaya başlarsınız.
 
-### Her refactoring adımı ne kadar küçük olmalı?
+### Legacy kodu AI araçlarıyla refactor etmek güvenli mi?
 
-Tek bir `git revert` ile geri alınabilecek ve tek bir test çalıştırmasıyla doğrulanabilecek kadar küçük. Pratikte bu, commit başına bir metot çıkarma, bir yeniden adlandırma ya da bir ölü dal silme demektir. Bir adım, davranışı değiştirip değiştirmediğinden emin olamayacağınız kadar büyük hissettiriyorsa, çok büyüktür; bölün. Küçük adımlar yavaş hissettirir ama neyi bozduğunu bulamadığınız dev bir değişikliği debug etmekten çok daha hızlıdır.
+Yalnızca sizin kontrol ettiğiniz bir test ağının içinde. Modern modeller yapısal düzenlemeler önermekte çok iyi, ama 2026 DORA verisi artan AI benimsemesini düşen teslimat kararlılığıyla ilişkilendiriyor. Karakterizasyon testlerini kendiniz yazın, AI'a tek seferde tek küçük değişiklik taslaklatın ve güvenmeden önce her diff'i o testlere karşı doğrulayın. Bir yapay zekânın yapı ile davranışı aynı, incelenmemiş commit'te değiştirmesine asla izin vermeyin.
 
 ### Refactoring'de strangler fig deseni nedir?
 

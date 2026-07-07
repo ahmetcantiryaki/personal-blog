@@ -3,21 +3,21 @@ title: "Text Embeddings Explained for Developers"
 slug: "text-embeddings-explained"
 translationKey: "text-embeddings-explained"
 locale: "en"
-excerpt: "Text embeddings explained for developers: how they turn words into vectors, how similarity search works, which models to pick in 2026, and code you can run."
 category: "ai"
 tags: ["embeddings", "rag", "machine-learning"]
-publishedAt: "2026-06-09"
+publishedAt: "2026-07-02"
+excerpt: "Text embeddings explained for developers: how they turn words into vectors, how similarity search works, and which model to pick in 2026 (Gemini, Voyage, BGE)."
 seoTitle: "Text Embeddings Explained for Developers (2026)"
-seoDescription: "Text embeddings explained: how they turn text into vectors, how cosine similarity search works, which model to pick in 2026, and runnable Python code."
+seoDescription: "How text embeddings turn text into vectors, how cosine similarity search works, the 2026 model landscape (Gemini, Voyage, Cohere, BGE-M3), and runnable Python."
 ---
 
-Text embeddings are lists of numbers that represent the meaning of a piece of text, so a computer can measure how similar two pieces of text are by comparing their vectors. An embedding model reads a word, sentence, or document and outputs a fixed-length vector (say 1,024 numbers). Text close in meaning lands close in that vector space. This is the trick behind semantic search, RAG, and recommendations.
+A text embedding is a list of numbers that captures the meaning of a piece of text, so a machine can measure how similar two snippets are by comparing their vectors. Feed a word, sentence, or document into an embedding model and it hands back a fixed-length vector, say 1,024 floats. Text that means the same thing lands close together in that space. That single trick is what powers semantic search, RAG, and recommendations, and it is worth understanding at the level of "what actually happens on the wire."
 
 ## What is a text embedding, and how does it work?
 
-A text embedding is a dense vector of floating-point numbers that encodes the semantic meaning of text into a fixed number of dimensions. A trained model maps "refund policy" and "how do I get my money back" to nearby points, even though they share no words. You compare two embeddings with a distance metric to get a similarity score.
+A text embedding is a dense vector of floating-point numbers that encodes semantic meaning into a fixed number of dimensions. A trained model maps "refund policy" and "how do I get my money back" to nearby points even though they share no words. Compare two embeddings with a distance metric and you get a similarity score.
 
-Here's the mental model. Every embedding is a coordinate in a high-dimensional space (commonly 384 to 3,072 dimensions in 2026). The model learned, during training on billions of text pairs, to place related concepts near each other. Direction matters more than exact position. That's why you can search by meaning instead of exact keywords.
+The mental model: every embedding is a coordinate in a high-dimensional space, commonly 256 to 3,072 dimensions as of July 2026. During training on billions of text pairs, the model learned to place related concepts near each other. Direction matters more than exact position, which is why you can search by meaning instead of exact keywords.
 
 - **Input:** raw text (a query, a chunk, a product title).
 - **Model:** a transformer trained specifically to produce embeddings.
@@ -28,22 +28,22 @@ Here's the mental model. Every embedding is a coordinate in a high-dimensional s
 
 The model tokenizes your text, runs it through transformer layers that build context-aware representations, then pools those into one fixed-length vector. Unlike an LLM that predicts the next token, an embedding model is trained with contrastive learning: pull matching pairs together, push mismatched pairs apart. The result is a geometry where distance equals semantic difference.
 
-Here's what actually happens on a call, step by step:
+Here's what happens on a call, step by step:
 
 1. **Tokenize.** Split the text into subword tokens the model knows.
 2. **Embed tokens.** Look up an initial vector for each token.
 3. **Contextualize.** Pass tokens through attention layers so each one absorbs its neighbors' meaning.
-4. **Pool.** Combine the per-token vectors (mean pooling or a special CLS token) into one vector.
+4. **Pool.** Combine per-token vectors (mean pooling or a special CLS token) into one vector.
 5. **Normalize.** Scale the vector to unit length so cosine similarity is a clean dot product.
 6. **Return.** Hand back a float array, e.g. 1,024 numbers, ready to store or compare.
 
-You never see steps 1–5 as a developer. You call an API or a local model and get the array back. What matters is that the same model must embed both your stored documents and your queries, or the vectors won't be comparable.
+You never see steps 1–5 as a developer. You call an API or a local model and get the array back. What matters: the same model must embed both your stored documents and your queries, or the vectors are not comparable. Mix `text-embedding-3-large` documents with `gemini-embedding-001` queries and you get noise, not results.
 
 ## How do you measure similarity between embeddings?
 
-You measure similarity with cosine similarity, which compares the angle between two vectors and returns a score from -1 (opposite) to 1 (identical). Because most modern embeddings are normalized to unit length, cosine similarity and dot product give the same ranking. A score near 1 means the two texts mean nearly the same thing.
+You measure it with cosine similarity, which compares the angle between two vectors and returns a score from -1 (opposite) to 1 (identical). Because most modern embeddings are normalized to unit length, cosine similarity and dot product give the same ranking. A score near 1 means the two texts mean nearly the same thing.
 
-Here's a runnable example with the OpenAI embeddings API and NumPy:
+Here's a runnable example with the [OpenAI embeddings API](https://platform.openai.com/docs/guides/embeddings) and NumPy:
 
 ```python
 import numpy as np
@@ -73,36 +73,38 @@ When we ran this on a support corpus, the password query scored 0.61 against the
 
 ## Which embedding model should you pick in 2026?
 
-Pick a model by matching dimensions, cost, and hosting to your scale. Hosted models like OpenAI's `text-embedding-3-large` and Voyage's `voyage-3` win on quality with zero ops; open models like `bge-m3` and `nomic-embed-text-v2` win when you must self-host or embed millions of chunks cheaply. Higher dimensions capture more nuance but cost more storage and compute.
+Pick by matching dimensions, cost, and hosting to your scale. The landscape moved fast: as of July 2026, Google's [`gemini-embedding-001`](https://ai.google.dev/gemini-api/docs/embeddings) sits at the top of the MTEB multilingual leaderboard (average task score 68.32), while Voyage's [`voyage-3-large`](https://blog.voyageai.com/2025/01/07/voyage-3-large/) and Cohere's [`embed-v4`](https://docs.cohere.com/changelog/embed-multimodal-v4) trade blows on retrieval-heavy and multimodal workloads. Open models like `bge-m3` and `nomic-embed-text-v2` win when you must self-host or embed tens of millions of chunks without a per-token bill.
 
-| Model | Dimensions | Hosting | Best for |
-|-------|-----------|---------|----------|
-| `text-embedding-3-small` | 1,536 | OpenAI API | Cheap, fast general search |
-| `text-embedding-3-large` | 3,072 | OpenAI API | Highest hosted quality |
-| `voyage-3` | 1,024 | Voyage API | Strong retrieval, long context |
-| `bge-m3` | 1,024 | Self-host | Multilingual, open, free |
-| `nomic-embed-text-v2` | 768 | Self-host | Lightweight, on-prem |
+| Model | Dimensions | Hosting | Price / 1M tokens | Best for |
+|-------|-----------|---------|-------------------|----------|
+| `gemini-embedding-001` | 3,072 (→1,536/768) | Google API | $0.15 | Top multilingual quality |
+| `voyage-3-large` | 2,048 (→256) | Voyage API | ~$0.12 | Strong retrieval, long context |
+| `embed-v4` | 1,536 (→256) | Cohere API | ~$0.12 | Multimodal (text + PDF/image) |
+| `text-embedding-3-large` | 3,072 | OpenAI API | $0.13 | Solid hosted default |
+| `text-embedding-3-small` | 1,536 | OpenAI API | $0.02 | Cheap, fast prototypes |
+| `bge-m3` | 1,024 | Self-host | $0 (your compute) | Multilingual, open, MIT |
+| `nomic-embed-text-v2` | 768 | Self-host | $0 (your compute) | Lightweight, on-prem |
 
-Two practical tips. First, many 2026 models support Matryoshka embeddings: you can truncate a 3,072-dim vector to 512 dims and keep most of the quality, which slashes storage. Second, test on your own data, not a leaderboard. We swapped a top-ranked model for `bge-m3` on a Turkish-English corpus and recall went up, because the benchmark didn't reflect our languages.
+Two practical tips. First, Matryoshka is now table stakes: Gemini, Voyage, and Cohere all let you truncate a full-resolution vector to a smaller size with minor quality loss. Cohere reports dropping `embed-v4` from 1,536 to 256 dims costs about 2.8% quality but cuts storage by 83%. That is a trade we take almost every time at scale. Second, test on your own data, not a leaderboard. We swapped a top-ranked model for `bge-m3` on a Turkish-English corpus and recall went up, because the benchmark didn't reflect our languages. If you're formalizing that step, our guide on [how to evaluate LLM outputs](/en/posts/how-to-evaluate-llm-outputs) applies directly to retrieval evals too.
 
 ## Where do you actually use text embeddings?
 
-Embeddings power any feature that needs "find things that mean the same." The dominant use in 2026 is retrieval for [RAG systems](/blog/ai), where you embed document chunks, store them in a vector database, and fetch the closest ones to ground an LLM's answer. But the pattern is broader than chatbots.
+Embeddings power any feature that needs "find things that mean the same." The dominant use in 2026 is retrieval for [RAG systems](/en/posts/how-to-build-rag-system): embed document chunks, store them in a vector database, and fetch the closest ones to ground an LLM's answer. But the pattern is broader than chatbots.
 
 - **Semantic search.** Match queries to documents by meaning, not keywords.
-- **RAG.** Retrieve context for an LLM. See our [guide to building a RAG system](/blog/ai) for the full pipeline.
+- **RAG.** Retrieve context for an LLM instead of fine-tuning; see [fine-tuning vs RAG](/en/posts/fine-tuning-vs-rag) for the trade-off.
 - **Recommendations.** Suggest similar articles, products, or songs by vector proximity.
-- **Deduplication & clustering.** Group near-duplicate tickets or cluster feedback themes.
+- **Deduplication and clustering.** Group near-duplicate tickets or cluster feedback themes.
 - **Classification.** Embed text, then run a cheap classifier on the vectors.
 
-To store and search vectors at scale, you'll want a purpose-built store. Our [vector database comparison](/blog/ai) walks through pgvector, Qdrant, and Pinecone so you can match one to your load.
+To store and search vectors at scale, you want a purpose-built store. Our [vector database comparison](/en/posts/vector-database-comparison) walks through pgvector, Qdrant, and Pinecone so you can match one to your load. For more retrieval-adjacent playbooks, the [AI section](/en/category/ai) collects the rest.
 
 ## What breaks with embeddings, and how do you fix it?
 
 Three issues show up on nearly every project we ship.
 
 - **Mismatched models.** Query and documents embedded with different models produce garbage scores. Pin one model version and re-embed everything when you change it.
-- **Keyword blindness.** Pure embeddings miss exact strings like error codes or SKUs. Fix it with hybrid search: combine dense vectors with keyword BM25.
+- **Keyword blindness.** Pure dense embeddings miss exact strings like error codes or SKUs. Fix it with hybrid search: combine dense vectors with keyword BM25. Handily, `bge-m3` produces dense, sparse, and multi-vector output from a single pass.
 - **Silent staleness.** Documents change but your vectors don't. Store a content hash per chunk and re-embed only what changed on a schedule.
 
 Measure before you optimize. Build a small eval set of real queries with known correct results, then track recall@k every time you swap a model or tweak chunking. Without that, you're guessing whether a change helped.
@@ -119,8 +121,8 @@ No, though they're relatives. Word2vec (2013) gave each word one static vector r
 
 ### How many dimensions should a text embedding have?
 
-For most apps, 768 to 1,536 dimensions is the sweet spot between quality and cost. Go higher (3,072) only when you have hard evidence it lifts retrieval on your data. With Matryoshka-capable models you can start high and truncate later, so you're not locked in. Storage and search latency both scale with dimensions, so don't over-buy.
+For most apps, 768 to 1,536 dimensions is the sweet spot between quality and cost. Go higher (3,072) only when you have hard evidence it lifts retrieval on your data. With Matryoshka-capable models like Gemini, Voyage, and Cohere embed-v4 you can start high and truncate later, so you're not locked in. Storage and search latency both scale with dimensions, so don't over-buy.
 
 ### Can I generate text embeddings without an API?
 
-Yes. Open models like `bge-m3` or `nomic-embed-text-v2` run locally through libraries such as sentence-transformers or Ollama, with no per-call cost and full data privacy. You trade some quality and ops overhead for control. For high-volume or on-prem workloads, self-hosting an open embedding model is often the cheaper long-term choice.
+Yes. Open models like `bge-m3` or `nomic-embed-text-v2` run locally through sentence-transformers or Ollama, with no per-call cost and full data privacy. You trade some quality and ops overhead for control. For high-volume or on-prem workloads, self-hosting an open embedding model is often the cheaper long-term choice.

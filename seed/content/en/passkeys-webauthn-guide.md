@@ -3,13 +3,15 @@ title: "Passkeys and WebAuthn: A Developer's Guide"
 slug: "passkeys-webauthn-guide"
 translationKey: "passkeys-webauthn-guide"
 locale: "en"
-excerpt: "A practical passkeys WebAuthn guide: how passkeys work, a working registration and login flow with SimpleWebAuthn, and the edge cases that break in production."
+excerpt: "This passkeys WebAuthn guide takes you from zero to a working, phishing-resistant login: the challenge-response ceremony, full flow, and production gotchas."
 category: "web-development"
 tags: ["authentication", "web-security", "frontend", "passkeys"]
-publishedAt: "2026-06-30"
-seoTitle: "Passkeys and WebAuthn: A Developer's Guide"
-seoDescription: "A hands-on passkeys WebAuthn guide: how the ceremony works, a full registration and login flow with code, and the production gotchas nobody warns you about."
+publishedAt: "2026-07-03"
+seoTitle: "Passkeys and WebAuthn: A Developer's Guide (2026)"
+seoDescription: "A hands-on passkeys WebAuthn guide for 2026: the challenge-response ceremony, a full registration and login flow with SimpleWebAuthn v13, and production gotchas."
 ---
+
+On World Passkey Day this May, the FIDO Alliance put a number on it: as of the [State of Passkeys 2026 report](https://fidoalliance.org/the-state-of-passkeys-2026-global-consumer-and-workforce-report/), there are now 5 billion passkeys in active use, 75% of consumers have enabled them on at least some accounts, and 49% reach for them whenever a site offers the option. Passwords didn't die on schedule, but the trend line is finally steep.
 
 This passkeys WebAuthn guide gets you from zero to a working, phishing-resistant login. Passkeys are cryptographic credentials that replace passwords; WebAuthn is the browser API you call to create and use them. You keep the public key, the user's device keeps the private key, and there is nothing on your server for an attacker to steal or phish.
 
@@ -26,7 +28,7 @@ The terms get blurred, so keep them straight:
 - **FIDO2** is the umbrella covering both.
 - A **passkey** is a *discoverable* WebAuthn credential, usually synced across a user's devices through iCloud Keychain, Google Password Manager, or a third-party manager like 1Password or Bitwarden.
 
-The syncing part is what made passkeys mainstream. Older WebAuthn credentials were device-bound, so losing the device meant losing the account. Synced passkeys removed that cliff and turned WebAuthn from an enterprise second factor into a primary login for everyone.
+The syncing part is what made passkeys mainstream. Older WebAuthn credentials were device-bound, so losing the device meant losing the account. Synced passkeys removed that cliff and turned WebAuthn from an enterprise second factor into a primary login for everyone. The spec itself keeps moving: the W3C published a [WebAuthn Level 3](https://www.w3.org/TR/webauthn-3/) Candidate Recommendation on 13 January 2026, formalizing the newer surface area most of this guide relies on.
 
 ## How does passkey authentication work?
 
@@ -45,7 +47,7 @@ Here is the login flow end to end:
 9. Your server checks the **signature counter** to detect cloned authenticators.
 10. On success, you create a session as usual.
 
-Registration is the mirror image: the server sends creation options, `navigator.credentials.create()` generates the key pair, and you store the returned public key and credential ID against the user.
+Registration is the mirror image: the server sends creation options, `navigator.credentials.create()` generates the key pair, and you store the returned public key and credential ID against the user. That credential ID is your lookup key on every login, so index it — the same discipline covered in our [database indexing guide](/en/posts/database-indexing-explained).
 
 ## Passkeys vs passwords vs OTP: which should you use?
 
@@ -63,7 +65,7 @@ The one honest tradeoff: passkeys depend on the user's platform ecosystem and ac
 
 ## How to implement passkeys with WebAuthn
 
-Do not hand-roll the crypto. Use a maintained library that handles CBOR parsing, attestation, and origin checks. On Node we use **SimpleWebAuthn** (`@simplewebauthn/server` v13, released early 2026); the Python equivalent is `py_webauthn`, and for the JVM there is `webauthn4j`. Below is the core of both ceremonies with SimpleWebAuthn.
+Do not hand-roll the crypto. Use a maintained library that handles CBOR parsing, attestation, and origin checks. On Node we use [SimpleWebAuthn](https://simplewebauthn.dev/docs/packages/server) (`@simplewebauthn/server`, on 13.3.2 as of July 2026); the Python equivalent is `py_webauthn`, and for the JVM there is `webauthn4j`. Below is the core of both ceremonies with SimpleWebAuthn.
 
 ### Registration (creating a passkey)
 
@@ -109,7 +111,7 @@ On the client, pass `options` to `startRegistration()` from `@simplewebauthn/bro
 
 ### Authentication with conditional UI (autofill)
 
-The best passkey UX is **conditional UI**: the browser surfaces passkeys right in the username field's autofill dropdown, so returning users never type anything. Enable it by adding `autocomplete="username webauthn"` to the input and calling `startAuthentication({ ..., useBrowserAutofill: true })` on page load.
+The best passkey UX is **conditional UI**: the browser surfaces passkeys right in the username field's autofill dropdown, so returning users never type anything. Enable it by adding `autocomplete="username webauthn"` to the input and calling `startAuthentication({ ..., useBrowserAutofill: true })` on page load. Because that dropdown is keyboard-and-screen-reader driven, wire it up against our [web accessibility checklist](/en/posts/web-accessibility-checklist) so it does not silently break for assistive tech.
 
 ```ts
 import {
@@ -139,15 +141,26 @@ if (verification.verified) {
 }
 ```
 
+Where the session lands afterward matters if you render server-side; our [React Server Components guide](/en/posts/react-server-components-nextjs-15) covers reading that cookie without leaking it into client components.
+
 ## What broke for us in production and how we fixed it
 
 Three things bit us when we rolled passkeys out, and none were in the happy-path tutorials.
 
-- **The `rpID` / origin mismatch.** WebAuthn silently rejects everything if `rpID` is not a registrable suffix of the origin. Our staging box ran on a `*.vercel.app` preview URL, so credentials made against `preview-abc.vercel.app` were useless on `woyable.com`. Fix: pin `rpID` to your real apex domain in every non-preview environment and test on it directly.
+- **The `rpID` / origin mismatch.** WebAuthn silently rejects everything if `rpID` is not a registrable suffix of the origin. Our staging box ran on a `*.vercel.app` preview URL, so credentials made against `preview-abc.vercel.app` were useless on `woyable.com`. Fix: pin `rpID` to your real apex domain in every non-preview environment. If you genuinely need one passkey across sibling domains, use Related Origin Requests — a `.well-known/webauthn` allowlist, now supported in every major engine since Firefox 152 shipped it in May 2026.
 - **Localhost worked, HTTP staging didn't.** WebAuthn requires a secure context. `localhost` is exempted, so it lulls you into thinking things work; the first HTTP-only staging deploy returned `NotAllowedError`. Fix: serve every non-localhost environment over HTTPS, no exceptions.
-- **Orphaned credentials after a device wipe.** Users who reset a phone left dead credential IDs, and login just failed with no explanation. Fix: adopt the WebAuthn **Signal API** (`PublicKeyCredential.signalUnknownCredential`) so the platform prunes credentials you no longer recognize, and always keep a working email fallback.
+- **Orphaned credentials after a device wipe.** Users who reset a phone left dead credential IDs, and login just failed with no explanation. Fix: adopt the WebAuthn **Signal API** (`signalUnknownCredential` and `signalAllAcceptedCredentials`) so the platform prunes credentials you no longer recognize, and always keep a working email fallback.
 
-For the surrounding architecture, see our [web security fundamentals guide](/blog/web-security-fundamentals) and how sessions fit in our [authentication patterns overview](/blog/authentication-patterns). If you are hardening the browser layer, pair this with our [content security policy guide](/blog/content-security-policy) and the broader [web development guides](/blog/web-development).
+The Signal API is the one piece still landing unevenly. Here is where the newer WebAuthn surface stands as of July 2026:
+
+| Feature | Chrome / Edge | Safari | Firefox |
+|---------|---------------|--------|---------|
+| Core WebAuthn + synced passkeys | Yes | Yes | Yes |
+| Conditional UI (autofill) | Yes | Yes | Yes |
+| Related Origin Requests | 128+ | 18+ | 152+ (May 2026) |
+| Signal API | Desktop + Android | 26+ | Not yet |
+
+The honest take: ship passkeys now, but treat the Signal API as progressive enhancement, not a guarantee. Your server-side pruning and email fallback still have to work when the browser stays silent.
 
 ## Frequently Asked Questions
 
@@ -165,4 +178,4 @@ Synced passkeys survive because they live in the cloud keychain, not just the lo
 
 ### Do I need to handle attestation?
 
-Usually not. For consumer apps, set `attestationType: 'none'`; attestation adds privacy friction and buys you little. Only request attestation when a compliance regime or enterprise policy demands proof of the exact authenticator model, and be ready to maintain a trusted-root list if you do.
+Usually not. For consumer apps, set `attestationType: 'none'`; attestation adds privacy friction and buys you little. Only request attestation when a compliance regime or enterprise policy demands proof of the exact authenticator model, and be ready to maintain a trusted-root list if you do. For a broader map of front-end topics, browse our [web development articles](/en/category/web-development).

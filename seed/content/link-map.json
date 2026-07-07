@@ -1,0 +1,661 @@
+{
+  "urlPatterns": {
+    "post": "/{locale}/posts/{slug}",
+    "category": "/{locale}/category/{slug}",
+    "tag": "/{locale}/tag/{slug}"
+  },
+  "categories": {
+    "ai": {
+      "tr": {
+        "slug": "yapay-zeka",
+        "title": "Yapay Zeka"
+      },
+      "en": {
+        "slug": "ai",
+        "title": "AI"
+      }
+    },
+    "web-development": {
+      "tr": {
+        "slug": "web-gelistirme",
+        "title": "Web Geliştirme"
+      },
+      "en": {
+        "slug": "web-development",
+        "title": "Web Development"
+      }
+    },
+    "software-engineering": {
+      "tr": {
+        "slug": "yazilim-muhendisligi",
+        "title": "Yazılım Mühendisliği"
+      },
+      "en": {
+        "slug": "software-engineering",
+        "title": "Software Engineering"
+      }
+    },
+    "devops-cloud": {
+      "tr": {
+        "slug": "devops-bulut",
+        "title": "DevOps & Bulut"
+      },
+      "en": {
+        "slug": "devops-cloud",
+        "title": "DevOps & Cloud"
+      }
+    },
+    "career-productivity": {
+      "tr": {
+        "slug": "kariyer-uretkenlik",
+        "title": "Kariyer & Üretkenlik"
+      },
+      "en": {
+        "slug": "career-productivity",
+        "title": "Career & Productivity"
+      }
+    }
+  },
+  "posts": [
+    {
+      "translationKey": "advanced-typescript-patterns",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ileri-typescript-kaliplari",
+        "title": "Daha Temiz Kod İçin İleri TypeScript Kalıpları"
+      },
+      "en": {
+        "slug": "advanced-typescript-patterns",
+        "title": "Advanced TypeScript Patterns for Cleaner Code"
+      }
+    },
+    {
+      "translationKey": "ai-agents-vs-workflows",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-agent-mi-workflow-mu",
+        "title": "AI Agent mı Workflow mu: Hangisi Ne Zaman"
+      },
+      "en": {
+        "slug": "ai-agents-vs-workflows",
+        "title": "AI Agents vs Workflows: When to Use Each"
+      }
+    },
+    {
+      "translationKey": "ai-coding-assistant-mistakes",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-kod-asistani-hatalari",
+        "title": "AI Kod Asistanı Kullanırken 7 Hata"
+      },
+      "en": {
+        "slug": "ai-coding-assistant-mistakes",
+        "title": "7 Mistakes When Using AI Coding Assistants"
+      }
+    },
+    {
+      "translationKey": "astro-vs-nextjs",
+      "category": "web-development",
+      "tr": {
+        "slug": "astro-mu-nextjs-mi",
+        "title": "Astro mu Next.js mi: 2026'da Hangisi"
+      },
+      "en": {
+        "slug": "astro-vs-nextjs",
+        "title": "Astro vs Next.js: Which to Choose in 2026"
+      }
+    },
+    {
+      "translationKey": "avoid-developer-burnout",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yazilimci-tukenmisligi",
+        "title": "Yazılımcı Olarak Tükenmişlik Nasıl Önlenir"
+      },
+      "en": {
+        "slug": "avoid-developer-burnout",
+        "title": "How to Avoid Burnout as a Developer"
+      }
+    },
+    {
+      "translationKey": "build-cicd-pipeline",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "cicd-pipeline-nasil-kurulur",
+        "title": "Sıfırdan CI/CD Pipeline Nasıl Kurulur"
+      },
+      "en": {
+        "slug": "how-to-build-cicd-pipeline",
+        "title": "How to Build a CI/CD Pipeline from Scratch"
+      }
+    },
+    {
+      "translationKey": "build-rag-system",
+      "category": "ai",
+      "tr": {
+        "slug": "rag-sistemi-nasil-kurulur",
+        "title": "RAG Sistemi Nasıl Kurulur: Pratik Rehber"
+      },
+      "en": {
+        "slug": "how-to-build-rag-system",
+        "title": "How to Build a RAG System: A Practical Guide"
+      }
+    },
+    {
+      "translationKey": "clean-code-principles",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "temiz-kod-prensipleri",
+        "title": "Temiz Kod Prensipleri: Pratik Kontrol Listesi"
+      },
+      "en": {
+        "slug": "clean-code-principles-checklist",
+        "title": "Clean Code Principles: A Practical Checklist"
+      }
+    },
+    {
+      "translationKey": "core-web-vitals-checklist",
+      "category": "web-development",
+      "tr": {
+        "slug": "core-web-vitals-kontrol-listesi",
+        "title": "2026 İçin Core Web Vitals Kontrol Listesi"
+      },
+      "en": {
+        "slug": "core-web-vitals-checklist",
+        "title": "Core Web Vitals Checklist for 2026"
+      }
+    },
+    {
+      "translationKey": "css-container-queries",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-container-queries-kullanimi",
+        "title": "CSS Container Queries Nasıl Kullanılır"
+      },
+      "en": {
+        "slug": "css-container-queries-how-to",
+        "title": "CSS Container Queries: A Practical How-To"
+      }
+    },
+    {
+      "translationKey": "database-indexing-explained",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-indeksleme",
+        "title": "Örneklerle Veritabanı İndeksleme"
+      },
+      "en": {
+        "slug": "database-indexing-explained",
+        "title": "Database Indexing Explained with Examples"
+      }
+    },
+    {
+      "translationKey": "design-patterns-for-developers",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yazilim-tasarim-kaliplari",
+        "title": "Yazılımcılar İçin Tasarım Kalıpları"
+      },
+      "en": {
+        "slug": "design-patterns-for-developers",
+        "title": "Design Patterns Every Developer Should Know"
+      }
+    },
+    {
+      "translationKey": "developer-portfolio-guide",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "gelistirici-portfolyosu-olusturma",
+        "title": "Fark Yaratan Geliştirici Portfolyosu Oluşturma"
+      },
+      "en": {
+        "slug": "developer-portfolio-guide",
+        "title": "Build a Developer Portfolio That Stands Out"
+      }
+    },
+    {
+      "translationKey": "developer-productivity-ai",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-gelistirici-verimliligi",
+        "title": "AI Araçlarıyla Geliştirici Verimliliği"
+      },
+      "en": {
+        "slug": "developer-productivity-ai-tools",
+        "title": "Boost Developer Productivity with AI Tools"
+      }
+    },
+    {
+      "translationKey": "docker-best-practices",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "docker-en-iyi-pratikleri",
+        "title": "Üretim İçin Docker En İyi Pratikleri"
+      },
+      "en": {
+        "slug": "docker-best-practices-production",
+        "title": "Docker Best Practices for Production"
+      }
+    },
+    {
+      "translationKey": "evaluate-llm-outputs",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-ciktilari-degerlendirme",
+        "title": "LLM Çıktıları Nasıl Değerlendirilir"
+      },
+      "en": {
+        "slug": "how-to-evaluate-llm-outputs",
+        "title": "How to Evaluate LLM Outputs with Evals"
+      }
+    },
+    {
+      "translationKey": "fine-tuning-vs-rag",
+      "category": "ai",
+      "tr": {
+        "slug": "fine-tuning-mi-rag-mi",
+        "title": "Fine-Tuning mi RAG mi: Hangisine İhtiyacın Var"
+      },
+      "en": {
+        "slug": "fine-tuning-vs-rag",
+        "title": "Fine-Tuning vs RAG: Which One Do You Need?"
+      }
+    },
+    {
+      "translationKey": "finops-cloud-costs",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "finops-bulut-maliyeti-dusurme",
+        "title": "FinOps: Bulut Faturasını Nasıl Düşürürsün"
+      },
+      "en": {
+        "slug": "finops-reduce-cloud-costs",
+        "title": "FinOps: How to Cut Your Cloud Bill"
+      }
+    },
+    {
+      "translationKey": "freelance-developer-mistakes",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "freelance-gelistirici-hatalari",
+        "title": "Freelance Geliştirici Hataları ve Kaçınma Yolları"
+      },
+      "en": {
+        "slug": "freelance-developer-mistakes",
+        "title": "Freelance Developer Mistakes to Avoid"
+      }
+    },
+    {
+      "translationKey": "git-branching-strategies",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "git-branch-stratejileri",
+        "title": "Git Branch Stratejileri Karşılaştırması"
+      },
+      "en": {
+        "slug": "git-branching-strategies",
+        "title": "Git Branching Strategies Compared"
+      }
+    },
+    {
+      "translationKey": "gitops-explained",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "gitops-nedir",
+        "title": "GitOps Nedir: Prensipler ve Araçlar"
+      },
+      "en": {
+        "slug": "gitops-explained",
+        "title": "GitOps Explained: Principles and Tools"
+      }
+    },
+    {
+      "translationKey": "how-to-write-unit-tests",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "unit-test-nasil-yazilir",
+        "title": "İşe Yarayan Unit Testler Nasıl Yazılır"
+      },
+      "en": {
+        "slug": "how-to-write-unit-tests",
+        "title": "How to Write Unit Tests That Actually Help"
+      }
+    },
+    {
+      "translationKey": "junior-to-senior-developer",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "juniordan-senior-gelistiriciye",
+        "title": "Junior'dan Senior Geliştiriciye: Yol Haritası"
+      },
+      "en": {
+        "slug": "junior-to-senior-developer",
+        "title": "From Junior to Senior Developer: A Roadmap"
+      }
+    },
+    {
+      "translationKey": "kubernetes-cost-optimization",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-maliyet-optimizasyonu",
+        "title": "Kubernetes Maliyet Optimizasyonu: 10 Taktik"
+      },
+      "en": {
+        "slug": "kubernetes-cost-optimization",
+        "title": "Kubernetes Cost Optimization: 10 Tactics"
+      }
+    },
+    {
+      "translationKey": "kubernetes-mistakes",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-hatalari",
+        "title": "Kaçınmanız Gereken 10 Kubernetes Hatası"
+      },
+      "en": {
+        "slug": "kubernetes-mistakes-to-avoid",
+        "title": "10 Kubernetes Mistakes to Avoid"
+      }
+    },
+    {
+      "translationKey": "learn-coding-with-ai",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-kod-ogrenme",
+        "title": "2026'da AI ile Kodlamayı Daha Hızlı Öğren"
+      },
+      "en": {
+        "slug": "learn-coding-with-ai",
+        "title": "How to Learn Coding Faster with AI in 2026"
+      }
+    },
+    {
+      "translationKey": "microservices-vs-monolith",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "mikroservis-mi-monolit-mi",
+        "title": "Mikroservis mi Monolit mi: Doğru Karar"
+      },
+      "en": {
+        "slug": "microservices-vs-monolith",
+        "title": "Microservices vs Monolith: Making the Call"
+      }
+    },
+    {
+      "translationKey": "model-context-protocol-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "model-context-protocol-nedir",
+        "title": "Model Context Protocol (MCP) Nedir"
+      },
+      "en": {
+        "slug": "model-context-protocol-explained",
+        "title": "Model Context Protocol (MCP) Explained"
+      }
+    },
+    {
+      "translationKey": "observability-101",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "observability-nedir",
+        "title": "Observability 101: Log, Metrik ve Trace"
+      },
+      "en": {
+        "slug": "observability-logs-metrics-traces",
+        "title": "Observability 101: Logs, Metrics, and Traces"
+      }
+    },
+    {
+      "translationKey": "optimize-images-web",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-gorsel-optimizasyonu",
+        "title": "Web Performansı İçin Görsel Optimizasyonu"
+      },
+      "en": {
+        "slug": "optimize-images-web-performance",
+        "title": "How to Optimize Images for Web Performance"
+      }
+    },
+    {
+      "translationKey": "passkeys-webauthn-guide",
+      "category": "web-development",
+      "tr": {
+        "slug": "passkey-webauthn-rehberi",
+        "title": "Passkey ve WebAuthn: Geliştirici Rehberi"
+      },
+      "en": {
+        "slug": "passkeys-webauthn-guide",
+        "title": "Passkeys and WebAuthn: A Developer's Guide"
+      }
+    },
+    {
+      "translationKey": "prompt-engineering-patterns",
+      "category": "ai",
+      "tr": {
+        "slug": "prompt-muhendisligi-teknikleri",
+        "title": "Geliştiriciler İçin Prompt Mühendisliği"
+      },
+      "en": {
+        "slug": "prompt-engineering-patterns",
+        "title": "Prompt Engineering Patterns Every Dev Needs"
+      }
+    },
+    {
+      "translationKey": "react-server-components-nextjs",
+      "category": "web-development",
+      "tr": {
+        "slug": "nextjs-react-server-components",
+        "title": "Next.js 15'te React Server Components Rehberi"
+      },
+      "en": {
+        "slug": "react-server-components-nextjs-15",
+        "title": "React Server Components in Next.js 15: A Guide"
+      }
+    },
+    {
+      "translationKey": "react-state-management-comparison",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-state-yonetimi-karsilastirma",
+        "title": "2026'da React State Yönetimi Karşılaştırması"
+      },
+      "en": {
+        "slug": "react-state-management-comparison",
+        "title": "React State Management in 2026: Compared"
+      }
+    },
+    {
+      "translationKey": "reduce-llm-hallucinations",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-halusinasyon-azaltma",
+        "title": "Üretimde LLM Halüsinasyonları Nasıl Azaltılır"
+      },
+      "en": {
+        "slug": "reduce-llm-hallucinations",
+        "title": "How to Reduce LLM Hallucinations in Production"
+      }
+    },
+    {
+      "translationKey": "refactor-legacy-code",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "legacy-kod-refactoring",
+        "title": "Legacy Kod Güvenli Şekilde Nasıl Refactor Edilir"
+      },
+      "en": {
+        "slug": "how-to-refactor-legacy-code",
+        "title": "How to Refactor Legacy Code Safely"
+      }
+    },
+    {
+      "translationKey": "remote-developer-career-growth",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "uzaktan-gelistirici-kariyeri",
+        "title": "Uzaktan Çalışan Geliştirici Kariyeri Nasıl Büyür"
+      },
+      "en": {
+        "slug": "remote-developer-career-growth",
+        "title": "How to Grow Your Career as a Remote Developer"
+      }
+    },
+    {
+      "translationKey": "rest-vs-graphql",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "rest-mi-graphql-mi",
+        "title": "REST mi GraphQL mi: Doğru API Seçimi"
+      },
+      "en": {
+        "slug": "rest-vs-graphql",
+        "title": "REST vs GraphQL: Choosing the Right API"
+      }
+    },
+    {
+      "translationKey": "ssr-ssg-isr",
+      "category": "web-development",
+      "tr": {
+        "slug": "ssr-ssg-isr-farki",
+        "title": "SSR, SSG ve ISR: Render Yöntemleri"
+      },
+      "en": {
+        "slug": "ssr-vs-ssg-vs-isr",
+        "title": "SSR vs SSG vs ISR: Rendering Explained"
+      }
+    },
+    {
+      "translationKey": "system-design-interview",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "sistem-tasarimi-mulakati",
+        "title": "Sistem Tasarımı Mülakatı: Başlangıç Rehberi"
+      },
+      "en": {
+        "slug": "system-design-interview-guide",
+        "title": "System Design Interview: A Beginner's Guide"
+      }
+    },
+    {
+      "translationKey": "tailwind-css-mistakes",
+      "category": "web-development",
+      "tr": {
+        "slug": "tailwind-css-hatalari",
+        "title": "Kaçınmanız Gereken Tailwind CSS Hataları"
+      },
+      "en": {
+        "slug": "tailwind-css-mistakes",
+        "title": "Tailwind CSS Mistakes to Avoid in 2026"
+      }
+    },
+    {
+      "translationKey": "technical-interview-prep",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "teknik-mulakat-hazirligi",
+        "title": "Teknik Mülakat Hazırlığı: 30 Günlük Plan"
+      },
+      "en": {
+        "slug": "technical-interview-prep",
+        "title": "Technical Interview Prep: A 30-Day Plan"
+      }
+    },
+    {
+      "translationKey": "terraform-vs-pulumi",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "terraform-mu-pulumi-mi",
+        "title": "Terraform mu Pulumi mi: IaC Karşılaştırması"
+      },
+      "en": {
+        "slug": "terraform-vs-pulumi",
+        "title": "Terraform vs Pulumi: IaC Compared"
+      }
+    },
+    {
+      "translationKey": "text-embeddings-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "embedding-rehberi",
+        "title": "Geliştiriciler İçin Embedding Rehberi"
+      },
+      "en": {
+        "slug": "text-embeddings-explained",
+        "title": "Text Embeddings Explained for Developers"
+      }
+    },
+    {
+      "translationKey": "time-management-developers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "gelistiriciler-icin-zaman-yonetimi",
+        "title": "Yoğun Geliştiriciler İçin Zaman Yönetimi"
+      },
+      "en": {
+        "slug": "time-management-for-developers",
+        "title": "Time Management Tips for Busy Developers"
+      }
+    },
+    {
+      "translationKey": "vector-database-comparison",
+      "category": "ai",
+      "tr": {
+        "slug": "vektor-veritabani-karsilastirma",
+        "title": "Vektör Veritabanları Karşılaştırması 2026"
+      },
+      "en": {
+        "slug": "vector-database-comparison",
+        "title": "Vector Databases Compared: Pinecone to pgvector"
+      }
+    },
+    {
+      "translationKey": "web-accessibility-checklist",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-erisilebilirlik-kontrol-listesi",
+        "title": "Web Erişilebilirlik Kontrol Listesi (WCAG 2.2)"
+      },
+      "en": {
+        "slug": "web-accessibility-checklist",
+        "title": "Web Accessibility Checklist (WCAG 2.2)"
+      }
+    },
+    {
+      "translationKey": "what-is-platform-engineering",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "platform-engineering-nedir",
+        "title": "Platform Engineering Nedir: Detaylı Bakış"
+      },
+      "en": {
+        "slug": "what-is-platform-engineering",
+        "title": "What Is Platform Engineering? A Deep Dive"
+      }
+    },
+    {
+      "translationKey": "write-documentation",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "teknik-dokumantasyon-yazma",
+        "title": "Geliştiricilerin Seveceği Dokümantasyon Yazma"
+      },
+      "en": {
+        "slug": "how-to-write-documentation",
+        "title": "How to Write Documentation Developers Love"
+      }
+    },
+    {
+      "translationKey": "zero-downtime-deployments",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kesintisiz-deployment",
+        "title": "Kesintisiz Deployment Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "zero-downtime-deployments",
+        "title": "How to Achieve Zero-Downtime Deployments"
+      }
+    }
+  ]
+}

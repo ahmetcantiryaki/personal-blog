@@ -3,13 +3,15 @@ title: "How to Write Unit Tests That Actually Help"
 slug: "how-to-write-unit-tests"
 translationKey: "how-to-write-unit-tests"
 locale: "en"
-excerpt: "Learn how to write unit tests that catch real bugs: name for behavior, use Arrange-Act-Assert, test one thing, and skip the brittle implementation-detail tests."
 category: "software-engineering"
 tags: ["testing", "unit-testing", "code-quality", "best-practices"]
-publishedAt: "2026-06-13"
-seoTitle: "How to Write Unit Tests That Actually Help"
-seoDescription: "How to write unit tests that catch real bugs: name for behavior, use Arrange-Act-Assert, test one thing per case, and avoid brittle implementation-detail tests."
+publishedAt: "2026-07-01"
+excerpt: "Write unit tests that catch real bugs: name for behavior, use Arrange-Act-Assert, mock only boundaries, and skip brittle implementation-detail tests."
+seoTitle: "How to Write Unit Tests That Actually Help (2026)"
+seoDescription: "How to write unit tests that catch real bugs: name for behavior, use Arrange-Act-Assert, test one thing per case, and avoid brittle tests. Vitest 4.1 and Jest 30 examples."
 ---
+
+Vitest crossed 40 million weekly downloads in early 2026 — up more than 400% since 2023 — and for the first time topped Jest in both satisfaction and interest in the [State of JavaScript 2025](https://2025.stateofjs.com/en-US/libraries/testing/) survey. Great tooling has never been cheaper. And yet most suites still miss the bugs that reach production, because the problem was never the runner. It's that the tests assert on structure instead of behavior.
 
 To write unit tests that actually help, test observable behavior instead of implementation details, give each test one clear reason to fail, and follow the Arrange-Act-Assert structure. A useful unit test breaks only when the behavior breaks. If it also breaks every time you rename a private method or reorder a call, you've written a maintenance liability, not a safety net.
 
@@ -17,7 +19,7 @@ Most teams don't struggle with *whether* to test. They struggle because their te
 
 ## What makes a unit test "good"?
 
-A good unit test verifies one behavior, runs in milliseconds, and produces the same result every time regardless of order or machine. It reads like a specification: given some input, the function returns or does a specific thing. The classic acronym for this is **F.I.R.S.T.** — Fast, Isolated, Repeatable, Self-validating, Timely.
+A good unit test verifies one behavior, runs in milliseconds, and produces the same result every time regardless of order or machine. It reads like a specification: given some input, the function returns or does a specific thing. The classic acronym is **F.I.R.S.T.** — Fast, Isolated, Repeatable, Self-validating, Timely.
 
 The distinction that matters most in 2026: test **behavior**, not **structure**. A test coupled to internal method calls turns every refactor into a red suite, which trains your team to ignore failures. That's the exact opposite of what testing is for.
 
@@ -38,7 +40,7 @@ This is the core of test-driven development, but you get the benefit even when y
 
 ## What does a clean unit test look like?
 
-A clean test has three visible blocks and a name that states the rule. Here's the Arrange-Act-Assert pattern in practice, testing a small pricing function:
+A clean test has three visible blocks and a name that states the rule. Here's the Arrange-Act-Assert pattern in Vitest 4.1, testing a small pricing function:
 
 ```js
 import { describe, it, expect } from 'vitest';
@@ -66,7 +68,22 @@ describe('cartTotal', () => {
 });
 ```
 
-Notice each test touches `cartTotal` once and asserts on the return value only. It never inspects how the total is computed. Rewrite the function with `reduce`, a loop, or a lookup table, and both tests stay green. That's the property you're aiming for.
+Each test touches `cartTotal` once and asserts on the return value only. It never inspects how the total is computed. Rewrite the function with `reduce`, a loop, or a lookup table, and both tests stay green. That's the property you're aiming for. The exact same test body runs under Jest 30 — the assertions here are runner-agnostic, which is the whole point of leaning on public behavior.
+
+## Vitest 4.1 or Jest 30 — does the runner change how you write tests?
+
+Not the fundamentals, but it changes the ergonomics. As of July 2026 these are the two runners worth defaulting to for a JavaScript or TypeScript codebase:
+
+| Capability | Vitest 4.1 (Mar 2026) | Jest 30 (Jun 2025) |
+|------------|-----------------------|--------------------|
+| ESM / TypeScript | Native via Vite, zero config | Works, but needs transform config |
+| Browser Mode | Stable since v4 (real browser + Playwright trace) | Not built in |
+| Visual regression | Built in (v4) | Third-party only |
+| Watch-mode speed | Reuses Vite graph, near-instant HMR reruns | `unrs-resolver` made v30 ~20% faster than v29 |
+| Fake timers | `vi.useFakeTimers()` | `jest.useFakeTimers()` |
+| Default in frameworks | Angular 21, Nuxt, SvelteKit | Create React App legacy, Next.js docs |
+
+My opinionated take: for a greenfield project in 2026, reach for Vitest — the Vite integration and stable Browser Mode make it the lower-friction choice, and Angular 21 shipping it as the default in late 2025 settled the momentum question. For a mature Jest suite that passes, migrating for its own sake is rarely worth the churn. Jest 30 is genuinely faster than v29, and a green suite you trust beats a config rewrite.
 
 ## Which tests should you avoid writing?
 
@@ -81,19 +98,19 @@ Avoid tests that assert on internals, mock everything, or verify what the framew
 | Snapshot of a huge object | Nobody reviews the diff | Assert the specific fields that matter |
 | Sleeping to wait for async | Slow and flaky | Await the promise or use fake timers |
 
-On one payments service we cut a 40-minute suite to 6 minutes mostly by deleting mock-heavy tests that verified call order instead of results. Coverage dropped 4%, and we caught *more* real bugs because the remaining tests actually described behavior.
+On one payments service we cut a 40-minute suite to 6 minutes mostly by deleting mock-heavy tests that verified call order instead of results. Coverage dropped 4%, and we caught *more* real bugs because the remaining tests actually described behavior. If you're untangling a suite like that, our guide on [how to refactor legacy code safely](/en/posts/how-to-refactor-legacy-code) walks through doing it without losing the safety net.
 
 ## How much should you mock?
 
 Mock only what you don't control: network calls, the system clock, randomness, the file system, and third-party services. Everything you own should run for real inside the test. Over-mocking is the single biggest reason unit tests give false confidence — you end up asserting that your mocks were configured correctly, not that your code works.
 
-A practical rule: if replacing a real object with a mock changes *what* the test proves rather than just *how fast* it runs, don't mock it. For pure logic — calculations, validation, formatting, state transitions — you rarely need any mocks at all, which is why that logic is the highest-value thing to unit test.
+A practical rule: if replacing a real object with a mock changes *what* the test proves rather than just *how fast* it runs, don't mock it. For pure logic — calculations, validation, formatting, state transitions — you rarely need any mocks at all, which is why that logic is the highest-value thing to unit test. Designing code around small, injectable dependencies makes this easy; our [advanced TypeScript patterns](/en/posts/advanced-typescript-patterns) guide covers the seams that make it painless.
 
 ## What about coverage numbers?
 
 Coverage tells you what code *ran* during tests, not what behavior you *verified*, so treat it as a gap-finder, not a goal. Chasing 100% pushes teams to write trivial tests for getters and generated code while the tricky branches stay untested. Aim for meaningful coverage of decision logic — the `if`s, the error paths, the edge cases — and let simple glue code sit at whatever number falls out.
 
-We target roughly 80% as a floor on business logic and read the *uncovered* lines in every PR. An untested `catch` block or an unhit boundary condition is worth ten covered getters. If you want the wider framing on quality gates, see our [clean code principles checklist](/blog/clean-code-principles-checklist) and the [software engineering category](/blog/software-engineering) pillar.
+We target roughly 80% as a floor on business logic and read the *uncovered* lines in every PR. An untested `catch` block or an unhit boundary condition is worth ten covered getters. This is also where testing meets delivery: the coverage gate belongs in your [CI/CD pipeline](/en/posts/how-to-build-cicd-pipeline), not in a spreadsheet nobody reads. For the wider quality framing, see our [clean code principles checklist](/en/posts/clean-code-principles-checklist) and the [software engineering](/en/category/software-engineering) pillar.
 
 ## How do you keep tests from becoming a burden?
 
@@ -103,7 +120,7 @@ Tests become a burden when they're coupled to structure, slow, or unclear about 
 - **No logic in tests.** No loops or conditionals building expected values — hardcode them so the test can't share a bug with the code.
 - **Fresh state every time.** Build inputs inside each test, not in shared mutable module state.
 - **Delete tests that no longer describe behavior.** A deleted brittle test is a win, not a loss.
-- **Test through the public API.** If a private function is complex enough to need direct tests, it probably wants to be its own well-named module — a point we expand on in our [advanced TypeScript patterns](/blog/advanced-typescript-patterns) guide.
+- **Test through the public API.** If a private function is complex enough to need direct tests, it probably wants to be its own well-named module.
 
 Do these consistently and the suite becomes the thing that lets you refactor fearlessly, which is the entire point.
 
@@ -123,4 +140,4 @@ A unit test isolates one piece of logic and runs in milliseconds with no real I/
 
 ### How do I test code that depends on the current time or randomness?
 
-Inject the dependency instead of calling `Date.now()` or `Math.random()` directly, then supply a fixed value in the test. Most frameworks also ship fake timers (Vitest, Jest) that let you freeze and advance the clock. This turns non-deterministic code into repeatable tests, which is a hard requirement for the "R" in F.I.R.S.T.
+Inject the dependency instead of calling `Date.now()` or `Math.random()` directly, then supply a fixed value in the test. Both [Vitest](https://vitest.dev/api/vi.html#vi-usefaketimers) and [Jest](https://jestjs.io/docs/timer-mocks) ship fake timers that let you freeze and advance the clock. This turns non-deterministic code into repeatable tests, which is a hard requirement for the "R" in F.I.R.S.T.

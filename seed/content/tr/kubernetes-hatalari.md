@@ -3,21 +3,21 @@ title: "Kaçınmanız Gereken 10 Kubernetes Hatası"
 slug: "kubernetes-hatalari"
 translationKey: "kubernetes-mistakes"
 locale: "tr"
-excerpt: "Üretimde en sık gördüğümüz 10 Kubernetes hatası: eksik kaynak limitlerinden düz metin secret'lara kadar her biri için kesin çözüm ve manifest örneğiyle."
+excerpt: "2026'da üretim cluster'larını hâlâ çökerten 10 Kubernetes hatası: eksik kaynak isteğinden düz metin secret'lara kadar her biri için sorunu kapatan tam manifest."
 category: "devops-cloud"
 tags: ["kubernetes", "devops", "containers", "best-practices"]
-publishedAt: "2026-06-05"
+publishedAt: "2026-07-04"
 seoTitle: "Kaçınmanız Gereken 10 Kubernetes Hatası (2026)"
-seoDescription: "En sık yapılan Kubernetes hataları ve çözümleri: kaynak limitleri, probe'lar, secret yönetimi, HA ve RBAC. 2026 cluster'ları için gerçek manifest ve komutlar."
+seoDescription: "En sık yapılan Kubernetes hataları ve 1.33+ cluster'larda çözümleri: kaynak istekleri, probe'lar, secret yönetimi, PSA ve HA. 2026 için gerçek manifest'ler."
 ---
 
-En sık yapılan Kubernetes hataları; pod'ları kaynak isteği olmadan, health probe'suz ve yüksek erişilebilirlik kurulumu olmadan yayına almak, sonra bu eksikleri gece 02.00'deki bir olay sırasında keşfetmektir. Aşağıdaki her hatayı gerçek üretim cluster'larında bizzat çözdük ve her biri için sorunu kapatan tam manifest veya komutu verdik. Bu on hatayı düzeltirseniz kendi elinizle yarattığınız Kubernetes kesintilerinin büyük kısmını ortadan kaldırırsınız.
+En sık yapılan Kubernetes hataları; pod'ları kaynak isteği olmadan, health probe'suz ve yüksek erişilebilirlik kurulumu olmadan yayına almak, sonra bu eksikleri gece 02.00'deki bir olay sırasında keşfetmektir. Aşağıdaki her hatayı gerçek üretim cluster'larında bizzat çözdük ve her biri için sorunu kapatan tam manifest veya komutu verdik. Bu on hatayı düzeltirseniz kendi elinizle yarattığınız kesintilerin büyük kısmını ortadan kaldırırsınız.
 
-Bunlar 2026'da Kubernetes 1.29+ çalıştıran her dağıtım için geçerli (EKS, GKE, AKS ya da bare-metal k3s). Örnekler sade `kubectl` ve standart YAML kullanır; hiçbiri sağlayıcıya kilitli değil.
+Temmuz 2026 itibarıyla desteklenen Kubernetes sürümleri 1.35, 1.34 ve 1.33 (güncel sürüm v1.36, 1.37 Ağustos sonunda geliyor). Buradaki her şey 1.33+ çalıştıran her dağıtım için geçerli — EKS, GKE, AKS ya da bare-metal k3s. Örnekler sade `kubectl` ve standart YAML kullanır; hiçbiri sağlayıcıya kilitli değil.
 
 ## En sık yapılan Kubernetes hataları nelerdir?
 
-En sık yapılan Kubernetes hataları üç başlıkta toplanır: **kaynak yönetiminin olmaması** (eksik requests, limits ve quota), **sağlık ve erişilebilirlik garantisinin olmaması** (probe yok, tek replika, disruption budget yok) ve **zayıf güvenlik varsayılanları** (root container, düz metin secret, sonuna kadar açık RBAC). Aşağıdaki liste, kabaca ekiplerin en sık takıldığı sıraya göre dizildi.
+En sık yapılan Kubernetes hataları üç başlıkta toplanır: **kaynak yönetiminin olmaması** (eksik requests, limits ve quota), **erişilebilirlik garantisinin olmaması** (probe yok, tek replika, disruption budget yok) ve **zayıf güvenlik varsayılanları** (root container, düz metin secret, sonuna kadar açık RBAC). Aşağıdaki liste, kabaca ekiplerin en sık takıldığı sıraya göre dizildi.
 
 ### 1. Pod'ları kaynak isteği ve limiti olmadan çalıştırmak
 
@@ -32,7 +32,7 @@ resources:
     memory: "512Mi"   # node genelinde OOM'u önlemek için belleği sınırla
 ```
 
-Bellek `requests` ve `limits` değerlerini eşitlerseniz Guaranteed QoS sınıfını alırsınız. CPU limitini çoğu durumda koymayın; böylece throttling'den kaçınırsınız. Boyutlandırmayı detaylı olarak [Kubernetes maliyet optimizasyonu](/blog/kubernetes-maliyet-optimizasyonu) rehberimizde ele aldık.
+Bellek `requests` ve `limits` değerlerini eşitlerseniz Guaranteed QoS sınıfını alırsınız. CPU limitini çoğu durumda koymayın; böylece throttling'den kaçınırsınız. Ve gerçekten iyi bir haber: [in-place pod resize Kubernetes 1.35'te GA oldu](https://kubernetes.io/blog/2025/12/19/kubernetes-v1-35-in-place-pod-resize-ga/) (Aralık 2025), yani artık çalışan bir pod'un CPU ve belleğini yeniden başlatmadan değiştirebilirsiniz. Bu, "ne olur ne olmaz" diye yüksek tahmin yapma bahanesini ortadan kaldırıyor. Doğru boyutlandırmayı [Kubernetes maliyet optimizasyonu](/tr/posts/kubernetes-maliyet-optimizasyonu) rehberimizde detaylı ele aldık.
 
 ### 2. `latest` imaj etiketini kullanmak
 
@@ -62,7 +62,7 @@ livenessProbe:
   periodSeconds: 10
 ```
 
-Liveness kontrolünü ucuz ve bağımlılıksız tutun. Veritabanını sorgulayan bir liveness probe, DB her takıldığında pod'unuzu yeniden başlatır.
+Liveness kontrolünü ucuz ve bağımlılıksız tutun. Veritabanını sorgulayan bir liveness probe, DB her takıldığında pod'unuzu yeniden başlatır. Yavaş açılan uygulamalar için dev bir `initialDelaySeconds` yerine `startupProbe` kullanın.
 
 ### 4. Her şeyi `default` namespace'e deploy etmek
 
@@ -98,23 +98,28 @@ securityContext:
   runAsUser: 10001
   allowPrivilegeEscalation: false
   readOnlyRootFilesystem: true
+  seccompProfile: { type: RuntimeDefault }
   capabilities: { drop: ["ALL"] }
 ```
 
-Bunu cluster genelinde Pod Security Admission'ı `restricted` moda alarak veya Kyverno gibi bir policy motoruyla zorunlu kılın.
+Bunu cluster genelinde [Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)'ı `restricted` moda alarak zorunlu kılın — PSA 1.25'ten beri stabil ve 2026'da hâlâ önerilen temel. `restricted` profili tam da yukarıdaki ayarları ister: root olmayan kullanıcı, tüm capability'lerin düşürülmesi ve bir seccomp profili. Üç yerleşik profilin ötesine geçmek isterseniz Kyverno gibi bir policy motoru kullanın.
 
 ### 7. Secret'ları düz ConfigMap veya env değişkeninde tutmak
 
 Bir veritabanı parolasını ConfigMap'e koymak ya da Deployment'ın `env`'inde hardcode etmek, o parolanın Git'e, `kubectl describe` çıktısına ve herkesin terminal geçmişine düşmesi demektir. Kubernetes Secret'ları yalnızca base64 kodlanmıştır, şifreli değildir; bu yüzden en azından etcd'de şifrelemeyi açın ve gerçek secret'ları harici bir depodan çekin.
 
+2026 için iddialı görüşüm: Vault'u dinamik secret'ları için zaten çalıştırmıyorsanız, pragmatik varsayılan External Secrets Operator (ESO)'dur. 45'ten fazla arka uçtan senkronize eder — AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, 1Password — ve Git'te hiç secret materyali bırakmaz.
+
 | Yaklaşım | Şifreli mi? | Rotasyon? | Karar |
 |----------|-------------|-----------|-------|
 | ConfigMap / env | Hayır | Hayır | Secret için asla |
 | Yerel Secret | Yalnızca ayarlanırsa | Manuel | Temel seviye |
-| Sealed Secrets | Evet (Git'te) | Manuel | GitOps için iyi |
-| External Secrets + Vault | Evet | Otomatik | Üretim için en iyi |
+| Sealed Secrets | Evet (Git'te) | Manuel | Saf GitOps için iyi |
+| External Secrets + bulut/Vault | Evet | Otomatik | Üretim için en iyi |
 
-### 8. Tek replika ve anti-affinity olmaması
+Bu doğrudan [GitOps](/tr/posts/gitops-nedir) ile örtüşür: `ExternalSecret`'i Git'te tanımlarsınız, operatör gerçek değeri cluster içinde oluşturur.
+
+### 8. Tek replika ve spread kısıtı olmaması
 
 Tek replika, her deploy'un, node drain'in veya spot geri alımın bir kesinti olması demektir. Üç replika bile hepsi aynı node'a düşerse sizi kurtarmaz. En az iki-üç replika çalıştırın ve bunları node ve zone'lara yayın:
 
@@ -143,7 +148,7 @@ spec:
 
 ### 10. `kubectl logs`'u monitoring sanmak
 
-Kullanıcılar şikâyet ettikten sonra log grep'lemek gözlemlenebilirlik değil, arkeolojidir. Metrik, alarm ve dashboard olmadan sorunları en son siz öğrenirsiniz. Prometheus ve Grafana kurun, altın sinyallere (gecikme, trafik, hata, doygunluk) alarm koyun ve probe'ları alarm sisteminize bağlayın. Bu, [üretim için Docker en iyi pratikleri](/blog/docker-en-iyi-pratikleri) ve [CI/CD pipeline nasıl kurulur](/blog/cicd-pipeline-nasil-kurulur) rehberlerimizdeki pratiklerle doğrudan örtüşür.
+Kullanıcılar şikâyet ettikten sonra log grep'lemek gözlemlenebilirlik değil, arkeolojidir. Metrik, alarm ve dashboard olmadan sorunları en son siz öğrenirsiniz. Prometheus ve Grafana kurun, altın sinyallere (gecikme, trafik, hata, doygunluk) alarm koyun ve probe'ları alarm sisteminize bağlayın. [Observability 101](/tr/posts/observability-nedir) rehberimizle başlayın ve bunu [üretim için Docker en iyi pratikleri](/tr/posts/docker-en-iyi-pratikleri) ve [CI/CD pipeline nasıl kurulur](/tr/posts/cicd-pipeline-nasil-kurulur) yazılarındaki pratiklerle birleştirin.
 
 ## Hızlı bir deploy öncesi kontrol listesi
 
@@ -153,23 +158,23 @@ Herhangi bir iş yükü üretime çıkmadan önce bunu gözden geçirin. Yukarı
 2. İmajlar `latest` değil, sabitlenmiş etiket veya digest kullanıyor.
 3. Readiness ve liveness probe'ları var ve farklı endpoint'lere bakıyor.
 4. İş yükü, `ResourceQuota`'lı ayrı bir namespace'te.
-5. `securityContext`, `runAsNonRoot` ayarlıyor ve tüm capability'leri düşürüyor.
+5. `securityContext`, `runAsNonRoot` ve bir seccomp profili ayarlıyor, tüm capability'leri düşürüyor.
 6. Secret'lar ConfigMap'ten değil, harici bir depodan geliyor.
 7. `topologySpreadConstraints` ile en az iki replika var.
 8. Bir `PodDisruptionBudget` iş yükünü drain sırasında koruyor.
 9. Prometheus pod'u scrape ediyor ve alarmlar tanımlı.
 
-Cluster'ları iyi işletmenin geniş resmi için [platform engineering nedir](/blog/platform-engineering-nedir) yazımıza bakın ve ilgili derinlemesine içerikler için tüm DevOps ve bulut kategorimize göz atın.
+Cluster'ları iyi işletmenin geniş resmi için [platform engineering nedir](/tr/posts/platform-engineering-nedir) yazımıza bakın ve ilgili derinlemesine içerikler için tüm [DevOps & Bulut kategorimize](/tr/category/devops-bulut) göz atın.
 
 ## Sıkça Sorulan Sorular
 
 ### En yıkıcı tek Kubernetes hatası hangisidir?
 
-Kaynak `requests` ve `limits` değerlerini atlamak. Etki alanı en geniş olandır: kötü scheduling, gürültücü komşu çekişmesi ve alakasız iş yüklerini de çökerten node genelinde OOMKill'ler. Her container'a makul requests ve bellek limiti koymak, kapasiteyle ilgili olayların büyük kısmını tek başına önler.
+Kaynak `requests` ve `limits` değerlerini atlamak. Etki alanı en geniş olandır: kötü scheduling, gürültücü komşu çekişmesi ve alakasız iş yüklerini de çökerten node genelinde OOMKill'ler. Her container'a makul requests ve bellek limiti koymak, kapasiteyle ilgili olayların büyük kısmını tek başına önler — üstelik 1.35'ten beri bunları yeniden başlatmadan canlı olarak değiştirebilirsiniz.
 
 ### Kubernetes Secret'ları kullanmak güvenli mi?
 
-Yerel Secret'lar varsayılan olarak yalnızca base64 kodludur, şifreli değildir ve `get secret` RBAC'ı olan herkes okuyabilir. etcd'de encryption at rest'i açın, RBAC'ı kısın ve üretimde değerleri External Secrets Operator ile Vault veya bulut sağlayıcınızın secret deposu gibi harici bir yöneticiden çekin.
+Yerel Secret'lar varsayılan olarak yalnızca base64 kodludur, şifreli değildir ve `get secret` RBAC'ı olan herkes okuyabilir. etcd'de encryption at rest'i açın, RBAC'ı kısın ve üretimde değerleri External Secrets Operator ile harici bir yöneticiden çekin ya da Sealed Secrets ile Git'e şifreli yazın. Vault'u gerçekten dinamik, kısa TTL'li kimlik bilgilerine ihtiyacı olan ekiplere saklayın.
 
 ### Bir üretim iş yükü kaç replika çalıştırmalı?
 
@@ -177,4 +182,4 @@ En az iki, ideali üç replika; `topologySpreadConstraints` ile node ve availabi
 
 ### Cluster'ımı bu hatalara karşı otomatik nasıl tararım?
 
-Bir policy tarayıcısı çalıştırın. Polaris, Kubescape ve kube-bench gibi araçlar; eksik limitleri, root container'ları ve olmayan probe'ları en iyi pratik temellerine göre işaretler. Bunlardan birini CI'ya bağlayın ki yanlış yapılandırılmış manifest'ler cluster'a ulaşmadan build'i düşürsün; ayrıca namespace düzeyinde Pod Security Admission'ı zorunlu kılın.
+Bir policy tarayıcısı çalıştırın. Polaris, Kubescape ve kube-bench gibi araçlar; eksik limitleri, root container'ları ve olmayan probe'ları en iyi pratik temellerine göre işaretler. Bunlardan birini CI'ya bağlayın ki yanlış yapılandırılmış manifest'ler cluster'a ulaşmadan build'i düşürsün; ayrıca çalışma zamanı güvencesi olarak namespace düzeyinde Pod Security Admission'ı zorunlu kılın.

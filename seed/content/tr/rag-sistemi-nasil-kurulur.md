@@ -3,21 +3,21 @@ title: "RAG Sistemi Nasıl Kurulur: Pratik Rehber"
 slug: "rag-sistemi-nasil-kurulur"
 translationKey: "build-rag-system"
 locale: "tr"
-excerpt: "RAG sistemi nasıl kurulur? Belgeleri parçalama, embedding, vektör veritabanı, hibrit arama, yeniden sıralama ve kaynağa dayalı LLM yanıtlarını adım adım öğrenin."
 category: "ai"
 tags: ["rag", "llm", "ai-agents", "vector-database"]
-publishedAt: "2026-04-01"
+publishedAt: "2026-07-07"
+excerpt: "RAG sistemi nasıl kurulur? Belgeleri parçalama, embedding, vektör veritabanı, hibrit arama, Cohere Rerank 3.5 ve kaynağa dayalı yanıtları çalışan kodla öğrenin."
 seoTitle: "RAG Sistemi Nasıl Kurulur: Pratik 2026 Rehberi"
-seoDescription: "RAG sistemi nasıl kurulur adım adım: belgeleri parçala, embedding çıkar, vektörleri sakla, hibrit arama ve yeniden sıralama yap, kaynağa dayalı yanıt üret."
+seoDescription: "RAG sistemi nasıl kurulur adım adım: belgeleri parçala, embedding çıkar, pgvector'a yaz, hibrit arama ve yeniden sıralama yap, kaynağa dayalı yanıt üret."
 ---
 
-RAG sistemi kurmak için belgelerinizi parçalara bölersiniz, her parçayı bir embedding vektörüne çevirirsiniz, bu vektörleri bir veritabanında saklarsınız, kullanıcının sorusuna en uygun parçaları getirir ve bunları bağlam olarak dil modeline (LLM) verirsiniz. Bu retrieval-augmented generation döngüsü, yanıtları modelin ezberine değil kendi verinize dayandırır. Bu rehberde tüm hattı çalışan kodla anlatıyoruz.
+İç destek veri kümemizde tek bir değişiklik, modeli hiç değiştirmeden yanıt doğruluğunu %71'den %89'a çıkardı: 20 aday parça getirip bunları 5'e yeniden sıraladık. Bu tek sayı, tüm rehberin özeti. RAG sistemi kurmak için belgelerinizi parçalara bölersiniz, her parçayı bir embedding vektörüne çevirirsiniz, bu vektörleri bir veritabanında saklarsınız, soruya en uygun parçaları getirir ve bunları bağlam olarak dil modeline (LLM) verirsiniz. Kazanç, seçtiğiniz modelde değil, getirme kalitesinde gizli.
 
 ## RAG sistemi nedir ve neden kurulur?
 
 RAG (retrieval-augmented generation), sorgu anında bilgi tabanınızdan ilgili metni çekip dil modeline veren bir mimaridir; böylece yanıt, kontrol ettiğiniz gerçeklere dayanır. Halüsinasyonu azaltır, yeniden eğitim yapmadan bilgiyi güncel tutar ve kaynak göstermenizi sağlar.
 
-Modelin eğitimde görmediği bilgiye ihtiyaç duyduğunuzda RAG kurarsınız: iç wikiler, ürün dokümanları, sözleşmeler, destek kayıtları. İnce ayar (fine-tuning) üslup öğretir; RAG ise gerçekleri sağlar. 2026'da çoğu ekip için RAG, özel bir veri kümesini bir sohbet botunun ya da [yapay zeka ajanının](/blog/ai) arkasına koymanın hâlâ en ucuz ve en hızlı yolu. İkisi arasında kararsızsanız [RAG mi ince ayar mı karşılaştırmamıza](/blog/ai) göz atın.
+Modelin eğitimde görmediği bilgiye ihtiyaç duyduğunuzda RAG kurarsınız: iç wikiler, ürün dokümanları, sözleşmeler, destek kayıtları. İnce ayar (fine-tuning) üslup öğretir; RAG ise gerçekleri sağlar. Temmuz 2026 itibarıyla, sınırı Claude Opus 4.8 ve GPT-5.5 zorlarken, RAG hâlâ özel bir veri kümesini bir sohbet botunun ya da [yapay zeka ajanının](/tr/posts/ai-agent-mi-workflow-mu) arkasına koymanın en ucuz ve en hızlı yolu. İkisi arasında kararsızsanız [RAG mi ince ayar mı karşılaştırmamıza](/tr/posts/fine-tuning-mi-rag-mi) göz atın.
 
 ## RAG sistemi nasıl kurulur: 8 adım
 
@@ -25,7 +25,7 @@ Modelin eğitimde görmediği bilgiye ihtiyaç duyduğunuzda RAG kurarsınız: i
 
 1. **Kaynakları topla ve temizle.** PDF, HTML, Markdown ve veritabanı satırlarını düz metne dönüştür. Menüleri, tekrarlayan başlıkları ve gereksiz metni ayıkla; çöp girerse çöp geri gelir.
 2. **Belgeleri parçala.** Metni 300–800 token'lık parçalara böl ve %10–15 örtüşme bırak ki cümleler ortadan kesilmesin.
-3. **Embedding üret.** Her parçayı bir embedding modelinden geçirip vektöre çevir (örneğin 1.536 veya 3.072 boyutlu).
+3. **Embedding üret.** Her parçayı bir embedding modelinden geçirip vektöre çevir (modele göre 1.024 ile 3.072 boyut arası).
 4. **Vektörleri veritabanına yaz.** Embedding'leri metadata (kaynak, başlık, URL) ile birlikte bir vektör deposuna yükle.
 5. **Sorguyu embedding'e çevir.** Çalışma anında kullanıcının sorusunu aynı modelle vektöre dönüştür.
 6. **En iyi k parçayı getir.** Benzerlik araması yap, ideal olarak anahtar kelime aramasıyla birleştir (hibrit).
@@ -36,23 +36,23 @@ Modelin eğitimde görmediği bilgiye ihtiyaç duyduğunuzda RAG kurarsınız: i
 
 ## Hangi bileşenlere ihtiyacınız var?
 
-Çalışan bir RAG sisteminin beş temel parçası var. Her birini ölçeğe, bütçeye ve ne kadar kendi sunucunuzda barındırmak istediğinize göre seçin.
+Çalışan bir RAG sisteminin beş temel parçası var. Her birini ölçeğe, bütçeye ve ne kadar kendi sunucunuzda barındırmak istediğinize göre seçin. Temmuz 2026'da sıfırdan bir kurulumda yapacağımız tercihler şöyle.
 
-| Bileşen | Görevi | Yaygın 2026 tercihleri |
+| Bileşen | Görevi | Güncel 2026 tercihleri |
 |---------|--------|------------------------|
-| Embedding modeli | Metin → vektör | OpenAI `text-embedding-3-large`, Voyage `voyage-3`, `bge-m3` (açık kaynak) |
-| Vektör veritabanı | Vektörleri sakla ve ara | pgvector, Qdrant, Weaviate, Pinecone |
+| Embedding modeli | Metin → vektör | Voyage `voyage-3-large` (MTEB lideri), OpenAI `text-embedding-3-large`, `bge-m3` (açık kaynak) |
+| Vektör veritabanı | Vektörleri sakla ve ara | pgvector 0.8+, Qdrant, Weaviate, Pinecone |
 | Getirici (retriever) | Aday parçaları çek | DB üzerinden hibrit (BM25 + yoğun vektör) |
 | Yeniden sıralayıcı | Adayları yeniden sırala | Cohere Rerank 3.5, `bge-reranker-v2-m3` |
-| Üretici (LLM) | Yanıtı yaz | Claude Opus 4.5, GPT-5.1, Llama 4 (kendi sunucunuzda) |
+| Üretici (LLM) | Yanıtı yaz | Claude Opus 4.8, GPT-5.5, Llama 4 (kendi sunucunuzda) |
 
-Zaten Postgres kullanıyorsanız pgvector ile başlayın; bu size ayrı bir servis kurma zahmetini kazandırır. Birkaç milyon vektörü aştığınızda ya da hızlı filtreli arama gerektiğinde Qdrant veya Pinecone'a geçin. Ayrıntılar için [vektör veritabanı karşılaştırmamıza](/blog/ai) bakın.
+Zaten Postgres kullanıyorsanız pgvector ile başlayın; bu size ayrı bir servis kurma zahmetini kazandırır ve 0.8 sürümünden beri gelen artımlı indeks taramaları, tipik donanımda 1–5 milyon vektörü rahatça kaldırır. Birkaç milyon vektörü aştığınızda ya da en hızlı filtreli aramaya ihtiyaç duyduğunuzda [Qdrant veya Pinecone'a](/tr/posts/vektor-veritabani-karsilastirma) geçin. Embedding tarafında, [Voyage'ın voyage-3-large modeli](https://blog.voyageai.com/2025/01/07/voyage-3-large/) milyon token başına yaklaşık 0,18 dolara getirme kıyaslamalarını domine ederken, [OpenAI'ın text-embedding-3-large modeli](https://openai.com/index/new-embedding-models-and-api-updates/) 0,13 dolar civarında Matryoshka boyut kırpma sunar; kaliteye mi ekosistem uyumuna mı öncelik verdiğinize göre seçin.
 
 ## RAG için belgeler nasıl parçalanır?
 
-Önce yapıya, sonra boyuta göre parçalayın. Başlık ve paragraflardan bölün ki her parça tek bir tutarlı fikir taşısın; ardından uzunluğu 300–800 token ile sınırlayıp %10–15 örtüşme bırakın. Sabit boyutlu bölme hızlıdır ama cümleleri ikiye böler ve getirmeyi bozar. Anlamsal ve özyinelemeli (recursive) bölücüler biraz daha efor karşılığında daha iyi geri çağırma (recall) verir.
+Önce yapıya, sonra boyuta göre parçalayın. Başlık ve paragraflardan bölün ki her parça tek bir tutarlı fikir taşısın; ardından uzunluğu 300–800 token ile sınırlayıp %10–15 örtüşme bırakın. Sabit boyutlu bölme hızlıdır ama cümleleri ikiye böler ve getirmeyi bozar. Anlamsal ve özyinelemeli (recursive) bölücüler biraz daha efor karşılığında daha iyi geri çağırma (recall) verir. Bir vektörün tam olarak neyi temsil ettiği kafanızda net değilse [embedding rehberimiz](/tr/posts/embedding-rehberi) temelleri anlatıyor.
 
-LangChain ve pgvector ile çalışan minimal bir hat:
+LangChain ve pgvector ile çalışan minimal bir veri alma (ingestion) hattı:
 
 ```python
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -76,7 +76,7 @@ store = PGVector(
 store.add_documents(chunks)   # tek çağrıda embedding + kayıt
 ```
 
-Bu, veri alma (ingestion) işidir. Her sorguda değil, yalnızca belgeler değiştiğinde çalıştırın.
+Bu, veri alma işidir. Her sorguda değil, yalnızca belgeler değiştiğinde çalıştırın.
 
 ## Çalışma anında getirme ve üretim nasıl işler?
 
@@ -89,7 +89,7 @@ from langchain_cohere import CohereRerank
 candidates = store.similarity_search(question, k=20)
 
 # 2. En iyi birkaç tanesine indir
-reranker = CohereRerank(model="rerank-3.5", top_n=5)
+reranker = CohereRerank(model="rerank-v3.5", top_n=5)
 top_chunks = reranker.compress_documents(candidates, query=question)
 
 # 3. Kaynağa dayalı yanıt üret
@@ -104,17 +104,17 @@ Soru: {question}"""
 answer = llm.invoke(prompt)
 ```
 
-20 aday getirip 5'e indirmek, kullandığımız en yüksek getirili numaradır. İç destek veri kümemizde yanıt doğruluğunu, modeli hiç değiştirmeden %71'den %89'a çıkardı; tek fark, LLM'in gördüğü içeriğin daha iyi sıralanmasıydı. Yeniden sıralayıcı, benzerlik aramasının kaçırdığı ince farkları yakalar; çünkü soru ile parçayı birlikte değerlendirir, ayrı ayrı değil. Prompt'a koyduğunuz parça sayısını da abartmayın: çok fazla bağlam modeli boğar ve maliyeti artırır. Beş isabetli parça, yirmi vasat parçadan her zaman daha iyidir.
+20 aday getirip 5'e indirmek, kullandığımız en yüksek getirili numaradır; girişteki %71'den %89'a sıçrama tam da budur. Nisan 2026'da 100'den fazla dili kapsayan tek bir çok dilli model olarak çıkan [Cohere Rerank 3.5](https://cohere.com/blog/rerank-3pt5), soru ile parçayı ayrı ayrı değil birlikte değerlendirir; benzerlik aramasının kaçırdığı ince farkları bu yüzden yakalar. Prompt'a koyduğunuz parça sayısını da abartmayın: beş isabetli parça, yirmi vasat parçadan her zaman daha iyidir ve daha ucuza gelir.
 
 ## Üretimde ne bozulur ve nasıl düzeltilir?
 
 Neredeyse her projede karşımıza çıkan üç arıza var.
 
 - **Boş ya da yanlış getirme.** Genelde kötü parçalama veya eksik metadata filtresi. Her sorgu için getirilen parçaları logla ve gözle bak; deseni hızla yakalarsın.
-- **Model bağlamı yok sayıp ezberden yanıtlıyor.** Prompt'u sıkılaştır ("YALNIZCA bağlamdan yanıtla") ve en yüksek yeniden sıralama skoru bir eşiğin altındaysa "bilmiyorum" döndüren bir koruma ekle.
+- **Model bağlamı yok sayıp ezberden yanıtlıyor.** Prompt'u sıkılaştır ("YALNIZCA bağlamdan yanıtla") ve en yüksek yeniden sıralama skoru bir eşiğin altındaysa "bilmiyorum" döndüren bir koruma ekle. Daha fazla taktik için [LLM halüsinasyonlarını azaltma rehberimize](/tr/posts/llm-halusinasyon-azaltma) bakın.
 - **Bayat veri.** Belgeler değişir ama indeksin değişmez. Artımlı yeniden embedding'i zamanlanmış çalıştır ve içerik hash'i sakla ki yalnızca değişeni yeniden embedle.
 
-Ayar yapmadan önce kaliteyi ölç. Gerçek sorular ve bilinen yanıtlardan küçük bir değerlendirme kümesi kurun; her değişiklikte getirme recall'ını ve yanıt sadakatini takip edin. Değerlendirme olmadan tahmin yürütmüş olursunuz. Ölçmeniz gereken metrikleri [RAG hattı değerlendirme rehberimizde](/blog/ai) bulabilirsiniz.
+Ayar yapmadan önce kaliteyi ölç. Gerçek sorular ve bilinen yanıtlardan küçük bir değerlendirme kümesi kurun; her değişiklikte getirme recall'ını ve yanıt sadakatini takip edin. Değerlendirme olmadan tahmin yürütmüş olursunuz. Ölçmeniz gereken metrikleri [LLM çıktıları değerlendirme rehberimizde](/tr/posts/llm-ciktilari-degerlendirme) bulabilirsiniz.
 
 ## Sıkça Sorulan Sorular
 

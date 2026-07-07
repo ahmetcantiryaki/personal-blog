@@ -3,25 +3,27 @@ title: "How to Build a CI/CD Pipeline from Scratch"
 slug: "how-to-build-cicd-pipeline"
 translationKey: "build-cicd-pipeline"
 locale: "en"
-excerpt: "Learn how to build a CI/CD pipeline from scratch in 2026: stages, a working GitHub Actions config, testing gates, deployment, and the mistakes to avoid."
 category: "devops-cloud"
 tags: ["ci-cd", "devops", "automation", "deployment"]
-publishedAt: "2026-05-06"
+publishedAt: "2026-07-06"
+excerpt: "Build a CI/CD pipeline from scratch in 2026: stages, a working GitHub Actions config on Node 24, testing gates, deployment, and the failures to avoid."
 seoTitle: "How to Build a CI/CD Pipeline from Scratch (2026)"
-seoDescription: "How to build a CI/CD pipeline step by step: wire up build, test, and deploy stages in GitHub Actions with real config, gates, and rollback you can copy."
+seoDescription: "Build a CI/CD pipeline step by step with a 2026-ready GitHub Actions config: wire up build, test, and deploy stages with real gates and rollback you can copy."
 ---
 
-To build a CI/CD pipeline, you connect your Git repository to an automation tool that runs the same steps on every push: install dependencies, build, run tests, and deploy if everything passes. That loop turns "works on my machine" into a repeatable, auditable process. This guide walks the full pipeline with a GitHub Actions config you can copy and run today.
+On June 2, 2026, a lot of green pipelines quietly turned red. That was the day GitHub forced all JavaScript actions to run on Node.js 24 by default, and teams still pinning `actions/checkout@v3` woke up to deprecation walls. The fix took most of them ten minutes — bump to `@v6`, done. But the ones who panicked were the ones who had never really understood their own pipeline. They copied a YAML file two years ago and prayed.
+
+Don't be that team. Here is how to build a CI/CD pipeline you actually understand, with a config that runs today.
 
 ## What is a CI/CD pipeline, and why build one?
 
 A CI/CD pipeline is an automated sequence that takes code from commit to production without manual steps. **CI** (continuous integration) builds and tests every change so bugs surface in minutes, not at release. **CD** (continuous delivery or deployment) ships passing builds to staging or production automatically.
 
-You build one to kill the slow, error-prone parts of shipping. Manual deploys drift, skip tests, and depend on one person who knows the ritual. A pipeline runs the same steps every time, blocks broken code from merging, and gives you a log of who changed what. For any team past two engineers, it pays for itself in the first month. If you containerize, pair it with our [Docker best practices for production](/blog/devops-cloud) guide.
+You build one to kill the slow, error-prone parts of shipping. Manual deploys drift, skip tests, and depend on one person who knows the ritual. A pipeline runs the same steps every time, blocks broken code from merging, and gives you a log of who changed what. For any team past two engineers, it pays for itself in the first month. If you containerize, pair it with our [Docker best practices for production](/en/posts/docker-best-practices-production) guide.
 
 ## What are the stages of a CI/CD pipeline?
 
-A standard pipeline moves through six stages, each a gate that stops bad code from reaching users. Learning how to build a CI/CD pipeline starts with knowing what each stage does and where it fails.
+A standard pipeline moves through six stages, each a gate that stops bad code from reaching users.
 
 1. **Source.** A push or pull request triggers the pipeline. The runner checks out your exact commit.
 2. **Build.** Install dependencies and compile or bundle the app. If this fails, nothing downstream runs.
@@ -34,7 +36,7 @@ Keep the fast, cheap stages first. A lint error should fail in 20 seconds, not a
 
 ## How do you build a CI/CD pipeline in GitHub Actions?
 
-Start with a single workflow file and add stages incrementally. Below is a real, minimal pipeline for a Node.js app that builds, tests, and deploys on every push to `main`. It runs on GitHub-hosted runners, so there's no server to manage.
+Start with a single workflow file and add stages incrementally. Below is a real, minimal pipeline for a Node.js app that builds, tests, and deploys on every push to `main`. It runs on GitHub-hosted runners, so there's no server to manage. Note the current action majors — `checkout@v6` and `setup-node@v6`, both required now that runners default to the Node 24 runtime — and Node 24 itself, the [active LTS line](https://nodejs.org/en/about/previous-releases) supported through April 2028.
 
 ```yaml
 # .github/workflows/ci.yml
@@ -49,10 +51,10 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "npm"
       - run: npm ci
       - run: npm run lint
@@ -65,7 +67,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: echo "Deploying commit ${{ github.sha }}"
         # replace with your deploy command, e.g. flyctl deploy
 ```
@@ -74,17 +76,19 @@ Two things make this safe. The `needs: build-test` line means **deploy never run
 
 ## Which CI/CD tool should you choose?
 
-Pick the tool that lives closest to your code and team. For most teams in 2026, the platform-native option wins because setup is near-zero and secrets, permissions, and logs are already integrated.
+Pick the tool that lives closest to your code and team. Adoption data backs this up: as of mid-2026, GitHub Actions leads at roughly 33% of organizations, with Jenkins near 28% and GitLab CI around 19%. The platform-native option usually wins because setup is near-zero and secrets, permissions, and logs are already wired in.
 
-| Tool | Best for | Hosting | Notes |
-|------|----------|---------|-------|
-| GitHub Actions | Repos on GitHub | Cloud + self-hosted | Huge marketplace, free tier for public repos |
-| GitLab CI/CD | GitLab users, full DevOps suite | Cloud + self-hosted | Built-in registry, strong for monorepos |
+| Tool | Best for | Hosting | 2026 note |
+|------|----------|---------|-----------|
+| GitHub Actions | Repos on GitHub | Cloud + self-hosted | ~33% adoption; runner prices cut ~40% on Jan 1, 2026; Agentic Workflows in preview |
+| GitLab CI/CD | Full DevOps suite | Cloud + self-hosted | ~19% adoption; native SAST, DAST, registry, SBOM |
+| Jenkins | Full control, legacy | Self-hosted | ~28% adoption; 1,800+ plugins, most maintenance |
 | CircleCI | Speed-focused teams | Cloud + self-hosted | Fast caching, flexible parallelism |
-| Jenkins | Full control, legacy | Self-hosted | Most flexible, most maintenance |
-| Argo CD | Kubernetes GitOps | Self-hosted | Declarative CD, syncs from Git to cluster |
+| Argo CD | Kubernetes GitOps | Self-hosted | Declarative CD; the de facto CD layer for K8s |
 
-Default to GitHub Actions or GitLab CI/CD if you're already on those platforms. Reach for Jenkins only when you need plugins or on-prem control nothing else offers. If you deploy to Kubernetes, Argo CD plus a GitOps flow pairs well with our [Kubernetes cost optimization](/blog/devops-cloud) playbook.
+The dominant 2026 architecture is honestly the boring, correct one: GitHub Actions or GitLab CI for the CI half, plus Argo CD for the CD half. Reach for Jenkins only when you need plugins or on-prem control nothing else offers. If you deploy to Kubernetes, pair Argo CD with our [Kubernetes cost optimization](/en/posts/kubernetes-cost-optimization) playbook, and read [GitOps explained](/en/posts/gitops-explained) before you wire the sync.
+
+On cost: a private repo on the Free plan gets 2,000 Linux minutes and 500 MB of artifact storage a month. Past that, each extra Linux 2-core minute is $0.006 — down from $0.008 on January 1, 2026. Public repos stay free.
 
 ## How do you add testing and deployment gates?
 
@@ -103,9 +107,9 @@ Three failures show up on nearly every pipeline we build.
 
 - **Flaky tests.** A test passes locally and fails randomly in CI, usually a timing or ordering issue. Quarantine the flaky test, fix the race, and never paper over it with automatic retries — retries hide real bugs.
 - **Slow pipelines.** A 25-minute run kills the feedback loop. Cache dependencies, run test suites in parallel jobs, and split the fast checks (lint, type-check) from the slow ones (e2e) so failures surface early.
-- **Leaked or missing secrets.** Never hardcode tokens in YAML. Store them in your platform's encrypted secrets and reference them as variables. Rotate anything that ever touched a commit.
+- **Leaked or missing secrets.** Never hardcode tokens in YAML. Store them in your platform's [encrypted secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) and reference them as variables. Rotate anything that ever touched a commit.
 
-Measure your pipeline before you optimize it. Track build duration, failure rate, and how long a fix takes to reach production. Those numbers tell you where to spend effort far better than guessing.
+Measure your pipeline before you optimize it. Track build duration, failure rate, and how long a fix takes to reach production — the DORA metrics that predict delivery health. Those numbers tell you where to spend effort far better than guessing. If deploy safety is your bottleneck, our [zero-downtime deployments](/en/posts/zero-downtime-deployments) guide is the next stop.
 
 ## Frequently Asked Questions
 
