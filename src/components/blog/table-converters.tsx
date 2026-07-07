@@ -1,3 +1,4 @@
+import type { SerializedLexicalNode } from '@payloadcms/richtext-lexical/lexical'
 import type { JSX, ReactNode } from 'react'
 
 import { cn } from '@/lib/utils'
@@ -20,10 +21,8 @@ import { cn } from '@/lib/utils'
  */
 
 /** Minimal shape of a lexical node the converters receive. */
-interface LexicalNode {
-  type: string
+interface LexicalNode extends SerializedLexicalNode {
   children?: LexicalNode[]
-  [key: string]: unknown
 }
 
 interface TableCellNode extends LexicalNode {
@@ -32,8 +31,12 @@ interface TableCellNode extends LexicalNode {
   rowSpan?: number
 }
 
-/** The `nodesToJSX` helper RichText passes to every converter. */
-type NodesToJSX = (args: { nodes?: LexicalNode[] }) => ReactNode
+/**
+ * The `nodesToJSX` helper RichText passes to every converter. `nodes` is
+ * required (matching the library signature) so this stays assignable to the
+ * `JSXConverter` contract under strict function-type checks.
+ */
+type NodesToJSX = (args: { nodes: SerializedLexicalNode[] }) => ReactNode
 
 interface ConverterArgs<TNode extends LexicalNode = LexicalNode> {
   node: TNode
@@ -47,20 +50,20 @@ export const tableJSXConverters = {
   table: ({ node, nodesToJSX }: ConverterArgs): JSX.Element => (
     <div className="my-6 overflow-x-auto rounded-lg border border-border/60">
       <table className="w-full border-collapse text-sm">
-        <tbody>{nodesToJSX({ nodes: node.children })}</tbody>
+        <tbody>{nodesToJSX({ nodes: node.children ?? [] })}</tbody>
       </table>
     </div>
   ),
 
   tablerow: ({ node, nodesToJSX }: ConverterArgs): JSX.Element => (
     <tr className="border-b border-border/60 last:border-b-0">
-      {nodesToJSX({ nodes: node.children })}
+      {nodesToJSX({ nodes: node.children ?? [] })}
     </tr>
   ),
 
   tablecell: ({ node, nodesToJSX }: ConverterArgs<TableCellNode>): JSX.Element => {
     const isHeader = (node.headerState ?? 0) > 0
-    const children = nodesToJSX({ nodes: node.children })
+    const children = nodesToJSX({ nodes: node.children ?? [] })
     const className = cn(
       'px-4 py-2.5 text-left align-top',
       isHeader
