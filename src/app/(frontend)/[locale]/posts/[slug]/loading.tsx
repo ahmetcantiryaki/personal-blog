@@ -4,7 +4,7 @@ import { Skeleton } from '@/components/ui/skeleton'
 export default function PostLoading() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-14">
-      <Skeleton className="aspect-[16/7] w-full rounded-xl" />
+      <Skeleton className="aspect-video w-full rounded-xl" />
       <div className="mt-8 space-y-4">
         <Skeleton className="h-4 w-28" />
         <Skeleton className="h-10 w-full" />
