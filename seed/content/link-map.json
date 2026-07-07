@@ -776,6 +776,18 @@
         "slug": "ai-project-ideas-weekend",
         "title": "5 AI Project Ideas to Build This Weekend"
       }
+    },
+    {
+      "translationKey": "typescript-7-go-native-compiler",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "typescript-7-go-derleyici",
+        "title": "TypeScript 7: Go ile 10 Kat Hızlı Derleyici"
+      },
+      "en": {
+        "slug": "typescript-7-go-native-compiler",
+        "title": "TypeScript 7: The Go-Native Compiler, Explained"
+      }
     }
   ]
 }
