@@ -50,3 +50,4 @@ _scaffold/
 
 .vercel
 .env*
+local-studio-output/
