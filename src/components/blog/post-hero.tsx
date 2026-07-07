@@ -20,7 +20,7 @@ export function PostHero({ post, locale, dict }: PostHeroProps) {
   return (
     <header className="mb-10">
       <div className="overflow-hidden rounded-xl border border-border/70">
-        <div className="relative aspect-[16/7]">
+        <div className="relative aspect-video">
           <PostCover
             coverImage={post.coverImage}
             style={post.coverStyle}
