@@ -3,6 +3,7 @@ import { RichText } from '@payloadcms/richtext-lexical/react'
 import type { Post } from '@/payload-types'
 import { cn } from '@/lib/utils'
 
+import { linkJSXConverters } from './link-converters'
 import { tableJSXConverters } from './table-converters'
 
 interface PostContentProps {
@@ -31,6 +32,11 @@ interface CodeBlockFields {
  * EXPERIMENTAL_TableFeature) are rendered by `tableJSXConverters`, overriding
  * the library defaults' hardcoded inline styles with design-system markup
  * wrapped in an overflow-x-auto container.
+ *
+ * Links are rendered by `linkJSXConverters`, which decides same-tab vs new-tab
+ * from the href: internal destinations (root-relative or same-site) open in the
+ * SAME tab (via next/link for client-side nav) to keep readers on the site,
+ * while external links open in a NEW tab with rel="noopener noreferrer".
  */
 export function PostContent({ content, className }: PostContentProps) {
   if (!content) return null
@@ -42,6 +48,7 @@ export function PostContent({ content, className }: PostContentProps) {
         converters={({ defaultConverters }) => ({
           ...defaultConverters,
           ...tableJSXConverters,
+          ...linkJSXConverters,
           blocks: {
             Code: ({ node }: { node: { fields: CodeBlockFields } }) => {
               const { code, language } = node.fields
