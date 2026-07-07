@@ -73,7 +73,7 @@ The discipline this demands is not new — it is the same review rigor you would
 
 Here is the change that surprised people. As of v2.1.200 (July 3), the default permission mode is **Manual** — the mode that surfaces every action for review before it runs. It is a deliberate counterweight to all that new autonomy: agents can do more on their own, so the default posture tightened to keep a human in the loop.
 
-A naming quirk that trips people up in config files: the mode is labelled **Manual** in the CLI and the editor extensions, but its config value is still `default`. The CLI accepts `manual` as an alias, so `--permission-mode manual` and `"defaultMode": "manual"` both work on v2.1.200+.
+A naming quirk that trips people up in config files: the mode is labeled **Manual** in the CLI and the editor extensions, but its config value is still `default`. The CLI accepts `manual` as an alias, so `--permission-mode manual` and `"defaultMode": "manual"` both work on v2.1.200+.
 
 | You want | Set |
 |----------|-----|

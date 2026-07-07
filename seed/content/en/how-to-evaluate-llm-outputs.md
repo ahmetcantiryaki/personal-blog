@@ -33,11 +33,11 @@ Evals give you three things:
 
 Evaluating LLM outputs is a repeatable pipeline: collect real inputs, label the correct outputs, pick metrics, run graders, and gate deploys on the score. These eight steps take you from zero to a working suite.
 
-1. **Collect a gold dataset.** Pull 50-200 real inputs from logs or support tickets. Include the ugly edge cases, not just the happy path. This set is your ground truth.
+1. **Collect a gold dataset.** Pull 50–200 real inputs from logs or support tickets. Include the ugly edge cases, not just the happy path. This set is your ground truth.
 2. **Label expected outputs.** Write the correct answer or acceptance criteria for each input. A human expert does this once; it is the most valuable asset in the system.
 3. **Choose metrics per task.** Classification uses accuracy and F1. Extraction uses exact match on fields. Open-ended generation needs an LLM judge or a rubric. Match the metric to the output shape.
 4. **Write graders.** Prefer code-based checks (regex, JSON schema, string match) wherever the answer is deterministic. They are fast, free, and never flake.
-5. **Add an LLM-as-judge for subjective quality.** For tone, helpfulness, or faithfulness, have a strong model score the output against a rubric with a 1-5 scale and a required justification.
+5. **Add an LLM-as-judge for subjective quality.** For tone, helpfulness, or faithfulness, have a strong model score the output against a rubric with a 1–5 scale and a required justification.
 6. **Run the full suite.** Execute every case, record per-case pass/fail plus an aggregate score, and save the run so you can diff against it later.
 7. **Set a threshold and gate.** Block the deploy if the score drops below your bar; we use 90% pass on the core set. Treat a red eval like a failing test.
 8. **Grow the set from failures.** Every production bug becomes a new eval case. That refund misfire is now case #147. The suite gets stronger exactly where you got burned.
@@ -51,7 +51,7 @@ Pick the grading method that matches how deterministic the output is. Determinis
 | Exact match | Classification, labels | Free | Very high | Is intent == "refund"? |
 | Schema / regex | Structured extraction | Free | Very high | Valid JSON with `amount` field? |
 | Semantic similarity | Paraphrased answers | Low | Medium | Embedding cosine > 0.85 |
-| LLM-as-judge | Tone, faithfulness | Medium | Medium-high | "Rate helpfulness 1-5" |
+| LLM-as-judge | Tone, faithfulness | Medium | Medium-high | "Rate helpfulness 1–5" |
 | Human review | Final sign-off, calibration | High | Highest | Weekly sample audit |
 
 Start at the top and only reach for the expensive rows when the cheap ones cannot express your criterion. We grade roughly 70% of our cases with pure code, which keeps a full run under 30 seconds and near-zero cost. My opinionated take: if more than half your suite runs through a judge, your task is more structured than you admit, and you are paying latency and money for checks a regex would nail.
@@ -109,11 +109,11 @@ Most engineering-led teams pick one open-source runner for the CI gate and one p
 
 ## How do you keep LLM-as-judge honest?
 
-An LLM judge drifts, so you calibrate it against human labels before you trust it. Score 20-30 cases by hand, run the judge on the same cases, and measure agreement. The bar to clear is human-human agreement itself: strong judges land around 80%, the same rate at which two people agree. Below ~85% for your task, tighten the rubric or switch judge models.
+An LLM judge drifts, so you calibrate it against human labels before you trust it. Score 20–30 cases by hand, run the judge on the same cases, and measure agreement. The bar to clear is human-human agreement itself: strong judges land around 80%, the same rate at which two people agree. Below ~85% for your task, tighten the rubric or switch judge models.
 
 What broke for us: our first judge rated almost everything a 4 or 5 because the rubric said "rate the quality." Vague rubrics produce vague scores. Rewriting it as explicit binary criteria ("Does the answer cite a source? Y/N. Does it stay on topic? Y/N.") pushed judge-human agreement from 72% to 94%.
 
-Watch the bias literature, too. A 2026 RAND study found no judge is uniformly reliable across benchmarks, and frontier models blow past 50% error on the hardest bias probes. Position bias alone swings 10-15 points of win rate on close pairwise calls, so if you compare two answers A-versus-B, run each pair both ways and average.
+Watch the bias literature, too. A 2026 RAND study found no judge is uniformly reliable across benchmarks, and frontier models blow past 50% error on the hardest bias probes. Position bias alone swings 10–15 points of win rate on close pairwise calls, so if you compare two answers A-versus-B, run each pair both ways and average.
 
 Three rules that keep judges reliable:
 
@@ -133,7 +133,7 @@ Run evals on three triggers: every prompt or model change, nightly against fresh
 
 ### How many examples does an LLM eval set need?
 
-Start with 50-100 well-chosen cases that cover your real failure modes, not thousands of random ones. Coverage of edge cases matters far more than volume. Grow the set every time production surfaces a new bug; a curated 150-case set beats an unfiltered 2,000-case dump.
+Start with 50–100 well-chosen cases that cover your real failure modes, not thousands of random ones. Coverage of edge cases matters far more than volume. Grow the set every time production surfaces a new bug; a curated 150-case set beats an unfiltered 2,000-case dump.
 
 ### What is the difference between evals and benchmarks?
 

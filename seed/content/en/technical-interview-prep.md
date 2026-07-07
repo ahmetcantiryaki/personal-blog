@@ -17,7 +17,7 @@ This isn't a fantasy schedule. It mirrors the rhythm developers follow when they
 
 ## How do you prepare for a technical interview in 30 days?
 
-Thirty days of technical interview preparation won't take you from zero to expert, but it's plenty to fit what you already know into the current interview format. At 2-3 focused hours a day, you get 60-75 hours total. Split that between three tracks — algorithms, system design, and AI-collaboration fluency — and weight them toward the round your target company actually runs.
+Thirty days of technical interview preparation won't take you from zero to expert, but it's plenty to fit what you already know into the current interview format. At 2–3 focused hours a day, you get 60–75 hours total. Split that between three tracks — algorithms, system design, and AI-collaboration fluency — and weight them toward the round your target company actually runs.
 
 Most candidates still misallocate: they grind 300 LeetCode problems and never do a single mock. In 2026 that's an even worse bet. A capable assistant solves most easy and medium problems in seconds, so interviewers stopped rewarding speed and started scoring your *process*. Meta's AI-enabled round grades exactly four things: problem solving, code quality, verification, and communication — none of which improve by grinding silently.
 
@@ -35,13 +35,13 @@ Those three answers decide which week of the plan below you lean into hardest.
 
 The program breaks into four weeks. Each week builds on the last, so don't skip the order.
 
-1. **Days 1-2: Measure and set up.** Do the self-assessment, pin down target companies and role level, confirm whether their loop includes an AI-enabled round, and prepare your workspace (IDE, timer, notebook).
-2. **Days 3-7: Data structure foundation.** Review arrays, hash maps, linked lists, stacks/queues, trees, and heaps one topic per day, and solve 3-4 easy problems per topic.
-3. **Days 8-14: Pattern-driven algorithms.** Learn two pointers, sliding window, BFS/DFS, backtracking, and dynamic programming; do 4-5 medium problems per pattern.
-4. **Days 15-19: System design + AI-collaboration reps.** Study scaling, caching, database choice, queues, and API design; separately, practice driving an assistant through a multi-file bug-fix in under 30 minutes.
-5. **Days 20-23: Behavioral prep.** Write 8-10 stories in STAR format covering leadership, conflict, failure, and impact themes.
-6. **Days 24-28: Mock interviews.** Do one full mock a day (coding plus design or behavioral), ideally with another person; record and rewatch each session.
-7. **Day 29: Weak-spot repair.** Go back to the 2-3 topics you stalled on most; don't open new ones.
+1. **Days 1–2: Measure and set up.** Do the self-assessment, pin down target companies and role level, confirm whether their loop includes an AI-enabled round, and prepare your workspace (IDE, timer, notebook).
+2. **Days 3–7: Data structure foundation.** Review arrays, hash maps, linked lists, stacks/queues, trees, and heaps one topic per day, and solve 3–4 easy problems per topic.
+3. **Days 8–14: Pattern-driven algorithms.** Learn two pointers, sliding window, BFS/DFS, backtracking, and dynamic programming; do 4–5 medium problems per pattern.
+4. **Days 15–19: System design + AI-collaboration reps.** Study scaling, caching, database choice, queues, and API design; separately, practice driving an assistant through a multi-file bug-fix in under 30 minutes.
+5. **Days 20–23: Behavioral prep.** Write 8–10 stories in STAR format covering leadership, conflict, failure, and impact themes.
+6. **Days 24–28: Mock interviews.** Do one full mock a day (coding plus design or behavioral), ideally with another person; record and rewatch each session.
+7. **Day 29: Weak-spot repair.** Go back to the 2–3 topics you stalled on most; don't open new ones.
 8. **Day 30: Light review and rest.** Skim your notes, rebuild confidence with a few easy problems, and sleep early. Burning yourself out the day before never helps.
 
 ## What should you focus on week by week?
@@ -94,13 +94,13 @@ System design is still the most neglected but level-defining part of technical i
 
 ## Don't underestimate behavioral questions
 
-Even technically flawless candidates get cut in the behavioral round. Preparation means pre-written STAR (Situation, Task, Action, Result) stories — write 8-10, each flexible enough to fit more than one question. **Quantify** results: not "improved performance" but "cut build time from 8 minutes to 90 seconds." Cover conflict, a failure and its lesson, measurable impact, and a moment you took initiative.
+Even technically flawless candidates get cut in the behavioral round. Preparation means pre-written STAR (Situation, Task, Action, Result) stories — write 8–10, each flexible enough to fit more than one question. **Quantify** results: not "improved performance" but "cut build time from 8 minutes to 90 seconds." Cover conflict, a failure and its lesson, measurable impact, and a moment you took initiative.
 
 ## Frequently Asked Questions
 
 ### Is 30 days enough for technical interview preparation in 2026?
 
-Yes, if you have a foundation. Thirty days fits your existing knowledge into interview format rather than teaching it from scratch. At 2-3 hours a day you get 60-75 hours; spend it on pattern recognition, mocks, and AI-collaboration reps. If you've never written code, 30 days won't cut it.
+Yes, if you have a foundation. Thirty days fits your existing knowledge into interview format rather than teaching it from scratch. At 2–3 hours a day you get 60–75 hours; spend it on pattern recognition, mocks, and AI-collaboration reps. If you've never written code, 30 days won't cut it.
 
 ### Are AI tools allowed in coding interviews now?
 
@@ -108,8 +108,8 @@ Increasingly, yes — but only in designated rounds. Meta, Google, and others ru
 
 ### How many problems should I solve per day?
 
-Quality beats quantity. Aim for 2-4 problems a day, but solve each deeply with the five-step loop above. Solving three problems while internalizing their patterns beats skimming thirty. Once you hit medium difficulty in week two, the pace naturally slows.
+Quality beats quantity. Aim for 2–4 problems a day, but solve each deeply with the five-step loop above. Solving three problems while internalizing their patterns beats skimming thirty. Once you hit medium difficulty in week two, the pace naturally slows.
 
 ### Do I really need mock interviews?
 
-Yes — they're the most critical part of the plan. Thinking out loud under pressure, and driving an AI assistant while narrating your review, are skills that only improve with rehearsal. Do at least 3-4 mocks a week; recording and rewatching each session surfaces weak spots fast.
+Yes — they're the most critical part of the plan. Thinking out loud under pressure, and driving an AI assistant while narrating your review, are skills that only improve with rehearsal. Do at least 3–4 mocks a week; recording and rewatching each session surfaces weak spots fast.

@@ -27,7 +27,7 @@ One 2026 wrinkle worth knowing: after a documented spike in AI-assisted cheating
 
 The biggest mistake in any system design interview is diving into the diagram before you understand the problem. Strong candidates spend the first 5 minutes asking questions, not drawing. Follow this sequence and you'll never freeze on a blank whiteboard.
 
-1. **Clarify functional requirements.** Ask what the system must *do*. For a URL shortener: shorten a link, redirect, track clicks. Write the 3-4 core features on the board and confirm scope before anything else.
+1. **Clarify functional requirements.** Ask what the system must *do*. For a URL shortener: shorten a link, redirect, track clicks. Write the 3–4 core features on the board and confirm scope before anything else.
 2. **Pin down non-functional requirements.** Nail scale, latency, availability, and consistency. Is this read-heavy or write-heavy? How much downtime is acceptable? These answers drive every later decision.
 3. **Do back-of-the-envelope math.** Estimate daily active users, requests per second, and storage growth. Rough numbers are fine; the point is to justify your components with data, not vibes.
 4. **Define the API.** Sketch the main endpoints or method signatures. This forces the interface to be concrete and exposes gaps in your requirements early.
@@ -36,7 +36,7 @@ The biggest mistake in any system design interview is diving into the diagram be
 7. **Go deep on one component.** The interviewer will pick a piece or let you choose. Discuss the data model, algorithms, and trade-offs in detail for that one area.
 8. **Find and fix bottlenecks.** Call out single points of failure, hot partitions, and cache invalidation. Show how you'd scale, replicate, or shard when load grows.
 
-Don't rush to step 5. Spend a genuine third of your time in steps 1-3. Interviewers consistently report that candidates who clarify first are the ones they pass. If your data model is shaky, our [database indexing walkthrough](/en/posts/database-indexing-explained) and the [microservices vs monolith breakdown](/en/posts/microservices-vs-monolith) cover the decisions this step forces on you.
+Don't rush to step 5. Spend a genuine third of your time in steps 1–3. Interviewers consistently report that candidates who clarify first are the ones they pass. If your data model is shaky, our [database indexing walkthrough](/en/posts/database-indexing-explained) and the [microservices vs monolith breakdown](/en/posts/microservices-vs-monolith) cover the decisions this step forces on you.
 
 ## What framework should you use?
 
@@ -107,7 +107,7 @@ If you're preparing broadly, pair this with our [30-day technical interview prep
 
 ### How long does it take to prepare for a system design interview?
 
-For a mid-level role, 2-4 weeks of focused practice is usually enough if you already build software daily. Spend it running full 45-minute mock designs, not just reading. The framework in this guide takes a few sessions to internalize; after five or six practice prompts, the sequence becomes automatic and you stop freezing on new problems.
+For a mid-level role, 2–4 weeks of focused practice is usually enough if you already build software daily. Spend it running full 45-minute mock designs, not just reading. The framework in this guide takes a few sessions to internalize; after five or six practice prompts, the sequence becomes automatic and you stop freezing on new problems.
 
 ### Do junior developers get system design questions?
 

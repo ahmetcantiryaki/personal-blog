@@ -29,7 +29,7 @@ Three strategies dominate as of July 2026. They trade off blast radius, cost, an
 |----------|-------------|----------------|----------------|----------|
 | **Rolling** | Replace instances a few at a time | Medium (roll back batch by batch) | Low (~1 extra pod) | Stateless services, the default |
 | **Blue-green** | Stand up a full new environment, flip traffic at once | Instant (flip back) | High (2x during cutover) | High-stakes releases, easy rollback |
-| **Canary** | Send 1-5% of traffic to the new version, watch metrics, ramp up | Fast (drop the canary) | Low to medium | Risky changes, large user bases |
+| **Canary** | Send 1–5% of traffic to the new version, watch metrics, ramp up | Fast (drop the canary) | Low to medium | Risky changes, large user bases |
 | **Recreate** | Stop old, start new | None (there's a gap) | Low | Only when downtime is acceptable |
 
 **Rolling** is the sensible default and what Kubernetes does out of the box. **Blue-green** buys an instant, clean rollback because the old environment is still warm. **Canary** is the safest for genuinely risky changes because you catch regressions with real traffic before they reach everyone. My opinionated take: reach for blue-green far less than people think. It doubles your bill during cutover and canary catches more real bugs for a fraction of the capacity.

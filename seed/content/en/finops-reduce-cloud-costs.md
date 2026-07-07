@@ -15,7 +15,7 @@ Most engineers think cutting the cloud bill means finding cheaper instances: rig
 
 So if you want to know how to reduce cloud costs today, FinOps is still the operating model that gets you there, but the target has moved. Give every resource an owner, make spend visible in near real time, then attack idle capacity, over-provisioning, on-demand pricing, and now runaway token bills, in that order.
 
-FinOps isn't a tool you buy. It's a practice that pulls engineering, finance, and product into one loop so cost becomes a first-class metric, not a quarterly surprise. The checklist below is the exact sequence we run on a bloated AWS or GCP account; it usually finds 20-40% of savings in the first two weeks. On one 2026 engagement it took a client's AWS bill from $61,000 to $38,500 a month without shipping a single feature slower.
+FinOps isn't a tool you buy. It's a practice that pulls engineering, finance, and product into one loop so cost becomes a first-class metric, not a quarterly surprise. The checklist below is the exact sequence we run on a bloated AWS or GCP account; it usually finds 20–40% of savings in the first two weeks. On one 2026 engagement it took a client's AWS bill from $61,000 to $38,500 a month without shipping a single feature slower.
 
 ## What is FinOps, exactly?
 
@@ -57,7 +57,7 @@ aws ec2 describe-volumes \
 
 ### 3. Right-size over-provisioned compute
 
-Right-sizing typically saves 30-50% on compute by itself. Pull 14 days of p95 CPU and memory from CloudWatch and move workloads down a tier. A fleet sitting at 8% average CPU does not need `m5.2xlarge` nodes.
+Right-sizing typically saves 30–50% on compute by itself. Pull 14 days of p95 CPU and memory from CloudWatch and move workloads down a tier. A fleet sitting at 8% average CPU does not need `m5.2xlarge` nodes.
 
 ### 4. Schedule non-production shutdowns
 
@@ -69,7 +69,7 @@ For steady baseline load, an [AWS Savings Plan](https://aws.amazon.com/savingspl
 
 ### 6. Move interruptible workloads to spot
 
-Spot / preemptible instances run 60-90% cheaper than on-demand. Route stateless, fault-tolerant workloads (batch jobs, CI runners, queue-backed APIs) to spot, and keep databases and single-replica critical services on committed capacity.
+Spot / preemptible instances run 60–90% cheaper than on-demand. Route stateless, fault-tolerant workloads (batch jobs, CI runners, queue-backed APIs) to spot, and keep databases and single-replica critical services on committed capacity.
 
 ### 7. Govern AI and GPU spend
 
@@ -112,7 +112,7 @@ Culture is the other failure mode: tools show the number, but only shared owners
 
 ### How much can FinOps realistically save on a cloud bill?
 
-In our field experience, a neglected account typically yields 20-40% in the first month from idle cleanup and right-sizing alone, then another 20-30% from commitments and spot over the following quarter. Mature accounts still find 10-15% a year because usage and pricing constantly drift, with AI now the fattest new target.
+In our field experience, a neglected account typically yields 20–40% in the first month from idle cleanup and right-sizing alone, then another 20–30% from commitments and spot over the following quarter. Mature accounts still find 10–15% a year because usage and pricing constantly drift, with AI now the fattest new target.
 
 ### Is FinOps only for large enterprises?
 

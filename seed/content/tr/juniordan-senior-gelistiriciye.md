@@ -105,4 +105,4 @@ Evet. Sistem tasarımı, junior'dan senior geliştiriciye yol haritasındaki en 
 
 ### Mid-level'ı atlayıp junior'dan doğrudan senior'a geçebilir miyim?
 
-Nadiren, ve zorlamaya değmez. Mid-level aşaması, bir özelliğin tamamını sahiplenmeyi ve prodüksiyon gerçeğini yönetmeyi öğrendiğiniz yerdir. Bunu atlamak genelde baskı altında ortaya çıkan muhakeme boşlukları bırakır. Hızlı ilerleyin ama unvanı atlamak yerine her seviyede kapsamı hak edin.
+Nadiren ve zorlamaya değmez. Mid-level aşaması, bir özelliğin tamamını sahiplenmeyi ve prodüksiyon gerçeğini yönetmeyi öğrendiğiniz yerdir. Bunu atlamak genelde baskı altında ortaya çıkan muhakeme boşlukları bırakır. Hızlı ilerleyin ama unvanı atlamak yerine her seviyede kapsamı hak edin.

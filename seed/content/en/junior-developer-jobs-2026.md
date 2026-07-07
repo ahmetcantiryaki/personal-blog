@@ -28,16 +28,16 @@ The honest picture is that both the alarming and the measured numbers are real �
 | "Entry-level postings down 67%" | -67% | Job *postings* vs the 2022 ZIRP peak | Postings, not hires; against a bubble baseline |
 | "New SWE postings down 15% YoY" | -15% | LinkedIn postings, 2025→2026 | Broad softness, not junior-specific |
 | "AI cut 106,000+ jobs" | 106k+ | Layoffs *citing* AI as a reason | "Citing AI" is often cover for cost-cutting |
-| "Harvard: junior employment −9–10%" | -9 to -10% | Junior headcount at AI-adopting firms, 6 quarters | A hiring slowdown, not a purge |
+| "Harvard: junior employment −9-10%" | -9 to -10% | Junior headcount at AI-adopting firms, 6 quarters | A hiring slowdown, not a purge |
 | "AI-attributed layoffs may reverse" | ~50% | Forrester projection | Some cuts (e.g. Klarna) already walked back |
 
-Notice the two figures at the center of the panic — 67% and 9-10% — aren't in conflict. One counts vanished job *ads* against an inflated peak. The other counts actual *people* employed at firms that adopted generative AI. They measure different things, and only one of them tries to isolate AI's causal effect.
+Notice the two figures at the center of the panic — 67% and 9–10% — aren't in conflict. One counts vanished job *ads* against an inflated peak. The other counts actual *people* employed at firms that adopted generative AI. They measure different things, and only one of them tries to isolate AI's causal effect.
 
 ## What the Harvard study actually found
 
-That study is the single most useful data point in this whole debate, and it's the one that rarely makes the headline. Researchers tracked roughly 62 million workers across about 285,000 U.S. firms and asked a precise question: when a company adopts generative AI, what happens to junior versus senior headcount? [The measured answer](https://www.softwareseni.com/what-the-data-actually-shows-about-ai-and-junior-developer-employment-decline/) was a ~9-10% drop in junior employment over six quarters — while senior employment barely moved. They named the pattern "seniority-biased technological change."
+That study is the single most useful data point in this whole debate, and it's the one that rarely makes the headline. Researchers tracked roughly 62 million workers across about 285,000 U.S. firms and asked a precise question: when a company adopts generative AI, what happens to junior versus senior headcount? [The measured answer](https://www.softwareseni.com/what-the-data-actually-shows-about-ai-and-junior-developer-employment-decline/) was a ~9–10% drop in junior employment over six quarters — while senior employment barely moved. They named the pattern "seniority-biased technological change."
 
-Two details reframe everything. First, it's a **hiring story, not a firing story** — companies aren't marching juniors out the door, they're quietly not backfilling the ones who leave. Second, 9-10% is a meaningful headwind, but it is roughly *one-seventh* of the 67% the headlines scream. AI is a real, measurable force on the junior market. It is not the wrecking ball.
+Two details reframe everything. First, it's a **hiring story, not a firing story** — companies aren't marching juniors out the door, they're quietly not backfilling the ones who leave. Second, 9–10% is a meaningful headwind, but it is roughly *one-seventh* of the 67% the headlines scream. AI is a real, measurable force on the junior market. It is not the wrecking ball.
 
 My mildly unpopular opinion: the "CS grads have it worse than art history majors" framing is statistical theater. It's technically true and analytically useless — it compares a field mid-correction against fields that never had a boom to correct from. Alarm is not analysis.
 
@@ -46,7 +46,7 @@ My mildly unpopular opinion: the "CS grads have it worse than art history majors
 If you conflate the causes, you'll fix the wrong thing. There are two distinct forces compressing the junior market, and they call for different responses:
 
 - **Structural / macro (the big one):** post-ZIRP normalization, higher interest rates, over-hiring hangover from 2021–2022, and general economic caution. Challenger tracked ~52,050 tech cuts in Q1 2026 — the highest Q1 since 2023 — and most of that is balance-sheet math, not robots. Forbes' own reporting argues [AI is not killing entry-level jobs](https://www.forbes.com/sites/hessiejones/2025/11/24/ai-is-not-killing-entry-level-jobs/) so much as the economy is.
-- **Genuine AI displacement (the smaller, growing one):** the Harvard 9-10%. Real, concentrated in routine work — the exact debugging, boilerplate, and data-entry tasks juniors used to cut their teeth on.
+- **Genuine AI displacement (the smaller, growing one):** the Harvard 9–10%. Real, concentrated in routine work — the exact debugging, boilerplate, and data-entry tasks juniors used to cut their teeth on.
 
 The reason this distinction matters: structural headwinds reverse when rates and confidence recover (Forrester expects ~50% of AI-attributed layoffs to reverse, echoing Klarna's public walk-back). AI displacement doesn't reverse — it moves the floor. You can't control the macro. You *can* control whether you're doing the work AI has commoditized or the work it can't.
 
@@ -76,7 +76,7 @@ The mid-to-senior jump is a separate arc — once you're in, our [junior-to-seni
 
 ### Is AI really killing junior developer jobs in 2026?
 
-Not the way the headlines claim. The best causal estimate — Harvard's study of 62 million workers — is a 9-10% drop in junior hiring at AI-adopting firms, not the 67% you see quoted. Most of the market softness is structural (post-ZIRP, rates, over-hiring), which historically reverses. AI is a real but smaller, and more permanent, factor.
+Not the way the headlines claim. The best causal estimate — Harvard's study of 62 million workers — is a 9–10% drop in junior hiring at AI-adopting firms, not the 67% you see quoted. Most of the market softness is structural (post-ZIRP, rates, over-hiring), which historically reverses. AI is a real but smaller, and more permanent, factor.
 
 ### Why is the "67%" figure misleading?
 

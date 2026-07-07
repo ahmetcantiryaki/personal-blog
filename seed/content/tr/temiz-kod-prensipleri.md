@@ -107,7 +107,7 @@ Test öncelikli çalışmayı ekibe yerleştirmek isterseniz [işe yarayan unit 
 Yüzlerce kod incelemesinde tekrar tekrar gördüğümüz, iyi niyetli ama ters tepen alışkanlıklar:
 
 - **Erken soyutlama.** Henüz iki örneği olmayan mantığı "ileride lazım olur" diye genelleştirmek kodu okunmaz kılar. Önce tekrarı görün, sonra soyutlayın.
-- **AI çıktısını körlemesine kabul etmek.** Asistan üretimi kodun %8 kat artan yinelenme oranını unutmayın; [AI kod asistanı kullanırken yapılan hatalar](/tr/posts/ai-kod-asistani-hatalari) çoğu zaman "çalışıyor, demek ki temiz" yanılgısından çıkar.
+- **AI çıktısını körlemesine kabul etmek.** Asistan üretimi kodun %17 artan yinelenme oranını unutmayın; [AI kod asistanı kullanırken yapılan hatalar](/tr/posts/ai-kod-asistani-hatalari) çoğu zaman "çalışıyor, demek ki temiz" yanılgısından çıkar.
 - **Yorumla kötü kodu örtmek.** Karmaşık bir bloğu açıklayan uzun yorum yerine bloğu adlandırılmış bir fonksiyona çıkarın.
 - **Her şeyi tek seferde temizlemek.** Devasa bir "cleanup" PR'ı incelenemez; küçük ve odaklı değişiklikler her zaman kazanır. Eski kodu güvenli iyileştirmek için [legacy kod refactoring](/tr/posts/legacy-kod-refactoring) yaklaşımını izleyin.
 

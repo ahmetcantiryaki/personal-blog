@@ -37,9 +37,9 @@ The split here is whether you already have a database. **NocoDB** wraps an *exis
 
 ## What replaces Vercel and Netlify?
 
-**Coolify** is the headline story. After roughly two years in beta it shipped stable [v4.0.0 in April 2026](https://github.com/coollabsio/coolify) and sits around 52-56k GitHub stars, making it the most popular self-hosted PaaS. Point it at your own VPS, connect a Git repo, and it gives you git-push deploys, databases, and 280+ one-click services, the Vercel developer experience on hardware you rent for a flat monthly fee. Two lighter alternatives are worth knowing: **Dokploy** and **Komodo**, both leaner if you don't need Coolify's full surface area.
+**Coolify** is the headline story. After roughly two years in beta it shipped stable [v4.0.0 in April 2026](https://github.com/coollabsio/coolify) and sits around 52–56k GitHub stars, making it the most popular self-hosted PaaS. Point it at your own VPS, connect a Git repo, and it gives you git-push deploys, databases, and 280+ one-click services, the Vercel developer experience on hardware you rent for a flat monthly fee. Two lighter alternatives are worth knowing: **Dokploy** and **Komodo**, both leaner if you don't need Coolify's full surface area.
 
-This is the category where the cost argument is sharpest: a $20-40/month VPS can host what a usage-priced PaaS bills hundreds for at scale. If you go this route, pair it with our guides on [Docker best practices for production](/en/posts/docker-best-practices-production) and [zero-downtime deployments](/en/posts/zero-downtime-deployments) so self-hosting doesn't mean self-inflicted outages.
+This is the category where the cost argument is sharpest: a $20–40/month VPS can host what a usage-priced PaaS bills hundreds for at scale. If you go this route, pair it with our guides on [Docker best practices for production](/en/posts/docker-best-practices-production) and [zero-downtime deployments](/en/posts/zero-downtime-deployments) so self-hosting doesn't mean self-inflicted outages.
 
 ## What replaces Google Analytics?
 
@@ -47,7 +47,7 @@ Privacy-first analytics is now a crowded, mature field. **Plausible** is the lig
 
 ## What replaces Datadog and Grafana?
 
-This is where six-figure bills go to die. **SigNoz** is OpenTelemetry-native and ClickHouse-backed, giving you logs, metrics, and traces in one app, an OSS full-stack observability suite. **OpenObserve** ships as a single Go binary covering logs, metrics, traces, and RUM, storing data in a columnar format on S3, which is where its headline claim comes from: 80-90% lower cost than Datadog at scale. Both are OpenTelemetry-first, so instrument once and keep your options open.
+This is where six-figure bills go to die. **SigNoz** is OpenTelemetry-native and ClickHouse-backed, giving you logs, metrics, and traces in one app, an OSS full-stack observability suite. **OpenObserve** ships as a single Go binary covering logs, metrics, traces, and RUM, storing data in a columnar format on S3, which is where its headline claim comes from: 80–90% lower cost than Datadog at scale. Both are OpenTelemetry-first, so instrument once and keep your options open.
 
 If observability itself is fuzzy, start with our primer on [logs, metrics, and traces](/en/posts/observability-logs-metrics-traces), then read [how to cut your cloud bill with FinOps](/en/posts/finops-reduce-cloud-costs) for the discipline that makes any of these savings stick.
 
@@ -70,7 +70,7 @@ For media, **Immich** has become the default Google Photos replacement. Its [v2.
 | Google Analytics | Plausible | Cookieless, lightweight | AGPL |
 | Google Analytics | PostHog | Product analytics + replay + flags | MIT |
 | Datadog | SigNoz | OTel-native, ClickHouse | MIT |
-| Datadog | OpenObserve | Single binary, S3 storage, ~80-90% cheaper | AGPL |
+| Datadog | OpenObserve | Single binary, S3 storage, ~80–90% cheaper | AGPL |
 | 1Password | Vaultwarden | Bitwarden-compatible, Rust | AGPL |
 | Google Photos | Immich | v2.5, non-destructive edits, DB backup | AGPL |
 

@@ -30,7 +30,7 @@ The table below compares the two architectures across the dimensions that matter
 | Dimension | Modular Monolith | Microservices |
 |-----------|------------------|---------------|
 | Deploy unit | Single | One per service |
-| Ideal team size | 10-50 developers | 50+, clearly bounded teams |
+| Ideal team size | 10–50 developers | 50+, clearly bounded teams |
 | Scaling | Whole app together | Per-service, independent |
 | Data | Single database, ACID transactions | Database per service, distributed consistency |
 | Debugging | Easy, single stack trace | Hard, distributed tracing (OpenTelemetry) required |
@@ -42,12 +42,12 @@ Practical rule: if a feature's boundaries stay inside one team, write a monolith
 
 ## When should you use a monolith?
 
-Short answer: Use a monolith when one or a few teams work on a single product, you're still chasing product-market fit, and your operational maturity is limited. Per CNCF's data, for teams of 10-50 developers a modular monolith isn't just the default—it's usually the correct answer.
+Short answer: Use a monolith when one or a few teams work on a single product, you're still chasing product-market fit, and your operational maturity is limited. Per CNCF's data, for teams of 10–50 developers a modular monolith isn't just the default—it's usually the correct answer.
 
 Where a monolith shines:
 
 - **Early-stage products:** You don't yet know where the boundaries belong. Moving a module boundary inside a monolith is a refactor; in microservices it's a project requiring two teams to coordinate.
-- **Small teams:** For a 5-10 person team, the CI/CD, monitoring, and network overhead of 15 services is pure waste.
+- **Small teams:** For a 5–10 person team, the CI/CD, monitoring, and network overhead of 15 services is pure waste.
 - **Strong-consistency transactions:** An operation you handle with `BEGIN...COMMIT` on one database becomes saga and compensation logic in microservices.
 
 The most striking example came from Amazon itself: Prime Video's Video Quality Analysis team pulled its distributed, AWS Step Functions–based system back into a single-process monolith and [cut infrastructure cost by 90%](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90). The problem was in the architecture, not the code: every frame was uploaded to S3 and re-downloaded by the next service, and every state transition was billed separately.
@@ -97,7 +97,7 @@ Practical criteria that speed up the decision:
 4. **Split only if scaling is truly asymmetric.** If the whole app grows under the same load, splitting gives you no scaling benefit and only adds cost.
 5. **Assess operational maturity honestly.** Without distributed tracing, automated deploys, and an on-call culture, microservices pile up debt rather than paying it down.
 
-An opinionated take: in 2026, adopting microservices "because it's modern" is burning money. Even service mesh adoption slid from 18% in Q3 2023 to 8% by late 2025. Mature teams are pragmatic—they start with a well-modularized monolith and carve out only the 2-5 "hot paths" that genuinely need independent scaling. This is part of a broader discipline; our pieces on [design patterns](/en/posts/design-patterns-for-developers) and the [system design interview](/en/posts/system-design-interview-guide) go deeper on drawing clean boundaries. For the full picture, browse our [Software Engineering category](/en/category/software-engineering).
+An opinionated take: in 2026, adopting microservices "because it's modern" is burning money. Even service mesh adoption slid from 18% in Q3 2023 to 8% by late 2025. Mature teams are pragmatic—they start with a well-modularized monolith and carve out only the 2–5 "hot paths" that genuinely need independent scaling. This is part of a broader discipline; our pieces on [design patterns](/en/posts/design-patterns-for-developers) and the [system design interview](/en/posts/system-design-interview-guide) go deeper on drawing clean boundaries. For the full picture, browse our [Software Engineering category](/en/category/software-engineering).
 
 ## Frequently Asked Questions
 

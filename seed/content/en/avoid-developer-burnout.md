@@ -40,7 +40,7 @@ If three or more feel familiar, reading the rest of this guide moves from a "som
 
 This is the 2026 question, and the honest answer is: it can. Around 84% of developers now use or plan to use GenAI tools, but faster autocomplete hasn't lightened the load. A 2025 study modeling burnout against GenAI adoption ([From Gains to Strains](https://arxiv.org/abs/2510.07435), 442 developers) found that AI **raises job demands** — managers assign more work at a faster pace, and engineers burn extra hours debugging and securing AI-generated code. Harness's 2025 delivery report echoed it: 67% of developers now spend *more* time debugging AI code than before.
 
-My mildly spicy take: the productivity narrative around AI has quietly moved the goalposts. If your output doubles, the expectation triples. Treat AI as a tool that changes *what* you review, not a licence to skip the sustainable-pace math below. Our guide on [developer productivity with AI tools](/en/posts/developer-productivity-ai-tools) covers where the tools save time versus where they just relocate it.
+My mildly spicy take: the productivity narrative around AI has quietly moved the goalposts. If your output doubles, the expectation triples. Treat AI as a tool that changes *what* you review, not a license to skip the sustainable-pace math below. Our guide on [developer productivity with AI tools](/en/posts/developer-productivity-ai-tools) covers where the tools save time versus where they just relocate it.
 
 ## How do you avoid developer burnout? (8 steps)
 

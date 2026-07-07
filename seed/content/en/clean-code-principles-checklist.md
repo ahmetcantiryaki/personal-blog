@@ -13,7 +13,7 @@ seoDescription: "A clean code principles checklist for the AI era: audit naming,
 
 Here's the belief most developers now hold: since AI writes roughly 41% of code, clean code principles are a nice-to-have; the model produces something that "works" anyway. The data says the opposite. As of July 2026, the strongest signals show that discipline didn't die, its price went up.
 
-Google's [2025 DORA report](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report) found that AI acts as a multiplier of existing engineering practice: it lifts throughput by an estimated 2-18%, but where discipline is weak it also raises the change failure rate. In other words, AI ships bad code faster. That's exactly why this checklist exists, to audit the code that ships, no matter who wrote it, in 30 seconds.
+Google's [2025 DORA report](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report) found that AI acts as a multiplier of existing engineering practice: it lifts throughput by an estimated 2–18%, but where discipline is weak it also raises the change failure rate. In other words, AI ships bad code faster. That's exactly why this checklist exists, to audit the code that ships, no matter who wrote it, in 30 seconds.
 
 ## What does clean code actually mean?
 

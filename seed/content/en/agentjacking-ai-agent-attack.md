@@ -76,7 +76,7 @@ If you're formalizing agent behavior into repeatable checks, our guide on [evalu
 
 ## The contrarian take
 
-The reflex response is "audit your MCP servers," and it's not wrong — but it aims at the wrong layer. The design flaw isn't a bad server; it's that agent frameworks merge tool output and user intent into one undifferentiated context with no privilege model. Until agents separate "instructions I was given" from "data I retrieved," every new integration is a new injection surface. Agentjacking is the first widely-reported instance. It will not be the last, and the fix is architectural, not a config file. For the broader trade-offs of handing autonomy to agents, our [AI agents vs workflows](/en/posts/ai-agents-vs-workflows) breakdown is a useful gut-check on where an autonomous agent is even worth the risk. More engineering deep-dives live on the [Software Engineering](/en/category/software-engineering) hub.
+The reflex response is "audit your MCP servers," and it's not wrong — but it aims at the wrong layer. The design flaw isn't a bad server; it's that agent frameworks merge tool output and user intent into one undifferentiated context with no privilege model. Until agents separate "instructions I was given" from "data I retrieved," every new integration is a new injection surface. Agentjacking is the first widely reported instance. It will not be the last, and the fix is architectural, not a config file. For the broader trade-offs of handing autonomy to agents, our [AI agents vs workflows](/en/posts/ai-agents-vs-workflows) breakdown is a useful gut-check on where an autonomous agent is even worth the risk. More engineering deep-dives live on the [Software Engineering](/en/category/software-engineering) hub.
 
 ## Frequently Asked Questions
 

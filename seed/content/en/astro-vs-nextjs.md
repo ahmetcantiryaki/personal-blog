@@ -121,7 +121,7 @@ Our mild opinionated take: the Cloudflare acquisition made Astro's edge story ge
 
 ### Astro vs Next.js: which one is faster?
 
-For content sites, Astro is almost always faster because it ships zero JavaScript by default and the browser has no hydration burden. In a heavily interactive app the gap closes; both use server rendering, and Next.js 16's Cache Components with PPR can cut initial load 60-80% versus fully dynamic pages. The real difference comes from how much JavaScript the page needs, not the framework badge.
+For content sites, Astro is almost always faster because it ships zero JavaScript by default and the browser has no hydration burden. In a heavily interactive app the gap closes; both use server rendering, and Next.js 16's Cache Components with PPR can cut initial load 60–80% versus fully dynamic pages. The real difference comes from how much JavaScript the page needs, not the framework badge.
 
 ### Does Astro support React?
 

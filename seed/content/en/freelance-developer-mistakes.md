@@ -39,7 +39,7 @@ Floor rate = (90,000 / 1,000) * 1.35 = $121.50 / hour
 
 That number is not aggressive. As of July 2026, the [Global Freelance Hourly Rate Index](https://www.jobbers.io/the-global-freelance-hourly-rate-index-2026-real-rates-by-skill-country-and-experience-level/) puts the worldwide baseline for freelance developers around $101/hour, with senior web developers near $128/hour in North America. If you are charging $50/hour and calling it good money because it beats your old salary divided by 2,080, you have made the classic error. You are not a salaried employee with a fraction of the hours; you carry every cost the employer used to absorb.
 
-One caveat worth naming: rates are regional. The same index shows Eastern Europe at $40-70/hour and Latin America at $30-55/hour. Benchmark against your market, then price against the *value you deliver* — not the cheapest bid in the thread.
+One caveat worth naming: rates are regional. The same index shows Eastern Europe at $40–70/hour and Latin America at $30–55/hour. Benchmark against your market, then price against the *value you deliver* — not the cheapest bid in the thread.
 
 ## How do you stop scope creep on freelance projects?
 
@@ -63,14 +63,14 @@ The mistake that ends freelance careers is client concentration: when one client
 | Mistake | What it looks like | Real cost | The fix |
 |---------|-------------------|-----------|---------|
 | One dominant client | 1 client = 70% of income | Income to zero if they leave | Cap any client at ~40%; always be pitching |
-| No deposit | Start work on a promise | Unpaid weeks of labor | 25-50% upfront, always |
+| No deposit | Start work on a promise | Unpaid weeks of labor | 25–50% upfront, always |
 | No pipeline | Only look for work when idle | Panic-priced cheap gigs | Spend 20% of time on sales, even when busy |
 | Chasing invoices | "Net 30" with no teeth | Cash-flow crunch | Late fees + paused work in the contract |
-| No emergency fund | Living invoice to invoice | One dry month = crisis | Bank 3-6 months of expenses |
+| No emergency fund | Living invoice to invoice | One dry month = crisis | Bank 3–6 months of expenses |
 
 The pattern across the table is the same: freelancers optimize for the busy months and get destroyed by the quiet ones. A pipeline you tend while you are busy is what turns a quiet month into a minor dip instead of a crisis. A [portfolio that stands out](/en/posts/developer-portfolio-guide) is the cheapest pipeline insurance there is — it keeps inbound flowing while you are heads-down on delivery.
 
-There is a sneakier mistake hiding under this table: confusing cash flow with profit. Collect a big invoice and your account looks full — but that money has to cover the next quarter's tax, insurance, and idle days too. It is exactly why freelancers get blindsided at tax time. Simple rule: the moment an invoice lands, move a fixed percentage (20-30% for most) into a separate account and never see it as spendable income.
+There is a sneakier mistake hiding under this table: confusing cash flow with profit. Collect a big invoice and your account looks full — but that money has to cover the next quarter's tax, insurance, and idle days too. It is exactly why freelancers get blindsided at tax time. Simple rule: the moment an invoice lands, move a fixed percentage (20–30% for most) into a separate account and never see it as spendable income.
 
 ## Why do you always need a contract?
 
@@ -94,7 +94,7 @@ Underpricing. New freelancers divide their old salary by 2,080 hours and quote f
 
 ### How much deposit should a freelance developer ask for?
 
-Take 25-50% upfront before any work starts, then bill the rest against milestones. A deposit filters out non-serious clients, funds your work, and means a ghosting client cannot cost you the entire project. Make the deposit non-refundable so it doubles as your kill fee. If a client refuses any deposit, treat that as a serious warning sign.
+Take 25–50% upfront before any work starts, then bill the rest against milestones. A deposit filters out non-serious clients, funds your work, and means a ghosting client cannot cost you the entire project. Make the deposit non-refundable so it doubles as your kill fee. If a client refuses any deposit, treat that as a serious warning sign.
 
 ### Do I really need a contract for small freelance jobs?
 

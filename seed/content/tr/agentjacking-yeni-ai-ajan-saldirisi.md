@@ -45,9 +45,9 @@ Tenet gerçek bir ölçek bildiriyor. Bunları bağımsız doğrulanmış değil
 
 ## Kalıcı ders: ajanın yuttuğu veriyi güvenilmez girdi say
 
-Sentry ve adı geçen ajanlar önlemler yayınlayacak — Tenet, Cursor ve Claude Code için hazır sertleştirme yapılandırmaları olan `agent-jackstop`'ı çoktan açık kaynak yaptı. Ama tek bir telemetri kaynağını yamamak köstebek vurmaca. Temmuz 2026 itibarıyla aynı saldırı sınıfı, bir ajanın güven sınırı olmadan okuduğu her kanala uygular: log toplayıcılar, issue takipçileri, CI çıktısı, webhook gövdeleri, kazınmış web sayfaları, hatta diğer ajanların mesajları.
+Sentry ve adı geçen ajanlar önlemler yayınlayacak — Tenet, Cursor ve Claude Code için hazır sertleştirme yapılandırmaları olan `agent-jackstop`'ı çoktan açık kaynak yaptı. Ama tek bir telemetri kaynağını yamamak köstebek vurmaca. Temmuz 2026 itibarıyla aynı saldırı sınıfı, bir ajanın güven sınırı olmadan okuduğu her kanal için geçerlidir: log toplayıcılar, issue takipçileri, CI çıktısı, webhook gövdeleri, kazınmış web sayfaları, hatta diğer ajanların mesajları.
 
-Haber döngüsünden uzun yaşayacak ilke şu: **ajanınızın bir araç üzerinden çektiği her şey, tıpkı ham bir HTTP istek gövdesi gibi, güvenilmez dış girdidir.** Bunları zaten doğruluyorsunuz. Yirmi yıldır yapıyorsunuz. Ajan araçları, iki on yıl boyunca terk etmeye çalıştığımız hatayı sessizce geri getirdi — girdiye, nereden geldiği için güvenmek.
+Haber döngüsünden uzun yaşayacak ilke şu: **ajanınızın bir araç üzerinden çektiği her şey, tıpkı ham bir HTTP istek gövdesi gibi, güvenilmez dış girdidir.** Bunları zaten doğruluyorsunuz. Yirmi yıldır yapıyorsunuz. Ajan araçları, yirmi yıl boyunca terk etmeye çalıştığımız hatayı sessizce geri getirdi — girdiye, nereden geldiği için güvenmek.
 
 ## Bir sonraki istismardan sağ çıkan savunma kontrol listesi
 
@@ -86,7 +86,7 @@ Agentjacking, Tenet Security tarafından Haziran 2026'da açıklanan bir saldır
 
 ### Agentjacking yalnızca bir Sentry sorunu mu?
 
-Hayır, ve çerçevelemedeki tuzak da bu. Sentry açıklanan teslimat kanalı çünkü DSN'i tasarımı gereği herkese açık; ama asıl kusur, ajanların her araç çıktısına mutlak gerçek gibi güvenmesi. Aynı teknik log hatlarına, issue takipçilerine, CI çıktısına, webhook'lara ve kazınmış sayfalara da uygular. Yalnızca Sentry'yi düzeltmek saldırı sınıfını olduğu gibi bırakır.
+Hayır; çerçevelemedeki tuzak da bu. Sentry açıklanan teslimat kanalı çünkü DSN'i tasarımı gereği herkese açık; ama asıl kusur, ajanların her araç çıktısına mutlak gerçek gibi güvenmesi. Aynı teknik log hatlarına, issue takipçilerine, CI çıktısına, webhook'lara ve kazınmış sayfalara da uygulanır. Yalnızca Sentry'yi düzeltmek saldırı sınıfını olduğu gibi bırakır.
 
 ### AI kod ajanımı agentjacking'den nasıl korurum?
 

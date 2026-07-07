@@ -42,7 +42,7 @@ Go one step further and pin the image by digest (`node@sha256:...`). That way, e
 
 ## Why should you use multi-stage builds?
 
-A multi-stage build separates the compile stage from the runtime stage, stripping compilers, dev dependencies, and intermediate files out of the final image. The result is usually a 5-10x smaller image and a noticeably tighter attack surface. It's the single highest-ROI move on this list.
+A multi-stage build separates the compile stage from the runtime stage, stripping compilers, dev dependencies, and intermediate files out of the final image. The result is usually a 5–10x smaller image and a noticeably tighter attack surface. It's the single highest-ROI move on this list.
 
 Shipping a single-stage Node image, we started at 1.1 GB. Switching to multi-stage dropped the same app to 180 MB, because `devDependencies` and build artifacts never made it into the final layer. A smaller image isn't just about disk: pull times drop, deploys speed up, and there are fewer binaries to hand an attacker.
 
@@ -134,7 +134,7 @@ My opinionated take: the most-neglected item here isn't image scanning, it's dig
 Both are small and secure. Alpine ships a shell and package manager, so it's easy to debug. Distroless images contain no shell at all, giving the tightest attack surface but making troubleshooting harder. Pick distroless for maximum production security and Alpine for developer convenience.
 
 ### What's the fastest way to reduce image size?
-A multi-stage build. By keeping build tools and dev dependencies out of the final image, it alone usually delivers a 5-10x reduction. Moving to an Alpine or distroless base image on top of that adds further savings.
+A multi-stage build. By keeping build tools and dev dependencies out of the final image, it alone usually delivers a 5–10x reduction. Moving to an Alpine or distroless base image on top of that adds further savings.
 
 ### How do I keep secrets safe in a Dockerfile?
 Never pass secrets via `ENV` or `ARG`; they get baked into layers and are readable with `docker history`. Use BuildKit's `--mount=type=secret` instead, and for runtime secrets inject environment variables or a secret manager (Vault, AWS Secrets Manager) at run time.

@@ -110,7 +110,7 @@ No. AI speeds up mechanical work but cannot take over tasks that need judgment, 
 
 ### How much does developer productivity improve with AI tools?
 
-On the projects we measured, task cycle time dropped 30-40% for boilerplate, tests, and documentation, consistent with DORA's 80%-plus "my productivity went up" signal. But on modules with complex business rules the gain falls under 10%. Do not expect a single headline number; the payoff depends on how mechanical the task is.
+On the projects we measured, task cycle time dropped 30–40% for boilerplate, tests, and documentation, consistent with DORA's 80%-plus "my productivity went up" signal. But on modules with complex business rules the gain falls under 10%. Do not expect a single headline number; the payoff depends on how mechanical the task is.
 
 ### Which AI tool should I start with?
 

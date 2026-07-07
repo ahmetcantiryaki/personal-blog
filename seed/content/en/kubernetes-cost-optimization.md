@@ -31,11 +31,11 @@ kubectl describe nodes | grep -A5 "Allocated resources"
 
 ## Which tactics actually right-size a cluster?
 
-Right-sizing is the foundation of Kubernetes cost optimization and often saves 30-50% of the bill on its own. We've ranked the 10 tactics below by impact-to-effort.
+Right-sizing is the foundation of Kubernetes cost optimization and often saves 30–50% of the bill on its own. We've ranked the 10 tactics below by impact-to-effort.
 
 ### 1. Shrink resource requests to match real usage
 
-Most teams set `requests` high "just in case." Pull 7-14 days of p95 usage from Prometheus and set requests to that. On one Java service we dropped the `cpu: 2000m` request to `600m`; pods ran at the same latency but three times as many fit per node.
+Most teams set `requests` high "just in case." Pull 7–14 days of p95 usage from Prometheus and set requests to that. On one Java service we dropped the `cpu: 2000m` request to `600m`; pods ran at the same latency but three times as many fit per node.
 
 ### 2. Let VPA resize in place, not just recommend
 
@@ -56,7 +56,7 @@ Replace fixed replica counts with an HPA. On an API with quiet nights we dropped
 
 ### 4. Move to spot / preemptible nodes
 
-For stateless workloads, spot nodes are 70-90% cheaper than on-demand as of July 2026. Route interruption-tolerant workloads to a spot pool and keep critical ones on-demand:
+For stateless workloads, spot nodes are 70–90% cheaper than on-demand as of July 2026. Route interruption-tolerant workloads to a spot pool and keep critical ones on-demand:
 
 ```yaml
 nodeSelector:
@@ -90,7 +90,7 @@ Drain low-density nodes and pack workloads onto fewer machines. Use `descheduler
 
 ### 8. Buy Reserved Instances / Savings Plans
 
-For a steady baseline, a Savings Plan or Committed Use Discount saves 40-72% versus on-demand. Blend with spot: committed capacity for the base, spot for the peak.
+For a steady baseline, a Savings Plan or Committed Use Discount saves 40–72% versus on-demand. Blend with spot: committed capacity for the base, spot for the peak.
 
 ### 9. Trim logging and monitoring costs
 
@@ -98,7 +98,7 @@ Observability quietly grows the bill. Turn off noisy debug logs, cut metric card
 
 ### 10. Monitor cost continuously (FinOps)
 
-One-off optimization rots. Install [OpenCost](https://opencost.io/) — now a CNCF Incubating project that even ships a built-in MCP server so AI agents can query your cost data directly — and attribute spend per namespace/team (showback). Set budget alerts and share a weekly report. The FinOps Foundation's 2026 numbers make the case: teams without a FinOps practice waste 32-40% of cloud spend; mature ones hold it to 15-20%.
+One-off optimization rots. Install [OpenCost](https://opencost.io/) — now a CNCF Incubating project that even ships a built-in MCP server so AI agents can query your cost data directly — and attribute spend per namespace/team (showback). Set budget alerts and share a weekly report. The FinOps Foundation's 2026 numbers make the case: teams without a FinOps practice waste 32–40% of cloud spend; mature ones hold it to 15–20%.
 
 ## Which tools should you use?
 
@@ -120,7 +120,7 @@ Practical order: use OpenCost to see where money goes, then VPA/Goldilocks to ri
 Run your first pass as a tight, measurable loop over a single weekend so you can prove savings before touching the whole cluster. The sequence we follow on every new engagement:
 
 1. **Install OpenCost or Kubecost** and let it collect at least 24 hours of data.
-2. **Export p95 CPU/RAM** per workload from Prometheus over the last 7-14 days.
+2. **Export p95 CPU/RAM** per workload from Prometheus over the last 7–14 days.
 3. **Pick the top 10 costliest namespaces** and deploy VPA in recommendation mode there.
 4. **Lower `requests`** to the p95 target, one namespace at a time — with in-place resize you can do this without restarts.
 5. **Add an HPA** to any service with variable traffic and a fixed replica count.
@@ -141,7 +141,7 @@ For related reading: our guide to [FinOps and cutting your cloud bill](/en/posts
 
 ### How much does Kubernetes cost optimization typically save?
 
-In our field experience, a typical production cluster saves 40-60% with right-sizing plus spot nodes combined. The biggest shares come from right-sizing (30-50%) and moving to spot nodes (70-90% node discount). Expecting double-digit percentage savings in the first month is realistic.
+In our field experience, a typical production cluster saves 40–60% with right-sizing plus spot nodes combined. The biggest shares come from right-sizing (30–50%) and moving to spot nodes (70–90% node discount). Expecting double-digit percentage savings in the first month is realistic.
 
 ### Are spot nodes safe for production workloads?
 

@@ -11,7 +11,7 @@ seoTitle: "CSS Container Queries: A Practical How-To (2026)"
 seoDescription: "CSS container queries how-to for 2026: define a container with container-type, query its width with @container, and use the new style and scroll-state queries."
 ---
 
-Here is CSS container queries how to in one breath: give a parent `container-type: inline-size`, then style its children with `@container (min-width: ...)` so they respond to the **container's** size instead of the viewport. As of July 2026 every evergreen browser supports the size version, and it's the cleanest way to build a component that adapts to wherever you drop it.
+Here is CSS container-queries how-to in one breath: give a parent `container-type: inline-size`, then style its children with `@container (min-width: ...)` so they respond to the **container's** size instead of the viewport. As of July 2026 every evergreen browser supports the size version, and it's the cleanest way to build a component that adapts to wherever you drop it.
 
 Media queries ask "how big is the screen?" Container queries ask "how big is my parent?" That one shift is what finally makes a card, sidebar, or widget genuinely reusable. And 2026 is the year the feature grew up: style queries went cross-browser in May, and Chrome shipped scroll-state queries that kill a whole class of JavaScript scroll listeners.
 
@@ -19,11 +19,11 @@ Media queries ask "how big is the screen?" Container queries ask "how big is my 
 
 CSS container queries let an element respond to the size of its containing element rather than the browser viewport. You mark an ancestor as a query container with `container-type`, then write `@container` rules that apply based on that container's width, height, style, or scroll state. The same component renders compact in a sidebar and wide in a main column, with zero viewport math.
 
-This fixes the core weakness of media queries: a component styled for a 1200px viewport breaks the moment you reuse it in a narrow slot. Container queries move the decision to where it belongs, the component's actual available space.
+This fixes the core weakness of media queries: a component styled for a 1200px viewport breaks the moment you reuse it in a narrow slot. Container queries move the decision to where it belongs — the component's actual available space.
 
 ## How do they differ from media queries?
 
-Short answer: media queries respond to the viewport, container queries respond to a parent element. Media queries are global and layout-level; container queries are local and component-level. You still use both, media queries for the page shell and global breakpoints, container queries for reusable components that live in unpredictable slots.
+Short answer: media queries respond to the viewport, container queries respond to a parent element. Media queries are global and layout-level; container queries are local and component-level. You still use both: media queries for the page shell and global breakpoints, container queries for reusable components that live in unpredictable slots.
 
 | Aspect | Media queries | Container queries |
 |--------|---------------|-------------------|
@@ -43,7 +43,7 @@ Follow these in order. Each step builds on the last, so don't skip the containme
 3. **Name the container.** Add `container-name: card` so you target it explicitly and avoid querying the wrong ancestor.
 4. **Write your `@container` rules** against the named container: `@container card (min-width: 400px) { ... }`.
 5. **Set mobile-first defaults** outside any query, then layer wider layouts on top.
-6. **Test in multiple slots**, a sidebar, a grid cell, and a full-width row.
+6. **Test in multiple slots**: a sidebar, a grid cell, and a full-width row.
 
 The most common pattern is a card that switches from stacked to side-by-side based on its own width:
 

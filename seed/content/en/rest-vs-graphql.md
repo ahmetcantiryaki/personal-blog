@@ -11,13 +11,13 @@ seoDescription: "REST vs GraphQL is the wrong fight in 2026. A current compariso
 excerpt: "Most developers still treat REST vs GraphQL as a two-horse race. As of July 2026 that framing is stale. Here is the honest comparison, with tRPC and gRPC in the picture."
 ---
 
-Most developers still argue **REST vs GraphQL** like it's a title fight with one belt. Pick a side, ship it, defend it in code review. As of July 2026, that framing is the least useful way to think about API design. The honest answer is that neither wins outright, the dominant production pattern is a hybrid of both, and two newer contenders quietly reshaped the question while everyone was busy taking sides.
+Most developers still argue **REST vs GraphQL** like it's a title fight with one belt. Pick a side, ship it, defend it in code review. As of July 2026, that framing is the least useful way to think about API design. The honest answer is that neither wins outright; the dominant production pattern is a hybrid of both, and two newer contenders quietly reshaped the question while everyone was busy taking sides.
 
 Here is the nuance nobody puts on a conference slide: REST and GraphQL solve *different* problems, and the interesting decision in 2026 is rarely "which one" but "which combination, and where." This piece compares them with production examples and fresh numbers, then puts tRPC and gRPC on the same table so you can actually choose.
 
 ## What REST vs GraphQL actually means
 
-REST is built on many endpoints (`/users`, `/users/1/orders`), each returning a fixed data shape the server decides. GraphQL is built on a single endpoint (`/graphql`) where the client defines the exact fields it wants through a query language. The load-bearing difference: in REST the server shapes the response, in GraphQL the client does.
+REST is built on many endpoints (`/users`, `/users/1/orders`), each returning a fixed data shape the server decides. GraphQL is built on a single endpoint (`/graphql`) where the client defines the exact fields it wants through a query language. The load-bearing difference: in REST the server shapes the response; in GraphQL the client does.
 
 REST is an architectural style from Roy Fielding's 2000 dissertation, driven by HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`). GraphQL is a query language Facebook open-sourced in 2015, governed by the [GraphQL Foundation](https://graphql.org/) since 2019. It is very much alive: the [September 2025 specification](https://spec.graphql.org/September2025/) is the current stable edition, superseding the 2021 one, and a companion GraphQL-over-HTTP spec finally standardized transport semantics that used to be a per-server free-for-all.
 
@@ -41,7 +41,7 @@ Practical rule: flat, cacheable resources for a public audience lean REST. Diver
 
 ## When REST still wins
 
-Use REST when resources are clearly defined, HTTP caching and CDNs matter, and your API is public or consumed by third parties. As of July 2026, REST still fronts roughly 83% of public web APIs, and around 93% of teams ship it somewhere. That is not inertia, it is fit.
+Use REST when resources are clearly defined, HTTP caching and CDNs matter, and your API is public or consumed by third parties. As of July 2026, REST still fronts roughly 83% of public web APIs, and around 93% of teams ship it somewhere. That is not inertia; it is fit.
 
 Where REST shines:
 
@@ -80,7 +80,7 @@ query {
 }
 ```
 
-That single query returns what would take 3-4 REST calls. But GraphQL is not free. Three things are mandatory. First, **N+1 protection**: without a batching loader like DataLoader, nested resolvers hammer the database. On one production service, a single request generated 340 SQL queries before we added batching, the kind of pathology that also makes [database indexing](/en/posts/database-indexing-explained) suddenly urgent. Second, **query depth and complexity limits**, or a malicious client takes you down with one deeply nested query. Third, **persisted queries** for caching and security.
+That single query returns what would take 3–4 REST calls. But GraphQL is not free. Three things are mandatory. First, **N+1 protection**: without a batching loader like DataLoader, nested resolvers hammer the database. On one production service, a single request generated 340 SQL queries before we added batching, the kind of pathology that also makes [database indexing](/en/posts/database-indexing-explained) suddenly urgent. Second, **query depth and complexity limits**, or a malicious client takes you down with one deeply nested query. Third, **persisted queries** for caching and security.
 
 ## The 2026 twist: tRPC and gRPC changed the question
 
