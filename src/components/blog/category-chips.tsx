@@ -17,11 +17,15 @@ interface CategoryChipsProps {
 const chipBase =
   'inline-flex items-center rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background'
 
-/** Horizontal, scrollable category filter chips. */
+/**
+ * Category filter chips. On mobile the chips wrap onto multiple lines (no
+ * hidden horizontal scroll); from `sm` up they stay on a single, horizontally
+ * scrollable row exactly as before.
+ */
 export function CategoryChips({ categories, locale, dict, activeSlug = null }: CategoryChipsProps) {
   return (
-    <nav aria-label={dict.nav.categories} className="-mx-1 overflow-x-auto pb-1">
-      <ul className="flex w-max items-center gap-2 px-1">
+    <nav aria-label={dict.nav.categories} className="-mx-1 pb-1 sm:overflow-x-auto">
+      <ul className="flex flex-wrap items-center gap-2 px-1 sm:w-max sm:flex-nowrap">
         <li>
           <Link
             href={routes.home(locale)}

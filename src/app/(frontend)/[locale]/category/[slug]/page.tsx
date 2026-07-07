@@ -113,6 +113,7 @@ export default async function CategoryPage({ params, searchParams }: CategoryPag
           page={page}
           totalPages={totalPages}
           hrefForPage={(p) => `${routes.category(locale, slug)}?page=${p}`}
+          labels={dict.pagination}
         />
       </div>
     </div>

@@ -28,6 +28,8 @@ export const en: Dictionary = {
     filterAll: 'All',
     empty: 'No published posts yet.',
     readMore: 'Read more',
+    loadMore: 'Load more',
+    loading: 'Loading…',
   },
 
   post: {
@@ -58,6 +60,13 @@ export const en: Dictionary = {
     title: 'Tag',
     postsWith: 'Posts with this tag',
     empty: 'No posts with this tag yet.',
+  },
+
+  pagination: {
+    label: 'Pagination',
+    previous: 'Previous',
+    next: 'Next',
+    page: 'Page',
   },
 
   search: {

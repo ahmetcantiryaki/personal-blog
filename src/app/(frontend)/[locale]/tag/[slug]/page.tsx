@@ -111,6 +111,7 @@ export default async function TagPage({ params, searchParams }: TagPageProps) {
           page={page}
           totalPages={totalPages}
           hrefForPage={(p) => `${routes.tag(locale, slug)}?page=${p}`}
+          labels={dict.pagination}
         />
       </div>
     </div>

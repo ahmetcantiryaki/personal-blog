@@ -7,6 +7,8 @@ import { EN_CATEGORY_SLUG, TR_CATEGORY_SLUG } from './helpers/api'
 // The "latest" grid section is an aria-labelled landmark on every page; the
 // featured hero lives in its own region shown on page 1 only.
 const LATEST_LABEL = { tr: 'Son yazılar', en: 'Latest posts' } as const
+// The home feed grows via a localized "load more" button (no pagination).
+const LOAD_MORE_LABEL = { tr: 'Daha fazla yükle', en: 'Load more' } as const
 const GRID_PER_PAGE = 9
 
 for (const locale of ['tr', 'en'] as const) {
@@ -27,36 +29,31 @@ for (const locale of ['tr', 'en'] as const) {
       await expect(firstLink).toHaveAttribute('href', new RegExp(`^/${locale}/posts/`))
     })
 
-    test('page 2 keeps a full 9-card grid with fresh posts', async ({ page }) => {
+    test('load more appends a second 9-card batch with no duplicates', async ({ page }) => {
       await page.goto(`/${locale}`)
 
-      // Page 1 exposes a working link to page 2, and its first grid title is
-      // captured to prove page 2 renders a different window of posts.
-      const pageTwoLink = page
-        .getByRole('navigation', { name: 'Pagination' })
-        .getByRole('link', { name: '2', exact: true })
-      await expect(pageTwoLink).toHaveAttribute('href', new RegExp(`/${locale}\\?page=2`))
-      const firstGridTitlePage1 = await gridRegion(page)
-        .first()
-        .locator('h3 a, h2 a')
-        .textContent()
-
-      // Navigate directly to page 2 (deterministic; avoids flaky RSC streaming).
-      await page.goto(`/${locale}?page=2`)
-
-      // Page 2 marks itself current in the pagination control…
-      await expect(
-        page.getByRole('navigation', { name: 'Pagination' }).locator('[aria-current="page"]'),
-      ).toHaveText('2')
-
-      // …and still shows exactly 9 grid cards (consistent per-page window).
+      // First batch is server-rendered: exactly 9 cards.
       await expect(gridRegion(page)).toHaveCount(GRID_PER_PAGE)
+      const initialTitles = (
+        await gridRegion(page).locator('h3 a, h2 a').allTextContents()
+      ).map((t) => t.trim())
 
-      const firstGridTitlePage2 = await gridRegion(page)
-        .first()
-        .locator('h3 a, h2 a')
-        .textContent()
-      expect(firstGridTitlePage2).not.toBe(firstGridTitlePage1)
+      // The localized "load more" fallback button appends the next batch.
+      const loadMore = page.getByRole('button', { name: LOAD_MORE_LABEL[locale] })
+      await expect(loadMore).toBeVisible()
+      await loadMore.click()
+
+      // The grid grows to 18 cards (batch 1 + batch 2).
+      await expect(gridRegion(page)).toHaveCount(GRID_PER_PAGE * 2)
+
+      const allTitles = (
+        await gridRegion(page).locator('h3 a, h2 a').allTextContents()
+      ).map((t) => t.trim())
+
+      // No post appears twice across the two batches…
+      expect(new Set(allTitles).size).toBe(allTitles.length)
+      // …and the original batch is retained (append, not replace/reshuffle).
+      for (const title of initialTitles) expect(allTitles).toContain(title)
     })
   })
 }

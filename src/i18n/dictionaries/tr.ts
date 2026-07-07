@@ -26,6 +26,8 @@ export const tr = {
     filterAll: 'Tümü',
     empty: 'Henüz yayınlanmış yazı yok.',
     readMore: 'Devamını oku',
+    loadMore: 'Daha fazla yükle',
+    loading: 'Yükleniyor…',
   },
 
   post: {
@@ -56,6 +58,13 @@ export const tr = {
     title: 'Etiket',
     postsWith: 'Bu etiketli yazılar',
     empty: 'Bu etikette henüz yazı yok.',
+  },
+
+  pagination: {
+    label: 'Sayfalama',
+    previous: 'Önceki',
+    next: 'Sonraki',
+    page: 'Sayfa',
   },
 
   search: {

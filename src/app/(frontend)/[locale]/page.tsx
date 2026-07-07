@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 
 import { CategoryChips } from '@/components/blog/category-chips'
 import { FeaturedPost } from '@/components/blog/featured-post'
-import { Pagination } from '@/components/blog/pagination'
+import { LoadMorePosts } from '@/components/blog/load-more-posts'
 import { PostGrid } from '@/components/blog/post-grid'
 import { JsonLd } from '@/components/seo/json-ld'
 import { getDictionary } from '@/i18n'
@@ -18,7 +18,6 @@ export const revalidate = 300
 
 interface HomeProps {
   params: Promise<{ locale: string }>
-  searchParams: Promise<{ page?: string }>
 }
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
@@ -34,21 +33,16 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
   })
 }
 
-const parsePage = (value?: string): number => {
-  const n = Number.parseInt(value ?? '1', 10)
-  return Number.isFinite(n) && n > 0 ? n : 1
-}
-
-export default async function Home({ params, searchParams }: HomeProps) {
+export default async function Home({ params }: HomeProps) {
   const { locale } = await params
   if (!isLocale(locale)) notFound()
 
-  const page = parsePage((await searchParams).page)
   const dict = getDictionary(locale)
 
-  // The newest post is the featured hero (page 1 only). It is excluded from the
-  // grid on EVERY page so the grid is a consistent 9-per-page window over the
-  // remaining posts — no post duplicated or skipped across pages.
+  // The newest post is the featured hero. It is excluded from the grid so the
+  // grid is a consistent window over the remaining posts — no post duplicated.
+  // The home feed grows downward (progressive "load more"); there are no
+  // ?page= URLs here, so any legacy ?page param is simply ignored (batch 1).
   const [featuredPost, categories] = await Promise.all([
     getFeaturedPost(locale),
     listCategories(locale),
@@ -56,11 +50,11 @@ export default async function Home({ params, searchParams }: HomeProps) {
 
   const { posts: gridPosts, totalPages } = await listPosts({
     locale,
-    page,
+    page: 1,
     excludeId: featuredPost?.id,
   })
 
-  const featured = page === 1 ? featuredPost : undefined
+  const featured = featuredPost
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
@@ -83,22 +77,17 @@ export default async function Home({ params, searchParams }: HomeProps) {
       ) : null}
 
       <section aria-label={dict.home.latest}>
-        {page === 1 ? (
-          <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-            {dict.home.latest}
-          </h2>
-        ) : null}
+        <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+          {dict.home.latest}
+        </h2>
         <PostGrid posts={gridPosts} locale={locale} dict={dict} />
-      </section>
-
-      <div className="mt-12">
-        <Pagination
-          page={page}
-          totalPages={totalPages}
-          hrefForPage={(p) => `${routes.home(locale)}?page=${p}`}
-          labels={{ previous: dict.nav.home, next: dict.nav.home }}
+        <LoadMorePosts
+          locale={locale}
+          excludeId={featuredPost?.id ?? undefined}
+          initialHasMore={totalPages > 1}
+          labels={{ loadMore: dict.home.loadMore, loading: dict.home.loading }}
         />
-      </div>
+      </section>
     </div>
   )
 }
