@@ -2,58 +2,6 @@
   "updatedAt": "2026-07-07",
   "topics": [
     {
-      "translationKey": "context-engineering-ai-agents",
-      "category": "ai",
-      "titleTr": "AI Ajanları İçin Context Engineering Rehberi",
-      "titleEn": "Context Engineering for AI Agents: A Field Guide",
-      "slugTr": "ai-ajanlari-icin-context-engineering",
-      "slugEn": "context-engineering-for-ai-agents",
-      "keywordTr": "ai ajanları için context engineering",
-      "keywordEn": "context engineering for ai agents",
-      "angle": "guide + how to architect the whole information environment (memory, tools, retrieval, state) so agents stay reliable over long tasks",
-      "style": "data-led",
-      "brief": "Sections: why agent failures are context failures not model failures; the context budget; the seven patterns (selection, compression, RAG, shared layers, routing, eviction, caching); a worked before/after. Key claims to verify: context quality beats volume as the 2026 limiting factor; caching only system prompts is safest. Primary sources: Anthropic 2026 Agentic Coding Trends Report; ivern.ai context-engineering guide. Close with a checklist devs can apply to an existing agent this week."
-    },
-    {
-      "translationKey": "cut-llm-token-costs",
-      "category": "ai",
-      "titleTr": "LLM Token Maliyetini %70 Nasıl Düşürürsün",
-      "titleEn": "How to Cut LLM Token Costs by 70%",
-      "slugTr": "llm-token-maliyetini-dusurme",
-      "slugEn": "cut-llm-token-costs",
-      "keywordTr": "llm token maliyeti düşürme",
-      "keywordEn": "reduce llm token costs",
-      "angle": "how-to + four levers (prompt caching, model routing, batch APIs, context hygiene) that stack to 50-70% savings",
-      "style": "data-led",
-      "brief": "Sections: where tokens actually go; prompt caching pitfalls (a dynamic date in the system prompt kills the discount); model routing cheap vs frontier; batch discounts stacking with caching; agents burning 50x more than chats. Key claims to verify: caching cuts 41-80%; batch drops below 25% of standard price; agents 50x chat cost. Primary sources: programstrategyhq 2026 cost playbook; LeanOps token-budget post. End with a one-page cost-audit template."
-    },
-    {
-      "translationKey": "llm-structured-outputs-json",
-      "category": "ai",
-      "titleTr": "LLM Yapılandırılmış Çıktı: Güvenilir JSON",
-      "titleEn": "LLM Structured Outputs: JSON You Can Trust",
-      "slugTr": "llm-yapilandirilmis-cikti-json",
-      "slugEn": "llm-structured-outputs-json",
-      "keywordTr": "llm yapılandırılmış çıktı json",
-      "keywordEn": "llm structured outputs json mode",
-      "angle": "how-to + schema-constrained generation, validation, and repair loops for production reliability",
-      "style": "field-notes",
-      "brief": "Sections: why free-text parsing breaks; JSON/schema modes vs tool-calling; Zod/Pydantic validation at the boundary; retry-on-invalid and partial streaming; token-cost tradeoffs of strict schemas. Key claims to verify: structured JSON plus explicit scratchpads is a core production safety component; schema mode reduces malformed responses. Primary sources: OpenAI/Anthropic structured-output docs; getmaxim.ai token-optimization article. Field notes on failure modes: over-nested schemas, enum drift, and when to prefer function calling over raw JSON."
-    },
-    {
-      "translationKey": "ai-agent-memory-systems",
-      "category": "ai",
-      "titleTr": "AI Ajan Belleği: Kısa ve Uzun Vadeli",
-      "titleEn": "AI Agent Memory: Short-Term to Long-Term",
-      "slugTr": "ai-ajan-bellegi-sistemleri",
-      "slugEn": "ai-agent-memory-systems",
-      "keywordTr": "ai ajan belleği sistemleri",
-      "keywordEn": "ai agent memory systems",
-      "angle": "deep-dive + how working, episodic, and semantic memory layers work and when to persist vs discard",
-      "style": "story-led",
-      "brief": "Told through one agent's session: the scratchpad fills, context evicts, and what should have been remembered is lost. Sections: memory taxonomy; vector stores vs summaries vs key-value state; eviction and compression; retrieval that avoids poisoning context. Key claims to verify: specialized memory systems are the fastest-growing long-tail agent tooling; context eviction/caching are named core patterns. Primary sources: VoltAgent awesome-ai-agent-papers (2026); ivern.ai context guide. End with a decision tree for what to persist."
-    },
-    {
       "translationKey": "llm-guardrails-production",
       "category": "ai",
       "titleTr": "Üretim İçin LLM Guardrail Kontrol Listesi",

@@ -788,6 +788,66 @@
         "slug": "typescript-7-go-native-compiler",
         "title": "TypeScript 7: The Go-Native Compiler, Explained"
       }
+    },
+    {
+      "translationKey": "claude-code-hidden-tracking-code",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-gizli-takip-kodu",
+        "title": "Claude Code'un Gizli Takip Kodu Ne Anlama Geliyor"
+      },
+      "en": {
+        "slug": "claude-code-hidden-tracking-code",
+        "title": "Claude Code's Hidden Tracking Code, Explained"
+      }
+    },
+    {
+      "translationKey": "context-engineering-ai-agents",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-ajanlari-icin-context-engineering",
+        "title": "AI Ajanları İçin Context Engineering Rehberi"
+      },
+      "en": {
+        "slug": "context-engineering-for-ai-agents",
+        "title": "Context Engineering for AI Agents: A Field Guide"
+      }
+    },
+    {
+      "translationKey": "cut-llm-token-costs",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-token-maliyetini-dusurme",
+        "title": "LLM Token Maliyetini %70 Nasıl Düşürürsün"
+      },
+      "en": {
+        "slug": "cut-llm-token-costs",
+        "title": "How to Cut LLM Token Costs by 70%"
+      }
+    },
+    {
+      "translationKey": "llm-structured-outputs-json",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-yapilandirilmis-cikti-json",
+        "title": "LLM Yapılandırılmış Çıktı: Güvenilir JSON"
+      },
+      "en": {
+        "slug": "llm-structured-outputs-json",
+        "title": "LLM Structured Outputs: JSON You Can Trust"
+      }
+    },
+    {
+      "translationKey": "ai-agent-memory-systems",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-ajan-bellegi-sistemleri",
+        "title": "AI Ajan Belleği: Kısa ve Uzun Vadeli"
+      },
+      "en": {
+        "slug": "ai-agent-memory-systems",
+        "title": "AI Agent Memory: Short-Term to Long-Term"
+      }
     }
   ]
 }
