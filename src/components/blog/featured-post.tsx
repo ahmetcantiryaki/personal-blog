@@ -23,7 +23,7 @@ export function FeaturedPost({ post, locale, dict }: FeaturedPostProps) {
   return (
     <article className="group relative grid overflow-hidden rounded-xl border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md md:grid-cols-2">
       <div className="aspect-[16/10] overflow-hidden md:aspect-auto">
-        <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
+        <div className="relative h-full w-full">
           <PostCover
             coverImage={post.coverImage}
             style={post.coverStyle}
@@ -63,7 +63,7 @@ export function FeaturedPost({ post, locale, dict }: FeaturedPostProps) {
 
         <span className="mt-1 inline-flex items-center gap-1.5 text-sm font-medium text-primary">
           {dict.home.readMore}
-          <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+          <ArrowRight className="size-4" />
         </span>
       </div>
     </article>

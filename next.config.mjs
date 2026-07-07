@@ -4,6 +4,12 @@ import { withPayload } from '@payloadcms/next/withPayload'
 const nextConfig = {
   // Payload/Next App Router. Frontend team will extend (images, i18n rewrites, etc.).
   reactStrictMode: true,
+  images: {
+    // Hand-drawn covers are fine ink crosshatch — the default q75 smears the
+    // linework when downscaled into card slots, so PostCover requests q90.
+    // Next only serves quality values listed here.
+    qualities: [75, 90],
+  },
   // Baseline security headers on every response. No CSP (Payload admin + inline
   // styles make a correct policy high-maintenance). X-Frame-Options is
   // SAMEORIGIN rather than DENY so Payload admin live-preview can iframe the

@@ -21,7 +21,7 @@ export function PostCard({ post, locale, dict }: PostCardProps) {
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-lg border border-border/70 bg-card shadow-sm transition-shadow hover:shadow-md">
       <div className="aspect-[16/10] overflow-hidden">
-        <div className="relative h-full w-full transition-transform duration-500 group-hover:scale-[1.03]">
+        <div className="relative h-full w-full">
           <PostCover
             coverImage={post.coverImage}
             style={post.coverStyle}
