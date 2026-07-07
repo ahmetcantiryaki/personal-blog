@@ -36,8 +36,8 @@ for (const { locale, slug, minRead, related } of CASES) {
       await expect(page.locator('article p').first()).toBeVisible()
       expect(await page.locator('article p').count()).toBeGreaterThan(3)
 
-      // Cover art banner is visible at the top of the article.
-      const cover = page.locator('article header .aspect-\\[16\\/7\\]').first()
+      // Cover art banner is visible at the top of the article (16:9 hero).
+      const cover = page.locator('article header .aspect-video').first()
       await expect(cover).toBeVisible()
 
       // Related posts section with linked cards.
