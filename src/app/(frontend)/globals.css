@@ -286,32 +286,17 @@
     color: inherit;
   }
 
-  /* Tables */
+  /*
+   * Tables (lexical table nodes) are styled by `tableJSXConverters`
+   * (src/components/blog/table-converters.tsx) with design-system utility
+   * classes and an overflow-x-auto wrapper. Only the sans body font is set here;
+   * borders, padding, and the muted header background live on the converter so
+   * they stay design-token- and dark-mode-correct. No `display: block` on the
+   * table itself — the wrapper handles horizontal scroll so the table keeps its
+   * natural `display: table` layout.
+   */
   .prose table {
-    width: 100%;
-    border-collapse: collapse;
     font-family: var(--font-sans);
     font-size: 0.95rem;
-    display: block;
-    overflow-x: auto;
-  }
-
-  .prose thead {
-    border-bottom: 2px solid var(--color-border);
-  }
-
-  .prose th {
-    text-align: left;
-    font-weight: 600;
-    padding: 0.6em 0.9em;
-  }
-
-  .prose td {
-    padding: 0.6em 0.9em;
-    border-bottom: 1px solid var(--color-border);
-  }
-
-  .prose tbody tr:last-child td {
-    border-bottom: none;
   }
 }

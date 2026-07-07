@@ -1,4 +1,9 @@
-import { BlocksFeature, CodeBlock, lexicalEditor } from '@payloadcms/richtext-lexical'
+import {
+  BlocksFeature,
+  CodeBlock,
+  EXPERIMENTAL_TableFeature,
+  lexicalEditor,
+} from '@payloadcms/richtext-lexical'
 
 /**
  * Languages the fenced-code block accepts. The premade CodeBlock validates its
@@ -37,7 +42,8 @@ const CODE_LANGUAGES: Record<string, string> = {
 }
 
 /**
- * The blog's lexical editor: default features plus a fenced-code block.
+ * The blog's lexical editor: default features plus a fenced-code block and
+ * real tables.
  *
  * Exported as a single shared instance so BOTH the admin editor (payload.config)
  * and the seed's markdown→lexical converter build from the exact same feature
@@ -45,10 +51,19 @@ const CODE_LANGUAGES: Record<string, string> = {
  * returns the *default* features (no code block) and re-parsed ``` fences as
  * markdown — turning `# comment` lines into stray <h1> headings. Reusing this
  * instance via `editorConfigFactory.fromEditor()` keeps them in lock-step.
+ *
+ * `EXPERIMENTAL_TableFeature` adds the `table`/`tableRow`/`tableCell` nodes AND
+ * ships a GFM pipe-table markdown transformer (registered on the editor's
+ * `markdownTransformers`). Because the seed converter derives its config from
+ * this instance, `convertMarkdownToLexical` picks that transformer up for free —
+ * so `| a | b |` fences become real table nodes (header row + body rows, cell
+ * inline formatting preserved) instead of mangled paragraphs. The admin panel
+ * gets the matching insert/edit UI via the feature's client plugin.
  */
 export const blogEditor = lexicalEditor({
   features: ({ defaultFeatures }) => [
     ...defaultFeatures,
     BlocksFeature({ blocks: [CodeBlock({ languages: CODE_LANGUAGES })] }),
+    EXPERIMENTAL_TableFeature(),
   ],
 })

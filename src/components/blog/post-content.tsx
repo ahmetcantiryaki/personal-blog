@@ -3,6 +3,8 @@ import { RichText } from '@payloadcms/richtext-lexical/react'
 import type { Post } from '@/payload-types'
 import { cn } from '@/lib/utils'
 
+import { tableJSXConverters } from './table-converters'
+
 interface PostContentProps {
   content: Post['content']
   className?: string
@@ -24,6 +26,11 @@ interface CodeBlockFields {
  * Fenced code blocks are stored as a `Code` block node; render it as a real
  * <pre><code> so the `.prose pre` styles (incl. overflow-x scrolling and dark
  * mode) apply and long unbreakable lines never overflow the viewport.
+ *
+ * Tables (lexical `table`/`tableRow`/`tableCell` nodes from the
+ * EXPERIMENTAL_TableFeature) are rendered by `tableJSXConverters`, overriding
+ * the library defaults' hardcoded inline styles with design-system markup
+ * wrapped in an overflow-x-auto container.
  */
 export function PostContent({ content, className }: PostContentProps) {
   if (!content) return null
@@ -34,6 +41,7 @@ export function PostContent({ content, className }: PostContentProps) {
         disableContainer
         converters={({ defaultConverters }) => ({
           ...defaultConverters,
+          ...tableJSXConverters,
           blocks: {
             Code: ({ node }: { node: { fields: CodeBlockFields } }) => {
               const { code, language } = node.fields
