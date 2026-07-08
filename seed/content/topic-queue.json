@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-07",
+  "updatedAt": "2026-07-08",
   "topics": [
-    {
-      "translationKey": "llm-guardrails-production",
-      "category": "ai",
-      "titleTr": "Üretim İçin LLM Guardrail Kontrol Listesi",
-      "titleEn": "LLM Guardrails Checklist for Production",
-      "slugTr": "uretim-icin-llm-guardrail-kontrol-listesi",
-      "slugEn": "llm-guardrails-production-checklist",
-      "keywordTr": "llm guardrail üretim kontrol listesi",
-      "keywordEn": "llm guardrails production checklist",
-      "angle": "checklist + input/output filtering, tool permissions, PII handling, and jailbreak defense before you ship",
-      "style": "field-notes",
-      "brief": "A shippable checklist grouped by layer: input (prompt-injection, PII scrubbing), model (system-prompt hardening, refusal tuning), output (schema validation, toxicity, leakage), and action (least-privilege tool scopes, human-in-loop for irreversible ops). Key claims to verify: guardrails limiting which files an agent can modify are essential; reliability and not doing irreversible actions without approval is the 2026 focus. Primary sources: Anthropic Agentic Coding Trends Report; Datadog State of AI Engineering. Each item gets a pass/fail test."
-    },
-    {
-      "translationKey": "multi-agent-orchestration-patterns",
-      "category": "ai",
-      "titleTr": "Çok Ajanlı Orkestrasyon Kalıpları",
-      "titleEn": "Multi-Agent Orchestration Patterns Explained",
-      "slugTr": "cok-ajanli-orkestrasyon-kaliplari",
-      "slugEn": "multi-agent-orchestration-patterns",
-      "keywordTr": "çok ajanlı orkestrasyon kalıpları",
-      "keywordEn": "multi-agent orchestration patterns",
-      "angle": "deep-dive + supervisor, hand-off, and parallel fan-out patterns and when each pays off",
-      "style": "question-driven",
-      "brief": "Framed as questions: when does more than one agent help? Sections: supervisor/router, sequential hand-off, parallel fan-out with a reducer, shared-context layer; failure modes (context blow-up, duplicated work, cost). Key claims to verify: multi-agent orchestration frameworks are a growing long-tail category; agents burn far more tokens so coordination cost matters. Primary sources: Tao An AI Agent Landscape 2025-2026; VoltAgent paper collection. End with a table mapping task shape to pattern and a cost caveat."
-    },
-    {
-      "translationKey": "htmx-vs-react",
-      "category": "web-development",
-      "titleTr": "HTMX mi React mı: React'e Ne Zaman Gerek Var",
-      "titleEn": "HTMX vs React: When Do You Actually Need React?",
-      "slugTr": "htmx-mi-react-mi",
-      "slugEn": "htmx-vs-react-when-to-use",
-      "keywordTr": "htmx mi react mı",
-      "keywordEn": "htmx vs react when to use",
-      "angle": "comparison + a decision framework by app complexity, interactivity, and team shape",
-      "style": "contrarian",
-      "brief": "Contrarian take: most CRUD apps don't need a SPA. Sections: hypermedia model vs component model; bundle size (htmx ~14KB vs React ~42KB); HTMX 4.0 native View Transitions; where React is still the right call (rich client state, offline, complex interactivity). Key claims to verify: 2025 State of JS shows htmx most-admired while React satisfaction dropped despite 83.6% usage. Primary sources: InfoWorld HTMX 4.0; LogRocket 8 trends 2026. End with a checklist to pick per project."
-    },
-    {
-      "translationKey": "view-transitions-api-guide",
-      "category": "web-development",
-      "titleTr": "View Transitions API: Pratik Kullanım",
-      "titleEn": "View Transitions API: A Practical How-To",
-      "slugTr": "view-transitions-api-kullanimi",
-      "slugEn": "view-transitions-api-how-to",
-      "keywordTr": "view transitions api kullanımı",
-      "keywordEn": "view transitions api how to",
-      "angle": "how-to + same-document and cross-document transitions with graceful fallback",
-      "style": "field-notes",
-      "brief": "Hands-on: startViewTransition for SPA-style swaps, the cross-document MPA path, view-transition-name for shared-element morphs, and reduced-motion fallbacks. Sections: setup, a card-to-detail morph, gotchas (layout shift, z-index, async data), progressive enhancement. Key claims to verify: HTMX 4.0 wires View Transitions by default with zero extra CSS/JS; the API is now broadly usable in 2026. Primary sources: MDN View Transitions; InfoWorld HTMX 4.0. End with a copy-paste snippet and a browser-support note."
-    },
     {
       "translationKey": "react-hook-form-zod-forms",
       "category": "web-development",

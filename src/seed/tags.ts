@@ -53,6 +53,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   git: { en: 'Git', tr: 'Git' },
   gitops: { en: 'GitOps', tr: 'GitOps' },
   graphql: { en: 'GraphQL', tr: 'GraphQL' },
+  htmx: { en: 'HTMX', tr: 'HTMX' },
   images: { en: 'Images', tr: 'Görseller' },
   'infrastructure-as-code': { en: 'Infrastructure as Code', tr: 'Kod Olarak Altyapı' },
   integration: { en: 'Integration', tr: 'Entegrasyon' },

@@ -848,6 +848,66 @@
         "slug": "ai-agent-memory-systems",
         "title": "AI Agent Memory: Short-Term to Long-Term"
       }
+    },
+    {
+      "translationKey": "claude-in-chrome-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-in-chrome-ga-gelistirici-guvenlik-rehberi",
+        "title": "Claude in Chrome GA: Geliştirici Güvenlik Rehberi"
+      },
+      "en": {
+        "slug": "claude-in-chrome-ga-developer-security-guide",
+        "title": "Claude in Chrome Reaches GA: A Developer's Security Guide"
+      }
+    },
+    {
+      "translationKey": "llm-guardrails-production",
+      "category": "ai",
+      "tr": {
+        "slug": "uretim-icin-llm-guardrail-kontrol-listesi",
+        "title": "Üretim İçin LLM Guardrail Kontrol Listesi"
+      },
+      "en": {
+        "slug": "llm-guardrails-production-checklist",
+        "title": "LLM Guardrails Checklist for Production"
+      }
+    },
+    {
+      "translationKey": "multi-agent-orchestration-patterns",
+      "category": "ai",
+      "tr": {
+        "slug": "cok-ajanli-orkestrasyon-kaliplari",
+        "title": "Çok Ajanlı Orkestrasyon Kalıpları"
+      },
+      "en": {
+        "slug": "multi-agent-orchestration-patterns",
+        "title": "Multi-Agent Orchestration Patterns Explained"
+      }
+    },
+    {
+      "translationKey": "htmx-vs-react",
+      "category": "web-development",
+      "tr": {
+        "slug": "htmx-mi-react-mi",
+        "title": "HTMX mi React mı: React'e Ne Zaman Gerek Var"
+      },
+      "en": {
+        "slug": "htmx-vs-react-when-to-use",
+        "title": "HTMX vs React: When Do You Actually Need React?"
+      }
+    },
+    {
+      "translationKey": "view-transitions-api-guide",
+      "category": "web-development",
+      "tr": {
+        "slug": "view-transitions-api-kullanimi",
+        "title": "View Transitions API: Pratik Kullanım"
+      },
+      "en": {
+        "slug": "view-transitions-api-how-to",
+        "title": "View Transitions API: A Practical How-To"
+      }
     }
   ]
 }
