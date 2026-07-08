@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+import { PostContentEditor } from '@/components/panel/post-content-editor'
 import { PostMetadataForm } from '@/components/panel/post-metadata-form'
+import { readPostMarkdown } from '@/lib/panel/content-source'
 import { getPayloadClient } from '@/lib/payload'
 import {
   toDateInputValue,
@@ -76,6 +78,30 @@ export default async function PostEditPage({ params }: PostEditPageProps) {
     slugEn: slug.en ?? '',
   }
 
+  // Load the SOURCE markdown for both locales. A missing/unreadable file is
+  // tolerated (empty markdown + missing flag) so the page never crashes.
+  const [trContent, enContent] = await Promise.all([
+    slug.tr
+      ? readPostMarkdown({ locale: 'tr', slug: slug.tr }).catch(() => null)
+      : Promise.resolve(null),
+    slug.en
+      ? readPostMarkdown({ locale: 'en', slug: slug.en }).catch(() => null)
+      : Promise.resolve(null),
+  ])
+
+  const contentTr = {
+    slug: slug.tr ?? '',
+    markdown: trContent?.markdown ?? '',
+    sha: trContent?.sha ?? null,
+    missing: !slug.tr || !trContent || trContent.markdown === '',
+  }
+  const contentEn = {
+    slug: slug.en ?? '',
+    markdown: enContent?.markdown ?? '',
+    sha: enContent?.sha ?? null,
+    missing: !slug.en || !enContent || enContent.markdown === '',
+  }
+
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-1">
@@ -99,6 +125,23 @@ export default async function PostEditPage({ params }: PostEditPageProps) {
         categories={categoriesResult.docs.map((c) => ({ id: c.id, title: c.title }))}
         tags={tagsResult.docs.map((t) => ({ id: t.id, title: t.title }))}
       />
+
+      <section className="flex flex-col gap-4 border-t border-border/70 pt-8">
+        <div className="flex flex-col gap-1">
+          <h2 className="font-serif text-2xl font-semibold tracking-tight">
+            İçerik (markdown kaynağı)
+          </h2>
+          <p className="max-w-3xl text-sm text-muted-foreground">
+            Yazı gövdesi <code className="font-mono text-xs">seed/content/&lt;dil&gt;/&lt;slug&gt;.md</code>{' '}
+            dosyalarında tutulur ve her deploy&apos;da <code className="font-mono text-xs">pnpm seed</code>{' '}
+            veritabanını bu dosyalardan yeniden yazar. Bu yüzden panel doğrudan
+            veritabanını değil, kaynak markdown&apos;u düzenler ve GitHub&apos;a commit atar.
+            Commit, Vercel deploy + seed akışını tetikleyerek değişikliği canlı siteye taşır.
+          </p>
+        </div>
+
+        <PostContentEditor tr={contentTr} en={contentEn} />
+      </section>
     </div>
   )
 }
