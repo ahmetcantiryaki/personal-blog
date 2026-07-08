@@ -39,6 +39,11 @@ const CODE_LANGUAGES: Record<string, string> = {
   astro: 'Astro',
   go: 'Go',
   rust: 'Rust',
+  svelte: 'Svelte',
+  vue: 'Vue',
+  diff: 'Diff',
+  toml: 'TOML',
+  xml: 'XML',
 }
 
 /**
