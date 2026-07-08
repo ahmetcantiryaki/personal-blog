@@ -30,7 +30,8 @@
  *   (If no prompt is supplied, the prompt is looked up from kapak-promptlari.md
  *    by matching the key — only works for the original 66.)
  *
- * FAL_KEY is read from .env (gitignored). Never printed or committed.
+ * FAL_KEY is read from .env (gitignored) or, when no .env exists (cloud
+ * routine), from the FAL_KEY environment variable. Never printed or committed.
  */
 
 import { readFile, writeFile, mkdir, readdir, copyFile } from 'node:fs/promises'
@@ -55,7 +56,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 // --- .env (FAL_KEY) ----------------------------------------------------------
 const readEnv = async () => {
-  const raw = await readFile(path.join(projectRoot, '.env'), 'utf8')
+  // Cloud routine has no .env — FAL_KEY arrives via process.env instead.
+  let raw
+  try {
+    raw = await readFile(path.join(projectRoot, '.env'), 'utf8')
+  } catch {
+    return {}
+  }
   const env = {}
   for (const line of raw.split(/\r?\n/)) {
     const t = line.trim()
@@ -273,7 +280,7 @@ const runSingle = async (args) => {
   }
 
   const falKey = (await readEnv()).FAL_KEY || process.env.FAL_KEY
-  if (!falKey) throw new Error('FAL_KEY not found in .env')
+  if (!falKey) throw new Error('FAL_KEY not found in .env or process.env')
 
   await mkdir(coversDir, { recursive: true })
   console.log(`Generating single cover "${key}" via ${MODEL} (${ASPECT_RATIO})…`)
@@ -326,7 +333,7 @@ const runBatch = async (args) => {
   }
 
   const falKey = (await readEnv()).FAL_KEY || process.env.FAL_KEY
-  if (!falKey && gen.length) throw new Error('FAL_KEY not found in .env')
+  if (!falKey && gen.length) throw new Error('FAL_KEY not found in .env or process.env')
 
   await mkdir(coversDir, { recursive: true })
 

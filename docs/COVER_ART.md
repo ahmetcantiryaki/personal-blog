@@ -250,6 +250,8 @@ node src/scripts/generate-cover.mjs \
 ```
 
 The seed is derived from a FNV-1a hash of the `translationKey`, so re-runs are
-stable. FAL_KEY is read from `.env` (gitignored) and never printed. Output lands
+stable. FAL_KEY is read from `.env` (gitignored) — or, for
+`generate-kapak-batch.mjs` when no `.env` exists (the cloud routine), from the
+`FAL_KEY` environment variable — and never printed. Output lands
 in `public/covers/<translationKey>.jpg`; the next `pnpm seed` sets the post's
 `coverImage` to `/covers/<translationKey>.jpg` (shared by both locales).
