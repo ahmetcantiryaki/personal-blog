@@ -2,17 +2,21 @@
 /**
  * twitter-studio.mjs — SADECE LOKAL Twitter/X paylaşım stüdyosu.
  *
- * Çalıştır:  node src/scripts/twitter-studio.mjs
+ * Çalıştır:  node src/scripts/twitter-studio.mjs   (veya pnpm studio:twitter)
  * Aç:        http://localhost:4322
  *
  * Mevcut yazıları (seed/content/<locale>/*.md) listeler; birini seçince X'e
  * yapıştırmaya hazır çıktıyı verir:
- *   • Kapak görseli (public/covers/<translationKey>.jpg) — önizleme + dosyayı aç.
- *   • Başlık — 100 karakter sayacı, aşınca kırmızı uyarı (X makale başlığı sınırı).
- *   • İçerik — markdown'dan düz metne çevrilir: tablolar
- *     `| a | b |` / `| --- | --- |` pipe formatında KORUNUR (copy-paste'te
- *     kaybolmasın diye), kalın/italik işaretleri temizlenir, iç linkler
- *     https://woyable.com mutlak URL'lerine çevrilir.
+ *   • Kapak görseli (public/covers/<translationKey>.jpg) — önizleme + yol kopyala.
+ *   • Başlık — 100 karakter sayacı (X makale başlığı sınırı).
+ *   • İçerik — sitedeki gibi BİÇİMLİ önizleme (h1/h2/h3, kalın/italik, listeler,
+ *     linkler, kod blokları). "Biçimli kopyala" panoya text/html yazar; X'in
+ *     makale editörüne yapıştırınca stiller korunur.
+ *   • Tablolar — X editörü tablo kabul etmediği için biçimli kopyaya girmez;
+ *     her tablonun altındaki buton o tablonun pipe-markdown'ını kopyalar:
+ *       | a | b |
+ *       | --- | --- |
+ *       | ... | ... |
  *
  * Prod ile hiçbir bağı yoktur; hiçbir şey yazmaz, sadece okur.
  */
@@ -74,80 +78,149 @@ const loadPosts = async (locale) => {
   return posts
 }
 
-// --- markdown → X'e yapıştırılabilir düz metin --------------------------------
+// --- markdown → HTML (X makale editörüne biçimli yapıştırma) ------------------
+const escHtml = (s) =>
+  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+
 const isTableLine = (l) => /^\s*\|.*\|\s*$/.test(l)
 const isSeparatorLine = (l) => /^\s*\|(\s*:?-{3,}:?\s*\|)+\s*$/.test(l)
+const splitCells = (l) => l.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim())
 
-const cleanInline = (s) =>
-  s
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '$1') // görseller → alt metin
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, text, url) => {
-      const abs = url.startsWith('/') ? SITE + url : url
-      return text === abs ? abs : `${text} (${abs})`
-    })
-    .replace(/\*\*([^*]+)\*\*/g, '$1')
-    .replace(/__([^_]+)__/g, '$1')
-    .replace(/(^|\s)\*([^*\s][^*]*)\*/g, '$1$2')
-    .replace(/(^|\s)_([^_\s][^_]*)_/g, '$1$2')
-    .replace(/`([^`]+)`/g, '$1')
-
-const normalizeTableRow = (l) =>
-  '| ' +
-  l
-    .trim()
-    .replace(/^\||\|$/g, '')
-    .split('|')
-    .map((c) => cleanInline(c.trim()))
-    .join(' | ') +
-  ' |'
-
-const separatorFor = (l) => {
-  const cols = l.trim().replace(/^\||\|$/g, '').split('|').length
-  return '| ' + Array(cols).fill('---').join(' | ') + ' |'
+/** Satır içi markdown → HTML (link/kalın/italik/kod; iç linkler mutlak URL). */
+const inlineHtml = (s) => {
+  let out = ''
+  // önce inline code'u ayır ki içindeki *_[ işlenmesin
+  const parts = String(s).split(/(`[^`]+`)/)
+  for (const part of parts) {
+    const code = part.match(/^`([^`]+)`$/)
+    if (code) {
+      out += `<code>${escHtml(code[1])}</code>`
+      continue
+    }
+    out += escHtml(part)
+      .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '$1') // görseller → alt metin
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, text, url) => {
+        const abs = url.startsWith('/') ? SITE + url : url
+        return `<a href="${escHtml(abs)}">${text}</a>`
+      })
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/__([^_]+)__/g, '<strong>$1</strong>')
+      .replace(/(^|[\s(])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>')
+      .replace(/(^|[\s(])_([^_\s][^_]*)_/g, '$1<em>$2</em>')
+  }
+  return out
 }
 
+/** Tablonun pipe-markdown normal hali (X'e ayrıca kopyalanır). */
+const tableToMd = (rows) => {
+  const lines = []
+  rows.forEach((cells, i) => {
+    lines.push('| ' + cells.join(' | ') + ' |')
+    if (i === 0) lines.push('| ' + cells.map(() => '---').join(' | ') + ' |')
+  })
+  return lines.join('\n')
+}
+
+const tableToHtml = (rows, idx) => {
+  const [head, ...body] = rows
+  const th = head.map((c) => `<th>${inlineHtml(c)}</th>`).join('')
+  const trs = body
+    .map((cells) => '<tr>' + cells.map((c) => `<td>${inlineHtml(c)}</td>`).join('') + '</tr>')
+    .join('')
+  return `<div class="tablewrap" data-table="${idx}"><table><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table><button class="copy-md" data-table="${idx}">Tabloyu MD olarak kopyala</button></div>`
+}
+
+/**
+ * Markdown gövdesini işler; döner:
+ *   html   — önizleme + biçimli kopya için (tablolar gerçek <table> olarak
+ *            gösterilir; kopyada tablo yerine MD <pre> bloğu geçer — istemci halleder)
+ *   tables — her tablonun pipe-markdown metni (buton başına kopyalanır)
+ */
 export const convertForX = (body) => {
-  const out = []
+  const html = []
+  const tables = []
   const lines = body.split(/\r?\n/)
-  let inCode = false
-  for (const line of lines) {
-    if (/^\s*```/.test(line)) {
-      inCode = !inCode
-      out.push(inCode ? '' : '') // fence satırlarını at, blok boşlukla ayrılsın
-      continue
-    }
-    if (inCode) {
-      out.push(line) // kod satırları olduğu gibi
-      continue
-    }
-    if (isSeparatorLine(line)) {
-      out.push(separatorFor(line))
-      continue
-    }
-    if (isTableLine(line)) {
-      out.push(normalizeTableRow(line))
-      continue
-    }
-    const h = line.match(/^(#{2,6})\s+(.*)$/)
-    if (h) {
-      out.push('')
-      out.push(cleanInline(h[2]).toUpperCase())
-      continue
-    }
-    if (/^\s*[-*]\s+/.test(line)) {
-      out.push('• ' + cleanInline(line.replace(/^\s*[-*]\s+/, '')))
-      continue
-    }
-    out.push(cleanInline(line))
+  let i = 0
+  let listBuf = null // { tag: 'ul'|'ol', items: [] }
+  const flushList = () => {
+    if (!listBuf) return
+    html.push(
+      `<${listBuf.tag}>` + listBuf.items.map((it) => `<li>${it}</li>`).join('') + `</${listBuf.tag}>`,
+    )
+    listBuf = null
   }
-  // 3+ boş satırı teke indir
-  return out.join('\n').replace(/\n{3,}/g, '\n\n').trim()
+  while (i < lines.length) {
+    const line = lines[i]
+    // kod bloğu
+    const fence = line.match(/^\s*```(\w*)/)
+    if (fence) {
+      flushList()
+      const buf = []
+      i++
+      while (i < lines.length && !/^\s*```/.test(lines[i])) buf.push(lines[i++])
+      i++ // kapanış fence
+      html.push(`<pre><code>${escHtml(buf.join('\n'))}</code></pre>`)
+      continue
+    }
+    // tablo
+    if (isTableLine(line) && isSeparatorLine(lines[i + 1] || '')) {
+      flushList()
+      const rows = [splitCells(line)]
+      i += 2
+      while (i < lines.length && isTableLine(lines[i]) && !isSeparatorLine(lines[i])) {
+        rows.push(splitCells(lines[i++]))
+      }
+      const idx = tables.length
+      tables.push(tableToMd(rows))
+      html.push(tableToHtml(rows, idx))
+      continue
+    }
+    // başlık
+    const h = line.match(/^(#{1,6})\s+(.*)$/)
+    if (h) {
+      flushList()
+      const level = Math.min(h[1].length, 4)
+      html.push(`<h${level}>${inlineHtml(h[2])}</h${level}>`)
+      i++
+      continue
+    }
+    // liste
+    const ul = line.match(/^\s*[-*]\s+(.*)$/)
+    const ol = line.match(/^\s*\d+\.\s+(.*)$/)
+    if (ul || ol) {
+      const tag = ul ? 'ul' : 'ol'
+      if (!listBuf || listBuf.tag !== tag) {
+        flushList()
+        listBuf = { tag, items: [] }
+      }
+      listBuf.items.push(inlineHtml((ul || ol)[1]))
+      i++
+      continue
+    }
+    // boş satır
+    if (!line.trim()) {
+      flushList()
+      i++
+      continue
+    }
+    // paragraf (ardışık satırları birleştir)
+    flushList()
+    const buf = [line]
+    while (
+      i + 1 < lines.length &&
+      lines[i + 1].trim() &&
+      !/^(#{1,6})\s|^\s*[-*]\s|^\s*\d+\.\s|^\s*```|^\s*\|/.test(lines[i + 1])
+    ) {
+      buf.push(lines[++i])
+    }
+    html.push(`<p>${inlineHtml(buf.join(' '))}</p>`)
+    i++
+  }
+  flushList()
+  return { html: html.join('\n'), tables }
 }
 
 // --- HTTP ----------------------------------------------------------------------
-const esc = (s) =>
-  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-
 const json = (res, code, data) => {
   res.writeHead(code, { 'Content-Type': 'application/json; charset=utf-8' })
   res.end(JSON.stringify(data))
@@ -158,7 +231,7 @@ const PAGE = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root{--bg:#fdfcf9;--fg:#2b2926;--muted:#8a857d;--line:#e8e4dc;--accent:#2f7d78;--danger:#b3402e}
-  *{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+  *{box-sizing:border-box}body{margin:0;font:15px/1.55 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
   header{padding:14px 20px;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:center}
   header h1{font-size:16px;margin:0}
   main{display:grid;grid-template-columns:360px 1fr;min-height:calc(100vh - 53px)}
@@ -175,8 +248,7 @@ const PAGE = `<!doctype html>
   .cover{max-width:560px;width:100%;border-radius:8px;border:1px solid var(--line);display:block}
   .nocover{max-width:560px;padding:30px;border:1px dashed var(--line);border-radius:8px;color:var(--muted);text-align:center}
   label{display:block;margin:18px 0 6px;font-weight:600;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-  input[type=text]{width:100%;max-width:720px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
-  textarea{width:100%;max-width:720px;height:420px;padding:12px;border:1px solid var(--line);border-radius:8px;font:13px/1.5 ui-monospace,Consolas,monospace;background:#fff;resize:vertical}
+  input[type=text]{width:100%;max-width:760px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
   .count{font-size:12px;color:var(--muted);margin-top:4px}
   .count.over{color:var(--danger);font-weight:700}
   button{padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:#fff;font:inherit;cursor:pointer;margin:8px 8px 0 0}
@@ -186,9 +258,27 @@ const PAGE = `<!doctype html>
   .locale-toggle{margin-left:auto;display:flex;gap:6px}
   .locale-toggle button{margin:0}
   .locale-toggle button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+  /* biçimli içerik önizlemesi — site tipografisine yakın */
+  #content{max-width:760px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:22px 26px;margin-top:4px}
+  #content h1{font-size:26px;line-height:1.25;margin:0 0 12px}
+  #content h2{font-size:21px;margin:26px 0 10px}
+  #content h3{font-size:17px;margin:20px 0 8px}
+  #content h4{font-size:15px;margin:16px 0 8px}
+  #content p{margin:10px 0}
+  #content a{color:var(--accent)}
+  #content ul,#content ol{margin:10px 0;padding-left:26px}
+  #content li{margin:4px 0}
+  #content code{background:#f3f0e9;border-radius:4px;padding:1px 5px;font:13px ui-monospace,Consolas,monospace}
+  #content pre{background:#2b2926;color:#f3f0e9;border-radius:8px;padding:14px;overflow-x:auto}
+  #content pre code{background:none;color:inherit;padding:0}
+  #content table{border-collapse:collapse;width:100%;margin:12px 0 4px;font-size:14px}
+  #content th,#content td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  #content th{background:#f3f0e9}
+  .tablewrap{margin:14px 0 20px}
+  .tablewrap .copy-md{font-size:13px}
 </style></head><body>
 <header><h1>🐦 Woyable · Twitter Studio</h1>
-  <span class="meta">yazıyı seç → başlığı ve tablolu içeriği tek tıkla kopyala</span>
+  <span class="meta">yazıyı seç → başlık + biçimli içerik kopyala, tabloları MD olarak ayrı ekle</span>
   <div class="locale-toggle"><button id="tr" class="on">TR</button><button id="en">EN</button></div>
 </header>
 <main>
@@ -196,7 +286,7 @@ const PAGE = `<!doctype html>
   <div id="detail"><div class="placeholder">← Soldan bir yazı seç</div></div>
 </main>
 <script>
-let posts = [], locale = 'tr', activeSlug = null
+let posts = [], locale = 'tr', activeSlug = null, tablesMd = []
 const $ = (s) => document.querySelector(s)
 
 async function load() {
@@ -217,35 +307,56 @@ async function open(slug) {
   activeSlug = slug
   renderList()
   const d = await (await fetch('/api/post?locale=' + locale + '&slug=' + encodeURIComponent(slug))).json()
+  tablesMd = d.tables
   const over = d.title.length > ${TITLE_LIMIT}
   $('#detail').innerHTML = \`
     <label>Kapak</label>
     \${d.hasCover
       ? \`<img class="cover" src="/covers/\${d.translationKey}.jpg">
          <div class="meta">\${d.coverPath} — X'e görsel olarak bu dosyayı yükle</div>
-         <button onclick="copyText(this, '\${d.coverAbs.replace(/\\\\/g, '\\\\\\\\')}')">Dosya yolunu kopyala</button>\`
+         <button onclick="copyText(this, tablesMd.__cover)">Dosya yolunu kopyala</button>\`
       : '<div class="nocover">Bu yazının jpg kapağı yok (SVG fallback kullanılıyor)</div>'}
     <label>Başlık</label>
     <input type="text" id="title" value="\${d.title.replace(/"/g, '&quot;')}">
     <div class="count \${over ? 'over' : ''}" id="titleCount"></div>
     <button onclick="copyText(this, $('#title').value)">Başlığı kopyala</button>
-    <label>İçerik (tablolar pipe formatında korunur)</label>
-    <textarea id="content">\${d.content.replace(/</g, '&lt;')}</textarea>
-    <div class="count" id="contentCount"></div>
-    <button onclick="copyText(this, $('#content').value)">İçeriği kopyala</button>
+    <label>İçerik — sitedeki gibi biçimli (tablolar hariç; onları alttaki butonlarla MD olarak ekle)</label>
+    <div id="content">\${d.html}</div>
+    <button id="copyRich">Biçimli içeriği kopyala (h1/h2, liste, link…)</button>
     <div class="meta">Canlı: <a href="\${d.url}" target="_blank">\${d.url}</a></div>\`
+  tablesMd.__cover = d.coverAbs
+  // tablo MD kopyalama butonları
+  document.querySelectorAll('.copy-md').forEach(b => {
+    b.onclick = () => copyText(b, tablesMd[Number(b.dataset.table)])
+  })
+  $('#copyRich').onclick = () => copyRich($('#copyRich'))
   const upd = () => {
     const t = $('#title').value
     $('#titleCount').textContent = t.length + ' / ${TITLE_LIMIT} karakter' + (t.length > ${TITLE_LIMIT} ? ' — SINIRI AŞTIN' : '')
     $('#titleCount').className = 'count' + (t.length > ${TITLE_LIMIT} ? ' over' : '')
-    $('#contentCount').textContent = $('#content').value.length + ' karakter'
   }
   $('#title').oninput = upd
-  $('#content').oninput = upd
   upd()
+}
+// biçimli kopya: içerik DOM'unun klonundan tablolar çıkarılır (X tablo kabul etmez),
+// yerlerine hiçbir şey konmaz — tabloları butonlarla MD olarak ayrıca yapıştırırsın.
+async function copyRich(btn) {
+  const clone = $('#content').cloneNode(true)
+  clone.querySelectorAll('.tablewrap').forEach(w => {
+    const ph = document.createElement('p')
+    ph.textContent = '[TABLO — MD olarak ayrıca yapıştır]'
+    w.replaceWith(ph)
+  })
+  const htmlBlob = new Blob([clone.innerHTML], { type: 'text/html' })
+  const textBlob = new Blob([clone.innerText], { type: 'text/plain' })
+  await navigator.clipboard.write([new ClipboardItem({ 'text/html': htmlBlob, 'text/plain': textBlob })])
+  flash(btn)
 }
 async function copyText(btn, text) {
   await navigator.clipboard.writeText(text)
+  flash(btn)
+}
+function flash(btn) {
   const old = btn.textContent
   btn.textContent = 'Kopyalandı ✓'
   btn.classList.add('copied')
@@ -286,6 +397,7 @@ const server = http.createServer(async (req, res) => {
       const { meta, body } = parseFrontMatter(raw)
       const key = meta.translationKey || ''
       const coverAbs = path.join(coversDir, `${key}.jpg`)
+      const { html, tables } = convertForX(body)
       return json(res, 200, {
         title: meta.title || slug,
         translationKey: key,
@@ -293,7 +405,8 @@ const server = http.createServer(async (req, res) => {
         coverPath: `public/covers/${key}.jpg`,
         coverAbs,
         url: `${SITE}/${locale}/posts/${meta.slug || slug}`,
-        content: convertForX(body),
+        html,
+        tables,
       })
     }
     if (url.pathname.startsWith('/covers/')) {
