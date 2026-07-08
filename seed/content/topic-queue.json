@@ -2,58 +2,6 @@
   "updatedAt": "2026-07-08",
   "topics": [
     {
-      "translationKey": "react-hook-form-zod-forms",
-      "category": "web-development",
-      "titleTr": "RHF ve Zod ile Erişilebilir React Formları",
-      "titleEn": "Accessible React Forms with RHF and Zod",
-      "slugTr": "rhf-zod-erisilebilir-react-formlari",
-      "slugEn": "react-hook-form-zod-accessible-forms",
-      "keywordTr": "react hook form zod form doğrulama",
-      "keywordEn": "react hook form zod validation",
-      "angle": "how-to + schema-driven validation wired to real accessibility (aria-invalid, role=alert)",
-      "style": "story-led",
-      "brief": "Story of rebuilding a broken signup form. Sections: define a Zod schema; wire @hookform/resolvers; mode onBlur for calmer a11y; surface errors with aria-invalid and role=alert; mirror the same schema server-side. Key claims to verify: RHF+Zod is the 2026 default and yields a fully accessible form; onBlur validation is best for accessibility. Primary sources: react-hook-form docs; freeCodeCamp Zod+RHF guide. End with the shared client/server validation pattern and label-association pitfalls."
-    },
-    {
-      "translationKey": "edge-functions-rendering-guide",
-      "category": "web-development",
-      "titleTr": "Edge Fonksiyonları ve Render: 2026 Rehberi",
-      "titleEn": "Edge Functions and Rendering: A 2026 Guide",
-      "slugTr": "edge-fonksiyonlari-render-rehberi",
-      "slugEn": "edge-functions-rendering-guide",
-      "keywordTr": "edge fonksiyonları render rehberi",
-      "keywordEn": "edge functions rendering guide",
-      "angle": "guide + when to run at the edge, cold starts, data locality, and runtime limits",
-      "style": "data-led",
-      "brief": "Sections: what edge functions are vs regional serverless; latency wins and their limits; data-locality trap (edge compute far from your DB); streaming SSR at the edge; runtime constraints (no native modules, size caps). Key claims to verify: edge awareness is a core 2026 frontend skill; server-first is the new default. Primary sources: LogRocket 8 trends 2026; talent500 web trends. End with a decision table: render at edge vs origin vs client, with a data-round-trip warning."
-    },
-    {
-      "translationKey": "web-components-2026",
-      "category": "web-development",
-      "titleTr": "Web Components 2026'da Hazır mı?",
-      "titleEn": "Are Web Components Ready for 2026?",
-      "slugTr": "web-components-2026-hazir-mi",
-      "slugEn": "are-web-components-ready-2026",
-      "keywordTr": "web components 2026 kullanımı",
-      "keywordEn": "web components 2026",
-      "angle": "deep-dive + framework interop, when native custom elements beat a framework",
-      "style": "question-driven",
-      "brief": "Question-led: can you ship real products on custom elements today? Sections: custom elements, shadow DOM, and slots; SSR/declarative shadow DOM; interop with React/Vue and remaining friction (forms, events, props); design-system reuse across frameworks. Key claims to verify: web components are gaining as a framework-agnostic layer in 2026; declarative shadow DOM closed the SSR gap. Primary sources: Figma 12 web dev trends 2026; MDN web components. End with concrete use-cases where they win and where they still hurt."
-    },
-    {
-      "translationKey": "frontend-signals-explained",
-      "category": "web-development",
-      "titleTr": "Frontend'de Signals: Nedir, Ne Zaman?",
-      "titleEn": "Signals in Frontend Frameworks, Explained",
-      "slugTr": "frontend-signals-nedir",
-      "slugEn": "frontend-signals-explained",
-      "keywordTr": "frontend signals nedir",
-      "keywordEn": "frontend signals explained",
-      "angle": "deep-dive + fine-grained reactivity vs virtual DOM, and what signals change for devs",
-      "style": "question-driven",
-      "brief": "Framed as: why did every framework suddenly adopt signals? Sections: the reactivity problem; signals vs virtual-DOM diffing; fine-grained updates and fewer re-renders; how Solid, Angular, Preact, and Svelte runes compare; migration and mental-model shifts. Key claims to verify: signals are a defining 2026 DX trend; fine-grained reactivity cuts unnecessary renders. Primary sources: alphonsolabs web trends 2026; framework signals docs. End with a small counter example across two frameworks and when signals are overkill."
-    },
-    {
       "translationKey": "idempotency-api-design",
       "category": "software-engineering",
       "titleTr": "İdempotent API: Güvenli Yeniden Deneme",

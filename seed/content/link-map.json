@@ -908,6 +908,66 @@
         "slug": "view-transitions-api-how-to",
         "title": "View Transitions API: A Practical How-To"
       }
+    },
+    {
+      "translationKey": "claude-cowork-web-mobile-expansion",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-cowork-web-mobil-genisliyor",
+        "title": "Claude Cowork Artık Web ve Mobilde"
+      },
+      "en": {
+        "slug": "claude-cowork-web-mobile-expansion",
+        "title": "Claude Cowork Expands to Web and Mobile"
+      }
+    },
+    {
+      "translationKey": "react-hook-form-zod-forms",
+      "category": "web-development",
+      "tr": {
+        "slug": "rhf-zod-erisilebilir-react-formlari",
+        "title": "RHF ve Zod ile Erişilebilir React Formları"
+      },
+      "en": {
+        "slug": "react-hook-form-zod-accessible-forms",
+        "title": "Accessible React Forms with RHF and Zod"
+      }
+    },
+    {
+      "translationKey": "edge-functions-rendering-guide",
+      "category": "web-development",
+      "tr": {
+        "slug": "edge-fonksiyonlari-render-rehberi",
+        "title": "Edge Fonksiyonları ve Render: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "edge-functions-rendering-guide",
+        "title": "Edge Functions and Rendering: A 2026 Guide"
+      }
+    },
+    {
+      "translationKey": "web-components-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-components-2026-hazir-mi",
+        "title": "Web Components 2026'da Hazır mı?"
+      },
+      "en": {
+        "slug": "are-web-components-ready-2026",
+        "title": "Are Web Components Ready for 2026?"
+      }
+    },
+    {
+      "translationKey": "frontend-signals-explained",
+      "category": "web-development",
+      "tr": {
+        "slug": "frontend-signals-nedir",
+        "title": "Frontend'de Signals: Nedir, Ne Zaman?"
+      },
+      "en": {
+        "slug": "frontend-signals-explained",
+        "title": "Signals in Frontend Frameworks, Explained"
+      }
     }
   ]
 }
