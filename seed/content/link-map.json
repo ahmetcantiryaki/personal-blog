@@ -968,6 +968,66 @@
         "slug": "frontend-signals-explained",
         "title": "Signals in Frontend Frameworks, Explained"
       }
+    },
+    {
+      "translationKey": "vercel-services-multi-framework",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "vercel-services-tek-projede-mikroservisler",
+        "title": "Vercel Services: Tek Projede Mikroservisler"
+      },
+      "en": {
+        "slug": "vercel-services-multi-framework-microservices",
+        "title": "Vercel Services: Microservices in One Project"
+      }
+    },
+    {
+      "translationKey": "idempotency-api-design",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "idempotent-api-tasarimi",
+        "title": "İdempotent API: Güvenli Yeniden Deneme"
+      },
+      "en": {
+        "slug": "idempotent-api-design",
+        "title": "Idempotent APIs: Safe Retries by Design"
+      }
+    },
+    {
+      "translationKey": "rate-limiting-algorithms",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "rate-limiting-algoritmalari",
+        "title": "Rate Limiting: Token Bucket ve Sliding Window"
+      },
+      "en": {
+        "slug": "rate-limiting-token-bucket-vs-sliding-window",
+        "title": "Rate Limiting: Token Bucket vs Sliding Window"
+      }
+    },
+    {
+      "translationKey": "retries-backoff-circuit-breakers",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "retry-backoff-circuit-breaker",
+        "title": "Retry, Backoff ve Circuit Breaker"
+      },
+      "en": {
+        "slug": "retries-backoff-circuit-breakers",
+        "title": "Retries, Backoff, and Circuit Breakers"
+      }
+    },
+    {
+      "translationKey": "fix-n-plus-one-queries",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "n-plus-one-sorgu-problemi",
+        "title": "N+1 Sorgu Problemi Nasıl Çözülür"
+      },
+      "en": {
+        "slug": "fix-n-plus-one-query-problem",
+        "title": "How to Fix the N+1 Query Problem"
+      }
     }
   ]
 }

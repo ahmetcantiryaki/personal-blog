@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-09",
   "topics": [
-    {
-      "translationKey": "idempotency-api-design",
-      "category": "software-engineering",
-      "titleTr": "İdempotent API: Güvenli Yeniden Deneme",
-      "titleEn": "Idempotent APIs: Safe Retries by Design",
-      "slugTr": "idempotent-api-tasarimi",
-      "slugEn": "idempotent-api-design",
-      "keywordTr": "idempotent api tasarımı",
-      "keywordEn": "idempotent api design",
-      "angle": "how-to + idempotency keys, UPSERT, and dedup so retries never double-charge",
-      "style": "field-notes",
-      "brief": "Field notes from a double-charge incident. Sections: what idempotency means for POST; idempotency keys and dedup tables; UPSERT (INSERT ON CONFLICT DO UPDATE) vs failing inserts; conditional updates with preconditions; TTL and key scoping. Key claims to verify: 2026 interviews stress idempotent, concurrency-safe APIs; UPSERT is the recommended retry-safe pattern. Primary sources: DigitalApplied API rate-limiting reference; Devinterview concurrency questions. End with a request-flow diagram and a test that fires the same request twice."
-    },
-    {
-      "translationKey": "rate-limiting-algorithms",
-      "category": "software-engineering",
-      "titleTr": "Rate Limiting: Token Bucket ve Sliding Window",
-      "titleEn": "Rate Limiting: Token Bucket vs Sliding Window",
-      "slugTr": "rate-limiting-algoritmalari",
-      "slugEn": "rate-limiting-token-bucket-vs-sliding-window",
-      "keywordTr": "rate limiting algoritmaları",
-      "keywordEn": "rate limiting algorithms compared",
-      "angle": "comparison + algorithms plus the three design decisions (where, unit, algorithm)",
-      "style": "data-led",
-      "brief": "Sections: the three decisions (edge vs service, per-key vs per-IP vs per-route, which algorithm); fixed window, sliding window log, sliding window counter, token bucket, leaky bucket; memory vs accuracy tradeoffs. Key claims to verify: sliding window counter is O(1) memory, near-exact, with Cloudflare production use; limiter placement changes behavior. Primary sources: DigitalApplied rate-limiting 2026 reference; Cloudflare engineering. End with a comparison table and pseudo-code for token bucket and sliding window counter."
-    },
-    {
-      "translationKey": "retries-backoff-circuit-breakers",
-      "category": "software-engineering",
-      "titleTr": "Retry, Backoff ve Circuit Breaker",
-      "titleEn": "Retries, Backoff, and Circuit Breakers",
-      "slugTr": "retry-backoff-circuit-breaker",
-      "slugEn": "retries-backoff-circuit-breakers",
-      "keywordTr": "retry backoff circuit breaker",
-      "keywordEn": "retries backoff circuit breakers",
-      "angle": "guide + resilient client patterns that fail fast without retry storms",
-      "style": "field-notes",
-      "brief": "Field notes on a retry storm that took down a dependency. Sections: when to retry vs fail; exponential backoff with jitter; retry budgets and caps; circuit breaker states (closed/open/half-open); pairing with idempotency and timeouts. Key claims to verify: safe retries need idempotency + backoff + jitter + limits + breakers; retries without idempotency cause duplicate side effects. Primary sources: Devinterview concurrency questions; AWS builder library on timeouts/retries. End with default parameter values and an anti-pattern list."
-    },
-    {
-      "translationKey": "fix-n-plus-one-queries",
-      "category": "software-engineering",
-      "titleTr": "N+1 Sorgu Problemi Nasıl Çözülür",
-      "titleEn": "How to Fix the N+1 Query Problem",
-      "slugTr": "n-plus-one-sorgu-problemi",
-      "slugEn": "fix-n-plus-one-query-problem",
-      "keywordTr": "n+1 sorgu problemi çözümü",
-      "keywordEn": "fix n+1 query problem",
-      "angle": "how-to + detection, eager loading, and batching to kill hidden query fan-out",
-      "style": "story-led",
-      "brief": "Story of a list endpoint that fired 400 queries. Sections: what N+1 is and why ORMs cause it; detecting it (query logs, APM, assertions in tests); fixes (eager loading/JOIN, dataloader batching, projection); when denormalization or caching is warranted. Key claims to verify: N+1 is a top ORM performance mistake; batching collapses N queries to one. Primary sources: ORM docs (Prisma/Hibernate) on eager loading; database performance references. End with a before/after query count and a regression test that asserts a query budget."
-    },
     {
       "translationKey": "feature-flags-guide",
       "category": "software-engineering",
