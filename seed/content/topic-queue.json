@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-09",
+  "updatedAt": "2026-07-11",
   "topics": [
-    {
-      "translationKey": "feature-flags-guide",
-      "category": "software-engineering",
-      "titleTr": "Teknik Borç Olmadan Feature Flag",
-      "titleEn": "Feature Flags Without the Tech Debt",
-      "slugTr": "feature-flag-teknik-borc",
-      "slugEn": "feature-flags-without-tech-debt",
-      "keywordTr": "feature flag yönetimi",
-      "keywordEn": "feature flags best practices",
-      "angle": "guide + flag lifecycle, cleanup discipline, and kill switches that don't rot",
-      "style": "contrarian",
-      "brief": "Contrarian: most flag systems become permanent debt. Sections: flag types (release, ops/kill switch, experiment, permission); short-lived vs long-lived; naming, ownership, and expiry dates; cleanup workflow and stale-flag detection; testing both branches. Key claims to verify: unmanaged flags create combinatorial test debt; kill switches decouple deploy from release. Primary sources: Martin Fowler feature-toggles article; OpenFeature docs. End with a lifecycle checklist and a policy that every flag needs a removal date and owner."
-    },
-    {
-      "translationKey": "zero-downtime-schema-migrations",
-      "category": "software-engineering",
-      "titleTr": "Kesintisiz Veritabanı Şema Migrasyonları",
-      "titleEn": "Zero-Downtime Database Schema Migrations",
-      "slugTr": "kesintisiz-sema-migrasyonlari",
-      "slugEn": "zero-downtime-schema-migrations",
-      "keywordTr": "kesintisiz şema migrasyonu",
-      "keywordEn": "zero-downtime schema migrations",
-      "angle": "how-to + expand-contract pattern, safe backfills, and dual-write windows",
-      "style": "story-led",
-      "brief": "Story of an ALTER that locked a table in production. Sections: expand-contract (add nullable, backfill, dual-write, switch reads, drop old); avoiding long locks; batched backfills; adding indexes concurrently; coordinating app and schema rollout. Key claims to verify: expand-contract enables zero-downtime column changes; CREATE INDEX CONCURRENTLY avoids write locks in Postgres. Primary sources: Postgres docs on locking/concurrent indexes; expand-contract pattern references. End with a step ordering that lets you roll back at any stage."
-    },
-    {
-      "translationKey": "opentelemetry-getting-started",
-      "category": "devops-cloud",
-      "titleTr": "OpenTelemetry'e Başlangıç Rehberi",
-      "titleEn": "Getting Started with OpenTelemetry",
-      "slugTr": "opentelemetry-baslangic-rehberi",
-      "slugEn": "getting-started-with-opentelemetry",
-      "keywordTr": "opentelemetry başlangıç rehberi",
-      "keywordEn": "getting started with opentelemetry",
-      "angle": "how-to + instrument a service end-to-end and export traces, metrics, and logs vendor-neutrally",
-      "style": "story-led",
-      "brief": "Walkthrough of instrumenting one service. Sections: SDK vs auto-instrumentation; the Collector as a routing hub; exporting to an open-source backend to dodge lock-in; sampling and cardinality control. Key claims to verify: OTel + self-hosted backends is the 2026 standard for neutralizing vendor lock-in; centralized OTel can cut MTTR up to 70% and improve DORA metrics. Primary sources: HAMS Tech OpenTelemetry-on-Kubernetes 2026; OpenTelemetry docs. End with a minimal Collector config and a first-trace validation step."
-    },
-    {
-      "translationKey": "ebpf-observability-explained",
-      "category": "devops-cloud",
-      "titleTr": "Gözlemlenebilirlik İçin eBPF Nedir",
-      "titleEn": "eBPF for Observability, Explained",
-      "slugTr": "gozlemlenebilirlik-icin-ebpf",
-      "slugEn": "ebpf-for-observability-explained",
-      "keywordTr": "ebpf gözlemlenebilirlik nedir",
-      "keywordEn": "ebpf for observability",
-      "angle": "deep-dive + zero-instrumentation monitoring and the modern eBPF stack",
-      "style": "question-driven",
-      "brief": "Question-led: how do you get traces without touching app code? Sections: what eBPF is and why the kernel gives free visibility; the 2026 stack (Cilium+Hubble for network, Pixie for APM, Tetragon for security, Beyla for OTel spans); limits and overhead. Key claims to verify: AWS EKS defaulted to Cilium; eBPF data path is 30-40% higher throughput than iptables; eBPF mainstreamed in 2026. Primary sources: DEV eBPF 2026 kernel revolution; Gheware eBPF Kubernetes observability. End with when eBPF complements vs replaces SDK instrumentation."
-    },
     {
       "translationKey": "kubernetes-autoscaling-guide",
       "category": "devops-cloud",

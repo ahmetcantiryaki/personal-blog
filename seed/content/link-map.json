@@ -1028,6 +1028,66 @@
         "slug": "fix-n-plus-one-query-problem",
         "title": "How to Fix the N+1 Query Problem"
       }
+    },
+    {
+      "translationKey": "gpt-5-6-general-availability",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-yayinda-hukumet-onayi",
+        "title": "GPT-5.6 Yayında: Hükümet Onayından Geçen İlk Model"
+      },
+      "en": {
+        "slug": "gpt-5-6-general-availability-government-review",
+        "title": "GPT-5.6 Is Live: Inside OpenAI's Government AI Review"
+      }
+    },
+    {
+      "translationKey": "feature-flags-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "feature-flag-teknik-borc",
+        "title": "Teknik Borç Olmadan Feature Flag"
+      },
+      "en": {
+        "slug": "feature-flags-without-tech-debt",
+        "title": "Feature Flags Without the Tech Debt"
+      }
+    },
+    {
+      "translationKey": "zero-downtime-schema-migrations",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "kesintisiz-sema-migrasyonlari",
+        "title": "Kesintisiz Veritabanı Şema Migrasyonları"
+      },
+      "en": {
+        "slug": "zero-downtime-schema-migrations",
+        "title": "Zero-Downtime Database Schema Migrations"
+      }
+    },
+    {
+      "translationKey": "opentelemetry-getting-started",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "opentelemetry-baslangic-rehberi",
+        "title": "OpenTelemetry'e Başlangıç Rehberi"
+      },
+      "en": {
+        "slug": "getting-started-with-opentelemetry",
+        "title": "Getting Started with OpenTelemetry"
+      }
+    },
+    {
+      "translationKey": "ebpf-observability-explained",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "gozlemlenebilirlik-icin-ebpf",
+        "title": "Gözlemlenebilirlik İçin eBPF Nedir"
+      },
+      "en": {
+        "slug": "ebpf-for-observability-explained",
+        "title": "eBPF for Observability, Explained"
+      }
     }
   ]
 }
