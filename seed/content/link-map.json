@@ -1028,6 +1028,66 @@
         "slug": "fix-n-plus-one-query-problem",
         "title": "How to Fix the N+1 Query Problem"
       }
+    },
+    {
+      "translationKey": "friendly-fire-claude-code-exploit",
+      "category": "ai",
+      "tr": {
+        "slug": "friendly-fire-claude-code-guvenlik-acigi",
+        "title": "Friendly Fire: Kod Taraması Nasıl RCE'ye Dönüşür"
+      },
+      "en": {
+        "slug": "friendly-fire-claude-code-security-exploit",
+        "title": "Friendly Fire: When a Security Scan Becomes RCE"
+      }
+    },
+    {
+      "translationKey": "feature-flags-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "feature-flag-teknik-borc",
+        "title": "Teknik Borç Olmadan Feature Flag"
+      },
+      "en": {
+        "slug": "feature-flags-without-tech-debt",
+        "title": "Feature Flags Without the Tech Debt"
+      }
+    },
+    {
+      "translationKey": "zero-downtime-schema-migrations",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "kesintisiz-sema-migrasyonlari",
+        "title": "Kesintisiz Veritabanı Şema Migrasyonları"
+      },
+      "en": {
+        "slug": "zero-downtime-schema-migrations",
+        "title": "Zero-Downtime Database Schema Migrations"
+      }
+    },
+    {
+      "translationKey": "opentelemetry-getting-started",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "opentelemetry-baslangic-rehberi",
+        "title": "OpenTelemetry'e Başlangıç Rehberi"
+      },
+      "en": {
+        "slug": "getting-started-with-opentelemetry",
+        "title": "Getting Started with OpenTelemetry"
+      }
+    },
+    {
+      "translationKey": "ebpf-observability-explained",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "gozlemlenebilirlik-icin-ebpf",
+        "title": "Gözlemlenebilirlik İçin eBPF Nedir"
+      },
+      "en": {
+        "slug": "ebpf-for-observability-explained",
+        "title": "eBPF for Observability, Explained"
+      }
     }
   ]
 }
