@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server'
 import { getPayload } from 'payload'
 
 import { LOCALES } from '@/i18n/config'
+import { isLikelyBot } from '@/lib/bot-detect'
 import { clientIp, rateLimit } from '@/lib/rate-limit'
 import { trackBodySchema } from '@/lib/validation'
 
@@ -43,6 +44,10 @@ export async function POST(req: Request): Promise<NextResponse> {
   let payload: Awaited<ReturnType<typeof getPayload>> | undefined
 
   try {
+    // Bots (AI crawlers, search engines, monitors, previewers) must not
+    // inflate view counts — drop them before any work happens.
+    if (isLikelyBot(req.headers.get('user-agent'))) return noContent
+
     const json = await req.json().catch(() => null)
     const parsed = bodySchema.safeParse(json)
     if (!parsed.success) {
