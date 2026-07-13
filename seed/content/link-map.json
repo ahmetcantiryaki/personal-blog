@@ -1172,6 +1172,126 @@
         "slug": "claude-code-auto-mode-explained",
         "title": "Claude Code Auto Mode: How It Works, When to Disable It"
       }
+    },
+    {
+      "translationKey": "spec-driven-development-vibe-coding",
+      "category": "ai",
+      "tr": {
+        "slug": "spec-driven-development-rehberi",
+        "title": "Vibe Coding Bitti mi? Spec-Driven Development Rehberi"
+      },
+      "en": {
+        "slug": "spec-driven-development-end-of-vibe-coding",
+        "title": "Spec-Driven Development: The End of Vibe Coding?"
+      }
+    },
+    {
+      "translationKey": "postgres-for-everything",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "her-sey-icin-postgres",
+        "title": "Redis ve Kafka'ya Elveda: Her Şey İçin Postgres"
+      },
+      "en": {
+        "slug": "just-use-postgres-for-everything",
+        "title": "Just Use Postgres: Replace Redis, Kafka and More"
+      }
+    },
+    {
+      "translationKey": "drizzle-vs-prisma-orm",
+      "category": "web-development",
+      "tr": {
+        "slug": "drizzle-mi-prisma-mi",
+        "title": "Drizzle mi Prisma mı? 2026 TypeScript ORM Seçimi"
+      },
+      "en": {
+        "slug": "drizzle-vs-prisma-2026",
+        "title": "Drizzle vs Prisma: Choosing a TypeScript ORM in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-productivity-paradox",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yapay-zeka-verimlilik-paradoksu",
+        "title": "Yapay Zeka Sizi Gerçekten Hızlandırıyor mu?"
+      },
+      "en": {
+        "slug": "does-ai-make-developers-faster",
+        "title": "Does AI Really Make Developers Faster?"
+      }
+    },
+    {
+      "translationKey": "most-popular-ai-tools-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "en-populer-yapay-zeka-araclari-2026",
+        "title": "2026'nın En Popüler Yapay Zeka Araçları"
+      },
+      "en": {
+        "slug": "most-popular-ai-tools-2026",
+        "title": "The Most Popular AI Tools in 2026: Ranked"
+      }
+    },
+    {
+      "translationKey": "chatgpt-complete-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-tam-rehber-2026",
+        "title": "ChatGPT Tam Rehber 2026: Hangi Plan Size Göre?"
+      },
+      "en": {
+        "slug": "chatgpt-complete-guide-2026",
+        "title": "ChatGPT Complete Guide 2026: Free, Go, Plus or Pro"
+      }
+    },
+    {
+      "translationKey": "gemini-vs-chatgpt",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-mi-chatgpt-mi",
+        "title": "Gemini mi ChatGPT mi? 2026'da Doğru Seçim"
+      },
+      "en": {
+        "slug": "gemini-vs-chatgpt-2026",
+        "title": "Gemini vs ChatGPT: Which Should You Use in 2026?"
+      }
+    },
+    {
+      "translationKey": "best-ai-image-generators-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "en-iyi-yapay-zeka-gorsel-araclari-2026",
+        "title": "2026'nın En İyi Yapay Zeka Görsel Araçları"
+      },
+      "en": {
+        "slug": "best-ai-image-generators-2026",
+        "title": "The Best AI Image Generators in 2026, Ranked"
+      }
+    },
+    {
+      "translationKey": "perplexity-vs-google-ai-search",
+      "category": "ai",
+      "tr": {
+        "slug": "perplexity-mi-google-mi",
+        "title": "Perplexity mi Google mı? Yapay Zeka Arama Rehberi"
+      },
+      "en": {
+        "slug": "perplexity-vs-google-ai-search",
+        "title": "Perplexity vs Google: AI Search in 2026"
+      }
+    },
+    {
+      "translationKey": "claude-social-media-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "sosyal-medya-icin-claude-kullanimi",
+        "title": "Sosyal Medya İçin Claude Kullanımı: Tam Rehber"
+      },
+      "en": {
+        "slug": "how-to-use-claude-for-social-media",
+        "title": "How to Use Claude for Social Media: Full Guide"
+      }
     }
   ]
 }
