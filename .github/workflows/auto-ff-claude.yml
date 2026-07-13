@@ -1,0 +1,72 @@
+name: Auto fast-forward routine content branches
+
+# Safety net: cloud routine sessions sometimes land on claude/* session branches
+# instead of main. If such a branch is a fast-forward of main AND touches only
+# content-shaped paths (the routine's contract), promote it to main automatically.
+# Anything else is left alone and surfaced as an issue.
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: auto-ff-main
+  cancel-in-progress: false
+
+jobs:
+  fast-forward:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward main if content-only
+        id: ff
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "result=not-ff" >> "$GITHUB_OUTPUT"
+            echo "Branch is not a fast-forward of main; skipping."
+            exit 0
+          fi
+          CHANGED=$(git diff --name-only origin/main...HEAD)
+          DISALLOWED=$(echo "$CHANGED" | grep -vE '^(seed/content/|public/covers/)' | grep -vE '^src/seed/tags\.ts$' || true)
+          if [ -n "$DISALLOWED" ]; then
+            echo "result=non-content" >> "$GITHUB_OUTPUT"
+            {
+              echo "disallowed<<EOF"
+              echo "$DISALLOWED"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+            echo "Branch touches non-content paths; skipping."
+            exit 0
+          fi
+          git push origin HEAD:main
+          git push origin --delete "$BRANCH" || true
+          echo "result=merged" >> "$GITHUB_OUTPUT"
+
+      - name: Surface skipped branch as issue
+        if: steps.ff.outputs.result != 'merged'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ github.ref_name }}
+          REASON: ${{ steps.ff.outputs.result }}
+          DISALLOWED: ${{ steps.ff.outputs.disallowed }}
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Routine branch $BRANCH needs manual merge ($REASON)" \
+            --body "Auto fast-forward skipped this branch.
+
+Reason: \`$REASON\`
+$( [ -n "$DISALLOWED" ] && printf 'Non-content paths:\n```\n%s\n```' "$DISALLOWED" )
+
+Review and merge manually: https://github.com/$GITHUB_REPOSITORY/tree/$BRANCH"
