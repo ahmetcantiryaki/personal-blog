@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-12",
+  "updatedAt": "2026-07-13",
   "topics": [
-    {
-      "translationKey": "kubernetes-autoscaling-guide",
-      "category": "devops-cloud",
-      "titleTr": "Kubernetes Otomatik Ölçekleme Rehberi",
-      "titleEn": "Kubernetes Autoscaling: HPA, VPA, and CA",
-      "slugTr": "kubernetes-otomatik-olcekleme-rehberi",
-      "slugEn": "kubernetes-autoscaling-guide",
-      "keywordTr": "kubernetes otomatik ölçekleme",
-      "keywordEn": "kubernetes autoscaling guide",
-      "angle": "guide + combining HPA, VPA, and Cluster Autoscaler without them fighting each other",
-      "style": "data-led",
-      "brief": "Sections: HPA (horizontal, by metric), VPA (right-sizing requests), Cluster Autoscaler (node scaling), and why HPA+VPA on the same resource/metric conflict; custom and external metrics; resource quotas for fairness; cost impact. Key claims to verify: 86% of cloud environments lack HPA, quietly inflating spend; combining the three is the recommended data-driven approach. Primary sources: KodeKloud Kubernetes best practices; ScaleOps/Spot cost-optimization 2026. End with a config matrix and the HPA/VPA conflict workaround."
-    },
-    {
-      "translationKey": "secrets-management-cloud",
-      "category": "devops-cloud",
-      "titleTr": "Bulutta Secret Yönetimi Nasıl Yapılır",
-      "titleEn": "Secrets Management in the Cloud, Done Right",
-      "slugTr": "bulutta-secret-yonetimi",
-      "slugEn": "cloud-secrets-management-done-right",
-      "keywordTr": "bulutta secret yönetimi",
-      "keywordEn": "cloud secrets management",
-      "angle": "how-to + moving off .env files to managed secrets with rotation and least privilege",
-      "style": "contrarian",
-      "brief": "Contrarian: your .env file is a breach waiting to happen. Sections: why env files and committed secrets fail; managed options (cloud secret managers, Vault, SOPS-encrypted git); short-lived dynamic credentials; automatic rotation; scoping and audit. Key claims to verify: dynamic short-lived credentials beat long-lived keys; SOPS lets you keep encrypted secrets in git safely. Primary sources: HashiCorp Vault docs; Mozilla SOPS. End with a migration path from .env to a secret manager and a rotation checklist. No real secrets in examples."
-    },
-    {
-      "translationKey": "blue-green-vs-canary",
-      "category": "devops-cloud",
-      "titleTr": "Blue-Green mi Canary mi Deployment",
-      "titleEn": "Blue-Green vs Canary Deployments",
-      "slugTr": "blue-green-mi-canary-mi",
-      "slugEn": "blue-green-vs-canary-deployments",
-      "keywordTr": "blue-green mi canary mi",
-      "keywordEn": "blue-green vs canary deployments",
-      "angle": "comparison + rollout strategies, rollback speed, and cost tradeoffs",
-      "style": "question-driven",
-      "brief": "Question-led: which rollout fits your risk tolerance? Sections: blue-green (two full environments, instant switch, instant rollback, double cost); canary (gradual traffic shift, metric gates, cheaper, slower); rolling as the baseline; database-change coupling and feature-flag pairing. Key claims to verify: blue-green gives fastest rollback but doubles infra; canary limits blast radius via progressive traffic. Primary sources: Google/GitLab deployment-strategy docs; CNCF progressive-delivery (Argo Rollouts/Flagger). End with a decision table by team maturity and workload."
-    },
-    {
-      "translationKey": "pgbouncer-connection-pooling",
-      "category": "devops-cloud",
-      "titleTr": "PgBouncer ile Postgres Bağlantı Havuzu",
-      "titleEn": "Postgres Connection Pooling with PgBouncer",
-      "slugTr": "pgbouncer-postgres-baglanti-havuzu",
-      "slugEn": "postgres-connection-pooling-pgbouncer",
-      "keywordTr": "pgbouncer bağlantı havuzu",
-      "keywordEn": "postgres connection pooling pgbouncer",
-      "angle": "how-to + pool modes, sizing, and the RLS/session footguns behind a pooler",
-      "style": "contrarian",
-      "brief": "Contrarian: pooling silently breaks your tenant isolation. Sections: why Postgres connections are expensive; PgBouncer multiplexing (e.g. 500 app to 20 DB connections); pool modes (session/transaction/statement) and what each disables; the RLS footgun (shared role makes current_user useless behind a pooler); fix with SET LOCAL in a transaction. Key claims to verify: transaction pooling breaks session features; SET LOCAL resets tenant context safely. Primary sources: Bytebase Postgres RLS footguns; PgBouncer docs. Note PgBouncer 1.25.2 CVE-2026-6664 patch. End with sizing guidance."
-    },
     {
       "translationKey": "staff-engineer-path",
       "category": "career-productivity",

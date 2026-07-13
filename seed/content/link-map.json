@@ -1088,6 +1088,66 @@
         "slug": "ebpf-for-observability-explained",
         "title": "eBPF for Observability, Explained"
       }
+    },
+    {
+      "translationKey": "gpt-5-6-general-availability-codex-desktop",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-genel-kullanima-acildi",
+        "title": "GPT-5.6 Genel Kullanıma Açıldı, Codex ChatGPT'ye Taşındı"
+      },
+      "en": {
+        "slug": "gpt-5-6-general-availability-codex-desktop",
+        "title": "GPT-5.6 Goes GA as Codex Moves Into ChatGPT Desktop"
+      }
+    },
+    {
+      "translationKey": "kubernetes-autoscaling-guide",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-otomatik-olcekleme-rehberi",
+        "title": "Kubernetes Otomatik Ölçekleme Rehberi"
+      },
+      "en": {
+        "slug": "kubernetes-autoscaling-guide",
+        "title": "Kubernetes Autoscaling: HPA, VPA, and CA"
+      }
+    },
+    {
+      "translationKey": "secrets-management-cloud",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "bulutta-secret-yonetimi",
+        "title": "Bulutta Secret Yönetimi Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "cloud-secrets-management-done-right",
+        "title": "Secrets Management in the Cloud, Done Right"
+      }
+    },
+    {
+      "translationKey": "blue-green-vs-canary",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "blue-green-mi-canary-mi",
+        "title": "Blue-Green mi Canary mi Deployment"
+      },
+      "en": {
+        "slug": "blue-green-vs-canary-deployments",
+        "title": "Blue-Green vs Canary Deployments"
+      }
+    },
+    {
+      "translationKey": "pgbouncer-connection-pooling",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "pgbouncer-postgres-baglanti-havuzu",
+        "title": "PgBouncer ile Postgres Bağlantı Havuzu"
+      },
+      "en": {
+        "slug": "postgres-connection-pooling-pgbouncer",
+        "title": "Postgres Connection Pooling with PgBouncer"
+      }
     }
   ]
 }
