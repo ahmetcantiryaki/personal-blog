@@ -1148,6 +1148,30 @@
         "slug": "postgres-connection-pooling-pgbouncer",
         "title": "Postgres Connection Pooling with PgBouncer"
       }
+    },
+    {
+      "translationKey": "gpt-realtime-voice-agents",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-realtime-2-1-sesli-ai-ajani-kurmak",
+        "title": "gpt-realtime-2.1 ile Üretim Sesli AI Ajanı Kurmak"
+      },
+      "en": {
+        "slug": "gpt-realtime-2-1-voice-agents-guide",
+        "title": "Building Voice Agents with gpt-realtime-2.1"
+      }
+    },
+    {
+      "translationKey": "claude-code-auto-mode-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-auto-mode-nasil-calisir",
+        "title": "Claude Code Auto Mode: Nasıl Çalışır, Ne Zaman Kapatılır"
+      },
+      "en": {
+        "slug": "claude-code-auto-mode-explained",
+        "title": "Claude Code Auto Mode: How It Works, When to Disable It"
+      }
     }
   ]
 }
