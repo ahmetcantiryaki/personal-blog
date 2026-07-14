@@ -19,7 +19,7 @@ Pieter Levels aslında bir gecede meşhur olmadı. Nomad List ve Photo AI gibi p
 
 Bütün süreci daha sonra [kendi sitesinde uzun uzun anlattı](https://levels.io/fly-pieter-com-vibecoded-flight-simulator). O sabah Cursor adlı yapay zeka destekli kod editörünü açtı, arka planda Claude ve Grok 3 modellerini çalıştırdı, 3B katman için Three.js kütüphanesini kullandı. Kod yazmıyordu; yapay zekaya ne istediğini İngilizce anlatıyor, çıkan sonucu tarayıcıda deniyor, "şunu düzelt, şurayı ekle" diyordu. Yaklaşık üç saat sonra elinde gökyüzünde uçabildiği kaba bir uçak vardı. Süreci büyük ölçüde canlı olarak X'te paylaştı ve işte tam bu şeffaflık, hikayenin kartopu gibi büyümesini sağladı.
 
-![Tarmakta havalanmaya hazır küçük bir uçak](/images/blog/ai-game-dev-stories/01.jpg "Kaynak: Unsplash / Vicente Angelo Molina")
+![fly.pieter.com tarayıcı uçuş simülatörü](/images/blog/ai-game-dev-stories/01.jpg "Kaynak: fly.pieter.com ekran goruntusu")
 
 ### Rakamlar gerçekten çılgıncaydı
 
@@ -37,7 +37,7 @@ Levels'ın hikayesi tek başına kalsa "şanslı bir istisna" diye geçiştirile
 
 Sonuç şaşırtıcıydı. Yarışmaya **1.170'ten fazla oyun** gönderildi. Katılımcılar arasında profesyonel yazılımcılar da vardı, hayatında hiç ciddi kod yazmamış meraklılar da. Birçoğu çalışan bir oyunu 48 saatin altında bitirdi. Bir aylık pencere içinde binlerce oynanabilir tarayıcı oyununun çıkabildiğini kanıtlayan ilk büyük etkinlik buydu.
 
-![Elde bir oyun kolu — tarayıcı oyunlarının yeni çağı](/images/blog/ai-game-dev-stories/02.jpg "Kaynak: Unsplash")
+![Vibe Coding Game Jam yarışma sayfası](/images/blog/ai-game-dev-stories/02.jpg "Kaynak: jam.pieter.com ekran goruntusu")
 
 ### Taksici oyunu birinciliği kaptı
 
@@ -59,7 +59,7 @@ Birinciliği **@leocooout** adlı yapıcının yaptığı "A Game About Capybara
 
 Vibe Jam'e binlerce oyun gönderildi ama sadece bir avuç tanesi ödül kazandı, sadece bir tanesi milyon dolarlık gelire ulaştı. itch.io gibi platformlarda ortalama bir indie oyunun yıllık geliri hâlâ birkaç yüz ila birkaç bin dolar bandında geziniyor. Yapay zeka oyun yapmayı kolaylaştırdı, ama oyunu fark ettirmeyi, cilalamayı ve bir kitleye ulaştırmayı kolaylaştırmadı. Pieter Levels'ın on yıllık takipçi kitlesi olmadan aynı oyunu yayınlasaydınız, muhtemelen kimse uçmazdı.
 
-![Ekranda akan kod — vibe coding ile üretim](/images/blog/ai-game-dev-stories/03.jpg "Kaynak: Unsplash")
+![Pieter Levels'ın fly.pieter.com hikayesini anlattığı yazı](/images/blog/ai-game-dev-stories/03.jpg "Kaynak: levels.io ekran goruntusu")
 
 Bir başka önemli nokta: hızlı üretilen kod, uzun vadede bakım yükü demek. "Kodun karmaşık olması umurumda değil, yeter ki çalışsın" yaklaşımı bir prototip için harika, ama oyun büyüdükçe ve gerçek kullanıcılar geldikçe bu borç faiziyle geri dönüyor. Sektörde bu yüzden "vibe coding bitti mi" tartışması başladı; daha disiplinli bir alternatif olan yaklaşımı [spec-driven development rehberimizde](/tr/posts/spec-driven-development-rehberi) inceledik.
 

@@ -19,7 +19,7 @@ Pieter Levels didn't become famous overnight. He had spent years making a living
 
 He later [wrote up the whole process on his own site](https://levels.io/fly-pieter-com-vibecoded-flight-simulator). That morning he opened Cursor, an AI-powered code editor, ran Claude and Grok 3 as the models behind it, and used the Three.js library for the 3D layer. He wasn't writing code; he was describing what he wanted in plain English, testing the result in the browser, then saying "fix this, add that." About three hours later he had a rough plane he could fly across the sky. He shared most of the process live on X, and it was exactly that transparency that turned the story into a snowball.
 
-![A small plane on the tarmac, ready for takeoff](/images/blog/ai-game-dev-stories/01.jpg "Source: Unsplash / Vicente Angelo Molina")
+![The fly.pieter.com browser flight simulator](/images/blog/ai-game-dev-stories/01.jpg "Source: fly.pieter.com screenshot")
 
 ### The numbers were genuinely wild
 
@@ -35,7 +35,7 @@ If Levels' story stood alone, it could be dismissed as a lucky exception. But it
 
 The result was staggering. More than **1,170 games** were submitted. Entrants ranged from professional engineers to hobbyists who had never written serious code in their lives. Many finished a working game in under 48 hours. This was the first major event to prove that thousands of playable browser games could ship in a single month.
 
-![A game controller in hand — the new era of browser games](/images/blog/ai-game-dev-stories/02.jpg "Source: Unsplash")
+![The Vibe Coding Game Jam competition page](/images/blog/ai-game-dev-stories/02.jpg "Source: jam.pieter.com screenshot")
 
 ### A taxi game took first place
 
@@ -55,7 +55,7 @@ Now for the less romantic part of the story, because we have to be honest. The h
 
 Thousands of games were submitted to the Vibe Jams, but only a handful won prizes, and only one reached a million dollars in revenue. On platforms like itch.io, the average indie game still earns somewhere between a few hundred and a few thousand dollars a year. AI made building a game easier, but it did not make getting it noticed, polishing it, and getting it in front of an audience any easier. If you had published the exact same game without Pieter Levels' decade-long following, chances are nobody would have flown.
 
-![Code scrolling on a screen — building with vibe coding](/images/blog/ai-game-dev-stories/03.jpg "Source: Unsplash")
+![Pieter Levels' write-up telling the fly.pieter.com story](/images/blog/ai-game-dev-stories/03.jpg "Source: levels.io screenshot")
 
 Another important point: fast-generated code means a maintenance burden down the road. The "I don't care if the code is messy as long as it works" approach is fantastic for a prototype, but as a game grows and real users arrive, that debt comes back with interest. That's why the industry started debating whether "vibe coding is over"; we examined a more disciplined alternative in our [spec-driven development guide](/en/posts/spec-driven-development-end-of-vibe-coding).
 

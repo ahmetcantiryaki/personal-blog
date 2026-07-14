@@ -15,7 +15,7 @@ A developer's laptop, a credit card, and a couple of AI subscriptions. In 2026, 
 
 Let's set expectations first: according to [Indie Hackers](https://www.indiehackers.com/) data, roughly half of Stripe-connected products generate zero revenue, and most micro-SaaS products stay under $1,000 a month. So the stories below are examples of the exception, not the rule. Still, studying exceptions is the fastest way to see which patterns actually work.
 
-![A solo maker building SaaS on a laptop](/images/blog/micro-saas-ai-stories/01.jpg "Source: Unsplash")
+![Photo AI, the AI photo studio](/images/blog/micro-saas-ai-stories/01.jpg "Source: photoai.com screenshot")
 
 ## Pieter Levels: $130K a month with PHP, jQuery and stubbornness
 
@@ -39,7 +39,7 @@ Vietnamese developer Tony Dinh's [TypingMind](https://www.typingmind.com/) story
 
 The pattern here is clear: when a new platform or API ships, the official product's first version always has gaps. Whoever fills that gap first grabs the distribution advantage. Dinh could code, but what he really won was timing.
 
-![A screen showing revenue charts and growth metrics](/images/blog/micro-saas-ai-stories/02.jpg "Source: Unsplash")
+![HeadshotPro, the AI headshot generator](/images/blog/micro-saas-ai-stories/02.jpg "Source: headshotpro.com screenshot")
 
 ## Braden Dennis: an AI-native data product
 
@@ -76,7 +76,7 @@ Now let's turn the patterns from these stories into an actionable plan: a six-st
 
 **Step 6 — Ask for money from day one.** Free user counts aren't validation. Real validation is someone pulling out a credit card. Keep the price low and test early; your first ten paying customers teach you more than a thousand free users. Raising prices later is easier than breaking a free-forever habit.
 
-![An idea board and roadmap planning](/images/blog/micro-saas-ai-stories/03.jpg "Source: Unsplash")
+![TypingMind, the advanced LLM chat interface](/images/blog/micro-saas-ai-stories/03.jpg "Source: typingmind.com screenshot")
 
 ## Reality check: why most projects fail
 

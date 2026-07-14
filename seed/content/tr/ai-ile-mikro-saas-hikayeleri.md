@@ -15,7 +15,7 @@ Bir yazılımcının bilgisayarı, bir kredi kartı ve birkaç AI aboneliği. 20
 
 Önce beklentiyi ayarlayalım: [Indie Hackers](https://www.indiehackers.com/) verilerine göre Stripe'a bağlı ürünlerin yaklaşık yarısı sıfır gelir üretiyor ve mikro-SaaS'ların çoğu ayda 1.000 doların altında kalıyor. Yani aşağıdaki hikayeler kuralın değil, istisnanın örnekleri. Yine de istisnaları incelemek, hangi kalıpların işe yaradığını görmenin en hızlı yolu.
 
-![Dizüstü bilgisayarda tek kişilik SaaS kuran bir maker](/images/blog/micro-saas-ai-stories/01.jpg "Kaynak: Unsplash")
+![Photo AI yapay zeka fotoğraf stüdyosu](/images/blog/micro-saas-ai-stories/01.jpg "Kaynak: photoai.com ekran goruntusu")
 
 ## Pieter Levels: PHP, jQuery ve inatçılıkla 130 bin dolar
 
@@ -39,7 +39,7 @@ Vietnamlı geliştirici Tony Dinh'in [TypingMind](https://www.typingmind.com/) h
 
 Buradaki kalıp net: yeni bir platform ya da API çıktığında, resmi ürünün ilk sürümünde her zaman boşluklar olur. O boşluğu ilk dolduran, dağıtım avantajını kapar. Dinh kod yazabilen bir geliştiriciydi ama asıl kazandığı şey zamanlamaydı.
 
-![Gelir grafiği ve büyüme metriklerini gösteren ekran](/images/blog/micro-saas-ai-stories/02.jpg "Kaynak: Unsplash")
+![HeadshotPro yapay zeka vesikalık üreticisi](/images/blog/micro-saas-ai-stories/02.jpg "Kaynak: headshotpro.com ekran goruntusu")
 
 ## Braden Dennis: AI-native bir veri ürünü
 
@@ -78,7 +78,7 @@ Görülen ortak temalar üç tane. Birincisi, hepsi tek bir net problemi çözü
 
 **6. Adım — İlk günden para isteyin.** Ücretsiz kullanıcı sayısı bir gösterge değil. Gerçek doğrulama, birinin kredi kartını çıkarmasıdır. Fiyatı düşük tutup erken test edin; ödeme yapan ilk on müşteri, bin ücretsiz kullanıcıdan daha fazla şey öğretir. Fiyatlandırmayı sonra yukarı çekmek, baştan bedava alışkanlığı yaratmaktan kolaydır. İlk müşterilerle birebir konuşmayı da ihmal etmeyin; neden ödediklerini ve neyi kaçırdıklarını anlamak, bir sonraki özelliği tahmin etmekten çok daha güvenilir bir yol gösterici olur.
 
-![Fikir panosu ve yol haritası planlaması](/images/blog/micro-saas-ai-stories/03.jpg "Kaynak: Unsplash")
+![TypingMind gelişmiş LLM sohbet arayüzü](/images/blog/micro-saas-ai-stories/03.jpg "Kaynak: typingmind.com ekran goruntusu")
 
 ## Gerçeklik kontrolü: neden çoğu proje başarısız oluyor
 

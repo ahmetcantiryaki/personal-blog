@@ -15,7 +15,7 @@ Birkaç yıl önce "tek kişi bir hafta sonunda ne yapabilir ki" derdik. 2026'da
 
 Daha geniş bir manzara için [2026'nın en popüler yapay zeka araçları](/tr/posts/en-populer-yapay-zeka-araclari-2026) yazısına da göz atabilirsiniz; buradaki liste ise "büyük oyuncular" değil, tek başına fark yaratan projeler üzerine.
 
-![Dizüstü bilgisayarda kod yazan bir geliştirici](/images/blog/ai-built-tools-2026/01.jpg "Kaynak: Unsplash")
+![Base44 doğal dille uygulama geliştirme arayüzü](/images/blog/ai-built-tools-2026/01.jpg "Kaynak: base44.com ekran goruntusu")
 
 ## Base44: Altı ayda 80 milyon dolarlık tek kişilik hikâye
 
@@ -37,7 +37,7 @@ Goblin Tools'un asıl dersi teknik değil, tavır. De Buyser reklam kuşatması,
 
 İşin cilvesi de tam burada: yapay zekanın cilalı ama tahmin edilebilir cevaplarının aksine, insanların ne yazacağını asla bilemiyorsunuz. Oyun, "AI slop" (yapay zeka çöpü) yorgunluğuna esprili bir yanıt niteliğinde. İnsanları makine yerine koyup makineyle yarıştırınca, ortaya internetin çoktandır özlediği o öngörülemez, tuhaf ve komik enerji çıkıyor.
 
-![Renkli ışıklar altında oyun atmosferi](/images/blog/ai-built-tools-2026/02.jpg "Kaynak: Unsplash")
+![Your AI Slop Bores Me oyununun açılış sayfası](/images/blog/ai-built-tools-2026/02.jpg "Kaynak: youraislopboresme.com ekran goruntusu")
 
 ## Death by AI: Yapay zekanın hakemlik ettiği hayatta kalma partisi
 
@@ -51,7 +51,7 @@ Herkes prompt yazmayı sevmiyor; kimileri sadece bir fikri görselleştirmek ist
 
 Napkin'in güzelliği, sunum ve blog hazırlayanların en büyük derdini çözmesi: "anlatabiliyorum ama çizemiyorum" durumunu ortadan kaldırıyor. Çıktılar düzenlenebilir olduğu için markanıza uygun renk ve stile de çekebiliyorsunuz. Toplantı notlarını, ders özetlerini ya da ürün fikirlerini hızlıca görsele dökmek isteyenler için gerçek bir zaman kazandırıcı.
 
-![Masada not defteri ve planlama malzemeleri](/images/blog/ai-built-tools-2026/04.jpg "Kaynak: Unsplash")
+![Napkin metinden görsel üreten araç](/images/blog/ai-built-tools-2026/04.jpg "Kaynak: napkin.ai ekran goruntusu")
 
 ## Descript: Videoyu metin düzenler gibi kurgulama
 

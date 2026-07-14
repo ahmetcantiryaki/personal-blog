@@ -15,7 +15,7 @@ seoDescription: "Tek kişilik girişim 2026'da gerçek: solo kurucuların kullan
 
 Bu yazıda o söylemin altındaki gerçek makineyi inceliyoruz: bir kişinin koca bir ekibin işini yapmasını sağlayan AI yığınını, gerçek kurucuların gelir rakamlarını ve solo modelin nerede duvara tosladığını.
 
-![Kahve ve dizüstü bilgisayarla çalışan solo kurucu](/images/blog/solopreneur-ai-stack/01.jpg "Kaynak: Unsplash / Andrew Neel")
+![Pieter Levels'ın projelerini listelediği levels.io sitesi](/images/blog/solopreneur-ai-stack/01.jpg "Kaynak: levels.io ekran goruntusu")
 
 ## Solo girişim neden 2026'da patladı
 
@@ -48,7 +48,7 @@ Solo bir işi ayakta tutan yığın dört fonksiyonel katmana ayrılıyor: pazar
 
 Toplam genelde aylık 75-150 dolar, yıllık 3.000-12.000 dolar bandında kalıyor. Kritik nokta şu: burada tek tek araçların markası değil, katmanların kapsanması önemli. Hangi LLM'in en popüler olduğunu ve nasıl seçileceğini [2026'nın en popüler yapay zekâ araçları](/tr/posts/en-populer-yapay-zeka-araclari-2026) yazımızda ayrıntılı ele aldık.
 
-![Ekip yerine tek masa: solo operasyon](/images/blog/solopreneur-ai-stack/02.jpg "Kaynak: Unsplash / Annie Spratt")
+![Lovable ile düz dille uygulama geliştirme](/images/blog/solopreneur-ai-stack/02.jpg "Kaynak: lovable.dev ekran goruntusu")
 
 ### Pazarlama ve içerik katmanı
 

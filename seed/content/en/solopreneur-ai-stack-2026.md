@@ -15,7 +15,7 @@ In 2024, Sam Altman described a betting pool in his group chat with tech CEO fri
 
 This article looks under the hood of that narrative: the AI stack that lets one person do the work of an entire team, the revenue numbers real founders are actually posting, and the wall the solo model keeps hitting.
 
-![Solo founder working with a laptop and coffee](/images/blog/solopreneur-ai-stack/01.jpg "Source: Unsplash / Andrew Neel")
+![Pieter Levels' levels.io site listing his projects](/images/blog/solopreneur-ai-stack/01.jpg "Source: levels.io screenshot")
 
 ## Why the solo business exploded in 2026
 
@@ -48,7 +48,7 @@ A stack that keeps a solo business running splits into four functional layers: m
 
 The total usually lands at $75-150 a month, or $3,000-12,000 a year. The key point: what matters is covering the layers, not the brand of any single tool. For how to pick the underlying model, we broke down [the most popular AI tools of 2026](/en/posts/most-popular-ai-tools-2026) in detail.
 
-![One desk instead of a team: the solo operation](/images/blog/solopreneur-ai-stack/02.jpg "Source: Unsplash / Annie Spratt")
+![Building apps in plain language with Lovable](/images/blog/solopreneur-ai-stack/02.jpg "Source: lovable.dev screenshot")
 
 ### Marketing and content layer
 

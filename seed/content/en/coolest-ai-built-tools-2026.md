@@ -15,7 +15,7 @@ A few years ago we used to ask, "What could one person really build in a weekend
 
 For the wider landscape, check out [the most popular AI tools in 2026](/en/posts/most-popular-ai-tools-2026). This list is different — not the big players, but scrappy projects made by people working mostly alone.
 
-![A developer writing code on a laptop](/images/blog/ai-built-tools-2026/01.jpg "Source: Unsplash")
+![The Base44 natural-language app builder](/images/blog/ai-built-tools-2026/01.jpg "Source: base44.com screenshot")
 
 ## Base44: The $80M solo story built in six months
 
@@ -35,7 +35,7 @@ This is 2026's most delightful role reversal. A developer named Mihir Maroju (a.
 
 The twist is the whole point: unlike AI's polished-but-predictable answers, you never know what a human will type. The game is a witty reply to "AI slop" fatigue. Put humans back in the machine's seat and you get exactly the unpredictable, weird, funny energy the internet has been missing.
 
-![A gaming atmosphere under colorful lights](/images/blog/ai-built-tools-2026/02.jpg "Source: Unsplash")
+![The Your AI Slop Bores Me landing page](/images/blog/ai-built-tools-2026/02.jpg "Source: youraislopboresme.com screenshot")
 
 ## Death by AI: A survival party refereed by AI
 
@@ -49,7 +49,7 @@ Not everyone loves writing prompts; some people just want to visualize an idea. 
 
 Napkin's beauty is that it solves the biggest headache for anyone making slides or blog posts: the "I can explain it but I can't draw it" problem. Outputs are editable, so you can pull them into your brand colors and style. For turning meeting notes, lecture summaries, or product ideas into visuals fast, it's a real time-saver.
 
-![A notebook and planning materials on a desk](/images/blog/ai-built-tools-2026/04.jpg "Source: Unsplash")
+![Napkin, the text-to-visual tool](/images/blog/ai-built-tools-2026/04.jpg "Source: napkin.ai screenshot")
 
 ## Descript: Editing video as if it were text
 
