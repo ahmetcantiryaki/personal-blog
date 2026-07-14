@@ -4,7 +4,7 @@ slug: "how-to-use-claude-for-social-media"
 translationKey: "claude-social-media-guide"
 locale: "en"
 excerpt: "Use Claude for social media: set brand voice with Styles, batch a month of posts in Projects, loop analytics back, and learn why it won't make images."
-category: "ai"
+category: "social-media"
 tags: ["ai-tools", "prompt-engineering", "productivity", "personal-branding", "automation"]
 publishedAt: "2026-07-13"
 seoTitle: "How to Use Claude for Social Media (2026 Guide)"

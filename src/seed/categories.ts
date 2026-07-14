@@ -54,6 +54,34 @@ export const CATEGORIES: readonly TaxonomyEntry[] = [
       en: { title: 'Career & Productivity', slug: 'career-productivity' },
     },
   },
+  {
+    key: 'social-media',
+    locales: {
+      tr: { title: 'Sosyal Medya', slug: 'sosyal-medya' },
+      en: { title: 'Social Media', slug: 'social-media' },
+    },
+  },
+  {
+    key: 'digital-marketing',
+    locales: {
+      tr: { title: 'Dijital Pazarlama & SEO', slug: 'dijital-pazarlama' },
+      en: { title: 'Digital Marketing & SEO', slug: 'digital-marketing' },
+    },
+  },
+  {
+    key: 'technology',
+    locales: {
+      tr: { title: 'Teknoloji', slug: 'teknoloji' },
+      en: { title: 'Technology', slug: 'technology' },
+    },
+  },
+  {
+    key: 'business',
+    locales: {
+      tr: { title: 'Girişimcilik & İş', slug: 'girisimcilik-is' },
+      en: { title: 'Business & Startups', slug: 'business' },
+    },
+  },
 ] as const
 
 export const CATEGORY_KEYS: ReadonlySet<string> = new Set(CATEGORIES.map((c) => c.key))

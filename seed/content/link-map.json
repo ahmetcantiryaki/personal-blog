@@ -54,6 +54,46 @@
         "slug": "career-productivity",
         "title": "Career & Productivity"
       }
+    },
+    "social-media": {
+      "tr": {
+        "slug": "sosyal-medya",
+        "title": "Sosyal Medya"
+      },
+      "en": {
+        "slug": "social-media",
+        "title": "Social Media"
+      }
+    },
+    "digital-marketing": {
+      "tr": {
+        "slug": "dijital-pazarlama",
+        "title": "Dijital Pazarlama & SEO"
+      },
+      "en": {
+        "slug": "digital-marketing",
+        "title": "Digital Marketing & SEO"
+      }
+    },
+    "technology": {
+      "tr": {
+        "slug": "teknoloji",
+        "title": "Teknoloji"
+      },
+      "en": {
+        "slug": "technology",
+        "title": "Technology"
+      }
+    },
+    "business": {
+      "tr": {
+        "slug": "girisimcilik-is",
+        "title": "Girişimcilik & İş"
+      },
+      "en": {
+        "slug": "business",
+        "title": "Business & Startups"
+      }
     }
   },
   "posts": [
@@ -1283,7 +1323,7 @@
     },
     {
       "translationKey": "claude-social-media-guide",
-      "category": "ai",
+      "category": "social-media",
       "tr": {
         "slug": "sosyal-medya-icin-claude-kullanimi",
         "title": "Sosyal Medya İçin Claude Kullanımı: Tam Rehber"

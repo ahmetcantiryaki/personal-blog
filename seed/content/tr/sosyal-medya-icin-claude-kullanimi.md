@@ -4,7 +4,7 @@ slug: "sosyal-medya-icin-claude-kullanimi"
 translationKey: "claude-social-media-guide"
 locale: "tr"
 excerpt: "Sosyal medya için Claude: marka sesini Styles ile ayarlayın, aylık içeriği Projects'te toplu üretin, analitiği geri besleyin. Görsel üretmez ama yazar."
-category: "ai"
+category: "social-media"
 tags: ["ai-tools", "prompt-engineering", "productivity", "personal-branding", "automation"]
 publishedAt: "2026-07-13"
 seoTitle: "Sosyal Medya İçin Claude: İçerik Üretimi Rehberi"
