@@ -1,4 +1,436 @@
 {
+  "en/advanced-typescript-patterns": {
+    "hash": "30a9a57c5e0b2127",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-advanced-typescript-patterns.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3783201,
+    "generatedAt": "2026-07-14T14:37:26.601Z"
+  },
+  "en/agent-first-dev-tools": {
+    "hash": "a745d0f9fd5a88a9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-agent-first-dev-tools.mp3",
+    "seconds": 522,
+    "voice": "en_US-ryan-high",
+    "bytes": 4177337,
+    "generatedAt": "2026-07-14T14:37:33.126Z"
+  },
+  "en/agentjacking-ai-agent-attack": {
+    "hash": "2983670669d5d59b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-agentjacking-ai-agent-attack.mp3",
+    "seconds": 520,
+    "voice": "en_US-ryan-high",
+    "bytes": 4157693,
+    "generatedAt": "2026-07-14T14:37:46.983Z"
+  },
+  "en/ai-agent-memory-systems": {
+    "hash": "cff4a36f1860b0a9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-agent-memory-systems.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3262633,
+    "generatedAt": "2026-07-14T14:37:36.801Z"
+  },
+  "en/ai-agents-vs-workflows": {
+    "hash": "5f377eb1743d9106",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-agents-vs-workflows.mp3",
+    "seconds": 552,
+    "voice": "en_US-ryan-high",
+    "bytes": 4412857,
+    "generatedAt": "2026-07-14T15:14:42.624Z"
+  },
+  "en/ai-coding-assistant-mistakes": {
+    "hash": "f1637b7e69308901",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-coding-assistant-mistakes.mp3",
+    "seconds": 543,
+    "voice": "en_US-ryan-high",
+    "bytes": 4340759,
+    "generatedAt": "2026-07-14T15:13:04.784Z"
+  },
+  "en/ai-project-ideas-weekend": {
+    "hash": "761e7d69d84964e4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-project-ideas-weekend.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3517588,
+    "generatedAt": "2026-07-14T15:11:25.576Z"
+  },
+  "en/ai-proof-developer-skills": {
+    "hash": "d4472bec225d5e5b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-proof-developer-skills.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3523230,
+    "generatedAt": "2026-07-14T14:37:04.321Z"
+  },
+  "en/ai-slop-open-source-security": {
+    "hash": "c6302c9908b12380",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-slop-open-source-security.mp3",
+    "seconds": 528,
+    "voice": "en_US-ryan-high",
+    "bytes": 4224357,
+    "generatedAt": "2026-07-14T14:40:24.044Z"
+  },
+  "en/are-web-components-ready-2026": {
+    "hash": "c73edfc2b38ce5a7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-are-web-components-ready-2026.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3724269,
+    "generatedAt": "2026-07-14T14:39:28.079Z"
+  },
+  "en/astro-vs-nextjs": {
+    "hash": "844a3387cbeb083d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-astro-vs-nextjs.mp3",
+    "seconds": 552,
+    "voice": "en_US-ryan-high",
+    "bytes": 4417454,
+    "generatedAt": "2026-07-14T14:41:03.579Z"
+  },
+  "en/avoid-developer-burnout": {
+    "hash": "454696ad8c5ab628",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-avoid-developer-burnout.mp3",
+    "seconds": 549,
+    "voice": "en_US-ryan-high",
+    "bytes": 4393630,
+    "generatedAt": "2026-07-14T14:40:38.018Z"
+  },
+  "en/best-ai-image-generators-2026": {
+    "hash": "cec8b4a4f98a262e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-best-ai-image-generators-2026.mp3",
+    "seconds": 449,
+    "voice": "en_US-ryan-high",
+    "bytes": 3592403,
+    "generatedAt": "2026-07-14T15:17:13.561Z"
+  },
+  "en/blue-green-vs-canary-deployments": {
+    "hash": "cca50b304165ee67",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-blue-green-vs-canary-deployments.mp3",
+    "seconds": 406,
+    "voice": "en_US-ryan-high",
+    "bytes": 3251348,
+    "generatedAt": "2026-07-14T15:15:23.518Z"
+  },
+  "en/chatgpt-complete-guide-2026": {
+    "hash": "19755f5f8bf4a04e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-complete-guide-2026.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3435250,
+    "generatedAt": "2026-07-14T15:12:30.508Z"
+  },
+  "en/claude-code-auto-mode-explained": {
+    "hash": "e22bf6a5906a0f50",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-auto-mode-explained.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3708804,
+    "generatedAt": "2026-07-14T14:39:41.646Z"
+  },
+  "en/claude-code-hidden-tracking-code": {
+    "hash": "672cfcb454f3411b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-hidden-tracking-code.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3181549,
+    "generatedAt": "2026-07-14T14:42:39.812Z"
+  },
+  "en/claude-code-subagents-background-agents": {
+    "hash": "5fe9ac1e7d6b81f8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-subagents-background-agents.mp3",
+    "seconds": 515,
+    "voice": "en_US-ryan-high",
+    "bytes": 4123420,
+    "generatedAt": "2026-07-14T14:41:35.109Z"
+  },
+  "en/claude-cowork-web-mobile-expansion": {
+    "hash": "b7d55809d8b3c205",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-cowork-web-mobile-expansion.mp3",
+    "seconds": 499,
+    "voice": "en_US-ryan-high",
+    "bytes": 3989464,
+    "generatedAt": "2026-07-14T14:44:04.761Z"
+  },
+  "en/claude-in-chrome-ga-developer-security-guide": {
+    "hash": "f6726b818f8f6e73",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-in-chrome-ga-developer-security-guide.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3382378,
+    "generatedAt": "2026-07-14T14:43:00.779Z"
+  },
+  "en/claude-sonnet-5-vs-gpt-5-6-vs-gemini-3-5": {
+    "hash": "80a3284dbe022e47",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-5-vs-gpt-5-6-vs-gemini-3-5.mp3",
+    "seconds": 579,
+    "voice": "en_US-ryan-high",
+    "bytes": 4629359,
+    "generatedAt": "2026-07-14T15:20:28.248Z"
+  },
+  "en/clean-code-principles-checklist": {
+    "hash": "d37dd03e7ea61de8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-clean-code-principles-checklist.mp3",
+    "seconds": 514,
+    "voice": "en_US-ryan-high",
+    "bytes": 4113807,
+    "generatedAt": "2026-07-14T15:18:14.328Z"
+  },
+  "en/cloud-secrets-management-done-right": {
+    "hash": "09d252f9b140dcd3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cloud-secrets-management-done-right.mp3",
+    "seconds": 510,
+    "voice": "en_US-ryan-high",
+    "bytes": 4079116,
+    "generatedAt": "2026-07-14T15:13:47.574Z"
+  },
+  "en/context-engineering-for-ai-agents": {
+    "hash": "ad6cf0abd45178f6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-context-engineering-for-ai-agents.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3285412,
+    "generatedAt": "2026-07-14T14:42:00.693Z"
+  },
+  "en/core-web-vitals-checklist": {
+    "hash": "e66fa19b9f612f76",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-core-web-vitals-checklist.mp3",
+    "seconds": 521,
+    "voice": "en_US-ryan-high",
+    "bytes": 4166261,
+    "generatedAt": "2026-07-14T14:45:32.675Z"
+  },
+  "en/css-container-queries-how-to": {
+    "hash": "ef8a38bd4a222a96",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-css-container-queries-how-to.mp3",
+    "seconds": 545,
+    "voice": "en_US-ryan-high",
+    "bytes": 4358104,
+    "generatedAt": "2026-07-14T14:43:47.928Z"
+  },
+  "en/cut-llm-token-costs": {
+    "hash": "45ae6322df388f83",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cut-llm-token-costs.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3057415,
+    "generatedAt": "2026-07-14T14:46:22.692Z"
+  },
+  "en/database-indexing-explained": {
+    "hash": "71c442e2b66e4f4b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-database-indexing-explained.mp3",
+    "seconds": 535,
+    "voice": "en_US-ryan-high",
+    "bytes": 4282662,
+    "generatedAt": "2026-07-14T14:45:59.197Z"
+  },
+  "en/design-patterns-for-developers": {
+    "hash": "de326dd4d85ab34c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-design-patterns-for-developers.mp3",
+    "seconds": 497,
+    "voice": "en_US-ryan-high",
+    "bytes": 3978597,
+    "generatedAt": "2026-07-14T15:23:11.013Z"
+  },
+  "en/developer-portfolio-guide": {
+    "hash": "21fab42461a695f1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-developer-portfolio-guide.mp3",
+    "seconds": 527,
+    "voice": "en_US-ryan-high",
+    "bytes": 4215371,
+    "generatedAt": "2026-07-14T15:21:08.047Z"
+  },
+  "en/developer-productivity-ai-tools": {
+    "hash": "a31f1d9c490941ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-developer-productivity-ai-tools.mp3",
+    "seconds": 511,
+    "voice": "en_US-ryan-high",
+    "bytes": 4091864,
+    "generatedAt": "2026-07-14T15:15:02.195Z"
+  },
+  "en/developer-salary-negotiation-2026": {
+    "hash": "2a5781c0f58c67b8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-developer-salary-negotiation-2026.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3014783,
+    "generatedAt": "2026-07-14T14:44:07.100Z"
+  },
+  "en/docker-best-practices-production": {
+    "hash": "50711499649b2673",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-docker-best-practices-production.mp3",
+    "seconds": 472,
+    "voice": "en_US-ryan-high",
+    "bytes": 3779021,
+    "generatedAt": "2026-07-14T14:48:11.658Z"
+  },
+  "en/does-ai-make-developers-faster": {
+    "hash": "93b5a967b91bc835",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-does-ai-make-developers-faster.mp3",
+    "seconds": 520,
+    "voice": "en_US-ryan-high",
+    "bytes": 4163962,
+    "generatedAt": "2026-07-14T14:45:54.460Z"
+  },
+  "en/drizzle-vs-prisma-2026": {
+    "hash": "a063c15c47e1c738",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-drizzle-vs-prisma-2026.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3629601,
+    "generatedAt": "2026-07-14T14:49:07.071Z"
+  },
+  "en/ebpf-for-observability-explained": {
+    "hash": "7eed9c470a7471a0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ebpf-for-observability-explained.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3447998,
+    "generatedAt": "2026-07-14T14:48:26.316Z"
+  },
+  "en/edge-functions-rendering-guide": {
+    "hash": "60ad3c706c287090",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-edge-functions-rendering-guide.mp3",
+    "seconds": 458,
+    "voice": "en_US-ryan-high",
+    "bytes": 3661366,
+    "generatedAt": "2026-07-14T15:25:45.134Z"
+  },
+  "en/feature-flags-without-tech-debt": {
+    "hash": "08c7575ab481736e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-feature-flags-without-tech-debt.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3199521,
+    "generatedAt": "2026-07-14T15:23:25.111Z"
+  },
+  "en/fine-tuning-vs-rag": {
+    "hash": "99b5afb95a7ca723",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-fine-tuning-vs-rag.mp3",
+    "seconds": 523,
+    "voice": "en_US-ryan-high",
+    "bytes": 4186741,
+    "generatedAt": "2026-07-14T15:16:20.098Z"
+  },
+  "en/finops-reduce-cloud-costs": {
+    "hash": "9ee1d323eaf757f0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-finops-reduce-cloud-costs.mp3",
+    "seconds": 615,
+    "voice": "en_US-ryan-high",
+    "bytes": 4922558,
+    "generatedAt": "2026-07-14T14:47:31.573Z"
+  },
+  "en/fix-n-plus-one-query-problem": {
+    "hash": "f02639a434bf1366",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-fix-n-plus-one-query-problem.mp3",
+    "seconds": 367,
+    "voice": "en_US-ryan-high",
+    "bytes": 2933072,
+    "generatedAt": "2026-07-14T14:50:16.139Z"
+  },
+  "en/freelance-developer-mistakes": {
+    "hash": "1ebda39081eaac03",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-freelance-developer-mistakes.mp3",
+    "seconds": 510,
+    "voice": "en_US-ryan-high",
+    "bytes": 4083923,
+    "generatedAt": "2026-07-14T14:49:05.903Z"
+  },
+  "en/friendly-fire-claude-code-security-exploit": {
+    "hash": "a309f5371b09586d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-friendly-fire-claude-code-security-exploit.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3261797,
+    "generatedAt": "2026-07-14T14:51:36.016Z"
+  },
+  "en/frontend-signals-explained": {
+    "hash": "02f3fca57d526a4d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-frontend-signals-explained.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3466597,
+    "generatedAt": "2026-07-14T14:50:53.126Z"
+  },
+  "en/gemini-vs-chatgpt-2026": {
+    "hash": "86516f534c7cef9d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-vs-chatgpt-2026.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3529291,
+    "generatedAt": "2026-07-14T15:28:12.912Z"
+  },
+  "en/getting-started-with-opentelemetry": {
+    "hash": "71f7b4aab3af3499",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-getting-started-with-opentelemetry.mp3",
+    "seconds": 384,
+    "voice": "en_US-ryan-high",
+    "bytes": 3072670,
+    "generatedAt": "2026-07-14T15:25:36.971Z"
+  },
+  "en/git-branching-strategies": {
+    "hash": "1abfed7cd19893c3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-git-branching-strategies.mp3",
+    "seconds": 527,
+    "voice": "en_US-ryan-high",
+    "bytes": 4212654,
+    "generatedAt": "2026-07-14T15:17:37.916Z"
+  },
+  "en/gitops-explained": {
+    "hash": "c361dbddf638e96c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gitops-explained.mp3",
+    "seconds": 585,
+    "voice": "en_US-ryan-high",
+    "bytes": 4677007,
+    "generatedAt": "2026-07-14T14:50:43.943Z"
+  },
+  "en/gpt-5-6-general-availability-codex-desktop": {
+    "hash": "df2a94d7b5956521",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-5-6-general-availability-codex-desktop.mp3",
+    "seconds": 476,
+    "voice": "en_US-ryan-high",
+    "bytes": 3807861,
+    "generatedAt": "2026-07-14T14:52:57.015Z"
+  },
+  "en/gpt-realtime-2-1-voice-agents-guide": {
+    "hash": "b92f674e51dd0757",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-realtime-2-1-voice-agents-guide.mp3",
+    "seconds": 570,
+    "voice": "en_US-ryan-high",
+    "bytes": 4563322,
+    "generatedAt": "2026-07-14T14:51:28.298Z"
+  },
+  "en/how-to-build-cicd-pipeline": {
+    "hash": "07b9988299f1bb89",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-build-cicd-pipeline.mp3",
+    "seconds": 483,
+    "voice": "en_US-ryan-high",
+    "bytes": 3864703,
+    "generatedAt": "2026-07-14T14:54:26.965Z"
+  },
+  "en/how-to-build-rag-system": {
+    "hash": "2b0e616f0dd0f5c9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-build-rag-system.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3744331,
+    "generatedAt": "2026-07-14T14:53:28.241Z"
+  },
+  "en/how-to-evaluate-llm-outputs": {
+    "hash": "1db9c5a3b1da4d75",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-evaluate-llm-outputs.mp3",
+    "seconds": 581,
+    "voice": "en_US-ryan-high",
+    "bytes": 4648586,
+    "generatedAt": "2026-07-14T15:31:22.558Z"
+  },
+  "en/how-to-refactor-legacy-code": {
+    "hash": "0808aef2bd300aaf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-refactor-legacy-code.mp3",
+    "seconds": 594,
+    "voice": "en_US-ryan-high",
+    "bytes": 4748896,
+    "generatedAt": "2026-07-14T15:28:53.363Z"
+  },
   "en/how-to-use-claude-for-social-media": {
     "hash": "0dc780898aada938",
     "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-use-claude-for-social-media.mp3",
@@ -6,5 +438,429 @@
     "voice": "en_US-ryan-high",
     "bytes": 3546635,
     "generatedAt": "2026-07-14T14:30:49.910Z"
+  },
+  "en/how-to-write-documentation": {
+    "hash": "b8b6790c105c68a9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-write-documentation.mp3",
+    "seconds": 520,
+    "voice": "en_US-ryan-high",
+    "bytes": 4159364,
+    "generatedAt": "2026-07-14T14:53:34.101Z"
+  },
+  "en/how-to-write-engineering-rfc": {
+    "hash": "4da9357e52f1803e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-write-engineering-rfc.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3323655,
+    "generatedAt": "2026-07-14T14:55:15.590Z"
+  },
+  "en/how-to-write-unit-tests": {
+    "hash": "7a791d14ebef32a3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-write-unit-tests.mp3",
+    "seconds": 541,
+    "voice": "en_US-ryan-high",
+    "bytes": 4328429,
+    "generatedAt": "2026-07-14T14:53:37.431Z"
+  },
+  "en/htmx-vs-react-when-to-use": {
+    "hash": "d0b2a9de9efbe33c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-htmx-vs-react-when-to-use.mp3",
+    "seconds": 479,
+    "voice": "en_US-ryan-high",
+    "bytes": 3828968,
+    "generatedAt": "2026-07-14T14:57:20.792Z"
+  },
+  "en/idempotent-api-design": {
+    "hash": "f8d040da1d792fac",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-idempotent-api-design.mp3",
+    "seconds": 372,
+    "voice": "en_US-ryan-high",
+    "bytes": 2976331,
+    "generatedAt": "2026-07-14T14:55:34.385Z"
+  },
+  "en/junior-developer-jobs-2026": {
+    "hash": "e3858b5640bb8caa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-junior-developer-jobs-2026.mp3",
+    "seconds": 476,
+    "voice": "en_US-ryan-high",
+    "bytes": 3807025,
+    "generatedAt": "2026-07-14T15:34:01.211Z"
+  },
+  "en/junior-to-senior-developer": {
+    "hash": "a28c3ec35234ed0d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-junior-to-senior-developer.mp3",
+    "seconds": 530,
+    "voice": "en_US-ryan-high",
+    "bytes": 4243583,
+    "generatedAt": "2026-07-14T15:31:46.273Z"
+  },
+  "en/just-use-postgres-for-everything": {
+    "hash": "6a7ddac7982c79cb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-just-use-postgres-for-everything.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3982568,
+    "generatedAt": "2026-07-14T15:18:53.514Z"
+  },
+  "en/kubernetes-autoscaling-guide": {
+    "hash": "b7d76367b934d1f1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-autoscaling-guide.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3987792,
+    "generatedAt": "2026-07-14T14:56:21.597Z"
+  },
+  "en/kubernetes-cost-optimization": {
+    "hash": "b978d90b1918c3c9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-cost-optimization.mp3",
+    "seconds": 582,
+    "voice": "en_US-ryan-high",
+    "bytes": 4658617,
+    "generatedAt": "2026-07-14T14:58:30.241Z"
+  },
+  "en/kubernetes-mistakes-to-avoid": {
+    "hash": "aacb2e4659f28fee",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-mistakes-to-avoid.mp3",
+    "seconds": 539,
+    "voice": "en_US-ryan-high",
+    "bytes": 4310875,
+    "generatedAt": "2026-07-14T14:55:46.516Z"
+  },
+  "en/learn-coding-with-ai": {
+    "hash": "9348a0016e4f3ed6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-learn-coding-with-ai.mp3",
+    "seconds": 463,
+    "voice": "en_US-ryan-high",
+    "bytes": 3702117,
+    "generatedAt": "2026-07-14T15:00:05.337Z"
+  },
+  "en/llm-guardrails-production-checklist": {
+    "hash": "522e9eeac2ddbda9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-llm-guardrails-production-checklist.mp3",
+    "seconds": 507,
+    "voice": "en_US-ryan-high",
+    "bytes": 4052576,
+    "generatedAt": "2026-07-14T14:58:27.090Z"
+  },
+  "en/llm-structured-outputs-json": {
+    "hash": "c83733b4c023cfcd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-llm-structured-outputs-json.mp3",
+    "seconds": 375,
+    "voice": "en_US-ryan-high",
+    "bytes": 3003080,
+    "generatedAt": "2026-07-14T15:36:09.117Z"
+  },
+  "en/microservices-vs-monolith": {
+    "hash": "83bb17c3e7990837",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-microservices-vs-monolith.mp3",
+    "seconds": 526,
+    "voice": "en_US-ryan-high",
+    "bytes": 4204504,
+    "generatedAt": "2026-07-14T15:34:41.729Z"
+  },
+  "en/model-context-protocol-explained": {
+    "hash": "93dbc350179680f3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-model-context-protocol-explained.mp3",
+    "seconds": 583,
+    "voice": "en_US-ryan-high",
+    "bytes": 4666976,
+    "generatedAt": "2026-07-14T15:20:22.230Z"
+  },
+  "en/most-popular-ai-tools-2026": {
+    "hash": "2ef4628fb12f3706",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-most-popular-ai-tools-2026.mp3",
+    "seconds": 549,
+    "voice": "en_US-ryan-high",
+    "bytes": 4389451,
+    "generatedAt": "2026-07-14T14:59:22.539Z"
+  },
+  "en/multi-agent-orchestration-patterns": {
+    "hash": "bb3cf3b0c1c8db4c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-multi-agent-orchestration-patterns.mp3",
+    "seconds": 544,
+    "voice": "en_US-ryan-high",
+    "bytes": 4355178,
+    "generatedAt": "2026-07-14T15:01:36.253Z"
+  },
+  "en/observability-logs-metrics-traces": {
+    "hash": "d157c0c3a9221390",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-observability-logs-metrics-traces.mp3",
+    "seconds": 610,
+    "voice": "en_US-ryan-high",
+    "bytes": 4883688,
+    "generatedAt": "2026-07-14T15:00:12.586Z"
+  },
+  "en/ollama-vs-vllm-vs-llamacpp-local-llm": {
+    "hash": "23f42d6cb40caa66",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ollama-vs-vllm-vs-llamacpp-local-llm.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3517170,
+    "generatedAt": "2026-07-14T15:02:43.312Z"
+  },
+  "en/open-source-saas-alternatives-2026": {
+    "hash": "67f483dd9d1d07d6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-open-source-saas-alternatives-2026.mp3",
+    "seconds": 538,
+    "voice": "en_US-ryan-high",
+    "bytes": 4307740,
+    "generatedAt": "2026-07-14T15:01:28.936Z"
+  },
+  "en/openclaw-self-hosted-ai-agent": {
+    "hash": "849fcc6537b39b56",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openclaw-self-hosted-ai-agent.mp3",
+    "seconds": 526,
+    "voice": "en_US-ryan-high",
+    "bytes": 4205967,
+    "generatedAt": "2026-07-14T15:39:04.871Z"
+  },
+  "en/optimize-images-web-performance": {
+    "hash": "7386e33ae78ab439",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-optimize-images-web-performance.mp3",
+    "seconds": 490,
+    "voice": "en_US-ryan-high",
+    "bytes": 3916321,
+    "generatedAt": "2026-07-14T15:37:25.989Z"
+  },
+  "en/passkeys-webauthn-guide": {
+    "hash": "bbc97fac41f9a2c2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-passkeys-webauthn-guide.mp3",
+    "seconds": 531,
+    "voice": "en_US-ryan-high",
+    "bytes": 4246091,
+    "generatedAt": "2026-07-14T15:21:42.332Z"
+  },
+  "en/perplexity-vs-google-ai-search": {
+    "hash": "acc76c982d6cfe8e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-perplexity-vs-google-ai-search.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3546845,
+    "generatedAt": "2026-07-14T15:01:49.617Z"
+  },
+  "en/pgrust-postgres-rewritten-in-rust": {
+    "hash": "e0cc962fa43be391",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-pgrust-postgres-rewritten-in-rust.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3744749,
+    "generatedAt": "2026-07-14T15:04:14.542Z"
+  },
+  "en/postgres-connection-pooling-pgbouncer": {
+    "hash": "df4cf0256b4aa5eb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-postgres-connection-pooling-pgbouncer.mp3",
+    "seconds": 534,
+    "voice": "en_US-ryan-high",
+    "bytes": 4271795,
+    "generatedAt": "2026-07-14T15:02:25.903Z"
+  },
+  "en/prompt-engineering-patterns": {
+    "hash": "cd9d5e97afb07d97",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-prompt-engineering-patterns.mp3",
+    "seconds": 565,
+    "voice": "en_US-ryan-high",
+    "bytes": 4521735,
+    "generatedAt": "2026-07-14T15:06:03.187Z"
+  },
+  "en/rate-limiting-token-bucket-vs-sliding-window": {
+    "hash": "54b120c6762b1f8b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rate-limiting-token-bucket-vs-sliding-window.mp3",
+    "seconds": 376,
+    "voice": "en_US-ryan-high",
+    "bytes": 3005170,
+    "generatedAt": "2026-07-14T15:03:36.855Z"
+  },
+  "en/react-hook-form-zod-accessible-forms": {
+    "hash": "997870872444bbda",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-hook-form-zod-accessible-forms.mp3",
+    "seconds": 458,
+    "voice": "en_US-ryan-high",
+    "bytes": 3665755,
+    "generatedAt": "2026-07-14T15:41:38.912Z"
+  },
+  "en/react-server-components-nextjs-15": {
+    "hash": "20a06e6625c68267",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-server-components-nextjs-15.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3710894,
+    "generatedAt": "2026-07-14T15:40:01.213Z"
+  },
+  "en/react-state-management-comparison": {
+    "hash": "5eb9369d5e3cc54f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-state-management-comparison.mp3",
+    "seconds": 518,
+    "voice": "en_US-ryan-high",
+    "bytes": 4146617,
+    "generatedAt": "2026-07-14T15:23:01.167Z"
+  },
+  "en/reduce-llm-hallucinations": {
+    "hash": "77ce333a7a2a2900",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reduce-llm-hallucinations.mp3",
+    "seconds": 538,
+    "voice": "en_US-ryan-high",
+    "bytes": 4302724,
+    "generatedAt": "2026-07-14T15:04:47.841Z"
+  },
+  "en/remote-developer-career-growth": {
+    "hash": "07db1421ec02757c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-remote-developer-career-growth.mp3",
+    "seconds": 522,
+    "voice": "en_US-ryan-high",
+    "bytes": 4178381,
+    "generatedAt": "2026-07-14T15:07:05.832Z"
+  },
+  "en/rest-vs-graphql": {
+    "hash": "635ebe0a922e8fce",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rest-vs-graphql.mp3",
+    "seconds": 554,
+    "voice": "en_US-ryan-high",
+    "bytes": 4431665,
+    "generatedAt": "2026-07-14T15:04:40.174Z"
+  },
+  "en/retries-backoff-circuit-breakers": {
+    "hash": "fe0693f31465c2e5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-retries-backoff-circuit-breakers.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3287293,
+    "generatedAt": "2026-07-14T15:08:31.634Z"
+  },
+  "en/spec-driven-development-end-of-vibe-coding": {
+    "hash": "e6c1364c8c9fb89b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-spec-driven-development-end-of-vibe-coding.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3239436,
+    "generatedAt": "2026-07-14T15:05:52.585Z"
+  },
+  "en/ssr-vs-ssg-vs-isr": {
+    "hash": "e5643e2d5d5f6349",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ssr-vs-ssg-vs-isr.mp3",
+    "seconds": 534,
+    "voice": "en_US-ryan-high",
+    "bytes": 4274512,
+    "generatedAt": "2026-07-14T15:44:37.690Z"
+  },
+  "en/staff-engineer-career-path": {
+    "hash": "feae3066dac0ba06",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-staff-engineer-career-path.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3363361,
+    "generatedAt": "2026-07-14T15:42:22.357Z"
+  },
+  "en/system-design-interview-guide": {
+    "hash": "fdb49a938760bdf9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-system-design-interview-guide.mp3",
+    "seconds": 586,
+    "voice": "en_US-ryan-high",
+    "bytes": 4688710,
+    "generatedAt": "2026-07-14T15:24:28.163Z"
+  },
+  "en/tailwind-css-mistakes": {
+    "hash": "73df3a8a30bb2edd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tailwind-css-mistakes.mp3",
+    "seconds": 531,
+    "voice": "en_US-ryan-high",
+    "bytes": 4245882,
+    "generatedAt": "2026-07-14T15:07:42.811Z"
+  },
+  "en/technical-interview-prep": {
+    "hash": "1f71b9267a20d7b5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-technical-interview-prep.mp3",
+    "seconds": 551,
+    "voice": "en_US-ryan-high",
+    "bytes": 4410349,
+    "generatedAt": "2026-07-14T15:10:09.092Z"
+  },
+  "en/terraform-vs-pulumi": {
+    "hash": "a3235e3cbfd5d637",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-terraform-vs-pulumi.mp3",
+    "seconds": 523,
+    "voice": "en_US-ryan-high",
+    "bytes": 4184442,
+    "generatedAt": "2026-07-14T15:06:45.507Z"
+  },
+  "en/text-embeddings-explained": {
+    "hash": "5c6d6fdba843be15",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-text-embeddings-explained.mp3",
+    "seconds": 523,
+    "voice": "en_US-ryan-high",
+    "bytes": 4183397,
+    "generatedAt": "2026-07-14T15:11:34.965Z"
+  },
+  "en/time-management-for-developers": {
+    "hash": "bbcf008580a1dc85",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-time-management-for-developers.mp3",
+    "seconds": 485,
+    "voice": "en_US-ryan-high",
+    "bytes": 3878914,
+    "generatedAt": "2026-07-14T15:08:33.991Z"
+  },
+  "en/typescript-7-go-native-compiler": {
+    "hash": "08e27b47c2b350a7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-typescript-7-go-native-compiler.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3417487,
+    "generatedAt": "2026-07-14T15:47:01.934Z"
+  },
+  "en/vector-database-comparison": {
+    "hash": "81c91ead353dabb9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-vector-database-comparison.mp3",
+    "seconds": 536,
+    "voice": "en_US-ryan-high",
+    "bytes": 4288305,
+    "generatedAt": "2026-07-14T15:45:22.616Z"
+  },
+  "en/vercel-services-multi-framework-microservices": {
+    "hash": "e5264ab36aa89445",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-vercel-services-multi-framework-microservices.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3014156,
+    "generatedAt": "2026-07-14T15:25:40.734Z"
+  },
+  "en/view-transitions-api-how-to": {
+    "hash": "a24fd75288abf7d1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-view-transitions-api-how-to.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3676621,
+    "generatedAt": "2026-07-14T15:10:17.309Z"
+  },
+  "en/web-accessibility-checklist": {
+    "hash": "795622a1b7d338e5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-web-accessibility-checklist.mp3",
+    "seconds": 678,
+    "voice": "en_US-ryan-high",
+    "bytes": 5421601,
+    "generatedAt": "2026-07-14T15:13:55.248Z"
+  },
+  "en/what-is-platform-engineering": {
+    "hash": "a1cff97fe01debad",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-platform-engineering.mp3",
+    "seconds": 619,
+    "voice": "en_US-ryan-high",
+    "bytes": 4951606,
+    "generatedAt": "2026-07-14T15:09:22.872Z"
+  },
+  "en/zero-downtime-deployments": {
+    "hash": "da98fb20c27e75f7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-zero-downtime-deployments.mp3",
+    "seconds": 550,
+    "voice": "en_US-ryan-high",
+    "bytes": 4396765,
+    "generatedAt": "2026-07-14T15:14:48.249Z"
+  },
+  "en/zero-downtime-schema-migrations": {
+    "hash": "b9fb5b54c1c2777c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-zero-downtime-schema-migrations.mp3",
+    "seconds": 371,
+    "voice": "en_US-ryan-high",
+    "bytes": 2970061,
+    "generatedAt": "2026-07-14T15:10:40.327Z"
   }
 }
