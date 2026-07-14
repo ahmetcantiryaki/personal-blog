@@ -88,8 +88,12 @@ export default async function Home({ params }: HomeProps) {
         <HomeShowcase
           locale={locale}
           dict={dict}
+          // Narration is English-only for now, so the listen card points at
+          // the English feed unless we're already on an English post.
           listenHref={
-            featured ? routes.post(locale, featured.slug ?? "") : undefined
+            locale === "en" && featured
+              ? routes.post(locale, featured.slug ?? "")
+              : "/en"
           }
         />
 

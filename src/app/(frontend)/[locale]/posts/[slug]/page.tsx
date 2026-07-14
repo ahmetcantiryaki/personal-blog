@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
-import { ListenButton } from '@/components/blog/listen-button'
+import { AudioPlayer } from '@/components/blog/audio-player'
 import { PostContent } from '@/components/blog/post-content'
 import { PostHero } from '@/components/blog/post-hero'
 import { ReactionButtons } from '@/components/blog/reaction-buttons'
@@ -16,6 +16,7 @@ import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { articleJsonLd, breadcrumbJsonLd, faqPageJsonLd, type Crumb } from '@/lib/json-ld'
 import { extractFaq } from '@/lib/lexical-faq'
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/posts'
+import { getPostAudioUrl } from '@/lib/post-audio'
 import { getReactionState } from '@/lib/reactions'
 import {
   absoluteUrl,
@@ -95,10 +96,11 @@ export default async function PostPage({ params }: PostPageProps) {
   // Counts only (passing user=null skips the per-user query and never reads
   // cookies) so the page stays statically renderable / ISR. Per-user active
   // state is resolved client-side by ReactionButtons.
-  const [likes, bookmarks, related] = await Promise.all([
+  const [likes, bookmarks, related, audioUrl] = await Promise.all([
     getReactionState('likes', post.id, null),
     getReactionState('bookmarks', post.id, null),
     getRelatedPosts(locale, post),
+    getPostAudioUrl(slug, locale),
   ])
 
   const dict = getDictionary(locale)
@@ -145,9 +147,20 @@ export default async function PostPage({ params }: PostPageProps) {
 
       <PostHero post={post} locale={locale} dict={dict} />
 
-      <div className="mb-6">
-        <ListenButton locale={locale} targetId="article-content" />
-      </div>
+      {audioUrl ? (
+        <div className="mb-6">
+          <AudioPlayer
+            src={audioUrl}
+            title={post.title}
+            labels={{
+              listen: dict.post.listen,
+              pause: dict.post.pause,
+              resume: dict.post.resume,
+              speed: dict.post.speed,
+            }}
+          />
+        </div>
+      ) : null}
 
       <PostContent content={post.content} id="article-content" />
 

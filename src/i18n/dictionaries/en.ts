@@ -39,7 +39,7 @@ export const en: Dictionary = {
       toolsTitle: 'AI Tool Picker',
       toolsDesc: 'Answer four questions to find the right AI tool — unbiased and data-driven.',
       listenTitle: 'Listen to articles',
-      listenDesc: 'Play any article out loud with the listen button at the top of each post.',
+      listenDesc: 'Listen to any article like a podcast with the player at the top of each post.',
       transparencyTitle: 'Full transparency',
       transparencyDesc: 'We openly explain how our content is produced — a first in the space.',
       open: 'Explore',
@@ -70,6 +70,10 @@ export const en: Dictionary = {
     backToHome: 'Back to all posts',
     notFound: 'Post not found.',
     inCategory: 'in',
+    listen: 'Listen',
+    pause: 'Pause',
+    resume: 'Resume',
+    speed: 'Speed',
   },
 
   category: {

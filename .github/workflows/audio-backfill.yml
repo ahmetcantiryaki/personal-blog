@@ -1,0 +1,108 @@
+name: Audio backfill (parallel)
+
+# One-off/manual: narrates the whole English archive on 8 parallel runners.
+# Each shard uploads its MP3s to the audio-library release and emits a
+# manifest fragment artifact; the merge job combines fragments into
+# seed/content/audio-manifest.json and pushes a single commit (which
+# triggers the normal Vercel deploy). Incremental daily generation is
+# handled by generate-audio.yml — this workflow exists for large batches.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audio-backfill
+  cancel-in-progress: false
+
+jobs:
+  synth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install piper-tts and ffmpeg
+        run: |
+          pip install piper-tts==1.2.0
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Download voice model
+        run: |
+          mkdir -p .voices
+          base="https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0"
+          v="en/en_US/ryan/high/en_US-ryan-high"
+          curl -sL "$base/$v.onnx" -o ".voices/en_US-ryan-high.onnx"
+          curl -sL "$base/$v.onnx.json" -o ".voices/en_US-ryan-high.onnx.json"
+
+      - name: Generate and upload shard
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PIPER_EXE: piper
+          VOICES_DIR: ${{ github.workspace }}/.voices
+          MANIFEST_FRAGMENT: ${{ github.workspace }}/manifest-fragment-${{ matrix.shard }}.json
+        run: node src/scripts/generate-audio.mjs --all --shard ${{ matrix.shard }}/8
+
+      - name: Upload manifest fragment
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: manifest-fragment-${{ matrix.shard }}
+          path: manifest-fragment-${{ matrix.shard }}.json
+          if-no-files-found: ignore
+
+  merge:
+    needs: synth
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: manifest-fragment-*
+          merge-multiple: true
+          path: fragments
+
+      - name: Merge fragments into manifest
+        run: |
+          node -e '
+            const fs = require("fs");
+            const path = "seed/content/audio-manifest.json";
+            const manifest = JSON.parse(fs.readFileSync(path, "utf8"));
+            const dir = "fragments";
+            if (fs.existsSync(dir)) {
+              for (const f of fs.readdirSync(dir)) {
+                Object.assign(manifest, JSON.parse(fs.readFileSync(`${dir}/${f}`, "utf8")));
+              }
+            }
+            const sorted = Object.fromEntries(Object.entries(manifest).sort(([a],[b]) => a.localeCompare(b)));
+            fs.writeFileSync(path, JSON.stringify(sorted, null, 2) + "\n");
+          '
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seed/content/audio-manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(audio): backfill audio manifest"
+            git pull --rebase origin main
+            git push origin main
+          fi

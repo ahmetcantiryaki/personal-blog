@@ -37,7 +37,8 @@ export const tr = {
       toolsTitle: 'AI Araç Seçici',
       toolsDesc: 'Dört soruda size uygun yapay zeka aracını bulun — tarafsız, veriye dayalı.',
       listenTitle: 'Yazıları dinleyin',
-      listenDesc: 'Her yazının başındaki oynat düğmesiyle içeriği sesli dinleyin.',
+      listenDesc:
+        'İngilizce yazıları podcast gibi dinleyin — her yazının başındaki oynatıcıyla. Türkçe sesler yakında.',
       transparencyTitle: 'Tam şeffaflık',
       transparencyDesc: 'İçeriğin nasıl üretildiğini açıkça anlatıyoruz — sektörde bir ilk.',
       open: 'İncele',
@@ -68,6 +69,10 @@ export const tr = {
     backToHome: 'Tüm yazılara dön',
     notFound: 'Yazı bulunamadı.',
     inCategory: 'kategorisinde',
+    listen: 'Sesli dinle',
+    pause: 'Duraklat',
+    resume: 'Devam et',
+    speed: 'Hız',
   },
 
   category: {
