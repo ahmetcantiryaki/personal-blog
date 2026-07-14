@@ -862,5 +862,69 @@
     "voice": "en_US-ryan-high",
     "bytes": 2970061,
     "generatedAt": "2026-07-14T15:10:40.327Z"
+  },
+  "en/ai-content-marketing-workflow": {
+    "hash": "9ad79dcfef9a8b77",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-content-marketing-workflow.mp3",
+    "seconds": 569,
+    "voice": "en_US-ryan-high",
+    "bytes": 4549320,
+    "generatedAt": "2026-07-14T17:20:32.376Z"
+  },
+  "en/ai-game-dev-stories": {
+    "hash": "f6e89e6cb2187a96",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-game-dev-stories.mp3",
+    "seconds": 598,
+    "voice": "en_US-ryan-high",
+    "bytes": 4780452,
+    "generatedAt": "2026-07-14T17:23:50.261Z"
+  },
+  "en/coolest-ai-built-tools-2026": {
+    "hash": "07d02d1af817c6d5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-coolest-ai-built-tools-2026.mp3",
+    "seconds": 521,
+    "voice": "en_US-ryan-high",
+    "bytes": 4166052,
+    "generatedAt": "2026-07-14T17:26:44.777Z"
+  },
+  "en/faceless-ai-content-creation": {
+    "hash": "24b0803d57125163",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-faceless-ai-content-creation.mp3",
+    "seconds": 587,
+    "voice": "en_US-ryan-high",
+    "bytes": 4695815,
+    "generatedAt": "2026-07-14T17:30:00.316Z"
+  },
+  "en/generative-engine-optimization-guide": {
+    "hash": "c1135687614f7579",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-generative-engine-optimization-guide.mp3",
+    "seconds": 565,
+    "voice": "en_US-ryan-high",
+    "bytes": 4522571,
+    "generatedAt": "2026-07-14T17:33:07.284Z"
+  },
+  "en/instagram-algorithm-2026": {
+    "hash": "b82512388ae63f04",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-instagram-algorithm-2026.mp3",
+    "seconds": 541,
+    "voice": "en_US-ryan-high",
+    "bytes": 4326966,
+    "generatedAt": "2026-07-14T17:36:07.987Z"
+  },
+  "en/micro-saas-ai-maker-stories": {
+    "hash": "f0feefbe2a0cfab0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-micro-saas-ai-maker-stories.mp3",
+    "seconds": 586,
+    "voice": "en_US-ryan-high",
+    "bytes": 4688710,
+    "generatedAt": "2026-07-14T17:39:23.105Z"
+  },
+  "en/solopreneur-ai-stack-2026": {
+    "hash": "8b0657e7830b4b77",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-solopreneur-ai-stack-2026.mp3",
+    "seconds": 577,
+    "voice": "en_US-ryan-high",
+    "bytes": 4615985,
+    "generatedAt": "2026-07-14T17:42:35.677Z"
   }
 }
