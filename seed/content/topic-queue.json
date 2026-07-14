@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-13",
+  "updatedAt": "2026-07-14",
   "topics": [
-    {
-      "translationKey": "staff-engineer-path",
-      "category": "career-productivity",
-      "titleTr": "Staff Engineer Yolu: Senior'ın Ötesi",
-      "titleEn": "The Staff Engineer Path: Beyond Senior",
-      "slugTr": "staff-engineer-yolu",
-      "slugEn": "staff-engineer-career-path",
-      "keywordTr": "staff engineer kariyer yolu",
-      "keywordEn": "staff engineer career path",
-      "angle": "guide + scope, influence, and the writing habit that gets you promoted",
-      "style": "story-led",
-      "brief": "Story of a senior who plateaued until they started writing. Sections: what Staff means (technical leadership without reports, cross-team multiplier); archetypes (tech lead, architect, solver, right hand); how to demonstrate scope; sponsorship vs mentorship; the RFC/design-doc habit as highest-leverage signal. Key claims to verify: writing design docs and RFCs is the single highest-leverage skill for Staff promotion; Staff total comp ~$400K-$800K at top firms. Primary sources: jobsbyculture Staff Engineer 2026; StaffEng.com. End with a 90-day plan to build a promotion case."
-    },
-    {
-      "translationKey": "how-to-write-rfc",
-      "category": "career-productivity",
-      "titleTr": "Mühendislik RFC'si Nasıl Yazılır",
-      "titleEn": "How to Write an Engineering RFC",
-      "slugTr": "muhendislik-rfc-nasil-yazilir",
-      "slugEn": "how-to-write-engineering-rfc",
-      "keywordTr": "mühendislik rfc nasıl yazılır",
-      "keywordEn": "how to write engineering rfc",
-      "angle": "how-to + a reusable template, tradeoff framing, and a review flow that converges",
-      "style": "field-notes",
-      "brief": "Field notes on RFCs that shipped vs stalled. Sections: when an RFC is worth it; a template (context, goals/non-goals, options with tradeoffs, decision, risks, rollout); writing for skimmers; running async review and closing debate; recording the decision. Key claims to verify: clear written technical communication is the top Staff-track skill; documented tradeoffs speed alignment. Primary sources: jobsbyculture Staff Engineer 2026; Oxide/Rust RFC process. End with a fill-in template and anti-patterns (solution-first, no non-goals, unbounded scope)."
-    },
-    {
-      "translationKey": "developer-salary-negotiation",
-      "category": "career-productivity",
-      "titleTr": "2026'da Yazılımcı Maaş Pazarlığı",
-      "titleEn": "Salary Negotiation for Developers in 2026",
-      "slugTr": "yazilimci-maas-pazarligi-2026",
-      "slugEn": "developer-salary-negotiation-2026",
-      "keywordTr": "yazılımcı maaş pazarlığı",
-      "keywordEn": "developer salary negotiation",
-      "angle": "guide + using impact metrics and comp bands as leverage",
-      "style": "data-led",
-      "brief": "Sections: researching bands (levels data, transparency laws); why you let them name a range first; building an impact dossier (latency, error rate, cost per request, revenue); the AI-skills wage premium; competing offers and total-comp components. Key claims to verify: AI-skilled workers earn a 56% wage premium (PwC 2025, up from 25%); documented production metrics strengthen negotiation; ask for the range instead of stating a number. Primary sources: HackerX tech salary guide 2026; PwC Global AI Jobs Barometer. End with a metrics template and scripts."
-    },
-    {
-      "translationKey": "ai-proof-developer-skills",
-      "category": "career-productivity",
-      "titleTr": "AI'a Dayanıklı Yazılımcı Becerileri",
-      "titleEn": "Building an AI-Proof Developer Skill Set",
-      "slugTr": "ai-dayanikli-yazilimci-becerileri",
-      "slugEn": "ai-proof-developer-skills",
-      "keywordTr": "ai'a dayanıklı yazılımcı becerileri",
-      "keywordEn": "ai-proof developer skills",
-      "angle": "contrarian + what stays valuable when AI writes most of the code",
-      "style": "contrarian",
-      "brief": "Contrarian: chasing the newest framework is a losing bet; judgment isn't. Sections: skills that compound (system design, debugging, reviewing AI output, writing, product sense); the risk of over- or under-using AI; proving impact with metrics. Key claims to verify: recruiters value architect-level thinking and clear communication over framework mastery; the productive middle path is thoughtful AI integration, not rejection or blind acceptance. Primary sources: Rootstack tech skills 2026; zenvanriel AI career pathways 2026. End with a self-audit and a learning plan weighted to durable skills."
-    },
     {
       "translationKey": "effective-code-reviews",
       "category": "career-productivity",

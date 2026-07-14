@@ -1292,6 +1292,66 @@
         "slug": "how-to-use-claude-for-social-media",
         "title": "How to Use Claude for Social Media: Full Guide"
       }
+    },
+    {
+      "translationKey": "pgrust-postgres-rust-rewrite",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "pgrust-postgres-rust-yeniden-yazimi",
+        "title": "pgrust: Postgres AI Ajanlarıyla Rust'a Nasıl Yazıldı"
+      },
+      "en": {
+        "slug": "pgrust-postgres-rewritten-in-rust",
+        "title": "pgrust: Postgres Rewritten in Rust by AI Agents"
+      }
+    },
+    {
+      "translationKey": "staff-engineer-path",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "staff-engineer-yolu",
+        "title": "Staff Engineer Yolu: Senior'ın Ötesi"
+      },
+      "en": {
+        "slug": "staff-engineer-career-path",
+        "title": "The Staff Engineer Path: Beyond Senior"
+      }
+    },
+    {
+      "translationKey": "how-to-write-rfc",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "muhendislik-rfc-nasil-yazilir",
+        "title": "Mühendislik RFC'si Nasıl Yazılır"
+      },
+      "en": {
+        "slug": "how-to-write-engineering-rfc",
+        "title": "How to Write an Engineering RFC"
+      }
+    },
+    {
+      "translationKey": "developer-salary-negotiation",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yazilimci-maas-pazarligi-2026",
+        "title": "2026'da Yazılımcı Maaş Pazarlığı"
+      },
+      "en": {
+        "slug": "developer-salary-negotiation-2026",
+        "title": "Salary Negotiation for Developers in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-proof-developer-skills",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-dayanikli-yazilimci-becerileri",
+        "title": "AI'a Dayanıklı Yazılımcı Becerileri"
+      },
+      "en": {
+        "slug": "ai-proof-developer-skills",
+        "title": "Building an AI-Proof Developer Skill Set"
+      }
     }
   ]
 }
