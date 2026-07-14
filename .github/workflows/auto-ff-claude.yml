@@ -61,12 +61,13 @@ jobs:
           REASON: ${{ steps.ff.outputs.result }}
           DISALLOWED: ${{ steps.ff.outputs.disallowed }}
         run: |
+          BODY="Auto fast-forward skipped this branch."
+          BODY="$BODY"$'\n\n'"Reason: \`$REASON\`"
+          if [ -n "$DISALLOWED" ]; then
+            BODY="$BODY"$'\n\n'"Non-content paths:"$'\n''```'$'\n'"$DISALLOWED"$'\n''```'
+          fi
+          BODY="$BODY"$'\n\n'"Review and merge manually: https://github.com/$GITHUB_REPOSITORY/tree/$BRANCH"
           gh issue create \
             --repo "$GITHUB_REPOSITORY" \
             --title "Routine branch $BRANCH needs manual merge ($REASON)" \
-            --body "Auto fast-forward skipped this branch.
-
-Reason: \`$REASON\`
-$( [ -n "$DISALLOWED" ] && printf 'Non-content paths:\n```\n%s\n```' "$DISALLOWED" )
-
-Review and merge manually: https://github.com/$GITHUB_REPOSITORY/tree/$BRANCH"
+            --body "$BODY"
