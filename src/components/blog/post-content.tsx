@@ -3,7 +3,10 @@ import { RichText } from '@payloadcms/richtext-lexical/react'
 import type { Post } from '@/payload-types'
 import { cn } from '@/lib/utils'
 
+import type { ImageBlockFields } from '@/fields/imageBlock'
+
 import { linkJSXConverters } from './link-converters'
+import { PostImage } from './post-image'
 import { tableJSXConverters } from './table-converters'
 
 interface PostContentProps {
@@ -59,6 +62,10 @@ export function PostContent({ content, className, id }: PostContentProps) {
                   <code>{code ?? ''}</code>
                 </pre>
               )
+            },
+            Image: ({ node }: { node: { fields: ImageBlockFields } }) => {
+              const { src, alt, caption } = node.fields
+              return <PostImage src={src} alt={alt} caption={caption} />
             },
           },
         })}

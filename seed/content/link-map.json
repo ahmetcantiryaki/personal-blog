@@ -110,6 +110,42 @@
       }
     },
     {
+      "translationKey": "agent-first-dev-tools",
+      "category": "web-development",
+      "tr": {
+        "slug": "agent-odakli-gelistirici-araclari",
+        "title": "Geliştirici Araçları Artık AI Ajanları İçin"
+      },
+      "en": {
+        "slug": "agent-first-dev-tools",
+        "title": "Your Dev Tools Are Now Built for AI Agents"
+      }
+    },
+    {
+      "translationKey": "agentjacking-ai-agent-security",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "agentjacking-yeni-ai-ajan-saldirisi",
+        "title": "Agentjacking: Yeni AI Ajan Saldırısı"
+      },
+      "en": {
+        "slug": "agentjacking-ai-agent-attack",
+        "title": "Agentjacking: The New AI Agent Attack Class"
+      }
+    },
+    {
+      "translationKey": "ai-agent-memory-systems",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-ajan-bellegi-sistemleri",
+        "title": "AI Ajan Belleği: Kısa ve Uzun Vadeli"
+      },
+      "en": {
+        "slug": "ai-agent-memory-systems",
+        "title": "AI Agent Memory: Short-Term to Long-Term"
+      }
+    },
+    {
       "translationKey": "ai-agents-vs-workflows",
       "category": "ai",
       "tr": {
@@ -131,6 +167,66 @@
       "en": {
         "slug": "ai-coding-assistant-mistakes",
         "title": "7 Mistakes When Using AI Coding Assistants"
+      }
+    },
+    {
+      "translationKey": "ai-content-marketing-workflow",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-ekipler-icin-ai-icerik-pazarlamasi",
+        "title": "Küçük Ekipler İçin AI Destekli İçerik Pazarlaması"
+      },
+      "en": {
+        "slug": "ai-content-marketing-workflow",
+        "title": "AI-Powered Content Marketing for Small Teams"
+      }
+    },
+    {
+      "translationKey": "ai-game-dev-stories",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-ile-oyun-yapan-gelistiriciler",
+        "title": "AI ile Oyun Yapan Geliştiricilerin Hikayeleri"
+      },
+      "en": {
+        "slug": "ai-game-dev-stories",
+        "title": "Real Stories of Developers Making Games with AI"
+      }
+    },
+    {
+      "translationKey": "ai-productivity-paradox",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yapay-zeka-verimlilik-paradoksu",
+        "title": "Yapay Zeka Sizi Gerçekten Hızlandırıyor mu?"
+      },
+      "en": {
+        "slug": "does-ai-make-developers-faster",
+        "title": "Does AI Really Make Developers Faster?"
+      }
+    },
+    {
+      "translationKey": "ai-proof-developer-skills",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-dayanikli-yazilimci-becerileri",
+        "title": "AI'a Dayanıklı Yazılımcı Becerileri"
+      },
+      "en": {
+        "slug": "ai-proof-developer-skills",
+        "title": "Building an AI-Proof Developer Skill Set"
+      }
+    },
+    {
+      "translationKey": "ai-slop-open-source-security",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-copu-acik-kaynak-guvenligi",
+        "title": "AI Çöpü Açık Kaynak Güvenliğini Zorluyor"
+      },
+      "en": {
+        "slug": "ai-slop-open-source-security",
+        "title": "AI Slop Is Breaking Open-Source Security"
       }
     },
     {
@@ -158,6 +254,30 @@
       }
     },
     {
+      "translationKey": "best-ai-image-generators-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "en-iyi-yapay-zeka-gorsel-araclari-2026",
+        "title": "2026'nın En İyi Yapay Zeka Görsel Araçları"
+      },
+      "en": {
+        "slug": "best-ai-image-generators-2026",
+        "title": "The Best AI Image Generators in 2026, Ranked"
+      }
+    },
+    {
+      "translationKey": "blue-green-vs-canary",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "blue-green-mi-canary-mi",
+        "title": "Blue-Green mi Canary mi Deployment"
+      },
+      "en": {
+        "slug": "blue-green-vs-canary-deployments",
+        "title": "Blue-Green vs Canary Deployments"
+      }
+    },
+    {
       "translationKey": "build-cicd-pipeline",
       "category": "devops-cloud",
       "tr": {
@@ -182,6 +302,90 @@
       }
     },
     {
+      "translationKey": "chatgpt-complete-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-tam-rehber-2026",
+        "title": "ChatGPT Tam Rehber 2026: Hangi Plan Size Göre?"
+      },
+      "en": {
+        "slug": "chatgpt-complete-guide-2026",
+        "title": "ChatGPT Complete Guide 2026: Free, Go, Plus or Pro"
+      }
+    },
+    {
+      "translationKey": "claude-code-auto-mode-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-auto-mode-nasil-calisir",
+        "title": "Claude Code Auto Mode: Nasıl Çalışır, Ne Zaman Kapatılır"
+      },
+      "en": {
+        "slug": "claude-code-auto-mode-explained",
+        "title": "Claude Code Auto Mode: How It Works, When to Disable It"
+      }
+    },
+    {
+      "translationKey": "claude-code-hidden-tracking-code",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-gizli-takip-kodu",
+        "title": "Claude Code'un Gizli Takip Kodu Ne Anlama Geliyor"
+      },
+      "en": {
+        "slug": "claude-code-hidden-tracking-code",
+        "title": "Claude Code's Hidden Tracking Code, Explained"
+      }
+    },
+    {
+      "translationKey": "claude-code-subagents",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-subagent-arka-plan-ajanlari",
+        "title": "Claude Code Subagent ve Arka Plan Ajanları: İş Akışı Rehberi"
+      },
+      "en": {
+        "slug": "claude-code-subagents-background-agents",
+        "title": "Claude Code Subagents and Background Agents: A Workflow Guide"
+      }
+    },
+    {
+      "translationKey": "claude-cowork-web-mobile-expansion",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-cowork-web-mobil-genisliyor",
+        "title": "Claude Cowork Artık Web ve Mobilde"
+      },
+      "en": {
+        "slug": "claude-cowork-web-mobile-expansion",
+        "title": "Claude Cowork Expands to Web and Mobile"
+      }
+    },
+    {
+      "translationKey": "claude-in-chrome-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-in-chrome-ga-gelistirici-guvenlik-rehberi",
+        "title": "Claude in Chrome GA: Geliştirici Güvenlik Rehberi"
+      },
+      "en": {
+        "slug": "claude-in-chrome-ga-developer-security-guide",
+        "title": "Claude in Chrome Reaches GA: A Developer's Security Guide"
+      }
+    },
+    {
+      "translationKey": "claude-social-media-guide",
+      "category": "social-media",
+      "tr": {
+        "slug": "sosyal-medya-icin-claude-kullanimi",
+        "title": "Sosyal Medya İçin Claude Kullanımı: Tam Rehber"
+      },
+      "en": {
+        "slug": "how-to-use-claude-for-social-media",
+        "title": "How to Use Claude for Social Media: Full Guide"
+      }
+    },
+    {
       "translationKey": "clean-code-principles",
       "category": "software-engineering",
       "tr": {
@@ -191,6 +395,30 @@
       "en": {
         "slug": "clean-code-principles-checklist",
         "title": "Clean Code Principles: A Practical Checklist"
+      }
+    },
+    {
+      "translationKey": "context-engineering-ai-agents",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-ajanlari-icin-context-engineering",
+        "title": "AI Ajanları İçin Context Engineering Rehberi"
+      },
+      "en": {
+        "slug": "context-engineering-for-ai-agents",
+        "title": "Context Engineering for AI Agents: A Field Guide"
+      }
+    },
+    {
+      "translationKey": "coolest-ai-built-tools-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-ile-yapilmis-ilginc-araclar-2026",
+        "title": "2026'nın AI ile Yapılmış En İlginç Ürünleri"
+      },
+      "en": {
+        "slug": "coolest-ai-built-tools-2026",
+        "title": "The Coolest AI-Built Products to Try in 2026"
       }
     },
     {
@@ -215,6 +443,18 @@
       "en": {
         "slug": "css-container-queries-how-to",
         "title": "CSS Container Queries: A Practical How-To"
+      }
+    },
+    {
+      "translationKey": "cut-llm-token-costs",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-token-maliyetini-dusurme",
+        "title": "LLM Token Maliyetini %70 Nasıl Düşürürsün"
+      },
+      "en": {
+        "slug": "cut-llm-token-costs",
+        "title": "How to Cut LLM Token Costs by 70%"
       }
     },
     {
@@ -266,6 +506,18 @@
       }
     },
     {
+      "translationKey": "developer-salary-negotiation",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yazilimci-maas-pazarligi-2026",
+        "title": "2026'da Yazılımcı Maaş Pazarlığı"
+      },
+      "en": {
+        "slug": "developer-salary-negotiation-2026",
+        "title": "Salary Negotiation for Developers in 2026"
+      }
+    },
+    {
       "translationKey": "docker-best-practices",
       "category": "devops-cloud",
       "tr": {
@@ -278,6 +530,42 @@
       }
     },
     {
+      "translationKey": "drizzle-vs-prisma-orm",
+      "category": "web-development",
+      "tr": {
+        "slug": "drizzle-mi-prisma-mi",
+        "title": "Drizzle mi Prisma mı? 2026 TypeScript ORM Seçimi"
+      },
+      "en": {
+        "slug": "drizzle-vs-prisma-2026",
+        "title": "Drizzle vs Prisma: Choosing a TypeScript ORM in 2026"
+      }
+    },
+    {
+      "translationKey": "ebpf-observability-explained",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "gozlemlenebilirlik-icin-ebpf",
+        "title": "Gözlemlenebilirlik İçin eBPF Nedir"
+      },
+      "en": {
+        "slug": "ebpf-for-observability-explained",
+        "title": "eBPF for Observability, Explained"
+      }
+    },
+    {
+      "translationKey": "edge-functions-rendering-guide",
+      "category": "web-development",
+      "tr": {
+        "slug": "edge-fonksiyonlari-render-rehberi",
+        "title": "Edge Fonksiyonları ve Render: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "edge-functions-rendering-guide",
+        "title": "Edge Functions and Rendering: A 2026 Guide"
+      }
+    },
+    {
       "translationKey": "evaluate-llm-outputs",
       "category": "ai",
       "tr": {
@@ -287,6 +575,30 @@
       "en": {
         "slug": "how-to-evaluate-llm-outputs",
         "title": "How to Evaluate LLM Outputs with Evals"
+      }
+    },
+    {
+      "translationKey": "faceless-ai-content-creation",
+      "category": "social-media",
+      "tr": {
+        "slug": "yapay-zeka-ile-yuz-gostermeden-icerik",
+        "title": "Yüzünü Göstermeden Yapay Zekayla İçerik Üretmek"
+      },
+      "en": {
+        "slug": "faceless-ai-content-creation",
+        "title": "Faceless AI Content Creation: The 2026 Playbook"
+      }
+    },
+    {
+      "translationKey": "feature-flags-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "feature-flag-teknik-borc",
+        "title": "Teknik Borç Olmadan Feature Flag"
+      },
+      "en": {
+        "slug": "feature-flags-without-tech-debt",
+        "title": "Feature Flags Without the Tech Debt"
       }
     },
     {
@@ -314,6 +626,18 @@
       }
     },
     {
+      "translationKey": "fix-n-plus-one-queries",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "n-plus-one-sorgu-problemi",
+        "title": "N+1 Sorgu Problemi Nasıl Çözülür"
+      },
+      "en": {
+        "slug": "fix-n-plus-one-query-problem",
+        "title": "How to Fix the N+1 Query Problem"
+      }
+    },
+    {
       "translationKey": "freelance-developer-mistakes",
       "category": "career-productivity",
       "tr": {
@@ -323,6 +647,66 @@
       "en": {
         "slug": "freelance-developer-mistakes",
         "title": "Freelance Developer Mistakes to Avoid"
+      }
+    },
+    {
+      "translationKey": "friendly-fire-claude-code-exploit",
+      "category": "ai",
+      "tr": {
+        "slug": "friendly-fire-claude-code-guvenlik-acigi",
+        "title": "Friendly Fire: Kod Taraması Nasıl RCE'ye Dönüşür"
+      },
+      "en": {
+        "slug": "friendly-fire-claude-code-security-exploit",
+        "title": "Friendly Fire: When a Security Scan Becomes RCE"
+      }
+    },
+    {
+      "translationKey": "frontend-signals-explained",
+      "category": "web-development",
+      "tr": {
+        "slug": "frontend-signals-nedir",
+        "title": "Frontend'de Signals: Nedir, Ne Zaman?"
+      },
+      "en": {
+        "slug": "frontend-signals-explained",
+        "title": "Signals in Frontend Frameworks, Explained"
+      }
+    },
+    {
+      "translationKey": "frontier-model-comparison-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-gpt-5-6-gemini-3-5-kiyaslamasi",
+        "title": "Claude Sonnet 5, GPT-5.6 ve Gemini 3.5 Kıyaslaması"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-vs-gpt-5-6-vs-gemini-3-5",
+        "title": "Claude Sonnet 5 vs GPT-5.6 vs Gemini 3.5"
+      }
+    },
+    {
+      "translationKey": "gemini-vs-chatgpt",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-mi-chatgpt-mi",
+        "title": "Gemini mi ChatGPT mi? 2026'da Doğru Seçim"
+      },
+      "en": {
+        "slug": "gemini-vs-chatgpt-2026",
+        "title": "Gemini vs ChatGPT: Which Should You Use in 2026?"
+      }
+    },
+    {
+      "translationKey": "generative-engine-optimization",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "geo-yapay-zeka-aramalarinda-gorunurluk",
+        "title": "GEO: Yapay Zeka Aramalarında Görünmek"
+      },
+      "en": {
+        "slug": "generative-engine-optimization-guide",
+        "title": "GEO: Getting Cited in AI Search"
       }
     },
     {
@@ -350,6 +734,42 @@
       }
     },
     {
+      "translationKey": "gpt-5-6-general-availability-codex-desktop",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-genel-kullanima-acildi",
+        "title": "GPT-5.6 Genel Kullanıma Açıldı, Codex ChatGPT'ye Taşındı"
+      },
+      "en": {
+        "slug": "gpt-5-6-general-availability-codex-desktop",
+        "title": "GPT-5.6 Goes GA as Codex Moves Into ChatGPT Desktop"
+      }
+    },
+    {
+      "translationKey": "gpt-realtime-voice-agents",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-realtime-2-1-sesli-ai-ajani-kurmak",
+        "title": "gpt-realtime-2.1 ile Üretim Sesli AI Ajanı Kurmak"
+      },
+      "en": {
+        "slug": "gpt-realtime-2-1-voice-agents-guide",
+        "title": "Building Voice Agents with gpt-realtime-2.1"
+      }
+    },
+    {
+      "translationKey": "how-to-write-rfc",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "muhendislik-rfc-nasil-yazilir",
+        "title": "Mühendislik RFC'si Nasıl Yazılır"
+      },
+      "en": {
+        "slug": "how-to-write-engineering-rfc",
+        "title": "How to Write an Engineering RFC"
+      }
+    },
+    {
       "translationKey": "how-to-write-unit-tests",
       "category": "software-engineering",
       "tr": {
@@ -362,6 +782,54 @@
       }
     },
     {
+      "translationKey": "htmx-vs-react",
+      "category": "web-development",
+      "tr": {
+        "slug": "htmx-mi-react-mi",
+        "title": "HTMX mi React mı: React'e Ne Zaman Gerek Var"
+      },
+      "en": {
+        "slug": "htmx-vs-react-when-to-use",
+        "title": "HTMX vs React: When Do You Actually Need React?"
+      }
+    },
+    {
+      "translationKey": "idempotency-api-design",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "idempotent-api-tasarimi",
+        "title": "İdempotent API: Güvenli Yeniden Deneme"
+      },
+      "en": {
+        "slug": "idempotent-api-design",
+        "title": "Idempotent APIs: Safe Retries by Design"
+      }
+    },
+    {
+      "translationKey": "instagram-algorithm-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "instagram-algoritmasi-2026",
+        "title": "Instagram Algoritması 2026: Neyi Ödüllendirir"
+      },
+      "en": {
+        "slug": "instagram-algorithm-2026",
+        "title": "Instagram Algorithm 2026: What It Rewards"
+      }
+    },
+    {
+      "translationKey": "junior-developer-job-market-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "junior-yazilimci-isleri-2026",
+        "title": "2026'da Junior Yazılımcı İşleri: Mit ve Gerçek"
+      },
+      "en": {
+        "slug": "junior-developer-jobs-2026",
+        "title": "Junior Dev Jobs in 2026: Myth vs Data"
+      }
+    },
+    {
       "translationKey": "junior-to-senior-developer",
       "category": "career-productivity",
       "tr": {
@@ -371,6 +839,18 @@
       "en": {
         "slug": "junior-to-senior-developer",
         "title": "From Junior to Senior Developer: A Roadmap"
+      }
+    },
+    {
+      "translationKey": "kubernetes-autoscaling-guide",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-otomatik-olcekleme-rehberi",
+        "title": "Kubernetes Otomatik Ölçekleme Rehberi"
+      },
+      "en": {
+        "slug": "kubernetes-autoscaling-guide",
+        "title": "Kubernetes Autoscaling: HPA, VPA, and CA"
       }
     },
     {
@@ -410,6 +890,54 @@
       }
     },
     {
+      "translationKey": "llm-guardrails-production",
+      "category": "ai",
+      "tr": {
+        "slug": "uretim-icin-llm-guardrail-kontrol-listesi",
+        "title": "Üretim İçin LLM Guardrail Kontrol Listesi"
+      },
+      "en": {
+        "slug": "llm-guardrails-production-checklist",
+        "title": "LLM Guardrails Checklist for Production"
+      }
+    },
+    {
+      "translationKey": "llm-structured-outputs-json",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-yapilandirilmis-cikti-json",
+        "title": "LLM Yapılandırılmış Çıktı: Güvenilir JSON"
+      },
+      "en": {
+        "slug": "llm-structured-outputs-json",
+        "title": "LLM Structured Outputs: JSON You Can Trust"
+      }
+    },
+    {
+      "translationKey": "local-llm-runtimes",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ollama-vllm-llamacpp-yerel-llm-calistirma",
+        "title": "Ollama, vLLM ve llama.cpp: Yerel LLM Çalıştırma"
+      },
+      "en": {
+        "slug": "ollama-vs-vllm-vs-llamacpp-local-llm",
+        "title": "Ollama vs vLLM vs llama.cpp: Local LLMs"
+      }
+    },
+    {
+      "translationKey": "micro-saas-ai-stories",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ile-mikro-saas-hikayeleri",
+        "title": "AI ile Mikro-SaaS: Gerçek Maker Hikayeleri"
+      },
+      "en": {
+        "slug": "micro-saas-ai-maker-stories",
+        "title": "Micro-SaaS with AI: Real Maker Stories"
+      }
+    },
+    {
       "translationKey": "microservices-vs-monolith",
       "category": "software-engineering",
       "tr": {
@@ -434,6 +962,30 @@
       }
     },
     {
+      "translationKey": "most-popular-ai-tools-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "en-populer-yapay-zeka-araclari-2026",
+        "title": "2026'nın En Popüler Yapay Zeka Araçları"
+      },
+      "en": {
+        "slug": "most-popular-ai-tools-2026",
+        "title": "The Most Popular AI Tools in 2026: Ranked"
+      }
+    },
+    {
+      "translationKey": "multi-agent-orchestration-patterns",
+      "category": "ai",
+      "tr": {
+        "slug": "cok-ajanli-orkestrasyon-kaliplari",
+        "title": "Çok Ajanlı Orkestrasyon Kalıpları"
+      },
+      "en": {
+        "slug": "multi-agent-orchestration-patterns",
+        "title": "Multi-Agent Orchestration Patterns Explained"
+      }
+    },
+    {
       "translationKey": "observability-101",
       "category": "devops-cloud",
       "tr": {
@@ -443,6 +995,42 @@
       "en": {
         "slug": "observability-logs-metrics-traces",
         "title": "Observability 101: Logs, Metrics, and Traces"
+      }
+    },
+    {
+      "translationKey": "open-source-saas-alternatives",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "acik-kaynak-saas-alternatifleri-2026",
+        "title": "2026 İçin 12 Açık Kaynak SaaS Alternatifi"
+      },
+      "en": {
+        "slug": "open-source-saas-alternatives-2026",
+        "title": "12 Open-Source SaaS Alternatives for 2026"
+      }
+    },
+    {
+      "translationKey": "openclaw-self-hosted-ai-agent",
+      "category": "ai",
+      "tr": {
+        "slug": "openclaw-kendi-sunucunda-ai-ajani-riskleri",
+        "title": "OpenClaw: Kendi Sunucunda AI Ajanı ve Riskleri"
+      },
+      "en": {
+        "slug": "openclaw-self-hosted-ai-agent",
+        "title": "OpenClaw: Self-Hosted AI Agent and Its Risks"
+      }
+    },
+    {
+      "translationKey": "opentelemetry-getting-started",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "opentelemetry-baslangic-rehberi",
+        "title": "OpenTelemetry'e Başlangıç Rehberi"
+      },
+      "en": {
+        "slug": "getting-started-with-opentelemetry",
+        "title": "Getting Started with OpenTelemetry"
       }
     },
     {
@@ -470,6 +1058,54 @@
       }
     },
     {
+      "translationKey": "perplexity-vs-google-ai-search",
+      "category": "ai",
+      "tr": {
+        "slug": "perplexity-mi-google-mi",
+        "title": "Perplexity mi Google mı? Yapay Zeka Arama Rehberi"
+      },
+      "en": {
+        "slug": "perplexity-vs-google-ai-search",
+        "title": "Perplexity vs Google: AI Search in 2026"
+      }
+    },
+    {
+      "translationKey": "pgbouncer-connection-pooling",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "pgbouncer-postgres-baglanti-havuzu",
+        "title": "PgBouncer ile Postgres Bağlantı Havuzu"
+      },
+      "en": {
+        "slug": "postgres-connection-pooling-pgbouncer",
+        "title": "Postgres Connection Pooling with PgBouncer"
+      }
+    },
+    {
+      "translationKey": "pgrust-postgres-rust-rewrite",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "pgrust-postgres-rust-yeniden-yazimi",
+        "title": "pgrust: Postgres AI Ajanlarıyla Rust'a Nasıl Yazıldı"
+      },
+      "en": {
+        "slug": "pgrust-postgres-rewritten-in-rust",
+        "title": "pgrust: Postgres Rewritten in Rust by AI Agents"
+      }
+    },
+    {
+      "translationKey": "postgres-for-everything",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "her-sey-icin-postgres",
+        "title": "Redis ve Kafka'ya Elveda: Her Şey İçin Postgres"
+      },
+      "en": {
+        "slug": "just-use-postgres-for-everything",
+        "title": "Just Use Postgres: Replace Redis, Kafka and More"
+      }
+    },
+    {
       "translationKey": "prompt-engineering-patterns",
       "category": "ai",
       "tr": {
@@ -479,6 +1115,30 @@
       "en": {
         "slug": "prompt-engineering-patterns",
         "title": "Prompt Engineering Patterns Every Dev Needs"
+      }
+    },
+    {
+      "translationKey": "rate-limiting-algorithms",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "rate-limiting-algoritmalari",
+        "title": "Rate Limiting: Token Bucket ve Sliding Window"
+      },
+      "en": {
+        "slug": "rate-limiting-token-bucket-vs-sliding-window",
+        "title": "Rate Limiting: Token Bucket vs Sliding Window"
+      }
+    },
+    {
+      "translationKey": "react-hook-form-zod-forms",
+      "category": "web-development",
+      "tr": {
+        "slug": "rhf-zod-erisilebilir-react-formlari",
+        "title": "RHF ve Zod ile Erişilebilir React Formları"
+      },
+      "en": {
+        "slug": "react-hook-form-zod-accessible-forms",
+        "title": "Accessible React Forms with RHF and Zod"
       }
     },
     {
@@ -554,6 +1214,54 @@
       }
     },
     {
+      "translationKey": "retries-backoff-circuit-breakers",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "retry-backoff-circuit-breaker",
+        "title": "Retry, Backoff ve Circuit Breaker"
+      },
+      "en": {
+        "slug": "retries-backoff-circuit-breakers",
+        "title": "Retries, Backoff, and Circuit Breakers"
+      }
+    },
+    {
+      "translationKey": "secrets-management-cloud",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "bulutta-secret-yonetimi",
+        "title": "Bulutta Secret Yönetimi Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "cloud-secrets-management-done-right",
+        "title": "Secrets Management in the Cloud, Done Right"
+      }
+    },
+    {
+      "translationKey": "solopreneur-ai-stack",
+      "category": "business",
+      "tr": {
+        "slug": "tek-kisilik-girisim-ai-yigini",
+        "title": "Tek Kişilik Girişim: 2026 AI Yığınıyla Solo İş"
+      },
+      "en": {
+        "slug": "solopreneur-ai-stack-2026",
+        "title": "The Solopreneur AI Stack: Build a Solo Business in 2026"
+      }
+    },
+    {
+      "translationKey": "spec-driven-development-vibe-coding",
+      "category": "ai",
+      "tr": {
+        "slug": "spec-driven-development-rehberi",
+        "title": "Vibe Coding Bitti mi? Spec-Driven Development Rehberi"
+      },
+      "en": {
+        "slug": "spec-driven-development-end-of-vibe-coding",
+        "title": "Spec-Driven Development: The End of Vibe Coding?"
+      }
+    },
+    {
       "translationKey": "ssr-ssg-isr",
       "category": "web-development",
       "tr": {
@@ -563,6 +1271,18 @@
       "en": {
         "slug": "ssr-vs-ssg-vs-isr",
         "title": "SSR vs SSG vs ISR: Rendering Explained"
+      }
+    },
+    {
+      "translationKey": "staff-engineer-path",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "staff-engineer-yolu",
+        "title": "Staff Engineer Yolu: Senior'ın Ötesi"
+      },
+      "en": {
+        "slug": "staff-engineer-career-path",
+        "title": "The Staff Engineer Path: Beyond Senior"
       }
     },
     {
@@ -638,6 +1358,18 @@
       }
     },
     {
+      "translationKey": "typescript-7-go-native-compiler",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "typescript-7-go-derleyici",
+        "title": "TypeScript 7: Go ile 10 Kat Hızlı Derleyici"
+      },
+      "en": {
+        "slug": "typescript-7-go-native-compiler",
+        "title": "TypeScript 7: The Go-Native Compiler, Explained"
+      }
+    },
+    {
       "translationKey": "vector-database-comparison",
       "category": "ai",
       "tr": {
@@ -650,6 +1382,30 @@
       }
     },
     {
+      "translationKey": "vercel-services-multi-framework",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "vercel-services-tek-projede-mikroservisler",
+        "title": "Vercel Services: Tek Projede Mikroservisler"
+      },
+      "en": {
+        "slug": "vercel-services-multi-framework-microservices",
+        "title": "Vercel Services: Microservices in One Project"
+      }
+    },
+    {
+      "translationKey": "view-transitions-api-guide",
+      "category": "web-development",
+      "tr": {
+        "slug": "view-transitions-api-kullanimi",
+        "title": "View Transitions API: Pratik Kullanım"
+      },
+      "en": {
+        "slug": "view-transitions-api-how-to",
+        "title": "View Transitions API: A Practical How-To"
+      }
+    },
+    {
       "translationKey": "web-accessibility-checklist",
       "category": "web-development",
       "tr": {
@@ -659,6 +1415,30 @@
       "en": {
         "slug": "web-accessibility-checklist",
         "title": "Web Accessibility Checklist (WCAG 2.2)"
+      }
+    },
+    {
+      "translationKey": "web-components-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-components-2026-hazir-mi",
+        "title": "Web Components 2026'da Hazır mı?"
+      },
+      "en": {
+        "slug": "are-web-components-ready-2026",
+        "title": "Are Web Components Ready for 2026?"
+      }
+    },
+    {
+      "translationKey": "weekend-ai-project-ideas",
+      "category": "ai",
+      "tr": {
+        "slug": "hafta-sonu-ai-projeleri",
+        "title": "Bu Hafta Sonu Yapılacak 5 AI Projesi"
+      },
+      "en": {
+        "slug": "ai-project-ideas-weekend",
+        "title": "5 AI Project Ideas to Build This Weekend"
       }
     },
     {
@@ -698,402 +1478,6 @@
       }
     },
     {
-      "translationKey": "agent-first-dev-tools",
-      "category": "web-development",
-      "tr": {
-        "slug": "agent-odakli-gelistirici-araclari",
-        "title": "Geliştirici Araçları Artık AI Ajanları İçin"
-      },
-      "en": {
-        "slug": "agent-first-dev-tools",
-        "title": "Your Dev Tools Are Now Built for AI Agents"
-      }
-    },
-    {
-      "translationKey": "agentjacking-ai-agent-security",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "agentjacking-yeni-ai-ajan-saldirisi",
-        "title": "Agentjacking: Yeni AI Ajan Saldırısı"
-      },
-      "en": {
-        "slug": "agentjacking-ai-agent-attack",
-        "title": "Agentjacking: The New AI Agent Attack Class"
-      }
-    },
-    {
-      "translationKey": "ai-slop-open-source-security",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "ai-copu-acik-kaynak-guvenligi",
-        "title": "AI Çöpü Açık Kaynak Güvenliğini Zorluyor"
-      },
-      "en": {
-        "slug": "ai-slop-open-source-security",
-        "title": "AI Slop Is Breaking Open-Source Security"
-      }
-    },
-    {
-      "translationKey": "claude-code-subagents",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-subagent-arka-plan-ajanlari",
-        "title": "Claude Code Subagent ve Arka Plan Ajanları: İş Akışı Rehberi"
-      },
-      "en": {
-        "slug": "claude-code-subagents-background-agents",
-        "title": "Claude Code Subagents and Background Agents: A Workflow Guide"
-      }
-    },
-    {
-      "translationKey": "frontier-model-comparison-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-sonnet-5-gpt-5-6-gemini-3-5-kiyaslamasi",
-        "title": "Claude Sonnet 5, GPT-5.6 ve Gemini 3.5 Kıyaslaması"
-      },
-      "en": {
-        "slug": "claude-sonnet-5-vs-gpt-5-6-vs-gemini-3-5",
-        "title": "Claude Sonnet 5 vs GPT-5.6 vs Gemini 3.5"
-      }
-    },
-    {
-      "translationKey": "junior-developer-job-market-2026",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "junior-yazilimci-isleri-2026",
-        "title": "2026'da Junior Yazılımcı İşleri: Mit ve Gerçek"
-      },
-      "en": {
-        "slug": "junior-developer-jobs-2026",
-        "title": "Junior Dev Jobs in 2026: Myth vs Data"
-      }
-    },
-    {
-      "translationKey": "local-llm-runtimes",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "ollama-vllm-llamacpp-yerel-llm-calistirma",
-        "title": "Ollama, vLLM ve llama.cpp: Yerel LLM Çalıştırma"
-      },
-      "en": {
-        "slug": "ollama-vs-vllm-vs-llamacpp-local-llm",
-        "title": "Ollama vs vLLM vs llama.cpp: Local LLMs"
-      }
-    },
-    {
-      "translationKey": "open-source-saas-alternatives",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "acik-kaynak-saas-alternatifleri-2026",
-        "title": "2026 İçin 12 Açık Kaynak SaaS Alternatifi"
-      },
-      "en": {
-        "slug": "open-source-saas-alternatives-2026",
-        "title": "12 Open-Source SaaS Alternatives for 2026"
-      }
-    },
-    {
-      "translationKey": "openclaw-self-hosted-ai-agent",
-      "category": "ai",
-      "tr": {
-        "slug": "openclaw-kendi-sunucunda-ai-ajani-riskleri",
-        "title": "OpenClaw: Kendi Sunucunda AI Ajanı ve Riskleri"
-      },
-      "en": {
-        "slug": "openclaw-self-hosted-ai-agent",
-        "title": "OpenClaw: Self-Hosted AI Agent and Its Risks"
-      }
-    },
-    {
-      "translationKey": "weekend-ai-project-ideas",
-      "category": "ai",
-      "tr": {
-        "slug": "hafta-sonu-ai-projeleri",
-        "title": "Bu Hafta Sonu Yapılacak 5 AI Projesi"
-      },
-      "en": {
-        "slug": "ai-project-ideas-weekend",
-        "title": "5 AI Project Ideas to Build This Weekend"
-      }
-    },
-    {
-      "translationKey": "typescript-7-go-native-compiler",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "typescript-7-go-derleyici",
-        "title": "TypeScript 7: Go ile 10 Kat Hızlı Derleyici"
-      },
-      "en": {
-        "slug": "typescript-7-go-native-compiler",
-        "title": "TypeScript 7: The Go-Native Compiler, Explained"
-      }
-    },
-    {
-      "translationKey": "claude-code-hidden-tracking-code",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-gizli-takip-kodu",
-        "title": "Claude Code'un Gizli Takip Kodu Ne Anlama Geliyor"
-      },
-      "en": {
-        "slug": "claude-code-hidden-tracking-code",
-        "title": "Claude Code's Hidden Tracking Code, Explained"
-      }
-    },
-    {
-      "translationKey": "context-engineering-ai-agents",
-      "category": "ai",
-      "tr": {
-        "slug": "ai-ajanlari-icin-context-engineering",
-        "title": "AI Ajanları İçin Context Engineering Rehberi"
-      },
-      "en": {
-        "slug": "context-engineering-for-ai-agents",
-        "title": "Context Engineering for AI Agents: A Field Guide"
-      }
-    },
-    {
-      "translationKey": "cut-llm-token-costs",
-      "category": "ai",
-      "tr": {
-        "slug": "llm-token-maliyetini-dusurme",
-        "title": "LLM Token Maliyetini %70 Nasıl Düşürürsün"
-      },
-      "en": {
-        "slug": "cut-llm-token-costs",
-        "title": "How to Cut LLM Token Costs by 70%"
-      }
-    },
-    {
-      "translationKey": "llm-structured-outputs-json",
-      "category": "ai",
-      "tr": {
-        "slug": "llm-yapilandirilmis-cikti-json",
-        "title": "LLM Yapılandırılmış Çıktı: Güvenilir JSON"
-      },
-      "en": {
-        "slug": "llm-structured-outputs-json",
-        "title": "LLM Structured Outputs: JSON You Can Trust"
-      }
-    },
-    {
-      "translationKey": "ai-agent-memory-systems",
-      "category": "ai",
-      "tr": {
-        "slug": "ai-ajan-bellegi-sistemleri",
-        "title": "AI Ajan Belleği: Kısa ve Uzun Vadeli"
-      },
-      "en": {
-        "slug": "ai-agent-memory-systems",
-        "title": "AI Agent Memory: Short-Term to Long-Term"
-      }
-    },
-    {
-      "translationKey": "claude-in-chrome-ga",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-in-chrome-ga-gelistirici-guvenlik-rehberi",
-        "title": "Claude in Chrome GA: Geliştirici Güvenlik Rehberi"
-      },
-      "en": {
-        "slug": "claude-in-chrome-ga-developer-security-guide",
-        "title": "Claude in Chrome Reaches GA: A Developer's Security Guide"
-      }
-    },
-    {
-      "translationKey": "llm-guardrails-production",
-      "category": "ai",
-      "tr": {
-        "slug": "uretim-icin-llm-guardrail-kontrol-listesi",
-        "title": "Üretim İçin LLM Guardrail Kontrol Listesi"
-      },
-      "en": {
-        "slug": "llm-guardrails-production-checklist",
-        "title": "LLM Guardrails Checklist for Production"
-      }
-    },
-    {
-      "translationKey": "multi-agent-orchestration-patterns",
-      "category": "ai",
-      "tr": {
-        "slug": "cok-ajanli-orkestrasyon-kaliplari",
-        "title": "Çok Ajanlı Orkestrasyon Kalıpları"
-      },
-      "en": {
-        "slug": "multi-agent-orchestration-patterns",
-        "title": "Multi-Agent Orchestration Patterns Explained"
-      }
-    },
-    {
-      "translationKey": "htmx-vs-react",
-      "category": "web-development",
-      "tr": {
-        "slug": "htmx-mi-react-mi",
-        "title": "HTMX mi React mı: React'e Ne Zaman Gerek Var"
-      },
-      "en": {
-        "slug": "htmx-vs-react-when-to-use",
-        "title": "HTMX vs React: When Do You Actually Need React?"
-      }
-    },
-    {
-      "translationKey": "view-transitions-api-guide",
-      "category": "web-development",
-      "tr": {
-        "slug": "view-transitions-api-kullanimi",
-        "title": "View Transitions API: Pratik Kullanım"
-      },
-      "en": {
-        "slug": "view-transitions-api-how-to",
-        "title": "View Transitions API: A Practical How-To"
-      }
-    },
-    {
-      "translationKey": "claude-cowork-web-mobile-expansion",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-cowork-web-mobil-genisliyor",
-        "title": "Claude Cowork Artık Web ve Mobilde"
-      },
-      "en": {
-        "slug": "claude-cowork-web-mobile-expansion",
-        "title": "Claude Cowork Expands to Web and Mobile"
-      }
-    },
-    {
-      "translationKey": "react-hook-form-zod-forms",
-      "category": "web-development",
-      "tr": {
-        "slug": "rhf-zod-erisilebilir-react-formlari",
-        "title": "RHF ve Zod ile Erişilebilir React Formları"
-      },
-      "en": {
-        "slug": "react-hook-form-zod-accessible-forms",
-        "title": "Accessible React Forms with RHF and Zod"
-      }
-    },
-    {
-      "translationKey": "edge-functions-rendering-guide",
-      "category": "web-development",
-      "tr": {
-        "slug": "edge-fonksiyonlari-render-rehberi",
-        "title": "Edge Fonksiyonları ve Render: 2026 Rehberi"
-      },
-      "en": {
-        "slug": "edge-functions-rendering-guide",
-        "title": "Edge Functions and Rendering: A 2026 Guide"
-      }
-    },
-    {
-      "translationKey": "web-components-2026",
-      "category": "web-development",
-      "tr": {
-        "slug": "web-components-2026-hazir-mi",
-        "title": "Web Components 2026'da Hazır mı?"
-      },
-      "en": {
-        "slug": "are-web-components-ready-2026",
-        "title": "Are Web Components Ready for 2026?"
-      }
-    },
-    {
-      "translationKey": "frontend-signals-explained",
-      "category": "web-development",
-      "tr": {
-        "slug": "frontend-signals-nedir",
-        "title": "Frontend'de Signals: Nedir, Ne Zaman?"
-      },
-      "en": {
-        "slug": "frontend-signals-explained",
-        "title": "Signals in Frontend Frameworks, Explained"
-      }
-    },
-    {
-      "translationKey": "vercel-services-multi-framework",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "vercel-services-tek-projede-mikroservisler",
-        "title": "Vercel Services: Tek Projede Mikroservisler"
-      },
-      "en": {
-        "slug": "vercel-services-multi-framework-microservices",
-        "title": "Vercel Services: Microservices in One Project"
-      }
-    },
-    {
-      "translationKey": "idempotency-api-design",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "idempotent-api-tasarimi",
-        "title": "İdempotent API: Güvenli Yeniden Deneme"
-      },
-      "en": {
-        "slug": "idempotent-api-design",
-        "title": "Idempotent APIs: Safe Retries by Design"
-      }
-    },
-    {
-      "translationKey": "rate-limiting-algorithms",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "rate-limiting-algoritmalari",
-        "title": "Rate Limiting: Token Bucket ve Sliding Window"
-      },
-      "en": {
-        "slug": "rate-limiting-token-bucket-vs-sliding-window",
-        "title": "Rate Limiting: Token Bucket vs Sliding Window"
-      }
-    },
-    {
-      "translationKey": "retries-backoff-circuit-breakers",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "retry-backoff-circuit-breaker",
-        "title": "Retry, Backoff ve Circuit Breaker"
-      },
-      "en": {
-        "slug": "retries-backoff-circuit-breakers",
-        "title": "Retries, Backoff, and Circuit Breakers"
-      }
-    },
-    {
-      "translationKey": "fix-n-plus-one-queries",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "n-plus-one-sorgu-problemi",
-        "title": "N+1 Sorgu Problemi Nasıl Çözülür"
-      },
-      "en": {
-        "slug": "fix-n-plus-one-query-problem",
-        "title": "How to Fix the N+1 Query Problem"
-      }
-    },
-    {
-      "translationKey": "friendly-fire-claude-code-exploit",
-      "category": "ai",
-      "tr": {
-        "slug": "friendly-fire-claude-code-guvenlik-acigi",
-        "title": "Friendly Fire: Kod Taraması Nasıl RCE'ye Dönüşür"
-      },
-      "en": {
-        "slug": "friendly-fire-claude-code-security-exploit",
-        "title": "Friendly Fire: When a Security Scan Becomes RCE"
-      }
-    },
-    {
-      "translationKey": "feature-flags-guide",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "feature-flag-teknik-borc",
-        "title": "Teknik Borç Olmadan Feature Flag"
-      },
-      "en": {
-        "slug": "feature-flags-without-tech-debt",
-        "title": "Feature Flags Without the Tech Debt"
-      }
-    },
-    {
       "translationKey": "zero-downtime-schema-migrations",
       "category": "software-engineering",
       "tr": {
@@ -1103,294 +1487,6 @@
       "en": {
         "slug": "zero-downtime-schema-migrations",
         "title": "Zero-Downtime Database Schema Migrations"
-      }
-    },
-    {
-      "translationKey": "opentelemetry-getting-started",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "opentelemetry-baslangic-rehberi",
-        "title": "OpenTelemetry'e Başlangıç Rehberi"
-      },
-      "en": {
-        "slug": "getting-started-with-opentelemetry",
-        "title": "Getting Started with OpenTelemetry"
-      }
-    },
-    {
-      "translationKey": "ebpf-observability-explained",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "gozlemlenebilirlik-icin-ebpf",
-        "title": "Gözlemlenebilirlik İçin eBPF Nedir"
-      },
-      "en": {
-        "slug": "ebpf-for-observability-explained",
-        "title": "eBPF for Observability, Explained"
-      }
-    },
-    {
-      "translationKey": "gpt-5-6-general-availability-codex-desktop",
-      "category": "ai",
-      "tr": {
-        "slug": "gpt-5-6-genel-kullanima-acildi",
-        "title": "GPT-5.6 Genel Kullanıma Açıldı, Codex ChatGPT'ye Taşındı"
-      },
-      "en": {
-        "slug": "gpt-5-6-general-availability-codex-desktop",
-        "title": "GPT-5.6 Goes GA as Codex Moves Into ChatGPT Desktop"
-      }
-    },
-    {
-      "translationKey": "kubernetes-autoscaling-guide",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "kubernetes-otomatik-olcekleme-rehberi",
-        "title": "Kubernetes Otomatik Ölçekleme Rehberi"
-      },
-      "en": {
-        "slug": "kubernetes-autoscaling-guide",
-        "title": "Kubernetes Autoscaling: HPA, VPA, and CA"
-      }
-    },
-    {
-      "translationKey": "secrets-management-cloud",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "bulutta-secret-yonetimi",
-        "title": "Bulutta Secret Yönetimi Nasıl Yapılır"
-      },
-      "en": {
-        "slug": "cloud-secrets-management-done-right",
-        "title": "Secrets Management in the Cloud, Done Right"
-      }
-    },
-    {
-      "translationKey": "blue-green-vs-canary",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "blue-green-mi-canary-mi",
-        "title": "Blue-Green mi Canary mi Deployment"
-      },
-      "en": {
-        "slug": "blue-green-vs-canary-deployments",
-        "title": "Blue-Green vs Canary Deployments"
-      }
-    },
-    {
-      "translationKey": "pgbouncer-connection-pooling",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "pgbouncer-postgres-baglanti-havuzu",
-        "title": "PgBouncer ile Postgres Bağlantı Havuzu"
-      },
-      "en": {
-        "slug": "postgres-connection-pooling-pgbouncer",
-        "title": "Postgres Connection Pooling with PgBouncer"
-      }
-    },
-    {
-      "translationKey": "gpt-realtime-voice-agents",
-      "category": "ai",
-      "tr": {
-        "slug": "gpt-realtime-2-1-sesli-ai-ajani-kurmak",
-        "title": "gpt-realtime-2.1 ile Üretim Sesli AI Ajanı Kurmak"
-      },
-      "en": {
-        "slug": "gpt-realtime-2-1-voice-agents-guide",
-        "title": "Building Voice Agents with gpt-realtime-2.1"
-      }
-    },
-    {
-      "translationKey": "claude-code-auto-mode-explained",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-auto-mode-nasil-calisir",
-        "title": "Claude Code Auto Mode: Nasıl Çalışır, Ne Zaman Kapatılır"
-      },
-      "en": {
-        "slug": "claude-code-auto-mode-explained",
-        "title": "Claude Code Auto Mode: How It Works, When to Disable It"
-      }
-    },
-    {
-      "translationKey": "spec-driven-development-vibe-coding",
-      "category": "ai",
-      "tr": {
-        "slug": "spec-driven-development-rehberi",
-        "title": "Vibe Coding Bitti mi? Spec-Driven Development Rehberi"
-      },
-      "en": {
-        "slug": "spec-driven-development-end-of-vibe-coding",
-        "title": "Spec-Driven Development: The End of Vibe Coding?"
-      }
-    },
-    {
-      "translationKey": "postgres-for-everything",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "her-sey-icin-postgres",
-        "title": "Redis ve Kafka'ya Elveda: Her Şey İçin Postgres"
-      },
-      "en": {
-        "slug": "just-use-postgres-for-everything",
-        "title": "Just Use Postgres: Replace Redis, Kafka and More"
-      }
-    },
-    {
-      "translationKey": "drizzle-vs-prisma-orm",
-      "category": "web-development",
-      "tr": {
-        "slug": "drizzle-mi-prisma-mi",
-        "title": "Drizzle mi Prisma mı? 2026 TypeScript ORM Seçimi"
-      },
-      "en": {
-        "slug": "drizzle-vs-prisma-2026",
-        "title": "Drizzle vs Prisma: Choosing a TypeScript ORM in 2026"
-      }
-    },
-    {
-      "translationKey": "ai-productivity-paradox",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "yapay-zeka-verimlilik-paradoksu",
-        "title": "Yapay Zeka Sizi Gerçekten Hızlandırıyor mu?"
-      },
-      "en": {
-        "slug": "does-ai-make-developers-faster",
-        "title": "Does AI Really Make Developers Faster?"
-      }
-    },
-    {
-      "translationKey": "most-popular-ai-tools-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "en-populer-yapay-zeka-araclari-2026",
-        "title": "2026'nın En Popüler Yapay Zeka Araçları"
-      },
-      "en": {
-        "slug": "most-popular-ai-tools-2026",
-        "title": "The Most Popular AI Tools in 2026: Ranked"
-      }
-    },
-    {
-      "translationKey": "chatgpt-complete-guide",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-tam-rehber-2026",
-        "title": "ChatGPT Tam Rehber 2026: Hangi Plan Size Göre?"
-      },
-      "en": {
-        "slug": "chatgpt-complete-guide-2026",
-        "title": "ChatGPT Complete Guide 2026: Free, Go, Plus or Pro"
-      }
-    },
-    {
-      "translationKey": "gemini-vs-chatgpt",
-      "category": "ai",
-      "tr": {
-        "slug": "gemini-mi-chatgpt-mi",
-        "title": "Gemini mi ChatGPT mi? 2026'da Doğru Seçim"
-      },
-      "en": {
-        "slug": "gemini-vs-chatgpt-2026",
-        "title": "Gemini vs ChatGPT: Which Should You Use in 2026?"
-      }
-    },
-    {
-      "translationKey": "best-ai-image-generators-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "en-iyi-yapay-zeka-gorsel-araclari-2026",
-        "title": "2026'nın En İyi Yapay Zeka Görsel Araçları"
-      },
-      "en": {
-        "slug": "best-ai-image-generators-2026",
-        "title": "The Best AI Image Generators in 2026, Ranked"
-      }
-    },
-    {
-      "translationKey": "perplexity-vs-google-ai-search",
-      "category": "ai",
-      "tr": {
-        "slug": "perplexity-mi-google-mi",
-        "title": "Perplexity mi Google mı? Yapay Zeka Arama Rehberi"
-      },
-      "en": {
-        "slug": "perplexity-vs-google-ai-search",
-        "title": "Perplexity vs Google: AI Search in 2026"
-      }
-    },
-    {
-      "translationKey": "claude-social-media-guide",
-      "category": "social-media",
-      "tr": {
-        "slug": "sosyal-medya-icin-claude-kullanimi",
-        "title": "Sosyal Medya İçin Claude Kullanımı: Tam Rehber"
-      },
-      "en": {
-        "slug": "how-to-use-claude-for-social-media",
-        "title": "How to Use Claude for Social Media: Full Guide"
-      }
-    },
-    {
-      "translationKey": "pgrust-postgres-rust-rewrite",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "pgrust-postgres-rust-yeniden-yazimi",
-        "title": "pgrust: Postgres AI Ajanlarıyla Rust'a Nasıl Yazıldı"
-      },
-      "en": {
-        "slug": "pgrust-postgres-rewritten-in-rust",
-        "title": "pgrust: Postgres Rewritten in Rust by AI Agents"
-      }
-    },
-    {
-      "translationKey": "staff-engineer-path",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "staff-engineer-yolu",
-        "title": "Staff Engineer Yolu: Senior'ın Ötesi"
-      },
-      "en": {
-        "slug": "staff-engineer-career-path",
-        "title": "The Staff Engineer Path: Beyond Senior"
-      }
-    },
-    {
-      "translationKey": "how-to-write-rfc",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "muhendislik-rfc-nasil-yazilir",
-        "title": "Mühendislik RFC'si Nasıl Yazılır"
-      },
-      "en": {
-        "slug": "how-to-write-engineering-rfc",
-        "title": "How to Write an Engineering RFC"
-      }
-    },
-    {
-      "translationKey": "developer-salary-negotiation",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "yazilimci-maas-pazarligi-2026",
-        "title": "2026'da Yazılımcı Maaş Pazarlığı"
-      },
-      "en": {
-        "slug": "developer-salary-negotiation-2026",
-        "title": "Salary Negotiation for Developers in 2026"
-      }
-    },
-    {
-      "translationKey": "ai-proof-developer-skills",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-dayanikli-yazilimci-becerileri",
-        "title": "AI'a Dayanıklı Yazılımcı Becerileri"
-      },
-      "en": {
-        "slug": "ai-proof-developer-skills",
-        "title": "Building an AI-Proof Developer Skill Set"
       }
     }
   ]

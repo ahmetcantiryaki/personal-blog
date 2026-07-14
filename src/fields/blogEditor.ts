@@ -5,6 +5,8 @@ import {
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
 
+import { imageBlock } from './imageBlock'
+
 /**
  * Languages the fenced-code block accepts. The premade CodeBlock validates its
  * `language` against this map (a `select`), so it MUST include every info-string
@@ -68,7 +70,7 @@ const CODE_LANGUAGES: Record<string, string> = {
 export const blogEditor = lexicalEditor({
   features: ({ defaultFeatures }) => [
     ...defaultFeatures,
-    BlocksFeature({ blocks: [CodeBlock({ languages: CODE_LANGUAGES })] }),
+    BlocksFeature({ blocks: [CodeBlock({ languages: CODE_LANGUAGES }), imageBlock] }),
     EXPERIMENTAL_TableFeature(),
   ],
 })

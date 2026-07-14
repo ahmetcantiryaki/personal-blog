@@ -32,9 +32,13 @@ const SKIPPED_TYPES = new Set(['upload', 'image', 'embed', 'horizontalrule'])
 const isCodeBlock = (node: LexicalNode): boolean =>
   node.type === 'block' && node.fields?.blockType === 'Code'
 
+/** An `Image` block node (see src/fields/imageBlock.ts) — never read aloud. */
+const isImageBlock = (node: LexicalNode): boolean =>
+  node.type === 'block' && node.fields?.blockType === 'Image'
+
 /** Depth-first plain-text of a node (bold/link/inline-code children flattened). */
 const textOf = (node: LexicalNode): string => {
-  if (SKIPPED_TYPES.has(node.type ?? '') || isCodeBlock(node)) return ''
+  if (SKIPPED_TYPES.has(node.type ?? '') || isCodeBlock(node) || isImageBlock(node)) return ''
   if (typeof node.text === 'string') return node.text
   return (node.children ?? []).map(textOf).join('')
 }
@@ -66,6 +70,8 @@ export function extractSpeechText(content: unknown, opts: SpeechExtractOptions):
       continue
     }
     inCodeRun = false
+
+    if (isImageBlock(node)) continue
 
     if (node.type === 'table') {
       lines.push(TABLE_PLACEHOLDER[opts.locale])

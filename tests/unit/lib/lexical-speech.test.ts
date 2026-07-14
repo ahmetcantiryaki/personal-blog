@@ -19,6 +19,10 @@ const table = () => ({
   ],
 })
 const upload = () => ({ type: 'upload', value: { id: '1' } })
+const image = () => ({
+  type: 'block',
+  fields: { blockType: 'Image', src: '/images/blog/foo/01.jpg', alt: 'Alt metin', caption: 'Kaynak: Jane Doe' },
+})
 const link = (text: string, url: string) => ({
   type: 'link',
   fields: { url },
@@ -54,6 +58,11 @@ describe('extractSpeechText', () => {
     expect(extractSpeechText(content, { locale: 'en' })).toBe(
       'A comparison table is available in the article.',
     )
+  })
+
+  it('Image bloğunu (alt/caption dahil) tamamen atlar, placeholder üretmez', () => {
+    const content = doc([p('Önce.'), image(), p('Sonra.')])
+    expect(extractSpeechText(content, { locale: 'tr' })).toBe('Önce.\nSonra.')
   })
 
   it('başlıklardan sonra nokta yoksa ekler', () => {
