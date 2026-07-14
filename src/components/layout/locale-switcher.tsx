@@ -67,7 +67,14 @@ export function LocaleSwitcher({ locale, ariaLabel }: LocaleSwitcherProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="gap-1.5" aria-label={ariaLabel}>
+        {/* Accessible name must contain the visible "TR"/"EN" label
+            (WCAG 2.5.3 label-in-name — Lighthouse label-content-name-mismatch). */}
+        <Button
+          variant="ghost"
+          size="sm"
+          className="gap-1.5"
+          aria-label={`${LOCALE_SHORT[locale]} — ${ariaLabel}`}
+        >
           <Globe className="size-4" />
           <span className="text-xs font-semibold">{LOCALE_SHORT[locale]}</span>
         </Button>

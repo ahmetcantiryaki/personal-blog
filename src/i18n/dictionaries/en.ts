@@ -24,11 +24,15 @@ export const en: Dictionary = {
 
   home: {
     hero: {
-      title: 'Calm guides that untangle technology',
+      badge: 'AI-powered blog',
+      titleLead: 'Calm guides that',
+      titleHighlight: 'untangle',
+      titleTail: 'technology',
       subtitle:
         'From AI to social media, software to digital marketing — every article is verified against primary sources and written natively in two languages.',
       ctaTools: 'AI Tool Picker',
       ctaTransparency: 'How this blog is made',
+      stats: '103+ articles · 2 languages · New content daily',
     },
     showcase: {
       title: 'What makes Woyable different?',

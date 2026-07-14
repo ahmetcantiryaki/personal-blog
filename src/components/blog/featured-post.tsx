@@ -31,7 +31,8 @@ export function FeaturedPost({ post, locale, dict }: FeaturedPostProps) {
             seed={post.slug}
             categoryLabel={post.category?.title}
             variant="hero"
-            sizes="(min-width: 768px) 50vw, 100vw"
+            sizes="(min-width: 1152px) 560px, (min-width: 768px) 50vw, 100vw"
+            priority
           />
         </div>
       </div>

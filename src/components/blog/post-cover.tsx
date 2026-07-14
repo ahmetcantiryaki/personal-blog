@@ -19,6 +19,12 @@ interface PostCoverProps {
    * in narrower slots should pass a tighter value for better download sizing.
    */
   sizes?: string
+  /**
+   * Eager-load this cover as the page's LCP candidate (next/image `priority`).
+   * Only the above-the-fold hero slot should set this — everything else stays
+   * lazy.
+   */
+  priority?: boolean
   className?: string
 }
 
@@ -36,6 +42,7 @@ export function PostCover({
   categoryLabel,
   variant = 'card',
   sizes = '100vw',
+  priority = false,
   className,
 }: PostCoverProps) {
   if (coverImage) {
@@ -45,6 +52,7 @@ export function PostCover({
         alt={title}
         fill
         sizes={sizes}
+        priority={priority}
         // Fine ink-crosshatch illustrations lose their linework at the default
         // q75 when downscaled into card slots; q92 keeps the linework crisp on
         // the white paper backgrounds (whitelisted via images.qualities).

@@ -22,11 +22,15 @@ export const tr = {
 
   home: {
     hero: {
-      title: 'Teknolojiyi sadeleştiren sakin rehberler',
+      badge: 'AI destekli blog',
+      titleLead: 'Teknolojiyi',
+      titleHighlight: 'sadeleştiren',
+      titleTail: 'sakin rehberler',
       subtitle:
         'Yapay zekadan sosyal medyaya, yazılımdan dijital pazarlamaya — her yazı birincil kaynaklardan doğrulanır ve iki dilde doğal olarak yazılır.',
       ctaTools: 'AI Araç Seçici',
       ctaTransparency: 'Bu blog nasıl üretiliyor?',
+      stats: '103+ makale · 2 dil · Günlük yeni içerik',
     },
     showcase: {
       title: 'Woyable’da farklı olan ne?',

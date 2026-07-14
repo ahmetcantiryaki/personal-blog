@@ -45,4 +45,21 @@ const nextConfig = {
   },
 }
 
-export default withPayload(nextConfig, { devBundleServerPackages: false })
+const config = withPayload(nextConfig, { devBundleServerPackages: false })
+
+// withPayload injects `Accept-CH/Vary/Critical-CH: Sec-CH-Prefers-Color-Scheme`
+// on every route for the admin panel's server-side theme detection. Critical-CH
+// makes browsers restart the very first navigation, which Lighthouse counts as
+// a ~470ms redirect on the public site — so scope Payload's injected header
+// rule to /admin, the only place server-side theme detection is used.
+const payloadHeaders = config.headers
+config.headers = async () => {
+  const rules = await payloadHeaders()
+  return rules.map((rule) =>
+    rule.headers?.some((h) => h.key === 'Critical-CH')
+      ? { ...rule, source: '/admin/:path*' }
+      : rule,
+  )
+}
+
+export default config

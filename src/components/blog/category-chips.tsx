@@ -18,14 +18,14 @@ const chipBase =
   'inline-flex items-center rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background'
 
 /**
- * Category filter chips. On mobile the chips wrap onto multiple lines (no
- * hidden horizontal scroll); from `sm` up they stay on a single, horizontally
- * scrollable row exactly as before.
+ * Category filter chips. Chips wrap onto multiple lines at every breakpoint —
+ * no horizontal scrollbar; with 9 categories a two-line wrap reads cleaner
+ * than a hidden scroll row.
  */
 export function CategoryChips({ categories, locale, dict, activeSlug = null }: CategoryChipsProps) {
   return (
-    <nav aria-label={dict.nav.categories} className="-mx-1 pb-1 sm:overflow-x-auto">
-      <ul className="flex flex-wrap items-center gap-2 px-1 sm:w-max sm:flex-nowrap">
+    <nav aria-label={dict.nav.categories} className="-mx-1 pb-1">
+      <ul className="flex flex-wrap items-center gap-2 px-1">
         <li>
           <Link
             href={routes.home(locale)}

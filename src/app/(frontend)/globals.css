@@ -21,8 +21,10 @@
   --popover: oklch(1 0 0);
   --popover-foreground: var(--foreground);
 
-  /* Accent: dusty teal — used sparingly for links, actions, focus */
-  --primary: oklch(0.556 0.058 192);
+  /* Accent: dusty teal — used sparingly for links, actions, focus.
+     L 0.50 (was 0.556) so primary-on-background and white-on-primary both
+     clear WCAG AA 4.5:1 (Lighthouse color-contrast). */
+  --primary: oklch(0.5 0.058 192);
   --primary-foreground: oklch(0.99 0.005 180);
 
   --secondary: oklch(0.965 0.005 83);
@@ -39,7 +41,7 @@
 
   --border: oklch(0.9 0.005 83);
   --input: oklch(0.9 0.005 83);
-  --ring: oklch(0.556 0.058 192);
+  --ring: oklch(0.5 0.058 192);
 }
 
 .dark {
