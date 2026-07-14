@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
+import { ListenButton } from '@/components/blog/listen-button'
 import { PostContent } from '@/components/blog/post-content'
 import { PostHero } from '@/components/blog/post-hero'
 import { ReactionButtons } from '@/components/blog/reaction-buttons'
+import { ReadingProgress } from '@/components/blog/reading-progress'
 import { RelatedPosts } from '@/components/blog/related-posts'
 import { ShareButtons } from '@/components/blog/share-buttons'
 import { ViewTracker } from '@/components/blog/view-tracker'
@@ -11,7 +13,8 @@ import { JsonLd } from '@/components/seo/json-ld'
 import { Separator } from '@/components/ui/separator'
 import { getDictionary } from '@/i18n'
 import { isLocale, LOCALES, type Locale } from '@/i18n/config'
-import { articleJsonLd, breadcrumbJsonLd, type Crumb } from '@/lib/json-ld'
+import { articleJsonLd, breadcrumbJsonLd, faqPageJsonLd, type Crumb } from '@/lib/json-ld'
+import { extractFaq } from '@/lib/lexical-faq'
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/posts'
 import { getReactionState } from '@/lib/reactions'
 import {
@@ -127,14 +130,26 @@ export default async function PostPage({ params }: PostPageProps) {
     breadcrumbJsonLd(crumbs),
   ]
 
+  // Every article ends with an FAQ section; emit it as FAQPage structured data
+  // so posts become eligible for FAQ rich results.
+  const faqs = extractFaq(post.content)
+  if (faqs.length > 0) {
+    jsonLd.push(faqPageJsonLd(postUrl, faqs))
+  }
+
   return (
     <article className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-14">
+      <ReadingProgress locale={locale} />
       <JsonLd data={jsonLd} />
       <ViewTracker path={postUrl} slug={slug} />
 
       <PostHero post={post} locale={locale} dict={dict} />
 
-      <PostContent content={post.content} />
+      <div className="mb-6">
+        <ListenButton locale={locale} targetId="article-content" />
+      </div>
+
+      <PostContent content={post.content} id="article-content" />
 
       <Separator className="my-10" />
 

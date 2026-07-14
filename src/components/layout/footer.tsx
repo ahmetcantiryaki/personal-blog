@@ -4,6 +4,7 @@ import { Rss } from 'lucide-react'
 import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
 import type { ResolvedSiteSettings } from '@/lib/site-settings'
+import { AiTransparencyBadge } from '@/components/blog/ai-transparency-badge'
 import { routes } from '@/lib/routes'
 
 interface FooterProps {
@@ -22,6 +23,7 @@ export function Footer({ locale, dict, settings }: FooterProps) {
         <div className="max-w-md space-y-2">
           <p className="font-serif text-lg font-semibold tracking-tight">{settings.siteName}</p>
           <p className="text-sm leading-relaxed text-muted-foreground">{settings.footerText}</p>
+          <AiTransparencyBadge locale={locale} />
         </div>
 
         <div className="flex flex-col gap-3">
@@ -37,6 +39,18 @@ export function Footer({ locale, dict, settings }: FooterProps) {
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {dict.nav.about}
+            </Link>
+            <Link
+              href={`/${locale}/tools`}
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              {dict.home.showcase.toolsTitle}
+            </Link>
+            <Link
+              href={`/${locale}/transparency`}
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              {dict.home.showcase.transparencyTitle}
             </Link>
             {settings.socialLinks.map((link) => (
               <a

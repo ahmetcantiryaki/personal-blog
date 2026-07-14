@@ -9,6 +9,7 @@ export const routes = {
   search: (locale: Locale, q?: string) =>
     q ? `/${locale}/search?q=${encodeURIComponent(q)}` : `/${locale}/search`,
   about: (locale: Locale) => `/${locale}/about`,
+  tools: (locale: Locale) => `/${locale}/tools`,
   login: (locale: Locale, returnTo?: string) =>
     returnTo ? `/${locale}/login?returnTo=${encodeURIComponent(returnTo)}` : `/${locale}/login`,
   register: (locale: Locale, returnTo?: string) =>

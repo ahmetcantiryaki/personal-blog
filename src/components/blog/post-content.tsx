@@ -9,6 +9,8 @@ import { tableJSXConverters } from './table-converters'
 interface PostContentProps {
   content: Post['content']
   className?: string
+  /** DOM id for the rendered container, e.g. for reading-aloud/scroll targeting. */
+  id?: string
 }
 
 /** The `data` shape RichText accepts, derived from the component itself. */
@@ -38,10 +40,10 @@ interface CodeBlockFields {
  * SAME tab (via next/link for client-side nav) to keep readers on the site,
  * while external links open in a NEW tab with rel="noopener noreferrer".
  */
-export function PostContent({ content, className }: PostContentProps) {
+export function PostContent({ content, className, id }: PostContentProps) {
   if (!content) return null
   return (
-    <div className={cn('prose', className)}>
+    <div id={id} className={cn('prose', className)}>
       <RichText
         data={content as unknown as RichTextData}
         disableContainer
