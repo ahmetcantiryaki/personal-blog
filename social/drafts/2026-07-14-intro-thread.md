@@ -18,11 +18,10 @@ Here's how it works 🧵
 **2/**
 The pipeline:
 
-- A weekly "strategist" agent researches what people actually search for and
-  fills a topic queue
-- A daily writer agent picks from the queue, verifies facts against primary
-  sources, and writes native Turkish + English pairs
-- Every push auto-deploys
+- A weekly "strategist" agent researches what people search for and fills a
+  topic queue
+- A daily writer agent picks a topic, verifies facts against primary sources,
+  and writes native Turkish + English pairs
 
 116 article pairs so far.
 
@@ -32,7 +31,7 @@ The covers are my favorite part.
 Every article gets a hand-drawn vintage illustration — ink + watercolor, a
 little brass robot mascot, and a handwritten hook.
 
-Cost per cover: $0.04.
+Drawn by nano-banana running on @fal — $0.04 per cover.
 Consistency: one shared prompt template.
 
 **4/**
