@@ -15,6 +15,32 @@ function XLogo({ className }: { className?: string }) {
 }
 
 /**
+ * Compact header variant: mini avatar + handle, reads like a nav item.
+ * Links to the same X profile as the footer card.
+ */
+export function CreatorChip({ ariaLabel }: { ariaLabel: string }) {
+  return (
+    <a
+      href="https://x.com/ahmetcantryk"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={ariaLabel}
+      className="inline-flex items-center gap-2 rounded-full border border-border/70 py-1 pl-1 pr-3 text-xs font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+    >
+      <Image
+        src="/images/ahmetcantryk.jpg"
+        alt=""
+        width={24}
+        height={24}
+        className="rounded-full"
+      />
+      @ahmetcantryk
+      <XLogo className="size-3" />
+    </a>
+  )
+}
+
+/**
  * "Created by" card in the footer, styled like an X profile card: avatar,
  * display name, @handle, X logo. The whole card links to the profile.
  */

@@ -4,6 +4,7 @@ import { Menu, Search } from 'lucide-react'
 import Link from 'next/link'
 import * as React from 'react'
 
+import { CreatorCard } from '@/components/layout/creator-card'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import {
@@ -123,6 +124,9 @@ export function MobileNav({ locale, dict, categories }: MobileNavProps) {
             </>
           )}
         </div>
+
+        <Separator />
+        <CreatorCard label={dict.footer.createdBy} />
       </SheetContent>
     </Sheet>
   )

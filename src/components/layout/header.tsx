@@ -10,6 +10,7 @@ import { routes } from '@/lib/routes'
 
 import { AuthNav } from './auth-nav'
 import { CategoriesNav } from './categories-nav'
+import { CreatorChip } from './creator-card'
 import { LocaleSwitcher } from './locale-switcher'
 import { MobileNav } from './mobile-nav'
 
@@ -54,6 +55,9 @@ export async function Header({ locale, dict, siteName }: HeaderProps) {
         </nav>
 
         <div className="ml-auto flex items-center gap-1">
+          <div className="mr-1 hidden lg:block">
+            <CreatorChip ariaLabel={`${dict.footer.createdBy} @ahmetcantryk`} />
+          </div>
           <Button variant="ghost" size="icon" asChild aria-label={dict.nav.search}>
             <Link href={routes.search(locale)}>
               <Search className="size-5" />
