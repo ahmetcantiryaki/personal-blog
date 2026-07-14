@@ -147,6 +147,7 @@ export const tr = {
     rss: 'RSS',
     builtWith: 'Next.js ve Payload ile geliştirildi.',
     rights: 'Tüm hakları saklıdır.',
+    createdBy: 'created by',
   },
 
   error: {

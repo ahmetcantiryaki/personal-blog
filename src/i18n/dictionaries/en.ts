@@ -149,6 +149,7 @@ export const en: Dictionary = {
     rss: 'RSS',
     builtWith: 'Built with Next.js and Payload.',
     rights: 'All rights reserved.',
+    createdBy: 'created by',
   },
 
   error: {

@@ -5,6 +5,7 @@ import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
 import type { ResolvedSiteSettings } from '@/lib/site-settings'
 import { AiTransparencyBadge } from '@/components/blog/ai-transparency-badge'
+import { CreatorCard } from '@/components/layout/creator-card'
 import { routes } from '@/lib/routes'
 
 interface FooterProps {
@@ -72,6 +73,8 @@ export function Footer({ locale, dict, settings }: FooterProps) {
             </Link>
           </nav>
         </div>
+
+        <CreatorCard label={dict.footer.createdBy} />
       </div>
 
       <div className="border-t border-border/60">
