@@ -5,7 +5,7 @@ translationKey: "claude-cowork-web-mobile-expansion"
 locale: "en"
 excerpt: "Anthropic moved Claude Cowork to web and mobile on July 7, 2026. Sessions now run in the cloud, and usage data shows most work is not coding."
 category: "ai"
-tags: ["ai-agents", "ai-tools", "automation", "ai-infrastructure"]
+tags: ["ai-agents", "ai-tools", "automation", "ai-infrastructure", "claude"]
 publishedAt: "2026-07-08"
 seoTitle: "Claude Cowork Expands to Web and Mobile: What Changed"
 seoDescription: "Anthropic expanded Claude Cowork to web and mobile on July 7, 2026. We cover the permission model, Microsoft 365 write tools, and new usage data."

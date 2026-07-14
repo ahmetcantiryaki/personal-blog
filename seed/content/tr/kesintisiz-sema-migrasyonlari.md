@@ -5,7 +5,7 @@ translationKey: "zero-downtime-schema-migrations"
 locale: "tr"
 excerpt: "Bir ALTER TABLE üretim tablosunu kilitledi. Expand-contract deseni, batch backfill ve CREATE INDEX CONCURRENTLY ile kesintisiz şema değişikliği nasıl yapılır?"
 category: "software-engineering"
-tags: ["databases", "sql", "reliability", "deployment", "best-practices"]
+tags: ["databases", "sql", "reliability", "deployment", "best-practices", "postgresql"]
 publishedAt: "2026-07-12"
 seoTitle: "Kesintisiz Şema Migrasyonu: Expand-Contract Deseni Rehberi"
 seoDescription: "Bir ALTER TABLE üretim tablosunu kilitledi. Expand-contract deseni, batch backfill ve CREATE INDEX CONCURRENTLY ile kesintisiz şema değişikliği nasıl yapılır?"

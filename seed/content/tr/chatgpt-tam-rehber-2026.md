@@ -5,7 +5,7 @@ translationKey: "chatgpt-complete-guide"
 locale: "tr"
 excerpt: "ChatGPT nasıl kullanılır ve hangi plan size uygun? Temmuz 2026'da ücretsiz reklamlı katman, Go, Plus ve Pro planlarını, modelleri ve prompt ipuçlarını anlattık."
 category: "ai"
-tags: ["ai-tools", "llm", "prompt-engineering", "productivity", "best-practices"]
+tags: ["ai-tools", "llm", "prompt-engineering", "productivity", "best-practices", "chatgpt", "openai"]
 publishedAt: "2026-07-13"
 seoTitle: "ChatGPT Nasıl Kullanılır? 2026 Tam Rehber"
 seoDescription: "ChatGPT nasıl kullanılır? Ücretsiz reklamlı katman, Go 8, Plus 20 ve Pro 100-200 dolar planları, modeller ve daha iyi yanıt için prompt kalıpları burada."

@@ -4,7 +4,7 @@ slug: "claude-sonnet-5-gpt-5-6-gemini-3-5-kiyaslamasi"
 translationKey: "frontier-model-comparison-2026"
 locale: "tr"
 category: "ai"
-tags: ["llm", "ai-tools", "ai-coding", "ai-agents", "cost-optimization"]
+tags: ["llm", "ai-tools", "ai-coding", "ai-agents", "cost-optimization", "claude", "chatgpt", "gemini"]
 publishedAt: "2026-07-07"
 seoTitle: "Claude Sonnet 5 vs GPT-5.6 vs Gemini 3.5: Nasıl Seçilir"
 seoDescription: "Kodlama ve agentic iş için Claude Sonnet 5, GPT-5.6 ve Gemini 3.5 arasında seçim çerçevesi — maliyet, bağlam, verim ve agentic benchmark üzerinden karşılaştırma."

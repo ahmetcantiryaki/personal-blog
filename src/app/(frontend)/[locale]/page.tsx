@@ -7,6 +7,7 @@ import { LoadMorePosts } from "@/components/blog/load-more-posts";
 import { PostGrid } from "@/components/blog/post-grid";
 import { HomeHero } from "@/components/home/home-hero";
 import { HomeShowcase } from "@/components/home/home-showcase";
+import { TechChips } from "@/components/home/tech-chips";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getDictionary } from "@/i18n";
 import { isLocale, LOCALES, type Locale } from "@/i18n/config";
@@ -70,13 +71,29 @@ export default async function Home({ params }: HomeProps) {
       <HomeHero locale={locale} dict={dict} />
 
       <div className="mx-auto max-w-6xl px-4 pb-10 sm:px-6 sm:pb-14">
-        <div className="mb-10">
-          <CategoryChips
-            categories={categories}
-            locale={locale}
-            dict={dict}
-            activeSlug={null}
-          />
+        <div className="mb-10 space-y-6">
+          <div>
+            <h2 className="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              {dict.home.topicsLabel}
+            </h2>
+            <CategoryChips
+              categories={categories}
+              locale={locale}
+              dict={dict}
+              activeSlug={null}
+            />
+          </div>
+
+          <div>
+            <h2 className="mb-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              {dict.home.techLabel}
+            </h2>
+            <TechChips
+              locale={locale}
+              postsWord={dict.home.techPostsWord}
+              aria-label={dict.home.techLabel}
+            />
+          </div>
         </div>
 
         {featured ? (

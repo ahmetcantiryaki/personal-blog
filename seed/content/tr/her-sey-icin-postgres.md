@@ -5,7 +5,7 @@ translationKey: "postgres-for-everything"
 locale: "tr"
 excerpt: "postgres redis yerine geçer mi? Temmuz 2026'da tek bir Postgres cache, kuyruk, tam metin arama ve vektörü tek çatı altında toplayıp işletme yükünü siler."
 category: "software-engineering"
-tags: ["databases", "sql", "backend", "software-architecture", "cost-optimization"]
+tags: ["databases", "sql", "backend", "software-architecture", "cost-optimization", "postgresql"]
 publishedAt: "2026-07-13"
 seoTitle: "Postgres Redis Yerine: Her Şey İçin Tek Veritabanı"
 seoDescription: "Redis, Kafka ve Elasticsearch yerine tek Postgres: UNLOGGED cache, SKIP LOCKED kuyruk, pgvector ve TimescaleDB ile yedi sistemin yükünü nasıl silersin?"

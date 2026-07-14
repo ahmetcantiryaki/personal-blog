@@ -5,7 +5,7 @@ translationKey: "postgres-for-everything"
 locale: "en"
 excerpt: "Just use Postgres for everything: in July 2026 one instance absorbs caching, queues, full-text search and vectors, erasing the tax of seven systems."
 category: "software-engineering"
-tags: ["databases", "sql", "backend", "software-architecture", "cost-optimization"]
+tags: ["databases", "sql", "backend", "software-architecture", "cost-optimization", "postgresql"]
 publishedAt: "2026-07-13"
 seoTitle: "Just Use Postgres for Everything: One DB, Not Seven"
 seoDescription: "Replace Redis, Kafka and Elasticsearch with one Postgres. UNLOGGED cache, SKIP LOCKED queues, pgvector and TimescaleDB cut the tax of seven systems."

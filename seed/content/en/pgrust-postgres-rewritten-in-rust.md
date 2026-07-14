@@ -5,7 +5,7 @@ translationKey: "pgrust-postgres-rust-rewrite"
 locale: "en"
 excerpt: "pgrust just passed 100% of Postgres's 46,000+ regression tests — 450K lines of Rust written by eight parallel AI agents in 12 weeks. Is it production-ready?"
 category: "software-engineering"
-tags: ["databases", "sql", "open-source", "ai-coding", "software-architecture"]
+tags: ["databases", "sql", "open-source", "ai-coding", "software-architecture", "postgresql"]
 publishedAt: "2026-07-14"
 seoTitle: "pgrust: Postgres Rewritten in Rust, Explained"
 seoDescription: "pgrust passed all 46,000+ Postgres regression tests. Built by eight AI agents in 12 weeks, 450K lines of Rust — what it means and its real limits."

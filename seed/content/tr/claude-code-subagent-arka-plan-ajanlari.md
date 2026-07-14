@@ -5,7 +5,7 @@ translationKey: "claude-code-subagents"
 locale: "tr"
 excerpt: "Temmuz 2026 itibarıyla Claude Code subagent'ları varsayılan olarak arka planda çalışıyor ve arka plan ajanları kendiliğinden taslak PR açıyor. İşte pratik akış."
 category: "ai"
-tags: ["ai-agents", "ai-coding", "ai-tools", "workflow", "automation"]
+tags: ["ai-agents", "ai-coding", "ai-tools", "workflow", "automation", "claude"]
 publishedAt: "2026-07-07"
 seoTitle: "Claude Code Subagent ve Arka Plan Ajanları Rehberi"
 seoDescription: "Subagent'ları varsayılan arka planda çalıştırma, taslak PR açan arka plan ajanları ve yeni Manual izin moduna pratik bir Claude Code iş akışı rehberi."

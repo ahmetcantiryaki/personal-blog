@@ -96,18 +96,37 @@ describe('getPostBySlug', () => {
 })
 
 describe('getRelatedPosts', () => {
-  it('returns [] when the post has no category', async () => {
-    const result = await getRelatedPosts('en', { category: null } as PostWithRelations)
-    expect(result).toEqual([])
-    expect(fake.find).not.toHaveBeenCalled()
-  })
-
-  it('queries same-category posts excluding the current one', async () => {
-    fake.find.mockResolvedValue(findResult([post({ id: 12 })]))
+  it('queries same-category posts first, excluding the current one', async () => {
+    fake.find.mockResolvedValue(findResult([post({ id: 12 }), post({ id: 13 }), post({ id: 14 })]))
     const result = await getRelatedPosts('en', post() as unknown as PostWithRelations)
-    expect(result).toHaveLength(1)
+    expect(result).toHaveLength(3)
     const where = JSON.stringify(fake.find.mock.calls[0][0].where)
     expect(where).toContain('not_equals')
+    // Enough same-category posts: no backfill query needed.
+    expect(fake.find).toHaveBeenCalledTimes(1)
+  })
+
+  it('always fills to the limit, backfilling across tiers without duplicates', async () => {
+    fake.find
+      .mockResolvedValueOnce(findResult([post({ id: 12 })])) // tier 1: same category
+      .mockResolvedValueOnce(findResult([post({ id: 13 })])) // tier 2: shared tags
+      .mockResolvedValueOnce(findResult([post({ id: 14 }), post({ id: 15 })])) // tier 3: recent
+    const result = await getRelatedPosts('en', post() as unknown as PostWithRelations)
+    expect(result.map((p) => p.id)).toEqual([12, 13, 14])
+    expect(fake.find).toHaveBeenCalledTimes(3)
+  })
+
+  it('backfills from recent posts even when the post has no category or tags', async () => {
+    fake.find.mockResolvedValue(
+      findResult([post({ id: 21 }), post({ id: 22 }), post({ id: 23 })]),
+    )
+    const result = await getRelatedPosts('en', {
+      id: 10,
+      category: null,
+      tags: null,
+    } as PostWithRelations)
+    expect(result).toHaveLength(3)
+    expect(result.map((p) => p.id)).toEqual([21, 22, 23])
   })
 })
 

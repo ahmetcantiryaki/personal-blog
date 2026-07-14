@@ -5,7 +5,7 @@ translationKey: "gpt-5-6-general-availability-codex-desktop"
 locale: "en"
 excerpt: "GPT-5.6 went GA on July 9 and Codex moved into the ChatGPT desktop app. Should you switch your daily coding agent, or is this just packaging?"
 category: "ai"
-tags: ["llm", "ai-tools", "ai-coding", "developer-experience"]
+tags: ["llm", "ai-tools", "ai-coding", "developer-experience", "chatgpt", "openai"]
 publishedAt: "2026-07-13"
 seoTitle: "GPT-5.6 GA and Codex in ChatGPT Desktop: A Guide"
 seoDescription: "GPT-5.6 went GA on July 9 and Codex moved into the ChatGPT desktop app. Should you switch your daily coding agent, or is this just packaging?"

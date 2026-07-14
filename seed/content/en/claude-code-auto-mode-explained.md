@@ -5,7 +5,7 @@ translationKey: "claude-code-auto-mode-explained"
 locale: "en"
 excerpt: "July 2026: Claude Code Auto Mode is a classifier layer where a second Claude instance approves tool calls in real time. v2.1.207 widened its reach."
 category: "ai"
-tags: ["ai-agents", "ai-tools", "ai-reliability", "best-practices"]
+tags: ["ai-agents", "ai-tools", "ai-reliability", "best-practices", "claude"]
 publishedAt: "2026-07-12"
 seoTitle: "Claude Code Auto Mode: How It Works"
 seoDescription: "What is Claude Code Auto Mode, why did v2.1.200 make Manual the default, and what did v2.1.207 change for Bedrock, Vertex AI, and Foundry? A practical guide."

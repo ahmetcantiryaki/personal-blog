@@ -5,7 +5,7 @@ translationKey: "friendly-fire-claude-code-exploit"
 locale: "tr"
 excerpt: "AI Now Institute'ın Friendly Fire adlı kanıt-konsept saldırısı, Claude Code'un auto-mode güvenlik taramasını uzaktan kod çalıştırmaya çeviriyor."
 category: "ai"
-tags: ["ai-agents", "web-security", "ai-reliability", "best-practices", "open-source"]
+tags: ["ai-agents", "web-security", "ai-reliability", "best-practices", "open-source", "claude"]
 publishedAt: "2026-07-12"
 seoTitle: "Friendly Fire: Claude Code Güvenlik Açığı RCE'ye Döner"
 seoDescription: "AI Now Institute'ın Friendly Fire adlı kanıt-konsept saldırısı, Claude Code'un auto-mode güvenlik taramasını uzaktan kod çalıştırmaya çeviriyor."

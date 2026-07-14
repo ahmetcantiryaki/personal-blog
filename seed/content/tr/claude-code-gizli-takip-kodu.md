@@ -5,7 +5,7 @@ translationKey: "claude-code-hidden-tracking-code"
 locale: "tr"
 excerpt: "Claude Code, Nisan'dan beri saat dilimi ve proxy'ye göre kullanıcıları gizlice etiketliyordu; sinyal bir Unicode karakterinde saklıydı, 1 Temmuz'da kaldırıldı."
 category: "ai"
-tags: ["ai-coding", "ai-tools", "ai-reliability", "web-security"]
+tags: ["ai-coding", "ai-tools", "ai-reliability", "web-security", "claude"]
 publishedAt: "2026-07-07"
 seoTitle: "Claude Code'un Gizli Takip Kodu Ne Anlama Geliyor"
 seoDescription: "Claude Code, Nisan'dan beri saat dilimi ve proxy'ye göre kullanıcıları gizlice işaretliyordu; sinyal bir Unicode karakterinde saklıydı, 1 Temmuz'da kaldırıldı."

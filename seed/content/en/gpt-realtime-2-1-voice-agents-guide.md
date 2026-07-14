@@ -5,7 +5,7 @@ translationKey: "gpt-realtime-voice-agents"
 locale: "en"
 excerpt: "A practical guide to building production voice agents with gpt-realtime-2.1: transport choice, the reasoning-latency tradeoff, tool calling, and pricing."
 category: "ai"
-tags: ["ai-agents", "llm", "ai-infrastructure", "ai-tools"]
+tags: ["ai-agents", "llm", "ai-infrastructure", "ai-tools", "chatgpt", "openai"]
 publishedAt: "2026-07-10"
 seoTitle: "Building Production Voice Agents with gpt-realtime-2.1"
 seoDescription: "Build a production voice agent with gpt-realtime-2.1: pick WebRTC, WebSocket, or SIP, tune reasoning effort against latency, and choose mini vs flagship."

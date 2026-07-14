@@ -5,7 +5,7 @@ translationKey: "claude-cowork-web-mobile-expansion"
 locale: "tr"
 excerpt: "Anthropic, 7 Temmuz 2026'da Claude Cowork'ü web ve mobile taşıdı. Oturumlar artık bulutta çalışıyor; kodlama dışı işler kullanımın çoğunu oluşturuyor."
 category: "ai"
-tags: ["ai-agents", "ai-tools", "automation", "ai-infrastructure"]
+tags: ["ai-agents", "ai-tools", "automation", "ai-infrastructure", "claude"]
 publishedAt: "2026-07-08"
 seoTitle: "Claude Cowork Web ve Mobilde: Neler Değişti"
 seoDescription: "Anthropic, Claude Cowork'ü 7 Temmuz 2026'da web ve mobile genişletti. İzin modelini, Microsoft 365 yazma araçlarını ve kullanım verilerini inceliyoruz."

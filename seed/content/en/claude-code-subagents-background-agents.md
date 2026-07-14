@@ -5,7 +5,7 @@ translationKey: "claude-code-subagents"
 locale: "en"
 excerpt: "As of July 2026, Claude Code subagents run in the background by default and background agents open draft PRs on their own. Here is the hands-on workflow."
 category: "ai"
-tags: ["ai-agents", "ai-coding", "ai-tools", "workflow", "automation"]
+tags: ["ai-agents", "ai-coding", "ai-tools", "workflow", "automation", "claude"]
 publishedAt: "2026-07-07"
 seoTitle: "Claude Code Subagents & Background Agents Guide"
 seoDescription: "A hands-on guide to Claude Code subagents running in the background by default, background agents that open draft PRs, and the new Manual permission mode."

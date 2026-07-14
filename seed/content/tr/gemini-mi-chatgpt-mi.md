@@ -5,7 +5,7 @@ translationKey: "gemini-vs-chatgpt"
 locale: "tr"
 excerpt: "Gemini mi ChatGPT mi? Temmuz 2026'da günlük sohbet, yazı, kodlama, görsel ve araştırma için hangisi daha iyi; ücretsiz ve 20 dolarlık planları karşılaştırdık."
 category: "ai"
-tags: ["ai-tools", "llm", "productivity", "best-practices"]
+tags: ["ai-tools", "llm", "productivity", "best-practices", "gemini", "chatgpt", "openai"]
 publishedAt: "2026-07-13"
 seoTitle: "Gemini mi ChatGPT mi? 2026 Karar Rehberi"
 seoDescription: "Gemini mi ChatGPT mi sorusuna kullanıcı tipine göre net yanıt: ücretsiz katmanlar, GPT-5.6 ve Gemini 3.1 Pro, fiyat-performans ve ekosistem uyumu bir arada."

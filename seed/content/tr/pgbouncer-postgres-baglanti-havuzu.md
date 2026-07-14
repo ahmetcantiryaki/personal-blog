@@ -5,7 +5,7 @@ translationKey: "pgbouncer-connection-pooling"
 locale: "tr"
 excerpt: "PgBouncer havuzlaması performansı artırır ama transaction modunda current_user'a dayanan RLS politikalarını kırar; SET LOCAL çözümü ve CVE-2026-6664 yaması."
 category: "devops-cloud"
-tags: ["databases", "sql", "performance", "devops"]
+tags: ["databases", "sql", "performance", "devops", "postgresql"]
 publishedAt: "2026-07-13"
 seoTitle: "PgBouncer ile Postgres Bağlantı Havuzu (2026)"
 seoDescription: "PgBouncer havuzlaması performansı artırır ama transaction modunda current_user'a dayanan RLS politikalarını kırar; SET LOCAL çözümü ve CVE-2026-6664 yaması."

@@ -5,7 +5,7 @@ translationKey: "pgrust-postgres-rust-rewrite"
 locale: "tr"
 excerpt: "pgrust, sekiz yapay zeka ajanının 12 haftada yazdığı 450 bin satır Rust koduyla Postgres'in 46 bin testinin tamamını geçti. Peki bu üretime hazır mı?"
 category: "software-engineering"
-tags: ["databases", "sql", "open-source", "ai-coding", "software-architecture"]
+tags: ["databases", "sql", "open-source", "ai-coding", "software-architecture", "postgresql"]
 publishedAt: "2026-07-14"
 seoTitle: "pgrust Nedir? Postgres'in Rust'a Yeniden Yazımı"
 seoDescription: "pgrust, Postgres'in 46.000+ regresyon testinin tamamını geçen bir Rust yeniden yazımı. Sekiz AI ajanı, 12 hafta, 450K satır kod — detaylar ve sınırlar."

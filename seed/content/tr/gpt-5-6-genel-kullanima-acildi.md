@@ -5,7 +5,7 @@ translationKey: "gpt-5-6-general-availability-codex-desktop"
 locale: "tr"
 excerpt: "GPT-5.6 9 Temmuz'da GA oldu, Codex ChatGPT masaüstüne taşındı. Peki günlük kodlama ajanınızı değiştirmeli misiniz, yoksa bu sadece bir paketleme hamlesi mi?"
 category: "ai"
-tags: ["llm", "ai-tools", "ai-coding", "developer-experience"]
+tags: ["llm", "ai-tools", "ai-coding", "developer-experience", "chatgpt", "openai"]
 publishedAt: "2026-07-13"
 seoTitle: "GPT-5.6 GA ve Codex ChatGPT Masaüstünde: Rehber"
 seoDescription: "GPT-5.6 9 Temmuz'da GA oldu, Codex ChatGPT masaüstüne taşındı. Peki günlük kodlama ajanınızı değiştirmeli misiniz, yoksa bu sadece bir paketleme hamlesi mi?"

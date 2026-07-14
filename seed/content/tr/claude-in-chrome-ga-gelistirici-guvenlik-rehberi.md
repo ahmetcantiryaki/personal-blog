@@ -5,7 +5,7 @@ translationKey: "claude-in-chrome-ga"
 locale: "tr"
 excerpt: "Claude in Chrome 1 Temmuz 2026'da GA'ya ulaştı. İzin modelini, prompt injection riskini ve tarayıcı ajanını güvenli kullanma pratiklerini anlatıyoruz."
 category: "ai"
-tags: ["ai-tools", "ai-agents", "web-security", "best-practices"]
+tags: ["ai-tools", "ai-agents", "web-security", "best-practices", "claude"]
 publishedAt: "2026-07-08"
 seoTitle: "Claude in Chrome GA: Geliştirici Güvenlik Rehberi"
 seoDescription: "Claude in Chrome 1 Temmuz 2026'da genel kullanıma açıldı. İzin modelini, prompt injection riskini ve güvenli kullanım pratiklerini ele alıyoruz."

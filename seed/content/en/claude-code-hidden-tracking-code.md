@@ -5,7 +5,7 @@ translationKey: "claude-code-hidden-tracking-code"
 locale: "en"
 excerpt: "Claude Code silently fingerprinted users by timezone and proxy since April, hid the signal in Unicode apostrophes, and Anthropic rolled it back on July 1."
 category: "ai"
-tags: ["ai-coding", "ai-tools", "ai-reliability", "web-security"]
+tags: ["ai-coding", "ai-tools", "ai-reliability", "web-security", "claude"]
 publishedAt: "2026-07-07"
 seoTitle: "Claude Code's Hidden Tracking Code, Explained"
 seoDescription: "Claude Code secretly fingerprinted users by timezone and proxy IP since April 2026, hiding the signal in a swapped Unicode apostrophe until Anthropic pulled it."

@@ -124,30 +124,97 @@ export async function getPostBySlug(
   return doc ? normalize(doc) : null
 }
 
-/** Up to `limit` other published posts in the same category. */
+/**
+ * Related posts shown below an article. Always fills to `limit` when the site
+ * has enough other published posts, so the strip is never a lonely one or two
+ * cards. Candidates are gathered by decreasing closeness:
+ *
+ *   1. same category (strongest topical signal),
+ *   2. shares at least one tag (closest neighbouring topics),
+ *   3. most recent posts (last-resort backfill).
+ *
+ * Each tier only runs while more cards are still needed, and duplicates /
+ * the current post are removed, so the result is at most `limit` distinct posts.
+ */
 export async function getRelatedPosts(
   locale: Locale,
   post: PostWithRelations,
   limit = 3,
 ): Promise<PostWithRelations[]> {
-  if (!post.category) return []
   const payload = await getPayloadClient()
-  const result = await payload.find({
-    collection: 'posts',
-    where: {
-      and: [
-        basePublished,
-        { category: { equals: post.category.id } },
-        { id: { not_equals: post.id } },
-      ],
-    },
-    locale,
-    depth: 1,
-    limit,
-    overrideAccess: false,
-    sort: '-publishedAt',
-  })
-  return toCards(result.docs)
+
+  const picked: PostWithRelations[] = []
+  const excludedIds = new Set<number>([post.id])
+
+  const take = (candidates: PostWithRelations[]): void => {
+    for (const candidate of candidates) {
+      if (picked.length >= limit) break
+      if (excludedIds.has(candidate.id)) continue
+      excludedIds.add(candidate.id)
+      picked.push(candidate)
+    }
+  }
+
+  // A generous over-fetch per tier: `toCards` may drop partially-translated
+  // posts (no slug in the active locale), so pulling extra keeps the strip full.
+  const overFetch = Math.max(limit * 3, limit)
+
+  // Tier 1 — same category, newest first.
+  if (post.category) {
+    const result = await payload.find({
+      collection: 'posts',
+      where: {
+        and: [
+          basePublished,
+          { category: { equals: post.category.id } },
+          { id: { not_equals: post.id } },
+        ],
+      },
+      locale,
+      depth: 1,
+      limit: overFetch,
+      overrideAccess: false,
+      sort: '-publishedAt',
+    })
+    take(toCards(result.docs))
+  }
+
+  // Tier 2 — shares at least one tag with the current post.
+  const tagIds = (post.tags ?? []).map((tag) => tag.id)
+  if (picked.length < limit && tagIds.length > 0) {
+    const result = await payload.find({
+      collection: 'posts',
+      where: {
+        and: [
+          basePublished,
+          { tags: { in: tagIds } },
+          { id: { not_in: Array.from(excludedIds) } },
+        ],
+      },
+      locale,
+      depth: 1,
+      limit: overFetch,
+      overrideAccess: false,
+      sort: '-publishedAt',
+    })
+    take(toCards(result.docs))
+  }
+
+  // Tier 3 — most recent published posts, so the strip is always full.
+  if (picked.length < limit) {
+    const result = await payload.find({
+      collection: 'posts',
+      where: { and: [basePublished, { id: { not_in: Array.from(excludedIds) } }] },
+      locale,
+      depth: 1,
+      limit: overFetch,
+      overrideAccess: false,
+      sort: '-publishedAt',
+    })
+    take(toCards(result.docs))
+  }
+
+  return picked
 }
 
 /**

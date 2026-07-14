@@ -5,7 +5,7 @@ translationKey: "claude-in-chrome-ga"
 locale: "en"
 excerpt: "Claude in Chrome hit general availability on July 1, 2026. Here's the permission model, the real prompt-injection risk, and safe usage practices."
 category: "ai"
-tags: ["ai-tools", "ai-agents", "web-security", "best-practices"]
+tags: ["ai-tools", "ai-agents", "web-security", "best-practices", "claude"]
 publishedAt: "2026-07-08"
 seoTitle: "Claude in Chrome Reaches GA: A Developer's Security Guide"
 seoDescription: "Claude in Chrome reached general availability on July 1, 2026. We cover the permission model, prompt-injection risk, and safe usage practices for devs."

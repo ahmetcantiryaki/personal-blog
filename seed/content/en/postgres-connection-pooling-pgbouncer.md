@@ -5,7 +5,7 @@ translationKey: "pgbouncer-connection-pooling"
 locale: "en"
 excerpt: "PgBouncer pooling boosts performance but can silently break RLS tenant isolation in transaction mode; here's the SET LOCAL fix and CVE-2026-6664 patch."
 category: "devops-cloud"
-tags: ["databases", "sql", "performance", "devops"]
+tags: ["databases", "sql", "performance", "devops", "postgresql"]
 publishedAt: "2026-07-13"
 seoTitle: "Postgres Connection Pooling with PgBouncer (2026)"
 seoDescription: "PgBouncer pooling boosts performance but can silently break RLS tenant isolation in transaction mode; here's the SET LOCAL fix and CVE-2026-6664 patch."

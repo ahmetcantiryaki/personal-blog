@@ -5,7 +5,7 @@ translationKey: "gpt-realtime-voice-agents"
 locale: "tr"
 excerpt: "OpenAI'nin gpt-realtime-2.1 ve mini modelleriyle üretim sesli ajanı kurma rehberi: WebRTC, WebSocket, SIP seçimi, reasoning-gecikme dengesi ve fiyatlandırma."
 category: "ai"
-tags: ["ai-agents", "llm", "ai-infrastructure", "ai-tools"]
+tags: ["ai-agents", "llm", "ai-infrastructure", "ai-tools", "chatgpt", "openai"]
 publishedAt: "2026-07-10"
 seoTitle: "gpt-realtime-2.1 ile Sesli AI Ajanı Kurma Rehberi"
 seoDescription: "gpt-realtime-2.1 ve mini modeliyle üretim sesli ajanı kurma rehberi: taşıma katmanı seçimi, reasoning-gecikme dengesi, fiyatlandırma ve kesinti yönetimi."

@@ -5,7 +5,7 @@ translationKey: "claude-code-auto-mode-explained"
 locale: "tr"
 excerpt: "Temmuz 2026: Claude Code Auto Mode, ikinci bir Claude örneğinin araç çağrılarını onayladığı sınıflandırıcı katman. v2.1.207 kapsamı genişletti, işte ayrıntılar."
 category: "ai"
-tags: ["ai-agents", "ai-tools", "ai-reliability", "best-practices"]
+tags: ["ai-agents", "ai-tools", "ai-reliability", "best-practices", "claude"]
 publishedAt: "2026-07-12"
 seoTitle: "Claude Code Auto Mode: Nasıl Çalışır?"
 seoDescription: "Claude Code Auto Mode nedir, v2.1.200 neden Manual'ı varsayılan yaptı ve v2.1.207 Bedrock, Vertex, Foundry için neyi değiştirdi? Ayrıntılı rehber."

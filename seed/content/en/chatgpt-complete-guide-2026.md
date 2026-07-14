@@ -5,7 +5,7 @@ translationKey: "chatgpt-complete-guide"
 locale: "en"
 excerpt: "How to use ChatGPT and which plan fits you? A July 2026 walkthrough of the ad-supported free tier, Go, Plus and Pro, the models each unlocks, plus prompt tips."
 category: "ai"
-tags: ["ai-tools", "llm", "prompt-engineering", "productivity", "best-practices"]
+tags: ["ai-tools", "llm", "prompt-engineering", "productivity", "best-practices", "chatgpt", "openai"]
 publishedAt: "2026-07-13"
 seoTitle: "How to Use ChatGPT in 2026: Free, Go, Plus, Pro"
 seoDescription: "How to use ChatGPT in 2026: the ad-supported free tier, Go 8 dollars, Plus 20 and Pro 100–200 plans, the model lineup, and prompt patterns that lift answers."

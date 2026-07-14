@@ -5,7 +5,7 @@ translationKey: "zero-downtime-schema-migrations"
 locale: "en"
 excerpt: "One ALTER TABLE locked a production table for minutes. Here's the expand-contract pattern, batched backfills, and CREATE INDEX CONCURRENTLY done right."
 category: "software-engineering"
-tags: ["databases", "sql", "reliability", "deployment", "best-practices"]
+tags: ["databases", "sql", "reliability", "deployment", "best-practices", "postgresql"]
 publishedAt: "2026-07-12"
 seoTitle: "Zero-Downtime Schema Migrations: The Expand-Contract Pattern"
 seoDescription: "One ALTER TABLE locked a production table for minutes. Here's the expand-contract pattern, batched backfills, and CREATE INDEX CONCURRENTLY done right."
