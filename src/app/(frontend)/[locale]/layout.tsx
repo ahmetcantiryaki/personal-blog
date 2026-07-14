@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Script from 'next/script'
 import React from 'react'
 
 import { GoogleTagManager, GoogleTagManagerNoScript } from '@/components/analytics/google-tag-manager'
@@ -45,7 +46,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
               href="#main-content"
               className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
             >
-              {dict.nav.home}
+              {dict.nav.skipToContent}
             </a>
             <div className="flex min-h-dvh flex-col">
               <Header locale={locale} dict={dict} siteName={settings.siteName} />
@@ -58,6 +59,9 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
           </ThemeProvider>
         </RouteProgress>
         <GoogleTagManager />
+        {/* Self-hosted open-source accessibility widget (Sienna, MIT). A
+            usability aid — real WCAG fixes live in the markup, not the overlay. */}
+        <Script src="/vendor/sienna-accessibility.js" strategy="afterInteractive" />
       </body>
     </html>
   )

@@ -98,6 +98,23 @@ export function articleJsonLd(input: ArticleInput): JsonLdNode {
   }
 }
 
+/** FAQPage schema from a post's extracted FAQ section (rich-result eligible). */
+export function faqPageJsonLd(
+  url: string,
+  faqs: readonly { question: string; answer: string }[],
+): JsonLdNode {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `${absoluteUrl(url)}#faq`,
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  }
+}
+
 export interface Crumb {
   name: string
   url: string

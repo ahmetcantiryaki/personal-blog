@@ -15,6 +15,7 @@ export const en: Dictionary = {
     menu: 'Menu',
     openMenu: 'Open menu',
     closeMenu: 'Close menu',
+    skipToContent: 'Skip to content',
     toggleTheme: 'Toggle theme',
     light: 'Light',
     dark: 'Dark',
@@ -22,6 +23,23 @@ export const en: Dictionary = {
   },
 
   home: {
+    hero: {
+      title: 'Calm guides that untangle technology',
+      subtitle:
+        'From AI to social media, software to digital marketing — every article is verified against primary sources and written natively in two languages.',
+      ctaTools: 'AI Tool Picker',
+      ctaTransparency: 'How this blog is made',
+    },
+    showcase: {
+      title: 'What makes Woyable different?',
+      toolsTitle: 'AI Tool Picker',
+      toolsDesc: 'Answer four questions to find the right AI tool — unbiased and data-driven.',
+      listenTitle: 'Listen to articles',
+      listenDesc: 'Play any article out loud with the listen button at the top of each post.',
+      transparencyTitle: 'Full transparency',
+      transparencyDesc: 'We openly explain how our content is produced — a first in the space.',
+      open: 'Explore',
+    },
     featured: 'Featured',
     latest: 'Latest posts',
     allPosts: 'All posts',

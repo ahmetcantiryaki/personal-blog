@@ -13,6 +13,7 @@ export const tr = {
     menu: 'Menü',
     openMenu: 'Menüyü aç',
     closeMenu: 'Menüyü kapat',
+    skipToContent: 'İçeriğe atla',
     toggleTheme: 'Temayı değiştir',
     light: 'Açık',
     dark: 'Koyu',
@@ -20,6 +21,23 @@ export const tr = {
   },
 
   home: {
+    hero: {
+      title: 'Teknolojiyi sadeleştiren sakin rehberler',
+      subtitle:
+        'Yapay zekadan sosyal medyaya, yazılımdan dijital pazarlamaya — her yazı birincil kaynaklardan doğrulanır ve iki dilde doğal olarak yazılır.',
+      ctaTools: 'AI Araç Seçici',
+      ctaTransparency: 'Bu blog nasıl üretiliyor?',
+    },
+    showcase: {
+      title: 'Woyable’da farklı olan ne?',
+      toolsTitle: 'AI Araç Seçici',
+      toolsDesc: 'Dört soruda size uygun yapay zeka aracını bulun — tarafsız, veriye dayalı.',
+      listenTitle: 'Yazıları dinleyin',
+      listenDesc: 'Her yazının başındaki oynat düğmesiyle içeriği sesli dinleyin.',
+      transparencyTitle: 'Tam şeffaflık',
+      transparencyDesc: 'İçeriğin nasıl üretildiğini açıkça anlatıyoruz — sektörde bir ilk.',
+      open: 'İncele',
+    },
     featured: 'Öne çıkan',
     latest: 'Son yazılar',
     allPosts: 'Tüm yazılar',

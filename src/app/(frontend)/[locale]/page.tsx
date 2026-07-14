@@ -5,6 +5,8 @@ import { CategoryChips } from '@/components/blog/category-chips'
 import { FeaturedPost } from '@/components/blog/featured-post'
 import { LoadMorePosts } from '@/components/blog/load-more-posts'
 import { PostGrid } from '@/components/blog/post-grid'
+import { HomeHero } from '@/components/home/home-hero'
+import { HomeShowcase } from '@/components/home/home-showcase'
 import { JsonLd } from '@/components/seo/json-ld'
 import { getDictionary } from '@/i18n'
 import { isLocale, LOCALES, type Locale } from '@/i18n/config'
@@ -59,12 +61,7 @@ export default async function Home({ params }: HomeProps) {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
       <JsonLd data={websiteJsonLd(locale, routes.search(locale))} />
-      <header className="mb-10 max-w-2xl">
-        <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
-          {dict.siteName}
-        </h1>
-        <p className="mt-3 text-lg text-muted-foreground">{dict.tagline}</p>
-      </header>
+      <HomeHero locale={locale} dict={dict} />
 
       <div className="mb-10">
         <CategoryChips categories={categories} locale={locale} dict={dict} activeSlug={null} />
@@ -75,6 +72,12 @@ export default async function Home({ params }: HomeProps) {
           <FeaturedPost post={featured} locale={locale} dict={dict} />
         </section>
       ) : null}
+
+      <HomeShowcase
+        locale={locale}
+        dict={dict}
+        listenHref={featured ? routes.post(locale, featured.slug ?? '') : undefined}
+      />
 
       <section aria-label={dict.home.latest}>
         <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-muted-foreground">

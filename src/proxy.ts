@@ -28,7 +28,11 @@ export function proxy(req: NextRequest): NextResponse {
   // Root: send the visitor to their preferred locale homepage (canonical URL).
   if (path === '/') {
     const locale = preferredLocale(req.headers.get('accept-language'))
-    return NextResponse.redirect(new URL(`/${locale}`, req.url), 307)
+    const res = NextResponse.redirect(new URL(`/${locale}`, req.url), 307)
+    // The redirect target varies by language preference — tell caches and
+    // crawlers so the negotiated redirect is not treated as a single fixed URL.
+    res.headers.set('Vary', 'Accept-Language')
+    return res
   }
 
   if (req.method !== 'POST') return NextResponse.next()
