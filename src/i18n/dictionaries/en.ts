@@ -56,6 +56,8 @@ export const en: Dictionary = {
 
   post: {
     minRead: 'min read',
+    views: 'views',
+    likes: 'likes',
     publishedOn: 'Published',
     tags: 'Tags',
     share: 'Share',

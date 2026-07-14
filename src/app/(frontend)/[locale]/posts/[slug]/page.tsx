@@ -17,6 +17,7 @@ import { articleJsonLd, breadcrumbJsonLd, faqPageJsonLd, type Crumb } from '@/li
 import { extractFaq } from '@/lib/lexical-faq'
 import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/posts'
 import { getPostAudioUrl } from '@/lib/post-audio'
+import { getPostStats } from '@/lib/post-stats'
 import { getReactionState } from '@/lib/reactions'
 import {
   absoluteUrl,
@@ -96,11 +97,12 @@ export default async function PostPage({ params }: PostPageProps) {
   // Counts only (passing user=null skips the per-user query and never reads
   // cookies) so the page stays statically renderable / ISR. Per-user active
   // state is resolved client-side by ReactionButtons.
-  const [likes, bookmarks, related, audioUrl] = await Promise.all([
+  const [likes, bookmarks, related, audioUrl, stats] = await Promise.all([
     getReactionState('likes', post.id, null),
     getReactionState('bookmarks', post.id, null),
     getRelatedPosts(locale, post),
     getPostAudioUrl(slug, locale),
+    getPostStats(post.id),
   ])
 
   const dict = getDictionary(locale)
@@ -145,7 +147,13 @@ export default async function PostPage({ params }: PostPageProps) {
       <JsonLd data={jsonLd} />
       <ViewTracker path={postUrl} slug={slug} />
 
-      <PostHero post={post} locale={locale} dict={dict} />
+      <PostHero
+        post={post}
+        locale={locale}
+        dict={dict}
+        views={stats.views}
+        likes={stats.likes}
+      />
 
       {audioUrl ? (
         <div className="mb-6">

@@ -14,10 +14,14 @@ interface PostHeroProps {
   post: PostWithRelations
   locale: Locale
   dict: Dictionary
+  /** Real total views; hidden by PostMeta when 0. */
+  views?: number
+  /** Real total likes; hidden by PostMeta when 0. */
+  likes?: number
 }
 
 /** Article hero: cover banner, category, title, excerpt, byline, tags. */
-export function PostHero({ post, locale, dict }: PostHeroProps) {
+export function PostHero({ post, locale, dict, views, likes }: PostHeroProps) {
   return (
     <header className="mb-10">
       <div className="overflow-hidden rounded-xl border border-border/70">
@@ -74,6 +78,8 @@ export function PostHero({ post, locale, dict }: PostHeroProps) {
             dict={dict}
             publishedAt={post.publishedAt}
             readingTime={post.readingTime}
+            views={views}
+            likes={likes}
           />
         </div>
 

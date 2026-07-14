@@ -55,6 +55,8 @@ export const tr = {
 
   post: {
     minRead: 'dk okuma',
+    views: 'görüntülenme',
+    likes: 'beğeni',
     publishedOn: 'Yayınlanma',
     tags: 'Etiketler',
     share: 'Paylaş',
