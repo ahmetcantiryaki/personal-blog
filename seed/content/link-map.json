@@ -230,6 +230,54 @@
       }
     },
     {
+      "translationKey": "building-in-public-developers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "acikta-gelistirme-yazilimci-rehberi",
+        "title": "Açıkta Geliştirme: Yazılımcı Rehberi"
+      },
+      "en": {
+        "slug": "building-in-public-developer-playbook",
+        "title": "Building in Public: A Developer's Playbook"
+      }
+    },
+    {
+      "translationKey": "bun-vs-node-runtime",
+      "category": "web-development",
+      "tr": {
+        "slug": "bun-mu-nodejs-mi-2026-runtime",
+        "title": "Bun mu Node.js mi: 2026 Runtime Kararı"
+      },
+      "en": {
+        "slug": "bun-vs-nodejs-2026-runtime",
+        "title": "Bun vs Node.js: The 2026 Runtime Verdict"
+      }
+    },
+    {
+      "translationKey": "claude-for-teachers-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-for-teachers-nedir",
+        "title": "Claude for Teachers Nedir? Anthropic K-12'ye Açıldı"
+      },
+      "en": {
+        "slug": "claude-for-teachers-explained",
+        "title": "Claude for Teachers: Anthropic Goes Free for K-12"
+      }
+    },
+    {
+      "translationKey": "effective-code-reviews",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "etkili-kod-incelemesi",
+        "title": "Etkili Kod İncelemesi Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "effective-code-reviews",
+        "title": "How to Run Effective Code Reviews"
+      }
+    },
+    {
       "translationKey": "astro-vs-nextjs",
       "category": "web-development",
       "tr": {
@@ -1307,6 +1355,18 @@
       "en": {
         "slug": "tailwind-css-mistakes",
         "title": "Tailwind CSS Mistakes to Avoid in 2026"
+      }
+    },
+    {
+      "translationKey": "tailwind-v4-migration",
+      "category": "web-development",
+      "tr": {
+        "slug": "tailwind-css-v4-gecis-rehberi",
+        "title": "Tailwind CSS v4'e Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "migrating-to-tailwind-css-v4",
+        "title": "Migrating to Tailwind CSS v4"
       }
     },
     {

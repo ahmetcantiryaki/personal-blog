@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-14",
+  "updatedAt": "2026-07-15",
   "topics": [
-    {
-      "translationKey": "effective-code-reviews",
-      "category": "career-productivity",
-      "titleTr": "Etkili Kod İncelemesi Nasıl Yapılır",
-      "titleEn": "How to Run Effective Code Reviews",
-      "slugTr": "etkili-kod-incelemesi",
-      "slugEn": "effective-code-reviews",
-      "keywordTr": "etkili kod incelemesi",
-      "keywordEn": "effective code reviews",
-      "angle": "guide + scope, tone, speed, and reviewing AI-generated pull requests",
-      "style": "contrarian",
-      "brief": "Contrarian: nitpicking style wastes everyone's time; review for risk. Sections: what review is for (correctness, design, maintainability, not formatting a linter handles); small PRs and fast turnaround; tone and blocking vs non-blocking comments; author responsibilities; reviewing AI-generated PRs skeptically. Key claims to verify: fast, focused reviews reduce cycle time; AI-written PRs need extra scrutiny as AI slop rises. Primary sources: Google engineering code-review guidelines; SmartBear/industry review data. End with a reviewer checklist and a comment-severity convention."
-    },
-    {
-      "translationKey": "building-in-public-developers",
-      "category": "career-productivity",
-      "titleTr": "Açıkta Geliştirme: Yazılımcı Rehberi",
-      "titleEn": "Building in Public: A Developer's Playbook",
-      "slugTr": "acikta-gelistirme-yazilimci-rehberi",
-      "slugEn": "building-in-public-developer-playbook",
-      "keywordTr": "açıkta geliştirme rehberi",
-      "keywordEn": "building in public for developers",
-      "angle": "guide + audience, cadence, and what to share without oversharing",
-      "style": "question-driven",
-      "brief": "Question-led: does building in public actually help a dev career? Sections: why it compounds (network, hiring signal, feedback); what to share (progress, learnings, metrics) vs what to keep private (secrets, unshipped strategy); cadence and platform choice; turning a build log into a portfolio. Key claims to verify: visible work and clear communication are hiring signals in 2026; documenting impact aids promotion and negotiation. Primary sources: Rootstack tech skills 2026; indie-hacker build-in-public case studies. End with a lightweight weekly-sharing routine."
-    },
-    {
-      "translationKey": "bun-vs-node-runtime",
-      "category": "web-development",
-      "titleTr": "Bun mu Node.js mi: 2026 Runtime Kararı",
-      "titleEn": "Bun vs Node.js: The 2026 Runtime Verdict",
-      "slugTr": "bun-mu-nodejs-mi-2026-runtime",
-      "slugEn": "bun-vs-nodejs-2026-runtime",
-      "keywordTr": "bun mu node.js mi",
-      "keywordEn": "bun vs node.js",
-      "angle": "comparison + raw benchmarks vs real-world latency and migration risk",
-      "style": "data-led",
-      "brief": "Data-led: benchmarks vs reality. Sections: raw HTTP throughput (Bun ~52K req/s vs Node ~13K) collapses to ~3% once Postgres and serialization enter; cold starts (Bun 8-15ms vs Node 40-120ms) matter for serverless; install speed (~35x npm); native TS, built-in test runner, and native-addon/ecosystem gaps. Key claims to verify: the ~4x synthetic gap shrinks to ~3% in DB-bound apps; Bun cold starts ~4.6x faster; migrating a mature Node app is risk with limited upside. Primary sources: Strapi Bun-vs-Node 2026 benchmarks; daily.dev runtime comparison. End with a greenfield-vs-migrate decision rule."
-    },
-    {
-      "translationKey": "tailwind-v4-migration",
-      "category": "web-development",
-      "titleTr": "Tailwind CSS v4'e Geçiş Rehberi",
-      "titleEn": "Migrating to Tailwind CSS v4",
-      "slugTr": "tailwind-css-v4-gecis-rehberi",
-      "slugEn": "migrating-to-tailwind-css-v4",
-      "keywordTr": "tailwind css v4 geçiş",
-      "keywordEn": "tailwind css v4 migration",
-      "angle": "how-to + upgrading a real project to the CSS-first v4 engine",
-      "style": "field-notes",
-      "brief": "Field notes from upgrading a real project. Sections: CSS-first @theme config replacing tailwind.config.js; the Rust/Oxide engine and 60-80% faster cold builds; renamed utilities (bg-gradient-to-* to bg-linear-to-*, shrink-0); OKLCH default palette; native @layer cascade; running the @tailwindcss/upgrade codemod. Key claims to verify: v4 drops the PostCSS plugin and JS config; the codemod handles ~90% of mechanical changes; v4 targets Safari 16.4+/Chrome 111+/Firefox 128+. Primary sources: Tailwind official upgrade guide; LogRocket Tailwind 2026 guide. End with a migration checklist and a rollback note for older-browser targets."
-    },
     {
       "translationKey": "modern-css-has-nesting",
       "category": "web-development",
