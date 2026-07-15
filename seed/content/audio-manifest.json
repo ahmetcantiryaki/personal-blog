@@ -926,5 +926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4615985,
     "generatedAt": "2026-07-14T17:42:35.677Z"
+  },
+  "en/building-in-public-developer-playbook": {
+    "hash": "bcaa8e94fd042811",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-building-in-public-developer-playbook.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3422711,
+    "generatedAt": "2026-07-15T06:31:09.627Z"
+  },
+  "en/bun-vs-nodejs-2026-runtime": {
+    "hash": "f193ab62e84340c7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-bun-vs-nodejs-2026-runtime.mp3",
+    "seconds": 437,
+    "voice": "en_US-ryan-high",
+    "bytes": 3494809,
+    "generatedAt": "2026-07-15T06:33:37.214Z"
+  },
+  "en/claude-for-teachers-explained": {
+    "hash": "357e2268c42c8d66",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-for-teachers-explained.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3543501,
+    "generatedAt": "2026-07-15T06:36:04.677Z"
+  },
+  "en/effective-code-reviews": {
+    "hash": "91ea13600e1a31cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-effective-code-reviews.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3396380,
+    "generatedAt": "2026-07-15T06:38:26.869Z"
+  },
+  "en/migrating-to-tailwind-css-v4": {
+    "hash": "55593c8c8e3eb12c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-migrating-to-tailwind-css-v4.mp3",
+    "seconds": 495,
+    "voice": "en_US-ryan-high",
+    "bytes": 3961461,
+    "generatedAt": "2026-07-15T06:41:13.328Z"
   }
 }
