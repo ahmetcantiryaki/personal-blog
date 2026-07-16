@@ -966,5 +966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3961461,
     "generatedAt": "2026-07-15T06:41:13.328Z"
+  },
+  "en/caching-strategies-and-invalidation": {
+    "hash": "d4096c50be7d9b78",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-caching-strategies-and-invalidation.mp3",
+    "seconds": 374,
+    "voice": "en_US-ryan-high",
+    "bytes": 2989497,
+    "generatedAt": "2026-07-16T06:34:52.257Z"
+  },
+  "en/chatgpt-work-openai-agent-explained": {
+    "hash": "21dafefbb9d6a698",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-work-openai-agent-explained.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3190953,
+    "generatedAt": "2026-07-16T06:37:08.207Z"
+  },
+  "en/modern-css-has-native-nesting": {
+    "hash": "bd296e48d66f09fb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-modern-css-has-native-nesting.mp3",
+    "seconds": 376,
+    "voice": "en_US-ryan-high",
+    "bytes": 3009977,
+    "generatedAt": "2026-07-16T06:39:15.178Z"
+  },
+  "en/react-compiler-goodbye-usememo": {
+    "hash": "b892abc7e81ba70a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-compiler-goodbye-usememo.mp3",
+    "seconds": 365,
+    "voice": "en_US-ryan-high",
+    "bytes": 2919488,
+    "generatedAt": "2026-07-16T06:41:18.167Z"
+  },
+  "en/sse-vs-websockets-real-time": {
+    "hash": "c4f429ed73e949e1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-sse-vs-websockets-real-time.mp3",
+    "seconds": 386,
+    "voice": "en_US-ryan-high",
+    "bytes": 3090016,
+    "generatedAt": "2026-07-16T06:43:29.395Z"
   }
 }
