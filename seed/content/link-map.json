@@ -1548,6 +1548,66 @@
         "slug": "zero-downtime-schema-migrations",
         "title": "Zero-Downtime Database Schema Migrations"
       }
+    },
+    {
+      "translationKey": "chatgpt-work-agent-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-work-nedir-openai-is-ajani",
+        "title": "ChatGPT Work Nedir? OpenAI'ın Yeni İş Ajanı"
+      },
+      "en": {
+        "slug": "chatgpt-work-openai-agent-explained",
+        "title": "ChatGPT Work: OpenAI's New Agent for Multi-Step Projects"
+      }
+    },
+    {
+      "translationKey": "modern-css-has-nesting",
+      "category": "web-development",
+      "tr": {
+        "slug": "modern-css-has-ic-ice-yazim",
+        "title": "Modern CSS: :has() ve Yerel İç İçe Yazım"
+      },
+      "en": {
+        "slug": "modern-css-has-native-nesting",
+        "title": "Modern CSS: :has() and Native Nesting"
+      }
+    },
+    {
+      "translationKey": "sse-vs-websockets",
+      "category": "web-development",
+      "tr": {
+        "slug": "sse-mi-websocket-mi-gercek-zamanli",
+        "title": "SSE mi WebSocket mi: Gerçek Zamanlı Veri"
+      },
+      "en": {
+        "slug": "sse-vs-websockets-real-time",
+        "title": "SSE vs WebSockets for Real-Time Apps"
+      }
+    },
+    {
+      "translationKey": "react-compiler-explained",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-compiler-usememo-elveda",
+        "title": "React Compiler: useMemo'ya Elveda mı?"
+      },
+      "en": {
+        "slug": "react-compiler-goodbye-usememo",
+        "title": "React Compiler: Goodbye useMemo?"
+      }
+    },
+    {
+      "translationKey": "caching-strategies-invalidation",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "cache-stratejileri-gecersiz-kilma",
+        "title": "Cache Stratejileri ve Geçersiz Kılma"
+      },
+      "en": {
+        "slug": "caching-strategies-and-invalidation",
+        "title": "Caching Strategies and Invalidation"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-16",
   "topics": [
-    {
-      "translationKey": "modern-css-has-nesting",
-      "category": "web-development",
-      "titleTr": "Modern CSS: :has() ve Yerel İç İçe Yazım",
-      "titleEn": "Modern CSS: :has() and Native Nesting",
-      "slugTr": "modern-css-has-ic-ice-yazim",
-      "slugEn": "modern-css-has-native-nesting",
-      "keywordTr": "css has selektörü",
-      "keywordEn": "css has selector nesting",
-      "angle": "how-to + the CSS features that let you delete JavaScript and preprocessors",
-      "style": "field-notes",
-      "brief": "Field notes: CSS that deleted our JavaScript. Sections: :has() as the long-awaited parent selector (style a card by its contents, drive form-validation states); native nesting replacing preprocessors; pairing with container queries; progressive-enhancement fallbacks with @supports. Key claims to verify: :has() and native nesting are fully supported across modern browsers in 2026; :has() replaces class-toggling JS; native nesting removes a key reason teams kept Sass. Primary sources: MDN CSS nesting docs; caniuse :has()/nesting support tables. End with three copy-paste patterns and a browser-support caveat for older targets."
-    },
-    {
-      "translationKey": "sse-vs-websockets",
-      "category": "web-development",
-      "titleTr": "SSE mi WebSocket mi: Gerçek Zamanlı Veri",
-      "titleEn": "SSE vs WebSockets for Real-Time Apps",
-      "slugTr": "sse-mi-websocket-mi-gercek-zamanli",
-      "slugEn": "sse-vs-websockets-real-time",
-      "keywordTr": "sse mi websocket mi",
-      "keywordEn": "sse vs websockets",
-      "angle": "comparison + choosing the simplest transport that fits your data flow",
-      "style": "question-driven",
-      "brief": "Question-led: do you really need WebSockets? Sections: SSE (unidirectional, over HTTP, auto-reconnect, HTTP/2 multiplexing) vs WebSockets (full-duplex, bidirectional); why LLM token streaming uses SSE; firewall/proxy behavior; when bidirectional truly matters (chat, collaboration, multiplayer). Key claims to verify: SSE fits ~90% of dashboards/notifications and is simpler to run; OpenAI/Anthropic stream responses via SSE; WebSockets require you to write reconnection yourself. Primary sources: Ably WebSockets-vs-SSE 2026; MDN Server-Sent Events. End with a decision table and a minimal SSE endpoint plus HTTP POST for the return path."
-    },
-    {
-      "translationKey": "react-compiler-explained",
-      "category": "web-development",
-      "titleTr": "React Compiler: useMemo'ya Elveda mı?",
-      "titleEn": "React Compiler: Goodbye useMemo?",
-      "slugTr": "react-compiler-usememo-elveda",
-      "slugEn": "react-compiler-goodbye-usememo",
-      "keywordTr": "react compiler nedir",
-      "keywordEn": "react compiler usememo",
-      "angle": "deep-dive + what auto-memoization changes and the escape hatches that remain",
-      "style": "story-led",
-      "brief": "Story of a codebase drowning in useMemo. Sections: what React Compiler auto-memoizes at build time; why manual useMemo/useCallback/React.memo become unnecessary in ~95% of cases; the surviving escape hatches (interior-mutability libraries like react-hook-form watch, effect dependencies); safe rollout (don't mass-delete existing memoization). Key claims to verify: React Compiler 1.0 shipped stable in Oct 2025; it memoizes more precisely than hand-tuning; useMemo remains an escape hatch, not a default. Primary sources: react.dev React Compiler docs; React Compiler 1.0 migration guides. End with an adoption checklist and lint-rule setup."
-    },
-    {
-      "translationKey": "caching-strategies-invalidation",
-      "category": "software-engineering",
-      "titleTr": "Cache Stratejileri ve Geçersiz Kılma",
-      "titleEn": "Caching Strategies and Invalidation",
-      "slugTr": "cache-stratejileri-gecersiz-kilma",
-      "slugEn": "caching-strategies-and-invalidation",
-      "keywordTr": "cache stratejileri",
-      "keywordEn": "caching strategies",
-      "angle": "guide + the four patterns, TTL discipline, and surviving a stampede",
-      "style": "field-notes",
-      "brief": "Field notes on caches that lied. Sections: cache-aside (lazy) vs read-through vs write-through vs write-behind and their consistency tradeoffs; invalidation (delete-on-write plus TTL); TTL guidance by data type; the stampede/thundering-herd failure and fixes (mutex/single-flight, probabilistic early expiration). Key claims to verify: cache-aside is the common default; combining TTL with event-driven invalidation avoids stale reads; a stampede on one hot key can overwhelm a DB that was fine with the cache. Primary sources: system-design caching-strategies references; oneuptime cache-invalidation 2026. End with a per-workload TTL table and a stampede-mitigation snippet."
-    },
     {
       "translationKey": "cursor-vs-offset-pagination",
       "category": "software-engineering",
