@@ -1006,5 +1006,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3090016,
     "generatedAt": "2026-07-16T06:43:29.395Z"
+  },
+  "en/chunking-strategies-for-rag": {
+    "hash": "a49961c2d65cbb94",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chunking-strategies-for-rag.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3283113,
+    "generatedAt": "2026-07-17T06:35:18.105Z"
+  },
+  "en/claude-reflect-usage-dashboard-explained": {
+    "hash": "687343cac41c7e2c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-reflect-usage-dashboard-explained.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3287710,
+    "generatedAt": "2026-07-17T06:37:47.232Z"
+  },
+  "en/cursor-vs-offset-pagination": {
+    "hash": "a74101c76076bfb6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cursor-vs-offset-pagination.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3512990,
+    "generatedAt": "2026-07-17T06:40:25.711Z"
+  },
+  "en/database-isolation-levels-explained": {
+    "hash": "e0c2065ce4e470ae",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-database-isolation-levels-explained.mp3",
+    "seconds": 465,
+    "voice": "en_US-ryan-high",
+    "bytes": 3718835,
+    "generatedAt": "2026-07-17T06:43:13.491Z"
+  },
+  "en/transactional-outbox-pattern": {
+    "hash": "20e311c05b72343e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-transactional-outbox-pattern.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3444445,
+    "generatedAt": "2026-07-17T06:45:49.230Z"
   }
 }
