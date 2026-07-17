@@ -1608,6 +1608,66 @@
         "slug": "caching-strategies-and-invalidation",
         "title": "Caching Strategies and Invalidation"
       }
+    },
+    {
+      "translationKey": "claude-reflect-usage-dashboard",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-reflect-nedir-anthropic-panosu",
+        "title": "Claude Reflect Nedir? Anthropic'in Yeni Panosu"
+      },
+      "en": {
+        "slug": "claude-reflect-usage-dashboard-explained",
+        "title": "Claude Reflect: Anthropic's New AI Usage Dashboard"
+      }
+    },
+    {
+      "translationKey": "cursor-vs-offset-pagination",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "cursor-mu-offset-mi-sayfalama",
+        "title": "Cursor mu Offset mi: API Sayfalama"
+      },
+      "en": {
+        "slug": "cursor-vs-offset-pagination",
+        "title": "Cursor vs Offset Pagination Explained"
+      }
+    },
+    {
+      "translationKey": "transaction-isolation-levels",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-izolasyon-seviyeleri",
+        "title": "Veritabanı İzolasyon Seviyeleri Rehberi"
+      },
+      "en": {
+        "slug": "database-isolation-levels-explained",
+        "title": "Database Isolation Levels, Explained"
+      }
+    },
+    {
+      "translationKey": "transactional-outbox-pattern",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "outbox-kalibi-guvenilir-olay-yayini",
+        "title": "Outbox Kalıbı: Güvenilir Olay Yayını"
+      },
+      "en": {
+        "slug": "transactional-outbox-pattern",
+        "title": "The Transactional Outbox Pattern"
+      }
+    },
+    {
+      "translationKey": "rag-chunking-strategies",
+      "category": "ai",
+      "tr": {
+        "slug": "rag-icin-chunking-stratejileri",
+        "title": "RAG için Chunking Stratejileri"
+      },
+      "en": {
+        "slug": "chunking-strategies-for-rag",
+        "title": "Chunking Strategies for Better RAG"
+      }
     }
   ]
 }

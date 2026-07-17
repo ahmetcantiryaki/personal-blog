@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
   "topics": [
-    {
-      "translationKey": "cursor-vs-offset-pagination",
-      "category": "software-engineering",
-      "titleTr": "Cursor mu Offset mi: API Sayfalama",
-      "titleEn": "Cursor vs Offset Pagination Explained",
-      "slugTr": "cursor-mu-offset-mi-sayfalama",
-      "slugEn": "cursor-vs-offset-pagination",
-      "keywordTr": "cursor mu offset mi sayfalama",
-      "keywordEn": "cursor vs offset pagination",
-      "angle": "comparison + why deep pages are slow and how keyset fixes correctness",
-      "style": "data-led",
-      "brief": "Data-led: why page 5000 is slow. Sections: offset (LIMIT/OFFSET scans and discards rows) vs keyset/cursor (WHERE (col,id) > (...) ORDER BY col,id); the correctness bug where deletes shift rows across pages so users skip or duplicate records; a ~17x speedup at a million rows; when offset is fine (small/static admin data). Key claims to verify: OFFSET 99980 scans ~100k rows before returning 20; keyset avoids skipped/duplicated rows during inserts and deletes; ~17x faster at 1M rows in Postgres. Primary sources: Sequin keyset-cursors-not-offsets post; Gusto API-pagination guide. End with a keyset query template and a cursor-encoding note."
-    },
-    {
-      "translationKey": "transaction-isolation-levels",
-      "category": "software-engineering",
-      "titleTr": "Veritabanı İzolasyon Seviyeleri Rehberi",
-      "titleEn": "Database Isolation Levels, Explained",
-      "slugTr": "veritabani-izolasyon-seviyeleri",
-      "slugEn": "database-isolation-levels-explained",
-      "keywordTr": "veritabanı izolasyon seviyeleri",
-      "keywordEn": "database isolation levels",
-      "angle": "deep-dive + which level you actually need and the retries it forces",
-      "style": "question-driven",
-      "brief": "Question-led: which isolation level do you actually need? Sections: read anomalies (dirty read, non-repeatable read, phantom, lost update); the four SQL levels (read uncommitted to serializable); what Postgres vs MySQL default to; MVCC and the serialization failures you must retry. Key claims to verify: Postgres defaults to Read Committed while many assume higher; Postgres Repeatable Read uses snapshot isolation and prevents phantoms; Serializable can abort transactions and needs retry logic. Primary sources: PostgreSQL transaction-isolation docs; Kleppmann 'Designing Data-Intensive Applications' isolation chapter. End with a level-vs-anomaly matrix and a retry pattern."
-    },
-    {
-      "translationKey": "transactional-outbox-pattern",
-      "category": "software-engineering",
-      "titleTr": "Outbox Kalıbı: Güvenilir Olay Yayını",
-      "titleEn": "The Transactional Outbox Pattern",
-      "slugTr": "outbox-kalibi-guvenilir-olay-yayini",
-      "slugEn": "transactional-outbox-pattern",
-      "keywordTr": "outbox pattern nedir",
-      "keywordEn": "transactional outbox pattern",
-      "angle": "deep-dive + publishing events atomically with your database write",
-      "style": "story-led",
-      "brief": "Story of a lost payment event. Sections: the dual-write problem (DB commit succeeds, broker publish fails, or vice versa); writing events to an outbox table inside the same transaction as the business change; a relay that publishes them (polling vs log-based CDC with Debezium); idempotent consumers under at-least-once delivery. Key claims to verify: you cannot atomically write a DB and publish to a broker without a pattern like this; log-based CDC gives low-latency relay with no extra DB load; consumers must dedupe. Primary sources: microservices.io transactional-outbox; Debezium outbox-event-router docs. End with a schema and a relay checklist."
-    },
-    {
-      "translationKey": "rag-chunking-strategies",
-      "category": "ai",
-      "titleTr": "RAG için Chunking Stratejileri",
-      "titleEn": "Chunking Strategies for Better RAG",
-      "slugTr": "rag-icin-chunking-stratejileri",
-      "slugEn": "chunking-strategies-for-rag",
-      "keywordTr": "rag chunking stratejileri",
-      "keywordEn": "rag chunking strategies",
-      "angle": "how-to + picking a chunking method and defaults that actually retrieve",
-      "style": "data-led",
-      "brief": "Data-led playbook. Sections: fixed vs recursive vs semantic vs agentic chunking; recommended defaults (256-512 tokens, 10-20% overlap); recursive 512-token splitting as a strong 2026 baseline; semantic chunking for unstructured prose; late chunking with long-context embeddings. Key claims to verify: a Feb 2026 benchmark ranked recursive 512-token splitting first across seven strategies; semantic chunking lifted accuracy to ~71% vs fixed-size baselines on one dataset; agentic chunking is highest quality but slow and expensive. Primary sources: Firecrawl best-chunking-strategies 2026; Extend semantic-chunking best practices. End with a strategy-selection flowchart and an eval harness note."
-    },
     {
       "translationKey": "small-language-models-when",
       "category": "ai",
