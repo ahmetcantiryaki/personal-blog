@@ -15,7 +15,7 @@ import { imageBlock } from './imageBlock'
  * `http`, `astro`). Missing keys make the seed fail with
  * "Content > Language is invalid".
  */
-const CODE_LANGUAGES: Record<string, string> = {
+export const CODE_LANGUAGES: Record<string, string> = {
   text: 'Plain Text',
   bash: 'Bash',
   shell: 'Shell',
@@ -37,6 +37,7 @@ const CODE_LANGUAGES: Record<string, string> = {
   hcl: 'HCL',
   http: 'HTTP',
   markdown: 'Markdown',
+  nginx: 'Nginx',
   promql: 'PromQL',
   astro: 'Astro',
   go: 'Go',
