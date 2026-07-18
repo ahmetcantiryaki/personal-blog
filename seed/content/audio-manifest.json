@@ -1046,5 +1046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3444445,
     "generatedAt": "2026-07-17T06:45:49.230Z"
+  },
+  "en/better-engineering-estimates": {
+    "hash": "e5142569af0a2976",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-better-engineering-estimates.mp3",
+    "seconds": 478,
+    "voice": "en_US-ryan-high",
+    "bytes": 3820399,
+    "generatedAt": "2026-07-18T06:31:20.378Z"
+  },
+  "en/claude-code-runaway-agent-guardrails": {
+    "hash": "c1f094e6bcb476ba",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-runaway-agent-guardrails.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3981105,
+    "generatedAt": "2026-07-18T06:34:09.097Z"
+  },
+  "en/ic-to-tech-lead-first-90-days": {
+    "hash": "9ede850d48c661ba",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ic-to-tech-lead-first-90-days.mp3",
+    "seconds": 487,
+    "voice": "en_US-ryan-high",
+    "bytes": 3892288,
+    "generatedAt": "2026-07-18T06:36:53.734Z"
+  },
+  "en/llm-observability-tracing": {
+    "hash": "816a48dbca8f3f35",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-llm-observability-tracing.mp3",
+    "seconds": 432,
+    "voice": "en_US-ryan-high",
+    "bytes": 3452595,
+    "generatedAt": "2026-07-18T06:39:20.489Z"
+  },
+  "en/when-small-language-models-win": {
+    "hash": "4e47d567edd6f0aa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-when-small-language-models-win.mp3",
+    "seconds": 458,
+    "voice": "en_US-ryan-high",
+    "bytes": 3661157,
+    "generatedAt": "2026-07-18T06:41:54.428Z"
   }
 }
