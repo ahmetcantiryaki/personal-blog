@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "topics": [
-    {
-      "translationKey": "small-language-models-when",
-      "category": "ai",
-      "titleTr": "Küçük Dil Modelleri Ne Zaman Yeter?",
-      "titleEn": "When Small Language Models Beat Big Ones",
-      "slugTr": "kucuk-dil-modelleri-ne-zaman",
-      "slugEn": "when-small-language-models-win",
-      "keywordTr": "küçük dil modelleri",
-      "keywordEn": "small language models",
-      "angle": "contrarian + you are overpaying for a frontier model on narrow tasks",
-      "style": "contrarian",
-      "brief": "Contrarian: you're overpaying for a frontier model. Sections: SLMs (a few million to ~7B params) win on cost, latency, privacy, and on-device deploy; where a fine-tuned 7B beats a generalist on narrow, repeatable tasks; where big models stay necessary (broad knowledge, open-ended reasoning); the routing pattern (a small model handles most requests and escalates hard cases). Key claims to verify: fine-tuned SLMs are faster/cheaper/more accurate on repeatable workloads; routing plus drafting is the 2026 best practice; frontier models remain needed for unpredictable reasoning. Primary sources: index.dev SLM-vs-LLM 2026 reality check; MachineLearningMastery SLM guide. End with a build/route decision checklist."
-    },
-    {
-      "translationKey": "llm-observability-tracing",
-      "category": "ai",
-      "titleTr": "LLM Gözlemlenebilirliği: Trace ve Eval",
-      "titleEn": "LLM Observability: Tracing Your AI Calls",
-      "slugTr": "llm-gozlemlenebilirligi-trace-eval",
-      "slugEn": "llm-observability-tracing",
-      "keywordTr": "llm gözlemlenebilirlik",
-      "keywordEn": "llm observability tracing",
-      "angle": "how-to + instrumenting an LLM app with OpenTelemetry GenAI conventions",
-      "style": "field-notes",
-      "brief": "Field notes: debugging an agent you can't see. Sections: why request/response logging isn't enough (chains, tool calls, retries); OpenTelemetry GenAI semantic conventions (gen_ai.* attributes for model, tokens, tool calls, finish reason); tracing with Langfuse as an OTel/OTLP backend; wiring evals, cost, and latency dashboards. Key claims to verify: the field converged on OTel gen_ai.* as the vendor-neutral baseline; Langfuse ingests OTLP and self-hosts for data residency (now part of ClickHouse); token/cost/finish-reason attributes are standardized. Primary sources: opentelemetry.io GenAI-observability 2026 blog; Langfuse OpenTelemetry docs. End with a minimal instrumentation snippet."
-    },
-    {
-      "translationKey": "ic-to-tech-lead-90-days",
-      "category": "career-productivity",
-      "titleTr": "IC'den Tech Lead'e: İlk 90 Gün",
-      "titleEn": "From IC to Tech Lead: The First 90 Days",
-      "slugTr": "ic-den-tech-lead-e-ilk-90-gun",
-      "slugEn": "ic-to-tech-lead-first-90-days",
-      "keywordTr": "tech lead ilk 90 gün",
-      "keywordEn": "ic to tech lead",
-      "angle": "guide + a 30-60-90 plan for the shift from writing code to leading",
-      "style": "story-led",
-      "brief": "Story of a strong IC's rocky first quarter. Sections: the identity shift (impact through others, not commits); a 30-60-90 plan (listen and map, then voice observations around week 4-6, then lead changes); building a wide network (skip-level, peer leads, cross-functional partners); letting go of being the best coder. Key claims to verify: coding stops being the primary job and this surprises most new leads; the shift from listening to leading lands around weeks 4-6; first-90-days relationships become a multi-year network. Primary sources: LeadDev 30-60-90 new-manager plan; First Round 90-day plan. End with a fill-in 30-60-90 template."
-    },
-    {
-      "translationKey": "engineering-estimates",
-      "category": "career-productivity",
-      "titleTr": "Daha İyi Mühendislik Tahminleri Yapma",
-      "titleEn": "How to Make Better Engineering Estimates",
-      "slugTr": "daha-iyi-muhendislik-tahminleri",
-      "slugEn": "better-engineering-estimates",
-      "keywordTr": "yazılım tahmini nasıl yapılır",
-      "keywordEn": "software engineering estimates",
-      "angle": "how-to + decomposition, ranges over point estimates, and calibration",
-      "style": "field-notes",
-      "brief": "Field notes on estimates that blew up. Sections: why estimates fail (unstated assumptions, ignored unknowns, optimism bias); relative sizing vs hours; ranges and confidence over single numbers; breaking work down until each item is boring; tracking estimate-vs-actual to calibrate over time. Key claims to verify: decomposition reduces estimation error; communicating a range beats false-precision point estimates; historical calibration improves forecasts more than heroics. Primary sources: Steve McConnell 'Software Estimation: Demystifying the Black Art'; team retrospectives on estimate accuracy. End with an estimation checklist and a phrase-bank for pushing back on false precision."
-    },
     {
       "translationKey": "supply-chain-security-sbom",
       "category": "devops-cloud",

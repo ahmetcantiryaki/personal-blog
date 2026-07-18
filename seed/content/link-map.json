@@ -1668,6 +1668,66 @@
         "slug": "chunking-strategies-for-rag",
         "title": "Chunking Strategies for Better RAG"
       }
+    },
+    {
+      "translationKey": "claude-code-runaway-agent-guardrails",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-kacak-ajanlara-fren",
+        "title": "Claude Code Kaçak Ajanlara Fren Getirdi"
+      },
+      "en": {
+        "slug": "claude-code-runaway-agent-guardrails",
+        "title": "Claude Code Adds Guardrails Against Runaway Agents"
+      }
+    },
+    {
+      "translationKey": "small-language-models-when",
+      "category": "ai",
+      "tr": {
+        "slug": "kucuk-dil-modelleri-ne-zaman",
+        "title": "Küçük Dil Modelleri Ne Zaman Yeter?"
+      },
+      "en": {
+        "slug": "when-small-language-models-win",
+        "title": "When Small Language Models Beat Big Ones"
+      }
+    },
+    {
+      "translationKey": "llm-observability-tracing",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-gozlemlenebilirligi-trace-eval",
+        "title": "LLM Gözlemlenebilirliği: Trace ve Eval"
+      },
+      "en": {
+        "slug": "llm-observability-tracing",
+        "title": "LLM Observability: Tracing Your AI Calls"
+      }
+    },
+    {
+      "translationKey": "ic-to-tech-lead-90-days",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ic-den-tech-lead-e-ilk-90-gun",
+        "title": "IC'den Tech Lead'e: İlk 90 Gün"
+      },
+      "en": {
+        "slug": "ic-to-tech-lead-first-90-days",
+        "title": "From IC to Tech Lead: The First 90 Days"
+      }
+    },
+    {
+      "translationKey": "engineering-estimates",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "daha-iyi-muhendislik-tahminleri",
+        "title": "Daha İyi Mühendislik Tahminleri Yapma"
+      },
+      "en": {
+        "slug": "better-engineering-estimates",
+        "title": "How to Make Better Engineering Estimates"
+      }
     }
   ]
 }
