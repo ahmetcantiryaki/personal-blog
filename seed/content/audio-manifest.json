@@ -1086,5 +1086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3661157,
     "generatedAt": "2026-07-18T06:41:54.428Z"
+  },
+  "en/biome-vs-oxlint-eslint-migration": {
+    "hash": "c577bf2245ae62c5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-biome-vs-oxlint-eslint-migration.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3797621,
+    "generatedAt": "2026-07-19T06:29:45.789Z"
+  },
+  "en/gemini-3-5-pro-delayed-again-what-to-build-on": {
+    "hash": "550938f581aa1eaa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-3-5-pro-delayed-again-what-to-build-on.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3363361,
+    "generatedAt": "2026-07-19T06:32:06.886Z"
+  },
+  "en/helm-vs-kustomize-kubernetes": {
+    "hash": "70bd2cce1cc03043",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-helm-vs-kustomize-kubernetes.mp3",
+    "seconds": 456,
+    "voice": "en_US-ryan-high",
+    "bytes": 3646737,
+    "generatedAt": "2026-07-19T06:34:40.000Z"
+  },
+  "en/software-supply-chain-security-sbom-slsa": {
+    "hash": "c2bd06529510b1cf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-software-supply-chain-security-sbom-slsa.mp3",
+    "seconds": 558,
+    "voice": "en_US-ryan-high",
+    "bytes": 4465101,
+    "generatedAt": "2026-07-19T06:37:48.188Z"
+  },
+  "en/tauri-vs-electron-2026": {
+    "hash": "90826d1e0bb0b17c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tauri-vs-electron-2026.mp3",
+    "seconds": 470,
+    "voice": "en_US-ryan-high",
+    "bytes": 3758541,
+    "generatedAt": "2026-07-19T06:40:28.162Z"
   }
 }
