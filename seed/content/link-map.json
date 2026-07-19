@@ -1728,6 +1728,66 @@
         "slug": "better-engineering-estimates",
         "title": "How to Make Better Engineering Estimates"
       }
+    },
+    {
+      "translationKey": "gemini-3-5-pro-delay-developer-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-5-pro-yine-gecikti",
+        "title": "Gemini 3.5 Pro Yine Gecikti: Şimdi Ne Üzerine Geliştirmeli?"
+      },
+      "en": {
+        "slug": "gemini-3-5-pro-delayed-again-what-to-build-on",
+        "title": "Gemini 3.5 Pro Delayed Again: What to Build On Now"
+      }
+    },
+    {
+      "translationKey": "supply-chain-security-sbom",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "yazilim-tedarik-zinciri-guvenligi",
+        "title": "Yazılım Tedarik Zinciri Güvenliği: SBOM'dan SLSA'ya"
+      },
+      "en": {
+        "slug": "software-supply-chain-security-sbom-slsa",
+        "title": "Software Supply Chain Security: SBOM to SLSA"
+      }
+    },
+    {
+      "translationKey": "helm-vs-kustomize",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "helm-mi-kustomize-mi-k8s",
+        "title": "Helm mi Kustomize mi: K8s Yapılandırma"
+      },
+      "en": {
+        "slug": "helm-vs-kustomize-kubernetes",
+        "title": "Helm vs Kustomize for Kubernetes Config"
+      }
+    },
+    {
+      "translationKey": "tauri-vs-electron-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "tauri-mi-electron-mu",
+        "title": "Tauri mi Electron mu? 2026 Masaüstü Kararı"
+      },
+      "en": {
+        "slug": "tauri-vs-electron-2026",
+        "title": "Tauri vs Electron in 2026: Which Should You Pick?"
+      }
+    },
+    {
+      "translationKey": "biome-oxc-rust-tooling",
+      "category": "web-development",
+      "tr": {
+        "slug": "eslint-yerine-biome-ve-oxlint",
+        "title": "ESLint ve Prettier'e Veda: Biome ve Oxlint"
+      },
+      "en": {
+        "slug": "biome-vs-oxlint-eslint-migration",
+        "title": "Biome vs Oxlint: Rust Tooling Replaces ESLint"
+      }
     }
   ]
 }

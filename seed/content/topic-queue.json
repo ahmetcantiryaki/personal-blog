@@ -2,58 +2,6 @@
   "updatedAt": "2026-07-19",
   "topics": [
     {
-      "translationKey": "supply-chain-security-sbom",
-      "category": "devops-cloud",
-      "titleTr": "Yazılım Tedarik Zinciri Güvenliği",
-      "titleEn": "Software Supply Chain Security: SBOM to SLSA",
-      "slugTr": "yazilim-tedarik-zinciri-guvenligi",
-      "slugEn": "software-supply-chain-security-sbom-slsa",
-      "keywordTr": "yazılım tedarik zinciri güvenliği",
-      "keywordEn": "software supply chain security",
-      "angle": "checklist + SBOMs, signing, and build provenance wired into CI",
-      "style": "question-driven",
-      "brief": "Question-led: could a poisoned dependency reach your prod? Sections: the threat (cumulative malicious packages past 1.2M; attacks doubled in 2025); SBOMs enriched with VEX instead of paper inventories; artifact signing with Sigstore (cosign, Fulcio, Rekor); build provenance via SLSA; wiring these checks into CI. Key claims to verify: Sonatype counted 450k+ new malicious packages in 2025; Sigstore's cosign/Fulcio/Rekor are production-ready and widely adopted; SLSA provides a verifiable source-to-artifact chain of custody. Primary sources: Cloudsmith 2026 supply-chain guide; OpenSSF Sigstore docs. End with a CI hardening checklist. No real secrets in examples."
-    },
-    {
-      "translationKey": "helm-vs-kustomize",
-      "category": "devops-cloud",
-      "titleTr": "Helm mi Kustomize mi: K8s Yapılandırma",
-      "titleEn": "Helm vs Kustomize for Kubernetes Config",
-      "slugTr": "helm-mi-kustomize-mi-k8s",
-      "slugEn": "helm-vs-kustomize-kubernetes",
-      "keywordTr": "helm mi kustomize mi",
-      "keywordEn": "helm vs kustomize",
-      "angle": "comparison + templating vs overlays and where mature teams land",
-      "style": "data-led",
-      "brief": "Data-led comparison for real fleets. Sections: Helm (versioned charts, Go templating, releases, rollbacks, huge chart ecosystem) vs Kustomize (base plus overlays, no templating, built into kubectl); Helm 4 (server-side apply, WASM plugins) and Kustomize v5.8 interop; the common convergence (Kustomize for first-party apps, Helm for third-party charts). Key claims to verify: Helm 4 shipped at KubeCon NA Nov 2025 with native SSA and a WASM plugin system; Kustomize is built into kubectl and templating-free; mature teams mix both. Primary sources: Spacelift Kustomize-vs-Helm; Tasrie 'we manage 100+ clusters' 2026. End with a decision table and a hybrid setup."
-    },
-    {
-      "translationKey": "tauri-vs-electron-2026",
-      "category": "web-development",
-      "titleTr": "Tauri mi Electron mu? 2026 Masaüstü Kararı",
-      "titleEn": "Tauri vs Electron in 2026: Which Should You Pick?",
-      "slugTr": "tauri-mi-electron-mu",
-      "slugEn": "tauri-vs-electron-2026",
-      "keywordTr": "tauri electron karşılaştırma",
-      "keywordEn": "tauri vs electron 2026",
-      "angle": "comparison + weigh Tauri's native-WebView+Rust footprint against Electron's mature Chromium ecosystem for real 2026 apps",
-      "style": "data-led",
-      "brief": "Outline: architecture (bundled Chromium vs OS WebView + Rust core); size/RAM (~3MB vs 150MB+); security capability model; ecosystem gap (Electron ~1.66M weekly npm vs Tauri ~85k); Tauri v2 desktop+mobile from one frontend; when Electron still wins. Claims to verify: size/RAM multipliers, plugin registry 47→120+ (Jan 2025–Apr 2026), download counts. Primary sources: https://v2.tauri.app/ and https://www.electronjs.org/"
-    },
-    {
-      "translationKey": "biome-oxc-rust-tooling",
-      "category": "web-development",
-      "titleTr": "ESLint ve Prettier'e Veda: Biome ve Oxlint",
-      "titleEn": "Biome vs Oxlint: Rust Tooling Replaces ESLint",
-      "slugTr": "eslint-yerine-biome-ve-oxlint",
-      "slugEn": "biome-vs-oxlint-eslint-migration",
-      "keywordTr": "biome oxlint eslint yerine",
-      "keywordEn": "biome vs oxlint 2026",
-      "angle": "comparison + guide teams migrating from ESLint+Prettier to Rust-based Biome or Oxlint/Oxfmt, with a rule-coverage vs speed tradeoff",
-      "style": "data-led",
-      "brief": "Outline: why JS tooling is being rewritten in Rust (esbuild/swc precedent); Biome as zero-config all-in-one (v2.4, 450+ rules, ~97% Prettier compat) vs OXC/Oxlint speed champ (50-100x ESLint) that runs alongside ESLint; greenfield vs legacy migration paths; plugin-depth caveats. Claims to verify: rule counts, 50-100x speed, 97% Prettier compat. Primary sources: https://biomejs.dev/ and https://oxc.rs/"
-    },
-    {
       "translationKey": "duckdb-vs-sqlite",
       "category": "software-engineering",
       "titleTr": "DuckDB mi SQLite mı? Gömülü Veritabanı Rehberi",

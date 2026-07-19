@@ -96,6 +96,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'responsive-design': { en: 'Responsive Design', tr: 'Duyarlı Tasarım' },
   rest: { en: 'REST', tr: 'REST' },
   roadmap: { en: 'Roadmap', tr: 'Yol Haritası' },
+  rust: { en: 'Rust', tr: 'Rust' },
   'self-hosting': { en: 'Self-Hosting', tr: 'Kendi Sunucunda Barındırma' },
   seo: { en: 'SEO', tr: 'SEO' },
   'server-components': { en: 'Server Components', tr: 'Sunucu Bileşenleri' },
