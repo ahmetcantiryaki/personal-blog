@@ -119,8 +119,10 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'web-performance': { en: 'Web Performance', tr: 'Web Performansı' },
   'web-security': { en: 'Web Security', tr: 'Web Güvenliği' },
   'web-standards': { en: 'Web Standards', tr: 'Web Standartları' },
+  webassembly: { en: 'WebAssembly', tr: 'WebAssembly' },
   'well-being': { en: 'Well-Being', tr: 'İyi Oluş' },
   workflow: { en: 'Workflow', tr: 'İş Akışı' },
+  zig: { en: 'Zig', tr: 'Zig' },
 }
 
 /** Deterministic, reviewable tag taxonomy derived from the title map. */

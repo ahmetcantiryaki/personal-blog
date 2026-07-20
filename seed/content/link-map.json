@@ -1788,6 +1788,66 @@
         "slug": "biome-vs-oxlint-eslint-migration",
         "title": "Biome vs Oxlint: Rust Tooling Replaces ESLint"
       }
+    },
+    {
+      "translationKey": "duckdb-vs-sqlite",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "duckdb-mi-sqlite-mi",
+        "title": "DuckDB mi SQLite mı? Gömülü Veritabanı Rehberi"
+      },
+      "en": {
+        "slug": "duckdb-vs-sqlite",
+        "title": "DuckDB vs SQLite: Which Embedded Database?"
+      }
+    },
+    {
+      "translationKey": "self-hosted-paas-kamal-coolify",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetessiz-deploy-kamal-coolify",
+        "title": "Kubernetes'siz Deploy: Kamal ve Coolify Rehberi"
+      },
+      "en": {
+        "slug": "deploy-without-kubernetes-kamal-coolify",
+        "title": "Deploy Without Kubernetes: Kamal vs Coolify"
+      }
+    },
+    {
+      "translationKey": "apache-iceberg-lakehouse",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "apache-iceberg-nedir-lakehouse",
+        "title": "Apache Iceberg Nedir? Lakehouse'un Yeni Standardı"
+      },
+      "en": {
+        "slug": "what-is-apache-iceberg-lakehouse",
+        "title": "What Is Apache Iceberg? The Lakehouse Standard"
+      }
+    },
+    {
+      "translationKey": "webassembly-server-side-wasm",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "sunucuda-webassembly-wasi",
+        "title": "Tarayıcının Ötesinde WebAssembly: Sunucuda Wasm"
+      },
+      "en": {
+        "slug": "webassembly-beyond-browser-wasi-2026",
+        "title": "WebAssembly Beyond the Browser: WASI in 2026"
+      }
+    },
+    {
+      "translationKey": "zig-language-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "zig-programlama-dili-1-0",
+        "title": "Zig 1.0 Geliyor: C'nin Yerini Alabilir mi?"
+      },
+      "en": {
+        "slug": "zig-2026-c-replacement",
+        "title": "Zig in 2026: A Real C Replacement?"
+      }
     }
   ]
 }
