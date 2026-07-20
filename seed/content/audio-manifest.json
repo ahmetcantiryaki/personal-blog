@@ -1126,5 +1126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3758541,
     "generatedAt": "2026-07-19T06:40:28.162Z"
+  },
+  "en/deploy-without-kubernetes-kamal-coolify": {
+    "hash": "b7353fc7131e3d17",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-deploy-without-kubernetes-kamal-coolify.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3237973,
+    "generatedAt": "2026-07-20T06:34:57.772Z"
+  },
+  "en/duckdb-vs-sqlite": {
+    "hash": "26483980dd1b48b8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-duckdb-vs-sqlite.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3462626,
+    "generatedAt": "2026-07-20T06:37:24.896Z"
+  },
+  "en/webassembly-beyond-browser-wasi-2026": {
+    "hash": "de74d1d2912a125d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-webassembly-beyond-browser-wasi-2026.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3787172,
+    "generatedAt": "2026-07-20T06:40:05.056Z"
+  },
+  "en/what-is-apache-iceberg-lakehouse": {
+    "hash": "980dfdd1ffb2571c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-apache-iceberg-lakehouse.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3296070,
+    "generatedAt": "2026-07-20T06:42:25.299Z"
+  },
+  "en/zig-2026-c-replacement": {
+    "hash": "5efa795d9464c536",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-zig-2026-c-replacement.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3239018,
+    "generatedAt": "2026-07-20T06:44:41.737Z"
   }
 }
