@@ -1166,5 +1166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3239018,
     "generatedAt": "2026-07-20T06:44:41.737Z"
+  },
+  "en/ai-browsers-compared-comet-atlas-gemini": {
+    "hash": "b706b730af9dd91d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-browsers-compared-comet-atlas-gemini.mp3",
+    "seconds": 481,
+    "voice": "en_US-ryan-high",
+    "bytes": 3846104,
+    "generatedAt": "2026-07-21T06:33:44.768Z"
+  },
+  "en/chatgpt-instagram-content-small-business": {
+    "hash": "e0084bfe0a5b1b35",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-instagram-content-small-business.mp3",
+    "seconds": 344,
+    "voice": "en_US-ryan-high",
+    "bytes": 2753559,
+    "generatedAt": "2026-07-21T06:35:50.281Z"
+  },
+  "en/claude-code-silently-deletes-session-transcripts": {
+    "hash": "6b476ecef25d864d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-silently-deletes-session-transcripts.mp3",
+    "seconds": 487,
+    "voice": "en_US-ryan-high",
+    "bytes": 3898140,
+    "generatedAt": "2026-07-21T06:38:49.101Z"
+  },
+  "en/linkedin-organic-reach-2026": {
+    "hash": "0c21367321db2ad8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-linkedin-organic-reach-2026.mp3",
+    "seconds": 499,
+    "voice": "en_US-ryan-high",
+    "bytes": 3988837,
+    "generatedAt": "2026-07-21T06:41:50.306Z"
+  },
+  "en/tiktok-shop-monetization-2026-creator-guide": {
+    "hash": "e1e8c80a39c49597",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-shop-monetization-2026-creator-guide.mp3",
+    "seconds": 387,
+    "voice": "en_US-ryan-high",
+    "bytes": 3099629,
+    "generatedAt": "2026-07-21T06:44:11.284Z"
   }
 }
