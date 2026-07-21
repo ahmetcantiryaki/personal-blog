@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-07-21",
   "topics": [
-    {
-      "translationKey": "agentic-browsers-comparison",
-      "category": "ai",
-      "titleTr": "Yapay Zeka Tarayıcıları: Comet, Atlas ve Gemini",
-      "titleEn": "AI Browsers Compared: Comet, Atlas and Gemini",
-      "slugTr": "yapay-zeka-tarayicilari-karsilastirma",
-      "slugEn": "ai-browsers-compared-comet-atlas-gemini",
-      "keywordTr": "yapay zeka tarayıcı",
-      "keywordEn": "ai browser comparison 2026",
-      "angle": "comparison + map the agentic-browser landscape, what agent mode actually does, security risks, and why Atlas's shutdown is a cautionary tale",
-      "style": "field-notes",
-      "brief": "Outline: what an agentic browser is (scroll/click/fill/multi-step); standalone (Comet, Atlas) vs bolt-on (Chrome Gemini, Edge Copilot); a capability/pricing table; sidebar-spoofing and prompt-injection security risks; the ChatGPT Atlas wind-down as a product-churn lesson. Claims to verify: Atlas shutdown date (~Aug 9 2026), Comet free + iOS launch Mar 2026. Primary sources: https://www.perplexity.ai/comet and Webrazzi Atlas coverage"
-    },
-    {
-      "translationKey": "chatgpt-instagram-content-small-business",
-      "category": "social-media",
-      "titleTr": "ChatGPT ile Instagram İçeriği: Küçük İşletme Rehberi",
-      "titleEn": "ChatGPT for Instagram Content: A Small Business Guide",
-      "slugTr": "chatgpt-ile-instagram-icerigi-kucuk-isletme",
-      "slugEn": "chatgpt-instagram-content-small-business",
-      "keywordTr": "chatgpt instagram içerik",
-      "keywordEn": "chatgpt for instagram content",
-      "angle": "how-to + help a small business run its Instagram content system with ChatGPT without sounding generic",
-      "style": "question-driven",
-      "brief": "Question-led: can ChatGPT actually run your Instagram? Sections: why raw output sounds generic; a brand-voice prompt (niche, audience, tone, sample captions); turning one idea into a carousel + Reel + Story; a monthly content calendar; the near-free stack (ChatGPT + Sheets + Canva + a scheduler). Key claims to verify: ChatGPT Plus is $20/mo; creators report 2-3 hours saved per piece; AI drafts still need human editing to keep brand voice. Primary sources: coursiv.io/blog/chatgpt-for-social-media-2026; creatorflow.so ChatGPT Instagram guide. End with a copy-paste prompt pack."
-    },
-    {
-      "translationKey": "linkedin-organic-reach-2026",
-      "category": "social-media",
-      "titleTr": "LinkedIn Organik Erişim 2026: Hâlâ İşe Yarayanlar",
-      "titleEn": "LinkedIn Organic Reach 2026: What Still Works",
-      "slugTr": "linkedin-organik-erisim-2026",
-      "slugEn": "linkedin-organic-reach-2026",
-      "keywordTr": "linkedin organik erişim",
-      "keywordEn": "linkedin organic reach 2026",
-      "angle": "guide + what still drives LinkedIn organic reach after the 2026 algorithm shift",
-      "style": "data-led",
-      "brief": "Data-led: LinkedIn's organic-reach squeeze and what beats it. Sections: the 2026 LLM-driven ranking; dwell time (~15s read ≈ 40% reach bonus) and saves as top signals; document carousels reaching 3-5x text posts; native talking-head video; personal profiles ~70% more reach than company pages; strategic commenting; a 3-4x/week cadence. Claims to verify: dwell-time bonus, carousel multiplier, profile-vs-page gap. Primary sources: remery.ai LinkedIn organic reach crisis 2026; meet-lea.com LinkedIn algorithm growth. End with a weekly posting checklist."
-    },
-    {
-      "translationKey": "tiktok-shop-monetization-2026",
-      "category": "social-media",
-      "titleTr": "TikTok Shop ile Para Kazanma: 2026 Kreatör Rehberi",
-      "titleEn": "Making Money on TikTok Shop: A 2026 Creator Guide",
-      "slugTr": "tiktok-shop-ile-para-kazanma-2026",
-      "slugEn": "tiktok-shop-monetization-2026-creator-guide",
-      "keywordTr": "tiktok shop para kazanma",
-      "keywordEn": "tiktok shop monetization 2026",
-      "angle": "guide + map every 2026 TikTok revenue stream and how to stack them",
-      "style": "story-led",
-      "brief": "Story-led: a creator diversifies past the Creator Fund. Sections: the 2026 monetization map (Creator Rewards, TikTok Shop affiliate, LIVE gifts, Series, brand deals); why 60s+ watch time now drives Rewards while short viral loops earn $0; shoppable video as a storefront; stacking revenue streams; routing physical vs digital products through bio links. Claims to verify: ~$0.50-1.00 per 1k views, Shop favors physical goods, the 1-minute Creator Rewards threshold. Primary sources: communipass.com TikTok monetization 2026; socialcal.app how to monetize TikTok. End with a revenue-stack plan."
-    },
     {
       "translationKey": "grow-monetize-newsletter-2026",
       "category": "digital-marketing",

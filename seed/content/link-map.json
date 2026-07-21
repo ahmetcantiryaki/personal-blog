@@ -1848,6 +1848,66 @@
         "slug": "zig-2026-c-replacement",
         "title": "Zig in 2026: A Real C Replacement?"
       }
+    },
+    {
+      "translationKey": "claude-code-transcript-deletion-bug",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-oturum-kayitlarini-sessizce-siliyor",
+        "title": "Claude Code Oturum Kayıtlarını Sessizce Siliyor"
+      },
+      "en": {
+        "slug": "claude-code-silently-deletes-session-transcripts",
+        "title": "Claude Code Silently Deletes Session Transcripts"
+      }
+    },
+    {
+      "translationKey": "agentic-browsers-comparison",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-tarayicilari-karsilastirma",
+        "title": "Yapay Zeka Tarayıcıları: Comet, Atlas ve Gemini"
+      },
+      "en": {
+        "slug": "ai-browsers-compared-comet-atlas-gemini",
+        "title": "AI Browsers Compared: Comet, Atlas and Gemini"
+      }
+    },
+    {
+      "translationKey": "chatgpt-instagram-content-small-business",
+      "category": "social-media",
+      "tr": {
+        "slug": "chatgpt-ile-instagram-icerigi-kucuk-isletme",
+        "title": "ChatGPT ile Instagram İçeriği: Küçük İşletme Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-instagram-content-small-business",
+        "title": "ChatGPT for Instagram Content: A Small Business Guide"
+      }
+    },
+    {
+      "translationKey": "linkedin-organic-reach-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "linkedin-organik-erisim-2026",
+        "title": "LinkedIn Organik Erişim 2026: Hâlâ İşe Yarayanlar"
+      },
+      "en": {
+        "slug": "linkedin-organic-reach-2026",
+        "title": "LinkedIn Organic Reach 2026: What Still Works"
+      }
+    },
+    {
+      "translationKey": "tiktok-shop-monetization-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-shop-ile-para-kazanma-2026",
+        "title": "TikTok Shop ile Para Kazanma: 2026 Kreatör Rehberi"
+      },
+      "en": {
+        "slug": "tiktok-shop-monetization-2026-creator-guide",
+        "title": "Making Money on TikTok Shop: A 2026 Creator Guide"
+      }
     }
   ]
 }
