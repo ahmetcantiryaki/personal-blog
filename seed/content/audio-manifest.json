@@ -1206,5 +1206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3099629,
     "generatedAt": "2026-07-21T06:44:11.284Z"
+  },
+  "en/ai-shopify-product-descriptions": {
+    "hash": "3182df6e5de4befd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-shopify-product-descriptions.mp3",
+    "seconds": 534,
+    "voice": "en_US-ryan-high",
+    "bytes": 4274303,
+    "generatedAt": "2026-07-22T06:29:27.601Z"
+  },
+  "en/gemini-3-6-flash-3-5-flash-lite-and-cyber": {
+    "hash": "4eefa8fa4657ab90",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-3-6-flash-3-5-flash-lite-and-cyber.mp3",
+    "seconds": 497,
+    "voice": "en_US-ryan-high",
+    "bytes": 3972537,
+    "generatedAt": "2026-07-22T06:32:16.838Z"
+  },
+  "en/gemini-gems-custom-ai-assistants-business": {
+    "hash": "ea90d667f6bdff17",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-gems-custom-ai-assistants-business.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3510065,
+    "generatedAt": "2026-07-22T06:34:42.537Z"
+  },
+  "en/grow-monetize-newsletter-2026": {
+    "hash": "da55132f8a2299ca",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-grow-monetize-newsletter-2026.mp3",
+    "seconds": 508,
+    "voice": "en_US-ryan-high",
+    "bytes": 4066995,
+    "generatedAt": "2026-07-22T06:37:33.248Z"
+  },
+  "en/notebooklm-research-study-guide": {
+    "hash": "8179440835f312f3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-notebooklm-research-study-guide.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3283322,
+    "generatedAt": "2026-07-22T06:39:51.402Z"
   }
 }
