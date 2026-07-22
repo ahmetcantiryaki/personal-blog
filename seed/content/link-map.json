@@ -1908,6 +1908,66 @@
         "slug": "tiktok-shop-monetization-2026-creator-guide",
         "title": "Making Money on TikTok Shop: A 2026 Creator Guide"
       }
+    },
+    {
+      "translationKey": "grow-monetize-newsletter-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "bulten-buyutme-ve-gelir-2026",
+        "title": "Bülten Büyütme ve Gelir 2026: Sıfırdan Rehber"
+      },
+      "en": {
+        "slug": "grow-monetize-newsletter-2026",
+        "title": "Grow and Monetize a Newsletter in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-shopify-product-descriptions",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ile-shopify-urun-aciklamalari",
+        "title": "AI ile Shopify Ürün Açıklamaları Yazmak"
+      },
+      "en": {
+        "slug": "ai-shopify-product-descriptions",
+        "title": "Writing Shopify Product Descriptions with AI"
+      }
+    },
+    {
+      "translationKey": "gemini-gems-custom-ai-assistants-business",
+      "category": "business",
+      "tr": {
+        "slug": "gemini-gems-isletmeye-ozel-ai-asistanlari",
+        "title": "Gemini Gems ile İşletmene Özel AI Asistanları"
+      },
+      "en": {
+        "slug": "gemini-gems-custom-ai-assistants-business",
+        "title": "Gemini Gems: Custom AI Assistants for Your Business"
+      }
+    },
+    {
+      "translationKey": "notebooklm-research-study-guide",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "notebooklm-ile-arastirma-ve-ogrenme",
+        "title": "NotebookLM ile Araştırma ve Öğrenme Rehberi"
+      },
+      "en": {
+        "slug": "notebooklm-research-study-guide",
+        "title": "NotebookLM for Research and Study: A How-To"
+      }
+    },
+    {
+      "translationKey": "gemini-flash-trio-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-6-flash-3-5-flash-lite-ve-cyber",
+        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite ve Cyber Geldi"
+      },
+      "en": {
+        "slug": "gemini-3-6-flash-3-5-flash-lite-and-cyber",
+        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and Cyber Arrive"
+      }
     }
   ]
 }

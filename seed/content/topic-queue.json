@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "topics": [
-    {
-      "translationKey": "grow-monetize-newsletter-2026",
-      "category": "digital-marketing",
-      "titleTr": "Bülten Büyütme ve Gelir 2026: Sıfırdan Rehber",
-      "titleEn": "Grow and Monetize a Newsletter in 2026",
-      "slugTr": "bulten-buyutme-ve-gelir-2026",
-      "slugEn": "grow-monetize-newsletter-2026",
-      "keywordTr": "bülten büyütme",
-      "keywordEn": "grow email newsletter 2026",
-      "angle": "guide + grow an email list and turn it into revenue as the core of a creator business",
-      "style": "data-led",
-      "brief": "Data-led: the newsletter as a creator business's core. Sections: why owned email beats rented reach; growth tactics (lead magnets, referrals, cross-promo); the monetization ladder (services → sponsorships → digital products → paid subs); the free+paid hybrid; the weekly-cadence sweet spot. Claims to verify: 28B emails / 255M readers in 2025, 41%+ open rates, paid-sub revenue $8M→$19M YoY, median 66 days to first dollar. Primary sources: beehiiv.com State of Newsletters 2026; newsletter.supply monetization guide. End with a 90-day launch-to-first-dollar plan."
-    },
-    {
-      "translationKey": "ai-shopify-product-descriptions",
-      "category": "digital-marketing",
-      "titleTr": "AI ile Shopify Ürün Açıklamaları Yazmak",
-      "titleEn": "Writing Shopify Product Descriptions with AI",
-      "slugTr": "ai-ile-shopify-urun-aciklamalari",
-      "slugEn": "ai-shopify-product-descriptions",
-      "keywordTr": "ai ürün açıklaması",
-      "keywordEn": "ai shopify product descriptions",
-      "angle": "how-to + write AI product descriptions that actually convert and get cited in AI search",
-      "style": "contrarian",
-      "brief": "Contrarian: bulk AI descriptions won't lift sales on their own. Sections: why generic AI copy hurts both conversion and GEO; a prompt that feeds real attributes, benefits, and objections; Shopify Magic vs ChatGPT vs Jasper; photo-to-spec generation; the draft-plus-human-edit loop; structuring copy so AI search can cite it. Claims to verify: better descriptions lift conversion 10%+ (some studies up to 23.7%); Shopify Magic reads uploaded photos; AI+human beats either alone. Primary sources: easyappsecom.com Shopify AI descriptions guide; stormy.ai Shopify GEO playbook. End with a pre-publish QA checklist."
-    },
-    {
-      "translationKey": "gemini-gems-custom-ai-assistants-business",
-      "category": "business",
-      "titleTr": "Gemini Gems ile İşletmene Özel AI Asistanları",
-      "titleEn": "Gemini Gems: Custom AI Assistants for Your Business",
-      "slugTr": "gemini-gems-isletmeye-ozel-ai-asistanlari",
-      "slugEn": "gemini-gems-custom-ai-assistants-business",
-      "keywordTr": "gemini gems işletme",
-      "keywordEn": "gemini gems for business",
-      "angle": "how-to + build reusable Gemini Gems so a small business stops re-typing the same prompts",
-      "style": "field-notes",
-      "brief": "Field-notes: building reusable Gemini Gems for a small business. Sections: what a Gem is (saved expert instructions for repeatable tasks); premade business Gems (Marketing insights, Sales pitch ideator, Hiring consultant, Outreach specialist); building a custom Gem step by step; Opal mini-apps and the Google Business Profile connection; where Gems beat one-off prompts and where they don't. Claims to verify: the premade Workspace Gems list, Opal integrated into the Gemini web app, the Business Profile connector. Primary sources: workspace.google.com Gemini Gems business post; gemini.google/overview/gems. End with three clone-ready Gem recipes."
-    },
-    {
-      "translationKey": "notebooklm-research-study-guide",
-      "category": "career-productivity",
-      "titleTr": "NotebookLM ile Araştırma ve Öğrenme Rehberi",
-      "titleEn": "NotebookLM for Research and Study: A How-To",
-      "slugTr": "notebooklm-ile-arastirma-ve-ogrenme",
-      "slugEn": "notebooklm-research-study-guide",
-      "keywordTr": "notebooklm nasıl kullanılır",
-      "keywordEn": "notebooklm research guide",
-      "angle": "how-to + use NotebookLM as a source-grounded second brain for study and research",
-      "style": "question-driven",
-      "brief": "Question-led: can NotebookLM be your second brain? Sections: source-grounded answers with citations; uploading PDFs, docs, and links; Audio and Video Overviews; the Learning Guide, flashcards, and quizzes for students; 2026 Deep Research + Chat Artifacts that run code and build reports/slides; limits and verification. Claims to verify: free with any Google account; the 2026 update adds Gemini 3.5, Deep Research, and Video Overview; it grounds strictly in your uploaded sources. Primary sources: blog.google NotebookLM better-research post; digitalocean.com What is NotebookLM 2026. End with a study-and-research workflow."
-    },
     {
       "translationKey": "ai-smart-glasses-2026-meta-vs-android-xr",
       "category": "technology",
