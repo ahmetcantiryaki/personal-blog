@@ -1246,5 +1246,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3283322,
     "generatedAt": "2026-07-22T06:39:51.402Z"
+  },
+  "en/ai-smart-glasses-2026-meta-vs-android-xr": {
+    "hash": "eeebf2579a66537d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-smart-glasses-2026-meta-vs-android-xr.mp3",
+    "seconds": 392,
+    "voice": "en_US-ryan-high",
+    "bytes": 3138917,
+    "generatedAt": "2026-07-23T06:36:53.324Z"
+  },
+  "en/claude-economic-index-connector": {
+    "hash": "5302db20a9185f95",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-economic-index-connector.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3369004,
+    "generatedAt": "2026-07-23T06:39:17.592Z"
+  },
+  "en/claude-skills-explained-for-everyone": {
+    "hash": "a47d61e605ea7ee4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-skills-explained-for-everyone.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3362734,
+    "generatedAt": "2026-07-23T06:41:39.276Z"
+  },
+  "en/first-10-customers-solo-ai-founder": {
+    "hash": "dc81b229b754d810",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-10-customers-solo-ai-founder.mp3",
+    "seconds": 373,
+    "voice": "en_US-ryan-high",
+    "bytes": 2983227,
+    "generatedAt": "2026-07-23T06:43:45.349Z"
+  },
+  "en/gemini-3-deep-think-explained": {
+    "hash": "72a71f843285b794",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-3-deep-think-explained.mp3",
+    "seconds": 403,
+    "voice": "en_US-ryan-high",
+    "bytes": 3224390,
+    "generatedAt": "2026-07-23T06:46:03.085Z"
   }
 }
