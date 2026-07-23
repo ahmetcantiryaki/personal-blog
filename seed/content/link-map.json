@@ -1968,6 +1968,66 @@
         "slug": "gemini-3-6-flash-3-5-flash-lite-and-cyber",
         "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and Cyber Arrive"
       }
+    },
+    {
+      "translationKey": "claude-economic-index-connector",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-ekonomi-endeksi-baglantisi",
+        "title": "Claude'a Ekonomi Endeksi'ni Sormak"
+      },
+      "en": {
+        "slug": "claude-economic-index-connector",
+        "title": "Ask Claude About the Anthropic Economic Index"
+      }
+    },
+    {
+      "translationKey": "ai-smart-glasses-2026-meta-vs-android-xr",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-akilli-gozlukler-2026-meta-android-xr",
+        "title": "AI Akıllı Gözlükler 2026: Meta ve Android XR"
+      },
+      "en": {
+        "slug": "ai-smart-glasses-2026-meta-vs-android-xr",
+        "title": "AI Smart Glasses 2026: Meta vs Android XR"
+      }
+    },
+    {
+      "translationKey": "first-10-customers-solo-ai-founder",
+      "category": "business",
+      "tr": {
+        "slug": "ai-caginda-ilk-10-musteri-solo-kurucu",
+        "title": "AI Çağında İlk 10 Müşteri: Solo Kurucu Rehberi"
+      },
+      "en": {
+        "slug": "first-10-customers-solo-ai-founder",
+        "title": "Your First 10 Customers as a Solo AI Founder"
+      }
+    },
+    {
+      "translationKey": "gemini-3-deep-think-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-deep-think-nedir",
+        "title": "Gemini 3 Deep Think Nedir? Derin Akıl Yürütme"
+      },
+      "en": {
+        "slug": "gemini-3-deep-think-explained",
+        "title": "What Is Gemini 3 Deep Think? Deeper Reasoning"
+      }
+    },
+    {
+      "translationKey": "claude-skills-explained-for-everyone",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-skills-nedir-herkes-icin",
+        "title": "Claude Skills Nedir? Herkes İçin Pratik Rehber"
+      },
+      "en": {
+        "slug": "claude-skills-explained-for-everyone",
+        "title": "Claude Skills Explained: A Guide for Everyone"
+      }
     }
   ]
 }

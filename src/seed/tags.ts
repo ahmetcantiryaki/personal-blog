@@ -116,6 +116,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'vector-database': { en: 'Vector Database', tr: 'Vektör Veritabanı' },
   'version-control': { en: 'Version Control', tr: 'Sürüm Kontrolü' },
   wcag: { en: 'WCAG', tr: 'WCAG' },
+  wearables: { en: 'Wearables', tr: 'Giyilebilir Teknoloji' },
   'web-performance': { en: 'Web Performance', tr: 'Web Performansı' },
   'web-security': { en: 'Web Security', tr: 'Web Güvenliği' },
   'web-standards': { en: 'Web Standards', tr: 'Web Standartları' },

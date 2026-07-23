@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
   "topics": [
-    {
-      "translationKey": "ai-smart-glasses-2026-meta-vs-android-xr",
-      "category": "technology",
-      "titleTr": "AI Akıllı Gözlükler 2026: Meta ve Android XR",
-      "titleEn": "AI Smart Glasses 2026: Meta vs Android XR",
-      "slugTr": "ai-akilli-gozlukler-2026-meta-android-xr",
-      "slugEn": "ai-smart-glasses-2026-meta-vs-android-xr",
-      "keywordTr": "yapay zeka akıllı gözlük",
-      "keywordEn": "ai smart glasses 2026",
-      "angle": "comparison + map the 2026 AI smart-glasses race and who should buy now vs wait",
-      "style": "data-led",
-      "brief": "Data-led comparison: the 2026 AI smart-glasses race. Sections: the Meta Ray-Ban Display ($799, Neural Band EMG) and Meta's own $299 Adventurer/Fury line; Google+Samsung Android XR audio glasses (Warby Parker, Gentle Monster) shipping fall 2026 with Gemini; a capability table (display vs audio, assistant, live translation, navigation); who should wait. Claims to verify: Meta ~80% market share, the ~10M unit threshold in 2026, the Android XR Gemini feature set, price points. Primary sources: androidcentral.com Android XR vs Ray-Ban Meta; the-gadgeteer.com best smart glasses 2026. End with a buyer's decision guide."
-    },
-    {
-      "translationKey": "first-10-customers-solo-ai-founder",
-      "category": "business",
-      "titleTr": "AI Çağında İlk 10 Müşteri: Solo Kurucu Rehberi",
-      "titleEn": "Your First 10 Customers as a Solo AI Founder",
-      "slugTr": "ai-caginda-ilk-10-musteri-solo-kurucu",
-      "slugEn": "first-10-customers-solo-ai-founder",
-      "keywordTr": "ilk müşteri bulma",
-      "keywordEn": "first customers solo founder",
-      "angle": "guide + get from an AI-built MVP to first paying customers when building is the easy part",
-      "style": "story-led",
-      "brief": "Story-led: from AI-built MVP to first paying customers. Sections: why the build is now the easy part; scoping an AI-workflow product you can ship solo in 4-6 weeks; charging on day one; landing the first 10 customers through direct outreach, not SEO or ads; validating price; when the AI stack stops carrying you and what to hire first. Claims to verify: 63% of Q2 2026 Stripe Atlas C-corps were solo-founded; AI-augmented solo founders earn ~3x; the Base44 arc (0→$3.5M ARR→$80M exit). Primary sources: solofounders.com Stripe stat; fortune.com solo founders AI. End with a first-10-customers playbook."
-    },
-    {
-      "translationKey": "gemini-3-deep-think-explained",
-      "category": "ai",
-      "titleTr": "Gemini 3 Deep Think Nedir? Derin Akıl Yürütme",
-      "titleEn": "What Is Gemini 3 Deep Think? Deeper Reasoning",
-      "slugTr": "gemini-3-deep-think-nedir",
-      "slugEn": "gemini-3-deep-think-explained",
-      "keywordTr": "gemini deep think nedir",
-      "keywordEn": "gemini 3 deep think",
-      "angle": "deep-dive + explain what Deep Think does and when the extra reasoning is worth it",
-      "style": "question-driven",
-      "brief": "Question-led: when do you actually need Gemini 3 Deep Think? Sections: what Deep Think is (iterative, multi-round reasoning for hard math, science, and logic); how it differs from default Gemini and from quick answers; the latency and cost tradeoff; the Google AI Ultra gating ($100+/mo); real tasks where it wins vs where it's overkill. Claims to verify: Deep Think uses iterative reasoning rounds; it is gated to AI Ultra; Ultra starts at $100/mo. Primary sources: gemini.google/release-notes; blog.google Google AI updates June 2026. End with a 'reach for Deep Think when…' decision list."
-    },
-    {
-      "translationKey": "claude-skills-explained-for-everyone",
-      "category": "ai",
-      "titleTr": "Claude Skills Nedir? Herkes İçin Pratik Rehber",
-      "titleEn": "Claude Skills Explained: A Guide for Everyone",
-      "slugTr": "claude-skills-nedir-herkes-icin",
-      "slugEn": "claude-skills-explained-for-everyone",
-      "keywordTr": "claude skills nedir",
-      "keywordEn": "claude skills guide",
-      "angle": "how-to + show non-developers how Claude Skills package repeatable work and when to use them",
-      "style": "field-notes",
-      "brief": "Field-notes: Claude Skills for non-developers. Sections: what a Skill is (packaged instructions Claude loads when a task matches); how Skills differ from raw prompts and Projects; enabling and invoking them; practical Skills for writers, marketers, and analysts; sharing Skills across a team; where Skills help vs add noise. Key claims to verify: Skills are reusable instruction packages Claude auto-triggers by task; they work across Claude apps; they are distinct from MCP connectors. Primary sources: docs.claude.com Skills documentation; anthropic.com/news Skills coverage. End with three copy-ready non-developer Skills."
-    },
     {
       "translationKey": "whatsapp-business-marketing-2026",
       "category": "digital-marketing",
