@@ -1286,5 +1286,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3224390,
     "generatedAt": "2026-07-23T06:46:03.085Z"
+  },
+  "en/ai-support-chatbot-without-code": {
+    "hash": "de28b966bd3a29bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-support-chatbot-without-code.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3325954,
+    "generatedAt": "2026-07-24T06:32:18.779Z"
+  },
+  "en/ai-video-generation-2026-sora-vs-veo": {
+    "hash": "e2f35a7340af88b9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-video-generation-2026-sora-vs-veo.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3796367,
+    "generatedAt": "2026-07-24T06:34:59.395Z"
+  },
+  "en/claude-artifacts-live-mcp-data": {
+    "hash": "533e5c060a0ae328",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-artifacts-live-mcp-data.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3542457,
+    "generatedAt": "2026-07-24T06:37:29.187Z"
+  },
+  "en/short-video-hook-mistakes": {
+    "hash": "35ff2b738dd6ab6a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-short-video-hook-mistakes.mp3",
+    "seconds": 519,
+    "voice": "en_US-ryan-high",
+    "bytes": 4151423,
+    "generatedAt": "2026-07-24T06:40:23.223Z"
+  },
+  "en/whatsapp-business-marketing-2026": {
+    "hash": "af08316652c52bdb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-whatsapp-business-marketing-2026.mp3",
+    "seconds": 510,
+    "voice": "en_US-ryan-high",
+    "bytes": 4078280,
+    "generatedAt": "2026-07-24T06:43:16.593Z"
   }
 }
