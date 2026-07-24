@@ -100,6 +100,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'self-hosting': { en: 'Self-Hosting', tr: 'Kendi Sunucunda Barındırma' },
   seo: { en: 'SEO', tr: 'SEO' },
   'server-components': { en: 'Server Components', tr: 'Sunucu Bileşenleri' },
+  'short-form-video': { en: 'Short-Form Video', tr: 'Kısa Video İçerik' },
   'software-architecture': { en: 'Software Architecture', tr: 'Yazılım Mimarisi' },
   sql: { en: 'SQL', tr: 'SQL' },
   sre: { en: 'SRE', tr: 'SRE' },

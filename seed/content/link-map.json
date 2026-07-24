@@ -2028,6 +2028,66 @@
         "slug": "claude-skills-explained-for-everyone",
         "title": "Claude Skills Explained: A Guide for Everyone"
       }
+    },
+    {
+      "translationKey": "claude-artifacts-live-mcp-data",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-artifacts-canli-mcp-verisi",
+        "title": "Claude Artifacts Artık Canlı MCP Verisi Çekiyor"
+      },
+      "en": {
+        "slug": "claude-artifacts-live-mcp-data",
+        "title": "Claude Artifacts Can Now Pull Live Data via MCP"
+      }
+    },
+    {
+      "translationKey": "whatsapp-business-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "whatsapp-business-ile-pazarlama-2026",
+        "title": "WhatsApp Business ile Pazarlama: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "whatsapp-business-marketing-2026",
+        "title": "WhatsApp Business Marketing: A 2026 Guide"
+      }
+    },
+    {
+      "translationKey": "ai-support-chatbot-without-code",
+      "category": "business",
+      "tr": {
+        "slug": "kod-yazmadan-ai-musteri-destek-botu",
+        "title": "Kod Yazmadan AI Müşteri Destek Botu Kurmak"
+      },
+      "en": {
+        "slug": "ai-support-chatbot-without-code",
+        "title": "Build an AI Support Chatbot Without Code"
+      }
+    },
+    {
+      "translationKey": "short-video-hook-mistakes",
+      "category": "social-media",
+      "tr": {
+        "slug": "kisa-videoda-ilk-3-saniye-hook-hatalari",
+        "title": "Kısa Videoda İlk 3 Saniye: 7 Hook Hatası"
+      },
+      "en": {
+        "slug": "short-video-hook-mistakes",
+        "title": "The First 3 Seconds: 7 Short-Video Hook Mistakes"
+      }
+    },
+    {
+      "translationKey": "ai-video-generation-2026-sora-vs-veo",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-video-uretimi-2026-sora-veo",
+        "title": "AI Video Üretimi 2026: Sora, Veo ve Fazlası"
+      },
+      "en": {
+        "slug": "ai-video-generation-2026-sora-vs-veo",
+        "title": "AI Video Generation 2026: Sora vs Veo Compared"
+      }
     }
   ]
 }

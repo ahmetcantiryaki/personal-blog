@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-24",
   "topics": [
-    {
-      "translationKey": "whatsapp-business-marketing-2026",
-      "category": "digital-marketing",
-      "titleTr": "WhatsApp Business ile Pazarlama: 2026 Rehberi",
-      "titleEn": "WhatsApp Business Marketing: A 2026 Guide",
-      "slugTr": "whatsapp-business-ile-pazarlama-2026",
-      "slugEn": "whatsapp-business-marketing-2026",
-      "keywordTr": "whatsapp business pazarlama",
-      "keywordEn": "whatsapp business marketing",
-      "angle": "guide + use WhatsApp as a compliant marketing and retention channel for SMBs",
-      "style": "field-notes",
-      "brief": "Field-notes: WhatsApp as a marketing channel, especially in Turkey and emerging markets. Sections: the WhatsApp Business app vs the Business Platform (API); catalogs, quick replies, labels, and broadcast lists vs the 24-hour session and template-message rules; opt-in and consent; abandoned-cart and order-update flows; lightweight AI auto-replies. Key claims to verify: template messages are required outside the 24-hour customer-service window; catalog and cart features live in the Business app; opt-in is mandatory. Primary sources: business.whatsapp.com Platform docs; a 2026 WhatsApp marketing guide. End with a compliant broadcast checklist."
-    },
-    {
-      "translationKey": "ai-support-chatbot-without-code",
-      "category": "business",
-      "titleTr": "Kod Yazmadan AI Müşteri Destek Botu Kurmak",
-      "titleEn": "Build an AI Support Chatbot Without Code",
-      "slugTr": "kod-yazmadan-ai-musteri-destek-botu",
-      "slugEn": "ai-support-chatbot-without-code",
-      "keywordTr": "ai müşteri destek botu",
-      "keywordEn": "ai customer support chatbot no code",
-      "angle": "how-to + stand up a grounded, no-code AI support bot for a small store without hallucinated promises",
-      "style": "field-notes",
-      "brief": "Field-notes: a no-code AI support bot for a small store. Sections: building a knowledge base from FAQs, policies, and docs; picking a no-code platform (site widget, WhatsApp, Instagram DM); grounding answers to avoid hallucinated promises; human-handoff triggers; measuring deflection and CSAT; guardrails on refunds and pricing. Key claims to verify: retrieval-grounded bots reduce invented commitments; a human-handoff path raises satisfaction; deflection rate is the core ROI metric. Primary sources: a 2026 no-code AI chatbot guide; vendor docs such as Intercom Fin or Tidio. End with a launch checklist and escalation rules."
-    },
-    {
-      "translationKey": "short-video-hook-mistakes",
-      "category": "social-media",
-      "titleTr": "Kısa Videoda İlk 3 Saniye: 7 Hook Hatası",
-      "titleEn": "The First 3 Seconds: 7 Short-Video Hook Mistakes",
-      "slugTr": "kisa-videoda-ilk-3-saniye-hook-hatalari",
-      "slugEn": "short-video-hook-mistakes",
-      "keywordTr": "kısa video hook",
-      "keywordEn": "short form video hooks",
-      "angle": "mistakes + fix the first-three-seconds hook errors that quietly kill short-video reach",
-      "style": "contrarian",
-      "brief": "Contrarian/mistakes: your Reels don't fail on editing, they fail in the first three seconds. Sections: seven hook mistakes (slow intros, burying the payoff, weak visual motion, no on-screen text, a vague promise, wrong aspect for saves, ignoring the retention graph); reading the retention curve; scripting a hook that earns the next two seconds; hooks that lift saves and shares. Key claims to verify: watch-through/retention and saves drive short-video distribution; the opening seconds decide reach. Primary sources: a 2026 short-form retention study; TikTok and Instagram creator docs. End with a seven-point hook checklist."
-    },
-    {
-      "translationKey": "ai-video-generation-2026-sora-vs-veo",
-      "category": "technology",
-      "titleTr": "AI Video Üretimi 2026: Sora, Veo ve Fazlası",
-      "titleEn": "AI Video Generation 2026: Sora vs Veo Compared",
-      "slugTr": "ai-video-uretimi-2026-sora-veo",
-      "slugEn": "ai-video-generation-2026-sora-vs-veo",
-      "keywordTr": "ai video üretimi",
-      "keywordEn": "ai video generation 2026",
-      "angle": "comparison + walk through making a short video with today's AI tools and their limits",
-      "style": "story-led",
-      "brief": "Story-led: making a short video with AI in 2026. Sections: the current field (OpenAI Sora, Google Veo, Runway, Kling); text-to-video vs image-to-video; strengths, clip length, audio, and cost; watermarking and provenance (C2PA, SynthID); a realistic creator workflow; where AI video still breaks. Key claims to verify: Veo lives in the Gemini/Google ecosystem and Sora is OpenAI's; SynthID/C2PA labeling on generated video; per-clip length limits. Primary sources: deepmind.google Veo page; openai.com Sora page. End with a pick-your-tool table."
-    },
     {
       "translationKey": "personal-brand-on-x-for-founders",
       "category": "social-media",
