@@ -2088,6 +2088,66 @@
         "slug": "ai-video-generation-2026-sora-vs-veo",
         "title": "AI Video Generation 2026: Sora vs Veo Compared"
       }
+    },
+    {
+      "translationKey": "claude-opus-5-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-opus-5-geldi",
+        "title": "Claude Opus 5 Geldi: Yarı Fiyata Frontier Zeka"
+      },
+      "en": {
+        "slug": "claude-opus-5-launch",
+        "title": "Claude Opus 5 Arrives: Frontier AI at Half Price"
+      }
+    },
+    {
+      "translationKey": "personal-brand-on-x-for-founders",
+      "category": "social-media",
+      "tr": {
+        "slug": "xte-kisisel-marka-kurucular-icin",
+        "title": "X'te Kişisel Marka: Kurucular İçin Takipçi Tuzağı"
+      },
+      "en": {
+        "slug": "personal-brand-on-x-for-founders",
+        "title": "Personal Brand on X for Founders: Beyond Followers"
+      }
+    },
+    {
+      "translationKey": "local-seo-2026-google-business-checklist",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "yerel-seo-2026-google-business-profil",
+        "title": "Yerel SEO 2026: Google Business Profil Kontrol Listesi"
+      },
+      "en": {
+        "slug": "local-seo-2026-google-business-checklist",
+        "title": "Local SEO 2026: A Google Business Profile Checklist"
+      }
+    },
+    {
+      "translationKey": "on-device-ai-phones-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "telefonda-yapay-zeka-cihaz-ici-ai-2026",
+        "title": "Telefonda Yapay Zeka: 2026'da Gerçekten Ne Çalışıyor"
+      },
+      "en": {
+        "slug": "on-device-ai-phones-2026",
+        "title": "On-Device AI: What Actually Runs Locally in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-resume-mistakes-ats",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-cv-yazarken-6-hata-ats",
+        "title": "AI ile CV Yazarken 6 Hata (ve ATS Tuzağı)"
+      },
+      "en": {
+        "slug": "ai-resume-mistakes-ats",
+        "title": "6 Mistakes Using AI for Your Resume (and ATS)"
+      }
     }
   ]
 }

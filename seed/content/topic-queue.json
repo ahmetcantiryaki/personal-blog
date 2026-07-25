@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-25",
   "topics": [
-    {
-      "translationKey": "personal-brand-on-x-for-founders",
-      "category": "social-media",
-      "titleTr": "X'te Kişisel Marka: Kurucular İçin Büyüme",
-      "titleEn": "Building a Personal Brand on X for Founders",
-      "slugTr": "xte-kisisel-marka-kurucular-icin",
-      "slugEn": "personal-brand-on-x-for-founders",
-      "keywordTr": "x kişisel marka",
-      "keywordEn": "personal brand on x",
-      "angle": "guide + build a founder brand on X that converts attention into subscribers, not just followers",
-      "style": "contrarian",
-      "brief": "Contrarian: follower count is a vanity trap—build an X brand that converts. Sections: why niche credibility beats raw reach; a content mix (build-in-public, insights, contrarian takes, threads); the link-in-reply pattern for reach; using bookmarks and saves as the real signal; consistency over virality; turning attention into email subscribers. Key claims to verify: X deprioritizes posts with external links in the body (the link-in-reply workaround); saves/bookmarks and dwell weigh heavily; long-term consistency compounds. Primary sources: a 2026 X algorithm/growth analysis; founder case studies. End with a 30-day founder posting plan."
-    },
-    {
-      "translationKey": "local-seo-2026-google-business-checklist",
-      "category": "digital-marketing",
-      "titleTr": "Yerel SEO 2026: Google Business Profil Kontrol Listesi",
-      "titleEn": "Local SEO 2026: A Google Business Profile Checklist",
-      "slugTr": "yerel-seo-2026-google-business-profil",
-      "slugEn": "local-seo-2026-google-business-checklist",
-      "keywordTr": "yerel seo google business",
-      "keywordEn": "local seo google business 2026",
-      "angle": "checklist + optimize a Google Business Profile to win the map pack and AI local answers",
-      "style": "data-led",
-      "brief": "Data-led checklist: local SEO in 2026. Sections: Google Business Profile optimization (categories, services, photos, posts, reviews, Q&A); NAP consistency and citations; review velocity and responses; local landing pages and schema; the map pack vs AI Overviews and Gemini's Business Profile connection; tracking calls and directions. Key claims to verify: reviews plus proximity/relevance drive map-pack ranking; Gemini can connect to a Google Business Profile; AI answers increasingly surface local results. Primary sources: Google Business Profile help docs; a 2026 local SEO guide. End with a 15-point GBP audit checklist."
-    },
-    {
-      "translationKey": "on-device-ai-phones-2026",
-      "category": "technology",
-      "titleTr": "Telefonunda Yapay Zeka: Cihaz İçi AI 2026",
-      "titleEn": "AI on Your Phone: On-Device AI in 2026",
-      "slugTr": "telefonda-yapay-zeka-cihaz-ici-ai-2026",
-      "slugEn": "on-device-ai-phones-2026",
-      "keywordTr": "cihaz içi yapay zeka",
-      "keywordEn": "on-device ai 2026",
-      "angle": "deep-dive + explain what actually runs locally on your phone and why it matters",
-      "style": "contrarian",
-      "brief": "Contrarian deep-dive: your AI's future isn't only in the cloud—it's on your phone. Sections: what on-device AI is (small models running locally); Apple Intelligence, Gemini Nano, and Galaxy AI; the privacy and offline wins; the latency and battery limits; hybrid on-device-plus-cloud routing; what truly runs locally today vs the marketing. Key claims to verify: Gemini Nano runs on-device on Pixel/Android; Apple Intelligence blends on-device with Private Cloud Compute; small models handle summarize/reply/transcribe locally. Primary sources: Google Android on-device AI docs; Apple Intelligence overview. End with what to expect from a 2026 flagship phone."
-    },
-    {
-      "translationKey": "ai-resume-mistakes-ats",
-      "category": "career-productivity",
-      "titleTr": "AI ile CV Yazarken 6 Hata (ve ATS Tuzağı)",
-      "titleEn": "6 Mistakes Using AI for Your Resume (and ATS)",
-      "slugTr": "ai-ile-cv-yazarken-6-hata-ats",
-      "slugEn": "ai-resume-mistakes-ats",
-      "keywordTr": "ai ile cv yazma",
-      "keywordEn": "ai resume mistakes",
-      "angle": "mistakes + use AI to tailor a resume without tripping ATS or losing your voice",
-      "style": "question-driven",
-      "brief": "Question-led/mistakes: is AI helping or hurting your job search? Sections: six mistakes (generic AI-written resumes, keyword stuffing for ATS, fabricated metrics, a cover letter that loses your voice, ignoring the job description, one resume for every role); using ChatGPT to tailor rather than generate; ATS-friendly formatting; verifying every claim. Key claims to verify: ATS parsing rewards clean formatting and real keyword matches; recruiters detect generic AI copy; tailoring beats mass-applying. Primary sources: a 2026 ATS/resume guide; LinkedIn or hiring-platform data. End with a tailor-in-15-minutes workflow."
-    },
     {
       "translationKey": "selling-digital-products-with-ai",
       "category": "business",
