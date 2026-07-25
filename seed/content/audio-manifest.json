@@ -1326,5 +1326,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4078280,
     "generatedAt": "2026-07-24T06:43:16.593Z"
+  },
+  "en/ai-resume-mistakes-ats": {
+    "hash": "28a4ac29285d64e6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-resume-mistakes-ats.mp3",
+    "seconds": 519,
+    "voice": "en_US-ryan-high",
+    "bytes": 4148288,
+    "generatedAt": "2026-07-25T06:34:01.981Z"
+  },
+  "en/claude-opus-5-launch": {
+    "hash": "8c9cd15e6aed1594",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-opus-5-launch.mp3",
+    "seconds": 518,
+    "voice": "en_US-ryan-high",
+    "bytes": 4147244,
+    "generatedAt": "2026-07-25T06:36:56.359Z"
+  },
+  "en/local-seo-2026-google-business-checklist": {
+    "hash": "b29d73c27d5091c1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-local-seo-2026-google-business-checklist.mp3",
+    "seconds": 487,
+    "voice": "en_US-ryan-high",
+    "bytes": 3896468,
+    "generatedAt": "2026-07-25T06:39:42.055Z"
+  },
+  "en/on-device-ai-phones-2026": {
+    "hash": "89bff160af2cf059",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-on-device-ai-phones-2026.mp3",
+    "seconds": 578,
+    "voice": "en_US-ryan-high",
+    "bytes": 4621627,
+    "generatedAt": "2026-07-25T06:42:59.381Z"
+  },
+  "en/personal-brand-on-x-for-founders": {
+    "hash": "9b7f9a4bbfaeaacf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-personal-brand-on-x-for-founders.mp3",
+    "seconds": 509,
+    "voice": "en_US-ryan-high",
+    "bytes": 4069712,
+    "generatedAt": "2026-07-25T06:45:51.602Z"
   }
 }
