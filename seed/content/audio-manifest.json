@@ -1366,5 +1366,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4069712,
     "generatedAt": "2026-07-25T06:45:51.602Z"
+  },
+  "en/ai-meeting-assistants-compared-2026": {
+    "hash": "e209aa3b1e970caa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-meeting-assistants-compared-2026.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3397634,
+    "generatedAt": "2026-07-26T06:36:07.302Z"
+  },
+  "en/ai-voice-assistants-compared-gpt-live-gemini-claude": {
+    "hash": "2425e229a5b39d4b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-voice-assistants-compared-gpt-live-gemini-claude.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3375900,
+    "generatedAt": "2026-07-26T06:37:37.581Z"
+  },
+  "en/custom-instructions-chatgpt-claude-gemini": {
+    "hash": "fa67367b1cb17b22",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-custom-instructions-chatgpt-claude-gemini.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3529500,
+    "generatedAt": "2026-07-26T06:39:12.513Z"
+  },
+  "en/openai-outage-streak-what-it-teaches-developers": {
+    "hash": "c414c0bba3bbd9d7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openai-outage-streak-what-it-teaches-developers.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3690623,
+    "generatedAt": "2026-07-26T06:40:52.755Z"
+  },
+  "en/selling-digital-products-with-ai": {
+    "hash": "a435c13fca4f593a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-selling-digital-products-with-ai.mp3",
+    "seconds": 456,
+    "voice": "en_US-ryan-high",
+    "bytes": 3648618,
+    "generatedAt": "2026-07-26T06:42:31.652Z"
   }
 }
