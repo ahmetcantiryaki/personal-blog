@@ -2,58 +2,6 @@
   "updatedAt": "2026-07-26",
   "topics": [
     {
-      "translationKey": "selling-digital-products-with-ai",
-      "category": "business",
-      "titleTr": "AI ile Dijital Ürün Satışı: Pasif Gelir Rehberi",
-      "titleEn": "Selling Digital Products with AI: A Passive Income Guide",
-      "slugTr": "ai-ile-dijital-urun-satisi-pasif-gelir",
-      "slugEn": "selling-digital-products-with-ai",
-      "keywordTr": "dijital ürün satışı",
-      "keywordEn": "sell digital products with ai",
-      "angle": "guide + build and sell digital products with AI, and where 'passive' income really breaks",
-      "style": "story-led",
-      "brief": "Story-led: earning with digital products built using AI. Sections: what sells (templates, Notion systems, prompt packs, ebooks, mini-courses); validating demand before building; using AI to produce and package fast; pricing and platforms (Gumroad, Lemon Squeezy, Etsy); distribution via newsletter and social; the honest ceiling of 'passive'. Key claims to verify: digital products rank among top creator/newsletter revenue models; they are cheap to produce with AI; distribution, not creation, is the real bottleneck. Primary sources: a 2026 digital-products/creator-economy report; Gumroad creator data. End with a first-product launch checklist."
-    },
-    {
-      "translationKey": "ai-voice-assistants-compared-2026",
-      "category": "ai",
-      "titleTr": "AI Sesli Asistan Kıyaslaması: GPT-Live, Gemini, Claude",
-      "titleEn": "AI Voice Assistants Compared: GPT-Live, Gemini, Claude",
-      "slugTr": "ai-sesli-asistan-kiyaslamasi-gpt-live-gemini-claude",
-      "slugEn": "ai-voice-assistants-compared-gpt-live-gemini-claude",
-      "keywordTr": "yapay zeka sesli asistan karşılaştırma",
-      "keywordEn": "ai voice assistant comparison",
-      "angle": "comparison + which of the three voice assistants fits driving, research, or careful work",
-      "style": "data-led",
-      "brief": "Data-led comparison of the 2026 voice wave. Sections: full-duplex (GPT-Live can speak+listen at once, interrupt naturally), Gemini Live's camera/screen perception and playful persona, Claude voice mode's precision and mid-chat model switching (Opus/Sonnet/Haiku). Decision table by use case: hands-free driving/cooking, live translation, long-form writing, document analysis. Key claims to verify: GPT-Live replaced Advanced Voice Mode July 2026; Claude voice update late July lets users switch models mid-conversation; Gemini Live adds visual input. Sources: OpenAI GPT-Live post; TechCrunch Anthropic voice update. End with a picker."
-    },
-    {
-      "translationKey": "custom-instructions-big-three-ai",
-      "category": "ai",
-      "titleTr": "ChatGPT, Claude ve Gemini'de Özel Talimatlar",
-      "titleEn": "Custom Instructions in ChatGPT, Claude and Gemini",
-      "slugTr": "chatgpt-claude-gemini-ozel-talimatlar",
-      "slugEn": "custom-instructions-chatgpt-claude-gemini",
-      "keywordTr": "yapay zeka özel talimatlar",
-      "keywordEn": "ai custom instructions guide",
-      "angle": "how-to + write reusable system prompts that make each assistant answer the way you want",
-      "style": "field-notes",
-      "brief": "Field-notes how-to on the one setting most people skip. Sections: what custom instructions actually control (tone, format, defaults) vs a full persona; where each lives (ChatGPT custom instructions, Claude profile/project instructions, Gemini's 'saved info' and Gems); a copy-paste template with role, constraints, output format; pitfalls (overstuffing, contradictions, stale context). Key claims to verify: all three expose a persistent-instruction surface; Gemini offers an AI rewrite button. Sources: FindSkill custom instructions guide; each vendor's help docs. End with three ready templates."
-    },
-    {
-      "translationKey": "ai-meeting-assistants-compared-2026",
-      "category": "ai",
-      "titleTr": "AI Toplantı Asistanları Kıyaslaması 2026",
-      "titleEn": "AI Meeting Assistants Compared in 2026",
-      "slugTr": "ai-toplanti-asistanlari-kiyaslamasi-2026",
-      "slugEn": "ai-meeting-assistants-compared-2026",
-      "keywordTr": "yapay zeka toplantı asistanı",
-      "keywordEn": "ai meeting assistant comparison",
-      "angle": "comparison + pick a notetaker for accuracy, privacy, and CRM fit",
-      "style": "data-led",
-      "brief": "Data-led roundup of AI notetakers (Otter, Fathom, Granola, Copilot, Gemini/Meet, ChatGPT). Sections: transcription accuracy and speaker labels; summary + action-item quality; privacy and bot-in-the-room vs on-device capture; integrations (CRM, Slack, calendar); pricing. Key claims to verify: AI meeting-assistant market growth (~$3.24B 2025 toward $7.33B 2035); Meet/Gemini and Copilot bundle notetaking into suites. Sources: a 2026 market report; vendor pages. End with a picker by team size and compliance needs."
-    },
-    {
       "translationKey": "long-context-1m-tokens-explained",
       "category": "ai",
       "titleTr": "1 Milyon Token Bağlam: Ne Değişiyor?",

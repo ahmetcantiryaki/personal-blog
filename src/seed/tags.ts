@@ -46,6 +46,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'developer-experience': { en: 'Developer Experience', tr: 'Geliştirici Deneyimi' },
   'developer-growth': { en: 'Developer Growth', tr: 'Geliştirici Gelişimi' },
   devops: { en: 'DevOps', tr: 'DevOps' },
+  'digital-products': { en: 'Digital Products', tr: 'Dijital Ürünler' },
   docker: { en: 'Docker', tr: 'Docker' },
   documentation: { en: 'Documentation', tr: 'Dokümantasyon' },
   education: { en: 'Education', tr: 'Eğitim' },

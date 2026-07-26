@@ -2148,6 +2148,66 @@
         "slug": "ai-resume-mistakes-ats",
         "title": "6 Mistakes Using AI for Your Resume (and ATS)"
       }
+    },
+    {
+      "translationKey": "openai-reliability-outage-streak-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-kesintileri-4-gunde-4-ariza",
+        "title": "ChatGPT'nin Kesinti Sorunu: 4 Günde 4 Arıza"
+      },
+      "en": {
+        "slug": "openai-outage-streak-what-it-teaches-developers",
+        "title": "ChatGPT's Outage Streak: 4 Failures in 4 Days"
+      }
+    },
+    {
+      "translationKey": "selling-digital-products-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ile-dijital-urun-satisi-pasif-gelir",
+        "title": "AI ile Dijital Ürün Satışı: Pasif Gelir Rehberi"
+      },
+      "en": {
+        "slug": "selling-digital-products-with-ai",
+        "title": "Selling Digital Products with AI: A Passive Income Guide"
+      }
+    },
+    {
+      "translationKey": "ai-voice-assistants-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-sesli-asistan-kiyaslamasi-gpt-live-gemini-claude",
+        "title": "AI Sesli Asistan Kıyaslaması: GPT-Live, Gemini, Claude"
+      },
+      "en": {
+        "slug": "ai-voice-assistants-compared-gpt-live-gemini-claude",
+        "title": "AI Voice Assistants Compared: GPT-Live, Gemini, Claude"
+      }
+    },
+    {
+      "translationKey": "custom-instructions-big-three-ai",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-claude-gemini-ozel-talimatlar",
+        "title": "ChatGPT, Claude ve Gemini'de Özel Talimatlar"
+      },
+      "en": {
+        "slug": "custom-instructions-chatgpt-claude-gemini",
+        "title": "Custom Instructions in ChatGPT, Claude and Gemini"
+      }
+    },
+    {
+      "translationKey": "ai-meeting-assistants-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-toplanti-asistanlari-kiyaslamasi-2026",
+        "title": "AI Toplantı Asistanları Kıyaslaması 2026"
+      },
+      "en": {
+        "slug": "ai-meeting-assistants-compared-2026",
+        "title": "AI Meeting Assistants Compared in 2026"
+      }
     }
   ]
 }
