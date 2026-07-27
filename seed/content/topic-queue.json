@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-26",
+  "updatedAt": "2026-07-27",
   "topics": [
-    {
-      "translationKey": "long-context-1m-tokens-explained",
-      "category": "ai",
-      "titleTr": "1 Milyon Token Bağlam: Ne Değişiyor?",
-      "titleEn": "1M-Token Context: What Actually Changes?",
-      "slugTr": "1-milyon-token-baglam-ne-degisiyor",
-      "slugEn": "1m-token-context-what-changes",
-      "keywordTr": "1 milyon token bağlam penceresi",
-      "keywordEn": "1 million token context window",
-      "angle": "deep-dive + what huge context windows really unlock for everyday users, and where they still fail",
-      "style": "question-driven",
-      "brief": "Question-driven explainer aimed at non-engineers. Sections: what a context window is in plain terms; what 1M tokens equals (whole books, codebases, long transcripts); real wins (analyze a full report, keep a long project going) vs myths ('it remembers forever'); lost-in-the-middle and cost/latency trade-offs; when RAG still beats stuffing everything in. Key claims to verify: Claude Opus 5 ships 1M-token context (July 2026 changelog); long-context recall degrades in the middle. Sources: Anthropic changelog; a long-context eval paper. End with practical do/don't."
-    },
-    {
-      "translationKey": "organize-ai-chats-projects-gems",
-      "category": "career-productivity",
-      "titleTr": "AI Sohbetlerini Düzenle: Projects ve Gems",
-      "titleEn": "Organize Your AI Chats: Projects and Gems",
-      "slugTr": "ai-sohbetlerini-duzenle-projects-gems",
-      "slugEn": "organize-ai-chats-projects-and-gems",
-      "keywordTr": "yapay zeka sohbetlerini düzenleme",
-      "keywordEn": "organize ai chats projects",
-      "angle": "how-to + stop losing context by structuring work in Claude Projects, ChatGPT Projects, and Gemini Gems",
-      "style": "field-notes",
-      "brief": "Field-notes how-to for people whose AI history is a mess. Sections: the difference between organizing by engagement (Claude/ChatGPT Projects = shared files + instructions for a client/campaign) vs by persona (Custom GPTs and Gems = a reusable assistant); when to spin up a Project vs a Gem; file/knowledge limits; the single-model lock-in caveat. Key claims to verify: Projects share files+instructions across chats; Gems and Custom GPTs are persona-shaped; each locks to one model family. Sources: LumiChats and Stackviv 2026 comparisons. End with a folder-structure template."
-    },
-    {
-      "translationKey": "ai-inbox-zero-email-triage",
-      "category": "career-productivity",
-      "titleTr": "AI ile Inbox Zero: E-posta Triyajı",
-      "titleEn": "Inbox Zero with AI: Smarter Email Triage",
-      "slugTr": "ai-ile-inbox-zero-e-posta-triyaji",
-      "slugEn": "inbox-zero-with-ai-email-triage",
-      "keywordTr": "yapay zeka ile e-posta yönetimi",
-      "keywordEn": "ai email triage inbox zero",
-      "angle": "how-to + build a repeatable AI-assisted triage routine without letting AI send dumb replies",
-      "style": "story-led",
-      "brief": "Story-led walkthrough of a week taming an inbox with AI. Sections: triage rules (respond/defer/delegate/delete) and how Gemini in Gmail and ChatGPT can draft, summarize threads, and extract tasks; templates and snippets; guardrails so nothing auto-sends; measuring time saved. Key claims to verify: Gmail's Gemini side panel can summarize and draft in context; over-automation causes tone/accuracy misfires. Sources: Google Workspace Gemini docs; a productivity study on email load. End with a 20-minute daily routine."
-    },
-    {
-      "translationKey": "short-form-video-series-strategy-2026",
-      "category": "social-media",
-      "titleTr": "Kısa Video Serisiyle İzlenme Artırma",
-      "titleEn": "Grow Retention with a Short-Video Series",
-      "slugTr": "kisa-video-serisiyle-izlenme-artirma",
-      "slugEn": "short-video-series-retention",
-      "keywordTr": "kısa video içerik stratejisi",
-      "keywordEn": "short form video series strategy",
-      "angle": "guide + turn one-off clips into a returning series that compounds watch time",
-      "style": "story-led",
-      "brief": "Story-led guide on building a repeatable short-video series. Sections: pick a consistent premise + format; a hook framework for the first 3 seconds; batching and scripting; a rotating structure viewers return for; reading retention curves to iterate. Key claims to verify: series with a consistent premise and clear reason to return outperform one-offs; brands post ~9.5x/day and lean on AI for volume; repurposed clips can beat native when optimized. Sources: Sprout Social 2026 trends; OpusClip creator report. End with a 4-week series plan."
-    },
     {
       "translationKey": "youtube-shorts-vs-reels-vs-tiktok-2026",
       "category": "social-media",

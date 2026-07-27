@@ -2208,6 +2208,66 @@
         "slug": "ai-meeting-assistants-compared-2026",
         "title": "AI Meeting Assistants Compared in 2026"
       }
+    },
+    {
+      "translationKey": "claude-code-nested-subagents-depth-3",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-ic-ice-alt-ajanlar-derinlik-3",
+        "title": "Claude Code'da İç İçe Alt Ajanlar: Yasaktan Derinlik 3'e"
+      },
+      "en": {
+        "slug": "claude-code-nested-subagents-depth-3",
+        "title": "Claude Code Nested Subagents: Banned to Depth-3 in Four Days"
+      }
+    },
+    {
+      "translationKey": "long-context-1m-tokens-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "1-milyon-token-baglam-ne-degisiyor",
+        "title": "1 Milyon Token Bağlam: Gerçekte Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "1m-token-context-what-changes",
+        "title": "1M-Token Context: What Actually Changes?"
+      }
+    },
+    {
+      "translationKey": "organize-ai-chats-projects-gems",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-sohbetlerini-duzenle-projects-gems",
+        "title": "AI Sohbetlerini Düzenle: Projects ve Gems"
+      },
+      "en": {
+        "slug": "organize-ai-chats-and-gems",
+        "title": "Organize Your AI Chats: Projects and Gems"
+      }
+    },
+    {
+      "translationKey": "ai-inbox-zero-email-triage",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-inbox-zero-e-posta-triyaji",
+        "title": "AI ile Inbox Zero: E-posta Triyajı Rehberi"
+      },
+      "en": {
+        "slug": "inbox-zero-with-ai-email-triage",
+        "title": "Inbox Zero with AI: Smarter Email Triage"
+      }
+    },
+    {
+      "translationKey": "short-form-video-series-strategy-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "kisa-video-serisiyle-izlenme-artirma",
+        "title": "Kısa Video Serisiyle İzlenme Artırma Rehberi"
+      },
+      "en": {
+        "slug": "short-video-series-retention",
+        "title": "Grow Retention with a Short-Video Series"
+      }
     }
   ]
 }
