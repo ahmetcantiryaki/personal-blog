@@ -1406,5 +1406,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3648618,
     "generatedAt": "2026-07-26T06:42:31.652Z"
+  },
+  "en/1m-token-context-what-changes": {
+    "hash": "497ac7347624517e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-1m-token-context-what-changes.mp3",
+    "seconds": 448,
+    "voice": "en_US-ryan-high",
+    "bytes": 3586969,
+    "generatedAt": "2026-07-27T06:39:18.436Z"
+  },
+  "en/claude-code-nested-subagents-depth-3": {
+    "hash": "01edefcad5a2f52a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-nested-subagents-depth-3.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3193879,
+    "generatedAt": "2026-07-27T06:41:35.635Z"
+  },
+  "en/inbox-zero-with-ai-email-triage": {
+    "hash": "1a3537100ed7e62a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-inbox-zero-with-ai-email-triage.mp3",
+    "seconds": 437,
+    "voice": "en_US-ryan-high",
+    "bytes": 3498362,
+    "generatedAt": "2026-07-27T06:44:04.085Z"
+  },
+  "en/organize-ai-chats-and-gems": {
+    "hash": "d0152b738bd81a03",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-organize-ai-chats-and-gems.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3195133,
+    "generatedAt": "2026-07-27T06:46:18.776Z"
+  },
+  "en/short-video-series-retention": {
+    "hash": "9ec215ab3677c911",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-short-video-series-retention.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3362316,
+    "generatedAt": "2026-07-27T06:48:40.828Z"
   }
 }
