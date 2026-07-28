@@ -15,8 +15,41 @@ export interface PostWithRelations extends Omit<Post, 'category' | 'tags'> {
   tags?: Tag[] | null
 }
 
+/**
+ * Column projection for every card / list / summary query.
+ *
+ * `content` (the Lexical document, by far the largest column on the row) is
+ * deliberately absent: no card renders it, yet without an explicit `select`
+ * Payload ships it for every doc of every listing query. Only `getPostBySlug`,
+ * which renders the article body, may read it.
+ */
+const CARD_SELECT = {
+  title: true,
+  slug: true,
+  excerpt: true,
+  publishedAt: true,
+  updatedAt: true,
+  readingTime: true,
+  coverStyle: true,
+  coverImage: true,
+  translationKey: true,
+  category: true,
+  tags: true,
+} as const
+
+type CardField = keyof typeof CARD_SELECT
+
+/** A post doc as returned by a `CARD_SELECT` query (before normalization). */
+type CardDoc = Pick<Post, 'id' | CardField>
+
+/** The card projection with category/tags resolved to objects (depth 1). */
+export interface PostSummary extends Omit<CardDoc, 'category' | 'tags'> {
+  category?: Category | null
+  tags?: Tag[] | null
+}
+
 export interface PaginatedPosts {
-  posts: PostWithRelations[]
+  posts: PostSummary[]
   page: number
   totalPages: number
   totalDocs: number
@@ -24,21 +57,26 @@ export interface PaginatedPosts {
 
 const basePublished = { status: { equals: 'published' } } as const
 
-const normalize = (doc: Post): PostWithRelations => ({
-  ...doc,
+const resolveRelations = (
+  doc: CardDoc,
+): { category: Category | null; tags: Tag[] | null } => ({
   category: doc.category && typeof doc.category === 'object' ? doc.category : null,
   tags: Array.isArray(doc.tags)
     ? doc.tags.filter((t): t is Tag => typeof t === 'object' && t !== null)
     : null,
 })
 
+const normalize = (doc: Post): PostWithRelations => ({ ...doc, ...resolveRelations(doc) })
+
 /**
  * Map docs to normalized cards, dropping any post that lacks a slug in the
  * active locale (partially-translated content still being seeded) — those
  * cannot be linked and would otherwise render broken.
  */
-const toCards = (docs: Post[]): PostWithRelations[] =>
-  docs.map(normalize).filter((post) => Boolean(post.slug))
+const toCards = (docs: readonly CardDoc[]): PostSummary[] =>
+  docs
+    .map((doc) => ({ ...doc, ...resolveRelations(doc) }))
+    .filter((post) => Boolean(post.slug))
 
 interface ListArgs {
   locale: Locale
@@ -80,6 +118,7 @@ export async function listPosts({
     page,
     overrideAccess: false,
     sort: '-publishedAt',
+    select: CARD_SELECT,
   })
 
   return {
@@ -91,7 +130,7 @@ export async function listPosts({
 }
 
 /** The single newest published post (for the home hero). */
-export async function getFeaturedPost(locale: Locale): Promise<PostWithRelations | null> {
+export async function getFeaturedPost(locale: Locale): Promise<PostSummary | null> {
   const payload = await getPayloadClient()
   const result = await payload.find({
     collection: 'posts',
@@ -101,6 +140,7 @@ export async function getFeaturedPost(locale: Locale): Promise<PostWithRelations
     limit: 5,
     overrideAccess: false,
     sort: '-publishedAt',
+    select: CARD_SELECT,
   })
   return toCards(result.docs)[0] ?? null
 }
@@ -138,15 +178,15 @@ export async function getPostBySlug(
  */
 export async function getRelatedPosts(
   locale: Locale,
-  post: PostWithRelations,
+  post: Pick<PostSummary, 'id' | 'category' | 'tags'>,
   limit = 3,
-): Promise<PostWithRelations[]> {
+): Promise<PostSummary[]> {
   const payload = await getPayloadClient()
 
-  const picked: PostWithRelations[] = []
+  const picked: PostSummary[] = []
   const excludedIds = new Set<number>([post.id])
 
-  const take = (candidates: PostWithRelations[]): void => {
+  const take = (candidates: PostSummary[]): void => {
     for (const candidate of candidates) {
       if (picked.length >= limit) break
       if (excludedIds.has(candidate.id)) continue
@@ -175,6 +215,7 @@ export async function getRelatedPosts(
       limit: overFetch,
       overrideAccess: false,
       sort: '-publishedAt',
+      select: CARD_SELECT,
     })
     take(toCards(result.docs))
   }
@@ -196,6 +237,7 @@ export async function getRelatedPosts(
       limit: overFetch,
       overrideAccess: false,
       sort: '-publishedAt',
+      select: CARD_SELECT,
     })
     take(toCards(result.docs))
   }
@@ -210,6 +252,7 @@ export async function getRelatedPosts(
       limit: overFetch,
       overrideAccess: false,
       sort: '-publishedAt',
+      select: CARD_SELECT,
     })
     take(toCards(result.docs))
   }
@@ -234,12 +277,13 @@ export async function getTranslatedSlug(
     limit: 1,
     overrideAccess: false,
     pagination: false,
+    select: { slug: true },
   })
   return result.docs[0]?.slug ?? null
 }
 
 /** Full-text-ish search over title + excerpt for the active locale. */
-export async function searchPosts(locale: Locale, query: string): Promise<PostWithRelations[]> {
+export async function searchPosts(locale: Locale, query: string): Promise<PostSummary[]> {
   const trimmed = query.trim()
   if (!trimmed) return []
   const payload = await getPayloadClient()
@@ -256,6 +300,7 @@ export async function searchPosts(locale: Locale, query: string): Promise<PostWi
     limit: 30,
     overrideAccess: false,
     sort: '-publishedAt',
+    select: CARD_SELECT,
   })
   return toCards(result.docs)
 }
@@ -264,7 +309,7 @@ export async function searchPosts(locale: Locale, query: string): Promise<PostWi
 export async function getPostsByIds(
   locale: Locale,
   ids: number[],
-): Promise<PostWithRelations[]> {
+): Promise<PostSummary[]> {
   if (ids.length === 0) return []
   const payload = await getPayloadClient()
   const result = await payload.find({
@@ -276,6 +321,7 @@ export async function getPostsByIds(
     overrideAccess: false,
     sort: '-publishedAt',
     pagination: false,
+    select: CARD_SELECT,
   })
   return toCards(result.docs)
 }

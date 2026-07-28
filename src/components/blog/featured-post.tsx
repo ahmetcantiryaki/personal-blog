@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
-import type { PostWithRelations } from '@/lib/posts'
+import type { PostSummary } from '@/lib/posts'
 import { routes } from '@/lib/routes'
 import { Badge } from '@/components/ui/badge'
 
@@ -11,7 +11,7 @@ import { PostCover } from './post-cover'
 import { PostMeta } from './post-meta'
 
 interface FeaturedPostProps {
-  post: PostWithRelations
+  post: PostSummary
   locale: Locale
   dict: Dictionary
 }

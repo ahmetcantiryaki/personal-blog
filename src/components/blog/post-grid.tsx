@@ -1,11 +1,11 @@
 import type { Dictionary } from '@/i18n'
 import type { Locale } from '@/i18n/config'
-import type { PostWithRelations } from '@/lib/posts'
+import type { PostSummary } from '@/lib/posts'
 
 import { PostCard } from './post-card'
 
 interface PostGridProps {
-  posts: PostWithRelations[]
+  posts: PostSummary[]
   locale: Locale
   dict: Dictionary
   emptyMessage?: string

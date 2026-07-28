@@ -1,10 +1,10 @@
 import { isLocale } from '@/i18n/config'
 import { listPosts } from '@/lib/posts'
-import { absoluteUrl, lexicalToPlainText, SITE_NAME } from '@/lib/seo'
+import { absoluteUrl, SITE_NAME } from '@/lib/seo'
 import { getSiteSettings } from '@/lib/site-settings'
 import { routes } from '@/lib/routes'
 
-export const revalidate = 300
+export const revalidate = 3600
 
 /** Escape the five XML predefined entities for use in element text/attributes. */
 function escapeXml(value: string): string {
@@ -43,7 +43,9 @@ export async function GET(
   const items = posts
     .map((post) => {
       const url = absoluteUrl(routes.post(locale, post.slug))
-      const description = post.excerpt || lexicalToPlainText(post.content, 400)
+      // The listing query never fetches the Lexical body (it is the largest
+      // column on the row), so the feed description falls back to the title.
+      const description = post.excerpt || post.title
       const pubDate = new Date(post.publishedAt || post.updatedAt).toUTCString()
       const categories = [
         post.category?.title,

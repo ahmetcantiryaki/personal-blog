@@ -75,6 +75,7 @@ export async function getTagsWithCounts(
     limit: keys.length,
     overrideAccess: false,
     pagination: false,
+    select: { key: true, slug: true, title: true },
   })
 
   const tags = tagsResult.docs.filter((tag) => Boolean(tag.slug))

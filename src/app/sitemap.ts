@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import type { Where } from 'payload'
+import type { SelectType, Where } from 'payload'
 
 import { DEFAULT_LOCALE, LOCALES, type Locale } from '@/i18n/config'
 import { logger } from '@/lib/logger'
@@ -59,6 +59,9 @@ async function collectionEntries(
   changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'],
   priority: number,
   where?: Where,
+  // A sitemap entry needs nothing but the slug and a timestamp, so every other
+  // column (post `content` above all) stays out of the result set.
+  select: SelectType = { slug: true, updatedAt: true },
 ): Promise<MetadataRoute.Sitemap> {
   const payload = await getPayloadClient()
   const grouped = new Map<string | number, PerLocale>()
@@ -72,6 +75,7 @@ async function collectionEntries(
       pagination: false,
       overrideAccess: false,
       where,
+      select,
     })
     for (const raw of res.docs) {
       const doc = raw as unknown as SlugDoc
@@ -138,6 +142,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           'weekly',
           0.8,
           { status: { equals: 'published' } },
+          // Posts also pair across locales via `translationKey`.
+          { slug: true, updatedAt: true, translationKey: true },
         ),
         collectionEntries('categories', (doc) => doc.id, routes.category, 'monthly', 0.5),
         collectionEntries('tags', (doc) => doc.id, routes.tag, 'monthly', 0.4),
