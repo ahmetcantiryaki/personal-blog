@@ -2268,6 +2268,66 @@
         "slug": "short-video-series-retention",
         "title": "Grow Retention with a Short-Video Series"
       }
+    },
+    {
+      "translationKey": "claude-share-links-google-indexed",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-paylasim-linkleri-google-indekslendi",
+        "title": "Claude Sohbetleri Google'da Nasıl İndekslendi?"
+      },
+      "en": {
+        "slug": "claude-shared-chats-google-indexed",
+        "title": "How Claude's Shared Chats Ended Up on Google"
+      }
+    },
+    {
+      "translationKey": "youtube-shorts-vs-reels-vs-tiktok-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "shorts-mu-reels-mi-tiktok-mu-2026",
+        "title": "Shorts mu Reels mi TikTok mu? 2026 Kararı"
+      },
+      "en": {
+        "slug": "shorts-vs-reels-vs-tiktok-where-to-post",
+        "title": "Shorts vs Reels vs TikTok: Where to Post"
+      }
+    },
+    {
+      "translationKey": "silent-first-social-video-mistakes",
+      "category": "social-media",
+      "tr": {
+        "slug": "sessiz-izlenen-videolar-icin-7-hata",
+        "title": "Sessiz İzlenen Videolar İçin 7 Hata"
+      },
+      "en": {
+        "slug": "sound-off-video-mistakes",
+        "title": "7 Mistakes That Kill Sound-Off Video"
+      }
+    },
+    {
+      "translationKey": "create-social-videos-with-ai-workflow",
+      "category": "social-media",
+      "tr": {
+        "slug": "ai-ile-sosyal-medya-videosu-uretmek",
+        "title": "AI ile Sosyal Medya Videosu Üretmek"
+      },
+      "en": {
+        "slug": "make-social-videos-with-ai-workflow",
+        "title": "Make Social Videos with AI: A Workflow"
+      }
+    },
+    {
+      "translationKey": "build-community-not-followers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "takipci-degil-topluluk-2026",
+        "title": "Takipçi Değil Topluluk: 2026 Yaklaşımı"
+      },
+      "en": {
+        "slug": "build-community-not-followers-2026",
+        "title": "Build Community, Not Followers, in 2026"
+      }
     }
   ]
 }

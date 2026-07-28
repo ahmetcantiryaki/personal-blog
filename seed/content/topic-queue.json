@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-28",
   "topics": [
-    {
-      "translationKey": "youtube-shorts-vs-reels-vs-tiktok-2026",
-      "category": "social-media",
-      "titleTr": "Shorts mu Reels mi TikTok mu? 2026 Kararı",
-      "titleEn": "Shorts vs Reels vs TikTok: Where to Post",
-      "slugTr": "shorts-mu-reels-mi-tiktok-mu-2026",
-      "slugEn": "shorts-vs-reels-vs-tiktok-where-to-post",
-      "keywordTr": "shorts reels tiktok karşılaştırma",
-      "keywordEn": "shorts vs reels vs tiktok",
-      "angle": "comparison + where a creator should post short video first in 2026 and why",
-      "style": "question-driven",
-      "brief": "Question-driven comparison of the three short-video homes. Sections: audience and discovery mechanics per platform; monetization (TikTok Shop, Reels bonuses, YouTube Shorts revenue share); watermark/cross-post penalties; native aspect-ratio and caption rules; which platform rewards which niche. Key claims to verify: cross-posting with visible watermarks tanks reach; 9:16 native gets priority placement; each platform has distinct payout models. Sources: QuickFrame 2026 video trends; platform creator docs. End with a where-to-start-first decision matrix."
-    },
-    {
-      "translationKey": "silent-first-social-video-mistakes",
-      "category": "social-media",
-      "titleTr": "Sessiz İzlenen Videolar İçin 7 Hata",
-      "titleEn": "7 Mistakes That Kill Sound-Off Video",
-      "slugTr": "sessiz-izlenen-videolar-icin-7-hata",
-      "slugEn": "sound-off-video-mistakes",
-      "keywordTr": "sessiz video altyazı hataları",
-      "keywordEn": "sound off social video mistakes",
-      "angle": "mistakes + fix the errors that lose viewers watching muted",
-      "style": "contrarian",
-      "brief": "Contrarian mistakes post: most video is watched muted, yet creators design for sound. Sections: relying on auto-captions instead of burned-in text; front-loading nothing in the first frame; tiny/low-contrast captions; no visual hook; ignoring safe zones behind UI; wall-of-text captions; no on-screen payoff. Key claims to verify: majority of social video is consumed sound-off; burned-in captions lift watch time; auto-caption accuracy varies by platform. Sources: QuickFrame/Sprout 2026 data. End with a pre-publish caption checklist."
-    },
-    {
-      "translationKey": "create-social-videos-with-ai-workflow",
-      "category": "social-media",
-      "titleTr": "AI ile Sosyal Medya Videosu Üretmek",
-      "titleEn": "Make Social Videos with AI: A Workflow",
-      "slugTr": "ai-ile-sosyal-medya-videosu-uretmek",
-      "slugEn": "make-social-videos-with-ai-workflow",
-      "keywordTr": "yapay zeka ile video üretme",
-      "keywordEn": "make social videos with ai",
-      "angle": "how-to + a script-to-publish pipeline using AI video and editing tools",
-      "style": "story-led",
-      "brief": "Story-led how-to on an end-to-end AI video pipeline for creators. Sections: ideate and script with an assistant; generate B-roll/clips with Sora or Veo and edit in Google Vids (Omni) or a clip tool; auto-caption and reframe to 9:16; brand consistency and disclosure; batch and schedule. Key claims to verify: Google Vids added Gemini/Omni for higher-quality generation and text-based edits (July 2026); Sora and Veo lead generation. Sources: Google Vids July 2026 update; vendor pages. End with a reusable production checklist."
-    },
-    {
-      "translationKey": "build-community-not-followers-2026",
-      "category": "social-media",
-      "titleTr": "Takipçi Değil Topluluk: 2026 Yaklaşımı",
-      "titleEn": "Build Community, Not Followers, in 2026",
-      "slugTr": "takipci-degil-topluluk-2026",
-      "slugEn": "build-community-not-followers-2026",
-      "keywordTr": "sosyal medyada topluluk oluşturma",
-      "keywordEn": "build community not followers",
-      "angle": "contrarian + why follower count is a vanity metric and what to grow instead",
-      "style": "contrarian",
-      "brief": "Contrarian take: 2026's winners aren't the highest-volume posters but the best community builders. Sections: why reach without belonging doesn't convert; signals that matter (saves, shares, DMs, repeat viewers); moving fans to owned channels (newsletter, Discord); rituals that create return behavior; measuring community health over follower vanity. Key claims to verify: the biggest gains come from audience understanding and genuine community, not raw output; engagement/retention signals beat follower totals. Sources: Sprout Social and National University 2026 trend reports. End with a community-metrics dashboard."
-    },
     {
       "translationKey": "email-marketing-deliverability-2026",
       "category": "digital-marketing",
