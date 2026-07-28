@@ -17,7 +17,7 @@ import { buildPageMetadata } from "@/lib/seo";
 import { listCategories } from "@/lib/taxonomy";
 import { routes } from "@/lib/routes";
 
-export const revalidate = 300;
+export const revalidate = 3600;
 
 interface HomeProps {
   params: Promise<{ locale: string }>;

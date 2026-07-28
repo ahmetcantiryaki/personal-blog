@@ -6,7 +6,7 @@ import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { buildPageMetadata } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
-export const revalidate = 300
+export const revalidate = 3600
 
 interface ToolsPageProps {
   params: Promise<{ locale: string }>

@@ -29,7 +29,7 @@ import {
 } from '@/lib/seo'
 import { routes } from '@/lib/routes'
 
-export const revalidate = 300
+export const revalidate = 3600
 // Every published post is prerendered; unknown slugs are a genuine 404 (proper
 // status) rather than a soft-404 shell flushed by the loading boundary.
 export const dynamicParams = false

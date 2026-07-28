@@ -78,13 +78,35 @@ describe('buildPageMetadata', () => {
 
   it('sets noindex robots when requested', () => {
     const meta = buildPageMetadata({ locale: 'tr', title: 't', paths: { tr: '/tr/search' }, noindex: true })
-    expect(meta.robots).toMatchObject({ index: false, follow: false })
+    expect(meta.robots).toMatchObject({ index: false, follow: false, nocache: true })
+  })
+
+  it('never advertises large image previews on a noindex page', () => {
+    const meta = buildPageMetadata({ locale: 'tr', title: 't', paths: { tr: '/tr/search' }, noindex: true })
+    expect((meta.robots as any).googleBot).toBeUndefined()
   })
 
   it('defaults to indexable website open-graph', () => {
     const meta = buildPageMetadata({ locale: 'tr', title: 't', paths: { tr: '/tr' } })
     expect(meta.robots).toMatchObject({ index: true, follow: true })
     expect((meta.openGraph as any).type).toBe('website')
+  })
+
+  it('opts indexable pages into Discover-eligible previews', () => {
+    const meta = buildPageMetadata({ locale: 'tr', title: 't', paths: { tr: '/tr/posts/a' }, type: 'article' })
+    expect((meta.robots as any).googleBot).toMatchObject({
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    })
+  })
+
+  it('returns a fresh robots object per call so pages cannot share state', () => {
+    const a = buildPageMetadata({ locale: 'tr', title: 'a', paths: { tr: '/tr' } })
+    const b = buildPageMetadata({ locale: 'tr', title: 'b', paths: { tr: '/tr/about' } })
+    expect(a.robots).not.toBe(b.robots)
   })
 
   it('emits explicit OG + Twitter images when a cover image is supplied', () => {

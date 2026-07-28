@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, LOCALES, type Locale } from '@/i18n/config'
 import { buildPageMetadata } from '@/lib/seo'
 
-export const revalidate = 300
+export const revalidate = 3600
 
 interface TransparencyPageProps {
   params: Promise<{ locale: string }>

@@ -13,7 +13,7 @@ import { buildPageMetadata, getTaxonomyAlternateSlugs, pathsFromSlugs } from '@/
 import { getTagBySlug } from '@/lib/taxonomy'
 import { routes } from '@/lib/routes'
 
-export const revalidate = 300
+export const revalidate = 3600
 // All tags are prerendered; unknown slugs return a genuine 404.
 export const dynamicParams = false
 

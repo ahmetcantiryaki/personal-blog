@@ -21,6 +21,31 @@ export const SITE_AUTHOR = 'Woyable'
 /** BCP-47 / OG locale tags per app locale. */
 const OG_LOCALE: Record<Locale, string> = { tr: 'tr_TR', en: 'en_US' }
 
+/**
+ * Crawl directives for indexable pages. `max-image-preview: large` is what makes
+ * a page eligible for Google Discover (our covers are 1344×768, well past the
+ * 1200px threshold); the uncapped snippet/video previews let AI surfaces quote
+ * enough of the article to cite it.
+ */
+function indexableRobots(): Metadata['robots'] {
+  return {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  }
+}
+
+/** Search / auth / profile pages: out of the index, and no cached copy. */
+function noindexRobots(): Metadata['robots'] {
+  return { index: false, follow: false, nocache: true }
+}
+
 /** Build an absolute URL from a site-relative path (or pass through absolutes). */
 export function absoluteUrl(path: string): string {
   if (!path) return SITE_URL
@@ -138,9 +163,7 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
     title,
     description: desc,
     alternates: buildAlternates(locale, paths),
-    robots: noindex
-      ? { index: false, follow: false, nocache: true }
-      : { index: true, follow: true },
+    robots: noindex ? noindexRobots() : indexableRobots(),
     openGraph,
     twitter: {
       card: 'summary_large_image',
