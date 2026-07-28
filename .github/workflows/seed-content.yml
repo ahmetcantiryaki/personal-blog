@@ -1,0 +1,81 @@
+name: Seed content to database
+
+# Pushes new/changed articles into Postgres, outside the Vercel build.
+#
+# Why this is not part of `pnpm build` anymore:
+#   1. A bad article used to take the whole deploy down (see commit 05c99fc —
+#      an unknown code-fence language failed the seed and therefore the build).
+#      Now a seed failure is a red workflow, not a dead site.
+#   2. The build no longer waits on 272 upserts before it starts rendering.
+#
+# Flow: routine pushes articles -> this workflow seeds the DB -> it commits the
+# updated seed-manifest.json -> that commit is a normal push to main, which
+# triggers the regular Vercel deploy. The manifest lives outside the watched
+# paths, so committing it cannot re-trigger this workflow.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'seed/content/tr/**'
+      - 'seed/content/en/**'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-seed every article, ignoring the manifest hashes'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Never let two seeds write to the same database at once.
+concurrency:
+  group: seed-content
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run migrations
+        env:
+          DATABASE_URI: ${{ secrets.DATABASE_URI }}
+          PAYLOAD_SECRET: ${{ secrets.PAYLOAD_SECRET }}
+        run: pnpm migrate
+
+      - name: Seed articles
+        env:
+          DATABASE_URI: ${{ secrets.DATABASE_URI }}
+          PAYLOAD_SECRET: ${{ secrets.PAYLOAD_SECRET }}
+          NEXT_PUBLIC_SERVER_URL: ${{ secrets.NEXT_PUBLIC_SERVER_URL }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          SEED_FORCE: ${{ inputs.force && '1' || '' }}
+        run: pnpm seed
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seed/content/seed-manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(seed): update seed manifest"
+            git pull --rebase origin main
+            git push origin main
+          fi
