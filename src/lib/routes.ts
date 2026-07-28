@@ -18,4 +18,5 @@ export const routes = {
       : `/${locale}/register`,
   profile: (locale: Locale) => `/${locale}/profile`,
   feed: (locale: Locale) => `/${locale}/feed.xml`,
+  podcast: (locale: Locale) => `/${locale}/podcast.xml`,
 } as const
