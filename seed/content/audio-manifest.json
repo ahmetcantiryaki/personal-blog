@@ -1446,5 +1446,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3362316,
     "generatedAt": "2026-07-27T06:48:40.828Z"
+  },
+  "en/build-community-not-followers-2026": {
+    "hash": "57e7a6a8f01ee894",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-community-not-followers-2026.mp3",
+    "seconds": 359,
+    "voice": "en_US-ryan-high",
+    "bytes": 2869542,
+    "generatedAt": "2026-07-28T06:48:56.499Z"
+  },
+  "en/claude-shared-chats-google-indexed": {
+    "hash": "9ad30bb075d3fc7b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-shared-chats-google-indexed.mp3",
+    "seconds": 409,
+    "voice": "en_US-ryan-high",
+    "bytes": 3270574,
+    "generatedAt": "2026-07-28T06:50:33.158Z"
+  },
+  "en/make-social-videos-with-ai-workflow": {
+    "hash": "0b0aa97081b28ef2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-make-social-videos-with-ai-workflow.mp3",
+    "seconds": 390,
+    "voice": "en_US-ryan-high",
+    "bytes": 3121363,
+    "generatedAt": "2026-07-28T06:52:06.811Z"
+  },
+  "en/shorts-vs-reels-vs-tiktok-where-to-post": {
+    "hash": "b3835432bf601319",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-shorts-vs-reels-vs-tiktok-where-to-post.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3323237,
+    "generatedAt": "2026-07-28T06:53:41.646Z"
+  },
+  "en/sound-off-video-mistakes": {
+    "hash": "1d1ca83ffdd6fef4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-sound-off-video-mistakes.mp3",
+    "seconds": 381,
+    "voice": "en_US-ryan-high",
+    "bytes": 3048847,
+    "generatedAt": "2026-07-28T06:55:07.075Z"
   }
 }
