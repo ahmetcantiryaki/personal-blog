@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-28",
+  "updatedAt": "2026-07-30",
   "topics": [
-    {
-      "translationKey": "email-marketing-deliverability-2026",
-      "category": "digital-marketing",
-      "titleTr": "E-posta Pazarlamada Teslim Edilebilirlik",
-      "titleEn": "Email Deliverability: A Practical Checklist",
-      "slugTr": "e-posta-pazarlamada-teslim-edilebilirlik",
-      "slugEn": "email-deliverability-checklist",
-      "keywordTr": "e-posta teslim edilebilirlik",
-      "keywordEn": "email deliverability checklist",
-      "angle": "checklist + keep campaigns out of spam with authentication and list hygiene",
-      "style": "field-notes",
-      "brief": "Field-notes checklist for inbox placement. Sections: authentication (SPF, DKIM, DMARC, BIMI); warming a domain/IP; list hygiene and sunset policies; engagement signals Gmail/Outlook weigh; content triggers that flag spam; monitoring bounce/complaint rates. Key claims to verify: Gmail/Yahoo bulk-sender rules require DMARC and easy unsubscribe; engagement-based filtering dominates placement. Sources: Google bulk sender guidelines; a 2026 deliverability report. End with a pre-send deliverability checklist and tools to test placement."
-    },
-    {
-      "translationKey": "google-ads-vs-meta-ads-2026",
-      "category": "digital-marketing",
-      "titleTr": "Google Ads mı Meta Ads mı? Küçük Bütçe",
-      "titleEn": "Google Ads vs Meta Ads on a Small Budget",
-      "slugTr": "google-ads-mi-meta-ads-mi-kucuk-butce",
-      "slugEn": "google-ads-vs-meta-ads-small-budget",
-      "keywordTr": "google ads meta ads karşılaştırma",
-      "keywordEn": "google ads vs meta ads",
-      "angle": "comparison + where a small budget goes furthest by intent vs discovery",
-      "style": "data-led",
-      "brief": "Data-led comparison for founders spending their own money. Sections: intent vs discovery (search capture vs feed interruption); realistic CPC/CPM and learning-phase minimums; creative demands (keywords vs thumb-stopping video); attribution and privacy signal loss; when to run both. Key claims to verify: Google captures existing demand while Meta creates it; algorithms need a minimum conversion volume to exit learning. Sources: platform ads help; a 2026 paid-media benchmark. End with a first-$1,000 allocation plan."
-    },
-    {
-      "translationKey": "ai-marketing-automation-zapier-make",
-      "category": "digital-marketing",
-      "titleTr": "AI ile Pazarlama Otomasyonu: Zapier, Make",
-      "titleEn": "Marketing Automation with AI: Zapier & Make",
-      "slugTr": "ai-ile-pazarlama-otomasyonu-zapier-make",
-      "slugEn": "marketing-automation-with-ai-zapier-make",
-      "keywordTr": "yapay zeka pazarlama otomasyonu",
-      "keywordEn": "ai marketing automation",
-      "angle": "how-to + wire AI into no-code automations without brittle spaghetti",
-      "style": "story-led",
-      "brief": "Story-led how-to building AI-in-the-loop automations. Sections: pick high-value repetitive flows (lead enrichment, reply drafting, content repurposing, reporting); connect ChatGPT/Gemini via Zapier or Make; add human-approval gates; handle errors and rate limits; cost control. Key claims to verify: SMBs know they need AI but not where to start; Zapier/Make expose LLM steps; approval gates cut error risk. Sources: Improvado AI marketing trends; Zapier/Make AI docs. End with three copy-me automations."
-    },
-    {
-      "translationKey": "landing-page-conversion-mistakes-2026",
-      "category": "digital-marketing",
-      "titleTr": "Dönüşüm Düşüren Landing Page Hataları",
-      "titleEn": "Landing Page Mistakes That Kill Conversions",
-      "slugTr": "donusum-dusuren-landing-page-hatalari",
-      "slugEn": "landing-page-conversion-mistakes",
-      "keywordTr": "landing page dönüşüm hataları",
-      "keywordEn": "landing page conversion mistakes",
-      "angle": "mistakes + the recurring errors that leak conversions and how to fix them",
-      "style": "contrarian",
-      "brief": "Contrarian mistakes post challenging 'more copy = more trust.' Sections: vague headlines that don't match the ad; too many CTAs; slow LCP and layout shift; hero that hides the offer; missing social proof; forms that ask too much; no mobile-first design. Key claims to verify: message match between ad and page lifts conversion; Core Web Vitals affect bounce and rankings; fewer form fields raise completion. Sources: a 2026 CRO benchmark; Google Core Web Vitals docs. End with a 10-point audit."
-    },
     {
       "translationKey": "micro-influencer-marketing-2026",
       "category": "digital-marketing",

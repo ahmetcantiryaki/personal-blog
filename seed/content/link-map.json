@@ -2328,6 +2328,66 @@
         "slug": "build-community-not-followers-2026",
         "title": "Build Community, Not Followers, in 2026"
       }
+    },
+    {
+      "translationKey": "mcp-2026-07-28-stateless-spec",
+      "category": "ai",
+      "tr": {
+        "slug": "mcp-2026-07-28-guncellemesi",
+        "title": "MCP 2026-07-28: Stateless Çekirdeğe Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "mcp-2026-07-28-stateless-spec",
+        "title": "MCP 2026-07-28: The Move to a Stateless Core"
+      }
+    },
+    {
+      "translationKey": "email-marketing-deliverability-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "e-posta-pazarlamada-teslim-edilebilirlik",
+        "title": "E-posta Pazarlamada Teslim Edilebilirlik"
+      },
+      "en": {
+        "slug": "email-deliverability-checklist",
+        "title": "Email Deliverability: A Practical Checklist"
+      }
+    },
+    {
+      "translationKey": "google-ads-vs-meta-ads-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "google-ads-mi-meta-ads-mi-kucuk-butce",
+        "title": "Google Ads mı Meta Ads mı? Küçük Bütçe"
+      },
+      "en": {
+        "slug": "google-ads-vs-meta-ads-small-budget",
+        "title": "Google Ads vs Meta Ads on a Small Budget"
+      }
+    },
+    {
+      "translationKey": "ai-marketing-automation-zapier-make",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ile-pazarlama-otomasyonu-zapier-make",
+        "title": "AI ile Pazarlama Otomasyonu: Zapier, Make"
+      },
+      "en": {
+        "slug": "marketing-automation-with-ai-zapier-make",
+        "title": "Marketing Automation with AI: Zapier & Make"
+      }
+    },
+    {
+      "translationKey": "landing-page-conversion-mistakes-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "donusum-dusuren-landing-page-hatalari",
+        "title": "Dönüşüm Düşüren Landing Page Hataları"
+      },
+      "en": {
+        "slug": "landing-page-conversion-mistakes",
+        "title": "Landing Page Mistakes That Kill Conversions"
+      }
     }
   ]
 }
