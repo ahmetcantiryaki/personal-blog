@@ -1486,5 +1486,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3048847,
     "generatedAt": "2026-07-28T06:55:07.075Z"
+  },
+  "en/email-deliverability-checklist": {
+    "hash": "42f5677f13b6ecd1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-email-deliverability-checklist.mp3",
+    "seconds": 493,
+    "voice": "en_US-ryan-high",
+    "bytes": 3941608,
+    "generatedAt": "2026-07-30T06:34:03.116Z"
+  },
+  "en/google-ads-vs-meta-ads-small-budget": {
+    "hash": "ad19ba5a9b54b71c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-google-ads-vs-meta-ads-small-budget.mp3",
+    "seconds": 535,
+    "voice": "en_US-ryan-high",
+    "bytes": 4277229,
+    "generatedAt": "2026-07-30T06:37:16.151Z"
+  },
+  "en/landing-page-conversion-mistakes": {
+    "hash": "8720f7ba13ff70a1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-landing-page-conversion-mistakes.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3319475,
+    "generatedAt": "2026-07-30T06:39:45.577Z"
+  },
+  "en/marketing-automation-with-ai-zapier-make": {
+    "hash": "2ec60ebc8541f4ed",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-marketing-automation-with-ai-zapier-make.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3351240,
+    "generatedAt": "2026-07-30T06:42:18.154Z"
+  },
+  "en/mcp-2026-07-28-stateless-spec": {
+    "hash": "646df2d550d29fa3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-mcp-2026-07-28-stateless-spec.mp3",
+    "seconds": 566,
+    "voice": "en_US-ryan-high",
+    "bytes": 4527795,
+    "generatedAt": "2026-07-30T06:45:45.162Z"
   }
 }
