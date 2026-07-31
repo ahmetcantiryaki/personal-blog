@@ -2388,6 +2388,66 @@
         "slug": "landing-page-conversion-mistakes",
         "title": "Landing Page Mistakes That Kill Conversions"
       }
+    },
+    {
+      "translationKey": "claude-red-team-test-real-company-breach",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-guvenlik-testinde-gercek-sirketlere-sizdi",
+        "title": "Claude Güvenlik Testinde Gerçek Şirketlere Nasıl Sızdı?"
+      },
+      "en": {
+        "slug": "claude-security-test-breached-real-companies",
+        "title": "How Claude Breached Real Companies During a Security Test"
+      }
+    },
+    {
+      "translationKey": "micro-influencer-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-markalar-icin-mikro-influencer",
+        "title": "Küçük Markalar İçin Mikro Influencer"
+      },
+      "en": {
+        "slug": "micro-influencer-marketing-small-brands",
+        "title": "Micro-Influencer Marketing for Small Brands"
+      }
+    },
+    {
+      "translationKey": "chatgpt-health-records-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "chatgpt-health-saglik-verini-baglamak",
+        "title": "ChatGPT Health: Sağlık Verini Bağlamak"
+      },
+      "en": {
+        "slug": "chatgpt-health-connecting-your-records",
+        "title": "ChatGPT Health: Connecting Your Records"
+      }
+    },
+    {
+      "translationKey": "gemini-for-home-smart-speakers-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-for-home-akilli-hoparlorde-ai",
+        "title": "Gemini for Home: Akıllı Hoparlörde AI"
+      },
+      "en": {
+        "slug": "gemini-for-home-smart-speakers",
+        "title": "Gemini for Home: AI on Your Smart Speaker"
+      }
+    },
+    {
+      "translationKey": "health-wearables-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "saglik-giyilebilirleri-2026-yuzuk-glukoz",
+        "title": "Sağlık Giyilebilirleri 2026: Yüzük, Glukoz"
+      },
+      "en": {
+        "slug": "health-wearables-2026-rings-glucose",
+        "title": "Health Wearables 2026: Rings and Glucose"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-07-31",
   "topics": [
-    {
-      "translationKey": "micro-influencer-marketing-2026",
-      "category": "digital-marketing",
-      "titleTr": "Küçük Markalar İçin Mikro Influencer",
-      "titleEn": "Micro-Influencer Marketing for Small Brands",
-      "slugTr": "kucuk-markalar-icin-mikro-influencer",
-      "slugEn": "micro-influencer-marketing-small-brands",
-      "keywordTr": "mikro influencer pazarlama",
-      "keywordEn": "micro influencer marketing",
-      "angle": "guide + run creator partnerships that beat big-name reach on a small budget",
-      "style": "story-led",
-      "brief": "Story-led guide to micro-influencer campaigns. Sections: why 1k–50k niche creators convert better than mega accounts; finding and vetting for real engagement (not bought); briefing without killing authenticity; deal structures (gifting, flat fee, affiliate); tracking with codes/UTMs; disclosure and FTC/local rules. Key claims to verify: smaller creators show higher engagement and trust; authentic creator-led content outperforms polished ads. Sources: a 2026 influencer-marketing report; platform partnership docs. End with an outreach template and a simple ROI sheet."
-    },
-    {
-      "translationKey": "chatgpt-health-records-explained",
-      "category": "technology",
-      "titleTr": "ChatGPT Health: Sağlık Verini Bağlamak",
-      "titleEn": "ChatGPT Health: Connecting Your Records",
-      "slugTr": "chatgpt-health-saglik-verini-baglamak",
-      "slugEn": "chatgpt-health-connecting-your-records",
-      "keywordTr": "chatgpt sağlık özelliği",
-      "keywordEn": "chatgpt health feature",
-      "angle": "deep-dive + what ChatGPT Health does, what it can't, and the privacy trade-offs",
-      "style": "question-driven",
-      "brief": "Question-driven explainer of ChatGPT's new Health experience. Sections: what it connects (supported health records, Apple Health) and the dashboard/contextual Q&A; genuinely useful cases vs where it must not replace a clinician; data handling, consent, and what leaves your device; regional availability limits. Key claims to verify: ChatGPT Health launched for eligible U.S. users July 2026, connecting records and Apple Health data; it's an assistant, not a diagnostic tool. Sources: OpenAI Health announcement; help-center notes. End with a safe-use checklist."
-    },
-    {
-      "translationKey": "gemini-for-home-smart-speakers-2026",
-      "category": "technology",
-      "titleTr": "Gemini for Home: Akıllı Hoparlörde AI",
-      "titleEn": "Gemini for Home: AI on Your Smart Speaker",
-      "slugTr": "gemini-for-home-akilli-hoparlorde-ai",
-      "slugEn": "gemini-for-home-smart-speakers",
-      "keywordTr": "gemini for home akıllı ev",
-      "keywordEn": "gemini for home smart speaker",
-      "angle": "guide + what changes when Gemini replaces Assistant on Nest and Home devices",
-      "style": "field-notes",
-      "brief": "Field-notes guide to Gemini arriving on home devices. Sections: what Gemini for Home adds over classic Assistant (conversational follow-ups, richer routines); the new ~15-minute conversational memory window; which devices got it (incl. first-gen Home Mini and Nest Hub); setup and privacy controls; current gaps. Key claims to verify: July 23, 2026 rollout expanded memory to 15 minutes and brought Gemini Live to older speakers. Sources: 9to5Google July 2026 report; Google Home release notes. End with a setup-and-privacy checklist."
-    },
-    {
-      "translationKey": "health-wearables-2026",
-      "category": "technology",
-      "titleTr": "Sağlık Giyilebilirleri 2026: Yüzük, Glukoz",
-      "titleEn": "Health Wearables 2026: Rings and Glucose",
-      "slugTr": "saglik-giyilebilirleri-2026-yuzuk-glukoz",
-      "slugEn": "health-wearables-2026-rings-glucose",
-      "keywordTr": "sağlık giyilebilir cihazları 2026",
-      "keywordEn": "health wearables 2026",
-      "angle": "deep-dive + where wearable health tech actually got better in 2026 and what to trust",
-      "style": "data-led",
-      "brief": "Data-led survey of 2026 health wearables beyond step counts. Sections: smart rings and discreet tracking; next-gen biometric sensors; the push toward non-invasive glucose monitoring; earbuds with health + live translation; accuracy caveats and FDA/CE clearance vs 'wellness' claims. Key claims to verify: non-invasive glucose monitoring is approaching mainstream but accuracy is contested; wearables are shifting from fitness to health-centered sensing. Sources: 2026 consumer-tech trend reports; regulatory clearance databases. End with a what-to-trust buyer's guide."
-    },
     {
       "translationKey": "ai-earbuds-live-translation-2026",
       "category": "technology",
