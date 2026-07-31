@@ -1526,5 +1526,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4527795,
     "generatedAt": "2026-07-30T06:45:45.162Z"
+  },
+  "en/chatgpt-health-connecting-your-records": {
+    "hash": "4b1f5a242297a4cb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-health-connecting-your-records.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3390319,
+    "generatedAt": "2026-07-31T06:36:14.961Z"
+  },
+  "en/claude-security-test-breached-real-companies": {
+    "hash": "d057f554c54df748",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-security-test-breached-real-companies.mp3",
+    "seconds": 403,
+    "voice": "en_US-ryan-high",
+    "bytes": 3220419,
+    "generatedAt": "2026-07-31T06:38:02.728Z"
+  },
+  "en/gemini-for-home-smart-speakers": {
+    "hash": "1bb66c3ede111369",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-for-home-smart-speakers.mp3",
+    "seconds": 391,
+    "voice": "en_US-ryan-high",
+    "bytes": 3130140,
+    "generatedAt": "2026-07-31T06:39:21.764Z"
+  },
+  "en/health-wearables-2026-rings-glucose": {
+    "hash": "ff6233d2567a062f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-health-wearables-2026-rings-glucose.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3371302,
+    "generatedAt": "2026-07-31T06:40:48.379Z"
+  },
+  "en/micro-influencer-marketing-small-brands": {
+    "hash": "9f9ac00f213ca0ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-micro-influencer-marketing-small-brands.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3242780,
+    "generatedAt": "2026-07-31T06:42:09.079Z"
   }
 }
