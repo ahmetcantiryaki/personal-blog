@@ -1566,5 +1566,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3242780,
     "generatedAt": "2026-07-31T06:42:09.079Z"
+  },
+  "en/ai-earbuds-live-translation-hype": {
+    "hash": "74a38f0c6f3dcf6e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-earbuds-live-translation-hype.mp3",
+    "seconds": 520,
+    "voice": "en_US-ryan-high",
+    "bytes": 4162499,
+    "generatedAt": "2026-08-01T06:32:19.495Z"
+  },
+  "en/finding-validating-micro-saas-idea": {
+    "hash": "48ebe0f022dc5684",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-finding-validating-micro-saas-idea.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3531590,
+    "generatedAt": "2026-08-01T06:34:48.145Z"
+  },
+  "en/gpt-5-6-price-cuts-luna-terra": {
+    "hash": "ed7e286d485ed9c4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-5-6-price-cuts-luna-terra.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3264514,
+    "generatedAt": "2026-08-01T06:37:04.025Z"
+  },
+  "en/saas-pricing-founder-mistakes": {
+    "hash": "39428acbac4bd309",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-saas-pricing-founder-mistakes.mp3",
+    "seconds": 467,
+    "voice": "en_US-ryan-high",
+    "bytes": 3739106,
+    "generatedAt": "2026-08-01T06:39:39.761Z"
+  },
+  "en/smart-home-2026-matter-interoperability": {
+    "hash": "e3a984b2b1ca4e45",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-smart-home-2026-matter-interoperability.mp3",
+    "seconds": 467,
+    "voice": "en_US-ryan-high",
+    "bytes": 3733255,
+    "generatedAt": "2026-08-01T06:42:13.891Z"
   }
 }
