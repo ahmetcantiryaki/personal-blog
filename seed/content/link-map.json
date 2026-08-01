@@ -2448,6 +2448,66 @@
         "slug": "health-wearables-2026-rings-glucose",
         "title": "Health Wearables 2026: Rings and Glucose"
       }
+    },
+    {
+      "translationKey": "gpt-5-6-luna-terra-price-cuts",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-fiyatlari-dustu-luna-ucuzladi",
+        "title": "GPT-5.6 Fiyatları Düştü: Luna %80 Ucuzladı"
+      },
+      "en": {
+        "slug": "gpt-5-6-price-cuts-luna-terra",
+        "title": "GPT-5.6 Price Cuts: Luna Drops 80%, Terra 20%"
+      }
+    },
+    {
+      "translationKey": "ai-earbuds-live-translation-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-kulaklik-ve-canli-ceviri-abarti-mi",
+        "title": "AI Kulaklık ve Canlı Çeviri: Abartı mı?"
+      },
+      "en": {
+        "slug": "ai-earbuds-live-translation-hype",
+        "title": "AI Earbuds and Live Translation: Hype?"
+      }
+    },
+    {
+      "translationKey": "smart-home-matter-interoperability-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "akilli-ev-2026-matter-ve-cihaz-uyumu",
+        "title": "Akıllı Ev 2026: Matter ve Cihaz Uyumu"
+      },
+      "en": {
+        "slug": "smart-home-2026-matter-interoperability",
+        "title": "Smart Home 2026: Matter and Interoperability"
+      }
+    },
+    {
+      "translationKey": "micro-saas-ideas-validate-2026",
+      "category": "business",
+      "tr": {
+        "slug": "mikro-saas-fikri-bulma-ve-dogrulama",
+        "title": "Mikro-SaaS Fikri Bulma ve Doğrulama"
+      },
+      "en": {
+        "slug": "finding-validating-micro-saas-idea",
+        "title": "Finding and Validating a Micro-SaaS Idea"
+      }
+    },
+    {
+      "translationKey": "pricing-saas-product-2026",
+      "category": "business",
+      "tr": {
+        "slug": "saas-fiyatlandirma-yaygin-yanlislar",
+        "title": "SaaS Fiyatlandırma: Yaygın Yanlışlar"
+      },
+      "en": {
+        "slug": "saas-pricing-founder-mistakes",
+        "title": "SaaS Pricing: The Mistakes Founders Make"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-07-31",
+  "updatedAt": "2026-08-01",
   "topics": [
-    {
-      "translationKey": "ai-earbuds-live-translation-2026",
-      "category": "technology",
-      "titleTr": "AI Kulaklık ve Canlı Çeviri: Abartı mı?",
-      "titleEn": "AI Earbuds and Live Translation: Hype?",
-      "slugTr": "ai-kulaklik-ve-canli-ceviri-abarti-mi",
-      "slugEn": "ai-earbuds-live-translation-hype",
-      "keywordTr": "yapay zeka kulaklık canlı çeviri",
-      "keywordEn": "ai earbuds live translation",
-      "angle": "deep-dive + how real-time translation earbuds work and where they break",
-      "style": "contrarian",
-      "brief": "Contrarian reality-check on live-translation earbuds. Sections: how the pipeline works (ASR to MT to TTS) and why latency and turn-taking still feel awkward; accuracy across languages and noisy rooms; which ecosystems (Pixel Buds, others) lead; privacy of always-listening mics; realistic travel/meeting use vs marketing demos. Key claims to verify: earbuds now ship real-time interpretation; end-to-end latency and dialect coverage limit real conversations. Sources: 2026 consumer-tech reports; vendor spec pages. End with an honest 'buy it if…' verdict."
-    },
-    {
-      "translationKey": "smart-home-matter-interoperability-2026",
-      "category": "technology",
-      "titleTr": "Akıllı Ev 2026: Matter ve Cihaz Uyumu",
-      "titleEn": "Smart Home 2026: Matter and Interoperability",
-      "slugTr": "akilli-ev-2026-matter-ve-cihaz-uyumu",
-      "slugEn": "smart-home-2026-matter-interoperability",
-      "keywordTr": "matter akıllı ev uyumluluk",
-      "keywordEn": "matter smart home interoperability",
-      "angle": "guide + build a cross-brand smart home that actually works together in 2026",
-      "style": "question-driven",
-      "brief": "Question-driven guide to a brand-agnostic smart home. Sections: what Matter and Thread solved and what they didn't; hubs and border routers; picking devices that truly interoperate; the pull toward on-device AI and offline control; migrating from a single-vendor lock-in. Key claims to verify: 2026 demand centers on seamless cross-brand integration; on-device/offline functionality is gaining favor; Matter coverage is still uneven by category. Sources: 2026 consumer-tech trend reports; Matter/CSA docs. End with a compatibility-first shopping checklist."
-    },
-    {
-      "translationKey": "micro-saas-ideas-validate-2026",
-      "category": "business",
-      "titleTr": "Mikro-SaaS Fikri Bulma ve Doğrulama",
-      "titleEn": "Finding and Validating a Micro-SaaS Idea",
-      "slugTr": "mikro-saas-fikri-bulma-ve-dogrulama",
-      "slugEn": "finding-validating-micro-saas-idea",
-      "keywordTr": "mikro saas fikir doğrulama",
-      "keywordEn": "validate micro saas idea",
-      "angle": "guide + find a narrow, painful problem and prove demand before you build",
-      "style": "data-led",
-      "brief": "Data-led guide to sourcing and validating a micro-SaaS idea. Sections: where niches hide (communities, review complaints, workflow gaps); the single-purpose-tool advantage; validation before code (landing page, waitlist, pre-sales, concierge MVP); realistic MRR bands ($1k–$50k) and margins; the 12–18 month timeline honesty. Key claims to verify: users prefer one tool that works over bloated platforms; ~77% of solopreneurs profit in year one but revenue uplift is often modest. Sources: 2026 solopreneur/micro-SaaS reports. End with a 7-day validation sprint."
-    },
-    {
-      "translationKey": "pricing-saas-product-2026",
-      "category": "business",
-      "titleTr": "SaaS Fiyatlandırma: Yaygın Yanlışlar",
-      "titleEn": "SaaS Pricing: The Mistakes Founders Make",
-      "slugTr": "saas-fiyatlandirma-yaygin-yanlislar",
-      "slugEn": "saas-pricing-founder-mistakes",
-      "keywordTr": "saas fiyatlandırma stratejisi",
-      "keywordEn": "saas pricing strategy",
-      "angle": "deep-dive + pricing frameworks and the traps that leave money on the table",
-      "style": "contrarian",
-      "brief": "Contrarian deep-dive arguing most founders underprice and over-tier. Sections: cost-plus vs value-based pricing; picking a value metric that scales with usage; good/better/best design and anchoring; free trial vs freemium vs reverse trial; raising prices without churn; localizing for markets like Turkey. Key claims to verify: value-based pricing outperforms cost-plus; too many tiers reduce conversion; grandfathering eases increases. Sources: a 2026 SaaS pricing benchmark; Price Intelligently-style research. End with a pricing-page teardown checklist."
-    },
     {
       "translationKey": "ai-automation-services-business",
       "category": "business",
