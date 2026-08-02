@@ -1606,5 +1606,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3733255,
     "generatedAt": "2026-08-01T06:42:13.891Z"
+  },
+  "en/are-pwas-worth-it-2026": {
+    "hash": "369c4b9a7600bd8d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-are-pwas-worth-it-2026.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3300249,
+    "generatedAt": "2026-08-02T06:41:43.943Z"
+  },
+  "en/bootstrap-or-vc-2026": {
+    "hash": "ea0793fa99c5cdba",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-bootstrap-or-vc-2026.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3284994,
+    "generatedAt": "2026-08-02T06:44:02.211Z"
+  },
+  "en/claude-outage-twice-in-24-hours": {
+    "hash": "11c10558e6f9a830",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-outage-twice-in-24-hours.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3253647,
+    "generatedAt": "2026-08-02T06:46:20.111Z"
+  },
+  "en/first-saas-metrics-mrr-churn-cac": {
+    "hash": "e3a10f1820e9ec26",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-saas-metrics-mrr-churn-cac.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3351449,
+    "generatedAt": "2026-08-02T06:48:42.032Z"
+  },
+  "en/selling-ai-automation-services": {
+    "hash": "6bee473cde37907b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-selling-ai-automation-services.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3261170,
+    "generatedAt": "2026-08-02T06:50:59.562Z"
   }
 }
