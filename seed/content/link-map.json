@@ -2508,6 +2508,66 @@
         "slug": "saas-pricing-founder-mistakes",
         "title": "SaaS Pricing: The Mistakes Founders Make"
       }
+    },
+    {
+      "translationKey": "claude-network-outage-july-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-24-saatte-iki-kez-coktu",
+        "title": "Claude 24 Saatte İki Kez Çöktü: Ne Oldu?"
+      },
+      "en": {
+        "slug": "claude-outage-twice-in-24-hours",
+        "title": "Claude Went Down Twice in 24 Hours: What Broke"
+      }
+    },
+    {
+      "translationKey": "ai-automation-services-business",
+      "category": "business",
+      "tr": {
+        "slug": "isletmelere-ai-otomasyon-hizmeti-satmak",
+        "title": "İşletmelere AI Otomasyon Hizmeti Satmak"
+      },
+      "en": {
+        "slug": "selling-ai-automation-services",
+        "title": "Selling AI Automation Services to Businesses"
+      }
+    },
+    {
+      "translationKey": "bootstrap-vs-vc-2026",
+      "category": "business",
+      "tr": {
+        "slug": "bootstrap-mi-vc-mi-2026-dogru-secim",
+        "title": "Bootstrap mı VC mi? 2026 İçin Doğru Seçim"
+      },
+      "en": {
+        "slug": "bootstrap-or-vc-2026",
+        "title": "Bootstrap or VC? Making the Call in 2026"
+      }
+    },
+    {
+      "translationKey": "saas-metrics-founders-mrr-churn-cac",
+      "category": "business",
+      "tr": {
+        "slug": "kurucular-icin-ilk-saas-metrikleri",
+        "title": "Kurucular İçin İlk SaaS Metrikleri"
+      },
+      "en": {
+        "slug": "first-saas-metrics-mrr-churn-cac",
+        "title": "First SaaS Metrics: MRR, Churn, and CAC"
+      }
+    },
+    {
+      "translationKey": "pwa-in-2026-still-worth-it",
+      "category": "web-development",
+      "tr": {
+        "slug": "pwa-2026da-hala-mantikli-mi",
+        "title": "PWA 2026'da Hâlâ Mantıklı mı?"
+      },
+      "en": {
+        "slug": "are-pwas-worth-it-2026",
+        "title": "Are PWAs Still Worth It in 2026?"
+      }
     }
   ]
 }

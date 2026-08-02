@@ -2,58 +2,6 @@
   "updatedAt": "2026-08-02",
   "topics": [
     {
-      "translationKey": "ai-automation-services-business",
-      "category": "business",
-      "titleTr": "İşletmelere AI Otomasyon Hizmeti Satmak",
-      "titleEn": "Selling AI Automation Services to Businesses",
-      "slugTr": "isletmelere-ai-otomasyon-hizmeti-satmak",
-      "slugEn": "selling-ai-automation-services",
-      "keywordTr": "ai otomasyon hizmeti satmak",
-      "keywordEn": "sell ai automation services",
-      "angle": "guide + package and sell AI automation to SMBs who don't know where to start",
-      "style": "story-led",
-      "brief": "Story-led playbook for an AI automation service business. Sections: the gap (SMBs want AI but lack a starting point); productized offers (audit, then retainer) built on Zapier/Make + ChatGPT/Gemini; scoping and pricing outcomes not hours; delivery and handoff; avoiding brittle builds and scope creep. Key claims to verify: SMB demand for guided automation is high; retainers give solopreneurs more stable income than one-offs. Sources: 2026 solopreneur reports; automation vendor case studies. End with a first-offer and proposal template."
-    },
-    {
-      "translationKey": "bootstrap-vs-vc-2026",
-      "category": "business",
-      "titleTr": "Bootstrap mı VC mi? 2026 İçin Doğru Seçim",
-      "titleEn": "Bootstrap or VC? Making the Call in 2026",
-      "slugTr": "bootstrap-mi-vc-mi-2026-dogru-secim",
-      "slugEn": "bootstrap-or-vc-2026",
-      "keywordTr": "bootstrap mı vc mi",
-      "keywordEn": "bootstrap vs venture capital",
-      "angle": "comparison + choose a funding path that matches the business you actually want",
-      "style": "question-driven",
-      "brief": "Question-driven comparison of funding paths in the AI era. Sections: what VC optimizes for (winner-take-all, big outcomes) vs bootstrapping (control, margin, optionality); how cheap AI-built products change the math; the middle path (revenue-based finance, angels); signals your idea fits one path or the other; founder lifestyle trade-offs. Key claims to verify: AI tooling lets tiny teams reach revenue faster and cheaper; sub-$50k MRR niches stay below VC-competition thresholds. Sources: 2026 startup-funding commentary; solopreneur reports. End with a decision checklist."
-    },
-    {
-      "translationKey": "saas-metrics-founders-mrr-churn-cac",
-      "category": "business",
-      "titleTr": "Kurucular İçin İlk SaaS Metrikleri",
-      "titleEn": "First SaaS Metrics: MRR, Churn, and CAC",
-      "slugTr": "kurucular-icin-ilk-saas-metrikleri",
-      "slugEn": "first-saas-metrics-mrr-churn-cac",
-      "keywordTr": "saas metrikleri mrr churn cac",
-      "keywordEn": "saas metrics mrr churn cac",
-      "angle": "guide + the handful of numbers an early SaaS founder must track and act on",
-      "style": "field-notes",
-      "brief": "Field-notes guide to the metrics that matter before you have a data team. Sections: MRR/ARR and net vs gross revenue retention; logo vs revenue churn; CAC, payback period, and LTV/CAC; activation and the aha moment; leading vs lagging indicators and a simple weekly dashboard. Key claims to verify: net revenue retention predicts durable growth; churn compounds faster than founders expect; CAC payback under ~12 months signals health. Sources: a 2026 SaaS metrics benchmark; common operator definitions. End with a starter metrics sheet."
-    },
-    {
-      "translationKey": "pwa-in-2026-still-worth-it",
-      "category": "web-development",
-      "titleTr": "PWA 2026'da Hâlâ Mantıklı mı?",
-      "titleEn": "Are PWAs Still Worth It in 2026?",
-      "slugTr": "pwa-2026da-hala-mantikli-mi",
-      "slugEn": "are-pwas-worth-it-2026",
-      "keywordTr": "progressive web app 2026",
-      "keywordEn": "progressive web apps 2026",
-      "angle": "deep-dive + when a PWA beats a native app and where platform limits still bite",
-      "style": "question-driven",
-      "brief": "Question-driven deep-dive on PWAs in 2026. Sections: what modern PWAs can do (installability, offline via service workers, push, file/hardware APIs); where iOS/Safari still limits them; install-friction and discovery; PWA vs native vs Capacitor/Tauri wrappers; a decision framework by app type. Key claims to verify: service workers and Web App Manifest enable install+offline; iOS push and API support lag Android; app-store discovery still favors native. Sources: web.dev PWA docs; caniuse feature tables. End with a PWA-or-not checklist."
-    },
-    {
       "translationKey": "api-versioning-strategies-2026",
       "category": "software-engineering",
       "titleTr": "API Versiyonlama Stratejileri",
