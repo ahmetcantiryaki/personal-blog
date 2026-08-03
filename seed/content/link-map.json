@@ -2568,6 +2568,66 @@
         "slug": "are-pwas-worth-it-2026",
         "title": "Are PWAs Still Worth It in 2026?"
       }
+    },
+    {
+      "translationKey": "open-secure-ai-alliance",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "open-secure-ai-alliance-nedir",
+        "title": "Open Secure AI Alliance: Yeni Yapay Zeka Güvenlik İttifakı"
+      },
+      "en": {
+        "slug": "open-secure-ai-alliance-explained",
+        "title": "Open Secure AI Alliance: Nvidia's Security Coalition"
+      }
+    },
+    {
+      "translationKey": "api-versioning-strategies-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "api-versiyonlama-stratejileri",
+        "title": "API Versiyonlama Stratejileri"
+      },
+      "en": {
+        "slug": "api-versioning-strategies",
+        "title": "API Versioning Strategies That Scale"
+      }
+    },
+    {
+      "translationKey": "database-backup-disaster-recovery",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "veritabani-yedekleme-ve-felaket-kurtarma",
+        "title": "Veritabanı Yedekleme ve Felaket Kurtarma"
+      },
+      "en": {
+        "slug": "database-backups-disaster-recovery",
+        "title": "Database Backups and Disaster Recovery"
+      }
+    },
+    {
+      "translationKey": "foldable-phones-worth-it-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "katlanabilir-telefonlar-2026-deger-mi",
+        "title": "Katlanabilir Telefonlar 2026: Artık Değer mi?"
+      },
+      "en": {
+        "slug": "foldable-phones-worth-it-2026",
+        "title": "Foldable Phones in 2026: Finally Worth It?"
+      }
+    },
+    {
+      "translationKey": "ai-pc-npu-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-bilgisayarlar-npu-nedir",
+        "title": "AI Bilgisayarlar: NPU Aslında Ne Yapar?"
+      },
+      "en": {
+        "slug": "ai-pc-npu-explained",
+        "title": "AI PCs Explained: What an NPU Actually Does"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-02",
+  "updatedAt": "2026-08-03",
   "topics": [
-    {
-      "translationKey": "api-versioning-strategies-2026",
-      "category": "software-engineering",
-      "titleTr": "API Versiyonlama Stratejileri",
-      "titleEn": "API Versioning Strategies That Scale",
-      "slugTr": "api-versiyonlama-stratejileri",
-      "slugEn": "api-versioning-strategies",
-      "keywordTr": "api versiyonlama stratejileri",
-      "keywordEn": "api versioning strategies",
-      "angle": "guide + version an API without breaking clients or drowning in branches",
-      "style": "field-notes",
-      "brief": "Field-notes guide to evolving APIs safely. Sections: URI vs header vs media-type versioning trade-offs; additive/backward-compatible change discipline; deprecation policy, sunset headers, and communication; consumer-driven contract tests; when to fork a v2 vs evolve v1; GraphQL/gRPC evolution differences. Key claims to verify: additive changes avoid breaking clients; Sunset/Deprecation headers standardize retirement; contract tests catch breakage early. Sources: RFC 8594 (Sunset header); Stripe/GitHub versioning practices. End with a deprecation runbook."
-    },
-    {
-      "translationKey": "database-backup-disaster-recovery",
-      "category": "devops-cloud",
-      "titleTr": "Veritabanı Yedekleme ve Felaket Kurtarma",
-      "titleEn": "Database Backups and Disaster Recovery",
-      "slugTr": "veritabani-yedekleme-ve-felaket-kurtarma",
-      "slugEn": "database-backups-disaster-recovery",
-      "keywordTr": "veritabanı yedekleme felaket kurtarma",
-      "keywordEn": "database backup disaster recovery",
-      "angle": "checklist + design backups and recovery you have actually tested",
-      "style": "data-led",
-      "brief": "Data-led checklist for backups that survive real incidents. Sections: RPO/RTO targets; logical vs physical backups and PITR (WAL/binlog); the 3-2-1 rule and offsite/immutable copies; encryption and access control; and the part everyone skips—restore drills and game days. Key claims to verify: untested backups fail when needed; PITR needs continuous WAL archiving; immutable/offsite copies defend against ransomware. Sources: PostgreSQL PITR docs; a cloud provider DR guide. End with a quarterly restore-drill checklist."
-    },
-    {
-      "translationKey": "foldable-phones-worth-it-2026",
-      "category": "technology",
-      "titleTr": "Katlanabilir Telefonlar 2026: Artık Değer mi?",
-      "titleEn": "Foldable Phones in 2026: Finally Worth It?",
-      "slugTr": "katlanabilir-telefonlar-2026-deger-mi",
-      "slugEn": "foldable-phones-worth-it-2026",
-      "keywordTr": "katlanabilir telefon 2026",
-      "keywordEn": "foldable phones 2026",
-      "angle": "comparison + help a normal buyer decide if a foldable finally beats a flagship slab phone",
-      "style": "question-driven",
-      "brief": "Question-driven consumer explainer. Sections: how far foldables came (Z Fold7 now ~12g lighter than iPhone 16 Pro Max, only 0.7mm thicker folded); the trifold and rumored Apple foldable; durability, crease, battery and price reality; who a foldable actually suits vs a normal flagship. Key claims to verify: foldable market growing ~30% YoY; Fold7 weight/thickness specs; trifold and Apple entry timing. Sources: Fast Company CES 2026 coverage; TechRadar 2026 trends. End with a buy-or-wait verdict by user type."
-    },
-    {
-      "translationKey": "ai-pc-npu-explained",
-      "category": "technology",
-      "titleTr": "AI Bilgisayarlar: NPU Aslında Ne Yapar?",
-      "titleEn": "AI PCs Explained: What an NPU Actually Does",
-      "slugTr": "ai-bilgisayarlar-npu-nedir",
-      "slugEn": "ai-pc-npu-explained",
-      "keywordTr": "ai bilgisayar npu nedir",
-      "keywordEn": "what is an ai pc npu",
-      "angle": "deep-dive + explain what an NPU adds over CPU/GPU and whether a normal buyer needs an AI PC",
-      "style": "data-led",
-      "brief": "Data-led explainer for non-experts. Sections: what an NPU is and TOPS ratings; running models locally without internet (AMD Ryzen AI Max+, Copilot+ class laptops); real on-device use cases (transcription, image edits, local chat) vs marketing; battery, privacy and cost trade-offs; who should wait. Key claims to verify: NPU TOPS thresholds for Copilot+ features; Ryzen AI Max+ can run larger models locally; on-device keeps data off the cloud. Sources: Fast Company CES 2026; a vendor NPU spec page. End with a 'do you need one' checklist."
-    },
     {
       "translationKey": "home-robots-2026-hype-vs-reality",
       "category": "technology",
