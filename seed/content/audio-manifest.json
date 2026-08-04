@@ -1686,5 +1686,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3398052,
     "generatedAt": "2026-08-03T07:31:46.540Z"
+  },
+  "en/eu-ai-act-enforcement-live-2026": {
+    "hash": "ea6a66e69f6a3cdb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-eu-ai-act-enforcement-live-2026.mp3",
+    "seconds": 469,
+    "voice": "en_US-ryan-high",
+    "bytes": 3751645,
+    "generatedAt": "2026-08-04T06:40:16.196Z"
+  },
+  "en/first-hire-contractor-employee-va": {
+    "hash": "07d8b9e3bf70b477",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-hire-contractor-employee-va.mp3",
+    "seconds": 486,
+    "voice": "en_US-ryan-high",
+    "bytes": 3890617,
+    "generatedAt": "2026-08-04T06:43:00.389Z"
+  },
+  "en/gemini-google-workspace-small-business": {
+    "hash": "8917feaf8313f25a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-google-workspace-small-business.mp3",
+    "seconds": 455,
+    "voice": "en_US-ryan-high",
+    "bytes": 3636497,
+    "generatedAt": "2026-08-04T06:45:33.499Z"
+  },
+  "en/home-robots-2026-hype-vs-reality": {
+    "hash": "65bd3b714c109c5a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-home-robots-2026-hype-vs-reality.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3396171,
+    "generatedAt": "2026-08-04T06:47:57.316Z"
+  },
+  "en/satellite-texting-direct-to-cell-2026": {
+    "hash": "d933fbb5860647e6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-satellite-texting-direct-to-cell-2026.mp3",
+    "seconds": 393,
+    "voice": "en_US-ryan-high",
+    "bytes": 3142470,
+    "generatedAt": "2026-08-04T06:50:09.171Z"
   }
 }
