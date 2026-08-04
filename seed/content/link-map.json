@@ -2628,6 +2628,66 @@
         "slug": "ai-pc-npu-explained",
         "title": "AI PCs Explained: What an NPU Actually Does"
       }
+    },
+    {
+      "translationKey": "eu-ai-act-enforcement-live-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ab-yapay-zeka-yasasi-devrede-ne-degisiyor",
+        "title": "AB Yapay Zeka Yasası Devrede: Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "eu-ai-act-enforcement-live-2026",
+        "title": "EU AI Act Enforcement Is Live: What Changes"
+      }
+    },
+    {
+      "translationKey": "home-robots-2026-hype-vs-reality",
+      "category": "technology",
+      "tr": {
+        "slug": "ev-robotlari-2026-abarti-mi-gercek-mi",
+        "title": "Ev Robotları 2026: Abartı mı Gerçek mi?"
+      },
+      "en": {
+        "slug": "home-robots-2026-hype-vs-reality",
+        "title": "Home Robots in 2026: Hype vs Reality"
+      }
+    },
+    {
+      "translationKey": "satellite-texting-direct-to-cell",
+      "category": "technology",
+      "tr": {
+        "slug": "sinyalsiz-mesajlasma-uydudan-telefona",
+        "title": "Sinyalsiz Mesajlaşma: Uydudan Telefona 2026"
+      },
+      "en": {
+        "slug": "satellite-texting-direct-to-cell-2026",
+        "title": "Texting With No Signal: Direct-to-Cell in 2026"
+      }
+    },
+    {
+      "translationKey": "gemini-google-workspace-small-business",
+      "category": "business",
+      "tr": {
+        "slug": "kucuk-isletme-icin-workspace-gemini",
+        "title": "Küçük İşletme İçin Workspace'te Gemini"
+      },
+      "en": {
+        "slug": "gemini-google-workspace-small-business",
+        "title": "Gemini in Google Workspace for Small Business"
+      }
+    },
+    {
+      "translationKey": "first-hire-solopreneur",
+      "category": "business",
+      "tr": {
+        "slug": "ilk-ise-alim-freelancer-mi-calisan-mi",
+        "title": "İlk İşe Alımın: Freelancer mı, Çalışan mı?"
+      },
+      "en": {
+        "slug": "first-hire-contractor-employee-va",
+        "title": "Your First Hire: Contractor, Employee, or VA?"
+      }
     }
   ]
 }

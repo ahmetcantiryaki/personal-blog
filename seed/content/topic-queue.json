@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-03",
+  "updatedAt": "2026-08-04",
   "topics": [
-    {
-      "translationKey": "home-robots-2026-hype-vs-reality",
-      "category": "technology",
-      "titleTr": "Ev Robotları 2026: Abartı mı Gerçek mi?",
-      "titleEn": "Home Robots in 2026: Hype vs Reality",
-      "slugTr": "ev-robotlari-2026-abarti-mi-gercek-mi",
-      "slugEn": "home-robots-2026-hype-vs-reality",
-      "keywordTr": "ev robotları 2026",
-      "keywordEn": "home robots 2026",
-      "angle": "deep-dive + separate what home and humanoid robots really do in 2026 from the demo-reel hype",
-      "style": "contrarian",
-      "brief": "Contrarian reality check on 'physical AI' at home. Sections: what shipped (Roborock stair-climbing vacuum, Matic on-device mapping) vs humanoid demos that aren't for sale; where robots genuinely help (cleaning, lawn, security) vs staged videos; price, privacy and reliability; the honest 2026 buying picture. Key claims to verify: Saros Rover climbs and cleans stairs; Matic maps without cloud; consumer humanoids remain pre-order/demo stage. Sources: Fast Company CES 2026; TechRadar 2026 trends. End with 'buy now vs watch' by category."
-    },
-    {
-      "translationKey": "satellite-texting-direct-to-cell",
-      "category": "technology",
-      "titleTr": "Sinyalsiz Mesajlaşma: Uydudan Telefona 2026",
-      "titleEn": "Texting With No Signal: Direct-to-Cell in 2026",
-      "slugTr": "sinyalsiz-mesajlasma-uydudan-telefona",
-      "slugEn": "satellite-texting-direct-to-cell-2026",
-      "keywordTr": "uydudan mesajlaşma",
-      "keywordEn": "direct to cell satellite texting",
-      "angle": "guide + explain how phones now text via satellite and what it does and doesn't do yet",
-      "style": "story-led",
-      "brief": "Story-led explainer opening with a dead-zone moment. Sections: how direct-to-cell works (satellites acting as cell towers for standard phones); what carriers/Starlink offer in 2026 (emergency SOS, texts, limited data); which phones and plans qualify; real limits (latency, no live calls everywhere, weather); how to enable it. Key claims to verify: direct-to-cell supports texting on unmodified phones; 2026 rollouts still text-first with data emerging; per-carrier availability differs. Sources: carrier/Starlink direct-to-cell pages; a 2026 tech roundup. End with a setup and expectations checklist."
-    },
-    {
-      "translationKey": "gemini-google-workspace-small-business",
-      "category": "business",
-      "titleTr": "Küçük İşletme İçin Workspace'te Gemini",
-      "titleEn": "Gemini in Google Workspace for Small Business",
-      "slugTr": "kucuk-isletme-icin-workspace-gemini",
-      "slugEn": "gemini-google-workspace-small-business",
-      "keywordTr": "gemini google workspace işletme",
-      "keywordEn": "gemini google workspace business",
-      "angle": "how-to + use Gemini across Docs, Sheets, Slides and Gmail to run a small business faster",
-      "style": "field-notes",
-      "brief": "Field-notes how-to for owners already on Workspace. Sections: deck generation in Slides and visual summaries in Docs; Sheets formulas, cleanup and analysis by prompt; Gmail drafting and 'Help me write'; guardrails (review outputs, data handling); a realistic weekly workflow. Key claims to verify: Slides deck generation and Docs visual-summary features shipped in the July 2026 Workspace drop; Gemini edits multiple visuals at once; outputs still need human review. Sources: Google Workspace July 2026 feature-drop blog; Gemini app updates. End with a starter prompt pack."
-    },
-    {
-      "translationKey": "first-hire-solopreneur",
-      "category": "business",
-      "titleTr": "İlk İşe Alımın: Freelancer mı, Çalışan mı?",
-      "titleEn": "Your First Hire: Contractor, Employee, or VA?",
-      "slugTr": "ilk-ise-alim-freelancer-mi-calisan-mi",
-      "slugEn": "first-hire-contractor-employee-va",
-      "keywordTr": "ilk işe alım solo girişimci",
-      "keywordEn": "solopreneur first hire",
-      "angle": "comparison + choose the right first hire type when you finally can't do it all alone",
-      "style": "question-driven",
-      "brief": "Question-driven guide for overloaded solopreneurs. Sections: signs you're ready to hire; contractor vs part-time vs full-time vs virtual assistant trade-offs (cost, control, risk, legal); what to delegate first (repeatable, low-judgment tasks); writing a scope, a paid test task, and onboarding docs; misclassification and compliance basics. Key claims to verify: AI now offloads many tasks so first hires shift toward judgment/relationship work; misclassifying contractors carries real penalties. Sources: 2026 solopreneur/small-business hiring guides. End with a first-hire decision tree."
-    },
     {
       "translationKey": "cofounder-equity-vesting-basics",
       "category": "business",
