@@ -1726,5 +1726,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3142470,
     "generatedAt": "2026-08-04T06:50:09.171Z"
+  },
+  "en/claude-opus-4-1-retires-migrate-to-opus-4-8": {
+    "hash": "8625afe9cd400e91",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-opus-4-1-retires-migrate-to-opus-4-8.mp3",
+    "seconds": 436,
+    "voice": "en_US-ryan-high",
+    "bytes": 3489794,
+    "generatedAt": "2026-08-05T06:44:24.997Z"
+  },
+  "en/cofounder-equity-vesting-explained": {
+    "hash": "d3cb6ef2cca318e7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cofounder-equity-vesting-explained.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3480390,
+    "generatedAt": "2026-08-05T06:46:51.644Z"
+  },
+  "en/optimize-store-for-ai-shopping-agents": {
+    "hash": "f8b749d32d2711a9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-optimize-store-for-ai-shopping-agents.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3348315,
+    "generatedAt": "2026-08-05T06:49:12.982Z"
+  },
+  "en/reading-contracts-with-claude-founder": {
+    "hash": "98a850ee39461079",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reading-contracts-with-claude-founder.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3376945,
+    "generatedAt": "2026-08-05T06:51:34.402Z"
+  },
+  "en/topical-authority-content-clusters": {
+    "hash": "3728d0bbccb8f219",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-topical-authority-content-clusters.mp3",
+    "seconds": 418,
+    "voice": "en_US-ryan-high",
+    "bytes": 3347061,
+    "generatedAt": "2026-08-05T06:53:55.220Z"
   }
 }
