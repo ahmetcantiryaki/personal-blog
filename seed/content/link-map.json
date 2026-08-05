@@ -2688,6 +2688,66 @@
         "slug": "first-hire-contractor-employee-va",
         "title": "Your First Hire: Contractor, Employee, or VA?"
       }
+    },
+    {
+      "translationKey": "claude-opus-4-1-retirement-migration",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-opus-4-1-emekli-oldu-gecis-rehberi",
+        "title": "Claude Opus 4.1 Emekli Oldu: Opus 4.8'e Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "claude-opus-4-1-retires-migrate-to-opus-4-8",
+        "title": "Claude Opus 4.1 Retires: Your Migration Guide to Opus 4.8"
+      }
+    },
+    {
+      "translationKey": "cofounder-equity-vesting-basics",
+      "category": "business",
+      "tr": {
+        "slug": "kurucu-ortak-hisse-ve-vesting-rehberi",
+        "title": "Kurucu Ortak Hisse ve Vesting Rehberi"
+      },
+      "en": {
+        "slug": "cofounder-equity-vesting-explained",
+        "title": "Co-Founder Equity and Vesting, Explained"
+      }
+    },
+    {
+      "translationKey": "reading-contracts-with-claude-founder",
+      "category": "business",
+      "tr": {
+        "slug": "claude-ile-sozlesme-okuma-kurucular",
+        "title": "Kurucular İçin Claude ile Sözleşme Okuma"
+      },
+      "en": {
+        "slug": "reading-contracts-with-claude-founder",
+        "title": "Reading Contracts With Claude as a Founder"
+      }
+    },
+    {
+      "translationKey": "optimize-store-for-ai-shopping-agents",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "magazani-ai-alisveris-ajanlarina-hazirla",
+        "title": "Mağazanı AI Alışveriş Ajanlarına Hazırla"
+      },
+      "en": {
+        "slug": "optimize-store-for-ai-shopping-agents",
+        "title": "Get Your Store Ready for AI Shopping Agents"
+      }
+    },
+    {
+      "translationKey": "topical-authority-content-clusters",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "konu-otoritesi-icerik-kumeleri-seo",
+        "title": "Konu Otoritesi: 2026 SEO'nun Belkemiği"
+      },
+      "en": {
+        "slug": "topical-authority-content-clusters",
+        "title": "Topical Authority: The 2026 SEO Backbone"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-08-05",
   "topics": [
-    {
-      "translationKey": "cofounder-equity-vesting-basics",
-      "category": "business",
-      "titleTr": "Kurucu Ortak Hisse ve Vesting Rehberi",
-      "titleEn": "Co-Founder Equity and Vesting, Explained",
-      "slugTr": "kurucu-ortak-hisse-ve-vesting-rehberi",
-      "slugEn": "cofounder-equity-vesting-explained",
-      "keywordTr": "kurucu ortak hisse dağılımı",
-      "keywordEn": "co-founder equity vesting",
-      "angle": "guide + split equity and set vesting so an early split doesn't blow up the company later",
-      "style": "story-led",
-      "brief": "Story-led guide built around a split gone wrong. Sections: why equal isn't automatic (contribution, risk, timing); vesting and the standard 4-year/1-year cliff; why founders need vesting too; the walk-away founder problem; cap table basics and dilution; when to get a lawyer. Key claims to verify: 4-year vesting with a 1-year cliff is the common startup default; missing vesting is a top early-stage failure mode. Sources: startup legal primers; founder equity guides. End with an equity-conversation checklist for co-founders."
-    },
-    {
-      "translationKey": "reading-contracts-with-claude-founder",
-      "category": "business",
-      "titleTr": "Kurucular İçin Claude ile Sözleşme Okuma",
-      "titleEn": "Reading Contracts With Claude as a Founder",
-      "slugTr": "claude-ile-sozlesme-okuma-kurucular",
-      "slugEn": "reading-contracts-with-claude-founder",
-      "keywordTr": "claude ile sözleşme inceleme",
-      "keywordEn": "review contracts with claude",
-      "angle": "how-to + use Claude to understand contracts faster without treating it as legal advice",
-      "style": "field-notes",
-      "brief": "Field-notes how-to for non-lawyer founders. Sections: safe uses (summarize, flag unusual clauses, explain jargon, compare to a standard) vs unsafe (relying on it as counsel); prompts for NDAs, MSAs, and vendor terms; the long-context advantage for big agreements; privacy and confidentiality handling; when to escalate to a real lawyer. Key claims to verify: Claude's large context handles full contracts; strong instruction-following aids clause extraction; AI output still needs legal review. Sources: Anthropic Claude docs; a legal-AI usage caution piece. End with a red-flag clause checklist."
-    },
-    {
-      "translationKey": "optimize-store-for-ai-shopping-agents",
-      "category": "digital-marketing",
-      "titleTr": "Mağazanı AI Alışveriş Ajanlarına Hazırla",
-      "titleEn": "Get Your Store Ready for AI Shopping Agents",
-      "slugTr": "magazani-ai-alisveris-ajanlarina-hazirla",
-      "slugEn": "optimize-store-for-ai-shopping-agents",
-      "keywordTr": "ai alışveriş ajanları mağaza",
-      "keywordEn": "optimize store for ai shopping agents",
-      "angle": "how-to + make your product data and checkout readable and buyable by AI shopping agents",
-      "style": "data-led",
-      "brief": "Data-led how-to on agentic commerce readiness. Sections: why it matters (AI-agent product discovery roughly doubled to ~20% of shoppers in a year); clean structured product data and schema markup; answer engine optimization so agents understand your catalog; agentic checkout and payment rails; the cost of bad data (instant redirect to a competitor). Key claims to verify: agent-assisted shopping usage roughly doubled; data errors cause immediate lost sales; schema/AEO improves agent comprehension. Sources: Salesforce/commercetools 2026 commerce trends; Search Engine Land guide. End with a store-readiness checklist."
-    },
-    {
-      "translationKey": "topical-authority-content-clusters",
-      "category": "digital-marketing",
-      "titleTr": "Konu Otoritesi: 2026 SEO'nun Belkemiği",
-      "titleEn": "Topical Authority: The 2026 SEO Backbone",
-      "slugTr": "konu-otoritesi-icerik-kumeleri-seo",
-      "slugEn": "topical-authority-content-clusters",
-      "keywordTr": "konu otoritesi içerik kümeleri",
-      "keywordEn": "topical authority content clusters",
-      "angle": "guide + build pillar-and-cluster content that AI search and Google both trust and cite",
-      "style": "data-led",
-      "brief": "Data-led guide to depth over one-off posts. Sections: what topical authority is and why AI search rewards it; pillar pages and cluster mapping; internal linking and information gain (original data, not summaries); measuring authority (rankings, citations, coverage); a build sequence for a small site. Key claims to verify: AI Overviews appear in a large share of US searches and cut clicks sharply; clusters and original data improve inclusion in AI answers. Sources: 2026 SEO/GEO strategy analyses; AI Overviews click-through data. End with a cluster-planning template."
-    },
     {
       "translationKey": "marketing-funnel-solopreneur",
       "category": "digital-marketing",
