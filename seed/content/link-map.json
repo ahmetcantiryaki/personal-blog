@@ -2748,6 +2748,66 @@
         "slug": "topical-authority-content-clusters",
         "title": "Topical Authority: The 2026 SEO Backbone"
       }
+    },
+    {
+      "translationKey": "claude-inference-hooks-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-inference-hooks-guvenlik-sunucusu",
+        "title": "Claude Inference Hooks: AI Güvenlik Sunucusu Kurmak"
+      },
+      "en": {
+        "slug": "claude-inference-hooks-explained",
+        "title": "Claude Inference Hooks: Build Your AI Security Server"
+      }
+    },
+    {
+      "translationKey": "marketing-funnel-solopreneur",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tek-kisilik-isletme-pazarlama-hunisi",
+        "title": "Tek Kişilik İşletme İçin Pazarlama Hunisi"
+      },
+      "en": {
+        "slug": "marketing-funnel-one-person-business",
+        "title": "A Marketing Funnel for a One-Person Business"
+      }
+    },
+    {
+      "translationKey": "gemini-instagram-reels-hooks",
+      "category": "social-media",
+      "tr": {
+        "slug": "gemini-ile-reels-hook-ve-izlenme",
+        "title": "Gemini ile Reels Düzelt: Hook ve İzlenme"
+      },
+      "en": {
+        "slug": "fix-reels-with-gemini-hooks-retention",
+        "title": "Fix Your Reels With Gemini: Hooks & Retention"
+      }
+    },
+    {
+      "translationKey": "threads-vs-bluesky-vs-x-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "threads-bluesky-x-2026-nerede-paylasilir",
+        "title": "Threads, Bluesky, X: 2026'da Nerede Paylaş?"
+      },
+      "en": {
+        "slug": "threads-vs-bluesky-vs-x-2026",
+        "title": "Threads vs Bluesky vs X: Where to Post in 2026"
+      }
+    },
+    {
+      "translationKey": "pinterest-traffic-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "pinterest-2026-sessiz-trafik-kaynagi",
+        "title": "Pinterest 2026: Sessiz Trafik Kaynağı"
+      },
+      "en": {
+        "slug": "pinterest-traffic-engine-2026",
+        "title": "Pinterest in 2026: The Quiet Traffic Engine"
+      }
     }
   ]
 }

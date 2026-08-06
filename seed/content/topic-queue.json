@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-06",
   "topics": [
-    {
-      "translationKey": "marketing-funnel-solopreneur",
-      "category": "digital-marketing",
-      "titleTr": "Tek Kişilik İşletme İçin Pazarlama Hunisi",
-      "titleEn": "A Marketing Funnel for a One-Person Business",
-      "slugTr": "tek-kisilik-isletme-pazarlama-hunisi",
-      "slugEn": "marketing-funnel-one-person-business",
-      "keywordTr": "pazarlama hunisi küçük işletme",
-      "keywordEn": "marketing funnel small business",
-      "angle": "guide + build a simple, low-maintenance funnel that turns strangers into customers solo",
-      "style": "story-led",
-      "brief": "Story-led guide for a founder with no marketing team. Sections: awareness-consideration-conversion mapped to real assets (content, lead magnet, email, offer); one channel done well beats five half-done; a minimal tech stack; automating nurture without a big budget; the metrics that matter at each stage. Key claims to verify: focus beats spread for tiny teams; email remains the highest-ROI owned channel; simple funnels outperform complex ones you can't maintain. Sources: 2026 small-business marketing guides; email-ROI benchmarks. End with a one-page funnel worksheet."
-    },
-    {
-      "translationKey": "gemini-instagram-reels-hooks",
-      "category": "social-media",
-      "titleTr": "Gemini ile Reels Düzelt: Hook ve İzlenme",
-      "titleEn": "Fix Your Reels With Gemini: Hooks & Retention",
-      "slugTr": "gemini-ile-reels-hook-ve-izlenme",
-      "slugEn": "fix-reels-with-gemini-hooks-retention",
-      "keywordTr": "gemini ile instagram reels",
-      "keywordEn": "gemini for instagram reels",
-      "angle": "how-to + use Gemini's video understanding to diagnose weak hooks and lift Reels retention",
-      "style": "field-notes",
-      "brief": "Field-notes how-to for creators. Sections: why Gemini can judge video (it reads audio, visuals and timing together); prompts to diagnose the first three seconds, caption timing, and hook-visual mismatch; studying competitor reels ('what do they do better?') to extract repeatable patterns; batching idea variants by format; what to change before reposting. Key claims to verify: Gemini analyzes multimodal video context; 2026 Reels algorithm rewards retention and search keywords over trending audio. Sources: Gemini-for-Instagram creator guides; 2026 Reels strategy pieces. End with a pre-publish Reels checklist."
-    },
-    {
-      "translationKey": "threads-vs-bluesky-vs-x-2026",
-      "category": "social-media",
-      "titleTr": "Threads, Bluesky, X: 2026'da Nerede Paylaş?",
-      "titleEn": "Threads vs Bluesky vs X: Where to Post in 2026",
-      "slugTr": "threads-bluesky-x-2026-nerede-paylasilir",
-      "slugEn": "threads-vs-bluesky-vs-x-2026",
-      "keywordTr": "threads bluesky x karşılaştırma",
-      "keywordEn": "threads vs bluesky vs x",
-      "angle": "comparison + pick the right text platform for your niche instead of spreading thin",
-      "style": "question-driven",
-      "brief": "Question-driven comparison of the three text networks. Sections: size and culture (Threads 400M+ MAU and visual/lifestyle; Bluesky ~41M, sharp/link-tolerant, decentralized AT Protocol; X still where founders, journalists, decision-makers live); what content wins where (dense/technical vs visual); monetization maturity (X ahead, Threads/Bluesky nascent); a realistic two-platform strategy. Key claims to verify: cited MAU/DAU figures; technical content underperforms on Threads while visual underperforms on Bluesky; X leads on creator monetization. Sources: 2026 platform comparison analyses. End with a pick-by-niche matrix."
-    },
-    {
-      "translationKey": "pinterest-traffic-2026",
-      "category": "social-media",
-      "titleTr": "Pinterest 2026: Sessiz Trafik Kaynağı",
-      "titleEn": "Pinterest in 2026: The Quiet Traffic Engine",
-      "slugTr": "pinterest-2026-sessiz-trafik-kaynagi",
-      "slugEn": "pinterest-traffic-engine-2026",
-      "keywordTr": "pinterest trafik 2026",
-      "keywordEn": "pinterest traffic 2026",
-      "angle": "guide + use Pinterest as an evergreen search-and-traffic channel most brands ignore",
-      "style": "story-led",
-      "brief": "Story-led guide reframing Pinterest as visual search, not social feed. Sections: why pins keep driving clicks months later (long content half-life vs feeds); keyword-first pin and board design; idea pins vs standard pins and outbound links; niches that overperform (recipes, home, style, DIY, B2B templates); a low-effort weekly pinning routine. Key claims to verify: Pinterest content has a far longer half-life than feed posts; it functions as a search engine with high buyer intent. Sources: 2026 Pinterest marketing guides; platform traffic case studies. End with a 30-day Pinterest starter plan."
-    },
     {
       "translationKey": "content-calendar-batch-month-in-day",
       "category": "social-media",
