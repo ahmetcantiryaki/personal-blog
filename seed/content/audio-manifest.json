@@ -1806,5 +1806,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3486241,
     "generatedAt": "2026-08-06T06:49:25.032Z"
+  },
+  "en/beat-procrastination-systems-that-stick": {
+    "hash": "7986aae16df358e9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-beat-procrastination-systems-that-stick.mp3",
+    "seconds": 386,
+    "voice": "en_US-ryan-high",
+    "bytes": 3086672,
+    "generatedAt": "2026-08-07T06:48:29.585Z"
+  },
+  "en/building-with-gemini-3-6-flash": {
+    "hash": "c43b623d4c476708",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-building-with-gemini-3-6-flash.mp3",
+    "seconds": 383,
+    "voice": "en_US-ryan-high",
+    "bytes": 3067237,
+    "generatedAt": "2026-08-07T06:50:39.807Z"
+  },
+  "en/chatgpt-pulse-daily-briefing": {
+    "hash": "7ff6ee675bbe812a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-pulse-daily-briefing.mp3",
+    "seconds": 374,
+    "voice": "en_US-ryan-high",
+    "bytes": 2988870,
+    "generatedAt": "2026-08-07T06:52:47.512Z"
+  },
+  "en/claude-code-cross-session-messaging": {
+    "hash": "f62b1ce884bc805c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-cross-session-messaging.mp3",
+    "seconds": 409,
+    "voice": "en_US-ryan-high",
+    "bytes": 3274754,
+    "generatedAt": "2026-08-07T06:55:06.288Z"
+  },
+  "en/learn-any-skill-with-ai-tutor": {
+    "hash": "47f62322ad421aa8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-learn-any-skill-with-ai-tutor.mp3",
+    "seconds": 352,
+    "voice": "en_US-ryan-high",
+    "bytes": 2815208,
+    "generatedAt": "2026-08-07T06:57:05.710Z"
   }
 }
