@@ -2808,6 +2808,66 @@
         "slug": "pinterest-traffic-engine-2026",
         "title": "Pinterest in 2026: The Quiet Traffic Engine"
       }
+    },
+    {
+      "translationKey": "claude-code-cross-session-messaging",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-oturumlar-arasi-mesajlasma",
+        "title": "Claude Code'da Oturumlar Birbirine Mesaj Atabiliyor"
+      },
+      "en": {
+        "slug": "claude-code-cross-session-messaging",
+        "title": "Claude Code Sessions Can Now Message Each Other"
+      }
+    },
+    {
+      "translationKey": "chatgpt-pulse-proactive-briefing",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-pulse-gunluk-ozet",
+        "title": "ChatGPT Pulse Kapandı: Scheduled Tasks Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-pulse-daily-briefing",
+        "title": "ChatGPT Pulse Is Gone: Your Scheduled Tasks Guide"
+      }
+    },
+    {
+      "translationKey": "learn-any-skill-with-ai-tutor",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ogretmenle-beceri-ogrenme",
+        "title": "AI Öğretmenle Her Beceriyi Daha Hızlı Öğren"
+      },
+      "en": {
+        "slug": "learn-any-skill-with-ai-tutor",
+        "title": "Learn Any Skill Faster With an AI Tutor"
+      }
+    },
+    {
+      "translationKey": "beat-procrastination-systems",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ertelemeyi-kiran-sistemler",
+        "title": "Erteleme Alışkanlığını Kıran Sistemler"
+      },
+      "en": {
+        "slug": "beat-procrastination-systems-that-stick",
+        "title": "Beat Procrastination With Systems That Stick"
+      }
+    },
+    {
+      "translationKey": "building-with-gemini-flash-3-6",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-6-flash-ile-gelistirme",
+        "title": "Gemini 3.6 Flash ile Ucuz ve Hızlı AI"
+      },
+      "en": {
+        "slug": "building-with-gemini-3-6-flash",
+        "title": "Building With Gemini 3.6 Flash: Cheap, Fast AI"
+      }
     }
   ]
 }

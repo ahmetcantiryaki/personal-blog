@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-07",
   "topics": [
     {
       "translationKey": "content-calendar-batch-month-in-day",
@@ -13,58 +13,6 @@
       "angle": "checklist + stop posting daily and batch a month of content in one focused session",
       "style": "contrarian",
       "brief": "Contrarian, checklist-driven system against daily scramble. Sections: why daily improvisation kills consistency and quality; the batching workflow (pillars, ideation, scripting, filming, editing, scheduling as separate blocks); repurposing one long asset into many short ones; an AI-assisted step for outlines and captions; a scheduler and a simple content calendar. Key claims to verify: batching and repurposing raise output consistency; a small set of content pillars outperforms random posting. Sources: 2026 creator workflow guides; repurposing case studies. End with a one-day batching checklist and calendar template."
-    },
-    {
-      "translationKey": "chatgpt-pulse-proactive-briefing",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Pulse: İşe Yarayan Günlük Özet",
-      "titleEn": "ChatGPT Pulse: A Daily Briefing That Helps",
-      "slugTr": "chatgpt-pulse-gunluk-ozet",
-      "slugEn": "chatgpt-pulse-daily-briefing",
-      "keywordTr": "chatgpt pulse nasıl kullanılır",
-      "keywordEn": "how to use chatgpt pulse",
-      "angle": "how-to + set up ChatGPT Pulse so its proactive morning briefing is useful, not noise",
-      "style": "question-driven",
-      "brief": "Question-driven how-to on proactive AI. Sections: what Pulse is (overnight 'proactive research' surfaced as morning cards from chats, memory and optional connectors); enabling it and connecting Gmail/Calendar safely (connectors off by default); training it with thumbs up/down and topic feedback; privacy and what to keep off; whether a proactive briefing beats an on-demand prompt. Key claims to verify: Pulse synthesizes overnight from memory and feedback; connectors are opt-in; availability is plan-gated. Sources: OpenAI Pulse materials; hands-on Pulse guides. End with a first-week tuning checklist."
-    },
-    {
-      "translationKey": "learn-any-skill-with-ai-tutor",
-      "category": "career-productivity",
-      "titleTr": "AI Öğretmenle Her Beceriyi Daha Hızlı Öğren",
-      "titleEn": "Learn Any Skill Faster With an AI Tutor",
-      "slugTr": "ai-ogretmenle-beceri-ogrenme",
-      "slugEn": "learn-any-skill-with-ai-tutor",
-      "keywordTr": "ai ile beceri öğrenme",
-      "keywordEn": "learn skills with ai tutor",
-      "angle": "guide + turn ChatGPT, Claude or Gemini into a real tutor for any non-coding skill",
-      "style": "story-led",
-      "brief": "Story-led guide beyond coding. Sections: setting up a tutor persona and a learning plan; the Feynman loop (explain back, get corrected); spaced-repetition and quizzing prompts; using NotebookLM/Projects to ground lessons in real sources; avoiding the confident-but-wrong trap with verification. Key claims to verify: active recall and spaced repetition beat passive reading; grounding answers in your own sources cuts hallucination; AI tutoring works across languages and skills. Sources: learning-science summaries; AI-study-tool guides. End with a reusable 'be my tutor' prompt template."
-    },
-    {
-      "translationKey": "beat-procrastination-systems",
-      "category": "career-productivity",
-      "titleTr": "Erteleme Alışkanlığını Kıran Sistemler",
-      "titleEn": "Beat Procrastination With Systems That Stick",
-      "slugTr": "ertelemeyi-kiran-sistemler",
-      "slugEn": "beat-procrastination-systems-that-stick",
-      "keywordTr": "erteleme alışkanlığını kırma",
-      "keywordEn": "how to beat procrastination",
-      "angle": "mistakes + why willpower-based fixes fail and which systems actually survive a bad week",
-      "style": "contrarian",
-      "brief": "Contrarian, mistakes-first take. Sections: why motivation and willpower tactics fail; procrastination as emotion regulation, not laziness; systems that survive contact with reality (tiny first steps, implementation intentions, friction design, time-boxing); the tool trap (endless setup instead of doing); a recovery ritual for broken streaks. Key claims to verify: procrastination links to mood regulation more than time management; reducing friction and shrinking task size beats motivation hacks. Sources: behavioral-science summaries on procrastination; habit-formation research. End with a five-rule anti-procrastination system."
-    },
-    {
-      "translationKey": "building-with-gemini-flash-3-6",
-      "category": "ai",
-      "titleTr": "Gemini 3.6 Flash ile Ucuz ve Hızlı AI",
-      "titleEn": "Building With Gemini 3.6 Flash: Cheap, Fast AI",
-      "slugTr": "gemini-3-6-flash-ile-gelistirme",
-      "slugEn": "building-with-gemini-3-6-flash",
-      "keywordTr": "gemini 3.6 flash ile geliştirme",
-      "keywordEn": "build with gemini 3.6 flash",
-      "angle": "how-to + build cost-efficient agents on Gemini 3.6 Flash and know when to drop to Flash-Lite",
-      "style": "field-notes",
-      "brief": "Field-notes build guide. Sections: what changed in Gemini 3.6 Flash (better token efficiency, code/agentic planning, lower price); Flash vs Flash-Lite vs Pro for latency and cost; a routing pattern (Flash-Lite for high-volume subagents, Flash for reasoning-lite tasks, escalate to Pro when needed); wiring it via the Gemini API; measuring cost per task. Key claims to verify: 3.6 Flash improved efficiency and planning at lower cost; Flash-Lite targets high-volume, low-latency automation. Sources: Google Gemini July 2026 blog; Gemini API changelog. End with a model-routing decision table."
     },
     {
       "translationKey": "build-your-first-mcp-connector",
