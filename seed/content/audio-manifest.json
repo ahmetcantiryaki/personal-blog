@@ -1846,5 +1846,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2815208,
     "generatedAt": "2026-08-07T06:57:05.710Z"
+  },
+  "en/batch-month-content-in-a-day": {
+    "hash": "4d94ed59cd99113e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-batch-month-content-in-a-day.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3166502,
+    "generatedAt": "2026-08-08T06:37:10.611Z"
+  },
+  "en/build-your-first-mcp-connector": {
+    "hash": "7741516f5302f74d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-your-first-mcp-connector.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3570669,
+    "generatedAt": "2026-08-08T06:39:52.909Z"
+  },
+  "en/claude-code-self-hosted-environments": {
+    "hash": "484b79f6fb5dbb53",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-self-hosted-environments.mp3",
+    "seconds": 385,
+    "voice": "en_US-ryan-high",
+    "bytes": 3077895,
+    "generatedAt": "2026-08-08T06:42:10.962Z"
+  },
+  "en/local-first-apps-sync-engines-2026": {
+    "hash": "452c611e582d639b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-local-first-apps-sync-engines-2026.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3338075,
+    "generatedAt": "2026-08-08T06:44:41.342Z"
+  },
+  "en/native-html-no-javascript-dialog-popover": {
+    "hash": "9a2a31d107d0a78e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-native-html-no-javascript-dialog-popover.mp3",
+    "seconds": 367,
+    "voice": "en_US-ryan-high",
+    "bytes": 2939759,
+    "generatedAt": "2026-08-08T06:46:53.994Z"
   }
 }
