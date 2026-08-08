@@ -2868,6 +2868,66 @@
         "slug": "building-with-gemini-3-6-flash",
         "title": "Building With Gemini 3.6 Flash: Cheap, Fast AI"
       }
+    },
+    {
+      "translationKey": "claude-code-self-hosted-environments",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-kendi-altyapinizda-calisan-oturumlar",
+        "title": "Claude Code Self-Hosted Environments Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-self-hosted-environments",
+        "title": "Claude Code Self-Hosted Environments Explained"
+      }
+    },
+    {
+      "translationKey": "content-calendar-batch-month-in-day",
+      "category": "social-media",
+      "tr": {
+        "slug": "bir-gunde-bir-aylik-icerik-uret",
+        "title": "Bir Günde Bir Aylık İçerik Üret"
+      },
+      "en": {
+        "slug": "batch-month-content-in-a-day",
+        "title": "Batch a Month of Content in a Single Day"
+      }
+    },
+    {
+      "translationKey": "build-your-first-mcp-connector",
+      "category": "ai",
+      "tr": {
+        "slug": "ilk-mcp-baglayicini-yaz-2026",
+        "title": "İlk MCP Bağlayıcını Yaz (2026 Spec)"
+      },
+      "en": {
+        "slug": "build-your-first-mcp-connector",
+        "title": "Build Your First MCP Connector (2026 Spec)"
+      }
+    },
+    {
+      "translationKey": "local-first-apps-sync-engines",
+      "category": "web-development",
+      "tr": {
+        "slug": "local-first-uygulamalar-ve-senkron-2026",
+        "title": "Local-First Uygulamalar ve Senkron 2026"
+      },
+      "en": {
+        "slug": "local-first-apps-sync-engines-2026",
+        "title": "Local-First Apps and Sync Engines in 2026"
+      }
+    },
+    {
+      "translationKey": "native-html-no-js-dialog-popover",
+      "category": "web-development",
+      "tr": {
+        "slug": "javascript-gerektirmeyen-html",
+        "title": "Artık JavaScript Gerektirmeyen HTML"
+      },
+      "en": {
+        "slug": "native-html-no-javascript-dialog-popover",
+        "title": "HTML You No Longer Need JavaScript For"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "topics": [
-    {
-      "translationKey": "content-calendar-batch-month-in-day",
-      "category": "social-media",
-      "titleTr": "Bir Günde Bir Aylık İçerik Üret",
-      "titleEn": "Batch a Month of Content in a Single Day",
-      "slugTr": "bir-gunde-bir-aylik-icerik-uret",
-      "slugEn": "batch-month-content-in-a-day",
-      "keywordTr": "toplu içerik üretimi takvim",
-      "keywordEn": "batch content creation calendar",
-      "angle": "checklist + stop posting daily and batch a month of content in one focused session",
-      "style": "contrarian",
-      "brief": "Contrarian, checklist-driven system against daily scramble. Sections: why daily improvisation kills consistency and quality; the batching workflow (pillars, ideation, scripting, filming, editing, scheduling as separate blocks); repurposing one long asset into many short ones; an AI-assisted step for outlines and captions; a scheduler and a simple content calendar. Key claims to verify: batching and repurposing raise output consistency; a small set of content pillars outperforms random posting. Sources: 2026 creator workflow guides; repurposing case studies. End with a one-day batching checklist and calendar template."
-    },
-    {
-      "translationKey": "build-your-first-mcp-connector",
-      "category": "ai",
-      "titleTr": "İlk MCP Bağlayıcını Yaz (2026 Spec)",
-      "titleEn": "Build Your First MCP Connector (2026 Spec)",
-      "slugTr": "ilk-mcp-baglayicini-yaz-2026",
-      "slugEn": "build-your-first-mcp-connector",
-      "keywordTr": "mcp bağlayıcı nasıl yazılır",
-      "keywordEn": "build mcp connector tutorial",
-      "angle": "how-to + build and connect a working MCP server against the 2026-07-28 stateless spec",
-      "style": "data-led",
-      "brief": "Data-led, hands-on tutorial (assumes MCP basics from our explainer). Sections: what the 2026-07-28 spec changed (stateless core, stronger OAuth/OIDC, versioned extensions for Apps and Tasks); scaffolding a minimal server exposing one tool and one resource; auth and testing; connecting it to Claude and other MCP clients; observability and private network tunnels. Key claims to verify: the 2026-07-28 spec introduces a stateless core and stronger auth; the same server works across MCP-compatible clients. Sources: MCP 2026-07-28 spec; Anthropic connector docs. End with a deploy-and-verify checklist."
-    },
-    {
-      "translationKey": "local-first-apps-sync-engines",
-      "category": "web-development",
-      "titleTr": "Local-First Uygulamalar ve Senkron 2026",
-      "titleEn": "Local-First Apps and Sync Engines in 2026",
-      "slugTr": "local-first-uygulamalar-ve-senkron-2026",
-      "slugEn": "local-first-apps-sync-engines-2026",
-      "keywordTr": "local-first uygulama senkronizasyon",
-      "keywordEn": "local-first apps sync engine",
-      "angle": "deep-dive + decide whether local-first with a sync engine beats a classic client-server app",
-      "style": "contrarian",
-      "brief": "Contrarian deep-dive. Sections: what local-first means (instant local reads/writes, offline, sync in background); CRDTs vs last-write-wins conflict handling; the 2026 sync-engine landscape and what they take off your plate; where local-first shines (collab editors, field apps) and where it hurts (heavy server auth, huge datasets, strict consistency); migration cost. Key claims to verify: CRDTs enable conflict-free merges; sync engines cut hand-rolled offline code; local-first is a poor fit for strong-consistency, server-authority workloads. Sources: local-first research/essays; a sync-engine's docs. End with a fit-or-skip checklist."
-    },
-    {
-      "translationKey": "native-html-no-js-dialog-popover",
-      "category": "web-development",
-      "titleTr": "Artık JavaScript Gerektirmeyen HTML",
-      "titleEn": "HTML You No Longer Need JavaScript For",
-      "slugTr": "javascript-gerektirmeyen-html",
-      "slugEn": "native-html-no-javascript-dialog-popover",
-      "keywordTr": "html dialog popover kullanımı",
-      "keywordEn": "native html dialog popover",
-      "angle": "how-to + replace JS-heavy UI patterns with modern native HTML and platform APIs",
-      "style": "data-led",
-      "brief": "Data-led how-to on shipping less JavaScript. Sections: native <dialog> for modals (focus trap, backdrop, Escape); the Popover API and popovertarget for menus/tooltips; CSS anchor positioning; <details> for accordions; when native still needs a little JS. Key claims to verify: <dialog>, Popover API and anchor positioning have broad 2026 browser support; native elements bring accessibility and focus management for free. Sources: MDN and web.dev docs; caniuse tables. End with a 'replace this JS with this HTML' cheat sheet."
-    },
     {
       "translationKey": "database-schema-design-guide",
       "category": "software-engineering",
