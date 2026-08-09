@@ -2928,6 +2928,66 @@
         "slug": "native-html-no-javascript-dialog-popover",
         "title": "HTML You No Longer Need JavaScript For"
       }
+    },
+    {
+      "translationKey": "chatgpt-free-unlimited-thinking-slider",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-sinirsiz-sohbet-dusunme-kaydiragi",
+        "title": "ChatGPT'de Sınırsız Sohbet ve Yeni Düşünme Kaydırağı"
+      },
+      "en": {
+        "slug": "chatgpt-free-unlimited-chats-thinking-slider",
+        "title": "ChatGPT Goes Unlimited: Free Chats, New Thinking Slider"
+      }
+    },
+    {
+      "translationKey": "database-schema-design-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-sema-tasarimi-rehberi",
+        "title": "Veritabanı Şema Tasarımı: Pratik Rehber"
+      },
+      "en": {
+        "slug": "database-schema-design-guide",
+        "title": "Database Schema Design: A Practical Guide"
+      }
+    },
+    {
+      "translationKey": "incident-response-small-teams",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kucuk-ekipler-icin-olay-mudahalesi",
+        "title": "Küçük Ekipler İçin Olay Müdahalesi"
+      },
+      "en": {
+        "slug": "incident-response-small-teams",
+        "title": "Incident Response for Small Teams"
+      }
+    },
+    {
+      "translationKey": "chatgpt-plugin-directory-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-eklentileri-2026-rehberi",
+        "title": "ChatGPT Eklentileri Geri Döndü: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-plugins-2026-directory-guide",
+        "title": "ChatGPT Plugins Return: The 2026 Directory Guide"
+      }
+    },
+    {
+      "translationKey": "sign-in-with-chatgpt-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-ile-giris-ne-demek",
+        "title": "ChatGPT ile Giriş: Uygulamalar İçin Ne Demek?"
+      },
+      "en": {
+        "slug": "sign-in-with-chatgpt-explained",
+        "title": "Sign in with ChatGPT: What It Means for You"
+      }
     }
   ]
 }

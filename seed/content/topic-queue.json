@@ -2,58 +2,6 @@
   "updatedAt": "2026-08-09",
   "topics": [
     {
-      "translationKey": "database-schema-design-guide",
-      "category": "software-engineering",
-      "titleTr": "Veritabanı Şema Tasarımı: Pratik Rehber",
-      "titleEn": "Database Schema Design: A Practical Guide",
-      "slugTr": "veritabani-sema-tasarimi-rehberi",
-      "slugEn": "database-schema-design-guide",
-      "keywordTr": "veritabanı şema tasarımı",
-      "keywordEn": "database schema design",
-      "angle": "guide + design a relational schema that stays fast and sane as the product grows",
-      "style": "field-notes",
-      "brief": "Field-notes guide (pairs with our indexing and migrations posts). Sections: modeling entities and relationships; normalization up to 3NF and when to denormalize deliberately; keys, constraints and foreign keys as correctness guarantees; choosing types (UUID vs bigint, timestamps, enums vs lookup tables); soft deletes, audit columns and JSONB pitfalls; evolving schemas safely. Key claims to verify: constraints prevent whole bug classes; premature denormalization hurts more than it helps; JSONB is powerful but easy to overuse. Sources: PostgreSQL docs; database design references. End with a schema-review checklist."
-    },
-    {
-      "translationKey": "incident-response-small-teams",
-      "category": "devops-cloud",
-      "titleTr": "Küçük Ekipler İçin Olay Müdahalesi",
-      "titleEn": "Incident Response for Small Teams",
-      "slugTr": "kucuk-ekipler-icin-olay-mudahalesi",
-      "slugEn": "incident-response-small-teams",
-      "keywordTr": "küçük ekip olay müdahalesi",
-      "keywordEn": "incident response small teams",
-      "angle": "checklist + run credible on-call and incident response without a big SRE org",
-      "style": "contrarian",
-      "brief": "Contrarian checklist for teams without a dedicated SRE org. Sections: lightweight on-call that doesn't burn people out; severity levels and a single incident commander; the first 15 minutes (stabilize, communicate, don't debug blindly); blameless postmortems and action items that actually ship; alert hygiene to kill fatigue. Key claims to verify: blameless postmortems improve reliability more than blame; alert fatigue and noisy paging cause missed real incidents; small teams need process, just lighter. Sources: Google SRE book chapters; incident-management guides. End with an incident runbook template."
-    },
-    {
-      "translationKey": "chatgpt-plugin-directory-2026",
-      "category": "ai",
-      "titleTr": "ChatGPT Eklentileri Geri Döndü: 2026 Rehberi",
-      "titleEn": "ChatGPT Plugins Return: The 2026 Directory Guide",
-      "slugTr": "chatgpt-eklentileri-2026-rehberi",
-      "slugEn": "chatgpt-plugins-2026-directory-guide",
-      "keywordTr": "chatgpt eklenti dizini",
-      "keywordEn": "chatgpt plugin directory",
-      "angle": "guide + understand and use the new ChatGPT Plugin Directory across web and desktop",
-      "style": "field-notes",
-      "brief": "Field-notes guide to ChatGPT's August 2026 shift: the Plugin Directory replaces the App Directory and plugin support arrives on web and desktop. Sections: what changed and why; installing and invoking plugins with '@'; official launch partners (Airtable, GitLab, HubSpot, Notion, Supabase, Vercel); safety and permissions when a plugin acts on your data; workflows worth setting up first. Verify: App Directory retired in favor of Plugin Directory; plugins reach web+desktop. Sources: OpenAI release notes; help.openai.com ChatGPT release notes. End with a starter plugin shortlist."
-    },
-    {
-      "translationKey": "sign-in-with-chatgpt-explained",
-      "category": "ai",
-      "titleTr": "ChatGPT ile Giris: Uygulamalar Icin Ne Demek?",
-      "titleEn": "Sign in with ChatGPT: What It Means for You",
-      "slugTr": "chatgpt-ile-giris-ne-demek",
-      "slugEn": "sign-in-with-chatgpt-explained",
-      "keywordTr": "chatgpt ile giris",
-      "keywordEn": "sign in with chatgpt",
-      "angle": "deep-dive + how the new ChatGPT sign-in works and what it changes for apps and users",
-      "style": "question-driven",
-      "brief": "Question-driven deep-dive on 'Sign in with ChatGPT', in beta from August 2026 across partner sites. Sections: what problem it solves versus Google/Apple sign-in; the launch partners (Airtable, GitLab, HubSpot, Notion, Supabase, Vercel); what data and context an app can request; privacy and account-linking trade-offs; when a builder should adopt it. Verify: beta rollout and partner list; it ties into the plugin ecosystem. Sources: OpenAI release notes; partner announcements. End with a should-you-use-it checklist for builders and a caution list for users."
-    },
-    {
       "translationKey": "claude-design-decks-prototypes",
       "category": "ai",
       "titleTr": "Claude Design: Sohbetle Sunum ve Prototip",
