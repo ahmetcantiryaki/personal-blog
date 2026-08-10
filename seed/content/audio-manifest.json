@@ -1926,5 +1926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3563355,
     "generatedAt": "2026-08-09T06:48:31.960Z"
+  },
+  "en/claude-design-decks-prototypes": {
+    "hash": "d3d5d25df48bb5ba",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-design-decks-prototypes.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3564399,
+    "generatedAt": "2026-08-10T06:45:29.624Z"
+  },
+  "en/claude-science-ai-workbench": {
+    "hash": "9fe43c1025aada9e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-science-ai-workbench.mp3",
+    "seconds": 505,
+    "voice": "en_US-ryan-high",
+    "bytes": 4039619,
+    "generatedAt": "2026-08-10T06:47:11.802Z"
+  },
+  "en/claude-skill-plugin-security-scanning": {
+    "hash": "0ed0062311957966",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-skill-plugin-security-scanning.mp3",
+    "seconds": 458,
+    "voice": "en_US-ryan-high",
+    "bytes": 3665964,
+    "generatedAt": "2026-08-10T06:48:56.568Z"
+  },
+  "en/gemini-classroom-teacher-guide": {
+    "hash": "2bb8c36650cc36a3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-classroom-teacher-guide.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3796576,
+    "generatedAt": "2026-08-10T06:51:46.253Z"
+  },
+  "en/which-claude-model-2026": {
+    "hash": "6957b516283f9cc3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-which-claude-model-2026.mp3",
+    "seconds": 450,
+    "voice": "en_US-ryan-high",
+    "bytes": 3596791,
+    "generatedAt": "2026-08-10T06:53:12.542Z"
   }
 }
