@@ -2988,6 +2988,66 @@
         "slug": "sign-in-with-chatgpt-explained",
         "title": "Sign in with ChatGPT: What It Means for You"
       }
+    },
+    {
+      "translationKey": "claude-skill-plugin-security-scanning",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-skill-plugin-guvenlik-taramasi",
+        "title": "Claude Skill ve Plugin Güvenlik Taraması Nedir?"
+      },
+      "en": {
+        "slug": "claude-skill-plugin-security-scanning",
+        "title": "Claude's New Skill and Plugin Security Scanner"
+      }
+    },
+    {
+      "translationKey": "claude-design-decks-prototypes",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-design-sohbetle-sunum-prototip",
+        "title": "Claude Design: Sohbetle Sunum ve Prototip"
+      },
+      "en": {
+        "slug": "claude-design-decks-prototypes",
+        "title": "Claude Design: Decks and Prototypes by Chatting"
+      }
+    },
+    {
+      "translationKey": "claude-science-ai-workbench",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-science-arastirmacilar-ai-tezgahi",
+        "title": "Claude Science: Araştırmacılar İçin AI Tezgahı"
+      },
+      "en": {
+        "slug": "claude-science-ai-workbench",
+        "title": "Claude Science: An AI Workbench for Research"
+      }
+    },
+    {
+      "translationKey": "which-claude-model-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "hangi-claude-modeli-2026-rehberi",
+        "title": "Hangi Claude Modelini Seçmelisin? 2026 Rehberi"
+      },
+      "en": {
+        "slug": "which-claude-model-2026",
+        "title": "Which Claude Model Should You Use in 2026?"
+      }
+    },
+    {
+      "translationKey": "gemini-classroom-teacher-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "sinifta-gemini-ogretmenler-2026",
+        "title": "Sınıfta Gemini: Öğretmenler İçin 2026 Rehberi"
+      },
+      "en": {
+        "slug": "gemini-classroom-teacher-guide",
+        "title": "Gemini in Classroom: A Teacher's 2026 Guide"
+      }
     }
   ]
 }

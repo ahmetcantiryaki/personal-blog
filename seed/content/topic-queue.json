@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-10",
   "topics": [
-    {
-      "translationKey": "claude-design-decks-prototypes",
-      "category": "ai",
-      "titleTr": "Claude Design: Sohbetle Sunum ve Prototip",
-      "titleEn": "Claude Design: Decks and Prototypes by Chatting",
-      "slugTr": "claude-design-sohbetle-sunum-prototip",
-      "slugEn": "claude-design-decks-prototypes",
-      "keywordTr": "claude design",
-      "keywordEn": "claude design tool",
-      "angle": "how-to + create presentations, prototypes and one-pagers with Claude Design",
-      "style": "story-led",
-      "brief": "Story-led how-to following a marketer building a pitch deck and a clickable prototype with Claude Design. Sections: what Claude Design is (conversational design for decks, prototypes, one-pagers, marketing collateral); setting up a brand system; iterating by chat instead of dragging boxes; exporting to PDF, PPTX, Canva and standalone HTML; where it beats and where it trails dedicated design tools. Verify: exports and brand-system feature; positioning versus Cowork and Artifacts. Sources: Anthropic news; hands-on write-ups. End with a first-project walkthrough."
-    },
-    {
-      "translationKey": "claude-science-ai-workbench",
-      "category": "ai",
-      "titleTr": "Claude Science: Arastirmacilar Icin AI Tezgahi",
-      "titleEn": "Claude Science: An AI Workbench for Research",
-      "slugTr": "claude-science-arastirmacilar-ai-tezgahi",
-      "slugEn": "claude-science-ai-workbench",
-      "keywordTr": "claude science",
-      "keywordEn": "claude science workbench",
-      "angle": "deep-dive + what Claude Science is, who it serves, and what its skills do",
-      "style": "data-led",
-      "brief": "Data-led explainer of Claude Science, released in beta on June 30, 2026. Sections: the unified research workbench concept; the 60+ curated skills spanning genomics, single-cell, proteomics, structural biology and cheminformatics; how skills package domain tools for non-experts; realistic limits and the need for validation in scientific work; who benefits (labs, bio startups, grad students). Verify: beta date, skill count and domains; it is a workbench, not a single chatbot. Sources: Anthropic news; Claude release notes. End with an honest 'is this for you?' section."
-    },
-    {
-      "translationKey": "which-claude-model-2026",
-      "category": "ai",
-      "titleTr": "Hangi Claude Modelini Secmelisin? 2026 Rehberi",
-      "titleEn": "Which Claude Model Should You Use in 2026?",
-      "slugTr": "hangi-claude-modeli-2026-rehberi",
-      "slugEn": "which-claude-model-2026",
-      "keywordTr": "hangi claude modeli",
-      "keywordEn": "which claude model to use",
-      "angle": "comparison + pick the right Claude tier for a task by cost, speed and quality",
-      "style": "data-led",
-      "brief": "Data-led chooser for Anthropic's 2026 lineup: Haiku for cheap high-volume calls, Sonnet 5 as the workhorse, Opus 5 for frontier reasoning, plus Fable/Mythos creative tiers. Sections: a decision table by task (drafting, coding, agents, analysis); cost-versus-quality trade-offs and token budgets; when a smaller model wins; mixing tiers in one workflow (router pattern). Verify: Sonnet 5 (June 30) and Opus 5 (July 24) launch context; Opus 5 'frontier at half price' positioning. Sources: Anthropic news; pricing pages. End with a quick-pick cheat sheet. Not a cross-vendor comparison."
-    },
-    {
-      "translationKey": "gemini-classroom-teacher-guide",
-      "category": "ai",
-      "titleTr": "Sinifta Gemini: Ogretmenler Icin 2026 Rehberi",
-      "titleEn": "Gemini in Classroom: A Teacher's 2026 Guide",
-      "slugTr": "sinifta-gemini-ogretmenler-2026",
-      "slugEn": "gemini-classroom-teacher-guide",
-      "keywordTr": "google classroom gemini",
-      "keywordEn": "gemini in google classroom",
-      "angle": "guide + set up and use Gemini in Google Classroom without losing the human in teaching",
-      "style": "field-notes",
-      "brief": "Field-notes guide for teachers after Gemini in Classroom expanded to students of all ages (Aug 10, 2026, admin-gated). Sections: what admins must enable and the age/consent guardrails; generating and reusing rubrics from assignment context; contextualized starter prompts for students; lesson-planning and feedback workflows; keeping academic integrity and avoiding over-reliance. Verify: Aug 10 all-ages expansion; instant rubric generation feature. Sources: Google Workspace Updates blog; blog.google. End with a first-week setup checklist and a 'what not to hand to AI' list."
-    },
     {
       "translationKey": "ai-assistants-android-vs-iphone",
       "category": "technology",
