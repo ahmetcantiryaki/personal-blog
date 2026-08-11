@@ -1966,5 +1966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3596791,
     "generatedAt": "2026-08-10T06:53:12.542Z"
+  },
+  "en/ai-assistants-android-vs-iphone": {
+    "hash": "99f15adefae85d86",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-assistants-android-vs-iphone.mp3",
+    "seconds": 550,
+    "voice": "en_US-ryan-high",
+    "bytes": 4401363,
+    "generatedAt": "2026-08-11T06:40:26.529Z"
+  },
+  "en/claude-managed-agents-budgets-advisors-data-residency": {
+    "hash": "4683fd347410fd32",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-managed-agents-budgets-advisors-data-residency.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3742032,
+    "generatedAt": "2026-08-11T06:43:05.210Z"
+  },
+  "en/esim-explained-ditch-physical-sim": {
+    "hash": "0e938917efcc0fe5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-esim-explained-ditch-physical-sim.mp3",
+    "seconds": 554,
+    "voice": "en_US-ryan-high",
+    "bytes": 4434799,
+    "generatedAt": "2026-08-11T06:46:11.126Z"
+  },
+  "en/openai-atlas-shutdown-ai-browsers": {
+    "hash": "cea8b2e99fdbc59c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openai-atlas-shutdown-ai-browsers.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3987374,
+    "generatedAt": "2026-08-11T06:48:57.768Z"
+  },
+  "en/why-ai-gadgets-keep-flopping": {
+    "hash": "22460992af2582ab",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-gadgets-keep-flopping.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3692086,
+    "generatedAt": "2026-08-11T06:51:32.464Z"
   }
 }
