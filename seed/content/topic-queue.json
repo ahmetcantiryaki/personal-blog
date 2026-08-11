@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "topics": [
-    {
-      "translationKey": "ai-assistants-android-vs-iphone",
-      "category": "technology",
-      "titleTr": "AI Asistanlar: 2026'da Android vs iPhone",
-      "titleEn": "AI Assistants: Android vs iPhone in 2026",
-      "slugTr": "ai-asistanlar-android-vs-iphone-2026",
-      "slugEn": "ai-assistants-android-vs-iphone",
-      "keywordTr": "android iphone yapay zeka asistan",
-      "keywordEn": "android vs iphone ai assistant",
-      "angle": "comparison + which phone platform gives the better everyday AI assistant in 2026",
-      "style": "question-driven",
-      "brief": "Question-driven consumer comparison of AI assistants baked into phones. Sections: Gemini's deep Android integration (system actions, screen context, Workspace) versus the ChatGPT/Siri path on iPhone; on-device versus cloud handling; privacy defaults; app ecosystem and cross-device continuity; who each suits. Verify: Gemini's role across Android surfaces; iPhone assistant options in 2026; on-device processing claims. Sources: blog.google Gemini; consumer-tech coverage. End with a plain-language pick by user type (privacy-first, power user, casual)."
-    },
-    {
-      "translationKey": "openai-atlas-shutdown-ai-browsers",
-      "category": "technology",
-      "titleTr": "OpenAI Atlas'i Kapatiyor: AI Tarayici Sonrasi",
-      "titleEn": "OpenAI Shuts Down Atlas: The AI Browser Fallout",
-      "slugTr": "openai-atlas-kapaniyor-ai-tarayici",
-      "slugEn": "openai-atlas-shutdown-ai-browsers",
-      "keywordTr": "openai atlas kapandi",
-      "keywordEn": "openai atlas shutdown",
-      "angle": "deep-dive + why Atlas ended and what it signals for the AI browser race",
-      "style": "story-led",
-      "brief": "Story-led explainer: OpenAI deprecated the Atlas browser, which stopped working on August 9, 2026, folding agentic browsing into ChatGPT and Codex. Sections: the short life of Atlas; why standalone AI browsers struggle; the move to agentic browsing inside the assistant; what current Atlas users should do; what it means for Comet, Gemini-in-browser and the category. Verify: Aug 9 shutdown date; capabilities absorbed into ChatGPT/Codex. Sources: OpenAI release notes; tech press. End with migration steps and a read on where AI browsing goes next."
-    },
-    {
-      "translationKey": "esim-explained-ditch-physical-sim",
-      "category": "technology",
-      "titleTr": "eSIM Nedir? 2026'da Fiziksel SIM'e Veda",
-      "titleEn": "eSIM Explained: Ditch the Physical SIM in 2026",
-      "slugTr": "esim-nedir-2026-fiziksel-sim",
-      "slugEn": "esim-explained-ditch-physical-sim",
-      "keywordTr": "esim nedir",
-      "keywordEn": "what is esim",
-      "angle": "guide + understand eSIM and switch carriers, plans and travel data the easy way",
-      "style": "field-notes",
-      "brief": "Field-notes consumer guide to eSIM in 2026. Sections: what an eSIM is versus a plastic SIM; activating and transferring one; dual-SIM for work/personal; travel data with local eSIM plans and how to avoid roaming bills; carrier support, device compatibility and the eSIM-only phone trend; risks (lock-in, recovery if you lose the phone). Verify: eSIM-only device availability; transfer flows on major platforms. Sources: carrier and device documentation; consumer-tech guides. End with a step-by-step travel-eSIM checklist."
-    },
-    {
-      "translationKey": "why-ai-gadgets-keep-flopping",
-      "category": "technology",
-      "titleTr": "AI Cihazlari Neden Tutmuyor? Sonrasi Ne?",
-      "titleEn": "Why AI Gadgets Keep Flopping - and What's Next",
-      "slugTr": "ai-cihazlari-neden-tutmuyor",
-      "slugEn": "why-ai-gadgets-keep-flopping",
-      "keywordTr": "ai cihazlari neden basarisiz",
-      "keywordEn": "why ai gadgets fail",
-      "angle": "contrarian + why standalone AI hardware keeps failing and where AI hardware actually wins",
-      "style": "contrarian",
-      "brief": "Contrarian tech essay on the pattern of flopping AI gadgets (pins, standalone assistants) versus AI that succeeds by hiding inside phones, earbuds, glasses and cars. Sections: the recurring failure modes (battery, latency, the phone already does it); why 'a device for the assistant' is the wrong frame; where dedicated AI hardware genuinely helps (accessibility, hands-free, edge/NPU); what to actually buy in 2026. Verify: 2026 consumer-tech trend that AI is embedding into existing devices and ecosystems. Sources: Forbes/Spreckley 2026 trend pieces. End with a buy/skip guide."
-    },
     {
       "translationKey": "repeatable-seo-writing-system-claude",
       "category": "digital-marketing",

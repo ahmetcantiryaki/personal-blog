@@ -3048,6 +3048,66 @@
         "slug": "gemini-classroom-teacher-guide",
         "title": "Gemini in Classroom: A Teacher's 2026 Guide"
       }
+    },
+    {
+      "translationKey": "claude-managed-agents-budgets-advisors-residency",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-managed-agents-butce-danisman-veri-konumu",
+        "title": "Claude Managed Agents: Bütçe, Danışman, Veri Konumu"
+      },
+      "en": {
+        "slug": "claude-managed-agents-budgets-advisors-data-residency",
+        "title": "Claude Managed Agents Gets Budgets, Advisors, Data Residency"
+      }
+    },
+    {
+      "translationKey": "ai-assistants-android-vs-iphone",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-asistanlar-android-vs-iphone-2026",
+        "title": "Yapay Zeka Asistanları: Android mi iPhone mi 2026"
+      },
+      "en": {
+        "slug": "ai-assistants-android-vs-iphone",
+        "title": "AI Assistants: Android vs iPhone in 2026"
+      }
+    },
+    {
+      "translationKey": "openai-atlas-shutdown-ai-browsers",
+      "category": "technology",
+      "tr": {
+        "slug": "openai-atlas-kapaniyor-ai-tarayici",
+        "title": "OpenAI Atlas'ı Kapatıyor: Yapay Zeka Tarayıcısı Neden Bitti"
+      },
+      "en": {
+        "slug": "openai-atlas-shutdown-ai-browsers",
+        "title": "OpenAI Shuts Down Atlas: The AI Browser Fallout"
+      }
+    },
+    {
+      "translationKey": "esim-explained-ditch-physical-sim",
+      "category": "technology",
+      "tr": {
+        "slug": "esim-nedir-2026-fiziksel-sim",
+        "title": "eSIM Nedir? 2026'da Fiziksel SIM'i Bırakmak"
+      },
+      "en": {
+        "slug": "esim-explained-ditch-physical-sim",
+        "title": "eSIM Explained: Ditch the Physical SIM in 2026"
+      }
+    },
+    {
+      "translationKey": "why-ai-gadgets-keep-flopping",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-cihazlari-neden-tutmuyor",
+        "title": "AI Cihazları Neden Tutmuyor?"
+      },
+      "en": {
+        "slug": "why-ai-gadgets-keep-flopping",
+        "title": "Why AI Gadgets Keep Flopping"
+      }
     }
   ]
 }
