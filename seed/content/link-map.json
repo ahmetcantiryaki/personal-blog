@@ -3108,6 +3108,66 @@
         "slug": "why-ai-gadgets-keep-flopping",
         "title": "Why AI Gadgets Keep Flopping"
       }
+    },
+    {
+      "translationKey": "claude-code-auto-mode-default-rollout",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-auto-mode-varsayilan-oluyor",
+        "title": "Claude Code'da Auto Mode Varsayılan Oluyor"
+      },
+      "en": {
+        "slug": "claude-code-auto-mode-becomes-default",
+        "title": "Claude Code Auto Mode Becomes the Default"
+      }
+    },
+    {
+      "translationKey": "repeatable-seo-writing-system-claude",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "claude-ile-seo-yazi-sistemi",
+        "title": "Claude ile Tekrarlanabilir SEO Yazı Sistemi"
+      },
+      "en": {
+        "slug": "repeatable-seo-writing-system-claude",
+        "title": "A Repeatable SEO Writing System with Claude"
+      }
+    },
+    {
+      "translationKey": "ai-overviews-eating-clicks-survival",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ozetleri-tiklama-hayatta-kalma",
+        "title": "AI Özetleri Tıklamaları Yiyor: Hayatta Kalma Planı"
+      },
+      "en": {
+        "slug": "ai-overviews-eating-clicks-survival",
+        "title": "AI Overviews Are Eating Clicks: A Survival Plan"
+      }
+    },
+    {
+      "translationKey": "programmatic-seo-small-sites",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-siteler-programatik-seo",
+        "title": "Küçük Siteler İçin Programatik SEO"
+      },
+      "en": {
+        "slug": "programmatic-seo-small-sites",
+        "title": "Programmatic SEO for Small Sites, Done Right"
+      }
+    },
+    {
+      "translationKey": "one-blog-post-into-20-assets-ai",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "blog-yazisini-ai-ile-20-icerik",
+        "title": "Bir Blog Yazısını AI ile 20 İçeriğe Çevir"
+      },
+      "en": {
+        "slug": "one-blog-post-into-20-assets-ai",
+        "title": "Turn One Blog Post Into 20 Assets with AI"
+      }
     }
   ]
 }

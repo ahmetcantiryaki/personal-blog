@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-11",
+  "updatedAt": "2026-08-12",
   "topics": [
-    {
-      "translationKey": "repeatable-seo-writing-system-claude",
-      "category": "digital-marketing",
-      "titleTr": "Claude ile Tekrarlanabilir SEO Yazi Sistemi",
-      "titleEn": "A Repeatable SEO Writing System with Claude",
-      "slugTr": "claude-ile-seo-yazi-sistemi",
-      "slugEn": "repeatable-seo-writing-system-claude",
-      "keywordTr": "claude ile seo icerik",
-      "keywordEn": "seo writing with claude",
-      "angle": "how-to + a repeatable brief-to-publish SEO writing pipeline built on Claude",
-      "style": "data-led",
-      "brief": "Data-led how-to for a repeatable SEO content pipeline using Claude. Sections: keyword and intent research into a reusable brief template; answer-first structure (definition in the first 40-60 words) that survives AI Overviews; outline, draft and human editing pass with prompts; internal linking and entity consistency; measuring what ships (rankings, extraction into AI answers). Verify: answer-first formatting improves AI-answer extraction; ~70% of searches are zero-click. Sources: 2026 SEO/GEO trend reports; HubSpot AEO piece. End with copy-paste prompt templates. Focus on the writing system, not on 'getting cited'."
-    },
-    {
-      "translationKey": "ai-overviews-eating-clicks-survival",
-      "category": "digital-marketing",
-      "titleTr": "AI Ozetleri Tiklamalari Yiyor: Hayatta Kalma",
-      "titleEn": "AI Overviews Are Eating Clicks: A Survival Plan",
-      "slugTr": "ai-ozetleri-tiklama-hayatta-kalma",
-      "slugEn": "ai-overviews-eating-clicks-survival",
-      "keywordTr": "ai ozetleri trafik dususu",
-      "keywordEn": "ai overviews traffic drop",
-      "angle": "mistakes + adapt when AI answers cut your organic clicks instead of chasing lost rankings",
-      "style": "data-led",
-      "brief": "Data-led defensive playbook for the zero-click era. Sections: the numbers (~70% of searches end without a click); which content types lose the most traffic; diversifying beyond Google (email lists, community, brand search, YouTube, referral); measuring impressions and brand mentions instead of only sessions; the mistakes that make it worse (thin content, no owned audience). Verify: ~70% zero-click stat; 85% of AI-answer brand mentions come from third-party sources. Sources: 2026 SEO trend reports; Lumar/HubSpot. End with a 90-day diversification plan. Distinct from getting-cited GEO tactics."
-    },
-    {
-      "translationKey": "programmatic-seo-small-sites",
-      "category": "digital-marketing",
-      "titleTr": "Kucuk Siteler Icin Programatik SEO",
-      "titleEn": "Programmatic SEO for Small Sites, Done Right",
-      "slugTr": "kucuk-siteler-programatik-seo",
-      "slugEn": "programmatic-seo-small-sites",
-      "keywordTr": "programatik seo",
-      "keywordEn": "programmatic seo",
-      "angle": "guide + build many useful pages from data without tripping spam filters",
-      "style": "contrarian",
-      "brief": "Contrarian guide to programmatic SEO for small teams that resists the mass-page temptation. Sections: when templated pages genuinely help users versus when they are doorway spam; sourcing real data worth a page; template design with unique value per page; internal linking and crawl budget; quality gates and pruning; the AI-content quality bar in 2026. Verify: Google guidance on scaled/doorway content; granular useful pages outperform thin templated ones. Sources: Google Search docs; 2026 SEO trend pieces. End with a go/no-go checklist before generating a page set."
-    },
-    {
-      "translationKey": "one-blog-post-into-20-assets-ai",
-      "category": "digital-marketing",
-      "titleTr": "Bir Blog Yazisini AI ile 20 Icerige Cevir",
-      "titleEn": "Turn One Blog Post Into 20 Assets with AI",
-      "slugTr": "blog-yazisini-ai-ile-20-icerik",
-      "slugEn": "one-blog-post-into-20-assets-ai",
-      "keywordTr": "icerik yeniden kullanimi ai",
-      "keywordEn": "ai content repurposing",
-      "angle": "how-to + a repurposing pipeline that turns one article into a month of channel content",
-      "style": "story-led",
-      "brief": "Story-led how-to on repurposing with AI: one pillar article becomes threads, a newsletter, LinkedIn posts, short-video scripts, an infographic outline and Q&A snippets. Sections: choosing a pillar worth repurposing; per-channel prompts that respect each format's voice; keeping facts consistent across derivatives; a lightweight batching schedule; where AI helps and where a human must edit. Verify: repurposing lifts reach without new research; channel-native formatting matters. Sources: 2026 content-marketing guides. End with a reusable prompt kit and a one-article-to-20 map. Distinct from social video repurposing."
-    },
     {
       "translationKey": "saas-mvp-claude-code-weekend",
       "category": "business",
