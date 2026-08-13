@@ -2046,5 +2046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3271619,
     "generatedAt": "2026-08-12T06:55:32.569Z"
+  },
+  "en/bootstrap-ai-startup-2026": {
+    "hash": "d48cd9b6fc7928ee",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-bootstrap-ai-startup-2026.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3357928,
+    "generatedAt": "2026-08-13T06:42:50.766Z"
+  },
+  "en/claude-sonnet-5-permanent-pricing": {
+    "hash": "ee495ec049d5cf76",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-5-permanent-pricing.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3381333,
+    "generatedAt": "2026-08-13T06:44:52.258Z"
+  },
+  "en/pricing-ai-features-without-losing-money": {
+    "hash": "db19b3541356ad41",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-pricing-ai-features-without-losing-money.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3337866,
+    "generatedAt": "2026-08-13T06:46:52.693Z"
+  },
+  "en/productized-service-with-ai": {
+    "hash": "f1e377d2181e431f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-productized-service-with-ai.mp3",
+    "seconds": 447,
+    "voice": "en_US-ryan-high",
+    "bytes": 3573595,
+    "generatedAt": "2026-08-13T06:48:59.899Z"
+  },
+  "en/saas-mvp-claude-code-weekend": {
+    "hash": "5332275fb211a529",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-saas-mvp-claude-code-weekend.mp3",
+    "seconds": 493,
+    "voice": "en_US-ryan-high",
+    "bytes": 3944533,
+    "generatedAt": "2026-08-13T06:51:19.947Z"
   }
 }
