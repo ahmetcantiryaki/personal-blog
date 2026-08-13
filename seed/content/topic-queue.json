@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-12",
+  "updatedAt": "2026-08-13",
   "topics": [
-    {
-      "translationKey": "saas-mvp-claude-code-weekend",
-      "category": "business",
-      "titleTr": "Hafta Sonunda Claude Code ile SaaS MVP",
-      "titleEn": "Build a SaaS MVP with Claude Code in a Weekend",
-      "slugTr": "claude-code-ile-hafta-sonu-saas-mvp",
-      "slugEn": "saas-mvp-claude-code-weekend",
-      "keywordTr": "claude code ile saas",
-      "keywordEn": "build saas mvp claude code",
-      "angle": "how-to + a non-heavy-dev founder ships a real MVP with Claude Code end to end",
-      "style": "story-led",
-      "brief": "Story-led build log: a founder ships a scoped SaaS MVP over a weekend with Claude Code. Sections: cutting scope to one core workflow; scaffolding auth, database and billing with the agent; reviewing and testing AI-written code instead of trusting it; deploying; the honest limits (security, edge cases, tech debt) and when to bring in a human dev. Verify: 2026 stat that a large share of production code is AI-generated; agents handle scaffolding well but need review. Sources: 2026 web-dev/AI coding trend reports. End with a weekend timeline and a 'do not skip' safety list. Founder-focused, not an idea list."
-    },
-    {
-      "translationKey": "pricing-ai-features-without-losing-money",
-      "category": "business",
-      "titleTr": "AI Ozelliklerini Zarar Etmeden Fiyatlandir",
-      "titleEn": "How to Price AI Features Without Losing Money",
-      "slugTr": "ai-ozelliklerini-fiyatlandirma",
-      "slugEn": "pricing-ai-features-without-losing-money",
-      "keywordTr": "ai ozelligi fiyatlandirma",
-      "keywordEn": "pricing ai features saas",
-      "angle": "guide + price AI features so token costs don't quietly eat your margin",
-      "style": "data-led",
-      "brief": "Data-led pricing guide for founders shipping AI features. Sections: mapping token/inference cost per action; flat pricing versus usage credits versus metered; protecting margin with caps, cheaper model tiers and caching; free-tier abuse and how heavy users break flat plans; communicating limits without scaring buyers. Verify: 2026 warning that AI infrastructure is costly and complexity scales fast; smaller models can cut cost sharply. Sources: 2026 bootstrapping/startup trend reports; provider pricing. End with a pricing-model decision table and a margin worksheet."
-    },
-    {
-      "translationKey": "bootstrap-ai-startup-2026",
-      "category": "business",
-      "titleTr": "2026'da AI Girisimi Bootstrap Edilir mi?",
-      "titleEn": "Can You Bootstrap an AI Startup in 2026?",
-      "slugTr": "ai-girisimi-bootstrap-2026",
-      "slugEn": "bootstrap-ai-startup-2026",
-      "keywordTr": "ai girisimi bootstrap",
-      "keywordEn": "bootstrap ai startup",
-      "angle": "question-driven + whether you can build an AI startup without VC given today's costs",
-      "style": "question-driven",
-      "brief": "Question-driven, evidence-led take on bootstrapping an AI startup in 2026. Sections: the case for lean (bootstrapped firms show higher early profitability and survival, smaller teams, lower CAC); the real obstacle for AI (infrastructure cost, not headcount); staying thin-wrapper-light versus owning a costly workflow; funding blends (prepayments, revenue-based financing, selective angels); when VC still makes sense. Verify: bootstrapping profitability/survival stats; AI-infra cost caution; avg team size ~4.3. Sources: 2026 bootstrapping trend reports. End with a self-assessment: bootstrap, blend, or raise."
-    },
-    {
-      "translationKey": "productized-service-with-ai",
-      "category": "business",
-      "titleTr": "Becerini AI ile Urunlesmis Hizmete Cevir",
-      "titleEn": "Turn Your Skill Into a Productized Service with AI",
-      "slugTr": "beceriyi-urunlesmis-hizmete-cevir",
-      "slugEn": "productized-service-with-ai",
-      "keywordTr": "urunlesmis hizmet",
-      "keywordEn": "productized service with ai",
-      "angle": "guide + package a repeatable fixed-scope service and use AI to deliver it profitably",
-      "style": "field-notes",
-      "brief": "Field-notes guide to building a productized service (fixed scope, fixed price, repeatable delivery) with AI in the workflow. Sections: choosing a painful, repeatable deliverable; scoping and pricing a package versus hourly; a delivery pipeline where AI drafts and you finish; intake, SLAs and boundaries; scaling with templates and a small team before productizing into software. Verify: productized services as a bootstrapper-friendly category; no-code/AI lowering delivery cost. Sources: 2026 startup/solopreneur trend reports. End with a one-page service-spec template. Distinct from selling AI automation to others."
-    },
     {
       "translationKey": "claude-chatgpt-gemini-for-creators",
       "category": "social-media",

@@ -3168,6 +3168,66 @@
         "slug": "one-blog-post-into-20-assets-ai",
         "title": "Turn One Blog Post Into 20 Assets with AI"
       }
+    },
+    {
+      "translationKey": "claude-sonnet-5-permanent-pricing",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-fiyati-kalici-oldu",
+        "title": "Claude Sonnet 5'te Zam İptal: Fiyat Kalıcı Oldu"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-permanent-pricing",
+        "title": "Claude Sonnet 5 Locks In $2/$10 Pricing, Cancels Sept Hike"
+      }
+    },
+    {
+      "translationKey": "saas-mvp-claude-code-weekend",
+      "category": "business",
+      "tr": {
+        "slug": "claude-code-ile-hafta-sonu-saas-mvp",
+        "title": "Hafta Sonunda Claude Code ile SaaS MVP"
+      },
+      "en": {
+        "slug": "saas-mvp-claude-code-weekend",
+        "title": "Build a SaaS MVP with Claude Code in a Weekend"
+      }
+    },
+    {
+      "translationKey": "pricing-ai-features-without-losing-money",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ozelliklerini-fiyatlandirma",
+        "title": "AI Özelliklerini Zarar Etmeden Fiyatlandır"
+      },
+      "en": {
+        "slug": "pricing-ai-features-without-losing-money",
+        "title": "How to Price AI Features Without Losing Money"
+      }
+    },
+    {
+      "translationKey": "bootstrap-ai-startup-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-girisimi-bootstrap-2026",
+        "title": "2026'da AI Girişimi Bootstrap Edilir mi?"
+      },
+      "en": {
+        "slug": "bootstrap-ai-startup-2026",
+        "title": "Can You Bootstrap an AI Startup in 2026?"
+      }
+    },
+    {
+      "translationKey": "productized-service-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "beceriyi-urunlesmis-hizmete-cevir",
+        "title": "Becerini AI ile Ürünleşmiş Hizmete Çevir"
+      },
+      "en": {
+        "slug": "productized-service-with-ai",
+        "title": "Turn Your Skill Into a Productized Service with AI"
+      }
     }
   ]
 }
