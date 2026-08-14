@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-13",
+  "updatedAt": "2026-08-14",
   "topics": [
-    {
-      "translationKey": "claude-chatgpt-gemini-for-creators",
-      "category": "social-media",
-      "titleTr": "Icerik Ureticiler Icin Claude, ChatGPT, Gemini",
-      "titleEn": "Claude vs ChatGPT vs Gemini for Creators",
-      "slugTr": "icerik-ureticiler-claude-chatgpt-gemini",
-      "slugEn": "claude-chatgpt-gemini-for-creators",
-      "keywordTr": "icerik ureticiler icin ai",
-      "keywordEn": "best ai for content creators",
-      "angle": "comparison + which of the big three AI tools fits scripting, captions and ideation",
-      "style": "data-led",
-      "brief": "Data-led comparison of Claude, ChatGPT and Gemini for content creators (not developers). Sections: ideation and hooks; long-form scripting and repurposing; captions and platform-native copy; image/asset help and integrations (Gemini in Workspace, ChatGPT plugins, Claude Design); voice consistency and factual reliability; cost for a solo creator. Verify: current model tiers and creator-relevant features of each in mid-2026. Sources: vendor news; creator-tool comparisons. End with a pick-by-workflow table and a cheap starter stack. Creator-audience angle, distinct from developer model comparisons."
-    },
-    {
-      "translationKey": "tiktok-2026-algorithm-reach",
-      "category": "social-media",
-      "titleTr": "TikTok 2026 Algoritmasi: Erisim Neye Bagli?",
-      "titleEn": "TikTok's 2026 Algorithm: What Actually Gets Reach",
-      "slugTr": "tiktok-2026-algoritmasi-erisim",
-      "slugEn": "tiktok-2026-algorithm-reach",
-      "keywordTr": "tiktok algoritmasi 2026",
-      "keywordEn": "tiktok algorithm 2026",
-      "angle": "guide + what TikTok's overhauled 2026 ranking rewards and how to earn reach",
-      "style": "question-driven",
-      "brief": "Question-driven guide to TikTok's overhauled 2026 recommendation system. Sections: the January overhaul and the reported 'authenticity score'; why watch-completion curves, re-watch rate and in-app saves now outweigh raw likes; follower engagement moving to the center; content patterns that fit these signals; what stopped working. Verify: 2026 authenticity-score reporting; completion/re-watch/save weighting. Sources: 2026 TikTok algorithm analyses (OpusClip, Ampfluence). End with a per-video checklist to maximize completion and saves. Distinct from TikTok Shop and cross-platform posting pieces."
-    },
-    {
-      "translationKey": "youtube-shorts-2026-attention-depth",
-      "category": "social-media",
-      "titleTr": "2026'da YouTube Shorts: Dikkat Derinligi",
-      "titleEn": "YouTube Shorts in 2026: Win Attention Depth",
-      "slugTr": "youtube-shorts-2026-dikkat-derinligi",
-      "slugEn": "youtube-shorts-2026-attention-depth",
-      "keywordTr": "youtube shorts stratejisi 2026",
-      "keywordEn": "youtube shorts strategy 2026",
-      "angle": "how-to + grow on Shorts under the 2026 attention-depth ranking",
-      "style": "question-driven",
-      "brief": "Question-driven Shorts strategy after YouTube's February 2026 update that prioritizes 'attention depth' over raw views. Sections: what attention depth measures (how much viewers watch and whether they stay on YouTube after); scripting for sustained attention and rewatch; using Community posts and Collab features; funneling Shorts viewers to long-form; measuring session contribution, not just play count. Verify: Feb 2026 Shorts update; attention-depth definition. Sources: 2026 algorithm coverage. End with a Shorts publishing checklist tuned for retention and session lift. Distinct from the Shorts-vs-Reels-vs-TikTok comparison."
-    },
-    {
-      "translationKey": "algorithm-proof-your-content-2026",
-      "category": "social-media",
-      "titleTr": "Icerigini Algoritmaya Karsi Dayanikli Yap",
-      "titleEn": "Algorithm-Proof Your Content in 2026",
-      "slugTr": "icerigi-algoritmaya-dayanikli-yap",
-      "slugEn": "algorithm-proof-your-content-2026",
-      "keywordTr": "algoritma degisikligi icerik stratejisi",
-      "keywordEn": "algorithm proof content strategy",
-      "angle": "contrarian + build a content system that survives constant algorithm changes",
-      "style": "contrarian",
-      "brief": "Contrarian strategy piece: platforms changed algorithms more in Q1 2026 than in the prior three years, and marketers now rank algorithm volatility as their top operational risk. Sections: why chasing each update is a losing game; owning the audience (email, community, direct); formats and value that travel across platforms; a portfolio approach to channels; metrics that reflect real demand, not reach spikes. Verify: Q1 2026 algorithm-change and top-risk stats. Sources: 2026 social algorithm reports (Stack Influence, Influencers Time). End with an algorithm-resilient content operating system."
-    },
     {
       "translationKey": "tanstack-start-fullstack-react-alternative",
       "category": "web-development",

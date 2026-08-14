@@ -3228,6 +3228,66 @@
         "slug": "productized-service-with-ai",
         "title": "Turn Your Skill Into a Productized Service with AI"
       }
+    },
+    {
+      "translationKey": "claude-invisible-text-watermark",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-metinleri-damgaliyor",
+        "title": "Claude Artık Her Metni Damgalıyor: Kapatma Yok"
+      },
+      "en": {
+        "slug": "claude-watermarks-ai-text-no-opt-out",
+        "title": "Claude Now Watermarks Every Output, No Opt-Out"
+      }
+    },
+    {
+      "translationKey": "claude-chatgpt-gemini-for-creators",
+      "category": "social-media",
+      "tr": {
+        "slug": "icerik-ureticiler-claude-chatgpt-gemini",
+        "title": "İçerik Üreticileri İçin Claude, ChatGPT, Gemini"
+      },
+      "en": {
+        "slug": "claude-chatgpt-gemini-for-creators",
+        "title": "Claude vs ChatGPT vs Gemini for Creators"
+      }
+    },
+    {
+      "translationKey": "tiktok-2026-algorithm-reach",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-2026-algoritmasi-erisim",
+        "title": "TikTok 2026 Algoritması: Erişim Neye Bağlı?"
+      },
+      "en": {
+        "slug": "tiktok-2026-algorithm-reach",
+        "title": "TikTok's 2026 Algorithm: What Actually Gets Reach"
+      }
+    },
+    {
+      "translationKey": "youtube-shorts-2026-attention-depth",
+      "category": "social-media",
+      "tr": {
+        "slug": "youtube-shorts-2026-dikkat-derinligi",
+        "title": "2026'da YouTube Shorts: Dikkat Derinliği"
+      },
+      "en": {
+        "slug": "youtube-shorts-2026-attention-depth",
+        "title": "YouTube Shorts in 2026: Win Attention Depth"
+      }
+    },
+    {
+      "translationKey": "algorithm-proof-your-content-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "icerigi-algoritmaya-dayanikli-yap",
+        "title": "İçeriğini Algoritmaya Karşı Dayanıklı Yap"
+      },
+      "en": {
+        "slug": "algorithm-proof-your-content-2026",
+        "title": "Algorithm-Proof Your Content in 2026"
+      }
     }
   ]
 }
