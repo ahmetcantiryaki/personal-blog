@@ -2086,5 +2086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3944533,
     "generatedAt": "2026-08-13T06:51:19.947Z"
+  },
+  "en/algorithm-proof-your-content-2026": {
+    "hash": "10d0f5dc65b2d4d4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-algorithm-proof-your-content-2026.mp3",
+    "seconds": 463,
+    "voice": "en_US-ryan-high",
+    "bytes": 3702744,
+    "generatedAt": "2026-08-14T06:58:00.574Z"
+  },
+  "en/claude-chatgpt-gemini-for-creators": {
+    "hash": "0793c8de77182fb5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-chatgpt-gemini-for-creators.mp3",
+    "seconds": 532,
+    "voice": "en_US-ryan-high",
+    "bytes": 4259466,
+    "generatedAt": "2026-08-14T07:00:58.052Z"
+  },
+  "en/claude-watermarks-ai-text-no-opt-out": {
+    "hash": "f3baa136bd20b5f8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-watermarks-ai-text-no-opt-out.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3306728,
+    "generatedAt": "2026-08-14T07:03:15.887Z"
+  },
+  "en/tiktok-2026-algorithm-reach": {
+    "hash": "ca9cd9ea6b90b8ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-2026-algorithm-reach.mp3",
+    "seconds": 503,
+    "voice": "en_US-ryan-high",
+    "bytes": 4022901,
+    "generatedAt": "2026-08-14T07:06:04.334Z"
+  },
+  "en/youtube-shorts-2026-attention-depth": {
+    "hash": "0adaeab5e05ca06e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-youtube-shorts-2026-attention-depth.mp3",
+    "seconds": 395,
+    "voice": "en_US-ryan-high",
+    "bytes": 3162323,
+    "generatedAt": "2026-08-14T07:08:17.451Z"
   }
 }
