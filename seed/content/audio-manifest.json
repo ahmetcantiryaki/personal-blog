@@ -2126,5 +2126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3162323,
     "generatedAt": "2026-08-14T07:08:17.451Z"
+  },
+  "en/ai-agents-in-cicd-safely": {
+    "hash": "276409efdd8ec442",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-agents-in-cicd-safely.mp3",
+    "seconds": 432,
+    "voice": "en_US-ryan-high",
+    "bytes": 3457611,
+    "generatedAt": "2026-08-15T06:45:31.701Z"
+  },
+  "en/chatgpt-business-premium-seats-explained": {
+    "hash": "7d8abb5063378ec8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-business-premium-seats-explained.mp3",
+    "seconds": 397,
+    "voice": "en_US-ryan-high",
+    "bytes": 3178832,
+    "generatedAt": "2026-08-15T06:47:13.304Z"
+  },
+  "en/preview-environments-every-pull-request": {
+    "hash": "5083912e3f0ed097",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-preview-environments-every-pull-request.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3566907,
+    "generatedAt": "2026-08-15T06:49:07.633Z"
+  },
+  "en/tanstack-start-fullstack-react-alternative": {
+    "hash": "ddcacedfe1c21570",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tanstack-start-fullstack-react-alternative.mp3",
+    "seconds": 409,
+    "voice": "en_US-ryan-high",
+    "bytes": 3273500,
+    "generatedAt": "2026-08-15T06:50:51.549Z"
+  },
+  "en/webgpu-2026-gpu-in-browser": {
+    "hash": "3059f01a9e7a74cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-webgpu-2026-gpu-in-browser.mp3",
+    "seconds": 457,
+    "voice": "en_US-ryan-high",
+    "bytes": 3656350,
+    "generatedAt": "2026-08-15T06:54:22.814Z"
   }
 }
