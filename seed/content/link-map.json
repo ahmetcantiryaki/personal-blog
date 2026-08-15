@@ -3288,6 +3288,66 @@
         "slug": "algorithm-proof-your-content-2026",
         "title": "Algorithm-Proof Your Content in 2026"
       }
+    },
+    {
+      "translationKey": "chatgpt-business-premium-seats",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-business-premium-seat-125-dolar",
+        "title": "ChatGPT Business'a 125 Dolarlık Premium Seat Geldi"
+      },
+      "en": {
+        "slug": "chatgpt-business-premium-seats-explained",
+        "title": "ChatGPT Business Gets a $125 Premium Seat Tier"
+      }
+    },
+    {
+      "translationKey": "tanstack-start-fullstack-react-alternative",
+      "category": "web-development",
+      "tr": {
+        "slug": "tanstack-start-fullstack-react",
+        "title": "TanStack Start: Full-Stack React'a Yeni Bir Bakış"
+      },
+      "en": {
+        "slug": "tanstack-start-fullstack-react-alternative",
+        "title": "TanStack Start: A Fresh Take on Full-Stack React"
+      }
+    },
+    {
+      "translationKey": "webgpu-2026-gpu-in-browser",
+      "category": "web-development",
+      "tr": {
+        "slug": "webgpu-2026-tarayicida-gpu",
+        "title": "WebGPU 2026: Tarayıcıda Gerçek GPU Gücü"
+      },
+      "en": {
+        "slug": "webgpu-2026-gpu-in-browser",
+        "title": "WebGPU in 2026: Real GPU Power in the Browser"
+      }
+    },
+    {
+      "translationKey": "ai-agents-in-cicd-safely",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ai-ajanlari-cicd-guvenle-baglamak",
+        "title": "AI Ajanlarını CI/CD'ye Güvenle Bağlamak"
+      },
+      "en": {
+        "slug": "ai-agents-in-cicd-safely",
+        "title": "Wiring AI Agents Into Your CI/CD Safely"
+      }
+    },
+    {
+      "translationKey": "preview-environments-every-pull-request",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "her-pr-icin-onizleme-ortamlari",
+        "title": "Her Pull Request İçin Önizleme Ortamı Kurmak"
+      },
+      "en": {
+        "slug": "preview-environments-every-pull-request",
+        "title": "Preview Environments for Every Pull Request"
+      }
     }
   ]
 }

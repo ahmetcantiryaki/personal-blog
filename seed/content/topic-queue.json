@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-14",
+  "updatedAt": "2026-08-15",
   "topics": [
-    {
-      "translationKey": "tanstack-start-fullstack-react-alternative",
-      "category": "web-development",
-      "titleTr": "TanStack Start: Full-Stack React Alternatifi",
-      "titleEn": "TanStack Start: A Full-Stack React Alternative",
-      "slugTr": "tanstack-start-fullstack-react",
-      "slugEn": "tanstack-start-fullstack-react-alternative",
-      "keywordTr": "tanstack start nedir",
-      "keywordEn": "tanstack start",
-      "angle": "guide + what TanStack Start is and when to choose it over Next.js",
-      "style": "field-notes",
-      "brief": "Field-notes guide to TanStack Start, the team's full-stack meta-framework built on TanStack Router and Vite. Sections: how it positions against Next.js and Remix; type-safe routing and data loading; SSR and streaming; where the Vite foundation helps DX; migration and maturity caveats in 2026; when Next.js is still the safer pick. Verify: TanStack Start built on Router + Vite; full-stack positioning. Sources: TanStack docs; 2026 React trend reports (LogRocket, eSparkInfo). End with a decision checklist and a minimal starter outline."
-    },
-    {
-      "translationKey": "webgpu-2026-gpu-in-browser",
-      "category": "web-development",
-      "titleTr": "WebGPU 2026: Tarayicida GPU Gucu",
-      "titleEn": "WebGPU in 2026: GPU Power in the Browser",
-      "slugTr": "webgpu-2026-tarayicida-gpu",
-      "slugEn": "webgpu-2026-gpu-in-browser",
-      "keywordTr": "webgpu nedir",
-      "keywordEn": "webgpu explained",
-      "angle": "deep-dive + what WebGPU unlocks and when to reach for it in web apps",
-      "style": "story-led",
-      "brief": "Story-led deep-dive on WebGPU in 2026. Sections: what WebGPU is and how it differs from WebGL; browser support status; real use cases (in-browser ML inference, data viz, image/video processing, games); a minimal compute-shader example concept; performance wins and the fallback story for unsupported browsers; when it is overkill. Verify: WebGPU support across major browsers in 2026; on-device inference use case. Sources: MDN WebGPU docs; browser status pages. End with a should-you-use-WebGPU checklist and gotchas."
-    },
-    {
-      "translationKey": "ai-agents-in-cicd-safely",
-      "category": "devops-cloud",
-      "titleTr": "AI Ajanlarini CI/CD'ye Guvenle Baglamak",
-      "titleEn": "Wiring AI Agents Into Your CI/CD Safely",
-      "slugTr": "ai-ajanlari-cicd-guvenle-baglamak",
-      "slugEn": "ai-agents-in-cicd-safely",
-      "keywordTr": "ci cd yapay zeka ajan",
-      "keywordEn": "ai agents in ci cd",
-      "angle": "guide + run coding agents in pipelines with guardrails that prevent runaway changes",
-      "style": "contrarian",
-      "brief": "Contrarian guide to putting AI coding agents inside CI/CD without letting them run wild. Sections: good jobs for agents (triage, dependency bumps, test generation, first-pass fixes) versus jobs to keep human; sandboxing, least-privilege tokens and no prod write access; requiring human approval and signed commits; cost and rate controls; auditing agent actions and rollback. Verify: 2026 trend of agent guardrails and least-privilege for autonomous tools. Sources: CI/CD and agent-safety guidance; vendor docs. End with a pipeline-integration checklist and a red-lines list."
-    },
-    {
-      "translationKey": "preview-environments-every-pull-request",
-      "category": "devops-cloud",
-      "titleTr": "Her PR Icin Onizleme Ortamlari",
-      "titleEn": "Preview Environments for Every Pull Request",
-      "slugTr": "her-pr-icin-onizleme-ortamlari",
-      "slugEn": "preview-environments-every-pull-request",
-      "keywordTr": "onizleme ortami pr",
-      "keywordEn": "preview environments pull request",
-      "angle": "how-to + spin up ephemeral per-PR environments so reviewers test real changes",
-      "style": "field-notes",
-      "brief": "Field-notes guide to ephemeral preview environments per pull request. Sections: why per-PR environments cut review friction and catch bugs early; approaches (platform-native previews, Kubernetes namespaces, docker-compose on demand); seeding data and stubbing external services; secrets and cost controls; tearing down automatically to avoid sprawl; database branching to isolate schema changes. Verify: preview envs reduce 'works on my machine' and speed review. Sources: platform docs (Vercel/Netlify), GitOps guides. End with a build-vs-buy decision list and a teardown checklist."
-    },
     {
       "translationKey": "daily-ai-workflows-knowledge-workers",
       "category": "career-productivity",

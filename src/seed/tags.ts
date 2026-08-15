@@ -133,6 +133,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'web-security': { en: 'Web Security', tr: 'Web Güvenliği' },
   'web-standards': { en: 'Web Standards', tr: 'Web Standartları' },
   webassembly: { en: 'WebAssembly', tr: 'WebAssembly' },
+  webgpu: { en: 'WebGPU', tr: 'WebGPU' },
   'well-being': { en: 'Well-Being', tr: 'İyi Oluş' },
   workflow: { en: 'Workflow', tr: 'İş Akışı' },
   zig: { en: 'Zig', tr: 'Zig' },
