@@ -2166,5 +2166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3656350,
     "generatedAt": "2026-08-15T06:54:22.814Z"
+  },
+  "en/ai-code-review-trust-but-verify": {
+    "hash": "2d2889b49346cdd6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-code-review-trust-but-verify.mp3",
+    "seconds": 538,
+    "voice": "en_US-ryan-high",
+    "bytes": 4305441,
+    "generatedAt": "2026-08-16T06:30:02.972Z"
+  },
+  "en/chatgpt-work-vs-cowork-vs-gemini": {
+    "hash": "3e84e258ec9250d5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-work-vs-cowork-vs-gemini.mp3",
+    "seconds": 500,
+    "voice": "en_US-ryan-high",
+    "bytes": 3997196,
+    "generatedAt": "2026-08-16T06:32:25.039Z"
+  },
+  "en/daily-ai-workflows-knowledge-workers": {
+    "hash": "b25fe0be94162bf6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-daily-ai-workflows-knowledge-workers.mp3",
+    "seconds": 551,
+    "voice": "en_US-ryan-high",
+    "bytes": 4407423,
+    "generatedAt": "2026-08-16T06:34:59.337Z"
+  },
+  "en/gpt-5-6-sol-ultrafast-mode-cerebras": {
+    "hash": "e84d960ebe4f6300",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-5-6-sol-ultrafast-mode-cerebras.mp3",
+    "seconds": 444,
+    "voice": "en_US-ryan-high",
+    "bytes": 3549562,
+    "generatedAt": "2026-08-16T06:37:04.292Z"
+  },
+  "en/which-ai-subscription-2026": {
+    "hash": "54e538bacd3b246b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-which-ai-subscription-2026.mp3",
+    "seconds": 402,
+    "voice": "en_US-ryan-high",
+    "bytes": 3212478,
+    "generatedAt": "2026-08-16T06:40:26.764Z"
   }
 }
