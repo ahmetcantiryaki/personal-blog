@@ -2,58 +2,6 @@
   "updatedAt": "2026-08-16",
   "topics": [
     {
-      "translationKey": "daily-ai-workflows-knowledge-workers",
-      "category": "career-productivity",
-      "titleTr": "Bilgi Calisanlari Icin Gunluk AI Is Akislari",
-      "titleEn": "Daily AI Workflows for Knowledge Workers",
-      "slugTr": "bilgi-calisanlari-gunluk-ai-is-akislari",
-      "slugEn": "daily-ai-workflows-knowledge-workers",
-      "keywordTr": "gunluk yapay zeka is akisi",
-      "keywordEn": "daily ai workflows",
-      "angle": "how-to + practical daily routines that put ChatGPT, Claude and Gemini to real work",
-      "style": "story-led",
-      "brief": "Story-led playbook of daily AI routines for knowledge workers. Sections: inbox and meeting triage; turning notes into drafts and decisions (ChatGPT Work / Claude); research and summarizing with citations you verify; Gemini inside Workspace for docs and sheets; scheduled/recurring tasks; guardrails against over-trusting output and leaking sensitive data. Verify: ChatGPT Work and agent/scheduled-task capabilities; Gemini-in-Workspace features in 2026. Sources: vendor guides; productivity write-ups. End with a copy-and-adapt daily template and a 'never delegate this' list."
-    },
-    {
-      "translationKey": "ai-code-review-trust-but-verify",
-      "category": "software-engineering",
-      "titleTr": "AI ile Kod Incelemesi: Guven Ama Dogrula",
-      "titleEn": "AI Code Review: Trust, but Verify",
-      "slugTr": "ai-ile-kod-incelemesi-guven-dogrula",
-      "slugEn": "ai-code-review-trust-but-verify",
-      "keywordTr": "ai kod incelemesi",
-      "keywordEn": "ai code review",
-      "angle": "mistakes + use AI code reviewers well and know exactly what they miss",
-      "style": "contrarian",
-      "brief": "Contrarian guide to AI code review as a complement, not a replacement, for human review. Sections: what AI reviewers catch reliably (style, obvious bugs, boilerplate risks) versus what they miss (intent, architecture, security context, subtle concurrency); false-positive fatigue and how to tune it; keeping humans on design and security-critical paths; integrating AI review in the pipeline without rubber-stamping. Verify: 2026 reality that a large share of code is AI-generated, raising review stakes. Sources: 2026 AI-coding trend reports; review best-practice guides. End with an AI-plus-human review checklist. Distinct from general code-review process posts."
-    },
-    {
-      "translationKey": "agentic-workspaces-compared-2026",
-      "category": "ai",
-      "titleTr": "İşi Yapan AI: ChatGPT Work, Cowork, Gemini",
-      "titleEn": "AI That Does the Work: ChatGPT Work vs Cowork vs Gemini",
-      "slugTr": "isi-yapan-ai-chatgpt-work-cowork-gemini",
-      "slugEn": "chatgpt-work-vs-cowork-vs-gemini",
-      "keywordTr": "ajan is alani karsilastirma",
-      "keywordEn": "agentic workspace comparison",
-      "angle": "comparison + which do-the-work AI workspace fits your job",
-      "style": "data-led",
-      "brief": "Data-led head-to-head of agentic 'do-the-work' assistants. Sections: what an agentic workspace is vs a chatbot; ChatGPT Work (agentic deliverables, plan gating); Claude Cowork (file manipulation, Projects, desktop→web/mobile); Gemini agentic in Workspace; side-by-side on task types, integrations, privacy, price; who each fits. Verify: ChatGPT Work launched 2026-07-09 and not on Free/Go; Cowork GA 2026-04-09 with mobile/web rollout from July. Sources: OpenAI workspace-agents help center; Anthropic Cowork docs. End with a decision matrix."
-    },
-    {
-      "translationKey": "ai-assistant-subscription-buyers-guide-2026",
-      "category": "ai",
-      "titleTr": "Hangi AI Aboneliği: Claude, ChatGPT, Gemini?",
-      "titleEn": "Which AI Subscription in 2026: Claude, ChatGPT, Gemini",
-      "slugTr": "hangi-ai-aboneligi-claude-chatgpt-gemini",
-      "slugEn": "which-ai-subscription-2026",
-      "keywordTr": "ai abonelik karsilastirma 2026",
-      "keywordEn": "best ai subscription 2026",
-      "angle": "comparison + pick the paid AI plan that matches how you work",
-      "style": "question-driven",
-      "brief": "Question-driven buyer's guide to consumer AI subscriptions, not model benchmarks. Sections: what each paid tier includes (Claude Pro/Max, ChatGPT Go/Plus/Pro, Gemini AI Pro/Ultra); who each suits (writer, coder, researcher, family); free-tier gates like Think on Free; bundled value (Cowork, Work, Deep Research); cost in a Turkish-lira context. Verify: current 2026 plan names, prices and free-tier feature limits. Sources: vendor pricing pages; 2026 release notes. End with a pick-by-use-case table. Distinct from model-comparison and which-claude-model posts."
-    },
-    {
       "translationKey": "chatgpt-computer-history-privacy",
       "category": "ai",
       "titleTr": "ChatGPT Computer History: Kullanım ve Gizlilik",

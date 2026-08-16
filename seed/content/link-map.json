@@ -3348,6 +3348,66 @@
         "slug": "preview-environments-every-pull-request",
         "title": "Preview Environments for Every Pull Request"
       }
+    },
+    {
+      "translationKey": "gpt-5-6-sol-ultrafast-cerebras",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-sol-ultrafast-modu-cerebras",
+        "title": "GPT-5.6 Sol Ultrafast Modu: Cerebras ile 14 Kat Hız"
+      },
+      "en": {
+        "slug": "gpt-5-6-sol-ultrafast-mode-cerebras",
+        "title": "GPT-5.6 Sol Goes Ultrafast: 14x Speed via Cerebras"
+      }
+    },
+    {
+      "translationKey": "daily-ai-workflows-knowledge-workers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "bilgi-calisanlari-gunluk-ai-is-akislari",
+        "title": "Bilgi Çalışanları İçin Günlük AI İş Akışları"
+      },
+      "en": {
+        "slug": "daily-ai-workflows-knowledge-workers",
+        "title": "Daily AI Workflows for Knowledge Workers"
+      }
+    },
+    {
+      "translationKey": "ai-code-review-trust-but-verify",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-ile-kod-incelemesi-guven-dogrula",
+        "title": "AI ile Kod İncelemesi: Güven Ama Doğrula"
+      },
+      "en": {
+        "slug": "ai-code-review-trust-but-verify",
+        "title": "AI Code Review: Trust, but Verify"
+      }
+    },
+    {
+      "translationKey": "agentic-workspaces-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "isi-yapan-ai-chatgpt-work-cowork-gemini",
+        "title": "İşi Yapan AI: ChatGPT Work, Cowork, Gemini"
+      },
+      "en": {
+        "slug": "chatgpt-work-vs-cowork-vs-gemini",
+        "title": "AI That Does the Work: ChatGPT Work vs Cowork vs Gemini"
+      }
+    },
+    {
+      "translationKey": "ai-assistant-subscription-buyers-guide-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "hangi-ai-aboneligi-claude-chatgpt-gemini",
+        "title": "Hangi AI Aboneliği: Claude, ChatGPT, Gemini?"
+      },
+      "en": {
+        "slug": "which-ai-subscription-2026",
+        "title": "Which AI Subscription in 2026: Claude, ChatGPT, Gemini"
+      }
     }
   ]
 }
