@@ -67,3 +67,4 @@ skills-lock.json
 # local data exports (GSC dumps, TTS voice samples, scratch briefs)
 search-console/
 ses-ornekleri/
+.env.supabase-backup
