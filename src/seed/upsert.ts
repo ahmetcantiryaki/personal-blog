@@ -72,7 +72,9 @@ export const upsertArticle = async (
   const category = resolveCategory(payload, group, taxonomy)
   const tags = resolveTags(payload, group, taxonomy)
 
-  const coverImage = coverImageForKey(group.translationKey)
+  // Falls back to the category cover when this article has none of its own.
+  const categoryKey = LOCALES.map((l) => group.byLocale[l]?.frontMatter.category).find(Boolean)
+  const coverImage = coverImageForKey(group.translationKey, categoryKey)
 
   const commonData = {
     translationKey: group.translationKey,
