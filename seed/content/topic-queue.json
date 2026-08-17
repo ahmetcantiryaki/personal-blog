@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-16",
+  "updatedAt": "2026-08-17",
   "topics": [
-    {
-      "translationKey": "chatgpt-computer-history-privacy",
-      "category": "ai",
-      "titleTr": "ChatGPT Computer History: Kullanım ve Gizlilik",
-      "titleEn": "ChatGPT Computer History: How to Use It Safely",
-      "slugTr": "chatgpt-computer-history-kullanim-gizlilik",
-      "slugEn": "chatgpt-computer-history-privacy",
-      "keywordTr": "chatgpt computer history",
-      "keywordEn": "chatgpt computer history",
-      "angle": "how-to + use the new context feature without leaking data",
-      "style": "field-notes",
-      "brief": "Field notes on ChatGPT's new Computer History. Sections: what it is (macOS app referencing selected app/website activity for ChatGPT and Codex); how to enable and scope it; real workflows (continue work without re-explaining); privacy controls, what is captured, turning it off; when NOT to use it with sensitive data. Verify: August 2026 macOS-only, opt-in feature and how selection/scoping works. Sources: OpenAI ChatGPT release notes; OpenAI help center. End with a pre-enable privacy checklist."
-    },
-    {
-      "translationKey": "custom-gpts-gems-skills-compared",
-      "category": "ai",
-      "titleTr": "Özel GPT, Gem, Skill: Hangisine Yatırım Yapmalı?",
-      "titleEn": "Custom GPTs vs Gems vs Claude Skills: Which to Build",
-      "slugTr": "ozel-gpt-gem-skill-hangisine-yatirim",
-      "slugEn": "custom-gpts-vs-gems-vs-skills",
-      "keywordTr": "ozel gpt gem skill karsilastirma",
-      "keywordEn": "custom gpts vs gems vs claude skills",
-      "angle": "comparison + don't build the same assistant three times",
-      "style": "contrarian",
-      "brief": "Contrarian comparison of reusable-assistant systems. Sections: what each is (Custom GPTs, Gemini Gems, Claude Skills as an on-demand packaged folder capability from Oct 2025); portability and lock-in; where each shines; sharing and governance; maintenance cost as models change. Verify: Claude Skills load on demand as folders; current Custom GPT and Gems capabilities in 2026. Sources: Anthropic Skills docs; OpenAI and Google help centers. End with build-once guidance and a lock-in warning. Distinct from gemini-gems-business and organize-ai-chats posts."
-    },
-    {
-      "translationKey": "streaming-ai-ui-react",
-      "category": "web-development",
-      "titleTr": "React'te Akışkan AI Arayüzleri (Streaming UI)",
-      "titleEn": "Build Streaming AI Chat UIs in React",
-      "slugTr": "reactte-akiskan-ai-arayuzleri-streaming",
-      "slugEn": "streaming-ai-chat-uis-react",
-      "keywordTr": "react streaming ai arayuz",
-      "keywordEn": "streaming ai ui react",
-      "angle": "how-to + render token streams without jank",
-      "style": "field-notes",
-      "brief": "Field notes on token-streaming chat UIs. Sections: SSE vs WebSocket for LLM streams; rendering partial tokens without layout jank; optimistic UI, stop and regenerate, error recovery; showing tool-call and status states; accessible live regions; backpressure and cancellation. Verify: streaming UIs are a standard 2026 pattern and SSE is typical for LLM APIs. Sources: a mainstream AI SDK's streaming docs; MDN server-sent events. End with a minimal React component pattern and a pitfalls list. Distinct from sse-vs-websockets (transport theory)."
-    },
-    {
-      "translationKey": "nextjs-ai-features-ai-sdk",
-      "category": "web-development",
-      "titleTr": "Next.js Uygulamana AI Özelliği Ekle",
-      "titleEn": "Ship an AI Feature in Your Next.js App",
-      "slugTr": "nextjs-uygulamana-ai-ozelligi-ekle",
-      "slugEn": "ship-ai-feature-nextjs",
-      "keywordTr": "nextjs ai ozelligi ekleme",
-      "keywordEn": "add ai feature nextjs",
-      "angle": "guide + take an AI feature from prototype to production",
-      "style": "story-led",
-      "brief": "Story-led guide to adding an AI feature end to end. Sections: choosing an SDK and model; server routes/actions and streaming responses; tool calls and structured outputs; rate limiting and cost guards; caching and prompt management; shipping safely with evals and fallbacks. Verify: AI SDK streaming and tool-call patterns in Next.js during 2026 and server-actions maturity. Sources: a mainstream AI SDK's docs; Next.js docs. End with a launch checklist. Distinct from build-rag-system, which is ML/infra focused."
-    },
     {
       "translationKey": "build-browser-extension-2026",
       "category": "web-development",

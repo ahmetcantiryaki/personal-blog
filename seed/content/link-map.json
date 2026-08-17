@@ -3408,6 +3408,66 @@
         "slug": "which-ai-subscription-2026",
         "title": "Which AI Subscription in 2026: Claude, ChatGPT, Gemini"
       }
+    },
+    {
+      "translationKey": "claude-compliance-api-cowork-claude-code",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-compliance-api-cowork-claude-code-denetimi",
+        "title": "Claude Compliance API: Cowork ve Claude Code Denetimi"
+      },
+      "en": {
+        "slug": "claude-compliance-api-cowork-claude-code",
+        "title": "Claude Compliance API Now Covers Cowork and Claude Code"
+      }
+    },
+    {
+      "translationKey": "chatgpt-computer-history-privacy",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-computer-history-kullanim-gizlilik",
+        "title": "ChatGPT Computer History: Kullanım ve Gizlilik Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-computer-history-privacy",
+        "title": "ChatGPT Computer History: How to Use It Safely"
+      }
+    },
+    {
+      "translationKey": "custom-gpts-gems-skills-compared",
+      "category": "ai",
+      "tr": {
+        "slug": "ozel-gpt-gem-skill-hangisine-yatirim",
+        "title": "Özel GPT, Gem, Skill: Hangisine Yatırım Yapmalı?"
+      },
+      "en": {
+        "slug": "custom-gpts-vs-gems-vs-skills",
+        "title": "Custom GPTs vs Gems vs Claude Skills: Which to Build"
+      }
+    },
+    {
+      "translationKey": "streaming-ai-ui-react",
+      "category": "web-development",
+      "tr": {
+        "slug": "reactte-akiskan-ai-arayuzleri-streaming",
+        "title": "React'te Akışkan AI Arayüzleri (Streaming UI)"
+      },
+      "en": {
+        "slug": "streaming-ai-chat-uis-react",
+        "title": "Build Streaming AI Chat UIs in React"
+      }
+    },
+    {
+      "translationKey": "nextjs-ai-features-ai-sdk",
+      "category": "web-development",
+      "tr": {
+        "slug": "nextjs-uygulamana-ai-ozelligi-ekle",
+        "title": "Next.js Uygulamana AI Özelliği Nasıl Eklenir?"
+      },
+      "en": {
+        "slug": "ship-ai-feature-nextjs",
+        "title": "Ship an AI Feature in Your Next.js App"
+      }
     }
   ]
 }

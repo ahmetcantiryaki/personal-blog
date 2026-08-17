@@ -37,6 +37,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'code-quality': { en: 'Code Quality', tr: 'Kod Kalitesi' },
   collaboration: { en: 'Collaboration', tr: 'İş Birliği' },
   communication: { en: 'Communication', tr: 'İletişim' },
+  compliance: { en: 'Compliance', tr: 'Uyumluluk' },
   connectivity: { en: 'Connectivity', tr: 'Bağlantı' },
   containers: { en: 'Containers', tr: 'Konteynerler' },
   'core-web-vitals': { en: 'Core Web Vitals', tr: 'Core Web Vitals' },
