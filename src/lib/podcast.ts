@@ -13,15 +13,12 @@ import type { Locale } from '@/i18n/config'
 export const PODCAST_ITUNES_CATEGORY = 'Technology'
 
 /**
- * Channel artwork.
- *
- * KNOWN ISSUE: Apple requires square artwork between 1400x1400 and 3000x3000.
- * The article covers in `public/covers` are 1344x768 (landscape) and the only
- * square assets on the site are 400x400 avatars, so no compliant image exists
- * yet. This placeholder keeps the feed well-formed and link-valid; it must be
- * replaced with a real 1400x1400+ square JPG/PNG before submitting the show.
+ * Channel artwork: 2048x2048 JPEG, inside Apple's required 1400-3000 square
+ * range. Same ink-and-watercolour language as the article covers, with the
+ * title lettered large enough to hold up at the 55px thumbnail size directories
+ * render it at.
  */
-export const PODCAST_COVER_PATH = '/images/ahmetcantryk.jpg'
+export const PODCAST_COVER_PATH = '/images/podcast-cover.jpg'
 
 /** Per-locale channel copy. Kept here so the route stays a thin adapter. */
 const CHANNEL_COPY: Record<Locale, { titleSuffix: string; description: string }> = {
