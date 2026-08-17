@@ -213,7 +213,11 @@ kılmak**, **(2) hacmin sağlayamayacağı farklılaşmayı eklemek**.
 
 İki tane var:
 
-### Fırsat 1 — Podcast (altyapı zaten hazır)
+### ~~Fırsat 1 — Podcast~~ (KAPSAM DIŞI, 2026-08-17)
+
+> Değerlendirildi ve **reddedildi**: dizinlere yükleme yapılmayacak. Feed yazılmış,
+> denenmiş ve tamamen kaldırılmıştır — kodda podcast'e ait hiçbir şey kalmadı.
+> Aşağıdaki gerekçe, karar tekrar açılırsa diye kayıt olarak duruyor.
 
 `generate-audio.yml` + Piper TTS ile makalelerin MP3'lerini üretip GitHub
 Release'e koyuyorsun. `audio-manifest.json`'da süre, boyut, URL var.
@@ -292,7 +296,7 @@ zaten iki dilli üretiyorsun. Türkçe tarafını ikinci sınıf muamelesi yapma
 
 ### Kademe 1 (önce bunlar)
 
-1. **Podcast feed'i** — B.2. Sıfır maliyet, yeni kanal.
+1. ~~Podcast feed'i~~ — kapsam dışı (2026-08-17).
 2. **Bülten** — kendi domaininde. Buttondown veya Resend + kendi `subscribers`
    koleksiyonu (Payload zaten var). RSS-to-email otomatik gönderim. Trafik değil
    **sahiplik** kazandırır: Google güncellemesi seni vurduğunda kalan tek şey.
@@ -364,7 +368,7 @@ yukarı çeker. Otomatik yazılar da bu otoriteden faydalanır.
 **1-2. hafta (altyapı borcu):** `select` düzeltmesi → egress ölç → artımlı seed →
 seed'i build'den çıkar. Karar: Neon'a taşı veya bekle.
 
-**3-4. hafta (sahiplik):** Podcast feed'i + TR sesi aç + 3 dizine gönder.
+**3-4. hafta (sahiplik):** Bülten kurulumu. Giscus yorumlar.
 Bülten kurulumu. Giscus yorumlar.
 
 **5-6. hafta (keşfedilebilirlik):** Publisher Center kaydı, `max-image-preview`

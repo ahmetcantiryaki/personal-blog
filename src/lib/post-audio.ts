@@ -1,7 +1,7 @@
 import manifest from '../../seed/content/audio-manifest.json'
 
 /** One synthesized narration, as recorded in seed/content/audio-manifest.json. */
-export interface AudioEntry {
+interface AudioEntry {
   hash: string
   url: string
   seconds: number
@@ -11,17 +11,6 @@ export interface AudioEntry {
 }
 
 const entries = manifest as Record<string, AudioEntry | undefined>
-
-/**
- * Full manifest entry for a post's narration (url + byte size + duration), or
- * null when that post has no audio in this locale. The podcast feed needs the
- * `bytes`/`seconds` fields that `getPostAudioUrl` deliberately hides.
- */
-export function getPostAudioEntry(slug: string, locale: string): AudioEntry | null {
-  const entry = entries[`${locale}/${slug}`]
-  if (!entry || !entry.url) return null
-  return entry
-}
 
 /**
  * Resolves the narrated-audio MP3 URL for a post, if one exists.
