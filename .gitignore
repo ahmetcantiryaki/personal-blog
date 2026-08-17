@@ -58,3 +58,12 @@ article-titles.txt
 
 # tweet media (local only)
 social/media/
+
+# skills installer output (npx skills add) — local tooling, not project source
+.agents/
+skills-lock.json
+.claude/skills/
+
+# local data exports (GSC dumps, TTS voice samples, scratch briefs)
+search-console/
+ses-ornekleri/
