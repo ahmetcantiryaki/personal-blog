@@ -13,12 +13,19 @@ name: Seed content to database
 # triggers the regular Vercel deploy. The manifest lives outside the watched
 # paths, so committing it cannot re-trigger this workflow.
 
+# NOT YET ARMED. The push trigger stays commented out until the repository
+# secrets below exist — without them this fails on every content push while the
+# articles silently never reach the database. Set DATABASE_URI, PAYLOAD_SECRET,
+# NEXT_PUBLIC_SERVER_URL, ADMIN_EMAIL and ADMIN_PASSWORD under Settings →
+# Secrets and variables → Actions, run this once via workflow_dispatch to
+# confirm it goes green, then uncomment the push block and drop `pnpm run seed`
+# from vercel.json in the same commit.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'seed/content/tr/**'
-      - 'seed/content/en/**'
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'seed/content/tr/**'
+  #     - 'seed/content/en/**'
   workflow_dispatch:
     inputs:
       force:
