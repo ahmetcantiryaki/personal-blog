@@ -1,10 +1,54 @@
 # Woyable Cover Art — AI Image System
 
 How every AI-generated post cover is art-directed so the whole catalogue shares
-one visual identity. Covers are saved to `public/covers/<translationKey>.jpg` and
-consumed by the post's `coverImage` (shared by both locales). When no cover
-exists, the deterministic SVG `CoverArt` fallback still renders — the fallback
-stays forever; AI covers are progressive enhancement.
+one visual identity.
+
+## Resolution order (2026-08)
+
+`coverImageForKey` in `src/seed/coverImage.ts` picks a post's cover in this order:
+
+1. **`public/covers/<translationKey>.jpg`** — a bespoke cover drawn for that one
+   article, with its own metaphor and handwritten Turkish hook.
+2. **`public/covers/categories/<category>.jpg`** — the category cover. All nine
+   categories have one, so **a new article never needs an image generated for
+   it**. Category covers carry no text, so both locales share them.
+3. The deterministic SVG `CoverArt` fallback — kept forever as the last resort.
+
+**The daily routine no longer generates covers.** It stopped after fal.ai locked
+the account on an exhausted balance and twelve days of batches shipped with no
+image while the commit messages still claimed "with covers". Removing the
+generation step removes that whole failure mode: publishing can no longer depend
+on an image API being funded and reachable.
+
+### Category covers
+
+Same ink-and-watercolour language as the rest of the catalogue — the brass robot
+mascot, detailed crosshatch, plain white paper, illustration on the left two
+thirds and white space on the right — but each category has its own scene and
+colour wash so sections are distinguishable at a glance:
+
+| Category | Colour wash | Scene |
+|---|---|---|
+| `ai` | dusty teal | robot seated in thought, head open to a glowing lantern |
+| `web-development` | slate blue | robot hammering together a browser window frame |
+| `software-engineering` | sage green | robot at a drafting table drawing a truss bridge |
+| `devops-cloud` | amber / terracotta | robot at a boiler, gauges and steam clouds |
+| `career-productivity` | plum / mauve | robot climbing a ladder of stacked books |
+| `social-media` | coral rose | robot at a switchboard, paper birds and speech bubbles |
+| `digital-marketing` | mustard ochre | robot pouring leaflets into a funnel, target behind |
+| `technology` | steel indigo | robot at a repair bench, gadget open under a loupe |
+| `business` | oxblood | robot at a shop counter, ledger, handshake, rising chart |
+
+Generated with Higgsfield `gpt_image_2` (quality `high`, 16:9). To redraw one,
+generate with the same scene description and save via
+`node src/scripts/higgsfield-cover-save.mjs <url> categories/<category>`.
+
+## Bespoke per-article covers (optional)
+
+Still supported and still preferred for flagship pieces. Higgsfield renders
+Turkish diacritics correctly, so hooks are now written in proper Turkish
+("Küçük Dükkâna Yeter mi?") — the diacritic-free workaround below was a
+nano-banana limitation and no longer applies.
 
 ## OFFICIAL DIRECTION: HAND-DRAWN VINTAGE (2026-07)
 
