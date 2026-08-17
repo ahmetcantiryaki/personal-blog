@@ -2206,5 +2206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3212478,
     "generatedAt": "2026-08-16T06:40:26.764Z"
+  },
+  "en/chatgpt-computer-history-privacy": {
+    "hash": "de2ec609a909d588",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-computer-history-privacy.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3288546,
+    "generatedAt": "2026-08-17T06:58:16.467Z"
+  },
+  "en/claude-compliance-api-cowork-claude-code": {
+    "hash": "8ed8595f1f7b4d1f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-compliance-api-cowork-claude-code.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3379035,
+    "generatedAt": "2026-08-17T07:00:38.566Z"
+  },
+  "en/custom-gpts-vs-gems-vs-skills": {
+    "hash": "3780298535c85295",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-custom-gpts-vs-gems-vs-skills.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3306728,
+    "generatedAt": "2026-08-17T07:02:57.428Z"
+  },
+  "en/ship-ai-feature-nextjs": {
+    "hash": "c3d97056ebaecefb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ship-ai-feature-nextjs.mp3",
+    "seconds": 414,
+    "voice": "en_US-ryan-high",
+    "bytes": 3308608,
+    "generatedAt": "2026-08-17T07:05:16.786Z"
+  },
+  "en/streaming-ai-chat-uis-react": {
+    "hash": "8cffba5d27b0ebf5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-streaming-ai-chat-uis-react.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3279978,
+    "generatedAt": "2026-08-17T07:07:34.056Z"
   }
 }
