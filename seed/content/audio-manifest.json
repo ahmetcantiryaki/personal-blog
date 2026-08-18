@@ -2246,5 +2246,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3279978,
     "generatedAt": "2026-08-17T07:07:34.056Z"
+  },
+  "en/build-browser-extension-2026": {
+    "hash": "1fbdd071ede3f444",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-browser-extension-2026.mp3",
+    "seconds": 530,
+    "voice": "en_US-ryan-high",
+    "bytes": 4239613,
+    "generatedAt": "2026-08-18T06:35:02.174Z"
+  },
+  "en/claude-code-gitlab-integration": {
+    "hash": "62c5dd953eeb16fd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-gitlab-integration.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3183221,
+    "generatedAt": "2026-08-18T06:37:16.650Z"
+  },
+  "en/concurrency-bugs-how-to-avoid": {
+    "hash": "c5e3fc0cae4500e6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-concurrency-bugs-how-to-avoid.mp3",
+    "seconds": 517,
+    "voice": "en_US-ryan-high",
+    "bytes": 4132406,
+    "generatedAt": "2026-08-18T06:40:11.419Z"
+  },
+  "en/error-handling-patterns-scale": {
+    "hash": "75daf2efcb46fddb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-error-handling-patterns-scale.mp3",
+    "seconds": 535,
+    "voice": "en_US-ryan-high",
+    "bytes": 4281408,
+    "generatedAt": "2026-08-18T06:43:12.081Z"
+  },
+  "en/event-driven-architecture-patterns": {
+    "hash": "606b39a273c61f53",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-event-driven-architecture-patterns.mp3",
+    "seconds": 513,
+    "voice": "en_US-ryan-high",
+    "bytes": 4105030,
+    "generatedAt": "2026-08-18T06:46:05.846Z"
   }
 }
