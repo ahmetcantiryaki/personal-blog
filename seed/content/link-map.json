@@ -3468,6 +3468,66 @@
         "slug": "ship-ai-feature-nextjs",
         "title": "Ship an AI Feature in Your Next.js App"
       }
+    },
+    {
+      "translationKey": "claude-code-gitlab-integration",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-artik-gitlab-destekliyor",
+        "title": "Claude Code Artık GitLab'ı Destekliyor mu?"
+      },
+      "en": {
+        "slug": "claude-code-gitlab-integration",
+        "title": "Does Claude Code Support GitLab Now?"
+      }
+    },
+    {
+      "translationKey": "build-browser-extension-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "2026-tarayici-eklentisi-nasil-yapilir",
+        "title": "2026'da Tarayıcı Eklentisi Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "build-browser-extension-2026",
+        "title": "How to Build a Browser Extension in 2026"
+      }
+    },
+    {
+      "translationKey": "event-driven-architecture-patterns",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "olay-gudumlu-mimari-desenler-tuzaklar",
+        "title": "Olay Güdümlü Mimari: Desenler ve Tuzaklar"
+      },
+      "en": {
+        "slug": "event-driven-architecture-patterns",
+        "title": "Event-Driven Architecture: Patterns and Pitfalls"
+      }
+    },
+    {
+      "translationKey": "error-handling-patterns-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "olceklenen-hata-yonetimi-desenleri",
+        "title": "Ölçeklenen Hata Yönetimi Desenleri"
+      },
+      "en": {
+        "slug": "error-handling-patterns-scale",
+        "title": "Error Handling Patterns That Scale"
+      }
+    },
+    {
+      "translationKey": "concurrency-bugs-mistakes",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "eszamanlilik-hatalari-kacinma-yollari",
+        "title": "Eşzamanlılık Hataları ve Kaçınma Yolları"
+      },
+      "en": {
+        "slug": "concurrency-bugs-how-to-avoid",
+        "title": "Concurrency Bugs and How to Avoid Them"
+      }
     }
   ]
 }

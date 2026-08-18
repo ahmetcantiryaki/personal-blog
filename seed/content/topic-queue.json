@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-18",
   "topics": [
-    {
-      "translationKey": "build-browser-extension-2026",
-      "category": "web-development",
-      "titleTr": "2026'da Tarayıcı Eklentisi Nasıl Yapılır?",
-      "titleEn": "How to Build a Browser Extension in 2026",
-      "slugTr": "2026-tarayici-eklentisi-nasil-yapilir",
-      "slugEn": "build-browser-extension-2026",
-      "keywordTr": "tarayici eklentisi yapma",
-      "keywordEn": "build browser extension 2026",
-      "angle": "how-to + a modern, cross-browser extension from scratch",
-      "style": "question-driven",
-      "brief": "Question-driven build guide. Sections: Manifest V3 basics; content scripts, service workers and the side panel; storage and messaging; permissions and the store-review gauntlet; cross-browser with the WebExtensions API (Chrome, Firefox, Edge); publishing and auto-updates; adding an optional AI feature via an API. Verify: MV3 is the 2026 standard and side-panel API availability. Sources: Chrome extensions docs; MDN WebExtensions. End with a starter architecture and a store-submission checklist."
-    },
-    {
-      "translationKey": "event-driven-architecture-patterns",
-      "category": "software-engineering",
-      "titleTr": "Olay Güdümlü Mimari: Desenler ve Tuzaklar",
-      "titleEn": "Event-Driven Architecture: Patterns and Pitfalls",
-      "slugTr": "olay-gudumlu-mimari-desenler-tuzaklar",
-      "slugEn": "event-driven-architecture-patterns",
-      "keywordTr": "olay gudumlu mimari",
-      "keywordEn": "event-driven architecture",
-      "angle": "deep-dive + choose the right event pattern and avoid the traps",
-      "style": "data-led",
-      "brief": "Deep dive on event-driven design. Sections: pub/sub vs event streaming vs queues; event notification vs event-carried state vs event sourcing; ordering, idempotency and the exactly-once myth; event schema and versioning; CQRS boundaries; when NOT to go event-driven. Verify: 'exactly-once' is effectively at-least-once plus idempotency, and the outbox pattern's role. Sources: Kafka/streaming platform docs; Martin Fowler's event-pattern writeups. End with a decision guide. Distinct from transactional-outbox-pattern, which is a single tactic."
-    },
-    {
-      "translationKey": "error-handling-patterns-guide",
-      "category": "software-engineering",
-      "titleTr": "Ölçeklenen Hata Yönetimi Desenleri",
-      "titleEn": "Error Handling Patterns That Scale",
-      "slugTr": "olceklenen-hata-yonetimi-desenleri",
-      "slugEn": "error-handling-patterns-scale",
-      "keywordTr": "hata yonetimi desenleri",
-      "keywordEn": "error handling patterns",
-      "angle": "guide + structure errors so systems fail clearly",
-      "style": "field-notes",
-      "brief": "Field-notes guide to error handling. Sections: errors as values vs exceptions; typed errors and result types; where to catch vs propagate; wrapping with context instead of swallowing; user-facing vs internal errors; structured logging and correlation IDs; retry and timeout boundaries; failing loudly in dev, gracefully in prod. Verify: structured-logging and correlation-ID best practices. Sources: language error-handling guides; SRE/observability writeups. End with an error-handling checklist and anti-patterns. Distinct from retries-backoff-circuit-breakers."
-    },
-    {
-      "translationKey": "concurrency-bugs-mistakes",
-      "category": "software-engineering",
-      "titleTr": "Eşzamanlılık Hataları ve Kaçınma Yolları",
-      "titleEn": "Concurrency Bugs and How to Avoid Them",
-      "slugTr": "eszamanlilik-hatalari-kacinma-yollari",
-      "slugEn": "concurrency-bugs-how-to-avoid",
-      "keywordTr": "eszamanlilik hatalari",
-      "keywordEn": "concurrency bugs",
-      "angle": "mistakes + spot the races and deadlocks before they ship",
-      "style": "contrarian",
-      "brief": "Contrarian mistakes post: most 'async' code is subtly wrong. Sections: race conditions and data races; deadlocks and livelocks; shared mutable state; atomicity vs visibility; async/await footguns (unawaited promises, missing cancellation); when to reach for locks vs message passing vs immutability; testing concurrent code. Verify: language memory-model notes and common footguns across Go/Rust/JS. Sources: Go, Rust and JS concurrency docs. End with a review checklist for concurrent code. Distinct from idempotency and system-design posts."
-    },
     {
       "translationKey": "service-mesh-2026-do-you-need-it",
       "category": "devops-cloud",
