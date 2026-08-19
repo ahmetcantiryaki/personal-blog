@@ -2286,5 +2286,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4105030,
     "generatedAt": "2026-08-18T06:46:05.846Z"
+  },
+  "en/break-into-ai-engineering-2026": {
+    "hash": "136c5d04d3d0a271",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-break-into-ai-engineering-2026.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3317595,
+    "generatedAt": "2026-08-19T06:45:35.406Z"
+  },
+  "en/chatgpt-for-teens-age-prediction-explained": {
+    "hash": "47df2f61b8664837",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-for-teens-age-prediction-explained.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3328253,
+    "generatedAt": "2026-08-19T06:46:57.923Z"
+  },
+  "en/managing-up-software-engineer": {
+    "hash": "be8331404092a658",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-managing-up-software-engineer.mp3",
+    "seconds": 360,
+    "voice": "en_US-ryan-high",
+    "bytes": 2878528,
+    "generatedAt": "2026-08-19T06:48:08.355Z"
+  },
+  "en/monorepo-cicd-caching-affected-builds": {
+    "hash": "a651f90c2a2b236d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-monorepo-cicd-caching-affected-builds.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3020008,
+    "generatedAt": "2026-08-19T06:49:22.991Z"
+  },
+  "en/service-mesh-2026-do-you-need-one": {
+    "hash": "dc5442ea4f22f31e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-service-mesh-2026-do-you-need-one.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3282277,
+    "generatedAt": "2026-08-19T06:50:44.760Z"
   }
 }
