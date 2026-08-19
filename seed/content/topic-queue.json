@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-18",
+  "updatedAt": "2026-08-19",
   "topics": [
-    {
-      "translationKey": "service-mesh-2026-do-you-need-it",
-      "category": "devops-cloud",
-      "titleTr": "Service Mesh 2026: Gerçekten Gerekli mi?",
-      "titleEn": "Service Mesh in 2026: Do You Actually Need One?",
-      "slugTr": "service-mesh-2026-gercekten-gerekli-mi",
-      "slugEn": "service-mesh-2026-do-you-need-one",
-      "keywordTr": "service mesh gerekli mi",
-      "keywordEn": "do you need a service mesh",
-      "angle": "guide + decide if a mesh earns its complexity",
-      "style": "contrarian",
-      "brief": "Contrarian decision guide. Sections: what a mesh gives you (mTLS, traffic policy, observability); sidecar vs sidecar-less/ambient; overlap with the Kubernetes Gateway API; the complexity tax; alternatives (client libraries, gateways, platform features); a decision test by team size and scale. Verify: the 2026 ambient-mesh trend and Gateway API GA status. Sources: Istio/Linkerd docs; Kubernetes Gateway API docs. End with a 'you need a mesh if…' checklist. Distinct from what-is-platform-engineering and kubernetes posts."
-    },
-    {
-      "translationKey": "monorepo-cicd-pipelines",
-      "category": "devops-cloud",
-      "titleTr": "Monorepo İçin CI/CD: Önbellek ve Etkilenen Yapılar",
-      "titleEn": "CI/CD for Monorepos: Caching and Affected Builds",
-      "slugTr": "monorepo-ci-cd-onbellek-etkilenen-yapilar",
-      "slugEn": "monorepo-cicd-caching-affected-builds",
-      "keywordTr": "monorepo ci cd",
-      "keywordEn": "monorepo ci cd",
-      "angle": "how-to + keep pipelines fast as the repo grows",
-      "style": "field-notes",
-      "brief": "Field notes on monorepo pipelines. Sections: affected/only-changed builds; remote caching; task graphs (Turborepo, Nx, Bazel); parallelization and test sharding; isolating flaky tests; artifact reuse and deploy gating; keeping CI fast as the repo scales. Verify: remote-cache and affected-graph behavior in Turborepo and Nx in 2026. Sources: Turborepo and Nx docs. End with a pipeline blueprint and metrics to watch. Distinct from build-cicd-pipeline, which is a generic intro."
-    },
-    {
-      "translationKey": "break-into-ai-engineering-2026",
-      "category": "career-productivity",
-      "titleTr": "2026'da AI Mühendisliğine Nasıl Geçilir?",
-      "titleEn": "How to Break Into AI Engineering in 2026",
-      "slugTr": "2026-ai-muhendisligine-nasil-gecilir",
-      "slugEn": "break-into-ai-engineering-2026",
-      "keywordTr": "ai muhendisi olmak",
-      "keywordEn": "become ai engineer 2026",
-      "angle": "guide + a realistic path into applied AI work",
-      "style": "story-led",
-      "brief": "Story-led career path. Sections: what AI engineers actually do (RAG, agents, evals, prompt and context engineering—not training foundation models); prerequisite skills; a 90-day learning plan; portfolio projects that get interviews; where the jobs are in 2026; interview prep. Verify: the 2026 AI-engineer role scope skews product/applied, not research. Sources: applied-AI role guides; 2026 hiring reports. End with a project checklist and a skip-the-hype note. Distinct from learn-coding-with-ai and ai-proof-developer-skills."
-    },
-    {
-      "translationKey": "managing-up-software-engineers",
-      "category": "career-productivity",
-      "titleTr": "Yazılımcılar İçin Yöneticiyle İyi İlişki",
-      "titleEn": "Managing Up as a Software Engineer",
-      "slugTr": "yazilimcilar-icin-yoneticiyle-iliski",
-      "slugEn": "managing-up-software-engineer",
-      "keywordTr": "yoneticiyle iliski yonetimi",
-      "keywordEn": "managing up engineer",
-      "angle": "how-to + build trust and get unblocked with your manager",
-      "style": "field-notes",
-      "brief": "Field notes on managing up. Sections: understanding your manager's goals and constraints; status updates that build trust; surfacing risks early; disagreeing well without burning capital; getting unblocked and getting credit; navigating shifting priorities and scope; 1:1s that actually help. Verify: general engineering-management and IC best practices; nothing tool-specific. Sources: engineering-management writeups; IC career guides. End with a 1:1 template and a raise-it-early script. Distinct from staff-engineer-path and ic-to-tech-lead-90-days."
-    },
     {
       "translationKey": "personal-prompt-library-system",
       "category": "career-productivity",

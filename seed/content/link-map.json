@@ -3528,6 +3528,66 @@
         "slug": "concurrency-bugs-how-to-avoid",
         "title": "Concurrency Bugs and How to Avoid Them"
       }
+    },
+    {
+      "translationKey": "chatgpt-for-teens-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-for-teens-nedir-yas-tahmini",
+        "title": "ChatGPT for Teens Nedir? Yaş Tahmini Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "chatgpt-for-teens-age-prediction-explained",
+        "title": "What Is ChatGPT for Teens? How Age Prediction Works"
+      }
+    },
+    {
+      "translationKey": "service-mesh-2026-do-you-need-it",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "service-mesh-2026-gercekten-gerekli-mi",
+        "title": "Service Mesh 2026: Gerçekten Gerekli mi?"
+      },
+      "en": {
+        "slug": "service-mesh-2026-do-you-need-one",
+        "title": "Service Mesh in 2026: Do You Actually Need One?"
+      }
+    },
+    {
+      "translationKey": "monorepo-cicd-pipelines",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "monorepo-ci-cd-onbellek-etkilenen-yapilar",
+        "title": "Monorepo İçin CI/CD: Önbellek ve Etkilenen Yapılar"
+      },
+      "en": {
+        "slug": "monorepo-cicd-caching-affected-builds",
+        "title": "CI/CD for Monorepos: Caching and Affected Builds"
+      }
+    },
+    {
+      "translationKey": "break-into-ai-engineering-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "2026-ai-muhendisligine-nasil-gecilir",
+        "title": "2026'da AI Mühendisliğine Nasıl Geçilir?"
+      },
+      "en": {
+        "slug": "break-into-ai-engineering-2026",
+        "title": "How to Break Into AI Engineering in 2026"
+      }
+    },
+    {
+      "translationKey": "managing-up-software-engineers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yazilimcilar-icin-yoneticiyle-iliski",
+        "title": "Yazılımcılar İçin Yöneticiyle İyi İlişki"
+      },
+      "en": {
+        "slug": "managing-up-software-engineer",
+        "title": "Managing Up as a Software Engineer"
+      }
     }
   ]
 }
