@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-19",
+  "updatedAt": "2026-08-20",
   "topics": [
-    {
-      "translationKey": "personal-prompt-library-system",
-      "category": "career-productivity",
-      "titleTr": "Kişisel Prompt Kütüphanesi Nasıl Kurulur?",
-      "titleEn": "Build a Personal Prompt Library System",
-      "slugTr": "kisisel-prompt-kutuphanesi-nasil-kurulur",
-      "slugEn": "personal-prompt-library-system",
-      "keywordTr": "kisisel prompt kutuphanesi",
-      "keywordEn": "personal prompt library",
-      "angle": "how-to + stop re-typing prompts and reuse what works",
-      "style": "question-driven",
-      "brief": "Question-driven productivity how-to. Sections: why saved prompts beat re-typing; structuring a library by task with variables; where to store them (Projects, Gems, Skills, a notes app, snippet tools); versioning and sharing with a team; measuring which prompts perform; keeping prompts portable across Claude, ChatGPT and Gemini. Verify: 2026 customization features (Projects, Gems, Skills, custom instructions) that store reusable instructions. Sources: vendor customization docs; PKM writeups. End with a starter template set. Distinct from prompt-engineering-patterns, a technique deep-dive."
-    },
-    {
-      "translationKey": "youtube-channel-growth-2026",
-      "category": "social-media",
-      "titleTr": "2026'da YouTube Kanalı Nasıl Büyütülür?",
-      "titleEn": "How to Grow a YouTube Channel in 2026",
-      "slugTr": "2026-youtube-kanali-nasil-buyutulur",
-      "slugEn": "grow-youtube-channel-2026",
-      "keywordTr": "youtube kanal buyutme 2026",
-      "keywordEn": "grow youtube channel 2026",
-      "angle": "guide + long-form channel growth, not just Shorts",
-      "style": "data-led",
-      "brief": "Data-led channel-growth guide. Sections: long-form vs Shorts strategy and how they feed each other; packaging (title, thumbnail, hook) as the real CTR/retention levers; the first 30 seconds; series and playlists; 2026 algorithm signals; publishing cadence; repurposing to Shorts. Verify: 2026 YouTube ranking signals (watch time, CTR, satisfaction) and the Shorts-to-long-form funnel. Sources: YouTube Creator resources; creator-economy reports. End with a channel-audit checklist. Distinct from youtube-shorts-* posts, which are Shorts-only."
-    },
-    {
-      "translationKey": "social-media-metrics-that-matter-2026",
-      "category": "social-media",
-      "titleTr": "Gerçekten Önemli Sosyal Medya Metrikleri",
-      "titleEn": "Social Media Metrics That Actually Matter",
-      "slugTr": "gercekten-onemli-sosyal-medya-metrikleri",
-      "slugEn": "social-media-metrics-that-matter",
-      "keywordTr": "sosyal medya metrikleri",
-      "keywordEn": "social media metrics that matter",
-      "angle": "mistakes + stop chasing vanity numbers",
-      "style": "contrarian",
-      "brief": "Contrarian metrics post: followers are vanity. Sections: vanity vs actionable metrics; saves, shares and watch-time over likes; reach vs resonance; profile-visits-to-follow and link clicks; attribution to real outcomes (leads, sales); the one metric that matters most per platform; a simple weekly dashboard. Verify: 2026 platform signal shifts weighting saves/shares and watch-time. Sources: platform analytics docs; social benchmark reports. End with a one-page metrics dashboard template. Distinct from algorithm-proof-your-content."
-    },
-    {
-      "translationKey": "social-selling-followers-to-customers-2026",
-      "category": "social-media",
-      "titleTr": "Takipçiyi Müşteriye Çevirmek: Sosyal Satış",
-      "titleEn": "Turn Followers Into Customers: Social Selling",
-      "slugTr": "takipciyi-musteriye-cevirmek-sosyal-satis",
-      "slugEn": "turn-followers-into-customers-social-selling",
-      "keywordTr": "sosyal satis takipci musteri",
-      "keywordEn": "social selling followers to customers",
-      "angle": "how-to + convert an audience into paying customers",
-      "style": "story-led",
-      "brief": "Story-led social-selling how-to. Sections: content that attracts buyers, not just fans; the comment- and DM-to-conversation flow; lead magnets and soft CTAs; building trust before the pitch; using AI to personalize small-scale outreach; simple funnels from profile to purchase; measuring conversion. Verify: 2026 social-commerce/discovery data (social now leads Google for product discovery). Sources: social-commerce reports; small-business marketing guides. End with a DM script and a profile-to-sale checklist. Distinct from marketing-funnel-solopreneur (digital-marketing)."
-    },
     {
       "translationKey": "start-grow-podcast-2026",
       "category": "social-media",

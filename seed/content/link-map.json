@@ -3588,6 +3588,66 @@
         "slug": "managing-up-software-engineer",
         "title": "Managing Up as a Software Engineer"
       }
+    },
+    {
+      "translationKey": "claude-files-api-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-files-api-ga-ne-anlama-geliyor",
+        "title": "Claude Files API GA'ya Geçti: Ne Değişti?"
+      },
+      "en": {
+        "slug": "claude-files-api-ga-explained",
+        "title": "Claude's Files API Is Now GA: What Changed?"
+      }
+    },
+    {
+      "translationKey": "personal-prompt-library-system",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "kisisel-prompt-kutuphanesi-nasil-kurulur",
+        "title": "Kişisel Prompt Kütüphanesi Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "personal-prompt-library-system",
+        "title": "Build a Personal Prompt Library System"
+      }
+    },
+    {
+      "translationKey": "youtube-channel-growth-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026-youtube-kanali-nasil-buyutulur",
+        "title": "2026'da YouTube Kanalı Nasıl Büyütülür?"
+      },
+      "en": {
+        "slug": "grow-youtube-channel-2026",
+        "title": "How to Grow a YouTube Channel in 2026"
+      }
+    },
+    {
+      "translationKey": "social-media-metrics-that-matter-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "gercekten-onemli-sosyal-medya-metrikleri",
+        "title": "Gerçekten Önemli Sosyal Medya Metrikleri"
+      },
+      "en": {
+        "slug": "social-media-metrics-that-matter",
+        "title": "Social Media Metrics That Actually Matter"
+      }
+    },
+    {
+      "translationKey": "social-selling-followers-to-customers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "takipciyi-musteriye-cevirmek-sosyal-satis",
+        "title": "Takipçiyi Müşteriye Çevirmek: Sosyal Satış"
+      },
+      "en": {
+        "slug": "turn-followers-into-customers-social-selling",
+        "title": "Turn Followers Into Customers: Social Selling"
+      }
     }
   ]
 }
