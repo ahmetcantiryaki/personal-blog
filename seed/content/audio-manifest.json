@@ -2326,5 +2326,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3282277,
     "generatedAt": "2026-08-19T06:50:44.760Z"
+  },
+  "en/claude-files-api-ga-explained": {
+    "hash": "3f96c4c8d95c8f26",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-files-api-ga-explained.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3686026,
+    "generatedAt": "2026-08-20T06:39:03.632Z"
+  },
+  "en/grow-youtube-channel-2026": {
+    "hash": "223457a5261d673e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-grow-youtube-channel-2026.mp3",
+    "seconds": 547,
+    "voice": "en_US-ryan-high",
+    "bytes": 4374822,
+    "generatedAt": "2026-08-20T06:42:07.767Z"
+  },
+  "en/personal-prompt-library-system": {
+    "hash": "8105f5b218524ac5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-personal-prompt-library-system.mp3",
+    "seconds": 519,
+    "voice": "en_US-ryan-high",
+    "bytes": 4151632,
+    "generatedAt": "2026-08-20T06:45:03.924Z"
+  },
+  "en/social-media-metrics-that-matter": {
+    "hash": "aea13a61e87d9c39",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-social-media-metrics-that-matter.mp3",
+    "seconds": 459,
+    "voice": "en_US-ryan-high",
+    "bytes": 3670143,
+    "generatedAt": "2026-08-20T06:47:37.365Z"
+  },
+  "en/turn-followers-into-customers-social-selling": {
+    "hash": "bbdb41f27f1cbe1c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-turn-followers-into-customers-social-selling.mp3",
+    "seconds": 480,
+    "voice": "en_US-ryan-high",
+    "bytes": 3838790,
+    "generatedAt": "2026-08-20T06:50:17.731Z"
   }
 }
