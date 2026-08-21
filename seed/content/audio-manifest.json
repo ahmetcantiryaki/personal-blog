@@ -2366,5 +2366,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3838790,
     "generatedAt": "2026-08-20T06:50:17.731Z"
+  },
+  "en/brand-voice-guide-for-ai": {
+    "hash": "c94e28cbe03eae7f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-brand-voice-guide-for-ai.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3708595,
+    "generatedAt": "2026-08-21T06:39:00.197Z"
+  },
+  "en/marketing-attribution-cookieless-2026": {
+    "hash": "13d5f8e162c60b96",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-marketing-attribution-cookieless-2026.mp3",
+    "seconds": 537,
+    "voice": "en_US-ryan-high",
+    "bytes": 4297500,
+    "generatedAt": "2026-08-21T06:42:03.532Z"
+  },
+  "en/schema-markup-ai-search-visibility": {
+    "hash": "25be88c2789827a6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-schema-markup-ai-search-visibility.mp3",
+    "seconds": 488,
+    "voice": "en_US-ryan-high",
+    "bytes": 3903573,
+    "generatedAt": "2026-08-21T06:44:48.655Z"
+  },
+  "en/start-grow-podcast-2026": {
+    "hash": "de4722e910299389",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-start-grow-podcast-2026.mp3",
+    "seconds": 543,
+    "voice": "en_US-ryan-high",
+    "bytes": 4344938,
+    "generatedAt": "2026-08-21T06:47:52.024Z"
+  },
+  "en/why-openai-paused-astra-training": {
+    "hash": "b4b73859c9169e1d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-openai-paused-astra-training.mp3",
+    "seconds": 552,
+    "voice": "en_US-ryan-high",
+    "bytes": 4413484,
+    "generatedAt": "2026-08-21T06:51:01.642Z"
   }
 }
