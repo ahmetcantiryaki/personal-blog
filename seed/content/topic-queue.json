@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-20",
+  "updatedAt": "2026-08-21",
   "topics": [
-    {
-      "translationKey": "start-grow-podcast-2026",
-      "category": "social-media",
-      "titleTr": "2026'da Podcast Başlatmak ve Büyütmek",
-      "titleEn": "Start and Grow a Podcast in 2026",
-      "slugTr": "2026-podcast-baslatmak-ve-buyutmek",
-      "slugEn": "start-grow-podcast-2026",
-      "keywordTr": "podcast baslatma 2026",
-      "keywordEn": "start a podcast 2026",
-      "angle": "guide + launch and grow a show with AI-assisted production",
-      "style": "question-driven",
-      "brief": "Question-driven launch guide. Sections: format and niche; minimal gear and a room that sounds acceptable; AI-assisted production (editing, transcripts, show notes, clips); distribution (RSS, Spotify, Apple, YouTube); repurposing episodes into short video and posts; growth loops and guest strategy; monetization basics. Verify: 2026 podcast distribution and monetization norms and current AI editing-tool capabilities. Sources: podcast-host guides; creator-economy reports. End with a launch checklist and a per-episode repurposing map."
-    },
-    {
-      "translationKey": "schema-markup-ai-search-visibility",
-      "category": "digital-marketing",
-      "titleTr": "Yapısal Veri ile AI Aramada Görünürlük",
-      "titleEn": "Schema Markup for AI Search Visibility",
-      "slugTr": "yapisal-veri-ai-aramada-gorunurluk",
-      "slugEn": "schema-markup-ai-search-visibility",
-      "keywordTr": "yapisal veri schema markup",
-      "keywordEn": "schema markup ai search",
-      "angle": "how-to + make your content machine-readable for AI answers",
-      "style": "field-notes",
-      "brief": "Field-notes technical how-to. Sections: why entities and structured data help AI cite you; core schema types (Article, FAQ, Product, Organization, Author); implementing JSON-LD; entity clarity and sameAs; testing with rich-results tools; how AI Overviews and LLMs use structured data (an aid, not a guarantee); measuring citations. Verify: 2026 AI Overviews appear on roughly 47-64% of queries and schema aids machine understanding without guaranteeing ranking. Sources: Google structured-data docs; Search Engine Land GEO guide. End with a schema implementation checklist. Distinct from generative-engine-optimization (strategy)."
-    },
-    {
-      "translationKey": "marketing-attribution-cookieless-2026",
-      "category": "digital-marketing",
-      "titleTr": "Çerezsiz Dünyada Pazarlama Atıfı 2026",
-      "titleEn": "Marketing Attribution in a Cookieless 2026",
-      "slugTr": "cerezsiz-dunyada-pazarlama-atifi-2026",
-      "slugEn": "marketing-attribution-cookieless-2026",
-      "keywordTr": "pazarlama atif modeli cerezsiz",
-      "keywordEn": "marketing attribution cookieless",
-      "angle": "guide + measure what works without third-party cookies",
-      "style": "data-led",
-      "brief": "Data-led attribution guide. Sections: why last-click is dead; first-party data and server-side tracking; GA4 and its alternatives; consent mode and privacy rules; modeled conversions; lean attribution for small teams (UTMs, post-purchase surveys, incrementality tests). Verify: 2026 third-party-cookie and measurement state, plus server-side tagging norms. Sources: analytics-platform docs; measurement/attribution guides. End with a lean attribution stack for small businesses. Distinct from google-ads-vs-meta-ads and programmatic-seo posts."
-    },
-    {
-      "translationKey": "brand-voice-guide-for-ai",
-      "category": "digital-marketing",
-      "titleTr": "AI'ın Uyacağı Bir Marka Sesi Rehberi",
-      "titleEn": "Build a Brand Voice Guide Your AI Will Follow",
-      "slugTr": "ai-uyacagi-marka-sesi-rehberi",
-      "slugEn": "brand-voice-guide-for-ai",
-      "keywordTr": "marka sesi rehberi ai",
-      "keywordEn": "brand voice guide for ai",
-      "angle": "how-to + make AI copy actually sound like your brand",
-      "style": "story-led",
-      "brief": "Story-led how-to. Sections: why generic AI copy sounds off; capturing voice (tone axes, do/don't words, example passages); turning it into a reusable spec (a Project, Gem, Skill or custom instructions); testing outputs against the guide; keeping humans in the loop; updating the guide as the brand evolves. Verify: how Projects, Gems and Skills store persistent instructions in 2026. Sources: vendor customization docs; brand-voice marketing guides. End with a fill-in brand-voice template. Distinct from repeatable-seo-writing-system-claude and ai-content-marketing-workflow."
-    },
     {
       "translationKey": "ab-testing-cro-small-sites-2026",
       "category": "digital-marketing",

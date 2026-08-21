@@ -3648,6 +3648,66 @@
         "slug": "turn-followers-into-customers-social-selling",
         "title": "Turn Followers Into Customers: Social Selling"
       }
+    },
+    {
+      "translationKey": "openai-astra-critical-cybersecurity-pause",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-astra-egitimini-neden-durdurdu",
+        "title": "OpenAI Astra Eğitimini Neden Durdurdu?"
+      },
+      "en": {
+        "slug": "why-openai-paused-astra-training",
+        "title": "Why OpenAI Paused Astra Training"
+      }
+    },
+    {
+      "translationKey": "start-grow-podcast-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026-podcast-baslatmak-ve-buyutmek",
+        "title": "2026'da Podcast Başlatmak ve Büyütmek"
+      },
+      "en": {
+        "slug": "start-grow-podcast-2026",
+        "title": "Start and Grow a Podcast in 2026"
+      }
+    },
+    {
+      "translationKey": "schema-markup-ai-search-visibility",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "yapisal-veri-ai-aramada-gorunurluk",
+        "title": "Yapısal Veri ile AI Aramada Görünürlük"
+      },
+      "en": {
+        "slug": "schema-markup-ai-search-visibility",
+        "title": "Schema Markup for AI Search Visibility"
+      }
+    },
+    {
+      "translationKey": "marketing-attribution-cookieless-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "cerezsiz-dunyada-pazarlama-atifi-2026",
+        "title": "Çerezsiz Dünyada Pazarlama Atıfı 2026"
+      },
+      "en": {
+        "slug": "marketing-attribution-cookieless-2026",
+        "title": "Marketing Attribution in a Cookieless 2026"
+      }
+    },
+    {
+      "translationKey": "brand-voice-guide-for-ai",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-uyacagi-marka-sesi-rehberi",
+        "title": "AI'ın Uyacağı Bir Marka Sesi Rehberi"
+      },
+      "en": {
+        "slug": "brand-voice-guide-for-ai",
+        "title": "Build a Brand Voice Guide Your AI Will Follow"
+      }
     }
   ]
 }
