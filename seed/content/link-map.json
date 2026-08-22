@@ -3708,6 +3708,66 @@
         "slug": "brand-voice-guide-for-ai",
         "title": "Build a Brand Voice Guide Your AI Will Follow"
       }
+    },
+    {
+      "translationKey": "claude-browser-use-tool-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-browser-use-araci-nedir",
+        "title": "Claude Browser Use Aracı Nedir?"
+      },
+      "en": {
+        "slug": "what-is-claude-browser-use-tool",
+        "title": "What Is Claude's New Browser Use Tool?"
+      }
+    },
+    {
+      "translationKey": "ab-testing-cro-small-sites-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-siteler-icin-ab-testi-cro",
+        "title": "Az Trafikli Sitede A/B Testi Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "ab-testing-cro-small-sites",
+        "title": "How Do You A/B Test a Low-Traffic Site?"
+      }
+    },
+    {
+      "translationKey": "ai-agentic-actions-real-world-tasks",
+      "category": "technology",
+      "tr": {
+        "slug": "senin-yerine-is-yapan-ai-ajan-eylemleri",
+        "title": "AI Senin Yerine Rezervasyon Yapabilir mi?"
+      },
+      "en": {
+        "slug": "ai-agentic-actions-real-world-tasks",
+        "title": "Can AI Actually Book and Buy Things for You?"
+      }
+    },
+    {
+      "translationKey": "ai-voice-recorder-gadgets-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-ses-kaydediciler-not-cihazlari-2026",
+        "title": "AI Ses Kaydedici Cihaza Değer mi?"
+      },
+      "en": {
+        "slug": "ai-voice-recorders-note-gadgets-2026",
+        "title": "Are Dedicated AI Voice Recorders Worth It?"
+      }
+    },
+    {
+      "translationKey": "protect-privacy-ai-assistants",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-asistanlari-caginda-gizliligini-koru",
+        "title": "AI Asistanları Verilerinizle Ne Yapıyor?"
+      },
+      "en": {
+        "slug": "protect-privacy-ai-assistants",
+        "title": "What Do AI Assistants Do With Your Data?"
+      }
     }
   ]
 }

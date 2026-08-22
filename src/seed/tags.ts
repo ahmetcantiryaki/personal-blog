@@ -12,6 +12,7 @@ import type { TaxonomyEntry } from './categories'
  * The seed creates ONE tag doc per key carrying both locale rows.
  */
 const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
+  'ab-testing': { en: 'A/B Testing', tr: 'A/B Testi' },
   accessibility: { en: 'Accessibility', tr: 'Erişilebilirlik' },
   'ai-agents': { en: 'AI Agents', tr: 'Yapay Zeka Ajanları' },
   'ai-coding': { en: 'AI Coding', tr: 'Yapay Zeka ile Kodlama' },
@@ -40,6 +41,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   compliance: { en: 'Compliance', tr: 'Uyumluluk' },
   connectivity: { en: 'Connectivity', tr: 'Bağlantı' },
   containers: { en: 'Containers', tr: 'Konteynerler' },
+  'conversion-optimization': { en: 'Conversion Optimization', tr: 'Dönüşüm Optimizasyonu' },
   'core-web-vitals': { en: 'Core Web Vitals', tr: 'Core Web Vitals' },
   'cost-optimization': { en: 'Cost Optimization', tr: 'Maliyet Optimizasyonu' },
   css: { en: 'CSS', tr: 'CSS' },
@@ -96,6 +98,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   podcasting: { en: 'Podcasting', tr: 'Podcast Yayıncılığı' },
   portfolio: { en: 'Portfolio', tr: 'Portfolyo' },
   postgresql: { en: 'PostgreSQL', tr: 'PostgreSQL' },
+  privacy: { en: 'Privacy', tr: 'Gizlilik' },
   productivity: { en: 'Productivity', tr: 'Üretkenlik' },
   'prompt-engineering': { en: 'Prompt Engineering', tr: 'Prompt Mühendisliği' },
   python: { en: 'Python', tr: 'Python' },

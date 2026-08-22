@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-21",
+  "updatedAt": "2026-08-22",
   "topics": [
-    {
-      "translationKey": "ab-testing-cro-small-sites-2026",
-      "category": "digital-marketing",
-      "titleTr": "Küçük Siteler İçin A/B Testi ve CRO",
-      "titleEn": "A/B Testing and CRO for Small Sites",
-      "slugTr": "kucuk-siteler-icin-ab-testi-cro",
-      "slugEn": "ab-testing-cro-small-sites",
-      "keywordTr": "ab testi donusum optimizasyonu",
-      "keywordEn": "ab testing cro small sites",
-      "angle": "guide + optimize conversions with low traffic",
-      "style": "question-driven",
-      "brief": "Question-driven CRO guide for low-traffic sites. Sections: when you have too little traffic for classic A/B and what to do instead; prioritizing tests (ICE/PIE); what to test (headline, CTA, form, social proof); avoiding peeking and false wins; qualitative signals (heatmaps, session replays, surveys); tools on a small budget. Verify: minimum-sample and statistical-significance basics, plus low-traffic alternatives (sequential testing, qualitative). Sources: CRO guides; experimentation-stats primers. End with a test-prioritization worksheet. Distinct from landing-page-conversion-mistakes."
-    },
-    {
-      "translationKey": "ai-agentic-actions-real-world-tasks",
-      "category": "technology",
-      "titleTr": "Senin Yerine İş Yapan AI: Ajan Eylemleri",
-      "titleEn": "AI That Books and Buys: Agentic Actions Arrive",
-      "slugTr": "senin-yerine-is-yapan-ai-ajan-eylemleri",
-      "slugEn": "ai-agentic-actions-real-world-tasks",
-      "keywordTr": "ai ajan eylemleri",
-      "keywordEn": "ai agentic actions",
-      "angle": "deep-dive + what it means when AI completes real-world tasks",
-      "style": "question-driven",
-      "brief": "Question-driven consumer explainer. Sections: what 'agentic actions' means (AI completing real tasks, not just chatting); examples—ChatGPT restaurant reservations via OpenTable/Resy/Yelp, bookings and forms; how it works under the hood (tools/connectors); trust, confirmation and failure modes; what is safe to delegate and what isn't; where this heads next. Verify: ChatGPT reservation search via OpenTable/Resy/Yelp (2026) and agentic capabilities moving into ChatGPT/Codex after Atlas's shutdown. Sources: OpenAI release notes; tech coverage. End with a delegate-this-not-that list. Distinct from agentic-browsers-comparison."
-    },
-    {
-      "translationKey": "ai-voice-recorder-gadgets-2026",
-      "category": "technology",
-      "titleTr": "AI Ses Kaydediciler ve Not Cihazları 2026",
-      "titleEn": "AI Voice Recorders and Note Gadgets in 2026",
-      "slugTr": "ai-ses-kaydediciler-not-cihazlari-2026",
-      "slugEn": "ai-voice-recorders-note-gadgets-2026",
-      "keywordTr": "ai ses kaydedici cihaz",
-      "keywordEn": "ai voice recorder gadget",
-      "angle": "comparison + should you buy a dedicated AI note device?",
-      "style": "data-led",
-      "brief": "Data-led gadget comparison. Sections: what these do (capture, transcribe, summarize, sync); Plaud NotePin and rivals; phone apps vs dedicated hardware; accuracy and languages (including Turkish); privacy of cloud transcription; battery and workflow fit; who should buy one vs just use an app. Verify: Plaud NotePin positioning in 2026 and on-device vs cloud transcription tradeoffs. Sources: gadget reviews; product pages. End with a buyer's matrix and a privacy caveat. Distinct from ai-meeting-assistants-compared, which covers software."
-    },
-    {
-      "translationKey": "protect-privacy-ai-assistants",
-      "category": "technology",
-      "titleTr": "AI Asistanları Çağında Gizliliğini Koru",
-      "titleEn": "Protect Your Privacy in the Age of AI Assistants",
-      "slugTr": "ai-asistanlari-caginda-gizliligini-koru",
-      "slugEn": "protect-privacy-ai-assistants",
-      "keywordTr": "ai gizlilik koruma",
-      "keywordEn": "ai assistant privacy",
-      "angle": "checklist + lock down what AI assistants know about you",
-      "style": "field-notes",
-      "brief": "Field-notes privacy checklist. Sections: what AI assistants store (chats, memory, connected data, computer history); training opt-outs and data controls per tool; connected apps and least-privilege; sensitive data you should never paste; enterprise vs consumer data handling; kids and family accounts; a periodic privacy audit. Verify: 2026 memory/training-control settings across Claude, ChatGPT and Gemini and ChatGPT Computer History being opt-in. Sources: vendor privacy and data-control docs. End with a step-by-step privacy checklist. Distinct from the chatgpt-computer-history how-to."
-    },
     {
       "translationKey": "reduce-churn-retention-playbook",
       "category": "business",
