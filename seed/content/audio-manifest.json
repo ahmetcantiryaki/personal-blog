@@ -2406,5 +2406,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4413484,
     "generatedAt": "2026-08-21T06:51:01.642Z"
+  },
+  "en/ab-testing-cro-small-sites": {
+    "hash": "9e8cf3ce4bd3488a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ab-testing-cro-small-sites.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3511737,
+    "generatedAt": "2026-08-22T06:32:34.190Z"
+  },
+  "en/ai-agentic-actions-real-world-tasks": {
+    "hash": "190368ff16aca8e5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-agentic-actions-real-world-tasks.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3419995,
+    "generatedAt": "2026-08-22T06:34:59.943Z"
+  },
+  "en/ai-voice-recorders-note-gadgets-2026": {
+    "hash": "2f6480ac68903025",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-voice-recorders-note-gadgets-2026.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3680174,
+    "generatedAt": "2026-08-22T06:37:36.127Z"
+  },
+  "en/protect-privacy-ai-assistants": {
+    "hash": "4bfd3106864d1ed8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-protect-privacy-ai-assistants.mp3",
+    "seconds": 501,
+    "voice": "en_US-ryan-high",
+    "bytes": 4006391,
+    "generatedAt": "2026-08-22T06:40:26.216Z"
+  },
+  "en/what-is-claude-browser-use-tool": {
+    "hash": "f9e4d709a98d1d16",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-claude-browser-use-tool.mp3",
+    "seconds": 482,
+    "voice": "en_US-ryan-high",
+    "bytes": 3853000,
+    "generatedAt": "2026-08-22T06:43:10.163Z"
   }
 }
