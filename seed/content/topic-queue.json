@@ -2,58 +2,6 @@
   "updatedAt": "2026-08-23",
   "topics": [
     {
-      "translationKey": "reduce-churn-retention-playbook",
-      "category": "business",
-      "titleTr": "Churn'ü Azalt: Küçük SaaS İçin Elde Tutma",
-      "titleEn": "Reduce Churn: A Retention Playbook for Small SaaS",
-      "slugTr": "churn-azalt-kucuk-saas-elde-tutma",
-      "slugEn": "reduce-churn-retention-playbook",
-      "keywordTr": "saas churn azaltma",
-      "keywordEn": "reduce saas churn",
-      "angle": "checklist + the levers that keep customers from leaving",
-      "style": "data-led",
-      "brief": "Data-led retention checklist. Sections: measuring churn right (logo vs revenue, cohort curves); onboarding as the number-one retention lever; activation moments and time-to-value; usage signals and at-risk alerts; win-back and cancellation flows; pricing/packaging churn; expansion and NRR basics. Verify: retention benchmarks, the onboarding-to-retention link and the NRR definition. Sources: SaaS-metrics guides; retention studies. End with a retention checklist and a churn-diagnosis flow. Distinct from saas-metrics-founders, which defines the metrics."
-    },
-    {
-      "translationKey": "saas-positioning-messaging",
-      "category": "business",
-      "titleTr": "SaaS Konumlandırma: Dönüştüren Mesaj",
-      "titleEn": "SaaS Positioning: Messaging That Converts",
-      "slugTr": "saas-konumlandirma-donusturen-mesaj",
-      "slugEn": "saas-positioning-messaging",
-      "keywordTr": "saas konumlandirma mesaj",
-      "keywordEn": "saas positioning messaging",
-      "angle": "guide + position before you write a word of copy",
-      "style": "story-led",
-      "brief": "Story-led positioning guide. Sections: positioning before copywriting (who it's for, the alternative you replace); finding a differentiated value; the homepage message hierarchy; features vs outcomes; proof and objection handling; naming the category; testing messaging with real prospects; using AI to draft variations you then cut. Verify: positioning frameworks (April Dunford-style) and homepage-messaging best practices. Sources: positioning and messaging guides. End with a positioning worksheet and a homepage message template. Distinct from pricing-saas-product and marketing-funnel posts."
-    },
-    {
-      "translationKey": "ai-bookkeeping-for-founders",
-      "category": "business",
-      "titleTr": "Kurucular İçin AI Muhasebe: Neyi Otomatikleştir?",
-      "titleEn": "AI Bookkeeping for Founders: What to Automate",
-      "slugTr": "kurucular-icin-ai-muhasebe-neyi-otomatiklestir",
-      "slugEn": "ai-bookkeeping-for-founders",
-      "keywordTr": "yapay zeka muhasebe otomasyonu",
-      "keywordEn": "ai bookkeeping startups",
-      "angle": "guide + automate the books without breaking your taxes",
-      "style": "field-notes",
-      "brief": "Field-notes guide to AI bookkeeping for early founders. Sections: what to automate first (bank feeds, reconciliation, receipt capture); the tool landscape (Puzzle, Zeni, Inkle, Truewind) and when a human accountant still matters; connecting Stripe/Mercury/Ramp; the categorization-error trap; a monthly close checklist. Key claim to verify: AI mis-categorizes transactions and books need human review before a CPA files taxes. Sources: puzzle.io/blog/ai-accounting-software-startups; inkle.ai best AI bookkeeping tools. End with an automate-vs-review split and a founder's monthly close routine."
-    },
-    {
-      "translationKey": "saas-free-trial-vs-freemium",
-      "category": "business",
-      "titleTr": "Ücretsiz Deneme mi Freemium mi: SaaS'ta Hangisi?",
-      "titleEn": "Free Trial vs Freemium: Which Converts for SaaS?",
-      "slugTr": "ucretsiz-deneme-mi-freemium-mi-saas",
-      "slugEn": "free-trial-vs-freemium-saas",
-      "keywordTr": "freemium mi deneme mi",
-      "keywordEn": "free trial vs freemium",
-      "angle": "comparison + pick the acquisition model that fits your product",
-      "style": "data-led",
-      "brief": "Data-led comparison of free trial vs freemium for SaaS growth. Sections: how each model drives activation and conversion; time-limited vs feature-limited vs usage-limited; the reverse-trial hybrid; benchmark conversion ranges (freemium free-to-paid vs trial-to-paid); which product traits favor each (time-to-value, viral loops, sales-assist); credit-card-upfront tradeoffs. Verify: typical freemium (2-5%) vs opt-in-trial conversion benchmarks and the reverse-trial definition. Sources: OpenView/Lenny-style SaaS model studies; product-led-growth benchmarks. Distinct from saas-pricing and reduce-churn briefs. End with a decision matrix keyed to product type."
-    },
-    {
       "translationKey": "ai-vendor-lock-in-startups",
       "category": "business",
       "titleTr": "AI'da Tedarikçi Bağımlılığı: Tek Modele Güvenmek",

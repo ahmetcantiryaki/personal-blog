@@ -3768,6 +3768,66 @@
         "slug": "protect-privacy-ai-assistants",
         "title": "What Do AI Assistants Do With Your Data?"
       }
+    },
+    {
+      "translationKey": "anthropic-python-sdk-v1",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-python-sdk-v1-gecis-rehberi",
+        "title": "Anthropic Python SDK v1.0'da Neler Bozuluyor?"
+      },
+      "en": {
+        "slug": "anthropic-python-sdk-v1-migration-guide",
+        "title": "Anthropic Python SDK v1.0: What Actually Breaks?"
+      }
+    },
+    {
+      "translationKey": "reduce-churn-retention-playbook",
+      "category": "business",
+      "tr": {
+        "slug": "churn-azalt-kucuk-saas-elde-tutma",
+        "title": "Churn'ü Azalt: Küçük SaaS İçin Elde Tutma Rehberi"
+      },
+      "en": {
+        "slug": "reduce-churn-retention-playbook",
+        "title": "Reduce Churn: A Retention Playbook for Small SaaS"
+      }
+    },
+    {
+      "translationKey": "saas-positioning-messaging",
+      "category": "business",
+      "tr": {
+        "slug": "saas-konumlandirma-donusturen-mesaj",
+        "title": "SaaS Konumlandırma: Dönüştüren Mesaj Nasıl Yazılır?"
+      },
+      "en": {
+        "slug": "saas-positioning-messaging",
+        "title": "SaaS Positioning: Messaging That Converts"
+      }
+    },
+    {
+      "translationKey": "ai-bookkeeping-for-founders",
+      "category": "business",
+      "tr": {
+        "slug": "kurucular-icin-ai-muhasebe-neyi-otomatiklestir",
+        "title": "Kurucular İçin AI Muhasebe: Neyi Otomatikleştir?"
+      },
+      "en": {
+        "slug": "ai-bookkeeping-for-founders",
+        "title": "AI Bookkeeping for Founders: What to Automate"
+      }
+    },
+    {
+      "translationKey": "saas-free-trial-vs-freemium",
+      "category": "business",
+      "tr": {
+        "slug": "ucretsiz-deneme-mi-freemium-mi-saas",
+        "title": "Ücretsiz Deneme mi Freemium mi: SaaS'ta Hangisi?"
+      },
+      "en": {
+        "slug": "free-trial-vs-freemium-saas",
+        "title": "Free Trial vs Freemium: Which Converts for SaaS?"
+      }
     }
   ]
 }

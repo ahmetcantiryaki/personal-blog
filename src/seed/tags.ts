@@ -112,6 +112,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   rest: { en: 'REST', tr: 'REST' },
   roadmap: { en: 'Roadmap', tr: 'Yol Haritası' },
   rust: { en: 'Rust', tr: 'Rust' },
+  saas: { en: 'SaaS', tr: 'SaaS' },
   'self-hosting': { en: 'Self-Hosting', tr: 'Kendi Sunucunda Barındırma' },
   seo: { en: 'SEO', tr: 'SEO' },
   'server-components': { en: 'Server Components', tr: 'Sunucu Bileşenleri' },
