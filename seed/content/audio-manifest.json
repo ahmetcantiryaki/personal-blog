@@ -2446,5 +2446,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3853000,
     "generatedAt": "2026-08-22T06:43:10.163Z"
+  },
+  "en/ai-bookkeeping-for-founders": {
+    "hash": "c41d53bdebb6c020",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-bookkeeping-for-founders.mp3",
+    "seconds": 469,
+    "voice": "en_US-ryan-high",
+    "bytes": 3753317,
+    "generatedAt": "2026-08-23T06:34:23.714Z"
+  },
+  "en/anthropic-python-sdk-v1-migration-guide": {
+    "hash": "7c56c16ea0395892",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-python-sdk-v1-migration-guide.mp3",
+    "seconds": 448,
+    "voice": "en_US-ryan-high",
+    "bytes": 3585506,
+    "generatedAt": "2026-08-23T06:37:07.026Z"
+  },
+  "en/free-trial-vs-freemium-saas": {
+    "hash": "4a6be9b7ee8a1db3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-free-trial-vs-freemium-saas.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3477255,
+    "generatedAt": "2026-08-23T06:39:45.232Z"
+  },
+  "en/reduce-churn-retention-playbook": {
+    "hash": "106da913cd334356",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reduce-churn-retention-playbook.mp3",
+    "seconds": 470,
+    "voice": "en_US-ryan-high",
+    "bytes": 3764184,
+    "generatedAt": "2026-08-23T06:42:36.019Z"
+  },
+  "en/saas-positioning-messaging": {
+    "hash": "375c1e305837cc72",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-saas-positioning-messaging.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3986329,
+    "generatedAt": "2026-08-23T06:45:36.376Z"
   }
 }
