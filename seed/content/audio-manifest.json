@@ -2486,5 +2486,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3986329,
     "generatedAt": "2026-08-23T06:45:36.376Z"
+  },
+  "en/ai-vendor-lock-in-startups": {
+    "hash": "0970a4dec14789a0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-vendor-lock-in-startups.mp3",
+    "seconds": 528,
+    "voice": "en_US-ryan-high",
+    "bytes": 4220804,
+    "generatedAt": "2026-08-24T06:40:13.303Z"
+  },
+  "en/claude-academy-explained": {
+    "hash": "160242ba7b3caead",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-academy-explained.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3390319,
+    "generatedAt": "2026-08-24T06:42:37.823Z"
+  },
+  "en/cold-outbound-with-ai": {
+    "hash": "da5410867b0c33f8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cold-outbound-with-ai.mp3",
+    "seconds": 459,
+    "voice": "en_US-ryan-high",
+    "bytes": 3672651,
+    "generatedAt": "2026-08-24T06:45:12.125Z"
+  },
+  "en/gemini-spark-explained": {
+    "hash": "77b506679652cdf1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-spark-explained.mp3",
+    "seconds": 478,
+    "voice": "en_US-ryan-high",
+    "bytes": 3824579,
+    "generatedAt": "2026-08-24T06:47:53.525Z"
+  },
+  "en/write-investor-update-ai": {
+    "hash": "1442c9c5e0968993",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-write-investor-update-ai.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3445699,
+    "generatedAt": "2026-08-24T06:50:17.916Z"
   }
 }
