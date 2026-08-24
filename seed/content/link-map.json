@@ -3828,6 +3828,66 @@
         "slug": "free-trial-vs-freemium-saas",
         "title": "Free Trial vs Freemium: Which Converts for SaaS?"
       }
+    },
+    {
+      "translationKey": "claude-academy-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-academy-nedir",
+        "title": "Claude Academy Nedir? Anthropic'in Yeni Öğrenme Merkezi"
+      },
+      "en": {
+        "slug": "claude-academy-explained",
+        "title": "What Is Claude Academy? Anthropic's New Learning Hub"
+      }
+    },
+    {
+      "translationKey": "ai-vendor-lock-in-startups",
+      "category": "business",
+      "tr": {
+        "slug": "ai-tedarikci-bagimliligi-tek-model",
+        "title": "AI'da Tedarikçi Bağımlılığı: Tek Modele Güvenmek"
+      },
+      "en": {
+        "slug": "ai-vendor-lock-in-startups",
+        "title": "AI Vendor Lock-In: Betting Your Startup on One Model"
+      }
+    },
+    {
+      "translationKey": "cold-outbound-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ile-soguk-erisim-toplanti",
+        "title": "AI ile Toplantı Getiren Soğuk Erişim"
+      },
+      "en": {
+        "slug": "cold-outbound-with-ai",
+        "title": "Cold Outbound That Books Meetings, With AI"
+      }
+    },
+    {
+      "translationKey": "investor-update-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "yatirimci-guncellemesi-nasil-yazilir",
+        "title": "Yatırımcı Güncellemesi: Yönetimin Okuyacağı"
+      },
+      "en": {
+        "slug": "write-investor-update-ai",
+        "title": "Write an Investor Update Your Board Will Read"
+      }
+    },
+    {
+      "translationKey": "gemini-spark-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-spark-nedir",
+        "title": "Gemini Spark: Telefonundaki Yeni AI Ajanı"
+      },
+      "en": {
+        "slug": "gemini-spark-explained",
+        "title": "Gemini Spark: Your Phone's New AI Agent, Explained"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-23",
+  "updatedAt": "2026-08-24",
   "topics": [
-    {
-      "translationKey": "ai-vendor-lock-in-startups",
-      "category": "business",
-      "titleTr": "AI'da Tedarikçi Bağımlılığı: Tek Modele Güvenmek",
-      "titleEn": "AI Vendor Lock-In: Betting Your Startup on One Model",
-      "slugTr": "ai-tedarikci-bagimliligi-tek-model",
-      "slugEn": "ai-vendor-lock-in-startups",
-      "keywordTr": "yapay zeka tedarikçi bağımlılığı",
-      "keywordEn": "ai vendor lock-in",
-      "angle": "deep-dive + should you standardize on Claude, GPT or Gemini",
-      "style": "contrarian",
-      "brief": "Contrarian deep-dive on AI vendor lock-in for startups. Sections: where lock-in actually bites (prompts tuned per model, proprietary tool/agent APIs, fine-tunes, pricing shifts); the case for standardizing on one of Claude/GPT/Gemini vs an abstraction layer; provider-router tradeoffs (latency, cost, eval drift); portability tactics (model-agnostic prompts, an eval harness, an exit plan). Verify: 2026 price-cut and deprecation cadence across the big three as evidence of platform risk. Sources: provider changelog/pricing pages; OpenRouter-style routing docs. End with a lock-in risk checklist."
-    },
-    {
-      "translationKey": "cold-outbound-with-ai",
-      "category": "business",
-      "titleTr": "AI ile Toplantı Getiren Soğuk Erişim",
-      "titleEn": "Cold Outbound That Books Meetings, With AI",
-      "slugTr": "ai-ile-soguk-erisim-toplanti",
-      "slugEn": "cold-outbound-with-ai",
-      "keywordTr": "soğuk e-posta yapay zeka",
-      "keywordEn": "cold email with ai",
-      "angle": "how-to + a repeatable outbound system that isn't spam",
-      "style": "story-led",
-      "brief": "Story-led how-to for AI-assisted B2B cold outbound that stays human. Sections: building a tight ICP and list; researching accounts with AI without hallucinating; writing short, specific first lines and offers; sequencing email + LinkedIn; deliverability basics (domain warmup, volume caps); measuring reply and meeting rates. Verify: cold-email deliverability limits and realistic positive-reply benchmarks; spam-law basics (CAN-SPAM/GDPR consent). Sources: deliverability guides; outbound benchmark reports. Distinct from selling-ai-automation-services and one-person marketing-funnel posts. End with a 5-step outbound cadence template."
-    },
-    {
-      "translationKey": "investor-update-with-ai",
-      "category": "business",
-      "titleTr": "Yatırımcı Güncellemesi: Yönetimin Okuyacağı",
-      "titleEn": "Write an Investor Update Your Board Will Read",
-      "slugTr": "yatirimci-guncellemesi-nasil-yazilir",
-      "slugEn": "write-investor-update-ai",
-      "keywordTr": "yatırımcı güncellemesi nasıl yazılır",
-      "keywordEn": "investor update template",
-      "angle": "guide + a monthly update cadence, AI-assisted",
-      "style": "question-driven",
-      "brief": "Question-driven guide to monthly investor updates for founders. Sections: why a boring, consistent update builds trust; the standard structure (TL;DR, metrics, wins, lowlights, asks); which numbers to show (MRR, growth, runway, burn); using AI to draft from your metrics without leaking secrets; the honesty-vs-spin balance; cadence and tooling. Verify: common investor-update templates and the 'asks' convention; typical KPI set for seed/Series A. Sources: VC firm update templates; founder update guides. Distinct from saas-metrics and co-founder-equity briefs. End with a fill-in-the-blank template and a monthly checklist."
-    },
-    {
-      "translationKey": "gemini-spark-explained",
-      "category": "technology",
-      "titleTr": "Gemini Spark: Telefonundaki Yeni AI Ajanı",
-      "titleEn": "Gemini Spark: Your Phone's New AI Agent, Explained",
-      "slugTr": "gemini-spark-nedir",
-      "slugEn": "gemini-spark-explained",
-      "keywordTr": "gemini spark nedir",
-      "keywordEn": "what is gemini spark",
-      "angle": "deep-dive + what Spark does across Gmail, Drive and Calendar",
-      "style": "question-driven",
-      "brief": "Question-driven explainer on Gemini Spark, the personal agent in the Gemini app now powered by Gemini 3.7 Flash (launched Aug 13, 2026). Sections: what Spark is and who gets it (AI Pro/Ultra); real chores it handles across Gmail, Drive, Docs, Calendar, Keep and Tasks; improved multi-step planning and tool use; limits and privacy; how it compares to ChatGPT's agent and Claude. Verify: the 3.7 Flash launch date, Spark availability tiers, and the app's 1B-MAU milestone. Sources: blog.google Gemini 3.7 Flash post; 9to5google launch coverage. End with a 'first five things to try in Spark' list."
-    },
     {
       "translationKey": "robotaxis-2026-reality",
       "category": "technology",
