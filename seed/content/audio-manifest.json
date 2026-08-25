@@ -2526,5 +2526,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3445699,
     "generatedAt": "2026-08-24T06:50:17.916Z"
+  },
+  "en/going-passwordless-passkeys-2026": {
+    "hash": "1b027394d0cb883b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-going-passwordless-passkeys-2026.mp3",
+    "seconds": 547,
+    "voice": "en_US-ryan-high",
+    "bytes": 4377957,
+    "generatedAt": "2026-08-25T06:43:04.177Z"
+  },
+  "en/quantum-computing-2026-should-you-care": {
+    "hash": "2b1fd35fe50f7b8f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-quantum-computing-2026-should-you-care.mp3",
+    "seconds": 537,
+    "voice": "en_US-ryan-high",
+    "bytes": 4294156,
+    "generatedAt": "2026-08-25T06:46:07.046Z"
+  },
+  "en/robotaxis-2026-where-self-driving-works": {
+    "hash": "5ced652d7f0b5df6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-robotaxis-2026-where-self-driving-works.mp3",
+    "seconds": 579,
+    "voice": "en_US-ryan-high",
+    "bytes": 4633957,
+    "generatedAt": "2026-08-25T06:49:25.493Z"
+  },
+  "en/satellite-internet-2026-starlink-vs-rivals": {
+    "hash": "76ca808fd7836c5c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-satellite-internet-2026-starlink-vs-rivals.mp3",
+    "seconds": 536,
+    "voice": "en_US-ryan-high",
+    "bytes": 4284961,
+    "generatedAt": "2026-08-25T06:52:27.740Z"
+  },
+  "en/why-anthropic-is-changing-data-retention-policy": {
+    "hash": "8c028ac976dd328a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-anthropic-is-changing-data-retention-policy.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3349150,
+    "generatedAt": "2026-08-25T06:54:50.433Z"
   }
 }
