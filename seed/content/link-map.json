@@ -3888,6 +3888,66 @@
         "slug": "gemini-spark-explained",
         "title": "Gemini Spark: Your Phone's New AI Agent, Explained"
       }
+    },
+    {
+      "translationKey": "anthropic-enterprise-data-retention-policy-change",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-veri-saklama-politikasini-neden-degistiriyor",
+        "title": "Anthropic Veri Saklama Politikasını Neden Değiştiriyor?"
+      },
+      "en": {
+        "slug": "why-anthropic-is-changing-data-retention-policy",
+        "title": "Why Is Anthropic Changing Its Data Retention Policy?"
+      }
+    },
+    {
+      "translationKey": "robotaxis-2026-reality",
+      "category": "technology",
+      "tr": {
+        "slug": "robotaksi-2026-surucusuz-nerede-calisiyor",
+        "title": "2026'da Robotaksi: Sürücüsüz Nerede Çalışıyor?"
+      },
+      "en": {
+        "slug": "robotaxis-2026-where-self-driving-works",
+        "title": "Robotaxis in 2026: Where Self-Driving Works Now"
+      }
+    },
+    {
+      "translationKey": "satellite-internet-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "uydu-interneti-2026-starlink-rakipleri",
+        "title": "Uydu İnterneti 2026: Starlink ve Rakipleri"
+      },
+      "en": {
+        "slug": "satellite-internet-2026-starlink-vs-rivals",
+        "title": "Satellite Internet 2026: Starlink vs the Rivals"
+      }
+    },
+    {
+      "translationKey": "quantum-computing-2026-should-you-care",
+      "category": "technology",
+      "tr": {
+        "slug": "kuantum-bilisim-2026-onemli-mi",
+        "title": "Kuantum Bilişim 2026: Şimdiden Önemsemeli mi?"
+      },
+      "en": {
+        "slug": "quantum-computing-2026-should-you-care",
+        "title": "Quantum Computing 2026: Should You Care Yet?"
+      }
+    },
+    {
+      "translationKey": "going-passwordless-passkeys-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "sifresiz-hayat-passkey-2026",
+        "title": "Şifresiz Hayat: 2026'da Passkey ile Yaşamak"
+      },
+      "en": {
+        "slug": "going-passwordless-passkeys-2026",
+        "title": "Going Passwordless: Living With Passkeys in 2026"
+      }
     }
   ]
 }

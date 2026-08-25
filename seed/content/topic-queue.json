@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-25",
   "topics": [
-    {
-      "translationKey": "robotaxis-2026-reality",
-      "category": "technology",
-      "titleTr": "2026'da Robotaksi: Sürücüsüz Nerede Çalışıyor?",
-      "titleEn": "Robotaxis in 2026: Where Self-Driving Works Now",
-      "slugTr": "robotaksi-2026-surucusuz-nerede-calisiyor",
-      "slugEn": "robotaxis-2026-where-self-driving-works",
-      "keywordTr": "robotaksi 2026",
-      "keywordEn": "robotaxi 2026",
-      "angle": "deep-dive + a city-by-city status check for riders",
-      "style": "field-notes",
-      "brief": "Field-notes status check on robotaxis in 2026. Sections: who is actually operating driverless rides and in which cities; the safety-record debate and how disengagement/incident data is reported; cost vs ride-hail; the tech split (lidar-heavy vs vision-only); regulation and expansion blockers; what riding one is like. Verify: current operating-city list and any 2026 safety/incident reporting; pricing vs traditional ride-hail. Sources: operator newsrooms and city DMV/regulator reports; reputable transport reporting. Consumer-facing, no dedicated corpus post exists. End with a 'should you take one' rider FAQ."
-    },
-    {
-      "translationKey": "satellite-internet-2026",
-      "category": "technology",
-      "titleTr": "Uydu İnterneti 2026: Starlink ve Rakipleri",
-      "titleEn": "Satellite Internet 2026: Starlink vs the Rivals",
-      "slugTr": "uydu-interneti-2026-starlink-rakipleri",
-      "slugEn": "satellite-internet-2026-starlink-vs-rivals",
-      "keywordTr": "uydu interneti starlink",
-      "keywordEn": "satellite internet starlink",
-      "angle": "comparison + speeds, prices and when it beats fiber",
-      "style": "data-led",
-      "brief": "Data-led comparison of consumer satellite internet in 2026. Sections: how LEO broadband works; Starlink vs newer constellations (Kuiper and others) on speed, latency, price and hardware; where it beats fiber/5G (rural, travel, backup) and where it doesn't; data caps and congestion; setup realities. Verify: current advertised down/up speeds, latency ranges, monthly and hardware costs per provider. Sources: provider spec pages; independent speed-test datasets. Distinct from the direct-to-cell texting post (this is home broadband). End with a 'is satellite right for you' checklist."
-    },
-    {
-      "translationKey": "quantum-computing-2026-should-you-care",
-      "category": "technology",
-      "titleTr": "Kuantum Bilişim 2026: Şimdiden Önemsemeli mi?",
-      "titleEn": "Quantum Computing 2026: Should You Care Yet?",
-      "slugTr": "kuantum-bilisim-2026-onemli-mi",
-      "slugEn": "quantum-computing-2026-should-you-care",
-      "keywordTr": "kuantum bilişim 2026",
-      "keywordEn": "quantum computing 2026",
-      "angle": "deep-dive + hype vs what's real for normal people and teams",
-      "style": "contrarian",
-      "brief": "Contrarian explainer separating quantum hype from reality in 2026. Sections: what a qubit is in plain language; the error-correction milestone story and why 'quantum advantage' claims need scrutiny; realistic near-term uses (chemistry, optimization) vs myths (breaking all crypto tomorrow); what post-quantum cryptography migration actually means for normal orgs now; who should care today. Verify: the state of error-corrected/logical-qubit progress and NIST post-quantum standards status. Sources: NIST PQC pages; peer-reviewed or vendor research with independent commentary. End with a 'what to do now (mostly nothing, but migrate crypto)' takeaway."
-    },
-    {
-      "translationKey": "going-passwordless-passkeys-2026",
-      "category": "technology",
-      "titleTr": "Şifresiz Hayat: 2026'da Passkey ile Yaşamak",
-      "titleEn": "Going Passwordless: Living With Passkeys in 2026",
-      "slugTr": "sifresiz-hayat-passkey-2026",
-      "slugEn": "going-passwordless-passkeys-2026",
-      "keywordTr": "passkey ile şifresiz giriş",
-      "keywordEn": "passwordless passkeys 2026",
-      "angle": "how-to + set up passkeys across your accounts and devices",
-      "style": "story-led",
-      "brief": "Story-led consumer how-to for going passwordless with passkeys. Sections: what a passkey is (device-bound vs synced) without jargon; turning them on for major accounts (Google, Apple, Microsoft, banks); syncing across a password manager and multiple devices; recovery and the lost-device fear; where passwords still linger. Verify: which big providers support passkeys and cross-platform sync status; FIDO/WebAuthn basics stated correctly. Sources: FIDO Alliance consumer material; provider help docs. Consumer-audience, distinct from the developer WebAuthn guide. End with an account-by-account setup checklist."
-    },
     {
       "translationKey": "chatgpt-ads-small-business",
       "category": "digital-marketing",
