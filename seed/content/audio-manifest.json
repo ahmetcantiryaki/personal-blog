@@ -2566,5 +2566,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3349150,
     "generatedAt": "2026-08-25T06:54:50.433Z"
+  },
+  "en/affiliate-marketing-ai-2026": {
+    "hash": "26b6aa0ec39ceae7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-affiliate-marketing-ai-2026.mp3",
+    "seconds": 486,
+    "voice": "en_US-ryan-high",
+    "bytes": 3890199,
+    "generatedAt": "2026-08-26T06:49:44.644Z"
+  },
+  "en/chatgpt-ads-small-business": {
+    "hash": "d515a1e171757220",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-ads-small-business.mp3",
+    "seconds": 455,
+    "voice": "en_US-ryan-high",
+    "bytes": 3643812,
+    "generatedAt": "2026-08-26T06:51:00.737Z"
+  },
+  "en/openai-codex-5-hour-limit-returns": {
+    "hash": "bcc77e001622acd2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openai-codex-5-hour-limit-returns.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3629810,
+    "generatedAt": "2026-08-26T06:52:12.653Z"
+  },
+  "en/reddit-marketing-2026": {
+    "hash": "cdf2c1158a7ea0a5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reddit-marketing-2026.mp3",
+    "seconds": 484,
+    "voice": "en_US-ryan-high",
+    "bytes": 3872226,
+    "generatedAt": "2026-08-26T06:53:30.042Z"
+  },
+  "en/tiktok-seo-social-search-2026": {
+    "hash": "3506508645ef939c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-seo-social-search-2026.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3295234,
+    "generatedAt": "2026-08-26T06:54:43.454Z"
   }
 }
