@@ -3948,6 +3948,66 @@
         "slug": "going-passwordless-passkeys-2026",
         "title": "Going Passwordless: Living With Passkeys in 2026"
       }
+    },
+    {
+      "translationKey": "openai-codex-5-hour-limit-returns",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-codex-5-saatlik-limit-geri-dondu",
+        "title": "OpenAI Codex'te 5 Saatlik Limiti Geri Getirdi"
+      },
+      "en": {
+        "slug": "openai-codex-5-hour-limit-returns",
+        "title": "OpenAI Brings Back Codex's 5-Hour Usage Limit"
+      }
+    },
+    {
+      "translationKey": "chatgpt-ads-small-business",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-isletme-chatgpt-reklamlari",
+        "title": "Küçük İşletme İçin ChatGPT Reklamları: Değer mi?"
+      },
+      "en": {
+        "slug": "chatgpt-ads-small-business",
+        "title": "ChatGPT Ads for Small Business: Worth It?"
+      }
+    },
+    {
+      "translationKey": "tiktok-social-search-seo",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tiktok-seo-sosyal-arama-2026",
+        "title": "TikTok SEO: 2026'da Sosyal Aramada Kazanmak"
+      },
+      "en": {
+        "slug": "tiktok-seo-social-search-2026",
+        "title": "TikTok SEO: Winning Social Search in 2026"
+      }
+    },
+    {
+      "translationKey": "reddit-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "reddit-pazarlamasi-2026",
+        "title": "2026'da Tepki Çekmeden Reddit Pazarlaması"
+      },
+      "en": {
+        "slug": "reddit-marketing-2026",
+        "title": "Reddit Marketing in 2026 Without the Backlash"
+      }
+    },
+    {
+      "translationKey": "affiliate-marketing-ai-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "affiliate-pazarlama-ai-2026",
+        "title": "2026'da Affiliate Pazarlama: AI Destekli Rehber"
+      },
+      "en": {
+        "slug": "affiliate-marketing-ai-2026",
+        "title": "Affiliate Marketing in 2026: An AI-Assisted Playbook"
+      }
     }
   ]
 }

@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-25",
+  "updatedAt": "2026-08-26",
   "topics": [
-    {
-      "translationKey": "chatgpt-ads-small-business",
-      "category": "digital-marketing",
-      "titleTr": "Küçük İşletme İçin ChatGPT Reklamları: Değer mi?",
-      "titleEn": "ChatGPT Ads for Small Business: Worth It?",
-      "slugTr": "kucuk-isletme-chatgpt-reklamlari",
-      "slugEn": "chatgpt-ads-small-business",
-      "keywordTr": "chatgpt reklamları",
-      "keywordEn": "chatgpt ads small business",
-      "angle": "deep-dive + how the self-serve Ads Manager works and who it fits",
-      "style": "question-driven",
-      "brief": "Question-driven deep-dive on ChatGPT's self-serve ads for small businesses. Sections: how sponsored placements appear in free-tier answers; setting up a campaign in the Ads Manager (creatives, budgets, CPC bidding); conversational-context targeting; the attribution gap (no mature retargeting/conversion tracking) and closing the loop with UTMs; who should test it vs stick with Google/Meta. Verify: self-serve availability, CPC ranges, and the stated attribution limitations. Sources: ads.openai.com docs; trylapis and independent 'we tested it' reviews. Distinct from google-ads-vs-meta-ads. End with a small-budget test plan."
-    },
-    {
-      "translationKey": "tiktok-social-search-seo",
-      "category": "digital-marketing",
-      "titleTr": "TikTok SEO: 2026'da Sosyal Aramada Kazanmak",
-      "titleEn": "TikTok SEO: Winning Social Search in 2026",
-      "slugTr": "tiktok-seo-sosyal-arama-2026",
-      "slugEn": "tiktok-seo-social-search-2026",
-      "keywordTr": "tiktok seo sosyal arama",
-      "keywordEn": "tiktok seo social search",
-      "angle": "how-to + optimize captions, keywords and topics for discovery",
-      "style": "contrarian",
-      "brief": "Contrarian how-to: as under-30s search TikTok and Instagram instead of Google, 'social SEO' is real but not classic SEO. Sections: how in-app search ranks video (spoken words, on-screen text, captions, hashtags, engagement); keyword research inside the app; structuring hooks and captions for search intent; evergreen vs trend content; measuring search-driven views. Verify: platform statements that content is indexed by transcript/on-screen text and the 'social as search' behavior stat. Sources: platform creator docs; National University 2026 social trends. Distinct from GEO and AI-search posts (this is in-app social search). End with a social-search optimization checklist."
-    },
-    {
-      "translationKey": "reddit-marketing-2026",
-      "category": "digital-marketing",
-      "titleTr": "2026'da Tepki Çekmeden Reddit Pazarlaması",
-      "titleEn": "Reddit Marketing in 2026 Without the Backlash",
-      "slugTr": "reddit-pazarlamasi-2026",
-      "slugEn": "reddit-marketing-2026",
-      "keywordTr": "reddit pazarlama",
-      "keywordEn": "reddit marketing",
-      "angle": "guide + earn trust in communities and show up in AI answers",
-      "style": "story-led",
-      "brief": "Story-led guide to Reddit marketing that communities tolerate. Sections: why Reddit matters twice in 2026 (real buyer research + heavy citation in AI answers/Google); reading subreddit culture and rules; the 90/10 give-first ratio; when to use ads vs organic; AMAs and founder participation; tracking mentions and sentiment. Verify: Reddit's weight in AI Overviews/LLM citations and self-promotion norms per major subreddits. Sources: Reddit's own advertising/community docs; studies on Reddit citations in AI search. No existing corpus post covers Reddit. End with a do/don't list and a first-30-days participation plan."
-    },
-    {
-      "translationKey": "affiliate-marketing-ai-2026",
-      "category": "digital-marketing",
-      "titleTr": "2026'da Affiliate Pazarlama: AI Destekli Rehber",
-      "titleEn": "Affiliate Marketing in 2026: An AI-Assisted Playbook",
-      "slugTr": "affiliate-pazarlama-ai-2026",
-      "slugEn": "affiliate-marketing-ai-2026",
-      "keywordTr": "affiliate pazarlama 2026",
-      "keywordEn": "affiliate marketing 2026",
-      "angle": "checklist + niche, content and disclosure that still works",
-      "style": "data-led",
-      "brief": "Data-led playbook for affiliate marketing when AI answers steal clicks. Sections: picking a defensible niche; content formats that still convert (deep reviews, comparisons, real testing) vs thin roundups AI Overviews replace; building trust and required FTC-style disclosures; diversifying traffic (search, social, email, community); tracking EPC and conversion. Verify: disclosure requirements and how AI Overviews are compressing informational affiliate traffic. Sources: FTC endorsement guidance; affiliate-network benchmark reports. Distinct from the newsletter-monetization and GEO posts. End with a niche-selection and content checklist."
-    },
     {
       "translationKey": "ai-review-reputation-management",
       "category": "digital-marketing",
