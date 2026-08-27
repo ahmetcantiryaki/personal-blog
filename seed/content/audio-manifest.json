@@ -2606,5 +2606,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3295234,
     "generatedAt": "2026-08-26T06:54:43.454Z"
+  },
+  "en/ai-review-reputation-management": {
+    "hash": "edc86823765810f0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-review-reputation-management.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3339955,
+    "generatedAt": "2026-08-27T06:51:46.443Z"
+  },
+  "en/ai-ugc-performance-ads": {
+    "hash": "4919b90df666b092",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-ugc-performance-ads.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3449879,
+    "generatedAt": "2026-08-27T06:54:13.963Z"
+  },
+  "en/claude-memory-chat-and-cowork-explained": {
+    "hash": "5b09fbdb946db62f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-memory-chat-and-cowork-explained.mp3",
+    "seconds": 388,
+    "voice": "en_US-ryan-high",
+    "bytes": 3100883,
+    "generatedAt": "2026-08-27T06:56:26.384Z"
+  },
+  "en/creator-burnout-sustainable-content": {
+    "hash": "26becb7bf5056fb7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-creator-burnout-sustainable-content.mp3",
+    "seconds": 379,
+    "voice": "en_US-ryan-high",
+    "bytes": 3034218,
+    "generatedAt": "2026-08-27T06:58:35.587Z"
+  },
+  "en/discord-vs-skool-vs-circle-community": {
+    "hash": "f6a3961004605519",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-discord-vs-skool-vs-circle-community.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3417278,
+    "generatedAt": "2026-08-27T07:01:01.961Z"
   }
 }
