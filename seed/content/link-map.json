@@ -98,6 +98,18 @@
   },
   "posts": [
     {
+      "translationKey": "ab-testing-cro-small-sites-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-siteler-icin-ab-testi-cro",
+        "title": "Az Trafikli Sitede A/B Testi Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "ab-testing-cro-small-sites",
+        "title": "How Do You A/B Test a Low-Traffic Site?"
+      }
+    },
+    {
       "translationKey": "advanced-typescript-patterns",
       "category": "software-engineering",
       "tr": {
@@ -110,6 +122,18 @@
       }
     },
     {
+      "translationKey": "affiliate-marketing-ai-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "affiliate-pazarlama-ai-2026",
+        "title": "2026'da Affiliate Pazarlama: AI Destekli Rehber"
+      },
+      "en": {
+        "slug": "affiliate-marketing-ai-2026",
+        "title": "Affiliate Marketing in 2026: An AI-Assisted Playbook"
+      }
+    },
+    {
       "translationKey": "agent-first-dev-tools",
       "category": "web-development",
       "tr": {
@@ -119,6 +143,30 @@
       "en": {
         "slug": "agent-first-dev-tools",
         "title": "Your Dev Tools Are Now Built for AI Agents"
+      }
+    },
+    {
+      "translationKey": "agentic-browsers-comparison",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-tarayicilari-karsilastirma",
+        "title": "Yapay Zeka Tarayıcıları: Comet, Atlas ve Gemini"
+      },
+      "en": {
+        "slug": "ai-browsers-compared-comet-atlas-gemini",
+        "title": "AI Browsers Compared: Comet, Atlas and Gemini"
+      }
+    },
+    {
+      "translationKey": "agentic-workspaces-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "isi-yapan-ai-chatgpt-work-cowork-gemini",
+        "title": "İşi Yapan AI: ChatGPT Work, Cowork, Gemini"
+      },
+      "en": {
+        "slug": "chatgpt-work-vs-cowork-vs-gemini",
+        "title": "AI That Does the Work: ChatGPT Work vs Cowork vs Gemini"
       }
     },
     {
@@ -146,6 +194,30 @@
       }
     },
     {
+      "translationKey": "ai-agentic-actions-real-world-tasks",
+      "category": "technology",
+      "tr": {
+        "slug": "senin-yerine-is-yapan-ai-ajan-eylemleri",
+        "title": "AI Senin Yerine Rezervasyon Yapabilir mi?"
+      },
+      "en": {
+        "slug": "ai-agentic-actions-real-world-tasks",
+        "title": "Can AI Actually Book and Buy Things for You?"
+      }
+    },
+    {
+      "translationKey": "ai-agents-in-cicd-safely",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ai-ajanlari-cicd-guvenle-baglamak",
+        "title": "AI Ajanlarını CI/CD'ye Güvenle Bağlamak"
+      },
+      "en": {
+        "slug": "ai-agents-in-cicd-safely",
+        "title": "Wiring AI Agents Into Your CI/CD Safely"
+      }
+    },
+    {
       "translationKey": "ai-agents-vs-workflows",
       "category": "ai",
       "tr": {
@@ -155,6 +227,66 @@
       "en": {
         "slug": "ai-agents-vs-workflows",
         "title": "AI Agents vs Workflows: When to Use Each"
+      }
+    },
+    {
+      "translationKey": "ai-assistant-subscription-buyers-guide-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "hangi-ai-aboneligi-claude-chatgpt-gemini",
+        "title": "Hangi AI Aboneliği: Claude, ChatGPT, Gemini?"
+      },
+      "en": {
+        "slug": "which-ai-subscription-2026",
+        "title": "Which AI Subscription in 2026: Claude, ChatGPT, Gemini"
+      }
+    },
+    {
+      "translationKey": "ai-assistants-android-vs-iphone",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-asistanlar-android-vs-iphone-2026",
+        "title": "Yapay Zeka Asistanları: Android mi iPhone mi 2026"
+      },
+      "en": {
+        "slug": "ai-assistants-android-vs-iphone",
+        "title": "AI Assistants: Android vs iPhone in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-automation-services-business",
+      "category": "business",
+      "tr": {
+        "slug": "isletmelere-ai-otomasyon-hizmeti-satmak",
+        "title": "İşletmelere AI Otomasyon Hizmeti Satmak"
+      },
+      "en": {
+        "slug": "selling-ai-automation-services",
+        "title": "Selling AI Automation Services to Businesses"
+      }
+    },
+    {
+      "translationKey": "ai-bookkeeping-for-founders",
+      "category": "business",
+      "tr": {
+        "slug": "kurucular-icin-ai-muhasebe-neyi-otomatiklestir",
+        "title": "Kurucular İçin AI Muhasebe: Neyi Otomatikleştir?"
+      },
+      "en": {
+        "slug": "ai-bookkeeping-for-founders",
+        "title": "AI Bookkeeping for Founders: What to Automate"
+      }
+    },
+    {
+      "translationKey": "ai-code-review-trust-but-verify",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-ile-kod-incelemesi-guven-dogrula",
+        "title": "AI ile Kod İncelemesi: Güven Ama Doğrula"
+      },
+      "en": {
+        "slug": "ai-code-review-trust-but-verify",
+        "title": "AI Code Review: Trust, but Verify"
       }
     },
     {
@@ -182,6 +314,18 @@
       }
     },
     {
+      "translationKey": "ai-earbuds-live-translation-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-kulaklik-ve-canli-ceviri-abarti-mi",
+        "title": "AI Kulaklık ve Canlı Çeviri: Abartı mı?"
+      },
+      "en": {
+        "slug": "ai-earbuds-live-translation-hype",
+        "title": "AI Earbuds and Live Translation: Hype?"
+      }
+    },
+    {
       "translationKey": "ai-game-dev-stories",
       "category": "technology",
       "tr": {
@@ -191,6 +335,66 @@
       "en": {
         "slug": "ai-game-dev-stories",
         "title": "Real Stories of Developers Making Games with AI"
+      }
+    },
+    {
+      "translationKey": "ai-inbox-zero-email-triage",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-inbox-zero-e-posta-triyaji",
+        "title": "AI ile Inbox Zero: E-posta Triyajı Rehberi"
+      },
+      "en": {
+        "slug": "inbox-zero-with-ai-email-triage",
+        "title": "Inbox Zero with AI: Smarter Email Triage"
+      }
+    },
+    {
+      "translationKey": "ai-marketing-automation-zapier-make",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ile-pazarlama-otomasyonu-zapier-make",
+        "title": "AI ile Pazarlama Otomasyonu: Zapier, Make"
+      },
+      "en": {
+        "slug": "marketing-automation-with-ai-zapier-make",
+        "title": "Marketing Automation with AI: Zapier & Make"
+      }
+    },
+    {
+      "translationKey": "ai-meeting-assistants-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-toplanti-asistanlari-kiyaslamasi-2026",
+        "title": "AI Toplantı Asistanları Kıyaslaması 2026"
+      },
+      "en": {
+        "slug": "ai-meeting-assistants-compared-2026",
+        "title": "AI Meeting Assistants Compared in 2026"
+      }
+    },
+    {
+      "translationKey": "ai-overviews-eating-clicks-survival",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ozetleri-tiklama-hayatta-kalma",
+        "title": "AI Özetleri Tıklamaları Yiyor: Hayatta Kalma Planı"
+      },
+      "en": {
+        "slug": "ai-overviews-eating-clicks-survival",
+        "title": "AI Overviews Are Eating Clicks: A Survival Plan"
+      }
+    },
+    {
+      "translationKey": "ai-pc-npu-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-bilgisayarlar-npu-nedir",
+        "title": "AI Bilgisayarlar: NPU Aslında Ne Yapar?"
+      },
+      "en": {
+        "slug": "ai-pc-npu-explained",
+        "title": "AI PCs Explained: What an NPU Actually Does"
       }
     },
     {
@@ -218,6 +422,42 @@
       }
     },
     {
+      "translationKey": "ai-resume-mistakes-ats",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-cv-yazarken-6-hata-ats",
+        "title": "AI ile CV Yazarken 6 Hata (ve ATS Tuzağı)"
+      },
+      "en": {
+        "slug": "ai-resume-mistakes-ats",
+        "title": "6 Mistakes Using AI for Your Resume (and ATS)"
+      }
+    },
+    {
+      "translationKey": "ai-review-reputation-management",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-yorum-itibar-yonetimi",
+        "title": "Online İtibar Yönetimi: Yıldız Değil, Sistem"
+      },
+      "en": {
+        "slug": "ai-review-reputation-management",
+        "title": "Online Reviews: It's a System, Not a Star Average"
+      }
+    },
+    {
+      "translationKey": "ai-shopify-product-descriptions",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ile-shopify-urun-aciklamalari",
+        "title": "AI ile Shopify Ürün Açıklamaları Yazmak"
+      },
+      "en": {
+        "slug": "ai-shopify-product-descriptions",
+        "title": "Writing Shopify Product Descriptions with AI"
+      }
+    },
+    {
       "translationKey": "ai-slop-open-source-security",
       "category": "software-engineering",
       "tr": {
@@ -230,51 +470,147 @@
       }
     },
     {
-      "translationKey": "building-in-public-developers",
-      "category": "career-productivity",
+      "translationKey": "ai-smart-glasses-2026-meta-vs-android-xr",
+      "category": "technology",
       "tr": {
-        "slug": "acikta-gelistirme-yazilimci-rehberi",
-        "title": "Açıkta Geliştirme: Yazılımcı Rehberi"
+        "slug": "ai-akilli-gozlukler-2026-meta-android-xr",
+        "title": "AI Akıllı Gözlükler 2026: Meta ve Android XR"
       },
       "en": {
-        "slug": "building-in-public-developer-playbook",
-        "title": "Building in Public: A Developer's Playbook"
+        "slug": "ai-smart-glasses-2026-meta-vs-android-xr",
+        "title": "AI Smart Glasses 2026: Meta vs Android XR"
       }
     },
     {
-      "translationKey": "bun-vs-node-runtime",
-      "category": "web-development",
+      "translationKey": "ai-support-chatbot-without-code",
+      "category": "business",
       "tr": {
-        "slug": "bun-mu-nodejs-mi-2026-runtime",
-        "title": "Bun mu Node.js mi: 2026 Runtime Kararı"
+        "slug": "kod-yazmadan-ai-musteri-destek-botu",
+        "title": "Kod Yazmadan AI Müşteri Destek Botu Kurmak"
       },
       "en": {
-        "slug": "bun-vs-nodejs-2026-runtime",
-        "title": "Bun vs Node.js: The 2026 Runtime Verdict"
+        "slug": "ai-support-chatbot-without-code",
+        "title": "Build an AI Support Chatbot Without Code"
       }
     },
     {
-      "translationKey": "claude-for-teachers-launch",
+      "translationKey": "ai-ugc-performance-ads",
+      "category": "social-media",
+      "tr": {
+        "slug": "ai-ugc-reklamlari-creator-video",
+        "title": "AI UGC Reklamları Gerçekten Dönüştürüyor mu?"
+      },
+      "en": {
+        "slug": "ai-ugc-performance-ads",
+        "title": "Do AI UGC Ads Actually Convert?"
+      }
+    },
+    {
+      "translationKey": "ai-vendor-lock-in-startups",
+      "category": "business",
+      "tr": {
+        "slug": "ai-tedarikci-bagimliligi-tek-model",
+        "title": "AI'da Tedarikçi Bağımlılığı: Tek Modele Güvenmek"
+      },
+      "en": {
+        "slug": "ai-vendor-lock-in-startups",
+        "title": "AI Vendor Lock-In: Betting Your Startup on One Model"
+      }
+    },
+    {
+      "translationKey": "ai-video-generation-2026-sora-vs-veo",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-video-uretimi-2026-sora-veo",
+        "title": "AI Video Üretimi 2026: Sora, Veo ve Fazlası"
+      },
+      "en": {
+        "slug": "ai-video-generation-2026-sora-vs-veo",
+        "title": "AI Video Generation 2026: Sora vs Veo Compared"
+      }
+    },
+    {
+      "translationKey": "ai-voice-assistants-compared-2026",
       "category": "ai",
       "tr": {
-        "slug": "claude-for-teachers-nedir",
-        "title": "Claude for Teachers Nedir? Anthropic K-12'ye Açıldı"
+        "slug": "ai-sesli-asistan-kiyaslamasi-gpt-live-gemini-claude",
+        "title": "AI Sesli Asistan Kıyaslaması: GPT-Live, Gemini, Claude"
       },
       "en": {
-        "slug": "claude-for-teachers-explained",
-        "title": "Claude for Teachers: Anthropic Goes Free for K-12"
+        "slug": "ai-voice-assistants-compared-gpt-live-gemini-claude",
+        "title": "AI Voice Assistants Compared: GPT-Live, Gemini, Claude"
       }
     },
     {
-      "translationKey": "effective-code-reviews",
-      "category": "career-productivity",
+      "translationKey": "ai-voice-recorder-gadgets-2026",
+      "category": "technology",
       "tr": {
-        "slug": "etkili-kod-incelemesi",
-        "title": "Etkili Kod İncelemesi Nasıl Yapılır"
+        "slug": "ai-ses-kaydediciler-not-cihazlari-2026",
+        "title": "AI Ses Kaydedici Cihaza Değer mi?"
       },
       "en": {
-        "slug": "effective-code-reviews",
-        "title": "How to Run Effective Code Reviews"
+        "slug": "ai-voice-recorders-note-gadgets-2026",
+        "title": "Are Dedicated AI Voice Recorders Worth It?"
+      }
+    },
+    {
+      "translationKey": "algorithm-proof-your-content-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "icerigi-algoritmaya-dayanikli-yap",
+        "title": "İçeriğini Algoritmaya Karşı Dayanıklı Yap"
+      },
+      "en": {
+        "slug": "algorithm-proof-your-content-2026",
+        "title": "Algorithm-Proof Your Content in 2026"
+      }
+    },
+    {
+      "translationKey": "anthropic-enterprise-data-retention-policy-change",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-veri-saklama-politikasini-neden-degistiriyor",
+        "title": "Anthropic Veri Saklama Politikasını Neden Değiştiriyor?"
+      },
+      "en": {
+        "slug": "why-anthropic-is-changing-data-retention-policy",
+        "title": "Why Is Anthropic Changing Its Data Retention Policy?"
+      }
+    },
+    {
+      "translationKey": "anthropic-python-sdk-v1",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-python-sdk-v1-gecis-rehberi",
+        "title": "Anthropic Python SDK v1.0'da Neler Bozuluyor?"
+      },
+      "en": {
+        "slug": "anthropic-python-sdk-v1-migration-guide",
+        "title": "Anthropic Python SDK v1.0: What Actually Breaks?"
+      }
+    },
+    {
+      "translationKey": "apache-iceberg-lakehouse",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "apache-iceberg-nedir-lakehouse",
+        "title": "Apache Iceberg Nedir? Lakehouse'un Yeni Standardı"
+      },
+      "en": {
+        "slug": "what-is-apache-iceberg-lakehouse",
+        "title": "What Is Apache Iceberg? The Lakehouse Standard"
+      }
+    },
+    {
+      "translationKey": "api-versioning-strategies-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "api-versiyonlama-stratejileri",
+        "title": "API Versiyonlama Stratejileri"
+      },
+      "en": {
+        "slug": "api-versioning-strategies",
+        "title": "API Versioning Strategies That Scale"
       }
     },
     {
@@ -302,6 +638,18 @@
       }
     },
     {
+      "translationKey": "beat-procrastination-systems",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ertelemeyi-kiran-sistemler",
+        "title": "Erteleme Alışkanlığını Kıran Sistemler"
+      },
+      "en": {
+        "slug": "beat-procrastination-systems-that-stick",
+        "title": "Beat Procrastination With Systems That Stick"
+      }
+    },
+    {
       "translationKey": "best-ai-image-generators-2026",
       "category": "ai",
       "tr": {
@@ -311,6 +659,18 @@
       "en": {
         "slug": "best-ai-image-generators-2026",
         "title": "The Best AI Image Generators in 2026, Ranked"
+      }
+    },
+    {
+      "translationKey": "biome-oxc-rust-tooling",
+      "category": "web-development",
+      "tr": {
+        "slug": "eslint-yerine-biome-ve-oxlint",
+        "title": "ESLint ve Prettier'e Veda: Biome ve Oxlint"
+      },
+      "en": {
+        "slug": "biome-vs-oxlint-eslint-migration",
+        "title": "Biome vs Oxlint: Rust Tooling Replaces ESLint"
       }
     },
     {
@@ -326,6 +686,66 @@
       }
     },
     {
+      "translationKey": "bootstrap-ai-startup-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-girisimi-bootstrap-2026",
+        "title": "2026'da AI Girişimi Bootstrap Edilir mi?"
+      },
+      "en": {
+        "slug": "bootstrap-ai-startup-2026",
+        "title": "Can You Bootstrap an AI Startup in 2026?"
+      }
+    },
+    {
+      "translationKey": "bootstrap-vs-vc-2026",
+      "category": "business",
+      "tr": {
+        "slug": "bootstrap-mi-vc-mi-2026-dogru-secim",
+        "title": "Bootstrap mı VC mi? 2026 İçin Doğru Seçim"
+      },
+      "en": {
+        "slug": "bootstrap-or-vc-2026",
+        "title": "Bootstrap or VC? Making the Call in 2026"
+      }
+    },
+    {
+      "translationKey": "brand-voice-guide-for-ai",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-uyacagi-marka-sesi-rehberi",
+        "title": "AI'ın Uyacağı Bir Marka Sesi Rehberi"
+      },
+      "en": {
+        "slug": "brand-voice-guide-for-ai",
+        "title": "Build a Brand Voice Guide Your AI Will Follow"
+      }
+    },
+    {
+      "translationKey": "break-into-ai-engineering-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "2026-ai-muhendisligine-nasil-gecilir",
+        "title": "2026'da AI Mühendisliğine Nasıl Geçilir?"
+      },
+      "en": {
+        "slug": "break-into-ai-engineering-2026",
+        "title": "How to Break Into AI Engineering in 2026"
+      }
+    },
+    {
+      "translationKey": "build-browser-extension-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "2026-tarayici-eklentisi-nasil-yapilir",
+        "title": "2026'da Tarayıcı Eklentisi Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "build-browser-extension-2026",
+        "title": "How to Build a Browser Extension in 2026"
+      }
+    },
+    {
       "translationKey": "build-cicd-pipeline",
       "category": "devops-cloud",
       "tr": {
@@ -335,6 +755,18 @@
       "en": {
         "slug": "how-to-build-cicd-pipeline",
         "title": "How to Build a CI/CD Pipeline from Scratch"
+      }
+    },
+    {
+      "translationKey": "build-community-not-followers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "takipci-degil-topluluk-2026",
+        "title": "Takipçi Değil Topluluk: 2026 Yaklaşımı"
+      },
+      "en": {
+        "slug": "build-community-not-followers-2026",
+        "title": "Build Community, Not Followers, in 2026"
       }
     },
     {
@@ -350,6 +782,90 @@
       }
     },
     {
+      "translationKey": "build-your-first-mcp-connector",
+      "category": "ai",
+      "tr": {
+        "slug": "ilk-mcp-baglayicini-yaz-2026",
+        "title": "İlk MCP Bağlayıcını Yaz (2026 Spec)"
+      },
+      "en": {
+        "slug": "build-your-first-mcp-connector",
+        "title": "Build Your First MCP Connector (2026 Spec)"
+      }
+    },
+    {
+      "translationKey": "building-in-public-developers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "acikta-gelistirme-yazilimci-rehberi",
+        "title": "Açıkta Geliştirme: Yazılımcı Rehberi"
+      },
+      "en": {
+        "slug": "building-in-public-developer-playbook",
+        "title": "Building in Public: A Developer's Playbook"
+      }
+    },
+    {
+      "translationKey": "building-with-gemini-flash-3-6",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-6-flash-ile-gelistirme",
+        "title": "Gemini 3.6 Flash ile Ucuz ve Hızlı AI"
+      },
+      "en": {
+        "slug": "building-with-gemini-3-6-flash",
+        "title": "Building With Gemini 3.6 Flash: Cheap, Fast AI"
+      }
+    },
+    {
+      "translationKey": "bun-vs-node-runtime",
+      "category": "web-development",
+      "tr": {
+        "slug": "bun-mu-nodejs-mi-2026-runtime",
+        "title": "Bun mu Node.js mi: 2026 Runtime Kararı"
+      },
+      "en": {
+        "slug": "bun-vs-nodejs-2026-runtime",
+        "title": "Bun vs Node.js: The 2026 Runtime Verdict"
+      }
+    },
+    {
+      "translationKey": "caching-strategies-invalidation",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "cache-stratejileri-gecersiz-kilma",
+        "title": "Cache Stratejileri ve Geçersiz Kılma"
+      },
+      "en": {
+        "slug": "caching-strategies-and-invalidation",
+        "title": "Caching Strategies and Invalidation"
+      }
+    },
+    {
+      "translationKey": "chatgpt-ads-small-business",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-isletme-chatgpt-reklamlari",
+        "title": "Küçük İşletme İçin ChatGPT Reklamları: Değer mi?"
+      },
+      "en": {
+        "slug": "chatgpt-ads-small-business",
+        "title": "ChatGPT Ads for Small Business: Worth It?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-business-premium-seats",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-business-premium-seat-125-dolar",
+        "title": "ChatGPT Business'a 125 Dolarlık Premium Seat Geldi"
+      },
+      "en": {
+        "slug": "chatgpt-business-premium-seats-explained",
+        "title": "ChatGPT Business Gets a $125 Premium Seat Tier"
+      }
+    },
+    {
       "translationKey": "chatgpt-complete-guide",
       "category": "ai",
       "tr": {
@@ -359,6 +875,162 @@
       "en": {
         "slug": "chatgpt-complete-guide-2026",
         "title": "ChatGPT Complete Guide 2026: Free, Go, Plus or Pro"
+      }
+    },
+    {
+      "translationKey": "chatgpt-computer-history-privacy",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-computer-history-kullanim-gizlilik",
+        "title": "ChatGPT Computer History: Kullanım ve Gizlilik Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-computer-history-privacy",
+        "title": "ChatGPT Computer History: How to Use It Safely"
+      }
+    },
+    {
+      "translationKey": "chatgpt-for-teens-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-for-teens-nedir-yas-tahmini",
+        "title": "ChatGPT for Teens Nedir? Yaş Tahmini Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "chatgpt-for-teens-age-prediction-explained",
+        "title": "What Is ChatGPT for Teens? How Age Prediction Works"
+      }
+    },
+    {
+      "translationKey": "chatgpt-free-unlimited-thinking-slider",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-sinirsiz-sohbet-dusunme-kaydiragi",
+        "title": "ChatGPT'de Sınırsız Sohbet ve Yeni Düşünme Kaydırağı"
+      },
+      "en": {
+        "slug": "chatgpt-free-unlimited-chats-thinking-slider",
+        "title": "ChatGPT Goes Unlimited: Free Chats, New Thinking Slider"
+      }
+    },
+    {
+      "translationKey": "chatgpt-health-records-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "chatgpt-health-saglik-verini-baglamak",
+        "title": "ChatGPT Health: Sağlık Verini Bağlamak"
+      },
+      "en": {
+        "slug": "chatgpt-health-connecting-your-records",
+        "title": "ChatGPT Health: Connecting Your Records"
+      }
+    },
+    {
+      "translationKey": "chatgpt-instagram-content-small-business",
+      "category": "social-media",
+      "tr": {
+        "slug": "chatgpt-ile-instagram-icerigi-kucuk-isletme",
+        "title": "ChatGPT ile Instagram İçeriği: Küçük İşletme Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-instagram-content-small-business",
+        "title": "ChatGPT for Instagram Content: A Small Business Guide"
+      }
+    },
+    {
+      "translationKey": "chatgpt-plugin-directory-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-eklentileri-2026-rehberi",
+        "title": "ChatGPT Eklentileri Geri Döndü: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-plugins-2026-directory-guide",
+        "title": "ChatGPT Plugins Return: The 2026 Directory Guide"
+      }
+    },
+    {
+      "translationKey": "chatgpt-pulse-proactive-briefing",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-pulse-gunluk-ozet",
+        "title": "ChatGPT Pulse Kapandı: Scheduled Tasks Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-pulse-daily-briefing",
+        "title": "ChatGPT Pulse Is Gone: Your Scheduled Tasks Guide"
+      }
+    },
+    {
+      "translationKey": "chatgpt-work-agent-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-work-nedir-openai-is-ajani",
+        "title": "ChatGPT Work Nedir? OpenAI'ın Yeni İş Ajanı"
+      },
+      "en": {
+        "slug": "chatgpt-work-openai-agent-explained",
+        "title": "ChatGPT Work: OpenAI's New Agent for Multi-Step Projects"
+      }
+    },
+    {
+      "translationKey": "claude-academy-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-academy-nedir",
+        "title": "Claude Academy Nedir? Anthropic'in Yeni Öğrenme Merkezi"
+      },
+      "en": {
+        "slug": "claude-academy-explained",
+        "title": "What Is Claude Academy? Anthropic's New Learning Hub"
+      }
+    },
+    {
+      "translationKey": "claude-artifacts-live-mcp-data",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-artifacts-canli-mcp-verisi",
+        "title": "Claude Artifacts Artık Canlı MCP Verisi Çekiyor"
+      },
+      "en": {
+        "slug": "claude-artifacts-live-mcp-data",
+        "title": "Claude Artifacts Can Now Pull Live Data via MCP"
+      }
+    },
+    {
+      "translationKey": "claude-browser-use-tool-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-browser-use-araci-nedir",
+        "title": "Claude Browser Use Aracı Nedir?"
+      },
+      "en": {
+        "slug": "what-is-claude-browser-use-tool",
+        "title": "What Is Claude's New Browser Use Tool?"
+      }
+    },
+    {
+      "translationKey": "claude-chatgpt-gemini-for-creators",
+      "category": "social-media",
+      "tr": {
+        "slug": "icerik-ureticiler-claude-chatgpt-gemini",
+        "title": "İçerik Üreticileri İçin Claude, ChatGPT, Gemini"
+      },
+      "en": {
+        "slug": "claude-chatgpt-gemini-for-creators",
+        "title": "Claude vs ChatGPT vs Gemini for Creators"
+      }
+    },
+    {
+      "translationKey": "claude-code-auto-mode-default-rollout",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-auto-mode-varsayilan-oluyor",
+        "title": "Claude Code'da Auto Mode Varsayılan Oluyor"
+      },
+      "en": {
+        "slug": "claude-code-auto-mode-becomes-default",
+        "title": "Claude Code Auto Mode Becomes the Default"
       }
     },
     {
@@ -374,6 +1046,30 @@
       }
     },
     {
+      "translationKey": "claude-code-cross-session-messaging",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-oturumlar-arasi-mesajlasma",
+        "title": "Claude Code'da Oturumlar Birbirine Mesaj Atabiliyor"
+      },
+      "en": {
+        "slug": "claude-code-cross-session-messaging",
+        "title": "Claude Code Sessions Can Now Message Each Other"
+      }
+    },
+    {
+      "translationKey": "claude-code-gitlab-integration",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-artik-gitlab-destekliyor",
+        "title": "Claude Code Artık GitLab'ı Destekliyor mu?"
+      },
+      "en": {
+        "slug": "claude-code-gitlab-integration",
+        "title": "Does Claude Code Support GitLab Now?"
+      }
+    },
+    {
       "translationKey": "claude-code-hidden-tracking-code",
       "category": "ai",
       "tr": {
@@ -383,6 +1079,42 @@
       "en": {
         "slug": "claude-code-hidden-tracking-code",
         "title": "Claude Code's Hidden Tracking Code, Explained"
+      }
+    },
+    {
+      "translationKey": "claude-code-nested-subagents-depth-3",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-ic-ice-alt-ajanlar-derinlik-3",
+        "title": "Claude Code'da İç İçe Alt Ajanlar: Yasaktan Derinlik 3'e"
+      },
+      "en": {
+        "slug": "claude-code-nested-subagents-depth-3",
+        "title": "Claude Code Nested Subagents: Banned to Depth-3 in Four Days"
+      }
+    },
+    {
+      "translationKey": "claude-code-runaway-agent-guardrails",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-kacak-ajanlara-fren",
+        "title": "Claude Code Kaçak Ajanlara Fren Getirdi"
+      },
+      "en": {
+        "slug": "claude-code-runaway-agent-guardrails",
+        "title": "Claude Code Adds Guardrails Against Runaway Agents"
+      }
+    },
+    {
+      "translationKey": "claude-code-self-hosted-environments",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-kendi-altyapinizda-calisan-oturumlar",
+        "title": "Claude Code Self-Hosted Environments Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-self-hosted-environments",
+        "title": "Claude Code Self-Hosted Environments Explained"
       }
     },
     {
@@ -398,6 +1130,30 @@
       }
     },
     {
+      "translationKey": "claude-code-transcript-deletion-bug",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-oturum-kayitlarini-sessizce-siliyor",
+        "title": "Claude Code Oturum Kayıtlarını Sessizce Siliyor"
+      },
+      "en": {
+        "slug": "claude-code-silently-deletes-session-transcripts",
+        "title": "Claude Code Silently Deletes Session Transcripts"
+      }
+    },
+    {
+      "translationKey": "claude-compliance-api-cowork-claude-code",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-compliance-api-cowork-claude-code-denetimi",
+        "title": "Claude Compliance API: Cowork ve Claude Code Denetimi"
+      },
+      "en": {
+        "slug": "claude-compliance-api-cowork-claude-code",
+        "title": "Claude Compliance API Now Covers Cowork and Claude Code"
+      }
+    },
+    {
       "translationKey": "claude-cowork-web-mobile-expansion",
       "category": "ai",
       "tr": {
@@ -407,6 +1163,54 @@
       "en": {
         "slug": "claude-cowork-web-mobile-expansion",
         "title": "Claude Cowork Expands to Web and Mobile"
+      }
+    },
+    {
+      "translationKey": "claude-design-decks-prototypes",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-design-sohbetle-sunum-prototip",
+        "title": "Claude Design: Sohbetle Sunum ve Prototip"
+      },
+      "en": {
+        "slug": "claude-design-decks-prototypes",
+        "title": "Claude Design: Decks and Prototypes by Chatting"
+      }
+    },
+    {
+      "translationKey": "claude-economic-index-connector",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-ekonomi-endeksi-baglantisi",
+        "title": "Claude'a Ekonomi Endeksi'ni Sormak"
+      },
+      "en": {
+        "slug": "claude-economic-index-connector",
+        "title": "Ask Claude About the Anthropic Economic Index"
+      }
+    },
+    {
+      "translationKey": "claude-files-api-ga",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-files-api-ga-ne-anlama-geliyor",
+        "title": "Claude Files API GA'ya Geçti: Ne Değişti?"
+      },
+      "en": {
+        "slug": "claude-files-api-ga-explained",
+        "title": "Claude's Files API Is Now GA: What Changed?"
+      }
+    },
+    {
+      "translationKey": "claude-for-teachers-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-for-teachers-nedir",
+        "title": "Claude for Teachers Nedir? Anthropic K-12'ye Açıldı"
+      },
+      "en": {
+        "slug": "claude-for-teachers-explained",
+        "title": "Claude for Teachers: Anthropic Goes Free for K-12"
       }
     },
     {
@@ -422,6 +1226,150 @@
       }
     },
     {
+      "translationKey": "claude-inference-hooks-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-inference-hooks-guvenlik-sunucusu",
+        "title": "Claude Inference Hooks: AI Güvenlik Sunucusu Kurmak"
+      },
+      "en": {
+        "slug": "claude-inference-hooks-explained",
+        "title": "Claude Inference Hooks: Build Your AI Security Server"
+      }
+    },
+    {
+      "translationKey": "claude-invisible-text-watermark",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-metinleri-damgaliyor",
+        "title": "Claude Artık Her Metni Damgalıyor: Kapatma Yok"
+      },
+      "en": {
+        "slug": "claude-watermarks-ai-text-no-opt-out",
+        "title": "Claude Now Watermarks Every Output, No Opt-Out"
+      }
+    },
+    {
+      "translationKey": "claude-managed-agents-budgets-advisors-residency",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-managed-agents-butce-danisman-veri-konumu",
+        "title": "Claude Managed Agents: Bütçe, Danışman, Veri Konumu"
+      },
+      "en": {
+        "slug": "claude-managed-agents-budgets-advisors-data-residency",
+        "title": "Claude Managed Agents Gets Budgets, Advisors, Data Residency"
+      }
+    },
+    {
+      "translationKey": "claude-network-outage-july-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-24-saatte-iki-kez-coktu",
+        "title": "Claude 24 Saatte İki Kez Çöktü: Ne Oldu?"
+      },
+      "en": {
+        "slug": "claude-outage-twice-in-24-hours",
+        "title": "Claude Went Down Twice in 24 Hours: What Broke"
+      }
+    },
+    {
+      "translationKey": "claude-opus-4-1-retirement-migration",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-opus-4-1-emekli-oldu-gecis-rehberi",
+        "title": "Claude Opus 4.1 Emekli Oldu: Opus 4.8'e Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "claude-opus-4-1-retires-migrate-to-opus-4-8",
+        "title": "Claude Opus 4.1 Retires: Your Migration Guide to Opus 4.8"
+      }
+    },
+    {
+      "translationKey": "claude-opus-5-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-opus-5-geldi",
+        "title": "Claude Opus 5 Geldi: Yarı Fiyata Frontier Zeka"
+      },
+      "en": {
+        "slug": "claude-opus-5-launch",
+        "title": "Claude Opus 5 Arrives: Frontier AI at Half Price"
+      }
+    },
+    {
+      "translationKey": "claude-red-team-test-real-company-breach",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-guvenlik-testinde-gercek-sirketlere-sizdi",
+        "title": "Claude Güvenlik Testinde Gerçek Şirketlere Nasıl Sızdı?"
+      },
+      "en": {
+        "slug": "claude-security-test-breached-real-companies",
+        "title": "How Claude Breached Real Companies During a Security Test"
+      }
+    },
+    {
+      "translationKey": "claude-reflect-usage-dashboard",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-reflect-nedir-anthropic-panosu",
+        "title": "Claude Reflect Nedir? Anthropic'in Yeni Panosu"
+      },
+      "en": {
+        "slug": "claude-reflect-usage-dashboard-explained",
+        "title": "Claude Reflect: Anthropic's New AI Usage Dashboard"
+      }
+    },
+    {
+      "translationKey": "claude-science-ai-workbench",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-science-arastirmacilar-ai-tezgahi",
+        "title": "Claude Science: Araştırmacılar İçin AI Tezgahı"
+      },
+      "en": {
+        "slug": "claude-science-ai-workbench",
+        "title": "Claude Science: An AI Workbench for Research"
+      }
+    },
+    {
+      "translationKey": "claude-share-links-google-indexed",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-paylasim-linkleri-google-indekslendi",
+        "title": "Claude Sohbetleri Google'da Nasıl İndekslendi?"
+      },
+      "en": {
+        "slug": "claude-shared-chats-google-indexed",
+        "title": "How Claude's Shared Chats Ended Up on Google"
+      }
+    },
+    {
+      "translationKey": "claude-skill-plugin-security-scanning",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-skill-plugin-guvenlik-taramasi",
+        "title": "Claude Skill ve Plugin Güvenlik Taraması Nedir?"
+      },
+      "en": {
+        "slug": "claude-skill-plugin-security-scanning",
+        "title": "Claude's New Skill and Plugin Security Scanner"
+      }
+    },
+    {
+      "translationKey": "claude-skills-explained-for-everyone",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-skills-nedir-herkes-icin",
+        "title": "Claude Skills Nedir? Herkes İçin Pratik Rehber"
+      },
+      "en": {
+        "slug": "claude-skills-explained-for-everyone",
+        "title": "Claude Skills Explained: A Guide for Everyone"
+      }
+    },
+    {
       "translationKey": "claude-social-media-guide",
       "category": "social-media",
       "tr": {
@@ -434,6 +1382,30 @@
       }
     },
     {
+      "translationKey": "claude-sonnet-5-permanent-pricing",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-fiyati-kalici-oldu",
+        "title": "Claude Sonnet 5'te Zam İptal: Fiyat Kalıcı Oldu"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-permanent-pricing",
+        "title": "Claude Sonnet 5 Locks In $2/$10 Pricing, Cancels Sept Hike"
+      }
+    },
+    {
+      "translationKey": "claude-unified-memory-chat-cowork",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-hafizasi-chat-cowork-birlesti",
+        "title": "Claude Hafızası Artık Chat ve Cowork'te Ortak"
+      },
+      "en": {
+        "slug": "claude-memory-chat-and-cowork-explained",
+        "title": "Claude Now Shares Memory Across Chat and Cowork"
+      }
+    },
+    {
       "translationKey": "clean-code-principles",
       "category": "software-engineering",
       "tr": {
@@ -443,6 +1415,66 @@
       "en": {
         "slug": "clean-code-principles-checklist",
         "title": "Clean Code Principles: A Practical Checklist"
+      }
+    },
+    {
+      "translationKey": "cofounder-equity-vesting-basics",
+      "category": "business",
+      "tr": {
+        "slug": "kurucu-ortak-hisse-ve-vesting-rehberi",
+        "title": "Kurucu Ortak Hisse ve Vesting Rehberi"
+      },
+      "en": {
+        "slug": "cofounder-equity-vesting-explained",
+        "title": "Co-Founder Equity and Vesting, Explained"
+      }
+    },
+    {
+      "translationKey": "cold-outbound-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ile-soguk-erisim-toplanti",
+        "title": "AI ile Toplantı Getiren Soğuk Erişim"
+      },
+      "en": {
+        "slug": "cold-outbound-with-ai",
+        "title": "Cold Outbound That Books Meetings, With AI"
+      }
+    },
+    {
+      "translationKey": "community-platforms-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "discord-skool-circle-topluluk-platformu",
+        "title": "Discord mu Skool mu Circle mı: Hangisi Sana Göre?"
+      },
+      "en": {
+        "slug": "discord-vs-skool-vs-circle-community",
+        "title": "Discord vs Skool vs Circle: Which Fits You?"
+      }
+    },
+    {
+      "translationKey": "concurrency-bugs-mistakes",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "eszamanlilik-hatalari-kacinma-yollari",
+        "title": "Eşzamanlılık Hataları ve Kaçınma Yolları"
+      },
+      "en": {
+        "slug": "concurrency-bugs-how-to-avoid",
+        "title": "Concurrency Bugs and How to Avoid Them"
+      }
+    },
+    {
+      "translationKey": "content-calendar-batch-month-in-day",
+      "category": "social-media",
+      "tr": {
+        "slug": "bir-gunde-bir-aylik-icerik-uret",
+        "title": "Bir Günde Bir Aylık İçerik Üret"
+      },
+      "en": {
+        "slug": "batch-month-content-in-a-day",
+        "title": "Batch a Month of Content in a Single Day"
       }
     },
     {
@@ -482,6 +1514,30 @@
       }
     },
     {
+      "translationKey": "create-social-videos-with-ai-workflow",
+      "category": "social-media",
+      "tr": {
+        "slug": "ai-ile-sosyal-medya-videosu-uretmek",
+        "title": "AI ile Sosyal Medya Videosu Üretmek"
+      },
+      "en": {
+        "slug": "make-social-videos-with-ai-workflow",
+        "title": "Make Social Videos with AI: A Workflow"
+      }
+    },
+    {
+      "translationKey": "creator-burnout-sustainable-system",
+      "category": "social-media",
+      "tr": {
+        "slug": "creator-tukenmisligi-surdurulebilir-icerik",
+        "title": "Creator Tükenmişliğini Nasıl Önlersin?"
+      },
+      "en": {
+        "slug": "creator-burnout-sustainable-content",
+        "title": "How Do You Prevent Creator Burnout?"
+      }
+    },
+    {
       "translationKey": "css-container-queries",
       "category": "web-development",
       "tr": {
@@ -491,6 +1547,42 @@
       "en": {
         "slug": "css-container-queries-how-to",
         "title": "CSS Container Queries: A Practical How-To"
+      }
+    },
+    {
+      "translationKey": "cursor-vs-offset-pagination",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "cursor-mu-offset-mi-sayfalama",
+        "title": "Cursor mu Offset mi: API Sayfalama"
+      },
+      "en": {
+        "slug": "cursor-vs-offset-pagination",
+        "title": "Cursor vs Offset Pagination Explained"
+      }
+    },
+    {
+      "translationKey": "custom-gpts-gems-skills-compared",
+      "category": "ai",
+      "tr": {
+        "slug": "ozel-gpt-gem-skill-hangisine-yatirim",
+        "title": "Özel GPT, Gem, Skill: Hangisine Yatırım Yapmalı?"
+      },
+      "en": {
+        "slug": "custom-gpts-vs-gems-vs-skills",
+        "title": "Custom GPTs vs Gems vs Claude Skills: Which to Build"
+      }
+    },
+    {
+      "translationKey": "custom-instructions-big-three-ai",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-claude-gemini-ozel-talimatlar",
+        "title": "ChatGPT, Claude ve Gemini'de Özel Talimatlar"
+      },
+      "en": {
+        "slug": "custom-instructions-chatgpt-claude-gemini",
+        "title": "Custom Instructions in ChatGPT, Claude and Gemini"
       }
     },
     {
@@ -506,6 +1598,30 @@
       }
     },
     {
+      "translationKey": "daily-ai-workflows-knowledge-workers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "bilgi-calisanlari-gunluk-ai-is-akislari",
+        "title": "Bilgi Çalışanları İçin Günlük AI İş Akışları"
+      },
+      "en": {
+        "slug": "daily-ai-workflows-knowledge-workers",
+        "title": "Daily AI Workflows for Knowledge Workers"
+      }
+    },
+    {
+      "translationKey": "database-backup-disaster-recovery",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "veritabani-yedekleme-ve-felaket-kurtarma",
+        "title": "Veritabanı Yedekleme ve Felaket Kurtarma"
+      },
+      "en": {
+        "slug": "database-backups-disaster-recovery",
+        "title": "Database Backups and Disaster Recovery"
+      }
+    },
+    {
       "translationKey": "database-indexing-explained",
       "category": "software-engineering",
       "tr": {
@@ -515,6 +1631,18 @@
       "en": {
         "slug": "database-indexing-explained",
         "title": "Database Indexing Explained with Examples"
+      }
+    },
+    {
+      "translationKey": "database-schema-design-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-sema-tasarimi-rehberi",
+        "title": "Veritabanı Şema Tasarımı: Pratik Rehber"
+      },
+      "en": {
+        "slug": "database-schema-design-guide",
+        "title": "Database Schema Design: A Practical Guide"
       }
     },
     {
@@ -590,6 +1718,18 @@
       }
     },
     {
+      "translationKey": "duckdb-vs-sqlite",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "duckdb-mi-sqlite-mi",
+        "title": "DuckDB mi SQLite mı? Gömülü Veritabanı Rehberi"
+      },
+      "en": {
+        "slug": "duckdb-vs-sqlite",
+        "title": "DuckDB vs SQLite: Which Embedded Database?"
+      }
+    },
+    {
       "translationKey": "ebpf-observability-explained",
       "category": "devops-cloud",
       "tr": {
@@ -614,6 +1754,78 @@
       }
     },
     {
+      "translationKey": "effective-code-reviews",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "etkili-kod-incelemesi",
+        "title": "Etkili Kod İncelemesi Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "effective-code-reviews",
+        "title": "How to Run Effective Code Reviews"
+      }
+    },
+    {
+      "translationKey": "email-marketing-deliverability-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "e-posta-pazarlamada-teslim-edilebilirlik",
+        "title": "E-posta Pazarlamada Teslim Edilebilirlik"
+      },
+      "en": {
+        "slug": "email-deliverability-checklist",
+        "title": "Email Deliverability: A Practical Checklist"
+      }
+    },
+    {
+      "translationKey": "engineering-estimates",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "daha-iyi-muhendislik-tahminleri",
+        "title": "Daha İyi Mühendislik Tahminleri Yapma"
+      },
+      "en": {
+        "slug": "better-engineering-estimates",
+        "title": "How to Make Better Engineering Estimates"
+      }
+    },
+    {
+      "translationKey": "error-handling-patterns-guide",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "olceklenen-hata-yonetimi-desenleri",
+        "title": "Ölçeklenen Hata Yönetimi Desenleri"
+      },
+      "en": {
+        "slug": "error-handling-patterns-scale",
+        "title": "Error Handling Patterns That Scale"
+      }
+    },
+    {
+      "translationKey": "esim-explained-ditch-physical-sim",
+      "category": "technology",
+      "tr": {
+        "slug": "esim-nedir-2026-fiziksel-sim",
+        "title": "eSIM Nedir? 2026'da Fiziksel SIM'i Bırakmak"
+      },
+      "en": {
+        "slug": "esim-explained-ditch-physical-sim",
+        "title": "eSIM Explained: Ditch the Physical SIM in 2026"
+      }
+    },
+    {
+      "translationKey": "eu-ai-act-enforcement-live-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ab-yapay-zeka-yasasi-devrede-ne-degisiyor",
+        "title": "AB Yapay Zeka Yasası Devrede: Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "eu-ai-act-enforcement-live-2026",
+        "title": "EU AI Act Enforcement Is Live: What Changes"
+      }
+    },
+    {
       "translationKey": "evaluate-llm-outputs",
       "category": "ai",
       "tr": {
@@ -623,6 +1835,18 @@
       "en": {
         "slug": "how-to-evaluate-llm-outputs",
         "title": "How to Evaluate LLM Outputs with Evals"
+      }
+    },
+    {
+      "translationKey": "event-driven-architecture-patterns",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "olay-gudumlu-mimari-desenler-tuzaklar",
+        "title": "Olay Güdümlü Mimari: Desenler ve Tuzaklar"
+      },
+      "en": {
+        "slug": "event-driven-architecture-patterns",
+        "title": "Event-Driven Architecture: Patterns and Pitfalls"
       }
     },
     {
@@ -674,6 +1898,30 @@
       }
     },
     {
+      "translationKey": "first-10-customers-solo-ai-founder",
+      "category": "business",
+      "tr": {
+        "slug": "ai-caginda-ilk-10-musteri-solo-kurucu",
+        "title": "AI Çağında İlk 10 Müşteri: Solo Kurucu Rehberi"
+      },
+      "en": {
+        "slug": "first-10-customers-solo-ai-founder",
+        "title": "Your First 10 Customers as a Solo AI Founder"
+      }
+    },
+    {
+      "translationKey": "first-hire-solopreneur",
+      "category": "business",
+      "tr": {
+        "slug": "ilk-ise-alim-freelancer-mi-calisan-mi",
+        "title": "İlk İşe Alımın: Freelancer mı, Çalışan mı?"
+      },
+      "en": {
+        "slug": "first-hire-contractor-employee-va",
+        "title": "Your First Hire: Contractor, Employee, or VA?"
+      }
+    },
+    {
       "translationKey": "fix-n-plus-one-queries",
       "category": "software-engineering",
       "tr": {
@@ -683,6 +1931,18 @@
       "en": {
         "slug": "fix-n-plus-one-query-problem",
         "title": "How to Fix the N+1 Query Problem"
+      }
+    },
+    {
+      "translationKey": "foldable-phones-worth-it-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "katlanabilir-telefonlar-2026-deger-mi",
+        "title": "Katlanabilir Telefonlar 2026: Artık Değer mi?"
+      },
+      "en": {
+        "slug": "foldable-phones-worth-it-2026",
+        "title": "Foldable Phones in 2026: Finally Worth It?"
       }
     },
     {
@@ -734,6 +1994,114 @@
       }
     },
     {
+      "translationKey": "gemini-3-5-pro-delay-developer-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-5-pro-yine-gecikti",
+        "title": "Gemini 3.5 Pro Yine Gecikti: Şimdi Ne Üzerine Geliştirmeli?"
+      },
+      "en": {
+        "slug": "gemini-3-5-pro-delayed-again-what-to-build-on",
+        "title": "Gemini 3.5 Pro Delayed Again: What to Build On Now"
+      }
+    },
+    {
+      "translationKey": "gemini-3-deep-think-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-deep-think-nedir",
+        "title": "Gemini 3 Deep Think Nedir? Derin Akıl Yürütme"
+      },
+      "en": {
+        "slug": "gemini-3-deep-think-explained",
+        "title": "What Is Gemini 3 Deep Think? Deeper Reasoning"
+      }
+    },
+    {
+      "translationKey": "gemini-classroom-teacher-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "sinifta-gemini-ogretmenler-2026",
+        "title": "Sınıfta Gemini: Öğretmenler İçin 2026 Rehberi"
+      },
+      "en": {
+        "slug": "gemini-classroom-teacher-guide",
+        "title": "Gemini in Classroom: A Teacher's 2026 Guide"
+      }
+    },
+    {
+      "translationKey": "gemini-flash-trio-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-6-flash-3-5-flash-lite-ve-cyber",
+        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite ve Cyber Geldi"
+      },
+      "en": {
+        "slug": "gemini-3-6-flash-3-5-flash-lite-and-cyber",
+        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and Cyber Arrive"
+      }
+    },
+    {
+      "translationKey": "gemini-for-home-smart-speakers-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-for-home-akilli-hoparlorde-ai",
+        "title": "Gemini for Home: Akıllı Hoparlörde AI"
+      },
+      "en": {
+        "slug": "gemini-for-home-smart-speakers",
+        "title": "Gemini for Home: AI on Your Smart Speaker"
+      }
+    },
+    {
+      "translationKey": "gemini-gems-custom-ai-assistants-business",
+      "category": "business",
+      "tr": {
+        "slug": "gemini-gems-isletmeye-ozel-ai-asistanlari",
+        "title": "Gemini Gems ile İşletmene Özel AI Asistanları"
+      },
+      "en": {
+        "slug": "gemini-gems-custom-ai-assistants-business",
+        "title": "Gemini Gems: Custom AI Assistants for Your Business"
+      }
+    },
+    {
+      "translationKey": "gemini-google-workspace-small-business",
+      "category": "business",
+      "tr": {
+        "slug": "kucuk-isletme-icin-workspace-gemini",
+        "title": "Küçük İşletme İçin Workspace'te Gemini"
+      },
+      "en": {
+        "slug": "gemini-google-workspace-small-business",
+        "title": "Gemini in Google Workspace for Small Business"
+      }
+    },
+    {
+      "translationKey": "gemini-instagram-reels-hooks",
+      "category": "social-media",
+      "tr": {
+        "slug": "gemini-ile-reels-hook-ve-izlenme",
+        "title": "Gemini ile Reels Düzelt: Hook ve İzlenme"
+      },
+      "en": {
+        "slug": "fix-reels-with-gemini-hooks-retention",
+        "title": "Fix Your Reels With Gemini: Hooks & Retention"
+      }
+    },
+    {
+      "translationKey": "gemini-spark-explained",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-spark-nedir",
+        "title": "Gemini Spark: Telefonundaki Yeni AI Ajanı"
+      },
+      "en": {
+        "slug": "gemini-spark-explained",
+        "title": "Gemini Spark: Your Phone's New AI Agent, Explained"
+      }
+    },
+    {
       "translationKey": "gemini-vs-chatgpt",
       "category": "ai",
       "tr": {
@@ -782,6 +2150,30 @@
       }
     },
     {
+      "translationKey": "going-passwordless-passkeys-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "sifresiz-hayat-passkey-2026",
+        "title": "Şifresiz Hayat: 2026'da Passkey ile Yaşamak"
+      },
+      "en": {
+        "slug": "going-passwordless-passkeys-2026",
+        "title": "Going Passwordless: Living With Passkeys in 2026"
+      }
+    },
+    {
+      "translationKey": "google-ads-vs-meta-ads-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "google-ads-mi-meta-ads-mi-kucuk-butce",
+        "title": "Google Ads mı Meta Ads mı? Küçük Bütçe"
+      },
+      "en": {
+        "slug": "google-ads-vs-meta-ads-small-budget",
+        "title": "Google Ads vs Meta Ads on a Small Budget"
+      }
+    },
+    {
       "translationKey": "gpt-5-6-general-availability-codex-desktop",
       "category": "ai",
       "tr": {
@@ -794,6 +2186,30 @@
       }
     },
     {
+      "translationKey": "gpt-5-6-luna-terra-price-cuts",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-fiyatlari-dustu-luna-ucuzladi",
+        "title": "GPT-5.6 Fiyatları Düştü: Luna %80 Ucuzladı"
+      },
+      "en": {
+        "slug": "gpt-5-6-price-cuts-luna-terra",
+        "title": "GPT-5.6 Price Cuts: Luna Drops 80%, Terra 20%"
+      }
+    },
+    {
+      "translationKey": "gpt-5-6-sol-ultrafast-cerebras",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-6-sol-ultrafast-modu-cerebras",
+        "title": "GPT-5.6 Sol Ultrafast Modu: Cerebras ile 14 Kat Hız"
+      },
+      "en": {
+        "slug": "gpt-5-6-sol-ultrafast-mode-cerebras",
+        "title": "GPT-5.6 Sol Goes Ultrafast: 14x Speed via Cerebras"
+      }
+    },
+    {
       "translationKey": "gpt-realtime-voice-agents",
       "category": "ai",
       "tr": {
@@ -803,6 +2219,54 @@
       "en": {
         "slug": "gpt-realtime-2-1-voice-agents-guide",
         "title": "Building Voice Agents with gpt-realtime-2.1"
+      }
+    },
+    {
+      "translationKey": "grow-monetize-newsletter-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "bulten-buyutme-ve-gelir-2026",
+        "title": "Bülten Büyütme ve Gelir 2026: Sıfırdan Rehber"
+      },
+      "en": {
+        "slug": "grow-monetize-newsletter-2026",
+        "title": "Grow and Monetize a Newsletter in 2026"
+      }
+    },
+    {
+      "translationKey": "health-wearables-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "saglik-giyilebilirleri-2026-yuzuk-glukoz",
+        "title": "Sağlık Giyilebilirleri 2026: Yüzük, Glukoz"
+      },
+      "en": {
+        "slug": "health-wearables-2026-rings-glucose",
+        "title": "Health Wearables 2026: Rings and Glucose"
+      }
+    },
+    {
+      "translationKey": "helm-vs-kustomize",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "helm-mi-kustomize-mi-k8s",
+        "title": "Helm mi Kustomize mi: K8s Yapılandırma"
+      },
+      "en": {
+        "slug": "helm-vs-kustomize-kubernetes",
+        "title": "Helm vs Kustomize for Kubernetes Config"
+      }
+    },
+    {
+      "translationKey": "home-robots-2026-hype-vs-reality",
+      "category": "technology",
+      "tr": {
+        "slug": "ev-robotlari-2026-abarti-mi-gercek-mi",
+        "title": "Ev Robotları 2026: Abartı mı Gerçek mi?"
+      },
+      "en": {
+        "slug": "home-robots-2026-hype-vs-reality",
+        "title": "Home Robots in 2026: Hype vs Reality"
       }
     },
     {
@@ -842,6 +2306,18 @@
       }
     },
     {
+      "translationKey": "ic-to-tech-lead-90-days",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ic-den-tech-lead-e-ilk-90-gun",
+        "title": "IC'den Tech Lead'e: İlk 90 Gün"
+      },
+      "en": {
+        "slug": "ic-to-tech-lead-first-90-days",
+        "title": "From IC to Tech Lead: The First 90 Days"
+      }
+    },
+    {
       "translationKey": "idempotency-api-design",
       "category": "software-engineering",
       "tr": {
@@ -854,6 +2330,18 @@
       }
     },
     {
+      "translationKey": "incident-response-small-teams",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kucuk-ekipler-icin-olay-mudahalesi",
+        "title": "Küçük Ekipler İçin Olay Müdahalesi"
+      },
+      "en": {
+        "slug": "incident-response-small-teams",
+        "title": "Incident Response for Small Teams"
+      }
+    },
+    {
       "translationKey": "instagram-algorithm-2026",
       "category": "social-media",
       "tr": {
@@ -863,6 +2351,18 @@
       "en": {
         "slug": "instagram-algorithm-2026",
         "title": "Instagram Algorithm 2026: What It Rewards"
+      }
+    },
+    {
+      "translationKey": "investor-update-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "yatirimci-guncellemesi-nasil-yazilir",
+        "title": "Yatırımcı Güncellemesi: Yönetimin Okuyacağı"
+      },
+      "en": {
+        "slug": "write-investor-update-ai",
+        "title": "Write an Investor Update Your Board Will Read"
       }
     },
     {
@@ -926,6 +2426,30 @@
       }
     },
     {
+      "translationKey": "landing-page-conversion-mistakes-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "donusum-dusuren-landing-page-hatalari",
+        "title": "Dönüşüm Düşüren Landing Page Hataları"
+      },
+      "en": {
+        "slug": "landing-page-conversion-mistakes",
+        "title": "Landing Page Mistakes That Kill Conversions"
+      }
+    },
+    {
+      "translationKey": "learn-any-skill-with-ai-tutor",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ogretmenle-beceri-ogrenme",
+        "title": "AI Öğretmenle Her Beceriyi Daha Hızlı Öğren"
+      },
+      "en": {
+        "slug": "learn-any-skill-with-ai-tutor",
+        "title": "Learn Any Skill Faster With an AI Tutor"
+      }
+    },
+    {
       "translationKey": "learn-coding-with-ai",
       "category": "career-productivity",
       "tr": {
@@ -935,6 +2459,18 @@
       "en": {
         "slug": "learn-coding-with-ai",
         "title": "How to Learn Coding Faster with AI in 2026"
+      }
+    },
+    {
+      "translationKey": "linkedin-organic-reach-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "linkedin-organik-erisim-2026",
+        "title": "LinkedIn Organik Erişim 2026: Hâlâ İşe Yarayanlar"
+      },
+      "en": {
+        "slug": "linkedin-organic-reach-2026",
+        "title": "LinkedIn Organic Reach 2026: What Still Works"
       }
     },
     {
@@ -950,6 +2486,18 @@
       }
     },
     {
+      "translationKey": "llm-observability-tracing",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-gozlemlenebilirligi-trace-eval",
+        "title": "LLM Gözlemlenebilirliği: Trace ve Eval"
+      },
+      "en": {
+        "slug": "llm-observability-tracing",
+        "title": "LLM Observability: Tracing Your AI Calls"
+      }
+    },
+    {
       "translationKey": "llm-structured-outputs-json",
       "category": "ai",
       "tr": {
@@ -959,6 +2507,18 @@
       "en": {
         "slug": "llm-structured-outputs-json",
         "title": "LLM Structured Outputs: JSON You Can Trust"
+      }
+    },
+    {
+      "translationKey": "local-first-apps-sync-engines",
+      "category": "web-development",
+      "tr": {
+        "slug": "local-first-uygulamalar-ve-senkron-2026",
+        "title": "Local-First Uygulamalar ve Senkron 2026"
+      },
+      "en": {
+        "slug": "local-first-apps-sync-engines-2026",
+        "title": "Local-First Apps and Sync Engines in 2026"
       }
     },
     {
@@ -974,6 +2534,90 @@
       }
     },
     {
+      "translationKey": "local-seo-2026-google-business-checklist",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "yerel-seo-2026-google-business-profil",
+        "title": "Yerel SEO 2026: Google Business Profil Kontrol Listesi"
+      },
+      "en": {
+        "slug": "local-seo-2026-google-business-checklist",
+        "title": "Local SEO 2026: A Google Business Profile Checklist"
+      }
+    },
+    {
+      "translationKey": "long-context-1m-tokens-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "1-milyon-token-baglam-ne-degisiyor",
+        "title": "1 Milyon Token Bağlam: Gerçekte Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "1m-token-context-what-changes",
+        "title": "1M-Token Context: What Actually Changes?"
+      }
+    },
+    {
+      "translationKey": "managing-up-software-engineers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yazilimcilar-icin-yoneticiyle-iliski",
+        "title": "Yazılımcılar İçin Yöneticiyle İyi İlişki"
+      },
+      "en": {
+        "slug": "managing-up-software-engineer",
+        "title": "Managing Up as a Software Engineer"
+      }
+    },
+    {
+      "translationKey": "marketing-attribution-cookieless-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "cerezsiz-dunyada-pazarlama-atifi-2026",
+        "title": "Çerezsiz Dünyada Pazarlama Atıfı 2026"
+      },
+      "en": {
+        "slug": "marketing-attribution-cookieless-2026",
+        "title": "Marketing Attribution in a Cookieless 2026"
+      }
+    },
+    {
+      "translationKey": "marketing-funnel-solopreneur",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tek-kisilik-isletme-pazarlama-hunisi",
+        "title": "Tek Kişilik İşletme İçin Pazarlama Hunisi"
+      },
+      "en": {
+        "slug": "marketing-funnel-one-person-business",
+        "title": "A Marketing Funnel for a One-Person Business"
+      }
+    },
+    {
+      "translationKey": "mcp-2026-07-28-stateless-spec",
+      "category": "ai",
+      "tr": {
+        "slug": "mcp-2026-07-28-guncellemesi",
+        "title": "MCP 2026-07-28: Stateless Çekirdeğe Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "mcp-2026-07-28-stateless-spec",
+        "title": "MCP 2026-07-28: The Move to a Stateless Core"
+      }
+    },
+    {
+      "translationKey": "micro-influencer-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-markalar-icin-mikro-influencer",
+        "title": "Küçük Markalar İçin Mikro Influencer"
+      },
+      "en": {
+        "slug": "micro-influencer-marketing-small-brands",
+        "title": "Micro-Influencer Marketing for Small Brands"
+      }
+    },
+    {
       "translationKey": "micro-saas-ai-stories",
       "category": "business",
       "tr": {
@@ -983,6 +2627,18 @@
       "en": {
         "slug": "micro-saas-ai-maker-stories",
         "title": "Micro-SaaS with AI: Real Maker Stories"
+      }
+    },
+    {
+      "translationKey": "micro-saas-ideas-validate-2026",
+      "category": "business",
+      "tr": {
+        "slug": "mikro-saas-fikri-bulma-ve-dogrulama",
+        "title": "Mikro-SaaS Fikri Bulma ve Doğrulama"
+      },
+      "en": {
+        "slug": "finding-validating-micro-saas-idea",
+        "title": "Finding and Validating a Micro-SaaS Idea"
       }
     },
     {
@@ -1010,6 +2666,30 @@
       }
     },
     {
+      "translationKey": "modern-css-has-nesting",
+      "category": "web-development",
+      "tr": {
+        "slug": "modern-css-has-ic-ice-yazim",
+        "title": "Modern CSS: :has() ve Yerel İç İçe Yazım"
+      },
+      "en": {
+        "slug": "modern-css-has-native-nesting",
+        "title": "Modern CSS: :has() and Native Nesting"
+      }
+    },
+    {
+      "translationKey": "monorepo-cicd-pipelines",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "monorepo-ci-cd-onbellek-etkilenen-yapilar",
+        "title": "Monorepo İçin CI/CD: Önbellek ve Etkilenen Yapılar"
+      },
+      "en": {
+        "slug": "monorepo-cicd-caching-affected-builds",
+        "title": "CI/CD for Monorepos: Caching and Affected Builds"
+      }
+    },
+    {
       "translationKey": "most-popular-ai-tools-2026",
       "category": "ai",
       "tr": {
@@ -1034,6 +2714,42 @@
       }
     },
     {
+      "translationKey": "native-html-no-js-dialog-popover",
+      "category": "web-development",
+      "tr": {
+        "slug": "javascript-gerektirmeyen-html",
+        "title": "Artık JavaScript Gerektirmeyen HTML"
+      },
+      "en": {
+        "slug": "native-html-no-javascript-dialog-popover",
+        "title": "HTML You No Longer Need JavaScript For"
+      }
+    },
+    {
+      "translationKey": "nextjs-ai-features-ai-sdk",
+      "category": "web-development",
+      "tr": {
+        "slug": "nextjs-uygulamana-ai-ozelligi-ekle",
+        "title": "Next.js Uygulamana AI Özelliği Nasıl Eklenir?"
+      },
+      "en": {
+        "slug": "ship-ai-feature-nextjs",
+        "title": "Ship an AI Feature in Your Next.js App"
+      }
+    },
+    {
+      "translationKey": "notebooklm-research-study-guide",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "notebooklm-ile-arastirma-ve-ogrenme",
+        "title": "NotebookLM ile Araştırma ve Öğrenme Rehberi"
+      },
+      "en": {
+        "slug": "notebooklm-research-study-guide",
+        "title": "NotebookLM for Research and Study: A How-To"
+      }
+    },
+    {
       "translationKey": "observability-101",
       "category": "devops-cloud",
       "tr": {
@@ -1046,6 +2762,42 @@
       }
     },
     {
+      "translationKey": "on-device-ai-phones-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "telefonda-yapay-zeka-cihaz-ici-ai-2026",
+        "title": "Telefonda Yapay Zeka: 2026'da Gerçekten Ne Çalışıyor"
+      },
+      "en": {
+        "slug": "on-device-ai-phones-2026",
+        "title": "On-Device AI: What Actually Runs Locally in 2026"
+      }
+    },
+    {
+      "translationKey": "one-blog-post-into-20-assets-ai",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "blog-yazisini-ai-ile-20-icerik",
+        "title": "Bir Blog Yazısını AI ile 20 İçeriğe Çevir"
+      },
+      "en": {
+        "slug": "one-blog-post-into-20-assets-ai",
+        "title": "Turn One Blog Post Into 20 Assets with AI"
+      }
+    },
+    {
+      "translationKey": "open-secure-ai-alliance",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "open-secure-ai-alliance-nedir",
+        "title": "Open Secure AI Alliance: Yeni Yapay Zeka Güvenlik İttifakı"
+      },
+      "en": {
+        "slug": "open-secure-ai-alliance-explained",
+        "title": "Open Secure AI Alliance: Nvidia's Security Coalition"
+      }
+    },
+    {
       "translationKey": "open-source-saas-alternatives",
       "category": "devops-cloud",
       "tr": {
@@ -1055,6 +2807,54 @@
       "en": {
         "slug": "open-source-saas-alternatives-2026",
         "title": "12 Open-Source SaaS Alternatives for 2026"
+      }
+    },
+    {
+      "translationKey": "openai-astra-critical-cybersecurity-pause",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-astra-egitimini-neden-durdurdu",
+        "title": "OpenAI Astra Eğitimini Neden Durdurdu?"
+      },
+      "en": {
+        "slug": "why-openai-paused-astra-training",
+        "title": "Why OpenAI Paused Astra Training"
+      }
+    },
+    {
+      "translationKey": "openai-atlas-shutdown-ai-browsers",
+      "category": "technology",
+      "tr": {
+        "slug": "openai-atlas-kapaniyor-ai-tarayici",
+        "title": "OpenAI Atlas'ı Kapatıyor: Yapay Zeka Tarayıcısı Neden Bitti"
+      },
+      "en": {
+        "slug": "openai-atlas-shutdown-ai-browsers",
+        "title": "OpenAI Shuts Down Atlas: The AI Browser Fallout"
+      }
+    },
+    {
+      "translationKey": "openai-codex-5-hour-limit-returns",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-codex-5-saatlik-limit-geri-dondu",
+        "title": "OpenAI Codex'te 5 Saatlik Limiti Geri Getirdi"
+      },
+      "en": {
+        "slug": "openai-codex-5-hour-limit-returns",
+        "title": "OpenAI Brings Back Codex's 5-Hour Usage Limit"
+      }
+    },
+    {
+      "translationKey": "openai-reliability-outage-streak-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-kesintileri-4-gunde-4-ariza",
+        "title": "ChatGPT'nin Kesinti Sorunu: 4 Günde 4 Arıza"
+      },
+      "en": {
+        "slug": "openai-outage-streak-what-it-teaches-developers",
+        "title": "ChatGPT's Outage Streak: 4 Failures in 4 Days"
       }
     },
     {
@@ -1094,6 +2894,30 @@
       }
     },
     {
+      "translationKey": "optimize-store-for-ai-shopping-agents",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "magazani-ai-alisveris-ajanlarina-hazirla",
+        "title": "Mağazanı AI Alışveriş Ajanlarına Hazırla"
+      },
+      "en": {
+        "slug": "optimize-store-for-ai-shopping-agents",
+        "title": "Get Your Store Ready for AI Shopping Agents"
+      }
+    },
+    {
+      "translationKey": "organize-ai-chats-projects-gems",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-sohbetlerini-duzenle-projects-gems",
+        "title": "AI Sohbetlerini Düzenle: Projects ve Gems"
+      },
+      "en": {
+        "slug": "organize-ai-chats-and-gems",
+        "title": "Organize Your AI Chats: Projects and Gems"
+      }
+    },
+    {
       "translationKey": "passkeys-webauthn-guide",
       "category": "web-development",
       "tr": {
@@ -1115,6 +2939,30 @@
       "en": {
         "slug": "perplexity-vs-google-ai-search",
         "title": "Perplexity vs Google: AI Search in 2026"
+      }
+    },
+    {
+      "translationKey": "personal-brand-on-x-for-founders",
+      "category": "social-media",
+      "tr": {
+        "slug": "xte-kisisel-marka-kurucular-icin",
+        "title": "X'te Kişisel Marka: Kurucular İçin Takipçi Tuzağı"
+      },
+      "en": {
+        "slug": "personal-brand-on-x-for-founders",
+        "title": "Personal Brand on X for Founders: Beyond Followers"
+      }
+    },
+    {
+      "translationKey": "personal-prompt-library-system",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "kisisel-prompt-kutuphanesi-nasil-kurulur",
+        "title": "Kişisel Prompt Kütüphanesi Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "personal-prompt-library-system",
+        "title": "Build a Personal Prompt Library System"
       }
     },
     {
@@ -1142,6 +2990,18 @@
       }
     },
     {
+      "translationKey": "pinterest-traffic-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "pinterest-2026-sessiz-trafik-kaynagi",
+        "title": "Pinterest 2026: Sessiz Trafik Kaynağı"
+      },
+      "en": {
+        "slug": "pinterest-traffic-engine-2026",
+        "title": "Pinterest in 2026: The Quiet Traffic Engine"
+      }
+    },
+    {
       "translationKey": "postgres-for-everything",
       "category": "software-engineering",
       "tr": {
@@ -1151,6 +3011,66 @@
       "en": {
         "slug": "just-use-postgres-for-everything",
         "title": "Just Use Postgres: Replace Redis, Kafka and More"
+      }
+    },
+    {
+      "translationKey": "preview-environments-every-pull-request",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "her-pr-icin-onizleme-ortamlari",
+        "title": "Her Pull Request İçin Önizleme Ortamı Kurmak"
+      },
+      "en": {
+        "slug": "preview-environments-every-pull-request",
+        "title": "Preview Environments for Every Pull Request"
+      }
+    },
+    {
+      "translationKey": "pricing-ai-features-without-losing-money",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ozelliklerini-fiyatlandirma",
+        "title": "AI Özelliklerini Zarar Etmeden Fiyatlandır"
+      },
+      "en": {
+        "slug": "pricing-ai-features-without-losing-money",
+        "title": "How to Price AI Features Without Losing Money"
+      }
+    },
+    {
+      "translationKey": "pricing-saas-product-2026",
+      "category": "business",
+      "tr": {
+        "slug": "saas-fiyatlandirma-yaygin-yanlislar",
+        "title": "SaaS Fiyatlandırma: Yaygın Yanlışlar"
+      },
+      "en": {
+        "slug": "saas-pricing-founder-mistakes",
+        "title": "SaaS Pricing: The Mistakes Founders Make"
+      }
+    },
+    {
+      "translationKey": "productized-service-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "beceriyi-urunlesmis-hizmete-cevir",
+        "title": "Becerini AI ile Ürünleşmiş Hizmete Çevir"
+      },
+      "en": {
+        "slug": "productized-service-with-ai",
+        "title": "Turn Your Skill Into a Productized Service with AI"
+      }
+    },
+    {
+      "translationKey": "programmatic-seo-small-sites",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-siteler-programatik-seo",
+        "title": "Küçük Siteler İçin Programatik SEO"
+      },
+      "en": {
+        "slug": "programmatic-seo-small-sites",
+        "title": "Programmatic SEO for Small Sites, Done Right"
       }
     },
     {
@@ -1166,6 +3086,54 @@
       }
     },
     {
+      "translationKey": "protect-privacy-ai-assistants",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-asistanlari-caginda-gizliligini-koru",
+        "title": "AI Asistanları Verilerinizle Ne Yapıyor?"
+      },
+      "en": {
+        "slug": "protect-privacy-ai-assistants",
+        "title": "What Do AI Assistants Do With Your Data?"
+      }
+    },
+    {
+      "translationKey": "pwa-in-2026-still-worth-it",
+      "category": "web-development",
+      "tr": {
+        "slug": "pwa-2026da-hala-mantikli-mi",
+        "title": "PWA 2026'da Hâlâ Mantıklı mı?"
+      },
+      "en": {
+        "slug": "are-pwas-worth-it-2026",
+        "title": "Are PWAs Still Worth It in 2026?"
+      }
+    },
+    {
+      "translationKey": "quantum-computing-2026-should-you-care",
+      "category": "technology",
+      "tr": {
+        "slug": "kuantum-bilisim-2026-onemli-mi",
+        "title": "Kuantum Bilişim 2026: Şimdiden Önemsemeli mi?"
+      },
+      "en": {
+        "slug": "quantum-computing-2026-should-you-care",
+        "title": "Quantum Computing 2026: Should You Care Yet?"
+      }
+    },
+    {
+      "translationKey": "rag-chunking-strategies",
+      "category": "ai",
+      "tr": {
+        "slug": "rag-icin-chunking-stratejileri",
+        "title": "RAG için Chunking Stratejileri"
+      },
+      "en": {
+        "slug": "chunking-strategies-for-rag",
+        "title": "Chunking Strategies for Better RAG"
+      }
+    },
+    {
       "translationKey": "rate-limiting-algorithms",
       "category": "software-engineering",
       "tr": {
@@ -1175,6 +3143,18 @@
       "en": {
         "slug": "rate-limiting-token-bucket-vs-sliding-window",
         "title": "Rate Limiting: Token Bucket vs Sliding Window"
+      }
+    },
+    {
+      "translationKey": "react-compiler-explained",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-compiler-usememo-elveda",
+        "title": "React Compiler: useMemo'ya Elveda mı?"
+      },
+      "en": {
+        "slug": "react-compiler-goodbye-usememo",
+        "title": "React Compiler: Goodbye useMemo?"
       }
     },
     {
@@ -1214,6 +3194,42 @@
       }
     },
     {
+      "translationKey": "reading-contracts-with-claude-founder",
+      "category": "business",
+      "tr": {
+        "slug": "claude-ile-sozlesme-okuma-kurucular",
+        "title": "Kurucular İçin Claude ile Sözleşme Okuma"
+      },
+      "en": {
+        "slug": "reading-contracts-with-claude-founder",
+        "title": "Reading Contracts With Claude as a Founder"
+      }
+    },
+    {
+      "translationKey": "reddit-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "reddit-pazarlamasi-2026",
+        "title": "2026'da Tepki Çekmeden Reddit Pazarlaması"
+      },
+      "en": {
+        "slug": "reddit-marketing-2026",
+        "title": "Reddit Marketing in 2026 Without the Backlash"
+      }
+    },
+    {
+      "translationKey": "reduce-churn-retention-playbook",
+      "category": "business",
+      "tr": {
+        "slug": "churn-azalt-kucuk-saas-elde-tutma",
+        "title": "Churn'ü Azalt: Küçük SaaS İçin Elde Tutma Rehberi"
+      },
+      "en": {
+        "slug": "reduce-churn-retention-playbook",
+        "title": "Reduce Churn: A Retention Playbook for Small SaaS"
+      }
+    },
+    {
       "translationKey": "reduce-llm-hallucinations",
       "category": "ai",
       "tr": {
@@ -1250,6 +3266,18 @@
       }
     },
     {
+      "translationKey": "repeatable-seo-writing-system-claude",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "claude-ile-seo-yazi-sistemi",
+        "title": "Claude ile Tekrarlanabilir SEO Yazı Sistemi"
+      },
+      "en": {
+        "slug": "repeatable-seo-writing-system-claude",
+        "title": "A Repeatable SEO Writing System with Claude"
+      }
+    },
+    {
       "translationKey": "rest-vs-graphql",
       "category": "software-engineering",
       "tr": {
@@ -1274,6 +3302,102 @@
       }
     },
     {
+      "translationKey": "robotaxis-2026-reality",
+      "category": "technology",
+      "tr": {
+        "slug": "robotaksi-2026-surucusuz-nerede-calisiyor",
+        "title": "2026'da Robotaksi: Sürücüsüz Nerede Çalışıyor?"
+      },
+      "en": {
+        "slug": "robotaxis-2026-where-self-driving-works",
+        "title": "Robotaxis in 2026: Where Self-Driving Works Now"
+      }
+    },
+    {
+      "translationKey": "saas-free-trial-vs-freemium",
+      "category": "business",
+      "tr": {
+        "slug": "ucretsiz-deneme-mi-freemium-mi-saas",
+        "title": "Ücretsiz Deneme mi Freemium mi: SaaS'ta Hangisi?"
+      },
+      "en": {
+        "slug": "free-trial-vs-freemium-saas",
+        "title": "Free Trial vs Freemium: Which Converts for SaaS?"
+      }
+    },
+    {
+      "translationKey": "saas-metrics-founders-mrr-churn-cac",
+      "category": "business",
+      "tr": {
+        "slug": "kurucular-icin-ilk-saas-metrikleri",
+        "title": "Kurucular İçin İlk SaaS Metrikleri"
+      },
+      "en": {
+        "slug": "first-saas-metrics-mrr-churn-cac",
+        "title": "First SaaS Metrics: MRR, Churn, and CAC"
+      }
+    },
+    {
+      "translationKey": "saas-mvp-claude-code-weekend",
+      "category": "business",
+      "tr": {
+        "slug": "claude-code-ile-hafta-sonu-saas-mvp",
+        "title": "Hafta Sonunda Claude Code ile SaaS MVP"
+      },
+      "en": {
+        "slug": "saas-mvp-claude-code-weekend",
+        "title": "Build a SaaS MVP with Claude Code in a Weekend"
+      }
+    },
+    {
+      "translationKey": "saas-positioning-messaging",
+      "category": "business",
+      "tr": {
+        "slug": "saas-konumlandirma-donusturen-mesaj",
+        "title": "SaaS Konumlandırma: Dönüştüren Mesaj Nasıl Yazılır?"
+      },
+      "en": {
+        "slug": "saas-positioning-messaging",
+        "title": "SaaS Positioning: Messaging That Converts"
+      }
+    },
+    {
+      "translationKey": "satellite-internet-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "uydu-interneti-2026-starlink-rakipleri",
+        "title": "Uydu İnterneti 2026: Starlink ve Rakipleri"
+      },
+      "en": {
+        "slug": "satellite-internet-2026-starlink-vs-rivals",
+        "title": "Satellite Internet 2026: Starlink vs the Rivals"
+      }
+    },
+    {
+      "translationKey": "satellite-texting-direct-to-cell",
+      "category": "technology",
+      "tr": {
+        "slug": "sinyalsiz-mesajlasma-uydudan-telefona",
+        "title": "Sinyalsiz Mesajlaşma: Uydudan Telefona 2026"
+      },
+      "en": {
+        "slug": "satellite-texting-direct-to-cell-2026",
+        "title": "Texting With No Signal: Direct-to-Cell in 2026"
+      }
+    },
+    {
+      "translationKey": "schema-markup-ai-search-visibility",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "yapisal-veri-ai-aramada-gorunurluk",
+        "title": "Yapısal Veri ile AI Aramada Görünürlük"
+      },
+      "en": {
+        "slug": "schema-markup-ai-search-visibility",
+        "title": "Schema Markup for AI Search Visibility"
+      }
+    },
+    {
       "translationKey": "secrets-management-cloud",
       "category": "devops-cloud",
       "tr": {
@@ -1283,6 +3407,138 @@
       "en": {
         "slug": "cloud-secrets-management-done-right",
         "title": "Secrets Management in the Cloud, Done Right"
+      }
+    },
+    {
+      "translationKey": "self-hosted-paas-kamal-coolify",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetessiz-deploy-kamal-coolify",
+        "title": "Kubernetes'siz Deploy: Kamal ve Coolify Rehberi"
+      },
+      "en": {
+        "slug": "deploy-without-kubernetes-kamal-coolify",
+        "title": "Deploy Without Kubernetes: Kamal vs Coolify"
+      }
+    },
+    {
+      "translationKey": "selling-digital-products-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ile-dijital-urun-satisi-pasif-gelir",
+        "title": "AI ile Dijital Ürün Satışı: Pasif Gelir Rehberi"
+      },
+      "en": {
+        "slug": "selling-digital-products-with-ai",
+        "title": "Selling Digital Products with AI: A Passive Income Guide"
+      }
+    },
+    {
+      "translationKey": "service-mesh-2026-do-you-need-it",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "service-mesh-2026-gercekten-gerekli-mi",
+        "title": "Service Mesh 2026: Gerçekten Gerekli mi?"
+      },
+      "en": {
+        "slug": "service-mesh-2026-do-you-need-one",
+        "title": "Service Mesh in 2026: Do You Actually Need One?"
+      }
+    },
+    {
+      "translationKey": "short-form-video-series-strategy-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "kisa-video-serisiyle-izlenme-artirma",
+        "title": "Kısa Video Serisiyle İzlenme Artırma Rehberi"
+      },
+      "en": {
+        "slug": "short-video-series-retention",
+        "title": "Grow Retention with a Short-Video Series"
+      }
+    },
+    {
+      "translationKey": "short-video-hook-mistakes",
+      "category": "social-media",
+      "tr": {
+        "slug": "kisa-videoda-ilk-3-saniye-hook-hatalari",
+        "title": "Kısa Videoda İlk 3 Saniye: 7 Hook Hatası"
+      },
+      "en": {
+        "slug": "short-video-hook-mistakes",
+        "title": "The First 3 Seconds: 7 Short-Video Hook Mistakes"
+      }
+    },
+    {
+      "translationKey": "sign-in-with-chatgpt-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-ile-giris-ne-demek",
+        "title": "ChatGPT ile Giriş: Uygulamalar İçin Ne Demek?"
+      },
+      "en": {
+        "slug": "sign-in-with-chatgpt-explained",
+        "title": "Sign in with ChatGPT: What It Means for You"
+      }
+    },
+    {
+      "translationKey": "silent-first-social-video-mistakes",
+      "category": "social-media",
+      "tr": {
+        "slug": "sessiz-izlenen-videolar-icin-7-hata",
+        "title": "Sessiz İzlenen Videolar İçin 7 Hata"
+      },
+      "en": {
+        "slug": "sound-off-video-mistakes",
+        "title": "7 Mistakes That Kill Sound-Off Video"
+      }
+    },
+    {
+      "translationKey": "small-language-models-when",
+      "category": "ai",
+      "tr": {
+        "slug": "kucuk-dil-modelleri-ne-zaman",
+        "title": "Küçük Dil Modelleri Ne Zaman Yeter?"
+      },
+      "en": {
+        "slug": "when-small-language-models-win",
+        "title": "When Small Language Models Beat Big Ones"
+      }
+    },
+    {
+      "translationKey": "smart-home-matter-interoperability-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "akilli-ev-2026-matter-ve-cihaz-uyumu",
+        "title": "Akıllı Ev 2026: Matter ve Cihaz Uyumu"
+      },
+      "en": {
+        "slug": "smart-home-2026-matter-interoperability",
+        "title": "Smart Home 2026: Matter and Interoperability"
+      }
+    },
+    {
+      "translationKey": "social-media-metrics-that-matter-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "gercekten-onemli-sosyal-medya-metrikleri",
+        "title": "Gerçekten Önemli Sosyal Medya Metrikleri"
+      },
+      "en": {
+        "slug": "social-media-metrics-that-matter",
+        "title": "Social Media Metrics That Actually Matter"
+      }
+    },
+    {
+      "translationKey": "social-selling-followers-to-customers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "takipciyi-musteriye-cevirmek-sosyal-satis",
+        "title": "Takipçiyi Müşteriye Çevirmek: Sosyal Satış"
+      },
+      "en": {
+        "slug": "turn-followers-into-customers-social-selling",
+        "title": "Turn Followers Into Customers: Social Selling"
       }
     },
     {
@@ -1310,6 +3566,18 @@
       }
     },
     {
+      "translationKey": "sse-vs-websockets",
+      "category": "web-development",
+      "tr": {
+        "slug": "sse-mi-websocket-mi-gercek-zamanli",
+        "title": "SSE mi WebSocket mi: Gerçek Zamanlı Veri"
+      },
+      "en": {
+        "slug": "sse-vs-websockets-real-time",
+        "title": "SSE vs WebSockets for Real-Time Apps"
+      }
+    },
+    {
       "translationKey": "ssr-ssg-isr",
       "category": "web-development",
       "tr": {
@@ -1331,6 +3599,42 @@
       "en": {
         "slug": "staff-engineer-career-path",
         "title": "The Staff Engineer Path: Beyond Senior"
+      }
+    },
+    {
+      "translationKey": "start-grow-podcast-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026-podcast-baslatmak-ve-buyutmek",
+        "title": "2026'da Podcast Başlatmak ve Büyütmek"
+      },
+      "en": {
+        "slug": "start-grow-podcast-2026",
+        "title": "Start and Grow a Podcast in 2026"
+      }
+    },
+    {
+      "translationKey": "streaming-ai-ui-react",
+      "category": "web-development",
+      "tr": {
+        "slug": "reactte-akiskan-ai-arayuzleri-streaming",
+        "title": "React'te Akışkan AI Arayüzleri (Streaming UI)"
+      },
+      "en": {
+        "slug": "streaming-ai-chat-uis-react",
+        "title": "Build Streaming AI Chat UIs in React"
+      }
+    },
+    {
+      "translationKey": "supply-chain-security-sbom",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "yazilim-tedarik-zinciri-guvenligi",
+        "title": "Yazılım Tedarik Zinciri Güvenliği: SBOM'dan SLSA'ya"
+      },
+      "en": {
+        "slug": "software-supply-chain-security-sbom-slsa",
+        "title": "Software Supply Chain Security: SBOM to SLSA"
       }
     },
     {
@@ -1370,6 +3674,30 @@
       }
     },
     {
+      "translationKey": "tanstack-start-fullstack-react-alternative",
+      "category": "web-development",
+      "tr": {
+        "slug": "tanstack-start-fullstack-react",
+        "title": "TanStack Start: Full-Stack React'a Yeni Bir Bakış"
+      },
+      "en": {
+        "slug": "tanstack-start-fullstack-react-alternative",
+        "title": "TanStack Start: A Fresh Take on Full-Stack React"
+      }
+    },
+    {
+      "translationKey": "tauri-vs-electron-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "tauri-mi-electron-mu",
+        "title": "Tauri mi Electron mu? 2026 Masaüstü Kararı"
+      },
+      "en": {
+        "slug": "tauri-vs-electron-2026",
+        "title": "Tauri vs Electron in 2026: Which Should You Pick?"
+      }
+    },
+    {
       "translationKey": "technical-interview-prep",
       "category": "career-productivity",
       "tr": {
@@ -1406,6 +3734,54 @@
       }
     },
     {
+      "translationKey": "threads-vs-bluesky-vs-x-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "threads-bluesky-x-2026-nerede-paylasilir",
+        "title": "Threads, Bluesky, X: 2026'da Nerede Paylaş?"
+      },
+      "en": {
+        "slug": "threads-vs-bluesky-vs-x-2026",
+        "title": "Threads vs Bluesky vs X: Where to Post in 2026"
+      }
+    },
+    {
+      "translationKey": "tiktok-2026-algorithm-reach",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-2026-algoritmasi-erisim",
+        "title": "TikTok 2026 Algoritması: Erişim Neye Bağlı?"
+      },
+      "en": {
+        "slug": "tiktok-2026-algorithm-reach",
+        "title": "TikTok's 2026 Algorithm: What Actually Gets Reach"
+      }
+    },
+    {
+      "translationKey": "tiktok-shop-monetization-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-shop-ile-para-kazanma-2026",
+        "title": "TikTok Shop ile Para Kazanma: 2026 Kreatör Rehberi"
+      },
+      "en": {
+        "slug": "tiktok-shop-monetization-2026-creator-guide",
+        "title": "Making Money on TikTok Shop: A 2026 Creator Guide"
+      }
+    },
+    {
+      "translationKey": "tiktok-social-search-seo",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tiktok-seo-sosyal-arama-2026",
+        "title": "TikTok SEO: 2026'da Sosyal Aramada Kazanmak"
+      },
+      "en": {
+        "slug": "tiktok-seo-social-search-2026",
+        "title": "TikTok SEO: Winning Social Search in 2026"
+      }
+    },
+    {
       "translationKey": "time-management-developers",
       "category": "career-productivity",
       "tr": {
@@ -1415,6 +3791,42 @@
       "en": {
         "slug": "time-management-for-developers",
         "title": "Time Management Tips for Busy Developers"
+      }
+    },
+    {
+      "translationKey": "topical-authority-content-clusters",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "konu-otoritesi-icerik-kumeleri-seo",
+        "title": "Konu Otoritesi: 2026 SEO'nun Belkemiği"
+      },
+      "en": {
+        "slug": "topical-authority-content-clusters",
+        "title": "Topical Authority: The 2026 SEO Backbone"
+      }
+    },
+    {
+      "translationKey": "transaction-isolation-levels",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-izolasyon-seviyeleri",
+        "title": "Veritabanı İzolasyon Seviyeleri Rehberi"
+      },
+      "en": {
+        "slug": "database-isolation-levels-explained",
+        "title": "Database Isolation Levels, Explained"
+      }
+    },
+    {
+      "translationKey": "transactional-outbox-pattern",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "outbox-kalibi-guvenilir-olay-yayini",
+        "title": "Outbox Kalıbı: Güvenilir Olay Yayını"
+      },
+      "en": {
+        "slug": "transactional-outbox-pattern",
+        "title": "The Transactional Outbox Pattern"
       }
     },
     {
@@ -1490,6 +3902,30 @@
       }
     },
     {
+      "translationKey": "webassembly-server-side-wasm",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "sunucuda-webassembly-wasi",
+        "title": "Tarayıcının Ötesinde WebAssembly: Sunucuda Wasm"
+      },
+      "en": {
+        "slug": "webassembly-beyond-browser-wasi-2026",
+        "title": "WebAssembly Beyond the Browser: WASI in 2026"
+      }
+    },
+    {
+      "translationKey": "webgpu-2026-gpu-in-browser",
+      "category": "web-development",
+      "tr": {
+        "slug": "webgpu-2026-tarayicida-gpu",
+        "title": "WebGPU 2026: Tarayıcıda Gerçek GPU Gücü"
+      },
+      "en": {
+        "slug": "webgpu-2026-gpu-in-browser",
+        "title": "WebGPU in 2026: Real GPU Power in the Browser"
+      }
+    },
+    {
       "translationKey": "weekend-ai-project-ideas",
       "category": "ai",
       "tr": {
@@ -1514,6 +3950,42 @@
       }
     },
     {
+      "translationKey": "whatsapp-business-marketing-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "whatsapp-business-ile-pazarlama-2026",
+        "title": "WhatsApp Business ile Pazarlama: 2026 Rehberi"
+      },
+      "en": {
+        "slug": "whatsapp-business-marketing-2026",
+        "title": "WhatsApp Business Marketing: A 2026 Guide"
+      }
+    },
+    {
+      "translationKey": "which-claude-model-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "hangi-claude-modeli-2026-rehberi",
+        "title": "Hangi Claude Modelini Seçmelisin? 2026 Rehberi"
+      },
+      "en": {
+        "slug": "which-claude-model-2026",
+        "title": "Which Claude Model Should You Use in 2026?"
+      }
+    },
+    {
+      "translationKey": "why-ai-gadgets-keep-flopping",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-cihazlari-neden-tutmuyor",
+        "title": "AI Cihazları Neden Tutmuyor?"
+      },
+      "en": {
+        "slug": "why-ai-gadgets-keep-flopping",
+        "title": "Why AI Gadgets Keep Flopping"
+      }
+    },
+    {
       "translationKey": "write-documentation",
       "category": "career-productivity",
       "tr": {
@@ -1523,6 +3995,42 @@
       "en": {
         "slug": "how-to-write-documentation",
         "title": "How to Write Documentation Developers Love"
+      }
+    },
+    {
+      "translationKey": "youtube-channel-growth-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026-youtube-kanali-nasil-buyutulur",
+        "title": "2026'da YouTube Kanalı Nasıl Büyütülür?"
+      },
+      "en": {
+        "slug": "grow-youtube-channel-2026",
+        "title": "How to Grow a YouTube Channel in 2026"
+      }
+    },
+    {
+      "translationKey": "youtube-shorts-2026-attention-depth",
+      "category": "social-media",
+      "tr": {
+        "slug": "youtube-shorts-2026-dikkat-derinligi",
+        "title": "2026'da YouTube Shorts: Dikkat Derinliği"
+      },
+      "en": {
+        "slug": "youtube-shorts-2026-attention-depth",
+        "title": "YouTube Shorts in 2026: Win Attention Depth"
+      }
+    },
+    {
+      "translationKey": "youtube-shorts-vs-reels-vs-tiktok-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "shorts-mu-reels-mi-tiktok-mu-2026",
+        "title": "Shorts mu Reels mi TikTok mu? 2026 Kararı"
+      },
+      "en": {
+        "slug": "shorts-vs-reels-vs-tiktok-where-to-post",
+        "title": "Shorts vs Reels vs TikTok: Where to Post"
       }
     },
     {
@@ -1550,294 +4058,6 @@
       }
     },
     {
-      "translationKey": "chatgpt-work-agent-launch",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-work-nedir-openai-is-ajani",
-        "title": "ChatGPT Work Nedir? OpenAI'ın Yeni İş Ajanı"
-      },
-      "en": {
-        "slug": "chatgpt-work-openai-agent-explained",
-        "title": "ChatGPT Work: OpenAI's New Agent for Multi-Step Projects"
-      }
-    },
-    {
-      "translationKey": "modern-css-has-nesting",
-      "category": "web-development",
-      "tr": {
-        "slug": "modern-css-has-ic-ice-yazim",
-        "title": "Modern CSS: :has() ve Yerel İç İçe Yazım"
-      },
-      "en": {
-        "slug": "modern-css-has-native-nesting",
-        "title": "Modern CSS: :has() and Native Nesting"
-      }
-    },
-    {
-      "translationKey": "sse-vs-websockets",
-      "category": "web-development",
-      "tr": {
-        "slug": "sse-mi-websocket-mi-gercek-zamanli",
-        "title": "SSE mi WebSocket mi: Gerçek Zamanlı Veri"
-      },
-      "en": {
-        "slug": "sse-vs-websockets-real-time",
-        "title": "SSE vs WebSockets for Real-Time Apps"
-      }
-    },
-    {
-      "translationKey": "react-compiler-explained",
-      "category": "web-development",
-      "tr": {
-        "slug": "react-compiler-usememo-elveda",
-        "title": "React Compiler: useMemo'ya Elveda mı?"
-      },
-      "en": {
-        "slug": "react-compiler-goodbye-usememo",
-        "title": "React Compiler: Goodbye useMemo?"
-      }
-    },
-    {
-      "translationKey": "caching-strategies-invalidation",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "cache-stratejileri-gecersiz-kilma",
-        "title": "Cache Stratejileri ve Geçersiz Kılma"
-      },
-      "en": {
-        "slug": "caching-strategies-and-invalidation",
-        "title": "Caching Strategies and Invalidation"
-      }
-    },
-    {
-      "translationKey": "claude-reflect-usage-dashboard",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-reflect-nedir-anthropic-panosu",
-        "title": "Claude Reflect Nedir? Anthropic'in Yeni Panosu"
-      },
-      "en": {
-        "slug": "claude-reflect-usage-dashboard-explained",
-        "title": "Claude Reflect: Anthropic's New AI Usage Dashboard"
-      }
-    },
-    {
-      "translationKey": "cursor-vs-offset-pagination",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "cursor-mu-offset-mi-sayfalama",
-        "title": "Cursor mu Offset mi: API Sayfalama"
-      },
-      "en": {
-        "slug": "cursor-vs-offset-pagination",
-        "title": "Cursor vs Offset Pagination Explained"
-      }
-    },
-    {
-      "translationKey": "transaction-isolation-levels",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "veritabani-izolasyon-seviyeleri",
-        "title": "Veritabanı İzolasyon Seviyeleri Rehberi"
-      },
-      "en": {
-        "slug": "database-isolation-levels-explained",
-        "title": "Database Isolation Levels, Explained"
-      }
-    },
-    {
-      "translationKey": "transactional-outbox-pattern",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "outbox-kalibi-guvenilir-olay-yayini",
-        "title": "Outbox Kalıbı: Güvenilir Olay Yayını"
-      },
-      "en": {
-        "slug": "transactional-outbox-pattern",
-        "title": "The Transactional Outbox Pattern"
-      }
-    },
-    {
-      "translationKey": "rag-chunking-strategies",
-      "category": "ai",
-      "tr": {
-        "slug": "rag-icin-chunking-stratejileri",
-        "title": "RAG için Chunking Stratejileri"
-      },
-      "en": {
-        "slug": "chunking-strategies-for-rag",
-        "title": "Chunking Strategies for Better RAG"
-      }
-    },
-    {
-      "translationKey": "claude-code-runaway-agent-guardrails",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-kacak-ajanlara-fren",
-        "title": "Claude Code Kaçak Ajanlara Fren Getirdi"
-      },
-      "en": {
-        "slug": "claude-code-runaway-agent-guardrails",
-        "title": "Claude Code Adds Guardrails Against Runaway Agents"
-      }
-    },
-    {
-      "translationKey": "small-language-models-when",
-      "category": "ai",
-      "tr": {
-        "slug": "kucuk-dil-modelleri-ne-zaman",
-        "title": "Küçük Dil Modelleri Ne Zaman Yeter?"
-      },
-      "en": {
-        "slug": "when-small-language-models-win",
-        "title": "When Small Language Models Beat Big Ones"
-      }
-    },
-    {
-      "translationKey": "llm-observability-tracing",
-      "category": "ai",
-      "tr": {
-        "slug": "llm-gozlemlenebilirligi-trace-eval",
-        "title": "LLM Gözlemlenebilirliği: Trace ve Eval"
-      },
-      "en": {
-        "slug": "llm-observability-tracing",
-        "title": "LLM Observability: Tracing Your AI Calls"
-      }
-    },
-    {
-      "translationKey": "ic-to-tech-lead-90-days",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ic-den-tech-lead-e-ilk-90-gun",
-        "title": "IC'den Tech Lead'e: İlk 90 Gün"
-      },
-      "en": {
-        "slug": "ic-to-tech-lead-first-90-days",
-        "title": "From IC to Tech Lead: The First 90 Days"
-      }
-    },
-    {
-      "translationKey": "engineering-estimates",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "daha-iyi-muhendislik-tahminleri",
-        "title": "Daha İyi Mühendislik Tahminleri Yapma"
-      },
-      "en": {
-        "slug": "better-engineering-estimates",
-        "title": "How to Make Better Engineering Estimates"
-      }
-    },
-    {
-      "translationKey": "gemini-3-5-pro-delay-developer-guide",
-      "category": "ai",
-      "tr": {
-        "slug": "gemini-3-5-pro-yine-gecikti",
-        "title": "Gemini 3.5 Pro Yine Gecikti: Şimdi Ne Üzerine Geliştirmeli?"
-      },
-      "en": {
-        "slug": "gemini-3-5-pro-delayed-again-what-to-build-on",
-        "title": "Gemini 3.5 Pro Delayed Again: What to Build On Now"
-      }
-    },
-    {
-      "translationKey": "supply-chain-security-sbom",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "yazilim-tedarik-zinciri-guvenligi",
-        "title": "Yazılım Tedarik Zinciri Güvenliği: SBOM'dan SLSA'ya"
-      },
-      "en": {
-        "slug": "software-supply-chain-security-sbom-slsa",
-        "title": "Software Supply Chain Security: SBOM to SLSA"
-      }
-    },
-    {
-      "translationKey": "helm-vs-kustomize",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "helm-mi-kustomize-mi-k8s",
-        "title": "Helm mi Kustomize mi: K8s Yapılandırma"
-      },
-      "en": {
-        "slug": "helm-vs-kustomize-kubernetes",
-        "title": "Helm vs Kustomize for Kubernetes Config"
-      }
-    },
-    {
-      "translationKey": "tauri-vs-electron-2026",
-      "category": "web-development",
-      "tr": {
-        "slug": "tauri-mi-electron-mu",
-        "title": "Tauri mi Electron mu? 2026 Masaüstü Kararı"
-      },
-      "en": {
-        "slug": "tauri-vs-electron-2026",
-        "title": "Tauri vs Electron in 2026: Which Should You Pick?"
-      }
-    },
-    {
-      "translationKey": "biome-oxc-rust-tooling",
-      "category": "web-development",
-      "tr": {
-        "slug": "eslint-yerine-biome-ve-oxlint",
-        "title": "ESLint ve Prettier'e Veda: Biome ve Oxlint"
-      },
-      "en": {
-        "slug": "biome-vs-oxlint-eslint-migration",
-        "title": "Biome vs Oxlint: Rust Tooling Replaces ESLint"
-      }
-    },
-    {
-      "translationKey": "duckdb-vs-sqlite",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "duckdb-mi-sqlite-mi",
-        "title": "DuckDB mi SQLite mı? Gömülü Veritabanı Rehberi"
-      },
-      "en": {
-        "slug": "duckdb-vs-sqlite",
-        "title": "DuckDB vs SQLite: Which Embedded Database?"
-      }
-    },
-    {
-      "translationKey": "self-hosted-paas-kamal-coolify",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "kubernetessiz-deploy-kamal-coolify",
-        "title": "Kubernetes'siz Deploy: Kamal ve Coolify Rehberi"
-      },
-      "en": {
-        "slug": "deploy-without-kubernetes-kamal-coolify",
-        "title": "Deploy Without Kubernetes: Kamal vs Coolify"
-      }
-    },
-    {
-      "translationKey": "apache-iceberg-lakehouse",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "apache-iceberg-nedir-lakehouse",
-        "title": "Apache Iceberg Nedir? Lakehouse'un Yeni Standardı"
-      },
-      "en": {
-        "slug": "what-is-apache-iceberg-lakehouse",
-        "title": "What Is Apache Iceberg? The Lakehouse Standard"
-      }
-    },
-    {
-      "translationKey": "webassembly-server-side-wasm",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "sunucuda-webassembly-wasi",
-        "title": "Tarayıcının Ötesinde WebAssembly: Sunucuda Wasm"
-      },
-      "en": {
-        "slug": "webassembly-beyond-browser-wasi-2026",
-        "title": "WebAssembly Beyond the Browser: WASI in 2026"
-      }
-    },
-    {
       "translationKey": "zig-language-2026",
       "category": "software-engineering",
       "tr": {
@@ -1847,2166 +4067,6 @@
       "en": {
         "slug": "zig-2026-c-replacement",
         "title": "Zig in 2026: A Real C Replacement?"
-      }
-    },
-    {
-      "translationKey": "claude-code-transcript-deletion-bug",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-oturum-kayitlarini-sessizce-siliyor",
-        "title": "Claude Code Oturum Kayıtlarını Sessizce Siliyor"
-      },
-      "en": {
-        "slug": "claude-code-silently-deletes-session-transcripts",
-        "title": "Claude Code Silently Deletes Session Transcripts"
-      }
-    },
-    {
-      "translationKey": "agentic-browsers-comparison",
-      "category": "ai",
-      "tr": {
-        "slug": "yapay-zeka-tarayicilari-karsilastirma",
-        "title": "Yapay Zeka Tarayıcıları: Comet, Atlas ve Gemini"
-      },
-      "en": {
-        "slug": "ai-browsers-compared-comet-atlas-gemini",
-        "title": "AI Browsers Compared: Comet, Atlas and Gemini"
-      }
-    },
-    {
-      "translationKey": "chatgpt-instagram-content-small-business",
-      "category": "social-media",
-      "tr": {
-        "slug": "chatgpt-ile-instagram-icerigi-kucuk-isletme",
-        "title": "ChatGPT ile Instagram İçeriği: Küçük İşletme Rehberi"
-      },
-      "en": {
-        "slug": "chatgpt-instagram-content-small-business",
-        "title": "ChatGPT for Instagram Content: A Small Business Guide"
-      }
-    },
-    {
-      "translationKey": "linkedin-organic-reach-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "linkedin-organik-erisim-2026",
-        "title": "LinkedIn Organik Erişim 2026: Hâlâ İşe Yarayanlar"
-      },
-      "en": {
-        "slug": "linkedin-organic-reach-2026",
-        "title": "LinkedIn Organic Reach 2026: What Still Works"
-      }
-    },
-    {
-      "translationKey": "tiktok-shop-monetization-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "tiktok-shop-ile-para-kazanma-2026",
-        "title": "TikTok Shop ile Para Kazanma: 2026 Kreatör Rehberi"
-      },
-      "en": {
-        "slug": "tiktok-shop-monetization-2026-creator-guide",
-        "title": "Making Money on TikTok Shop: A 2026 Creator Guide"
-      }
-    },
-    {
-      "translationKey": "grow-monetize-newsletter-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "bulten-buyutme-ve-gelir-2026",
-        "title": "Bülten Büyütme ve Gelir 2026: Sıfırdan Rehber"
-      },
-      "en": {
-        "slug": "grow-monetize-newsletter-2026",
-        "title": "Grow and Monetize a Newsletter in 2026"
-      }
-    },
-    {
-      "translationKey": "ai-shopify-product-descriptions",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "ai-ile-shopify-urun-aciklamalari",
-        "title": "AI ile Shopify Ürün Açıklamaları Yazmak"
-      },
-      "en": {
-        "slug": "ai-shopify-product-descriptions",
-        "title": "Writing Shopify Product Descriptions with AI"
-      }
-    },
-    {
-      "translationKey": "gemini-gems-custom-ai-assistants-business",
-      "category": "business",
-      "tr": {
-        "slug": "gemini-gems-isletmeye-ozel-ai-asistanlari",
-        "title": "Gemini Gems ile İşletmene Özel AI Asistanları"
-      },
-      "en": {
-        "slug": "gemini-gems-custom-ai-assistants-business",
-        "title": "Gemini Gems: Custom AI Assistants for Your Business"
-      }
-    },
-    {
-      "translationKey": "notebooklm-research-study-guide",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "notebooklm-ile-arastirma-ve-ogrenme",
-        "title": "NotebookLM ile Araştırma ve Öğrenme Rehberi"
-      },
-      "en": {
-        "slug": "notebooklm-research-study-guide",
-        "title": "NotebookLM for Research and Study: A How-To"
-      }
-    },
-    {
-      "translationKey": "gemini-flash-trio-launch",
-      "category": "ai",
-      "tr": {
-        "slug": "gemini-3-6-flash-3-5-flash-lite-ve-cyber",
-        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite ve Cyber Geldi"
-      },
-      "en": {
-        "slug": "gemini-3-6-flash-3-5-flash-lite-and-cyber",
-        "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and Cyber Arrive"
-      }
-    },
-    {
-      "translationKey": "claude-economic-index-connector",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-ekonomi-endeksi-baglantisi",
-        "title": "Claude'a Ekonomi Endeksi'ni Sormak"
-      },
-      "en": {
-        "slug": "claude-economic-index-connector",
-        "title": "Ask Claude About the Anthropic Economic Index"
-      }
-    },
-    {
-      "translationKey": "ai-smart-glasses-2026-meta-vs-android-xr",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-akilli-gozlukler-2026-meta-android-xr",
-        "title": "AI Akıllı Gözlükler 2026: Meta ve Android XR"
-      },
-      "en": {
-        "slug": "ai-smart-glasses-2026-meta-vs-android-xr",
-        "title": "AI Smart Glasses 2026: Meta vs Android XR"
-      }
-    },
-    {
-      "translationKey": "first-10-customers-solo-ai-founder",
-      "category": "business",
-      "tr": {
-        "slug": "ai-caginda-ilk-10-musteri-solo-kurucu",
-        "title": "AI Çağında İlk 10 Müşteri: Solo Kurucu Rehberi"
-      },
-      "en": {
-        "slug": "first-10-customers-solo-ai-founder",
-        "title": "Your First 10 Customers as a Solo AI Founder"
-      }
-    },
-    {
-      "translationKey": "gemini-3-deep-think-explained",
-      "category": "ai",
-      "tr": {
-        "slug": "gemini-3-deep-think-nedir",
-        "title": "Gemini 3 Deep Think Nedir? Derin Akıl Yürütme"
-      },
-      "en": {
-        "slug": "gemini-3-deep-think-explained",
-        "title": "What Is Gemini 3 Deep Think? Deeper Reasoning"
-      }
-    },
-    {
-      "translationKey": "claude-skills-explained-for-everyone",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-skills-nedir-herkes-icin",
-        "title": "Claude Skills Nedir? Herkes İçin Pratik Rehber"
-      },
-      "en": {
-        "slug": "claude-skills-explained-for-everyone",
-        "title": "Claude Skills Explained: A Guide for Everyone"
-      }
-    },
-    {
-      "translationKey": "claude-artifacts-live-mcp-data",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-artifacts-canli-mcp-verisi",
-        "title": "Claude Artifacts Artık Canlı MCP Verisi Çekiyor"
-      },
-      "en": {
-        "slug": "claude-artifacts-live-mcp-data",
-        "title": "Claude Artifacts Can Now Pull Live Data via MCP"
-      }
-    },
-    {
-      "translationKey": "whatsapp-business-marketing-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "whatsapp-business-ile-pazarlama-2026",
-        "title": "WhatsApp Business ile Pazarlama: 2026 Rehberi"
-      },
-      "en": {
-        "slug": "whatsapp-business-marketing-2026",
-        "title": "WhatsApp Business Marketing: A 2026 Guide"
-      }
-    },
-    {
-      "translationKey": "ai-support-chatbot-without-code",
-      "category": "business",
-      "tr": {
-        "slug": "kod-yazmadan-ai-musteri-destek-botu",
-        "title": "Kod Yazmadan AI Müşteri Destek Botu Kurmak"
-      },
-      "en": {
-        "slug": "ai-support-chatbot-without-code",
-        "title": "Build an AI Support Chatbot Without Code"
-      }
-    },
-    {
-      "translationKey": "short-video-hook-mistakes",
-      "category": "social-media",
-      "tr": {
-        "slug": "kisa-videoda-ilk-3-saniye-hook-hatalari",
-        "title": "Kısa Videoda İlk 3 Saniye: 7 Hook Hatası"
-      },
-      "en": {
-        "slug": "short-video-hook-mistakes",
-        "title": "The First 3 Seconds: 7 Short-Video Hook Mistakes"
-      }
-    },
-    {
-      "translationKey": "ai-video-generation-2026-sora-vs-veo",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-video-uretimi-2026-sora-veo",
-        "title": "AI Video Üretimi 2026: Sora, Veo ve Fazlası"
-      },
-      "en": {
-        "slug": "ai-video-generation-2026-sora-vs-veo",
-        "title": "AI Video Generation 2026: Sora vs Veo Compared"
-      }
-    },
-    {
-      "translationKey": "claude-opus-5-launch",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-opus-5-geldi",
-        "title": "Claude Opus 5 Geldi: Yarı Fiyata Frontier Zeka"
-      },
-      "en": {
-        "slug": "claude-opus-5-launch",
-        "title": "Claude Opus 5 Arrives: Frontier AI at Half Price"
-      }
-    },
-    {
-      "translationKey": "personal-brand-on-x-for-founders",
-      "category": "social-media",
-      "tr": {
-        "slug": "xte-kisisel-marka-kurucular-icin",
-        "title": "X'te Kişisel Marka: Kurucular İçin Takipçi Tuzağı"
-      },
-      "en": {
-        "slug": "personal-brand-on-x-for-founders",
-        "title": "Personal Brand on X for Founders: Beyond Followers"
-      }
-    },
-    {
-      "translationKey": "local-seo-2026-google-business-checklist",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "yerel-seo-2026-google-business-profil",
-        "title": "Yerel SEO 2026: Google Business Profil Kontrol Listesi"
-      },
-      "en": {
-        "slug": "local-seo-2026-google-business-checklist",
-        "title": "Local SEO 2026: A Google Business Profile Checklist"
-      }
-    },
-    {
-      "translationKey": "on-device-ai-phones-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "telefonda-yapay-zeka-cihaz-ici-ai-2026",
-        "title": "Telefonda Yapay Zeka: 2026'da Gerçekten Ne Çalışıyor"
-      },
-      "en": {
-        "slug": "on-device-ai-phones-2026",
-        "title": "On-Device AI: What Actually Runs Locally in 2026"
-      }
-    },
-    {
-      "translationKey": "ai-resume-mistakes-ats",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-ile-cv-yazarken-6-hata-ats",
-        "title": "AI ile CV Yazarken 6 Hata (ve ATS Tuzağı)"
-      },
-      "en": {
-        "slug": "ai-resume-mistakes-ats",
-        "title": "6 Mistakes Using AI for Your Resume (and ATS)"
-      }
-    },
-    {
-      "translationKey": "openai-reliability-outage-streak-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-kesintileri-4-gunde-4-ariza",
-        "title": "ChatGPT'nin Kesinti Sorunu: 4 Günde 4 Arıza"
-      },
-      "en": {
-        "slug": "openai-outage-streak-what-it-teaches-developers",
-        "title": "ChatGPT's Outage Streak: 4 Failures in 4 Days"
-      }
-    },
-    {
-      "translationKey": "selling-digital-products-with-ai",
-      "category": "business",
-      "tr": {
-        "slug": "ai-ile-dijital-urun-satisi-pasif-gelir",
-        "title": "AI ile Dijital Ürün Satışı: Pasif Gelir Rehberi"
-      },
-      "en": {
-        "slug": "selling-digital-products-with-ai",
-        "title": "Selling Digital Products with AI: A Passive Income Guide"
-      }
-    },
-    {
-      "translationKey": "ai-voice-assistants-compared-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "ai-sesli-asistan-kiyaslamasi-gpt-live-gemini-claude",
-        "title": "AI Sesli Asistan Kıyaslaması: GPT-Live, Gemini, Claude"
-      },
-      "en": {
-        "slug": "ai-voice-assistants-compared-gpt-live-gemini-claude",
-        "title": "AI Voice Assistants Compared: GPT-Live, Gemini, Claude"
-      }
-    },
-    {
-      "translationKey": "custom-instructions-big-three-ai",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-claude-gemini-ozel-talimatlar",
-        "title": "ChatGPT, Claude ve Gemini'de Özel Talimatlar"
-      },
-      "en": {
-        "slug": "custom-instructions-chatgpt-claude-gemini",
-        "title": "Custom Instructions in ChatGPT, Claude and Gemini"
-      }
-    },
-    {
-      "translationKey": "ai-meeting-assistants-compared-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "ai-toplanti-asistanlari-kiyaslamasi-2026",
-        "title": "AI Toplantı Asistanları Kıyaslaması 2026"
-      },
-      "en": {
-        "slug": "ai-meeting-assistants-compared-2026",
-        "title": "AI Meeting Assistants Compared in 2026"
-      }
-    },
-    {
-      "translationKey": "claude-code-nested-subagents-depth-3",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-ic-ice-alt-ajanlar-derinlik-3",
-        "title": "Claude Code'da İç İçe Alt Ajanlar: Yasaktan Derinlik 3'e"
-      },
-      "en": {
-        "slug": "claude-code-nested-subagents-depth-3",
-        "title": "Claude Code Nested Subagents: Banned to Depth-3 in Four Days"
-      }
-    },
-    {
-      "translationKey": "long-context-1m-tokens-explained",
-      "category": "ai",
-      "tr": {
-        "slug": "1-milyon-token-baglam-ne-degisiyor",
-        "title": "1 Milyon Token Bağlam: Gerçekte Ne Değişiyor?"
-      },
-      "en": {
-        "slug": "1m-token-context-what-changes",
-        "title": "1M-Token Context: What Actually Changes?"
-      }
-    },
-    {
-      "translationKey": "organize-ai-chats-projects-gems",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-sohbetlerini-duzenle-projects-gems",
-        "title": "AI Sohbetlerini Düzenle: Projects ve Gems"
-      },
-      "en": {
-        "slug": "organize-ai-chats-and-gems",
-        "title": "Organize Your AI Chats: Projects and Gems"
-      }
-    },
-    {
-      "translationKey": "ai-inbox-zero-email-triage",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-ile-inbox-zero-e-posta-triyaji",
-        "title": "AI ile Inbox Zero: E-posta Triyajı Rehberi"
-      },
-      "en": {
-        "slug": "inbox-zero-with-ai-email-triage",
-        "title": "Inbox Zero with AI: Smarter Email Triage"
-      }
-    },
-    {
-      "translationKey": "short-form-video-series-strategy-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "kisa-video-serisiyle-izlenme-artirma",
-        "title": "Kısa Video Serisiyle İzlenme Artırma Rehberi"
-      },
-      "en": {
-        "slug": "short-video-series-retention",
-        "title": "Grow Retention with a Short-Video Series"
-      }
-    },
-    {
-      "translationKey": "claude-share-links-google-indexed",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-paylasim-linkleri-google-indekslendi",
-        "title": "Claude Sohbetleri Google'da Nasıl İndekslendi?"
-      },
-      "en": {
-        "slug": "claude-shared-chats-google-indexed",
-        "title": "How Claude's Shared Chats Ended Up on Google"
-      }
-    },
-    {
-      "translationKey": "youtube-shorts-vs-reels-vs-tiktok-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "shorts-mu-reels-mi-tiktok-mu-2026",
-        "title": "Shorts mu Reels mi TikTok mu? 2026 Kararı"
-      },
-      "en": {
-        "slug": "shorts-vs-reels-vs-tiktok-where-to-post",
-        "title": "Shorts vs Reels vs TikTok: Where to Post"
-      }
-    },
-    {
-      "translationKey": "silent-first-social-video-mistakes",
-      "category": "social-media",
-      "tr": {
-        "slug": "sessiz-izlenen-videolar-icin-7-hata",
-        "title": "Sessiz İzlenen Videolar İçin 7 Hata"
-      },
-      "en": {
-        "slug": "sound-off-video-mistakes",
-        "title": "7 Mistakes That Kill Sound-Off Video"
-      }
-    },
-    {
-      "translationKey": "create-social-videos-with-ai-workflow",
-      "category": "social-media",
-      "tr": {
-        "slug": "ai-ile-sosyal-medya-videosu-uretmek",
-        "title": "AI ile Sosyal Medya Videosu Üretmek"
-      },
-      "en": {
-        "slug": "make-social-videos-with-ai-workflow",
-        "title": "Make Social Videos with AI: A Workflow"
-      }
-    },
-    {
-      "translationKey": "build-community-not-followers-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "takipci-degil-topluluk-2026",
-        "title": "Takipçi Değil Topluluk: 2026 Yaklaşımı"
-      },
-      "en": {
-        "slug": "build-community-not-followers-2026",
-        "title": "Build Community, Not Followers, in 2026"
-      }
-    },
-    {
-      "translationKey": "mcp-2026-07-28-stateless-spec",
-      "category": "ai",
-      "tr": {
-        "slug": "mcp-2026-07-28-guncellemesi",
-        "title": "MCP 2026-07-28: Stateless Çekirdeğe Geçiş Rehberi"
-      },
-      "en": {
-        "slug": "mcp-2026-07-28-stateless-spec",
-        "title": "MCP 2026-07-28: The Move to a Stateless Core"
-      }
-    },
-    {
-      "translationKey": "email-marketing-deliverability-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "e-posta-pazarlamada-teslim-edilebilirlik",
-        "title": "E-posta Pazarlamada Teslim Edilebilirlik"
-      },
-      "en": {
-        "slug": "email-deliverability-checklist",
-        "title": "Email Deliverability: A Practical Checklist"
-      }
-    },
-    {
-      "translationKey": "google-ads-vs-meta-ads-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "google-ads-mi-meta-ads-mi-kucuk-butce",
-        "title": "Google Ads mı Meta Ads mı? Küçük Bütçe"
-      },
-      "en": {
-        "slug": "google-ads-vs-meta-ads-small-budget",
-        "title": "Google Ads vs Meta Ads on a Small Budget"
-      }
-    },
-    {
-      "translationKey": "ai-marketing-automation-zapier-make",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "ai-ile-pazarlama-otomasyonu-zapier-make",
-        "title": "AI ile Pazarlama Otomasyonu: Zapier, Make"
-      },
-      "en": {
-        "slug": "marketing-automation-with-ai-zapier-make",
-        "title": "Marketing Automation with AI: Zapier & Make"
-      }
-    },
-    {
-      "translationKey": "landing-page-conversion-mistakes-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "donusum-dusuren-landing-page-hatalari",
-        "title": "Dönüşüm Düşüren Landing Page Hataları"
-      },
-      "en": {
-        "slug": "landing-page-conversion-mistakes",
-        "title": "Landing Page Mistakes That Kill Conversions"
-      }
-    },
-    {
-      "translationKey": "claude-red-team-test-real-company-breach",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-guvenlik-testinde-gercek-sirketlere-sizdi",
-        "title": "Claude Güvenlik Testinde Gerçek Şirketlere Nasıl Sızdı?"
-      },
-      "en": {
-        "slug": "claude-security-test-breached-real-companies",
-        "title": "How Claude Breached Real Companies During a Security Test"
-      }
-    },
-    {
-      "translationKey": "micro-influencer-marketing-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "kucuk-markalar-icin-mikro-influencer",
-        "title": "Küçük Markalar İçin Mikro Influencer"
-      },
-      "en": {
-        "slug": "micro-influencer-marketing-small-brands",
-        "title": "Micro-Influencer Marketing for Small Brands"
-      }
-    },
-    {
-      "translationKey": "chatgpt-health-records-explained",
-      "category": "technology",
-      "tr": {
-        "slug": "chatgpt-health-saglik-verini-baglamak",
-        "title": "ChatGPT Health: Sağlık Verini Bağlamak"
-      },
-      "en": {
-        "slug": "chatgpt-health-connecting-your-records",
-        "title": "ChatGPT Health: Connecting Your Records"
-      }
-    },
-    {
-      "translationKey": "gemini-for-home-smart-speakers-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "gemini-for-home-akilli-hoparlorde-ai",
-        "title": "Gemini for Home: Akıllı Hoparlörde AI"
-      },
-      "en": {
-        "slug": "gemini-for-home-smart-speakers",
-        "title": "Gemini for Home: AI on Your Smart Speaker"
-      }
-    },
-    {
-      "translationKey": "health-wearables-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "saglik-giyilebilirleri-2026-yuzuk-glukoz",
-        "title": "Sağlık Giyilebilirleri 2026: Yüzük, Glukoz"
-      },
-      "en": {
-        "slug": "health-wearables-2026-rings-glucose",
-        "title": "Health Wearables 2026: Rings and Glucose"
-      }
-    },
-    {
-      "translationKey": "gpt-5-6-luna-terra-price-cuts",
-      "category": "ai",
-      "tr": {
-        "slug": "gpt-5-6-fiyatlari-dustu-luna-ucuzladi",
-        "title": "GPT-5.6 Fiyatları Düştü: Luna %80 Ucuzladı"
-      },
-      "en": {
-        "slug": "gpt-5-6-price-cuts-luna-terra",
-        "title": "GPT-5.6 Price Cuts: Luna Drops 80%, Terra 20%"
-      }
-    },
-    {
-      "translationKey": "ai-earbuds-live-translation-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-kulaklik-ve-canli-ceviri-abarti-mi",
-        "title": "AI Kulaklık ve Canlı Çeviri: Abartı mı?"
-      },
-      "en": {
-        "slug": "ai-earbuds-live-translation-hype",
-        "title": "AI Earbuds and Live Translation: Hype?"
-      }
-    },
-    {
-      "translationKey": "smart-home-matter-interoperability-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "akilli-ev-2026-matter-ve-cihaz-uyumu",
-        "title": "Akıllı Ev 2026: Matter ve Cihaz Uyumu"
-      },
-      "en": {
-        "slug": "smart-home-2026-matter-interoperability",
-        "title": "Smart Home 2026: Matter and Interoperability"
-      }
-    },
-    {
-      "translationKey": "micro-saas-ideas-validate-2026",
-      "category": "business",
-      "tr": {
-        "slug": "mikro-saas-fikri-bulma-ve-dogrulama",
-        "title": "Mikro-SaaS Fikri Bulma ve Doğrulama"
-      },
-      "en": {
-        "slug": "finding-validating-micro-saas-idea",
-        "title": "Finding and Validating a Micro-SaaS Idea"
-      }
-    },
-    {
-      "translationKey": "pricing-saas-product-2026",
-      "category": "business",
-      "tr": {
-        "slug": "saas-fiyatlandirma-yaygin-yanlislar",
-        "title": "SaaS Fiyatlandırma: Yaygın Yanlışlar"
-      },
-      "en": {
-        "slug": "saas-pricing-founder-mistakes",
-        "title": "SaaS Pricing: The Mistakes Founders Make"
-      }
-    },
-    {
-      "translationKey": "claude-network-outage-july-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-24-saatte-iki-kez-coktu",
-        "title": "Claude 24 Saatte İki Kez Çöktü: Ne Oldu?"
-      },
-      "en": {
-        "slug": "claude-outage-twice-in-24-hours",
-        "title": "Claude Went Down Twice in 24 Hours: What Broke"
-      }
-    },
-    {
-      "translationKey": "ai-automation-services-business",
-      "category": "business",
-      "tr": {
-        "slug": "isletmelere-ai-otomasyon-hizmeti-satmak",
-        "title": "İşletmelere AI Otomasyon Hizmeti Satmak"
-      },
-      "en": {
-        "slug": "selling-ai-automation-services",
-        "title": "Selling AI Automation Services to Businesses"
-      }
-    },
-    {
-      "translationKey": "bootstrap-vs-vc-2026",
-      "category": "business",
-      "tr": {
-        "slug": "bootstrap-mi-vc-mi-2026-dogru-secim",
-        "title": "Bootstrap mı VC mi? 2026 İçin Doğru Seçim"
-      },
-      "en": {
-        "slug": "bootstrap-or-vc-2026",
-        "title": "Bootstrap or VC? Making the Call in 2026"
-      }
-    },
-    {
-      "translationKey": "saas-metrics-founders-mrr-churn-cac",
-      "category": "business",
-      "tr": {
-        "slug": "kurucular-icin-ilk-saas-metrikleri",
-        "title": "Kurucular İçin İlk SaaS Metrikleri"
-      },
-      "en": {
-        "slug": "first-saas-metrics-mrr-churn-cac",
-        "title": "First SaaS Metrics: MRR, Churn, and CAC"
-      }
-    },
-    {
-      "translationKey": "pwa-in-2026-still-worth-it",
-      "category": "web-development",
-      "tr": {
-        "slug": "pwa-2026da-hala-mantikli-mi",
-        "title": "PWA 2026'da Hâlâ Mantıklı mı?"
-      },
-      "en": {
-        "slug": "are-pwas-worth-it-2026",
-        "title": "Are PWAs Still Worth It in 2026?"
-      }
-    },
-    {
-      "translationKey": "open-secure-ai-alliance",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "open-secure-ai-alliance-nedir",
-        "title": "Open Secure AI Alliance: Yeni Yapay Zeka Güvenlik İttifakı"
-      },
-      "en": {
-        "slug": "open-secure-ai-alliance-explained",
-        "title": "Open Secure AI Alliance: Nvidia's Security Coalition"
-      }
-    },
-    {
-      "translationKey": "api-versioning-strategies-2026",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "api-versiyonlama-stratejileri",
-        "title": "API Versiyonlama Stratejileri"
-      },
-      "en": {
-        "slug": "api-versioning-strategies",
-        "title": "API Versioning Strategies That Scale"
-      }
-    },
-    {
-      "translationKey": "database-backup-disaster-recovery",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "veritabani-yedekleme-ve-felaket-kurtarma",
-        "title": "Veritabanı Yedekleme ve Felaket Kurtarma"
-      },
-      "en": {
-        "slug": "database-backups-disaster-recovery",
-        "title": "Database Backups and Disaster Recovery"
-      }
-    },
-    {
-      "translationKey": "foldable-phones-worth-it-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "katlanabilir-telefonlar-2026-deger-mi",
-        "title": "Katlanabilir Telefonlar 2026: Artık Değer mi?"
-      },
-      "en": {
-        "slug": "foldable-phones-worth-it-2026",
-        "title": "Foldable Phones in 2026: Finally Worth It?"
-      }
-    },
-    {
-      "translationKey": "ai-pc-npu-explained",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-bilgisayarlar-npu-nedir",
-        "title": "AI Bilgisayarlar: NPU Aslında Ne Yapar?"
-      },
-      "en": {
-        "slug": "ai-pc-npu-explained",
-        "title": "AI PCs Explained: What an NPU Actually Does"
-      }
-    },
-    {
-      "translationKey": "eu-ai-act-enforcement-live-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "ab-yapay-zeka-yasasi-devrede-ne-degisiyor",
-        "title": "AB Yapay Zeka Yasası Devrede: Ne Değişiyor?"
-      },
-      "en": {
-        "slug": "eu-ai-act-enforcement-live-2026",
-        "title": "EU AI Act Enforcement Is Live: What Changes"
-      }
-    },
-    {
-      "translationKey": "home-robots-2026-hype-vs-reality",
-      "category": "technology",
-      "tr": {
-        "slug": "ev-robotlari-2026-abarti-mi-gercek-mi",
-        "title": "Ev Robotları 2026: Abartı mı Gerçek mi?"
-      },
-      "en": {
-        "slug": "home-robots-2026-hype-vs-reality",
-        "title": "Home Robots in 2026: Hype vs Reality"
-      }
-    },
-    {
-      "translationKey": "satellite-texting-direct-to-cell",
-      "category": "technology",
-      "tr": {
-        "slug": "sinyalsiz-mesajlasma-uydudan-telefona",
-        "title": "Sinyalsiz Mesajlaşma: Uydudan Telefona 2026"
-      },
-      "en": {
-        "slug": "satellite-texting-direct-to-cell-2026",
-        "title": "Texting With No Signal: Direct-to-Cell in 2026"
-      }
-    },
-    {
-      "translationKey": "gemini-google-workspace-small-business",
-      "category": "business",
-      "tr": {
-        "slug": "kucuk-isletme-icin-workspace-gemini",
-        "title": "Küçük İşletme İçin Workspace'te Gemini"
-      },
-      "en": {
-        "slug": "gemini-google-workspace-small-business",
-        "title": "Gemini in Google Workspace for Small Business"
-      }
-    },
-    {
-      "translationKey": "first-hire-solopreneur",
-      "category": "business",
-      "tr": {
-        "slug": "ilk-ise-alim-freelancer-mi-calisan-mi",
-        "title": "İlk İşe Alımın: Freelancer mı, Çalışan mı?"
-      },
-      "en": {
-        "slug": "first-hire-contractor-employee-va",
-        "title": "Your First Hire: Contractor, Employee, or VA?"
-      }
-    },
-    {
-      "translationKey": "claude-opus-4-1-retirement-migration",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-opus-4-1-emekli-oldu-gecis-rehberi",
-        "title": "Claude Opus 4.1 Emekli Oldu: Opus 4.8'e Geçiş Rehberi"
-      },
-      "en": {
-        "slug": "claude-opus-4-1-retires-migrate-to-opus-4-8",
-        "title": "Claude Opus 4.1 Retires: Your Migration Guide to Opus 4.8"
-      }
-    },
-    {
-      "translationKey": "cofounder-equity-vesting-basics",
-      "category": "business",
-      "tr": {
-        "slug": "kurucu-ortak-hisse-ve-vesting-rehberi",
-        "title": "Kurucu Ortak Hisse ve Vesting Rehberi"
-      },
-      "en": {
-        "slug": "cofounder-equity-vesting-explained",
-        "title": "Co-Founder Equity and Vesting, Explained"
-      }
-    },
-    {
-      "translationKey": "reading-contracts-with-claude-founder",
-      "category": "business",
-      "tr": {
-        "slug": "claude-ile-sozlesme-okuma-kurucular",
-        "title": "Kurucular İçin Claude ile Sözleşme Okuma"
-      },
-      "en": {
-        "slug": "reading-contracts-with-claude-founder",
-        "title": "Reading Contracts With Claude as a Founder"
-      }
-    },
-    {
-      "translationKey": "optimize-store-for-ai-shopping-agents",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "magazani-ai-alisveris-ajanlarina-hazirla",
-        "title": "Mağazanı AI Alışveriş Ajanlarına Hazırla"
-      },
-      "en": {
-        "slug": "optimize-store-for-ai-shopping-agents",
-        "title": "Get Your Store Ready for AI Shopping Agents"
-      }
-    },
-    {
-      "translationKey": "topical-authority-content-clusters",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "konu-otoritesi-icerik-kumeleri-seo",
-        "title": "Konu Otoritesi: 2026 SEO'nun Belkemiği"
-      },
-      "en": {
-        "slug": "topical-authority-content-clusters",
-        "title": "Topical Authority: The 2026 SEO Backbone"
-      }
-    },
-    {
-      "translationKey": "claude-inference-hooks-explained",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-inference-hooks-guvenlik-sunucusu",
-        "title": "Claude Inference Hooks: AI Güvenlik Sunucusu Kurmak"
-      },
-      "en": {
-        "slug": "claude-inference-hooks-explained",
-        "title": "Claude Inference Hooks: Build Your AI Security Server"
-      }
-    },
-    {
-      "translationKey": "marketing-funnel-solopreneur",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "tek-kisilik-isletme-pazarlama-hunisi",
-        "title": "Tek Kişilik İşletme İçin Pazarlama Hunisi"
-      },
-      "en": {
-        "slug": "marketing-funnel-one-person-business",
-        "title": "A Marketing Funnel for a One-Person Business"
-      }
-    },
-    {
-      "translationKey": "gemini-instagram-reels-hooks",
-      "category": "social-media",
-      "tr": {
-        "slug": "gemini-ile-reels-hook-ve-izlenme",
-        "title": "Gemini ile Reels Düzelt: Hook ve İzlenme"
-      },
-      "en": {
-        "slug": "fix-reels-with-gemini-hooks-retention",
-        "title": "Fix Your Reels With Gemini: Hooks & Retention"
-      }
-    },
-    {
-      "translationKey": "threads-vs-bluesky-vs-x-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "threads-bluesky-x-2026-nerede-paylasilir",
-        "title": "Threads, Bluesky, X: 2026'da Nerede Paylaş?"
-      },
-      "en": {
-        "slug": "threads-vs-bluesky-vs-x-2026",
-        "title": "Threads vs Bluesky vs X: Where to Post in 2026"
-      }
-    },
-    {
-      "translationKey": "pinterest-traffic-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "pinterest-2026-sessiz-trafik-kaynagi",
-        "title": "Pinterest 2026: Sessiz Trafik Kaynağı"
-      },
-      "en": {
-        "slug": "pinterest-traffic-engine-2026",
-        "title": "Pinterest in 2026: The Quiet Traffic Engine"
-      }
-    },
-    {
-      "translationKey": "claude-code-cross-session-messaging",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-oturumlar-arasi-mesajlasma",
-        "title": "Claude Code'da Oturumlar Birbirine Mesaj Atabiliyor"
-      },
-      "en": {
-        "slug": "claude-code-cross-session-messaging",
-        "title": "Claude Code Sessions Can Now Message Each Other"
-      }
-    },
-    {
-      "translationKey": "chatgpt-pulse-proactive-briefing",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "chatgpt-pulse-gunluk-ozet",
-        "title": "ChatGPT Pulse Kapandı: Scheduled Tasks Rehberi"
-      },
-      "en": {
-        "slug": "chatgpt-pulse-daily-briefing",
-        "title": "ChatGPT Pulse Is Gone: Your Scheduled Tasks Guide"
-      }
-    },
-    {
-      "translationKey": "learn-any-skill-with-ai-tutor",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-ogretmenle-beceri-ogrenme",
-        "title": "AI Öğretmenle Her Beceriyi Daha Hızlı Öğren"
-      },
-      "en": {
-        "slug": "learn-any-skill-with-ai-tutor",
-        "title": "Learn Any Skill Faster With an AI Tutor"
-      }
-    },
-    {
-      "translationKey": "beat-procrastination-systems",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ertelemeyi-kiran-sistemler",
-        "title": "Erteleme Alışkanlığını Kıran Sistemler"
-      },
-      "en": {
-        "slug": "beat-procrastination-systems-that-stick",
-        "title": "Beat Procrastination With Systems That Stick"
-      }
-    },
-    {
-      "translationKey": "building-with-gemini-flash-3-6",
-      "category": "ai",
-      "tr": {
-        "slug": "gemini-3-6-flash-ile-gelistirme",
-        "title": "Gemini 3.6 Flash ile Ucuz ve Hızlı AI"
-      },
-      "en": {
-        "slug": "building-with-gemini-3-6-flash",
-        "title": "Building With Gemini 3.6 Flash: Cheap, Fast AI"
-      }
-    },
-    {
-      "translationKey": "claude-code-self-hosted-environments",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-kendi-altyapinizda-calisan-oturumlar",
-        "title": "Claude Code Self-Hosted Environments Nedir?"
-      },
-      "en": {
-        "slug": "claude-code-self-hosted-environments",
-        "title": "Claude Code Self-Hosted Environments Explained"
-      }
-    },
-    {
-      "translationKey": "content-calendar-batch-month-in-day",
-      "category": "social-media",
-      "tr": {
-        "slug": "bir-gunde-bir-aylik-icerik-uret",
-        "title": "Bir Günde Bir Aylık İçerik Üret"
-      },
-      "en": {
-        "slug": "batch-month-content-in-a-day",
-        "title": "Batch a Month of Content in a Single Day"
-      }
-    },
-    {
-      "translationKey": "build-your-first-mcp-connector",
-      "category": "ai",
-      "tr": {
-        "slug": "ilk-mcp-baglayicini-yaz-2026",
-        "title": "İlk MCP Bağlayıcını Yaz (2026 Spec)"
-      },
-      "en": {
-        "slug": "build-your-first-mcp-connector",
-        "title": "Build Your First MCP Connector (2026 Spec)"
-      }
-    },
-    {
-      "translationKey": "local-first-apps-sync-engines",
-      "category": "web-development",
-      "tr": {
-        "slug": "local-first-uygulamalar-ve-senkron-2026",
-        "title": "Local-First Uygulamalar ve Senkron 2026"
-      },
-      "en": {
-        "slug": "local-first-apps-sync-engines-2026",
-        "title": "Local-First Apps and Sync Engines in 2026"
-      }
-    },
-    {
-      "translationKey": "native-html-no-js-dialog-popover",
-      "category": "web-development",
-      "tr": {
-        "slug": "javascript-gerektirmeyen-html",
-        "title": "Artık JavaScript Gerektirmeyen HTML"
-      },
-      "en": {
-        "slug": "native-html-no-javascript-dialog-popover",
-        "title": "HTML You No Longer Need JavaScript For"
-      }
-    },
-    {
-      "translationKey": "chatgpt-free-unlimited-thinking-slider",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-sinirsiz-sohbet-dusunme-kaydiragi",
-        "title": "ChatGPT'de Sınırsız Sohbet ve Yeni Düşünme Kaydırağı"
-      },
-      "en": {
-        "slug": "chatgpt-free-unlimited-chats-thinking-slider",
-        "title": "ChatGPT Goes Unlimited: Free Chats, New Thinking Slider"
-      }
-    },
-    {
-      "translationKey": "database-schema-design-guide",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "veritabani-sema-tasarimi-rehberi",
-        "title": "Veritabanı Şema Tasarımı: Pratik Rehber"
-      },
-      "en": {
-        "slug": "database-schema-design-guide",
-        "title": "Database Schema Design: A Practical Guide"
-      }
-    },
-    {
-      "translationKey": "incident-response-small-teams",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "kucuk-ekipler-icin-olay-mudahalesi",
-        "title": "Küçük Ekipler İçin Olay Müdahalesi"
-      },
-      "en": {
-        "slug": "incident-response-small-teams",
-        "title": "Incident Response for Small Teams"
-      }
-    },
-    {
-      "translationKey": "chatgpt-plugin-directory-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-eklentileri-2026-rehberi",
-        "title": "ChatGPT Eklentileri Geri Döndü: 2026 Rehberi"
-      },
-      "en": {
-        "slug": "chatgpt-plugins-2026-directory-guide",
-        "title": "ChatGPT Plugins Return: The 2026 Directory Guide"
-      }
-    },
-    {
-      "translationKey": "sign-in-with-chatgpt-explained",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-ile-giris-ne-demek",
-        "title": "ChatGPT ile Giriş: Uygulamalar İçin Ne Demek?"
-      },
-      "en": {
-        "slug": "sign-in-with-chatgpt-explained",
-        "title": "Sign in with ChatGPT: What It Means for You"
-      }
-    },
-    {
-      "translationKey": "claude-skill-plugin-security-scanning",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-skill-plugin-guvenlik-taramasi",
-        "title": "Claude Skill ve Plugin Güvenlik Taraması Nedir?"
-      },
-      "en": {
-        "slug": "claude-skill-plugin-security-scanning",
-        "title": "Claude's New Skill and Plugin Security Scanner"
-      }
-    },
-    {
-      "translationKey": "claude-design-decks-prototypes",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-design-sohbetle-sunum-prototip",
-        "title": "Claude Design: Sohbetle Sunum ve Prototip"
-      },
-      "en": {
-        "slug": "claude-design-decks-prototypes",
-        "title": "Claude Design: Decks and Prototypes by Chatting"
-      }
-    },
-    {
-      "translationKey": "claude-science-ai-workbench",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-science-arastirmacilar-ai-tezgahi",
-        "title": "Claude Science: Araştırmacılar İçin AI Tezgahı"
-      },
-      "en": {
-        "slug": "claude-science-ai-workbench",
-        "title": "Claude Science: An AI Workbench for Research"
-      }
-    },
-    {
-      "translationKey": "which-claude-model-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "hangi-claude-modeli-2026-rehberi",
-        "title": "Hangi Claude Modelini Seçmelisin? 2026 Rehberi"
-      },
-      "en": {
-        "slug": "which-claude-model-2026",
-        "title": "Which Claude Model Should You Use in 2026?"
-      }
-    },
-    {
-      "translationKey": "gemini-classroom-teacher-guide",
-      "category": "ai",
-      "tr": {
-        "slug": "sinifta-gemini-ogretmenler-2026",
-        "title": "Sınıfta Gemini: Öğretmenler İçin 2026 Rehberi"
-      },
-      "en": {
-        "slug": "gemini-classroom-teacher-guide",
-        "title": "Gemini in Classroom: A Teacher's 2026 Guide"
-      }
-    },
-    {
-      "translationKey": "claude-managed-agents-budgets-advisors-residency",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-managed-agents-butce-danisman-veri-konumu",
-        "title": "Claude Managed Agents: Bütçe, Danışman, Veri Konumu"
-      },
-      "en": {
-        "slug": "claude-managed-agents-budgets-advisors-data-residency",
-        "title": "Claude Managed Agents Gets Budgets, Advisors, Data Residency"
-      }
-    },
-    {
-      "translationKey": "ai-assistants-android-vs-iphone",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-asistanlar-android-vs-iphone-2026",
-        "title": "Yapay Zeka Asistanları: Android mi iPhone mi 2026"
-      },
-      "en": {
-        "slug": "ai-assistants-android-vs-iphone",
-        "title": "AI Assistants: Android vs iPhone in 2026"
-      }
-    },
-    {
-      "translationKey": "openai-atlas-shutdown-ai-browsers",
-      "category": "technology",
-      "tr": {
-        "slug": "openai-atlas-kapaniyor-ai-tarayici",
-        "title": "OpenAI Atlas'ı Kapatıyor: Yapay Zeka Tarayıcısı Neden Bitti"
-      },
-      "en": {
-        "slug": "openai-atlas-shutdown-ai-browsers",
-        "title": "OpenAI Shuts Down Atlas: The AI Browser Fallout"
-      }
-    },
-    {
-      "translationKey": "esim-explained-ditch-physical-sim",
-      "category": "technology",
-      "tr": {
-        "slug": "esim-nedir-2026-fiziksel-sim",
-        "title": "eSIM Nedir? 2026'da Fiziksel SIM'i Bırakmak"
-      },
-      "en": {
-        "slug": "esim-explained-ditch-physical-sim",
-        "title": "eSIM Explained: Ditch the Physical SIM in 2026"
-      }
-    },
-    {
-      "translationKey": "why-ai-gadgets-keep-flopping",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-cihazlari-neden-tutmuyor",
-        "title": "AI Cihazları Neden Tutmuyor?"
-      },
-      "en": {
-        "slug": "why-ai-gadgets-keep-flopping",
-        "title": "Why AI Gadgets Keep Flopping"
-      }
-    },
-    {
-      "translationKey": "claude-code-auto-mode-default-rollout",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-auto-mode-varsayilan-oluyor",
-        "title": "Claude Code'da Auto Mode Varsayılan Oluyor"
-      },
-      "en": {
-        "slug": "claude-code-auto-mode-becomes-default",
-        "title": "Claude Code Auto Mode Becomes the Default"
-      }
-    },
-    {
-      "translationKey": "repeatable-seo-writing-system-claude",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "claude-ile-seo-yazi-sistemi",
-        "title": "Claude ile Tekrarlanabilir SEO Yazı Sistemi"
-      },
-      "en": {
-        "slug": "repeatable-seo-writing-system-claude",
-        "title": "A Repeatable SEO Writing System with Claude"
-      }
-    },
-    {
-      "translationKey": "ai-overviews-eating-clicks-survival",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "ai-ozetleri-tiklama-hayatta-kalma",
-        "title": "AI Özetleri Tıklamaları Yiyor: Hayatta Kalma Planı"
-      },
-      "en": {
-        "slug": "ai-overviews-eating-clicks-survival",
-        "title": "AI Overviews Are Eating Clicks: A Survival Plan"
-      }
-    },
-    {
-      "translationKey": "programmatic-seo-small-sites",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "kucuk-siteler-programatik-seo",
-        "title": "Küçük Siteler İçin Programatik SEO"
-      },
-      "en": {
-        "slug": "programmatic-seo-small-sites",
-        "title": "Programmatic SEO for Small Sites, Done Right"
-      }
-    },
-    {
-      "translationKey": "one-blog-post-into-20-assets-ai",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "blog-yazisini-ai-ile-20-icerik",
-        "title": "Bir Blog Yazısını AI ile 20 İçeriğe Çevir"
-      },
-      "en": {
-        "slug": "one-blog-post-into-20-assets-ai",
-        "title": "Turn One Blog Post Into 20 Assets with AI"
-      }
-    },
-    {
-      "translationKey": "claude-sonnet-5-permanent-pricing",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-sonnet-5-fiyati-kalici-oldu",
-        "title": "Claude Sonnet 5'te Zam İptal: Fiyat Kalıcı Oldu"
-      },
-      "en": {
-        "slug": "claude-sonnet-5-permanent-pricing",
-        "title": "Claude Sonnet 5 Locks In $2/$10 Pricing, Cancels Sept Hike"
-      }
-    },
-    {
-      "translationKey": "saas-mvp-claude-code-weekend",
-      "category": "business",
-      "tr": {
-        "slug": "claude-code-ile-hafta-sonu-saas-mvp",
-        "title": "Hafta Sonunda Claude Code ile SaaS MVP"
-      },
-      "en": {
-        "slug": "saas-mvp-claude-code-weekend",
-        "title": "Build a SaaS MVP with Claude Code in a Weekend"
-      }
-    },
-    {
-      "translationKey": "pricing-ai-features-without-losing-money",
-      "category": "business",
-      "tr": {
-        "slug": "ai-ozelliklerini-fiyatlandirma",
-        "title": "AI Özelliklerini Zarar Etmeden Fiyatlandır"
-      },
-      "en": {
-        "slug": "pricing-ai-features-without-losing-money",
-        "title": "How to Price AI Features Without Losing Money"
-      }
-    },
-    {
-      "translationKey": "bootstrap-ai-startup-2026",
-      "category": "business",
-      "tr": {
-        "slug": "ai-girisimi-bootstrap-2026",
-        "title": "2026'da AI Girişimi Bootstrap Edilir mi?"
-      },
-      "en": {
-        "slug": "bootstrap-ai-startup-2026",
-        "title": "Can You Bootstrap an AI Startup in 2026?"
-      }
-    },
-    {
-      "translationKey": "productized-service-with-ai",
-      "category": "business",
-      "tr": {
-        "slug": "beceriyi-urunlesmis-hizmete-cevir",
-        "title": "Becerini AI ile Ürünleşmiş Hizmete Çevir"
-      },
-      "en": {
-        "slug": "productized-service-with-ai",
-        "title": "Turn Your Skill Into a Productized Service with AI"
-      }
-    },
-    {
-      "translationKey": "claude-invisible-text-watermark",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-metinleri-damgaliyor",
-        "title": "Claude Artık Her Metni Damgalıyor: Kapatma Yok"
-      },
-      "en": {
-        "slug": "claude-watermarks-ai-text-no-opt-out",
-        "title": "Claude Now Watermarks Every Output, No Opt-Out"
-      }
-    },
-    {
-      "translationKey": "claude-chatgpt-gemini-for-creators",
-      "category": "social-media",
-      "tr": {
-        "slug": "icerik-ureticiler-claude-chatgpt-gemini",
-        "title": "İçerik Üreticileri İçin Claude, ChatGPT, Gemini"
-      },
-      "en": {
-        "slug": "claude-chatgpt-gemini-for-creators",
-        "title": "Claude vs ChatGPT vs Gemini for Creators"
-      }
-    },
-    {
-      "translationKey": "tiktok-2026-algorithm-reach",
-      "category": "social-media",
-      "tr": {
-        "slug": "tiktok-2026-algoritmasi-erisim",
-        "title": "TikTok 2026 Algoritması: Erişim Neye Bağlı?"
-      },
-      "en": {
-        "slug": "tiktok-2026-algorithm-reach",
-        "title": "TikTok's 2026 Algorithm: What Actually Gets Reach"
-      }
-    },
-    {
-      "translationKey": "youtube-shorts-2026-attention-depth",
-      "category": "social-media",
-      "tr": {
-        "slug": "youtube-shorts-2026-dikkat-derinligi",
-        "title": "2026'da YouTube Shorts: Dikkat Derinliği"
-      },
-      "en": {
-        "slug": "youtube-shorts-2026-attention-depth",
-        "title": "YouTube Shorts in 2026: Win Attention Depth"
-      }
-    },
-    {
-      "translationKey": "algorithm-proof-your-content-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "icerigi-algoritmaya-dayanikli-yap",
-        "title": "İçeriğini Algoritmaya Karşı Dayanıklı Yap"
-      },
-      "en": {
-        "slug": "algorithm-proof-your-content-2026",
-        "title": "Algorithm-Proof Your Content in 2026"
-      }
-    },
-    {
-      "translationKey": "chatgpt-business-premium-seats",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-business-premium-seat-125-dolar",
-        "title": "ChatGPT Business'a 125 Dolarlık Premium Seat Geldi"
-      },
-      "en": {
-        "slug": "chatgpt-business-premium-seats-explained",
-        "title": "ChatGPT Business Gets a $125 Premium Seat Tier"
-      }
-    },
-    {
-      "translationKey": "tanstack-start-fullstack-react-alternative",
-      "category": "web-development",
-      "tr": {
-        "slug": "tanstack-start-fullstack-react",
-        "title": "TanStack Start: Full-Stack React'a Yeni Bir Bakış"
-      },
-      "en": {
-        "slug": "tanstack-start-fullstack-react-alternative",
-        "title": "TanStack Start: A Fresh Take on Full-Stack React"
-      }
-    },
-    {
-      "translationKey": "webgpu-2026-gpu-in-browser",
-      "category": "web-development",
-      "tr": {
-        "slug": "webgpu-2026-tarayicida-gpu",
-        "title": "WebGPU 2026: Tarayıcıda Gerçek GPU Gücü"
-      },
-      "en": {
-        "slug": "webgpu-2026-gpu-in-browser",
-        "title": "WebGPU in 2026: Real GPU Power in the Browser"
-      }
-    },
-    {
-      "translationKey": "ai-agents-in-cicd-safely",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "ai-ajanlari-cicd-guvenle-baglamak",
-        "title": "AI Ajanlarını CI/CD'ye Güvenle Bağlamak"
-      },
-      "en": {
-        "slug": "ai-agents-in-cicd-safely",
-        "title": "Wiring AI Agents Into Your CI/CD Safely"
-      }
-    },
-    {
-      "translationKey": "preview-environments-every-pull-request",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "her-pr-icin-onizleme-ortamlari",
-        "title": "Her Pull Request İçin Önizleme Ortamı Kurmak"
-      },
-      "en": {
-        "slug": "preview-environments-every-pull-request",
-        "title": "Preview Environments for Every Pull Request"
-      }
-    },
-    {
-      "translationKey": "gpt-5-6-sol-ultrafast-cerebras",
-      "category": "ai",
-      "tr": {
-        "slug": "gpt-5-6-sol-ultrafast-modu-cerebras",
-        "title": "GPT-5.6 Sol Ultrafast Modu: Cerebras ile 14 Kat Hız"
-      },
-      "en": {
-        "slug": "gpt-5-6-sol-ultrafast-mode-cerebras",
-        "title": "GPT-5.6 Sol Goes Ultrafast: 14x Speed via Cerebras"
-      }
-    },
-    {
-      "translationKey": "daily-ai-workflows-knowledge-workers",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "bilgi-calisanlari-gunluk-ai-is-akislari",
-        "title": "Bilgi Çalışanları İçin Günlük AI İş Akışları"
-      },
-      "en": {
-        "slug": "daily-ai-workflows-knowledge-workers",
-        "title": "Daily AI Workflows for Knowledge Workers"
-      }
-    },
-    {
-      "translationKey": "ai-code-review-trust-but-verify",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "ai-ile-kod-incelemesi-guven-dogrula",
-        "title": "AI ile Kod İncelemesi: Güven Ama Doğrula"
-      },
-      "en": {
-        "slug": "ai-code-review-trust-but-verify",
-        "title": "AI Code Review: Trust, but Verify"
-      }
-    },
-    {
-      "translationKey": "agentic-workspaces-compared-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "isi-yapan-ai-chatgpt-work-cowork-gemini",
-        "title": "İşi Yapan AI: ChatGPT Work, Cowork, Gemini"
-      },
-      "en": {
-        "slug": "chatgpt-work-vs-cowork-vs-gemini",
-        "title": "AI That Does the Work: ChatGPT Work vs Cowork vs Gemini"
-      }
-    },
-    {
-      "translationKey": "ai-assistant-subscription-buyers-guide-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "hangi-ai-aboneligi-claude-chatgpt-gemini",
-        "title": "Hangi AI Aboneliği: Claude, ChatGPT, Gemini?"
-      },
-      "en": {
-        "slug": "which-ai-subscription-2026",
-        "title": "Which AI Subscription in 2026: Claude, ChatGPT, Gemini"
-      }
-    },
-    {
-      "translationKey": "claude-compliance-api-cowork-claude-code",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-compliance-api-cowork-claude-code-denetimi",
-        "title": "Claude Compliance API: Cowork ve Claude Code Denetimi"
-      },
-      "en": {
-        "slug": "claude-compliance-api-cowork-claude-code",
-        "title": "Claude Compliance API Now Covers Cowork and Claude Code"
-      }
-    },
-    {
-      "translationKey": "chatgpt-computer-history-privacy",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-computer-history-kullanim-gizlilik",
-        "title": "ChatGPT Computer History: Kullanım ve Gizlilik Rehberi"
-      },
-      "en": {
-        "slug": "chatgpt-computer-history-privacy",
-        "title": "ChatGPT Computer History: How to Use It Safely"
-      }
-    },
-    {
-      "translationKey": "custom-gpts-gems-skills-compared",
-      "category": "ai",
-      "tr": {
-        "slug": "ozel-gpt-gem-skill-hangisine-yatirim",
-        "title": "Özel GPT, Gem, Skill: Hangisine Yatırım Yapmalı?"
-      },
-      "en": {
-        "slug": "custom-gpts-vs-gems-vs-skills",
-        "title": "Custom GPTs vs Gems vs Claude Skills: Which to Build"
-      }
-    },
-    {
-      "translationKey": "streaming-ai-ui-react",
-      "category": "web-development",
-      "tr": {
-        "slug": "reactte-akiskan-ai-arayuzleri-streaming",
-        "title": "React'te Akışkan AI Arayüzleri (Streaming UI)"
-      },
-      "en": {
-        "slug": "streaming-ai-chat-uis-react",
-        "title": "Build Streaming AI Chat UIs in React"
-      }
-    },
-    {
-      "translationKey": "nextjs-ai-features-ai-sdk",
-      "category": "web-development",
-      "tr": {
-        "slug": "nextjs-uygulamana-ai-ozelligi-ekle",
-        "title": "Next.js Uygulamana AI Özelliği Nasıl Eklenir?"
-      },
-      "en": {
-        "slug": "ship-ai-feature-nextjs",
-        "title": "Ship an AI Feature in Your Next.js App"
-      }
-    },
-    {
-      "translationKey": "claude-code-gitlab-integration",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-artik-gitlab-destekliyor",
-        "title": "Claude Code Artık GitLab'ı Destekliyor mu?"
-      },
-      "en": {
-        "slug": "claude-code-gitlab-integration",
-        "title": "Does Claude Code Support GitLab Now?"
-      }
-    },
-    {
-      "translationKey": "build-browser-extension-2026",
-      "category": "web-development",
-      "tr": {
-        "slug": "2026-tarayici-eklentisi-nasil-yapilir",
-        "title": "2026'da Tarayıcı Eklentisi Nasıl Yapılır?"
-      },
-      "en": {
-        "slug": "build-browser-extension-2026",
-        "title": "How to Build a Browser Extension in 2026"
-      }
-    },
-    {
-      "translationKey": "event-driven-architecture-patterns",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "olay-gudumlu-mimari-desenler-tuzaklar",
-        "title": "Olay Güdümlü Mimari: Desenler ve Tuzaklar"
-      },
-      "en": {
-        "slug": "event-driven-architecture-patterns",
-        "title": "Event-Driven Architecture: Patterns and Pitfalls"
-      }
-    },
-    {
-      "translationKey": "error-handling-patterns-guide",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "olceklenen-hata-yonetimi-desenleri",
-        "title": "Ölçeklenen Hata Yönetimi Desenleri"
-      },
-      "en": {
-        "slug": "error-handling-patterns-scale",
-        "title": "Error Handling Patterns That Scale"
-      }
-    },
-    {
-      "translationKey": "concurrency-bugs-mistakes",
-      "category": "software-engineering",
-      "tr": {
-        "slug": "eszamanlilik-hatalari-kacinma-yollari",
-        "title": "Eşzamanlılık Hataları ve Kaçınma Yolları"
-      },
-      "en": {
-        "slug": "concurrency-bugs-how-to-avoid",
-        "title": "Concurrency Bugs and How to Avoid Them"
-      }
-    },
-    {
-      "translationKey": "chatgpt-for-teens-launch",
-      "category": "ai",
-      "tr": {
-        "slug": "chatgpt-for-teens-nedir-yas-tahmini",
-        "title": "ChatGPT for Teens Nedir? Yaş Tahmini Nasıl Çalışır?"
-      },
-      "en": {
-        "slug": "chatgpt-for-teens-age-prediction-explained",
-        "title": "What Is ChatGPT for Teens? How Age Prediction Works"
-      }
-    },
-    {
-      "translationKey": "service-mesh-2026-do-you-need-it",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "service-mesh-2026-gercekten-gerekli-mi",
-        "title": "Service Mesh 2026: Gerçekten Gerekli mi?"
-      },
-      "en": {
-        "slug": "service-mesh-2026-do-you-need-one",
-        "title": "Service Mesh in 2026: Do You Actually Need One?"
-      }
-    },
-    {
-      "translationKey": "monorepo-cicd-pipelines",
-      "category": "devops-cloud",
-      "tr": {
-        "slug": "monorepo-ci-cd-onbellek-etkilenen-yapilar",
-        "title": "Monorepo İçin CI/CD: Önbellek ve Etkilenen Yapılar"
-      },
-      "en": {
-        "slug": "monorepo-cicd-caching-affected-builds",
-        "title": "CI/CD for Monorepos: Caching and Affected Builds"
-      }
-    },
-    {
-      "translationKey": "break-into-ai-engineering-2026",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "2026-ai-muhendisligine-nasil-gecilir",
-        "title": "2026'da AI Mühendisliğine Nasıl Geçilir?"
-      },
-      "en": {
-        "slug": "break-into-ai-engineering-2026",
-        "title": "How to Break Into AI Engineering in 2026"
-      }
-    },
-    {
-      "translationKey": "managing-up-software-engineers",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "yazilimcilar-icin-yoneticiyle-iliski",
-        "title": "Yazılımcılar İçin Yöneticiyle İyi İlişki"
-      },
-      "en": {
-        "slug": "managing-up-software-engineer",
-        "title": "Managing Up as a Software Engineer"
-      }
-    },
-    {
-      "translationKey": "claude-files-api-ga",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-files-api-ga-ne-anlama-geliyor",
-        "title": "Claude Files API GA'ya Geçti: Ne Değişti?"
-      },
-      "en": {
-        "slug": "claude-files-api-ga-explained",
-        "title": "Claude's Files API Is Now GA: What Changed?"
-      }
-    },
-    {
-      "translationKey": "personal-prompt-library-system",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "kisisel-prompt-kutuphanesi-nasil-kurulur",
-        "title": "Kişisel Prompt Kütüphanesi Nasıl Kurulur?"
-      },
-      "en": {
-        "slug": "personal-prompt-library-system",
-        "title": "Build a Personal Prompt Library System"
-      }
-    },
-    {
-      "translationKey": "youtube-channel-growth-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "2026-youtube-kanali-nasil-buyutulur",
-        "title": "2026'da YouTube Kanalı Nasıl Büyütülür?"
-      },
-      "en": {
-        "slug": "grow-youtube-channel-2026",
-        "title": "How to Grow a YouTube Channel in 2026"
-      }
-    },
-    {
-      "translationKey": "social-media-metrics-that-matter-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "gercekten-onemli-sosyal-medya-metrikleri",
-        "title": "Gerçekten Önemli Sosyal Medya Metrikleri"
-      },
-      "en": {
-        "slug": "social-media-metrics-that-matter",
-        "title": "Social Media Metrics That Actually Matter"
-      }
-    },
-    {
-      "translationKey": "social-selling-followers-to-customers-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "takipciyi-musteriye-cevirmek-sosyal-satis",
-        "title": "Takipçiyi Müşteriye Çevirmek: Sosyal Satış"
-      },
-      "en": {
-        "slug": "turn-followers-into-customers-social-selling",
-        "title": "Turn Followers Into Customers: Social Selling"
-      }
-    },
-    {
-      "translationKey": "openai-astra-critical-cybersecurity-pause",
-      "category": "ai",
-      "tr": {
-        "slug": "openai-astra-egitimini-neden-durdurdu",
-        "title": "OpenAI Astra Eğitimini Neden Durdurdu?"
-      },
-      "en": {
-        "slug": "why-openai-paused-astra-training",
-        "title": "Why OpenAI Paused Astra Training"
-      }
-    },
-    {
-      "translationKey": "start-grow-podcast-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "2026-podcast-baslatmak-ve-buyutmek",
-        "title": "2026'da Podcast Başlatmak ve Büyütmek"
-      },
-      "en": {
-        "slug": "start-grow-podcast-2026",
-        "title": "Start and Grow a Podcast in 2026"
-      }
-    },
-    {
-      "translationKey": "schema-markup-ai-search-visibility",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "yapisal-veri-ai-aramada-gorunurluk",
-        "title": "Yapısal Veri ile AI Aramada Görünürlük"
-      },
-      "en": {
-        "slug": "schema-markup-ai-search-visibility",
-        "title": "Schema Markup for AI Search Visibility"
-      }
-    },
-    {
-      "translationKey": "marketing-attribution-cookieless-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "cerezsiz-dunyada-pazarlama-atifi-2026",
-        "title": "Çerezsiz Dünyada Pazarlama Atıfı 2026"
-      },
-      "en": {
-        "slug": "marketing-attribution-cookieless-2026",
-        "title": "Marketing Attribution in a Cookieless 2026"
-      }
-    },
-    {
-      "translationKey": "brand-voice-guide-for-ai",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "ai-uyacagi-marka-sesi-rehberi",
-        "title": "AI'ın Uyacağı Bir Marka Sesi Rehberi"
-      },
-      "en": {
-        "slug": "brand-voice-guide-for-ai",
-        "title": "Build a Brand Voice Guide Your AI Will Follow"
-      }
-    },
-    {
-      "translationKey": "claude-browser-use-tool-ga",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-browser-use-araci-nedir",
-        "title": "Claude Browser Use Aracı Nedir?"
-      },
-      "en": {
-        "slug": "what-is-claude-browser-use-tool",
-        "title": "What Is Claude's New Browser Use Tool?"
-      }
-    },
-    {
-      "translationKey": "ab-testing-cro-small-sites-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "kucuk-siteler-icin-ab-testi-cro",
-        "title": "Az Trafikli Sitede A/B Testi Nasıl Yapılır?"
-      },
-      "en": {
-        "slug": "ab-testing-cro-small-sites",
-        "title": "How Do You A/B Test a Low-Traffic Site?"
-      }
-    },
-    {
-      "translationKey": "ai-agentic-actions-real-world-tasks",
-      "category": "technology",
-      "tr": {
-        "slug": "senin-yerine-is-yapan-ai-ajan-eylemleri",
-        "title": "AI Senin Yerine Rezervasyon Yapabilir mi?"
-      },
-      "en": {
-        "slug": "ai-agentic-actions-real-world-tasks",
-        "title": "Can AI Actually Book and Buy Things for You?"
-      }
-    },
-    {
-      "translationKey": "ai-voice-recorder-gadgets-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-ses-kaydediciler-not-cihazlari-2026",
-        "title": "AI Ses Kaydedici Cihaza Değer mi?"
-      },
-      "en": {
-        "slug": "ai-voice-recorders-note-gadgets-2026",
-        "title": "Are Dedicated AI Voice Recorders Worth It?"
-      }
-    },
-    {
-      "translationKey": "protect-privacy-ai-assistants",
-      "category": "technology",
-      "tr": {
-        "slug": "ai-asistanlari-caginda-gizliligini-koru",
-        "title": "AI Asistanları Verilerinizle Ne Yapıyor?"
-      },
-      "en": {
-        "slug": "protect-privacy-ai-assistants",
-        "title": "What Do AI Assistants Do With Your Data?"
-      }
-    },
-    {
-      "translationKey": "anthropic-python-sdk-v1",
-      "category": "ai",
-      "tr": {
-        "slug": "anthropic-python-sdk-v1-gecis-rehberi",
-        "title": "Anthropic Python SDK v1.0'da Neler Bozuluyor?"
-      },
-      "en": {
-        "slug": "anthropic-python-sdk-v1-migration-guide",
-        "title": "Anthropic Python SDK v1.0: What Actually Breaks?"
-      }
-    },
-    {
-      "translationKey": "reduce-churn-retention-playbook",
-      "category": "business",
-      "tr": {
-        "slug": "churn-azalt-kucuk-saas-elde-tutma",
-        "title": "Churn'ü Azalt: Küçük SaaS İçin Elde Tutma Rehberi"
-      },
-      "en": {
-        "slug": "reduce-churn-retention-playbook",
-        "title": "Reduce Churn: A Retention Playbook for Small SaaS"
-      }
-    },
-    {
-      "translationKey": "saas-positioning-messaging",
-      "category": "business",
-      "tr": {
-        "slug": "saas-konumlandirma-donusturen-mesaj",
-        "title": "SaaS Konumlandırma: Dönüştüren Mesaj Nasıl Yazılır?"
-      },
-      "en": {
-        "slug": "saas-positioning-messaging",
-        "title": "SaaS Positioning: Messaging That Converts"
-      }
-    },
-    {
-      "translationKey": "ai-bookkeeping-for-founders",
-      "category": "business",
-      "tr": {
-        "slug": "kurucular-icin-ai-muhasebe-neyi-otomatiklestir",
-        "title": "Kurucular İçin AI Muhasebe: Neyi Otomatikleştir?"
-      },
-      "en": {
-        "slug": "ai-bookkeeping-for-founders",
-        "title": "AI Bookkeeping for Founders: What to Automate"
-      }
-    },
-    {
-      "translationKey": "saas-free-trial-vs-freemium",
-      "category": "business",
-      "tr": {
-        "slug": "ucretsiz-deneme-mi-freemium-mi-saas",
-        "title": "Ücretsiz Deneme mi Freemium mi: SaaS'ta Hangisi?"
-      },
-      "en": {
-        "slug": "free-trial-vs-freemium-saas",
-        "title": "Free Trial vs Freemium: Which Converts for SaaS?"
-      }
-    },
-    {
-      "translationKey": "claude-academy-launch",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-academy-nedir",
-        "title": "Claude Academy Nedir? Anthropic'in Yeni Öğrenme Merkezi"
-      },
-      "en": {
-        "slug": "claude-academy-explained",
-        "title": "What Is Claude Academy? Anthropic's New Learning Hub"
-      }
-    },
-    {
-      "translationKey": "ai-vendor-lock-in-startups",
-      "category": "business",
-      "tr": {
-        "slug": "ai-tedarikci-bagimliligi-tek-model",
-        "title": "AI'da Tedarikçi Bağımlılığı: Tek Modele Güvenmek"
-      },
-      "en": {
-        "slug": "ai-vendor-lock-in-startups",
-        "title": "AI Vendor Lock-In: Betting Your Startup on One Model"
-      }
-    },
-    {
-      "translationKey": "cold-outbound-with-ai",
-      "category": "business",
-      "tr": {
-        "slug": "ai-ile-soguk-erisim-toplanti",
-        "title": "AI ile Toplantı Getiren Soğuk Erişim"
-      },
-      "en": {
-        "slug": "cold-outbound-with-ai",
-        "title": "Cold Outbound That Books Meetings, With AI"
-      }
-    },
-    {
-      "translationKey": "investor-update-with-ai",
-      "category": "business",
-      "tr": {
-        "slug": "yatirimci-guncellemesi-nasil-yazilir",
-        "title": "Yatırımcı Güncellemesi: Yönetimin Okuyacağı"
-      },
-      "en": {
-        "slug": "write-investor-update-ai",
-        "title": "Write an Investor Update Your Board Will Read"
-      }
-    },
-    {
-      "translationKey": "gemini-spark-explained",
-      "category": "technology",
-      "tr": {
-        "slug": "gemini-spark-nedir",
-        "title": "Gemini Spark: Telefonundaki Yeni AI Ajanı"
-      },
-      "en": {
-        "slug": "gemini-spark-explained",
-        "title": "Gemini Spark: Your Phone's New AI Agent, Explained"
-      }
-    },
-    {
-      "translationKey": "anthropic-enterprise-data-retention-policy-change",
-      "category": "ai",
-      "tr": {
-        "slug": "anthropic-veri-saklama-politikasini-neden-degistiriyor",
-        "title": "Anthropic Veri Saklama Politikasını Neden Değiştiriyor?"
-      },
-      "en": {
-        "slug": "why-anthropic-is-changing-data-retention-policy",
-        "title": "Why Is Anthropic Changing Its Data Retention Policy?"
-      }
-    },
-    {
-      "translationKey": "robotaxis-2026-reality",
-      "category": "technology",
-      "tr": {
-        "slug": "robotaksi-2026-surucusuz-nerede-calisiyor",
-        "title": "2026'da Robotaksi: Sürücüsüz Nerede Çalışıyor?"
-      },
-      "en": {
-        "slug": "robotaxis-2026-where-self-driving-works",
-        "title": "Robotaxis in 2026: Where Self-Driving Works Now"
-      }
-    },
-    {
-      "translationKey": "satellite-internet-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "uydu-interneti-2026-starlink-rakipleri",
-        "title": "Uydu İnterneti 2026: Starlink ve Rakipleri"
-      },
-      "en": {
-        "slug": "satellite-internet-2026-starlink-vs-rivals",
-        "title": "Satellite Internet 2026: Starlink vs the Rivals"
-      }
-    },
-    {
-      "translationKey": "quantum-computing-2026-should-you-care",
-      "category": "technology",
-      "tr": {
-        "slug": "kuantum-bilisim-2026-onemli-mi",
-        "title": "Kuantum Bilişim 2026: Şimdiden Önemsemeli mi?"
-      },
-      "en": {
-        "slug": "quantum-computing-2026-should-you-care",
-        "title": "Quantum Computing 2026: Should You Care Yet?"
-      }
-    },
-    {
-      "translationKey": "going-passwordless-passkeys-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "sifresiz-hayat-passkey-2026",
-        "title": "Şifresiz Hayat: 2026'da Passkey ile Yaşamak"
-      },
-      "en": {
-        "slug": "going-passwordless-passkeys-2026",
-        "title": "Going Passwordless: Living With Passkeys in 2026"
-      }
-    },
-    {
-      "translationKey": "openai-codex-5-hour-limit-returns",
-      "category": "ai",
-      "tr": {
-        "slug": "openai-codex-5-saatlik-limit-geri-dondu",
-        "title": "OpenAI Codex'te 5 Saatlik Limiti Geri Getirdi"
-      },
-      "en": {
-        "slug": "openai-codex-5-hour-limit-returns",
-        "title": "OpenAI Brings Back Codex's 5-Hour Usage Limit"
-      }
-    },
-    {
-      "translationKey": "chatgpt-ads-small-business",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "kucuk-isletme-chatgpt-reklamlari",
-        "title": "Küçük İşletme İçin ChatGPT Reklamları: Değer mi?"
-      },
-      "en": {
-        "slug": "chatgpt-ads-small-business",
-        "title": "ChatGPT Ads for Small Business: Worth It?"
-      }
-    },
-    {
-      "translationKey": "tiktok-social-search-seo",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "tiktok-seo-sosyal-arama-2026",
-        "title": "TikTok SEO: 2026'da Sosyal Aramada Kazanmak"
-      },
-      "en": {
-        "slug": "tiktok-seo-social-search-2026",
-        "title": "TikTok SEO: Winning Social Search in 2026"
-      }
-    },
-    {
-      "translationKey": "reddit-marketing-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "reddit-pazarlamasi-2026",
-        "title": "2026'da Tepki Çekmeden Reddit Pazarlaması"
-      },
-      "en": {
-        "slug": "reddit-marketing-2026",
-        "title": "Reddit Marketing in 2026 Without the Backlash"
-      }
-    },
-    {
-      "translationKey": "affiliate-marketing-ai-2026",
-      "category": "digital-marketing",
-      "tr": {
-        "slug": "affiliate-pazarlama-ai-2026",
-        "title": "2026'da Affiliate Pazarlama: AI Destekli Rehber"
-      },
-      "en": {
-        "slug": "affiliate-marketing-ai-2026",
-        "title": "Affiliate Marketing in 2026: An AI-Assisted Playbook"
       }
     }
   ]

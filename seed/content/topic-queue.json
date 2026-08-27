@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-27",
   "topics": [
-    {
-      "translationKey": "ai-review-reputation-management",
-      "category": "digital-marketing",
-      "titleTr": "Otomatik Yorum Yönetimi: AI ile İtibar",
-      "titleEn": "Online Reviews on Autopilot: An AI Playbook",
-      "slugTr": "ai-yorum-itibar-yonetimi",
-      "slugEn": "ai-review-reputation-management",
-      "keywordTr": "online yorum yönetimi",
-      "keywordEn": "online review management",
-      "angle": "guide + collecting, responding to and learning from reviews",
-      "style": "contrarian",
-      "brief": "Contrarian guide arguing reputation is a system, not a star average. Sections: why review velocity and responses beat chasing 5.0; ethically requesting reviews (no gating, platform-compliant); using AI to draft on-brand responses a human approves; mining review themes for product/ops fixes; handling negatives; why reviews now feed local and AI search. Verify: Google/Yelp review-gating policies and how review signals affect local pack + AI answers. Sources: Google Business Profile review policy; local-SEO studies. Distinct from the local-SEO GBP checklist (this is reviews/reputation). End with a request-and-respond workflow and response templates."
-    },
-    {
-      "translationKey": "ai-ugc-performance-ads",
-      "category": "social-media",
-      "titleTr": "AI UGC Reklamları: Dönüştüren Creator Videoları",
-      "titleEn": "AI UGC Ads: Creator-Style Video That Converts",
-      "slugTr": "ai-ugc-reklamlari-creator-video",
-      "slugEn": "ai-ugc-performance-ads",
-      "keywordTr": "ai ugc reklam",
-      "keywordEn": "ai ugc ads",
-      "angle": "how-to + brief, generate and test UGC-style ad creative",
-      "style": "data-led",
-      "brief": "Data-led how-to on AI-generated UGC-style performance ads for brands. Sections: why creator-style beats polished brand video for paid social; briefing and generating AI UGC (avatars/voiceover) vs hiring real creators; the authenticity ceiling (78% of marketers still prefer human UGC); disclosure and platform rules on synthetic media; a test matrix of hooks/angles and reading CPA/ROAS. Verify: the human-vs-AI UGC preference stat and platform synthetic-media/ad-label policies. Sources: influencermarketinghub UGC reports; platform ad policy pages. Distinct from make-social-videos-with-ai and faceless-content (this is paid ad creative). End with a creative-testing scorecard."
-    },
-    {
-      "translationKey": "community-platforms-2026",
-      "category": "social-media",
-      "titleTr": "Discord, Skool, Circle: Topluluk Nerede Kurulur?",
-      "titleEn": "Discord vs Skool vs Circle: Build a Community",
-      "slugTr": "discord-skool-circle-topluluk-platformu",
-      "slugEn": "discord-vs-skool-vs-circle-community",
-      "keywordTr": "topluluk platformu karşılaştırma",
-      "keywordEn": "discord vs skool vs circle",
-      "angle": "comparison + which paid-community platform fits your audience",
-      "style": "question-driven",
-      "brief": "Question-driven comparison of paid-community platforms. Sections: what each is best at (Discord real-time/chat-native, Skool courses+gamification, Circle branded/structured spaces); pricing and fees; onboarding and moderation; monetization (subscriptions, courses); migration and lock-in; matching platform to audience type. Verify: current pricing tiers and payment/transaction fees per platform and core feature sets. Sources: each platform's pricing/feature pages; creator community case studies. Distinct from build-community-not-followers (that's strategy; this is platform selection). End with a decision matrix by community goal."
-    },
-    {
-      "translationKey": "creator-burnout-sustainable-system",
-      "category": "social-media",
-      "titleTr": "Creator Tükenmişliği: Sürdürülebilir İçerik",
-      "titleEn": "Creator Burnout: A Content System That Lasts",
-      "slugTr": "creator-tukenmisligi-surdurulebilir-icerik",
-      "slugEn": "creator-burnout-sustainable-content",
-      "keywordTr": "içerik üreticisi tükenmişlik",
-      "keywordEn": "creator burnout",
-      "angle": "guide + batch, systematize and protect your output",
-      "style": "field-notes",
-      "brief": "Field-notes guide to beating creator burnout with systems. Sections: why the always-on algorithm treadmill breaks creators; a sustainable cadence over daily posting; batching and a repeatable pipeline (idea bank, capture day, edit day); repurposing to cut net-new work; AI for the boring 80% while protecting voice; boundaries and metrics that matter for wellbeing. Verify: 2026 'sustainable content / team models' trend and realistic posting cadences that still perform. Sources: National University 2026 social trends; creator-economy wellbeing reports. Distinct from batch-a-month-of-content (tactics) and dev-burnout post. End with a weekly sustainable-content template."
-    },
     {
       "translationKey": "broadcast-channels-dms-2026",
       "category": "social-media",
