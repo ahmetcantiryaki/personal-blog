@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-27",
+  "updatedAt": "2026-08-28",
   "topics": [
-    {
-      "translationKey": "broadcast-channels-dms-2026",
-      "category": "social-media",
-      "titleTr": "Yayın Kanalları ve DM: Kitleni Sahiplen",
-      "titleEn": "Broadcast Channels and DMs: Own Your Audience",
-      "slugTr": "yayin-kanallari-dm-kitle-sahiplen",
-      "slugEn": "broadcast-channels-dms-own-audience",
-      "keywordTr": "instagram yayın kanalı",
-      "keywordEn": "broadcast channels dms",
-      "angle": "how-to + move fans from the feed into channels you control",
-      "style": "story-led",
-      "brief": "Story-led how-to on owning your audience via broadcast channels and DMs. Sections: why reach on the feed is rented and channels/DMs are (more) owned; setting up Instagram Broadcast Channels, Telegram/WhatsApp channels and DM automation; content that fits a one-to-many channel; ethical DM funnels vs spam; moving fans toward email as the truly owned list. Verify: current broadcast-channel availability/limits per platform and DM-automation policy rules. Sources: platform creator/help docs; owned-audience marketing studies. No existing corpus post covers this. End with a channel-launch checklist."
-    },
-    {
-      "translationKey": "chatgpt-vs-gemini-spreadsheets",
-      "category": "career-productivity",
-      "titleTr": "Tablolar İçin ChatGPT mi Gemini mi: Gerçek Test",
-      "titleEn": "ChatGPT vs Gemini for Spreadsheets: A Real Test",
-      "slugTr": "tablolar-icin-chatgpt-mi-gemini-mi",
-      "slugEn": "chatgpt-vs-gemini-spreadsheets",
-      "keywordTr": "chatgpt gemini excel analiz",
-      "keywordEn": "chatgpt vs gemini spreadsheets",
-      "angle": "comparison + which to trust for data analysis and formulas",
-      "style": "data-led",
-      "brief": "Data-led hands-on comparison of ChatGPT vs Gemini for spreadsheet work. Sections: ChatGPT's Code Interpreter for uploads, charts and Python-driven analysis; Gemini's native Sheets/Workspace integration and formula generation; accuracy on messy data, pivots and multi-step transforms; when each wins (workbook Q&A vs in-Google workflow); privacy of uploaded files; verification habits. Verify: current Code Interpreter capabilities and Gemini-in-Sheets features; both models' file-handling limits. Sources: itGenius and datastudios spreadsheet comparisons; provider docs. No corpus post covers spreadsheets. End with a 'pick by workflow' recommendation and a prompt cheat-sheet."
-    },
-    {
-      "translationKey": "build-second-brain-with-ai",
-      "category": "career-productivity",
-      "titleTr": "2026'da AI ile İkinci Beyin Kurmak",
-      "titleEn": "Build a Second Brain With AI in 2026",
-      "slugTr": "ai-ile-ikinci-beyin-kurmak",
-      "slugEn": "build-second-brain-with-ai",
-      "keywordTr": "ikinci beyin yapay zeka",
-      "keywordEn": "second brain with ai",
-      "angle": "how-to + capture, organize and retrieve knowledge that compounds",
-      "style": "field-notes",
-      "brief": "Field-notes how-to on building an AI-powered second brain. Sections: the capture-organize-distill-retrieve loop (PARA/CODE basics); tool choices by priority (Notion for all-in-one, Obsidian for private/local, Mem/Tana for auto-organization, NotebookLM for cited research); letting AI tag, summarize and surface without becoming a junk drawer; keeping notes you actually own and can export; retrieval that beats search. Verify: current AI features and pricing of the named tools and export/portability. Sources: taskade and buildin.ai 2026 second-brain roundups. Distinct from prompt-library and organize-your-AI-chats posts. End with a starter workflow and tool-by-need table."
-    },
-    {
-      "translationKey": "job-hunting-with-ai-2026",
-      "category": "career-productivity",
-      "titleTr": "2026'da AI ile İş Arama: Baştan Sona Akış",
-      "titleEn": "Job Hunting With AI in 2026: A Full Workflow",
-      "slugTr": "ai-ile-is-arama-2026",
-      "slugEn": "job-hunting-with-ai-2026",
-      "keywordTr": "yapay zeka ile iş arama",
-      "keywordEn": "job hunting with ai",
-      "angle": "guide + search, tailor, outreach and track without spraying",
-      "style": "story-led",
-      "brief": "Story-led end-to-end guide to an AI-assisted job search. Sections: targeting roles and reading JD signals; tailoring (not auto-spamming) each application and passing ATS; warm outreach and referrals drafted with AI; interview prep and mock questions; a tracker/CRM for applications; the ethics of AI in applications and where recruiters push back. Verify: how ATS parsing works and current recruiter sentiment on AI-mass-applications. Sources: ATS vendor docs; 2026 hiring-trend surveys. Distinct from the resume-mistakes and technical-interview-prep posts (this is the full workflow). End with a day-by-day job-search operating system."
-    },
     {
       "translationKey": "host-claude-skills-on-github",
       "category": "ai",

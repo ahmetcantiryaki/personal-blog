@@ -4068,6 +4068,66 @@
         "slug": "zig-2026-c-replacement",
         "title": "Zig in 2026: A Real C Replacement?"
       }
+    },
+    {
+      "translationKey": "claude-code-restricted-mode",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-restricted-mode-nedir",
+        "title": "Claude Code'da --restricted Modu Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-restricted-mode-explained",
+        "title": "What Is Claude Code's --restricted Mode?"
+      }
+    },
+    {
+      "translationKey": "broadcast-channels-dms-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "yayin-kanallari-dm-kitle-sahiplen",
+        "title": "Yayın Kanalları ve DM: Kitleni Sahiplen"
+      },
+      "en": {
+        "slug": "broadcast-channels-dms-own-audience",
+        "title": "Broadcast Channels and DMs: Own Your Audience"
+      }
+    },
+    {
+      "translationKey": "chatgpt-vs-gemini-spreadsheets",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "tablolar-icin-chatgpt-mi-gemini-mi",
+        "title": "Tablolar İçin ChatGPT mi Gemini mi: Gerçek Test"
+      },
+      "en": {
+        "slug": "chatgpt-vs-gemini-spreadsheets",
+        "title": "ChatGPT vs Gemini for Spreadsheets: A Real Test"
+      }
+    },
+    {
+      "translationKey": "build-second-brain-with-ai",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-ikinci-beyin-kurmak",
+        "title": "2026'da AI ile İkinci Beyin Kurmak"
+      },
+      "en": {
+        "slug": "build-second-brain-with-ai",
+        "title": "Build a Second Brain With AI in 2026"
+      }
+    },
+    {
+      "translationKey": "job-hunting-with-ai-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-is-arama-2026",
+        "title": "2026'da AI ile İş Arama: Baştan Sona Akış"
+      },
+      "en": {
+        "slug": "job-hunting-with-ai-2026",
+        "title": "Job Hunting With AI in 2026: A Full Workflow"
+      }
     }
   ]
 }
