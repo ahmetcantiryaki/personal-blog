@@ -2646,5 +2646,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3417278,
     "generatedAt": "2026-08-27T07:01:01.961Z"
+  },
+  "en/broadcast-channels-dms-own-audience": {
+    "hash": "5a9345b34b39c68f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-broadcast-channels-dms-own-audience.mp3",
+    "seconds": 527,
+    "voice": "en_US-ryan-high",
+    "bytes": 4218924,
+    "generatedAt": "2026-08-28T06:41:48.653Z"
+  },
+  "en/build-second-brain-with-ai": {
+    "hash": "9b947e547979604f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-second-brain-with-ai.mp3",
+    "seconds": 525,
+    "voice": "en_US-ryan-high",
+    "bytes": 4200533,
+    "generatedAt": "2026-08-28T06:43:52.205Z"
+  },
+  "en/chatgpt-vs-gemini-spreadsheets": {
+    "hash": "711a202632f5b5bf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-vs-gemini-spreadsheets.mp3",
+    "seconds": 539,
+    "voice": "en_US-ryan-high",
+    "bytes": 4308576,
+    "generatedAt": "2026-08-28T06:45:59.855Z"
+  },
+  "en/claude-code-restricted-mode-explained": {
+    "hash": "ddb18c6478555a9c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-restricted-mode-explained.mp3",
+    "seconds": 482,
+    "voice": "en_US-ryan-high",
+    "bytes": 3855090,
+    "generatedAt": "2026-08-28T06:47:58.701Z"
+  },
+  "en/job-hunting-with-ai-2026": {
+    "hash": "30deb31da900bb5d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-job-hunting-with-ai-2026.mp3",
+    "seconds": 521,
+    "voice": "en_US-ryan-high",
+    "bytes": 4166470,
+    "generatedAt": "2026-08-28T06:50:06.300Z"
   }
 }
