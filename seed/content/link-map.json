@@ -290,6 +290,18 @@
       }
     },
     {
+      "translationKey": "ai-coding-agents-compared-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-cursor-antigravity-2026",
+        "title": "Claude Code, Cursor, Antigravity: 2026 Kıyaslaması"
+      },
+      "en": {
+        "slug": "claude-code-vs-cursor-vs-antigravity-2026",
+        "title": "Claude Code vs Cursor vs Antigravity in 2026"
+      }
+    },
+    {
       "translationKey": "ai-coding-assistant-mistakes",
       "category": "ai",
       "tr": {
@@ -479,6 +491,18 @@
       "en": {
         "slug": "ai-smart-glasses-2026-meta-vs-android-xr",
         "title": "AI Smart Glasses 2026: Meta vs Android XR"
+      }
+    },
+    {
+      "translationKey": "ai-study-tools-compared-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-calisma-araclari-karsilastirma-2026",
+        "title": "AI Çalışma Araçları: NotebookLM, ChatGPT, Gemini"
+      },
+      "en": {
+        "slug": "ai-study-tools-compared-2026",
+        "title": "AI Study Tools Compared: NotebookLM, ChatGPT, Gemini"
       }
     },
     {
@@ -734,6 +758,18 @@
       }
     },
     {
+      "translationKey": "broadcast-channels-dms-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "yayin-kanallari-dm-kitle-sahiplen",
+        "title": "Yayın Kanalları ve DM: Kitleni Sahiplen"
+      },
+      "en": {
+        "slug": "broadcast-channels-dms-own-audience",
+        "title": "Broadcast Channels and DMs: Own Your Audience"
+      }
+    },
+    {
       "translationKey": "build-browser-extension-2026",
       "category": "web-development",
       "tr": {
@@ -779,6 +815,18 @@
       "en": {
         "slug": "how-to-build-rag-system",
         "title": "How to Build a RAG System: A Practical Guide"
+      }
+    },
+    {
+      "translationKey": "build-second-brain-with-ai",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-ikinci-beyin-kurmak",
+        "title": "2026'da AI ile İkinci Beyin Kurmak"
+      },
+      "en": {
+        "slug": "build-second-brain-with-ai",
+        "title": "Build a Second Brain With AI in 2026"
       }
     },
     {
@@ -962,6 +1010,18 @@
       }
     },
     {
+      "translationKey": "chatgpt-vs-gemini-spreadsheets",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "tablolar-icin-chatgpt-mi-gemini-mi",
+        "title": "Tablolar İçin ChatGPT mi Gemini mi: Gerçek Test"
+      },
+      "en": {
+        "slug": "chatgpt-vs-gemini-spreadsheets",
+        "title": "ChatGPT vs Gemini for Spreadsheets: A Real Test"
+      }
+    },
+    {
       "translationKey": "chatgpt-work-agent-launch",
       "category": "ai",
       "tr": {
@@ -1094,6 +1154,18 @@
       }
     },
     {
+      "translationKey": "claude-code-restricted-mode",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-restricted-mode-nedir",
+        "title": "Claude Code'da --restricted Modu Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-restricted-mode-explained",
+        "title": "What Is Claude Code's --restricted Mode?"
+      }
+    },
+    {
       "translationKey": "claude-code-runaway-agent-guardrails",
       "category": "ai",
       "tr": {
@@ -1115,6 +1187,18 @@
       "en": {
         "slug": "claude-code-self-hosted-environments",
         "title": "Claude Code Self-Hosted Environments Explained"
+      }
+    },
+    {
+      "translationKey": "claude-code-spend-limits-cache-metrics",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-harcama-limitleri-prompt-cache",
+        "title": "Claude Code'da Harcama Limiti ve Prompt Cache Metrikleri"
+      },
+      "en": {
+        "slug": "claude-code-spend-limits-prompt-cache-metrics",
+        "title": "Claude Code's New Spend Limits and Cache Metrics"
       }
     },
     {
@@ -2270,6 +2354,18 @@
       }
     },
     {
+      "translationKey": "host-claude-skills-on-github",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-skill-github-barindirma",
+        "title": "Claude Skill'lerini GitHub'da Barındır"
+      },
+      "en": {
+        "slug": "host-claude-skills-on-github",
+        "title": "Host Your Claude Skills on GitHub: A Guide"
+      }
+    },
+    {
       "translationKey": "how-to-write-rfc",
       "category": "career-productivity",
       "tr": {
@@ -2363,6 +2459,18 @@
       "en": {
         "slug": "write-investor-update-ai",
         "title": "Write an Investor Update Your Board Will Read"
+      }
+    },
+    {
+      "translationKey": "job-hunting-with-ai-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-is-arama-2026",
+        "title": "2026'da AI ile İş Arama: Baştan Sona Akış"
+      },
+      "en": {
+        "slug": "job-hunting-with-ai-2026",
+        "title": "Job Hunting With AI in 2026: A Full Workflow"
       }
     },
     {
@@ -2711,6 +2819,18 @@
       "en": {
         "slug": "multi-agent-orchestration-patterns",
         "title": "Multi-Agent Orchestration Patterns Explained"
+      }
+    },
+    {
+      "translationKey": "multi-model-ai-workflow",
+      "category": "ai",
+      "tr": {
+        "slug": "tek-prompt-uc-model-is-akisi",
+        "title": "Tek Prompt, Üç Model: Çoklu Model İş Akışı"
+      },
+      "en": {
+        "slug": "one-prompt-three-models-workflow",
+        "title": "One Prompt, Three Models: A Multi-Model Workflow"
       }
     },
     {
@@ -4067,66 +4187,6 @@
       "en": {
         "slug": "zig-2026-c-replacement",
         "title": "Zig in 2026: A Real C Replacement?"
-      }
-    },
-    {
-      "translationKey": "claude-code-restricted-mode",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-restricted-mode-nedir",
-        "title": "Claude Code'da --restricted Modu Nedir?"
-      },
-      "en": {
-        "slug": "claude-code-restricted-mode-explained",
-        "title": "What Is Claude Code's --restricted Mode?"
-      }
-    },
-    {
-      "translationKey": "broadcast-channels-dms-2026",
-      "category": "social-media",
-      "tr": {
-        "slug": "yayin-kanallari-dm-kitle-sahiplen",
-        "title": "Yayın Kanalları ve DM: Kitleni Sahiplen"
-      },
-      "en": {
-        "slug": "broadcast-channels-dms-own-audience",
-        "title": "Broadcast Channels and DMs: Own Your Audience"
-      }
-    },
-    {
-      "translationKey": "chatgpt-vs-gemini-spreadsheets",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "tablolar-icin-chatgpt-mi-gemini-mi",
-        "title": "Tablolar İçin ChatGPT mi Gemini mi: Gerçek Test"
-      },
-      "en": {
-        "slug": "chatgpt-vs-gemini-spreadsheets",
-        "title": "ChatGPT vs Gemini for Spreadsheets: A Real Test"
-      }
-    },
-    {
-      "translationKey": "build-second-brain-with-ai",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-ile-ikinci-beyin-kurmak",
-        "title": "2026'da AI ile İkinci Beyin Kurmak"
-      },
-      "en": {
-        "slug": "build-second-brain-with-ai",
-        "title": "Build a Second Brain With AI in 2026"
-      }
-    },
-    {
-      "translationKey": "job-hunting-with-ai-2026",
-      "category": "career-productivity",
-      "tr": {
-        "slug": "ai-ile-is-arama-2026",
-        "title": "2026'da AI ile İş Arama: Baştan Sona Akış"
-      },
-      "en": {
-        "slug": "job-hunting-with-ai-2026",
-        "title": "Job Hunting With AI in 2026: A Full Workflow"
       }
     }
   ]

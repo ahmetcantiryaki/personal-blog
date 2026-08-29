@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-28",
+  "updatedAt": "2026-08-29",
   "topics": [
-    {
-      "translationKey": "host-claude-skills-on-github",
-      "category": "ai",
-      "titleTr": "Claude Skill'lerini GitHub'da Barındır",
-      "titleEn": "Host Your Claude Skills on GitHub: A Guide",
-      "slugTr": "claude-skill-github-barindirma",
-      "slugEn": "host-claude-skills-on-github",
-      "keywordTr": "claude skill github",
-      "keywordEn": "claude skills github",
-      "angle": "how-to + version, share and install skills from a repo",
-      "style": "field-notes",
-      "brief": "Field-notes how-to on GitHub-hosted Claude skills (added to the Developer Platform in Aug 2026). Sections: what a Skill is and why hosting on GitHub helps (versioning, review, team reuse); repo structure and SKILL.md basics; connecting a repo so managed agents/Claude Code load it; keeping secrets out and passing the skill security scanner; sharing across a team. Verify: the GitHub-hosted-skills feature scope and the Skill/plugin security-scanner behavior. Sources: code.claude.com changelog; docs.claude.com skills docs. Distinct from claude-skills-explained (concept) and custom-gpts-vs-gems-vs-skills (comparison). End with a publish-and-install walkthrough."
-    },
-    {
-      "translationKey": "ai-study-tools-compared-2026",
-      "category": "ai",
-      "titleTr": "AI Çalışma Araçları: NotebookLM, ChatGPT, Gemini",
-      "titleEn": "AI Study Tools Compared: NotebookLM, ChatGPT, Gemini",
-      "slugTr": "ai-calisma-araclari-karsilastirma-2026",
-      "slugEn": "ai-study-tools-compared-2026",
-      "keywordTr": "ai çalışma araçları",
-      "keywordEn": "ai study tools compared",
-      "angle": "comparison + which fits notes, revision and exam prep",
-      "style": "question-driven",
-      "brief": "Question-driven comparison of AI study tools for students in 2026. Sections: NotebookLM's cited notes from your own sources; ChatGPT's new interactive quizzes and study/Think modes; Gemini's Classroom study tools (flashcards, practice quizzes, study guides, guided prompts); which fits reading vs active recall vs group study; cost and student offers; avoiding the 'AI does the thinking' trap. Verify: the Aug 2026 ChatGPT interactive-quiz and Gemini-in-Classroom study features and student free-tier offers. Sources: OpenAI ChatGPT release notes; blog.google Classroom/Gemini student posts. Distinct from the single-tool NotebookLM study post. End with a per-goal recommendation."
-    },
-    {
-      "translationKey": "multi-model-ai-workflow",
-      "category": "ai",
-      "titleTr": "Tek Prompt, Üç Model: Çoklu Model İş Akışı",
-      "titleEn": "One Prompt, Three Models: A Multi-Model Workflow",
-      "slugTr": "tek-prompt-uc-model-is-akisi",
-      "slugEn": "one-prompt-three-models-workflow",
-      "keywordTr": "çoklu model iş akışı",
-      "keywordEn": "multi-model ai workflow",
-      "angle": "deep-dive + route tasks to Claude, GPT and Gemini by strength",
-      "style": "contrarian",
-      "brief": "Contrarian deep-dive arguing power users shouldn't marry one assistant. Sections: mapping task types to model strengths (long-context reasoning, coding, Google-workflow chores, fast/cheap drafts); a practical routing habit without an engineering stack; cross-checking outputs by running the same prompt through two models; cost/subscription math; when consolidation actually wins. Verify: 2026 strength differences with named benchmarks (e.g., SWE-bench, terminal-bench leadership) framed honestly as moving targets. Sources: independent 2026 model comparisons and benchmark trackers. Distinct from which-ai-subscription and which-claude-model posts (this is using several together). End with a task-to-model routing table."
-    },
-    {
-      "translationKey": "ai-coding-agents-compared-2026",
-      "category": "software-engineering",
-      "titleTr": "Claude Code, Cursor, Antigravity: 2026 Kıyaslaması",
-      "titleEn": "Claude Code vs Cursor vs Antigravity in 2026",
-      "slugTr": "claude-code-cursor-antigravity-2026",
-      "slugEn": "claude-code-vs-cursor-vs-antigravity-2026",
-      "keywordTr": "ai kod ajanı karşılaştırma",
-      "keywordEn": "claude code vs cursor vs antigravity",
-      "angle": "comparison + terminal agent vs IDE agent, and when to use each",
-      "style": "data-led",
-      "brief": "Data-led comparison of leading AI coding agents in 2026. Sections: the categories (terminal-first Claude Code vs IDE-integrated Cursor/Antigravity vs Codex); benchmark leadership framed carefully (SWE-bench Verified, Terminal-Bench 2.0) as moving numbers; parallel sub-agents and background/overnight work; pricing tiers ($20 baselines; Antigravity free preview); the common combo pattern (CLI agent + IDE agent + PR-review bot). Verify: current benchmark holders, pricing and Antigravity's default model. Sources: 2026 coding-agent comparison writeups (ssojet, amux) with primary pricing pages. No corpus post compares these agents. End with a 'pick by workflow' guide."
-    },
     {
       "translationKey": "frontend-bundlers-2026",
       "category": "web-development",
