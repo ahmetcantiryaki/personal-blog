@@ -2686,5 +2686,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4166470,
     "generatedAt": "2026-08-28T06:50:06.300Z"
+  },
+  "en/ai-study-tools-compared-2026": {
+    "hash": "c67f13e96cc6bfdb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-study-tools-compared-2026.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3422502,
+    "generatedAt": "2026-08-29T06:31:07.217Z"
+  },
+  "en/claude-code-spend-limits-prompt-cache-metrics": {
+    "hash": "0efd6fbcedf5507e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-spend-limits-prompt-cache-metrics.mp3",
+    "seconds": 438,
+    "voice": "en_US-ryan-high",
+    "bytes": 3502124,
+    "generatedAt": "2026-08-29T06:33:10.590Z"
+  },
+  "en/claude-code-vs-cursor-vs-antigravity-2026": {
+    "hash": "7494735d143cc122",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-vs-cursor-vs-antigravity-2026.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3189490,
+    "generatedAt": "2026-08-29T06:35:03.642Z"
+  },
+  "en/host-claude-skills-on-github": {
+    "hash": "7ec47c76369b7fe8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-host-claude-skills-on-github.mp3",
+    "seconds": 363,
+    "voice": "en_US-ryan-high",
+    "bytes": 2904442,
+    "generatedAt": "2026-08-29T06:36:45.723Z"
+  },
+  "en/one-prompt-three-models-workflow": {
+    "hash": "006350ec9b05fb2f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-one-prompt-three-models-workflow.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3423965,
+    "generatedAt": "2026-08-29T06:38:46.244Z"
   }
 }
