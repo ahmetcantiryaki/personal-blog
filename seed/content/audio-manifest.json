@@ -2726,5 +2726,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3423965,
     "generatedAt": "2026-08-29T06:38:46.244Z"
+  },
+  "en/anthropic-model-hardware-standard-explained": {
+    "hash": "2713a4d485e1e9a2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-model-hardware-standard-explained.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3390946,
+    "generatedAt": "2026-08-30T06:33:02.424Z"
+  },
+  "en/chaos-engineering-small-teams": {
+    "hash": "ee9b56e9a5692f05",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chaos-engineering-small-teams.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3364197,
+    "generatedAt": "2026-08-30T06:34:42.325Z"
+  },
+  "en/chatgpt-memory-full-projects-guide": {
+    "hash": "82d1210e1a767fb7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-memory-full-projects-guide.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3439848,
+    "generatedAt": "2026-08-30T06:36:09.993Z"
+  },
+  "en/deep-research-chatgpt-gemini-claude-2026": {
+    "hash": "14f162f395736a43",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-deep-research-chatgpt-gemini-claude-2026.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3370675,
+    "generatedAt": "2026-08-30T06:38:07.391Z"
+  },
+  "en/vite-turbopack-rspack-2026": {
+    "hash": "fdc44e4062d0d438",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-vite-turbopack-rspack-2026.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3240690,
+    "generatedAt": "2026-08-30T06:39:28.875Z"
   }
 }
