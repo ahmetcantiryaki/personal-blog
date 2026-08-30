@@ -2,58 +2,6 @@
   "updatedAt": "2026-08-30",
   "topics": [
     {
-      "translationKey": "frontend-bundlers-2026",
-      "category": "web-development",
-      "titleTr": "Vite, Turbopack, Rspack: 2026 Bundler Savaşı",
-      "titleEn": "Vite, Turbopack, Rspack: The 2026 Bundler Fight",
-      "slugTr": "vite-turbopack-rspack-bundler-2026",
-      "slugEn": "vite-turbopack-rspack-2026",
-      "keywordTr": "vite turbopack rspack",
-      "keywordEn": "vite vs turbopack vs rspack",
-      "angle": "comparison + build speeds, DX and migration paths",
-      "style": "data-led",
-      "brief": "Data-led comparison of 2026 frontend build tools. Sections: the shift from webpack to Rust/Go-powered bundlers; Vite (and Rolldown), Turbopack (Next.js), and Rspack on cold-start, HMR and prod-build speed; ecosystem/plugin compatibility; framework coupling; realistic migration effort and gotchas. Verify: current stable status of Rolldown-powered Vite and Turbopack, and any published build-speed benchmarks (state methodology honestly). Sources: tool docs and release notes; reproducible benchmark posts. Distinct from the biome-vs-oxlint (linters) and TypeScript-7 (compiler) posts. End with a chooser by framework and project size."
-    },
-    {
-      "translationKey": "chaos-engineering-small-teams",
-      "category": "devops-cloud",
-      "titleTr": "Küçük Ekipler İçin Chaos Engineering",
-      "titleEn": "Chaos Engineering for Small Teams: Start Small",
-      "slugTr": "kucuk-ekipler-icin-chaos-engineering",
-      "slugEn": "chaos-engineering-small-teams",
-      "keywordTr": "chaos engineering küçük ekip",
-      "keywordEn": "chaos engineering small teams",
-      "angle": "how-to + safe experiments that surface failure before users do",
-      "style": "field-notes",
-      "brief": "Field-notes how-to bringing chaos engineering to small teams. Sections: the principle (hypothesis, small blast radius, learn); starting without fancy tooling (kill a pod, add latency, drop a dependency in staging); GameDays and steady-state metrics; graduating to tools (Litmus, chaos-mesh, AWS FIS); tying findings back to runbooks and alerts. Verify: the core chaos-engineering principles and typical starter experiments; blast-radius safety practices. Sources: Principles of Chaos Engineering; tool docs (Litmus, AWS FIS). Distinct from incident-response-for-small-teams and backups/DR posts. End with a first-GameDay checklist and a hypothesis template."
-    },
-    {
-      "translationKey": "deep-research-showdown-2026",
-      "category": "career-productivity",
-      "titleTr": "Deep Research Kapışması: ChatGPT, Gemini, Claude",
-      "titleEn": "Deep Research Face-Off: ChatGPT, Gemini, Claude",
-      "slugTr": "deep-research-chatgpt-gemini-claude",
-      "slugEn": "deep-research-chatgpt-gemini-claude-2026",
-      "keywordTr": "deep research karşılaştırma",
-      "keywordEn": "deep research chatgpt vs gemini",
-      "angle": "comparison + which AI deep-research tool for real reports",
-      "style": "data-led",
-      "brief": "Data-led comparison of the three flagship deep-research modes for producing a real report. Sections: how each plans (ChatGPT asks clarifying questions; Gemini shows an editable plan; Claude Research). Source count and context limits (Gemini 1M vs ChatGPT ~128K); multimodal input (PDFs/images) support; Workspace/Drive/Gmail grounding; export formats; weekly/monthly quotas and price tiers. Verify current quotas, context windows and connector support against each vendor's help pages before publishing. Sources: OpenAI Deep Research help article; Google Gemini Apps help. End with a chooser by task: scoped control vs Google-native synthesis vs breadth."
-    },
-    {
-      "translationKey": "chatgpt-memory-cleanup-projects",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Hafıza Doldu Sorunu ve Projeler Rehberi",
-      "titleEn": "Fix ChatGPT 'Memory Full' and Use Projects Right",
-      "slugTr": "chatgpt-hafiza-doldu-projeler-rehberi",
-      "slugEn": "chatgpt-memory-full-projects-guide",
-      "keywordTr": "chatgpt hafıza yönetimi",
-      "keywordEn": "chatgpt memory full",
-      "angle": "how-to + tame memory and move context into Projects",
-      "style": "field-notes",
-      "brief": "Field-notes how-to for power users hitting ChatGPT's ~24k-word memory cap. Sections: why 'Memory Full' happens; the list-summarize-delete-resave cleanup loop; labeling memories (About Me, Work); when to disable memory for reproducible prompt tests; moving durable context into Projects (instructions, files) instead of global memory; single-memory limits and the 'remembering' indicator. Verify the current memory word cap, per-project instruction limits and 2026 memory-management controls in ChatGPT settings and OpenAI help. Sources: OpenAI ChatGPT release notes; help-center memory article. End with a monthly memory-hygiene checklist."
-    },
-    {
       "translationKey": "chatgpt-google-workspace-docs-sheets",
       "category": "career-productivity",
       "titleTr": "ChatGPT ile Google Docs ve Sheets İş Akışı",
@@ -208,19 +156,6 @@
       "angle": "deep-dive + how memory prices push up phones, PCs and more",
       "style": "data-led",
       "brief": "Data-led explainer on why 2026 electronics got pricier. Sections: the DRAM/NAND price surge and its drivers (AI-datacenter demand crowding out consumer memory); why AI phones and AI PCs need more RAM/storage and cost more; the ~3% average consumer-electronics price rise and product-mix shift; what it means for buyers (upgrade timing, spec choices) and for makers (justifying premium AI features). Verify the memory-price and ~3% figures against cited market research and note forecasts change. Sources: a consumer-tech trends report (GSMA/ABI-style); a memory-market price note. End with practical buy-now-vs-wait guidance for shoppers. Distinct from the AI-PC NPU explainer."
-    },
-    {
-      "translationKey": "anthropic-model-hardware-standard",
-      "category": "technology",
-      "titleTr": "Anthropic Model Hardware Standard Nedir?",
-      "titleEn": "Anthropic's Model Hardware Standard, Explained",
-      "slugTr": "anthropic-model-hardware-standard-nedir",
-      "slugEn": "anthropic-model-hardware-standard-explained",
-      "keywordTr": "model hardware standard",
-      "keywordEn": "anthropic model hardware standard",
-      "angle": "deep-dive + what MHS means for AI meeting the physical world",
-      "style": "story-led",
-      "brief": "Story-led explainer on Anthropic's Aug 2026 Model Hardware Standard (MHS), a software standard letting Claude work with robots and scientific/manufacturing hardware. Sections: what MHS is and the research-preview scope; how it parallels MCP but for physical devices; example lab and robotics use cases; safety, permissioning and blast-radius concerns when an AI can act on hardware; who should experiment now (labs, robotics, manufacturing). Verify the standard's name, scope and preview status against the Anthropic announcement and reputable coverage before publishing; avoid overstating capabilities. Sources: Anthropic news; The Japan Times coverage (28 Aug 2026). End with what to watch as MHS moves past preview."
     },
     {
       "translationKey": "spot-ai-scams-deepfakes-2026",

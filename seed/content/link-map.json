@@ -4188,6 +4188,66 @@
         "slug": "zig-2026-c-replacement",
         "title": "Zig in 2026: A Real C Replacement?"
       }
+    },
+    {
+      "translationKey": "anthropic-model-hardware-standard",
+      "category": "technology",
+      "tr": {
+        "slug": "anthropic-model-hardware-standard-nedir",
+        "title": "Anthropic Model Hardware Standard Nedir?"
+      },
+      "en": {
+        "slug": "anthropic-model-hardware-standard-explained",
+        "title": "Anthropic's Model Hardware Standard, Explained"
+      }
+    },
+    {
+      "translationKey": "frontend-bundlers-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "vite-turbopack-rspack-bundler-2026",
+        "title": "Vite, Turbopack, Rspack: 2026 Bundler Savaşı"
+      },
+      "en": {
+        "slug": "vite-turbopack-rspack-2026",
+        "title": "Vite vs Turbopack vs Rspack: Which to Choose in 2026"
+      }
+    },
+    {
+      "translationKey": "chaos-engineering-small-teams",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kucuk-ekipler-icin-chaos-engineering",
+        "title": "Küçük Ekipler İçin Chaos Engineering"
+      },
+      "en": {
+        "slug": "chaos-engineering-small-teams",
+        "title": "Chaos Engineering for Small Teams: Start Small"
+      }
+    },
+    {
+      "translationKey": "deep-research-showdown-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "deep-research-chatgpt-gemini-claude",
+        "title": "Deep Research Kapışması: ChatGPT, Gemini, Claude"
+      },
+      "en": {
+        "slug": "deep-research-chatgpt-gemini-claude-2026",
+        "title": "Deep Research Face-Off: ChatGPT, Gemini, Claude"
+      }
+    },
+    {
+      "translationKey": "chatgpt-memory-cleanup-projects",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-hafiza-doldu-projeler-rehberi",
+        "title": "ChatGPT Hafıza Doldu Sorunu ve Projeler Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-memory-full-projects-guide",
+        "title": "Fix ChatGPT 'Memory Full' and Use Projects Right"
+      }
     }
   ]
 }
