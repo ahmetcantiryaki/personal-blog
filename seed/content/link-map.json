@@ -4248,6 +4248,66 @@
         "slug": "chatgpt-memory-full-projects-guide",
         "title": "Fix ChatGPT 'Memory Full' and Use Projects Right"
       }
+    },
+    {
+      "translationKey": "claudeforce-salesforce-anthropic",
+      "category": "business",
+      "tr": {
+        "slug": "claudeforce-nedir-salesforce-anthropic",
+        "title": "Claudeforce Nedir? Salesforce ve Claude Birleşti"
+      },
+      "en": {
+        "slug": "what-is-claudeforce-salesforce-anthropic",
+        "title": "What Is Claudeforce? Salesforce Meets Claude"
+      }
+    },
+    {
+      "translationKey": "chatgpt-google-workspace-docs-sheets",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-google-docs-sheets-is-akisi",
+        "title": "ChatGPT ile Google Docs ve Sheets İş Akışı"
+      },
+      "en": {
+        "slug": "chatgpt-google-docs-sheets-workflow",
+        "title": "ChatGPT + Google Docs and Sheets: A Workflow"
+      }
+    },
+    {
+      "translationKey": "claude-cowork-weekly-reports",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "claude-cowork-haftalik-pazarlama-raporu",
+        "title": "Claude Cowork ile Haftalık Pazarlama Raporu"
+      },
+      "en": {
+        "slug": "automate-weekly-marketing-reports-cowork",
+        "title": "Automate Weekly Marketing Reports With Cowork"
+      }
+    },
+    {
+      "translationKey": "measure-ai-search-citations",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-aramada-marka-atiflarini-olcme",
+        "title": "AI Aramada Marka Atıflarını Ölçme Rehberi"
+      },
+      "en": {
+        "slug": "measure-ai-search-citations-playbook",
+        "title": "Track Your AI Search Citations: A Playbook"
+      }
+    },
+    {
+      "translationKey": "referral-program-playbook-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ise-yarayan-referans-programi-kurmak",
+        "title": "Gerçekten İşe Yarayan Referans Programı Kurmak"
+      },
+      "en": {
+        "slug": "referral-program-that-works-2026",
+        "title": "Build a Referral Program That Actually Works"
+      }
     }
   ]
 }

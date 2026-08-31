@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-30",
+  "updatedAt": "2026-08-31",
   "topics": [
-    {
-      "translationKey": "chatgpt-google-workspace-docs-sheets",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT ile Google Docs ve Sheets İş Akışı",
-      "titleEn": "ChatGPT + Google Docs and Sheets: A Workflow",
-      "slugTr": "chatgpt-google-docs-sheets-is-akisi",
-      "slugEn": "chatgpt-google-docs-sheets-workflow",
-      "keywordTr": "chatgpt google workspace",
-      "keywordEn": "chatgpt google docs sheets",
-      "angle": "how-to + keep a doc open beside chat and work across a folder",
-      "style": "story-led",
-      "brief": "Story-led walkthrough of ChatGPT's 2026 Google Workspace side-panel: keep a Doc, Sheet or Slide open next to the conversation and ask it to summarize, compare, analyze or draft, or point it at a whole folder. Sections: connecting Workspace and permissions; a real reporting task across several Sheets; drafting from a Doc; guardrails on what it can edit vs read; privacy and access scoping. Verify the exact feature name, folder-scope behavior and connector permissions on OpenAI's release notes. Sources: OpenAI ChatGPT release notes (Aug 2026); Workspace connector help. End with when to reach for Gemini-in-Workspace instead."
-    },
-    {
-      "translationKey": "claude-cowork-weekly-reports",
-      "category": "digital-marketing",
-      "titleTr": "Claude Cowork ile Haftalık Pazarlama Raporu",
-      "titleEn": "Automate Weekly Marketing Reports With Cowork",
-      "slugTr": "claude-cowork-haftalik-pazarlama-raporu",
-      "slugEn": "automate-weekly-marketing-reports-cowork",
-      "keywordTr": "claude cowork raporlama",
-      "keywordEn": "claude cowork marketing reports",
-      "angle": "how-to + build a scheduled reporting agent for a small team",
-      "style": "field-notes",
-      "brief": "Field-notes how-to building a recurring marketing report with Claude Cowork. Sections: connecting a data source; writing a Skill that fixes the report structure (KPIs, sections, tone); scheduling daily snapshots and weekly overviews; letting Cowork flag where funnel engagement drops and recommend fixes; reviewing/interrupting mid-run; keeping humans in the loop on numbers. Verify Cowork's scheduled-tasks, Skills and file-access model on Anthropic docs, and that report claims are grounded in the connected data. Sources: Anthropic Claude Cowork docs; a marketer-authored Cowork walkthrough. End with a reusable report-Skill template. Distinct from the no-code support-chatbot and Zapier/Make automation posts."
-    },
-    {
-      "translationKey": "measure-ai-search-citations",
-      "category": "digital-marketing",
-      "titleTr": "AI Aramada Marka Atıflarını Ölçme Rehberi",
-      "titleEn": "Track Your AI Search Citations: A Playbook",
-      "slugTr": "ai-aramada-marka-atiflarini-olcme",
-      "slugEn": "measure-ai-search-citations-playbook",
-      "keywordTr": "geo ölçümleme",
-      "keywordEn": "ai search citation tracking",
-      "angle": "how-to + measure GEO by citations, not rankings",
-      "style": "data-led",
-      "brief": "Data-led measurement playbook: stop guessing at GEO and start tracking citations across ChatGPT, Perplexity, Gemini and Google AI Overviews. Sections: defining priority prompts; measuring share of AI answers and named/linked citations; tools (LLMrefs-style trackers) vs manual prompt panels; pairing citation share with impressions and assisted conversions; a weekly tracking cadence and a simple dashboard. Verify that AI engines cite sources for the tracked query types and how each surfaces links, with honest caveats on volatility. Sources: a GEO measurement guide; AI-citation statistics roundup. Distinct from the GEO 'getting cited' explainer and schema-markup post — this one is pure measurement. End with a citation-tracking scorecard."
-    },
-    {
-      "translationKey": "referral-program-playbook-2026",
-      "category": "digital-marketing",
-      "titleTr": "Gerçekten İşe Yarayan Referans Programı Kurmak",
-      "titleEn": "Build a Referral Program That Actually Works",
-      "slugTr": "ise-yarayan-referans-programi-kurmak",
-      "slugEn": "referral-program-that-works-2026",
-      "keywordTr": "referans programı",
-      "keywordEn": "referral program that works",
-      "angle": "guide + design incentives and mechanics that drive shares",
-      "style": "story-led",
-      "brief": "Story-led guide to designing a referral program that isn't ignored. Sections: choosing the incentive (double-sided vs single, cash vs credit vs status); the ask-timing that matters (after an aha moment, not at signup); friction-free sharing mechanics and tracking; fraud and gaming controls; measuring viral coefficient and payback; when referrals beat paid acquisition for a small SaaS or creator. Verify benchmark referral-conversion and reward-structure claims against a cited case study; label examples as illustrative. Sources: a referral-marketing benchmark report; a documented program teardown. Distinct from the social-selling and affiliate-marketing posts. End with a launch checklist and reward-math worksheet."
-    },
     {
       "translationKey": "privacy-first-analytics-ga4-alternatives",
       "category": "digital-marketing",
@@ -65,19 +13,6 @@
       "angle": "comparison + cookieless, consent-friendly analytics options",
       "style": "contrarian",
       "brief": "Contrarian comparison arguing many small sites don't need GA4's complexity in a cookieless, consent-heavy 2026. Sections: what GA4 costs you (sampling, consent banners, learning curve); alternatives (Plausible, Fathom, Umami self-hosted, Matomo, PostHog for product analytics); cookieless/first-party measurement and server-side options; EU consent and data-residency implications; what you gain and lose vs GA4. Verify each tool's current pricing, hosting model and consent posture on their sites; be fair about GA4's strengths. Sources: vendor docs for two named alternatives; a privacy-analytics comparison. Distinct from the cookieless-attribution post, which is about attribution modeling. End with a chooser by traffic size and compliance need."
-    },
-    {
-      "translationKey": "claudeforce-salesforce-anthropic",
-      "category": "business",
-      "titleTr": "Claudeforce Nedir? Salesforce ve Claude Birleşti",
-      "titleEn": "What Is Claudeforce? Salesforce Meets Claude",
-      "slugTr": "claudeforce-nedir-salesforce-anthropic",
-      "slugEn": "what-is-claudeforce-salesforce-anthropic",
-      "keywordTr": "claudeforce nedir",
-      "keywordEn": "what is claudeforce",
-      "angle": "deep-dive + what the partnership means for CRM teams",
-      "style": "question-driven",
-      "brief": "Question-driven explainer on Claudeforce, the Aug 2026 Salesforce-Anthropic partnership. Sections: what was announced (Claude inside Salesforce; Salesforce in Claude); the pilot-to-open-beta timeline; concrete CRM use cases (pipeline summaries, account research, guided actions); data governance, trust-layer and residency questions for regulated teams; how it compares to building your own MCP connector to a CRM. Verify announcement specifics, availability dates and any data-handling claims against the Salesforce press release and Anthropic newsroom before publishing. Sources: Salesforce newsroom press release (26 Aug 2026); Anthropic news. End with who should pilot now vs wait for GA."
     },
     {
       "translationKey": "saas-valuation-multiples-2026",
