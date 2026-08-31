@@ -2766,5 +2766,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3240690,
     "generatedAt": "2026-08-30T06:39:28.875Z"
+  },
+  "en/automate-weekly-marketing-reports-cowork": {
+    "hash": "6732465798c80124",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-automate-weekly-marketing-reports-cowork.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3296697,
+    "generatedAt": "2026-08-31T06:48:02.109Z"
+  },
+  "en/chatgpt-google-docs-sheets-workflow": {
+    "hash": "5e7d94c83febc880",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-google-docs-sheets-workflow.mp3",
+    "seconds": 385,
+    "voice": "en_US-ryan-high",
+    "bytes": 3079985,
+    "generatedAt": "2026-08-31T06:50:13.338Z"
+  },
+  "en/measure-ai-search-citations-playbook": {
+    "hash": "30b67be27e0d40da",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-measure-ai-search-citations-playbook.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3392409,
+    "generatedAt": "2026-08-31T06:52:37.833Z"
+  },
+  "en/referral-program-that-works-2026": {
+    "hash": "10e0967d727fe566",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-referral-program-that-works-2026.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3516125,
+    "generatedAt": "2026-08-31T06:55:07.690Z"
+  },
+  "en/what-is-claudeforce-salesforce-anthropic": {
+    "hash": "d8ef6b27ca1a01fb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-claudeforce-salesforce-anthropic.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3725523,
+    "generatedAt": "2026-08-31T06:57:45.358Z"
   }
 }
