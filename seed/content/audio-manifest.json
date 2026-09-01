@@ -2806,5 +2806,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3725523,
     "generatedAt": "2026-08-31T06:57:45.358Z"
+  },
+  "en/beyond-vc-startup-funding-2026": {
+    "hash": "c938fbd5b720dba4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-beyond-vc-startup-funding-2026.mp3",
+    "seconds": 393,
+    "voice": "en_US-ryan-high",
+    "bytes": 3140589,
+    "generatedAt": "2026-09-01T06:45:33.324Z"
+  },
+  "en/claude-code-weekly-limits-september-2026-cut": {
+    "hash": "3b3620d42f63d1c0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-weekly-limits-september-2026-cut.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3351658,
+    "generatedAt": "2026-09-01T06:47:32.953Z"
+  },
+  "en/ga4-alternatives-privacy-analytics-2026": {
+    "hash": "68335ee2b43506a2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ga4-alternatives-privacy-analytics-2026.mp3",
+    "seconds": 381,
+    "voice": "en_US-ryan-high",
+    "bytes": 3045921,
+    "generatedAt": "2026-09-01T06:49:23.348Z"
+  },
+  "en/off-deck-due-diligence-signals-2026": {
+    "hash": "8e8e410d680dbb75",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-off-deck-due-diligence-signals-2026.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3241526,
+    "generatedAt": "2026-09-01T06:51:21.286Z"
+  },
+  "en/saas-valuation-arr-multiples-2026": {
+    "hash": "85a8eb1833dea264",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-saas-valuation-arr-multiples-2026.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3349359,
+    "generatedAt": "2026-09-01T06:53:23.327Z"
   }
 }
