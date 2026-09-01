@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-01",
   "topics": [
-    {
-      "translationKey": "privacy-first-analytics-ga4-alternatives",
-      "category": "digital-marketing",
-      "titleTr": "GA4 Alternatifleri: Gizlilik Odaklı Analitik",
-      "titleEn": "GA4 Alternatives: Privacy-First Analytics 2026",
-      "slugTr": "ga4-alternatifleri-gizlilik-odakli-analitik",
-      "slugEn": "ga4-alternatives-privacy-analytics-2026",
-      "keywordTr": "ga4 alternatifleri",
-      "keywordEn": "ga4 alternatives",
-      "angle": "comparison + cookieless, consent-friendly analytics options",
-      "style": "contrarian",
-      "brief": "Contrarian comparison arguing many small sites don't need GA4's complexity in a cookieless, consent-heavy 2026. Sections: what GA4 costs you (sampling, consent banners, learning curve); alternatives (Plausible, Fathom, Umami self-hosted, Matomo, PostHog for product analytics); cookieless/first-party measurement and server-side options; EU consent and data-residency implications; what you gain and lose vs GA4. Verify each tool's current pricing, hosting model and consent posture on their sites; be fair about GA4's strengths. Sources: vendor docs for two named alternatives; a privacy-analytics comparison. Distinct from the cookieless-attribution post, which is about attribution modeling. End with a chooser by traffic size and compliance need."
-    },
-    {
-      "translationKey": "saas-valuation-multiples-2026",
-      "category": "business",
-      "titleTr": "SaaS'iniz Ne Eder? 2026 ARR Çarpanları",
-      "titleEn": "What's Your SaaS Worth? 2026 ARR Multiples",
-      "slugTr": "saas-degerleme-arr-carpanlari-2026",
-      "slugEn": "saas-valuation-arr-multiples-2026",
-      "keywordTr": "saas değerleme çarpanları",
-      "keywordEn": "saas valuation multiples 2026",
-      "angle": "deep-dive + how ARR multiples are set and where yours lands",
-      "style": "data-led",
-      "brief": "Data-led deep-dive on SaaS valuation in 2026. Sections: the multiple compression story (median ~7x ARR in early 2025 down toward ~3.8x by early 2026; top-tier still 7-9x); what moves your multiple (growth rate, net retention, gross margin, rule of 40, AI-native premium); public-comps vs private-round reality; why revenue quality beats a narrative deck. Verify the specific multiple figures and dates against a cited SaaS-funding report and note they shift quarterly. Sources: a 2026 SaaS fundraising/valuation report; a public-comps tracker. Distinct from the first-SaaS-metrics and pricing posts. End with a self-scoring worksheet to estimate a realistic range."
-    },
-    {
-      "translationKey": "startup-due-diligence-signals-2026",
-      "category": "business",
-      "titleTr": "Yatırımcının Sunum Dışı Baktığı 7 Sinyal",
-      "titleEn": "7 Off-Deck Signals Investors Check in 2026",
-      "slugTr": "yatirimci-sunum-disi-7-sinyal",
-      "slugEn": "off-deck-due-diligence-signals-2026",
-      "keywordTr": "startup due diligence",
-      "keywordEn": "startup due diligence signals",
-      "angle": "checklist + the signals scrutinized beyond the pitch slides",
-      "style": "field-notes",
-      "brief": "Checklist of the off-deck signals that decide term sheets in 2026. Sections: financial hygiene and unit economics; founder-market fit; digital reputation and AI-search visibility (how you appear to ChatGPT/Perplexity); uncurated customer validation (reviews, references); technical scalability; clean cap-table hygiene; and a working product over a slide deck. For each: what diligence teams actually check and how to prepare it. Verify the '7 areas' framing and the 3x-term-sheet and ~35% faster-diligence claims against the cited source; present stats as reported, not gospel. Sources: a 2026 startup due-diligence guide; an investor-relations/AI-diligence piece. Distinct from the investor-update and pitch-metric posts. End with a pre-raise readiness checklist."
-    },
-    {
-      "translationKey": "beyond-vc-funding-options-2026",
-      "category": "business",
-      "titleTr": "VC'siz Büyüme: Hisse Vermeden Fon Bulmak",
-      "titleEn": "Beyond VC: Fund Your Startup Without Equity",
-      "slugTr": "vcsiz-startup-fon-secenekleri-2026",
-      "slugEn": "beyond-vc-startup-funding-2026",
-      "keywordTr": "hisse vermeden fon",
-      "keywordEn": "non-dilutive startup funding",
-      "angle": "guide + non-dilutive funding routes and when each fits",
-      "style": "question-driven",
-      "brief": "Question-driven guide to funding without giving up equity. Sections: revenue-based financing; venture debt; grants and non-dilutive programs; crowdfunding (rewards vs equity); customer-funded and pre-sales; the real cost of each (rates, covenants, dilution-equivalents); when non-dilutive beats a priced round and when it traps you. Verify representative RBF terms and any program specifics against cited sources; keep figures illustrative and region-agnostic where possible. Sources: a non-dilutive-funding overview; a revenue-financing provider's terms page. Distinct from the bootstrap-vs-VC post, which frames the binary choice — this maps the full menu in between. End with a decision matrix by margin, growth and risk tolerance."
-    },
     {
       "translationKey": "ai-wrapper-startup-moat",
       "category": "business",

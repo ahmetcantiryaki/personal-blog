@@ -4308,6 +4308,66 @@
         "slug": "referral-program-that-works-2026",
         "title": "Build a Referral Program That Actually Works"
       }
+    },
+    {
+      "translationKey": "claude-code-weekly-limits-september-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-limit-artisi-eylul-2026-kesinti-mi",
+        "title": "Claude Code Limit Artışı Aslında Kesinti mi?"
+      },
+      "en": {
+        "slug": "claude-code-weekly-limits-september-2026-cut",
+        "title": "Claude Code's Sept 14 Limit Hike Is Actually a Cut"
+      }
+    },
+    {
+      "translationKey": "privacy-first-analytics-ga4-alternatives",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ga4-alternatifleri-gizlilik-odakli-analitik",
+        "title": "GA4 Alternatifleri: Gizlilik Odaklı Analitik"
+      },
+      "en": {
+        "slug": "ga4-alternatives-privacy-analytics-2026",
+        "title": "GA4 Alternatives: Privacy-First Analytics 2026"
+      }
+    },
+    {
+      "translationKey": "saas-valuation-multiples-2026",
+      "category": "business",
+      "tr": {
+        "slug": "saas-degerleme-arr-carpanlari-2026",
+        "title": "SaaS'iniz Ne Eder? 2026 ARR Çarpanları"
+      },
+      "en": {
+        "slug": "saas-valuation-arr-multiples-2026",
+        "title": "What's Your SaaS Worth? 2026 ARR Multiples"
+      }
+    },
+    {
+      "translationKey": "startup-due-diligence-signals-2026",
+      "category": "business",
+      "tr": {
+        "slug": "yatirimci-sunum-disi-7-sinyal",
+        "title": "Yatırımcının Sunum Dışı Baktığı 7 Sinyal"
+      },
+      "en": {
+        "slug": "off-deck-due-diligence-signals-2026",
+        "title": "7 Off-Deck Signals Investors Check in 2026"
+      }
+    },
+    {
+      "translationKey": "beyond-vc-funding-options-2026",
+      "category": "business",
+      "tr": {
+        "slug": "vcsiz-startup-fon-secenekleri-2026",
+        "title": "VC'siz Büyüme: Hisse Vermeden Fon Bulmak"
+      },
+      "en": {
+        "slug": "beyond-vc-startup-funding-2026",
+        "title": "Beyond VC: Fund Your Startup Without Equity"
+      }
     }
   ]
 }

@@ -65,6 +65,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   finops: { en: 'FinOps', tr: 'FinOps' },
   freelance: { en: 'Freelance', tr: 'Serbest Çalışma' },
   frontend: { en: 'Frontend', tr: 'Ön Uç' },
+  fundraising: { en: 'Fundraising', tr: 'Fon Toplama' },
   gemini: { en: 'Gemini', tr: 'Gemini' },
   git: { en: 'Git', tr: 'Git' },
   gitops: { en: 'GitOps', tr: 'GitOps' },
