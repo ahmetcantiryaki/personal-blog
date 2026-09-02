@@ -2846,5 +2846,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3349359,
     "generatedAt": "2026-09-01T06:53:23.327Z"
+  },
+  "en/do-ai-wrapper-startups-have-a-moat": {
+    "hash": "1ea6d38e3efee7bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-do-ai-wrapper-startups-have-a-moat.mp3",
+    "seconds": 458,
+    "voice": "en_US-ryan-high",
+    "bytes": 3663874,
+    "generatedAt": "2026-09-02T06:39:19.232Z"
+  },
+  "en/google-assistant-shutdown-gemini-takeover": {
+    "hash": "dd617208696a5ed4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-google-assistant-shutdown-gemini-takeover.mp3",
+    "seconds": 437,
+    "voice": "en_US-ryan-high",
+    "bytes": 3500243,
+    "generatedAt": "2026-09-02T06:41:58.408Z"
+  },
+  "en/spot-ai-scams-deepfakes-2026": {
+    "hash": "ed49a0eb68d89b4f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-spot-ai-scams-deepfakes-2026.mp3",
+    "seconds": 482,
+    "voice": "en_US-ryan-high",
+    "bytes": 3854045,
+    "generatedAt": "2026-09-02T06:44:54.952Z"
+  },
+  "en/where-to-incorporate-startup-2026": {
+    "hash": "d885fc2065c3b627",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-where-to-incorporate-startup-2026.mp3",
+    "seconds": 452,
+    "voice": "en_US-ryan-high",
+    "bytes": 3618943,
+    "generatedAt": "2026-09-02T06:47:40.566Z"
+  },
+  "en/why-gadgets-cost-more-2026-memory": {
+    "hash": "d6bcce4e3a9c6f55",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-gadgets-cost-more-2026-memory.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3782574,
+    "generatedAt": "2026-09-02T06:50:34.860Z"
   }
 }
