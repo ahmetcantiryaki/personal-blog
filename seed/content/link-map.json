@@ -4368,6 +4368,66 @@
         "slug": "beyond-vc-startup-funding-2026",
         "title": "Beyond VC: Fund Your Startup Without Equity"
       }
+    },
+    {
+      "translationKey": "google-assistant-shutdown-gemini-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "google-assistant-ne-zaman-kapaniyor",
+        "title": "Google Assistant Ne Zaman Kapanıyor?"
+      },
+      "en": {
+        "slug": "google-assistant-shutdown-gemini-takeover",
+        "title": "When Does Google Assistant Shut Down?"
+      }
+    },
+    {
+      "translationKey": "ai-wrapper-startup-moat",
+      "category": "business",
+      "tr": {
+        "slug": "ai-wrapper-girisimleri-hendek-var-mi",
+        "title": "AI Wrapper Girişimlerinin Hendeği Var mı?"
+      },
+      "en": {
+        "slug": "do-ai-wrapper-startups-have-a-moat",
+        "title": "Do AI Wrapper Startups Have Any Moat?"
+      }
+    },
+    {
+      "translationKey": "where-to-incorporate-startup-2026",
+      "category": "business",
+      "tr": {
+        "slug": "girisimi-nerede-kurmali-2026",
+        "title": "Girişiminizi 2026'da Nerede Kurmalısınız?"
+      },
+      "en": {
+        "slug": "where-to-incorporate-startup-2026",
+        "title": "Where Should Your Startup Incorporate in 2026?"
+      }
+    },
+    {
+      "translationKey": "gadget-prices-memory-surge-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "cihazlar-neden-pahalandi-bellek-krizi",
+        "title": "2026'da Cihazlar Neden Pahalandı: Bellek Krizi"
+      },
+      "en": {
+        "slug": "why-gadgets-cost-more-2026-memory",
+        "title": "Why Gadgets Cost More in 2026: The Memory Crunch"
+      }
+    },
+    {
+      "translationKey": "spot-ai-scams-deepfakes-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-dolandiriciligi-deepfake-nasil-anlasilir",
+        "title": "AI Dolandırıcılığı ve Deepfake Nasıl Anlaşılır"
+      },
+      "en": {
+        "slug": "spot-ai-scams-deepfakes-2026",
+        "title": "How to Spot AI Scams and Deepfakes in 2026"
+      }
     }
   ]
 }

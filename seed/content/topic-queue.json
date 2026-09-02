@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-01",
+  "updatedAt": "2026-09-02",
   "topics": [
-    {
-      "translationKey": "ai-wrapper-startup-moat",
-      "category": "business",
-      "titleTr": "AI Wrapper Girişimlerinin Hendeği Var mı?",
-      "titleEn": "Do AI Wrapper Startups Have Any Moat?",
-      "slugTr": "ai-wrapper-girisimleri-hendek-var-mi",
-      "slugEn": "do-ai-wrapper-startups-have-a-moat",
-      "keywordTr": "ai wrapper girişim hendek",
-      "keywordEn": "ai wrapper startup moat",
-      "angle": "contrarian + where defensibility actually comes from",
-      "style": "contrarian",
-      "brief": "Contrarian take on the 'it's just a wrapper' dismissal. Sections: why the thin-wrapper fear is real (a model update can erase your feature); where durable moats actually form (proprietary data and feedback loops, workflow ownership end-to-end, distribution, switching costs, brand and trust, compliance); case patterns of wrappers that became platforms vs those that vanished; the multi-model hedge against vendor lock-in. Verify examples and any market-share claims; label speculation clearly. Sources: an investor essay on AI defensibility; a documented product post-mortem. Distinct from the AI-vendor-lock-in post, which is about betting on one model — this is about defensibility overall. End with a moat self-audit for founders."
-    },
-    {
-      "translationKey": "where-to-incorporate-startup-2026",
-      "category": "business",
-      "titleTr": "Girişiminizi 2026'da Nerede Kurmalısınız?",
-      "titleEn": "Where Should Your Startup Incorporate in 2026?",
-      "slugTr": "girisimi-nerede-kurmali-2026",
-      "slugEn": "where-to-incorporate-startup-2026",
-      "keywordTr": "şirket nerede kurulur",
-      "keywordEn": "where to incorporate startup",
-      "angle": "guide + choosing a jurisdiction and entity for a global startup",
-      "style": "question-driven",
-      "brief": "Question-driven guide for founders choosing where and how to incorporate. Sections: the common paths (US Delaware C-corp for VC, local LLC, Estonia e-Residency/OU, UK Ltd, holding structures); what drives the choice (where investors are, customers, tax, banking, remote team); Stripe Atlas-style formation vs local counsel; the flip cost of restructuring later. Frame as general information, not legal/tax advice, and tell readers to confirm with a professional for their situation. Verify entity/program specifics against official sources; avoid country-specific tax figures that age quickly. Sources: an incorporation-comparison guide; an official e-Residency/Delaware page. Distinct from the co-founder-equity and first-hire posts. End with a jurisdiction-fit checklist."
-    },
-    {
-      "translationKey": "gadget-prices-memory-surge-2026",
-      "category": "technology",
-      "titleTr": "2026'da Cihazlar Neden Pahalandı: Bellek Krizi",
-      "titleEn": "Why Gadgets Cost More in 2026: The Memory Crunch",
-      "slugTr": "cihazlar-neden-pahalandi-bellek-krizi",
-      "slugEn": "why-gadgets-cost-more-2026-memory",
-      "keywordTr": "bellek fiyatları 2026",
-      "keywordEn": "dram price increase 2026",
-      "angle": "deep-dive + how memory prices push up phones, PCs and more",
-      "style": "data-led",
-      "brief": "Data-led explainer on why 2026 electronics got pricier. Sections: the DRAM/NAND price surge and its drivers (AI-datacenter demand crowding out consumer memory); why AI phones and AI PCs need more RAM/storage and cost more; the ~3% average consumer-electronics price rise and product-mix shift; what it means for buyers (upgrade timing, spec choices) and for makers (justifying premium AI features). Verify the memory-price and ~3% figures against cited market research and note forecasts change. Sources: a consumer-tech trends report (GSMA/ABI-style); a memory-market price note. End with practical buy-now-vs-wait guidance for shoppers. Distinct from the AI-PC NPU explainer."
-    },
-    {
-      "translationKey": "spot-ai-scams-deepfakes-2026",
-      "category": "technology",
-      "titleTr": "AI Dolandırıcılığı ve Deepfake Nasıl Anlaşılır",
-      "titleEn": "How to Spot AI Scams and Deepfakes in 2026",
-      "slugTr": "ai-dolandiriciligi-deepfake-nasil-anlasilir",
-      "slugEn": "spot-ai-scams-deepfakes-2026",
-      "keywordTr": "deepfake dolandırıcılık",
-      "keywordEn": "how to spot deepfakes",
-      "angle": "guide + practical defenses for individuals and small teams",
-      "style": "field-notes",
-      "brief": "Field-notes guide to recognizing and resisting AI-enabled scams. Sections: the 2026 threat set (voice-clone 'family emergency' calls, deepfake video CEOs, AI phishing, fake customer-support agents); tells that still work (out-of-band verification, safe words, callback numbers, liveness quirks); tools and provenance signals (C2PA content credentials, watermarking limits); what to do after a hit. Verify current scam patterns and any provenance-standard claims against reputable security sources; avoid naming detection tools as foolproof. Sources: a consumer cybersecurity advisory (FTC/vendor); a deepfake-detection explainer. End with a household/small-team verification protocol. Distinct from developer-focused security posts and the AI-data-privacy post."
-    },
     {
       "translationKey": "delete-data-broker-opt-out-2026",
       "category": "technology",
