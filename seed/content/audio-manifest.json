@@ -2886,5 +2886,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3782574,
     "generatedAt": "2026-09-02T06:50:34.860Z"
+  },
+  "en/best-smart-rings-2026-buying-guide": {
+    "hash": "58bf69647042f741",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-best-smart-rings-2026-buying-guide.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3691250,
+    "generatedAt": "2026-09-03T06:36:45.721Z"
+  },
+  "en/best-social-media-schedulers-2026": {
+    "hash": "d2c8aa4c3ef3a090",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-best-social-media-schedulers-2026.mp3",
+    "seconds": 456,
+    "voice": "en_US-ryan-high",
+    "bytes": 3646528,
+    "generatedAt": "2026-09-03T06:39:22.483Z"
+  },
+  "en/claude-fable-5-1-cache-pricing-cut-explained": {
+    "hash": "f3787f14cf29213e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-fable-5-1-cache-pricing-cut-explained.mp3",
+    "seconds": 533,
+    "voice": "en_US-ryan-high",
+    "bytes": 4262391,
+    "generatedAt": "2026-09-03T06:42:25.615Z"
+  },
+  "en/land-first-ugc-brand-deal-2026": {
+    "hash": "dd6327e581141d73",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-land-first-ugc-brand-deal-2026.mp3",
+    "seconds": 501,
+    "voice": "en_US-ryan-high",
+    "bytes": 4009108,
+    "generatedAt": "2026-09-03T06:45:16.640Z"
+  },
+  "en/opt-out-data-brokers-privacy-2026": {
+    "hash": "72fa1e5c49ac827c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-opt-out-data-brokers-privacy-2026.mp3",
+    "seconds": 524,
+    "voice": "en_US-ryan-high",
+    "bytes": 4188621,
+    "generatedAt": "2026-09-03T06:48:14.509Z"
   }
 }
