@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-02",
+  "updatedAt": "2026-09-03",
   "topics": [
-    {
-      "translationKey": "delete-data-broker-opt-out-2026",
-      "category": "technology",
-      "titleTr": "Gizliliğini Geri Al: Veri Simsarlarından Çık",
-      "titleEn": "Reclaim Your Privacy: Opt Out of Data Brokers",
-      "slugTr": "veri-simsarlarindan-cikmak-gizlilik",
-      "slugEn": "opt-out-data-brokers-privacy-2026",
-      "keywordTr": "veri simsarları",
-      "keywordEn": "data broker opt out",
-      "angle": "how-to + remove your personal data from broker sites",
-      "style": "contrarian",
-      "brief": "Contrarian how-to: your data is already sold, so treat privacy as ongoing cleanup, not a one-time setting. Sections: what data brokers are and how they profile you; manual opt-outs at the big brokers vs paid removal services (and their limits); regional rights (GDPR erasure, US state privacy laws, delete-request registries); locking down the sources (people-search sites, loyalty programs, ad IDs); a recurring re-check cadence since listings return. Verify opt-out mechanisms and any legal-right claims against official regulator pages; note removal services can't reach every broker. Sources: a regulator privacy-rights page; a data-broker-removal how-to. End with a quarterly privacy-cleanup checklist. Distinct from the AI-assistant-data post."
-    },
-    {
-      "translationKey": "best-smart-rings-2026-guide",
-      "category": "technology",
-      "titleTr": "2026 Akıllı Yüzükler: Hangisini Almalısın?",
-      "titleEn": "Smart Rings in 2026: Which One Should You Buy?",
-      "slugTr": "en-iyi-akilli-yuzukler-2026-rehberi",
-      "slugEn": "best-smart-rings-2026-buying-guide",
-      "keywordTr": "en iyi akıllı yüzük",
-      "keywordEn": "best smart ring 2026",
-      "angle": "comparison + pick a smart ring by fit, features and cost",
-      "style": "question-driven",
-      "brief": "Question-driven buyer's guide comparing 2026 smart rings as a purchase decision. Sections: why the category is booming (shipments forecast to grow many-fold this decade); ring vs watch vs band trade-offs (battery, comfort, screen-free); the contenders (Oura, Samsung Galaxy Ring, Ultrahuman and newcomers) on sensors, subscription fees, app ecosystem and accuracy; sizing and durability; who a ring suits and who should skip it. Verify current model lineups, subscription costs and any shipment-forecast figures against cited sources; flag that accuracy varies. Sources: a wearables market forecast; two current ring reviews. Distinct from the 'Health Wearables: Rings and Glucose' explainer — this is a product-purchase comparison. End with a pick-by-need table."
-    },
-    {
-      "translationKey": "land-first-ugc-brand-deal",
-      "category": "social-media",
-      "titleTr": "İlk UGC Marka Anlaşmanı Nasıl Kaparsın?",
-      "titleEn": "Land Your First UGC Brand Deal in 2026",
-      "slugTr": "ilk-ugc-marka-anlasmasi-nasil-kapilir",
-      "slugEn": "land-first-ugc-brand-deal-2026",
-      "keywordTr": "ugc marka anlaşması",
-      "keywordEn": "ugc creator brand deals",
-      "angle": "how-to + go from zero to your first paid creator deal",
-      "style": "story-led",
-      "brief": "Story-led how-to for aspiring UGC creators (creator-side monetization, not brand ad-buying). Sections: what UGC creators actually sell (usage-rights content, not follower reach); building a 3-5 clip portfolio that shows hooks and product handling; setting rates and packages; finding briefs (marketplaces, cold outreach, agencies) and pitching; contracts, usage rights, revisions and getting paid; scaling to retainers. Verify typical rate ranges and rights terms against a cited creator resource; present numbers as ranges, not promises. Sources: a UGC-creator earnings/rate guide; a marketplace's creator docs. Distinct from the 'Do AI UGC Ads Convert' (advertiser) and micro-influencer posts. End with a first-pitch template and rate card."
-    },
-    {
-      "translationKey": "best-social-schedulers-2026",
-      "category": "social-media",
-      "titleTr": "2026'nın En İyi Sosyal Medya Planlama Araçları",
-      "titleEn": "Best Social Media Schedulers Compared in 2026",
-      "slugTr": "en-iyi-sosyal-medya-planlama-araclari-2026",
-      "slugEn": "best-social-media-schedulers-2026",
-      "keywordTr": "sosyal medya planlama aracı",
-      "keywordEn": "best social media scheduler 2026",
-      "angle": "comparison + pick a scheduler by platform, team and budget",
-      "style": "data-led",
-      "brief": "Data-led comparison of social schedulers for creators and small teams. Sections: what to evaluate (supported networks, approval workflows, analytics, AI captions, link-in-bio, price per seat); the field (Buffer, Metricool, Later, Hootsuite, Publer, Postiz open-source) mapped to team size and platform mix; API limits that break auto-posting (Instagram, TikTok); when a free plan is enough. Verify each tool's current network support, pricing and AI features on their sites; note platform API rules change. Sources: two scheduler pricing/feature pages; a scheduler comparison roundup. Distinct from the 'Make Social Videos with AI' workflow post. End with a chooser table by use case and a self-hosted option."
-    },
     {
       "translationKey": "employee-advocacy-b2b-2026",
       "category": "social-media",

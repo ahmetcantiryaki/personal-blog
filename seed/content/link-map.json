@@ -4428,6 +4428,66 @@
         "slug": "spot-ai-scams-deepfakes-2026",
         "title": "How to Spot AI Scams and Deepfakes in 2026"
       }
+    },
+    {
+      "translationKey": "claude-fable-5-1-cache-pricing-cut",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-fable-5-1-onbellek-fiyati-neden-dustu",
+        "title": "Claude Fable 5.1 Nedir? Önbellek Fiyatı Neden %75 Düştü?"
+      },
+      "en": {
+        "slug": "claude-fable-5-1-cache-pricing-cut-explained",
+        "title": "Claude Fable 5.1: Why Did Cache Pricing Drop 75%?"
+      }
+    },
+    {
+      "translationKey": "delete-data-broker-opt-out-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "veri-simsarlarindan-cikmak-gizlilik",
+        "title": "Veri Simsarlarından Nasıl Çıkılır?"
+      },
+      "en": {
+        "slug": "opt-out-data-brokers-privacy-2026",
+        "title": "How to Opt Out of Data Brokers"
+      }
+    },
+    {
+      "translationKey": "best-smart-rings-2026-guide",
+      "category": "technology",
+      "tr": {
+        "slug": "en-iyi-akilli-yuzukler-2026-rehberi",
+        "title": "2026 Akıllı Yüzükler: Hangisini Almalısın?"
+      },
+      "en": {
+        "slug": "best-smart-rings-2026-buying-guide",
+        "title": "Smart Rings in 2026: Which One Should You Buy?"
+      }
+    },
+    {
+      "translationKey": "land-first-ugc-brand-deal",
+      "category": "social-media",
+      "tr": {
+        "slug": "ilk-ugc-marka-anlasmasi-nasil-kapilir",
+        "title": "İlk UGC Marka Anlaşmanı Nasıl Kaparsın?"
+      },
+      "en": {
+        "slug": "land-first-ugc-brand-deal-2026",
+        "title": "Land Your First UGC Brand Deal in 2026"
+      }
+    },
+    {
+      "translationKey": "best-social-schedulers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "en-iyi-sosyal-medya-planlama-araclari-2026",
+        "title": "2026'nın En İyi Sosyal Medya Planlama Araçları"
+      },
+      "en": {
+        "slug": "best-social-media-schedulers-2026",
+        "title": "Best Social Media Schedulers Compared in 2026"
+      }
     }
   ]
 }
