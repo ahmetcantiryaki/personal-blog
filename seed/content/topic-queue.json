@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-03",
+  "updatedAt": "2026-09-04",
   "topics": [
-    {
-      "translationKey": "employee-advocacy-b2b-2026",
-      "category": "social-media",
-      "titleTr": "Ekibini B2B İçerik Motoruna Dönüştür",
-      "titleEn": "Turn Your Team Into a B2B Content Engine",
-      "slugTr": "calisan-savunuculugu-b2b-icerik",
-      "slugEn": "employee-advocacy-b2b-content-2026",
-      "keywordTr": "çalışan savunuculuğu",
-      "keywordEn": "employee advocacy b2b",
-      "angle": "guide + scale reach through employees, not just the brand page",
-      "style": "contrarian",
-      "brief": "Contrarian guide arguing personal profiles out-reach the brand page for B2B in 2026 (LinkedIn favors people and text posts over brand video). Sections: why employee advocacy beats corporate posting; making it voluntary and authentic, not scripted; a lightweight content-supply system (prompts, swipe files, review, not mandates); measuring reach and pipeline without vanity metrics; tools and pitfalls (over-automation, compliance, burnout). Verify LinkedIn engagement claims (e.g. the text-post and video-growth stats) against a cited 2026 social report. Sources: a 2026 social-media trends report; a B2B employee-advocacy case study. Distinct from 'Personal Brand on X for Founders' (individual) and 'Build Community' posts. End with a 30-day advocacy rollout plan."
-    },
-    {
-      "translationKey": "what-to-post-zero-audience",
-      "category": "social-media",
-      "titleTr": "Hiç Takipçin Yokken Ne Paylaşmalısın?",
-      "titleEn": "What to Post When You Have Zero Audience",
-      "slugTr": "hic-takipcin-yokken-ne-paylasmalisin",
-      "slugEn": "what-to-post-zero-audience-2026",
-      "keywordTr": "sıfırdan sosyal medya",
-      "keywordEn": "how to start social media from scratch",
-      "angle": "how-to + the cold-start content plan for a new account",
-      "style": "question-driven",
-      "brief": "Question-driven cold-start guide for the first 90 days of a brand-new account. Sections: why algorithms still surface good content without followers (interest signals over follower count); picking one platform and one narrow angle; a starter content menu (proof, teardown, how-to, hot take, behind-the-scenes); posting cadence you can sustain; using early replies/DMs to seed distribution; reading the first signals and iterating. Verify platform reach-for-new-accounts claims against a cited source; keep tactics evergreen across networks. Sources: a 2026 social trends report; a documented zero-to-audience case study. Distinct from 'Build Community, Not Followers' (philosophy) — this is specifically what to post. End with a first-2-weeks content calendar."
-    },
-    {
-      "translationKey": "gemini-omni-video-model",
-      "category": "ai",
-      "titleTr": "Gemini Omni 1.1: Google'ın Yeni Video Modeli",
-      "titleEn": "Gemini Omni 1.1: Google's New Video Model",
-      "slugTr": "gemini-omni-1-1-video-modeli-nedir",
-      "slugEn": "gemini-omni-1-1-video-model-explained",
-      "keywordTr": "gemini omni video modeli",
-      "keywordEn": "gemini omni video model",
-      "angle": "deep-dive + what the multimodal video model does and costs",
-      "style": "story-led",
-      "brief": "Story-led explainer on Gemini Omni 1.1 Flash, Google's Aug 2026 multimodal model tuned for fast video, image and text, with audio+video editing and 360p/720p/1080p/4K output (1080p and 4K via upscaling). Sections: what it is and how it differs from prior Veo/Imagen work; the resolution-control and editing features; realistic use cases (social clips, product shots) and current limits; access, pricing and where it runs; how it sits against Sora and rivals. Verify model name, resolution/upscaling details and availability against Google's release notes; don't overstate quality. Sources: Google Gemini release notes; a hands-on writeup. Distinct from the 'Sora vs Veo' comparison — this is a single-model deep-dive. End with who should try it now."
-    },
-    {
-      "translationKey": "claude-cowork-scheduled-tasks",
-      "category": "ai",
-      "titleTr": "Claude Zamanlanmış Görevlerle Otomasyon",
-      "titleEn": "Claude Scheduled Tasks: Automate Recurring Work",
-      "slugTr": "claude-zamanlanmis-gorevler-otomasyon",
-      "slugEn": "claude-scheduled-tasks-automate-recurring-work",
-      "keywordTr": "claude zamanlanmış görevler",
-      "keywordEn": "claude scheduled tasks",
-      "angle": "how-to + set up reliable recurring agent runs",
-      "style": "field-notes",
-      "brief": "Field-notes how-to on running recurring work with Claude's scheduled tasks (in Cowork/Claude Code environments). Sections: what a scheduled task is and where it fires; designing a good recurring prompt (idempotent, self-contained, clear success criteria); notifications so results reach you when you're away; guardrails (scope, permissions, cost) for autonomous runs; when to prefer a scheduled agent over a Zapier/Make flow; debugging silent failures. Verify the current scheduling, notification and permission model against Anthropic docs before publishing. Sources: Anthropic Claude Code/Cowork scheduling docs; a practitioner writeup. Distinct from the 'ChatGPT Pulse is gone: Scheduled Tasks' post (OpenAI). End with a template for a weekly digest task."
-    },
     {
       "translationKey": "rag-vs-long-context-2026",
       "category": "ai",

@@ -4488,6 +4488,66 @@
         "slug": "best-social-media-schedulers-2026",
         "title": "Best Social Media Schedulers Compared in 2026"
       }
+    },
+    {
+      "translationKey": "gpt-6-astra-launch-critical-cyber",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-astra-nedir",
+        "title": "GPT-6 Astra Nedir? OpenAI'ın İlk 'Critical' Seviye Modeli"
+      },
+      "en": {
+        "slug": "gpt-6-astra-explained",
+        "title": "What Is GPT-6 Astra? OpenAI's First 'Critical'-Rated Model"
+      }
+    },
+    {
+      "translationKey": "employee-advocacy-b2b-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "calisan-savunuculugu-b2b-icerik",
+        "title": "Kurumsal Sayfa Yerine Çalışan Savunuculuğu Neden Kazanıyor?"
+      },
+      "en": {
+        "slug": "employee-advocacy-b2b-content-2026",
+        "title": "Why Does Employee Advocacy Beat the Brand Page in B2B?"
+      }
+    },
+    {
+      "translationKey": "what-to-post-zero-audience",
+      "category": "social-media",
+      "tr": {
+        "slug": "hic-takipcin-yokken-ne-paylasmalisin",
+        "title": "Hiç Takipçin Yokken Ne Paylaşmalısın?"
+      },
+      "en": {
+        "slug": "what-to-post-zero-audience-2026",
+        "title": "What to Post When You Have Zero Audience"
+      }
+    },
+    {
+      "translationKey": "gemini-omni-video-model",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-omni-1-1-video-modeli-nedir",
+        "title": "Gemini Omni 1.1: Google'ın Yeni Video Modeli Nedir?"
+      },
+      "en": {
+        "slug": "gemini-omni-1-1-video-model-explained",
+        "title": "Gemini Omni 1.1: What Is Google's New Video Model?"
+      }
+    },
+    {
+      "translationKey": "claude-cowork-scheduled-tasks",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-zamanlanmis-gorevler-otomasyon",
+        "title": "Claude Zamanlanmış Görevlerle Otomasyon Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "claude-scheduled-tasks-automate-recurring-work",
+        "title": "Claude Scheduled Tasks: Automate Recurring Work"
+      }
     }
   ]
 }
