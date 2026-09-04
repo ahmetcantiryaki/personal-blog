@@ -2926,5 +2926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4188621,
     "generatedAt": "2026-09-03T06:48:14.509Z"
+  },
+  "en/claude-scheduled-tasks-automate-recurring-work": {
+    "hash": "9878972753679a74",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-scheduled-tasks-automate-recurring-work.mp3",
+    "seconds": 462,
+    "voice": "en_US-ryan-high",
+    "bytes": 3697101,
+    "generatedAt": "2026-09-04T06:48:25.111Z"
+  },
+  "en/employee-advocacy-b2b-content-2026": {
+    "hash": "f0e8eaeda61aabd0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-employee-advocacy-b2b-content-2026.mp3",
+    "seconds": 462,
+    "voice": "en_US-ryan-high",
+    "bytes": 3692295,
+    "generatedAt": "2026-09-04T06:51:12.070Z"
+  },
+  "en/gemini-omni-1-1-video-model-explained": {
+    "hash": "acc76f9943ba4d16",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-omni-1-1-video-model-explained.mp3",
+    "seconds": 491,
+    "voice": "en_US-ryan-high",
+    "bytes": 3925098,
+    "generatedAt": "2026-09-04T06:54:09.625Z"
+  },
+  "en/gpt-6-astra-explained": {
+    "hash": "9c52c01a505a2223",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-6-astra-explained.mp3",
+    "seconds": 495,
+    "voice": "en_US-ryan-high",
+    "bytes": 3962297,
+    "generatedAt": "2026-09-04T06:57:09.394Z"
+  },
+  "en/what-to-post-zero-audience-2026": {
+    "hash": "5aa464e161ce994d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-to-post-zero-audience-2026.mp3",
+    "seconds": 401,
+    "voice": "en_US-ryan-high",
+    "bytes": 3205790,
+    "generatedAt": "2026-09-04T06:59:33.378Z"
   }
 }
