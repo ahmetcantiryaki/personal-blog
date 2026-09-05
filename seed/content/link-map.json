@@ -4548,6 +4548,66 @@
         "slug": "claude-scheduled-tasks-automate-recurring-work",
         "title": "Claude Scheduled Tasks: Automate Recurring Work"
       }
+    },
+    {
+      "translationKey": "anthropic-enterprise-frontier-safeguards-efs",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-enterprise-frontier-safeguards-nedir",
+        "title": "Anthropic Enterprise Frontier Safeguards (EFS) Nedir?"
+      },
+      "en": {
+        "slug": "what-is-anthropic-enterprise-frontier-safeguards",
+        "title": "What Is Anthropic's Enterprise Frontier Safeguards (EFS)?"
+      }
+    },
+    {
+      "translationKey": "rag-vs-long-context-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "rag-mi-uzun-baglam-mi-2026",
+        "title": "RAG mı Uzun Bağlam mı: 2026'da Hangisi?"
+      },
+      "en": {
+        "slug": "rag-vs-long-context-2026",
+        "title": "RAG vs Long Context: Which Do You Need in 2026?"
+      }
+    },
+    {
+      "translationKey": "testing-ai-agents-before-production",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-ajanlari-produksiyon-oncesi-test",
+        "title": "AI Ajanları Prodüksiyon Öncesi Nasıl Test Edilir"
+      },
+      "en": {
+        "slug": "test-ai-agents-before-production",
+        "title": "How to Test AI Agents Before Production"
+      }
+    },
+    {
+      "translationKey": "kubernetes-gateway-api-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-gateway-api-ingress-otesi-2026",
+        "title": "Kubernetes Gateway API: Ingress'in Ötesi 2026"
+      },
+      "en": {
+        "slug": "kubernetes-gateway-api-beyond-ingress-2026",
+        "title": "Kubernetes Gateway API: Beyond Ingress in 2026"
+      }
+    },
+    {
+      "translationKey": "css-anchor-positioning-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-anchor-positioning-jssiz-popover",
+        "title": "CSS Anchor Positioning: JS'siz Popover ve İpucu"
+      },
+      "en": {
+        "slug": "css-anchor-positioning-popovers-2026",
+        "title": "CSS Anchor Positioning: Popovers Without JS"
+      }
     }
   ]
 }
