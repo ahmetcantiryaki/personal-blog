@@ -2966,5 +2966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3205790,
     "generatedAt": "2026-09-04T06:59:33.378Z"
+  },
+  "en/css-anchor-positioning-popovers-2026": {
+    "hash": "59eaa28e4e4fd76f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-css-anchor-positioning-popovers-2026.mp3",
+    "seconds": 403,
+    "voice": "en_US-ryan-high",
+    "bytes": 3225644,
+    "generatedAt": "2026-09-05T06:32:22.520Z"
+  },
+  "en/kubernetes-gateway-api-beyond-ingress-2026": {
+    "hash": "e0a19090f0918f7c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-gateway-api-beyond-ingress-2026.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3479554,
+    "generatedAt": "2026-09-05T06:33:36.090Z"
+  },
+  "en/rag-vs-long-context-2026": {
+    "hash": "7f902d96296aa3c6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rag-vs-long-context-2026.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3293353,
+    "generatedAt": "2026-09-05T06:34:40.001Z"
+  },
+  "en/test-ai-agents-before-production": {
+    "hash": "05047c7fb690501c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-test-ai-agents-before-production.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3352076,
+    "generatedAt": "2026-09-05T06:35:45.318Z"
+  },
+  "en/what-is-anthropic-enterprise-frontier-safeguards": {
+    "hash": "a659d4f28aadf8c9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-anthropic-enterprise-frontier-safeguards.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3316968,
+    "generatedAt": "2026-09-05T06:37:24.647Z"
   }
 }
