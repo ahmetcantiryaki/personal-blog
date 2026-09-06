@@ -4608,6 +4608,66 @@
         "slug": "css-anchor-positioning-popovers-2026",
         "title": "CSS Anchor Positioning: Popovers Without JS"
       }
+    },
+    {
+      "translationKey": "claude-code-managed-mcp-servers",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-mcp-sunucularini-nasil-yonetirsin",
+        "title": "Claude Code MCP Sunucularını Nasıl Yönetirsin?"
+      },
+      "en": {
+        "slug": "how-do-you-manage-mcp-servers-in-claude-code",
+        "title": "How Do You Manage MCP Servers in Claude Code?"
+      }
+    },
+    {
+      "translationKey": "claude-code-plugins-marketplace-guide",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-eklentileri-kur-paketle-paylas",
+        "title": "Claude Code Eklentileri: Kur, Paketle, Paylaş"
+      },
+      "en": {
+        "slug": "build-and-share-claude-code-plugins",
+        "title": "Build and Share Claude Code Plugins"
+      }
+    },
+    {
+      "translationKey": "build-commerce-agent-with-claude",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-ile-ticaret-ajani-kurmak",
+        "title": "Claude ile Ticaret Ajanı Kurmak"
+      },
+      "en": {
+        "slug": "build-a-commerce-agent-with-claude",
+        "title": "Build a Commerce Agent With Claude"
+      }
+    },
+    {
+      "translationKey": "which-gemini-model-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "hangi-gemini-modelini-secmelisin-2026",
+        "title": "Hangi Gemini Modelini Seçmelisin? 2026"
+      },
+      "en": {
+        "slug": "which-gemini-model-should-you-use-2026",
+        "title": "Which Gemini Model Should You Use in 2026?"
+      }
+    },
+    {
+      "translationKey": "ai-assistant-memory-privacy-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-asistanlari-seni-nasil-hatirliyor",
+        "title": "AI Asistanları Seni Nasıl Hatırlıyor?"
+      },
+      "en": {
+        "slug": "how-claude-chatgpt-gemini-remember-you",
+        "title": "How Claude, ChatGPT and Gemini Remember You"
+      }
     }
   ]
 }

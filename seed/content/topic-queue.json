@@ -2,58 +2,6 @@
   "updatedAt": "2026-09-06",
   "topics": [
     {
-      "translationKey": "claude-code-plugins-marketplace-guide",
-      "category": "ai",
-      "titleTr": "Claude Code Eklentileri: Kur, Paketle, Paylaş",
-      "titleEn": "Build and Share Claude Code Plugins",
-      "slugTr": "claude-code-eklentileri-kur-paketle-paylas",
-      "slugEn": "build-and-share-claude-code-plugins",
-      "keywordTr": "claude code eklenti marketplace",
-      "keywordEn": "claude code plugins marketplace",
-      "angle": "how-to|Package commands, agents, skills, hooks and MCP servers into one shareable plugin and publish a marketplace.",
-      "style": "field-notes",
-      "brief": "Sections: what a plugin bundles (commands, agents, skills, hooks, MCP/LSP servers) vs a lone skill in ~/.claude/skills; scaffolding plugin.json; testing locally; publishing a marketplace repo; installing via /plugin marketplace add. Verify: official marketplace crossed 200 plugins (shipped May 2026); MCP-tool hooks via type mcp_tool; the symlink path-escape security fix. Sources: https://code.claude.com/docs/en/plugin-marketplaces ; Claude Code changelog. Distinct from existing subagents and skills-on-GitHub posts by focusing on packaging + distribution."
-    },
-    {
-      "translationKey": "build-commerce-agent-with-claude",
-      "category": "ai",
-      "titleTr": "Claude ile Ticaret Ajanı Kurmak",
-      "titleEn": "Build a Commerce Agent With Claude",
-      "slugTr": "claude-ile-ticaret-ajani-kurmak",
-      "slugEn": "build-a-commerce-agent-with-claude",
-      "keywordTr": "claude ticaret ajani",
-      "keywordEn": "claude commerce agent",
-      "angle": "how-to|Wire Claude's agent tooling to a catalog, cart and checkout so it can recommend and transact safely.",
-      "style": "data-led",
-      "brief": "Sections: what Anthropic's Sept 2 2026 commerce-agent guidance enables; tool design for product search, cart, order status; keeping payments off the model (merchant-side checkout); guardrails against prompt injection and over-purchasing. Verify: commerce agents with Claude announced Sept 2026; ACP (Stripe/OpenAI) vs Google UCP context. Sources: Anthropic news; Agentic Commerce Protocol docs. Developer angle, distinct from consumer 'store ready for AI shoppers' post."
-    },
-    {
-      "translationKey": "which-gemini-model-2026",
-      "category": "ai",
-      "titleTr": "Hangi Gemini Modelini Seçmelisin? 2026",
-      "titleEn": "Which Gemini Model Should You Use in 2026?",
-      "slugTr": "hangi-gemini-modelini-secmelisin-2026",
-      "slugEn": "which-gemini-model-should-you-use-2026",
-      "keywordTr": "hangi gemini modeli 2026",
-      "keywordEn": "which gemini model 2026",
-      "angle": "comparison|Decision guide across Gemini 3.x Pro, 3.6 Flash, 3.5 Flash-Lite, Deep Think and Cyber by cost, speed and use case.",
-      "style": "question-driven",
-      "brief": "Sections: the current Gemini lineup and what each is for; speed/price tradeoffs; when Flash beats Pro; Deep Think for reasoning; Cyber for security tasks; a chooser table. Verify: Gemini 3.6 Flash, 3.5 Flash-Lite and Cyber arrivals; 3.5 Flash outperforming 3.1 Pro at 4x speed (I/O 2026); Deep Think positioning. Sources: https://blog.google/products/gemini/ ; Gemini API changelog. Mirrors the existing 'Which Claude Model' post for Gemini's family."
-    },
-    {
-      "translationKey": "ai-assistant-memory-privacy-2026",
-      "category": "ai",
-      "titleTr": "AI Asistanları Seni Nasıl Hatırlıyor?",
-      "titleEn": "How Claude, ChatGPT and Gemini Remember You",
-      "slugTr": "ai-asistanlari-seni-nasil-hatirliyor",
-      "slugEn": "how-claude-chatgpt-gemini-remember-you",
-      "keywordTr": "yapay zeka bellek gizlilik",
-      "keywordEn": "ai assistant memory privacy",
-      "angle": "deep-dive|Compare how each assistant's memory works, what it stores, and how to view, edit or turn it off.",
-      "style": "contrarian",
-      "brief": "Sections: persistent memory vs project/session context in ChatGPT, Claude, Gemini; what actually gets saved; cross-surface memory (Claude chat+Cowork unified); privacy controls and export/delete; when to keep memory off. Verify: Claude unified memory across chat and Cowork; ChatGPT memory + 'memory full' behavior; Gemini personalization/memory settings. Sources: vendor help centers. Contrarian take: memory convenience vs a growing invisible profile. Distinct from data-usage post by focusing on the memory feature specifically."
-    },
-    {
       "translationKey": "manage-ai-coding-session-context",
       "category": "software-engineering",
       "titleTr": "Uzun AI Kodlama Oturumunda Bağlamı Koru",
