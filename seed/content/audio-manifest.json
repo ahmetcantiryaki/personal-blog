@@ -3006,5 +3006,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3316968,
     "generatedAt": "2026-09-05T06:37:24.647Z"
+  },
+  "en/build-a-commerce-agent-with-claude": {
+    "hash": "a6b7776724ec91be",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-a-commerce-agent-with-claude.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3418950,
+    "generatedAt": "2026-09-06T06:36:37.633Z"
+  },
+  "en/build-and-share-claude-code-plugins": {
+    "hash": "865f4358b765dcf0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-and-share-claude-code-plugins.mp3",
+    "seconds": 401,
+    "voice": "en_US-ryan-high",
+    "bytes": 3209970,
+    "generatedAt": "2026-09-06T06:39:01.860Z"
+  },
+  "en/how-claude-chatgpt-gemini-remember-you": {
+    "hash": "b329fb01f603cde9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-claude-chatgpt-gemini-remember-you.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3183221,
+    "generatedAt": "2026-09-06T06:41:24.811Z"
+  },
+  "en/how-do-you-manage-mcp-servers-in-claude-code": {
+    "hash": "513bf7792eec8e13",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-do-you-manage-mcp-servers-in-claude-code.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3541203,
+    "generatedAt": "2026-09-06T06:44:04.403Z"
+  },
+  "en/which-gemini-model-should-you-use-2026": {
+    "hash": "d96c2021e02403e3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-which-gemini-model-should-you-use-2026.mp3",
+    "seconds": 455,
+    "voice": "en_US-ryan-high",
+    "bytes": 3637542,
+    "generatedAt": "2026-09-06T06:46:49.473Z"
   }
 }
