@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-06",
+  "updatedAt": "2026-09-07",
   "topics": [
-    {
-      "translationKey": "manage-ai-coding-session-context",
-      "category": "software-engineering",
-      "titleTr": "Uzun AI Kodlama Oturumunda Bağlamı Koru",
-      "titleEn": "Stop Losing Context in Long AI Coding Sessions",
-      "slugTr": "uzun-ai-kodlama-oturumunda-baglami-koru",
-      "slugEn": "stop-losing-context-ai-coding-sessions",
-      "keywordTr": "ai kodlama bağlam yönetimi",
-      "keywordEn": "ai coding context management",
-      "angle": "how-to|Practical tactics so an AI coding agent stops forgetting earlier instructions mid-session.",
-      "style": "field-notes",
-      "brief": "Sections: why long sessions drift (context window pressure, summarization); CLAUDE.md / rules files; compaction and /clear discipline; scoping work with subagents; committing checkpoints; when to start fresh. Verify: widely reported 'Claude feels lobotomized' / instructions evaporating in long sessions; context summarization behavior in Claude Code. Sources: r/ClaudeAI threads; Claude Code docs on memory/compaction. Tool-agnostic but grounded in Claude Code + Cursor workflows."
-    },
-    {
-      "translationKey": "agents-md-repo-setup-2026",
-      "category": "software-engineering",
-      "titleTr": "AGENTS.md: Repo'nu AI Ajanlarına Anlat",
-      "titleEn": "AGENTS.md: Make Your Repo Readable to AI Agents",
-      "slugTr": "agents-md-repo-ai-ajanlarina-anlat",
-      "slugEn": "agents-md-make-repo-readable-to-ai",
-      "keywordTr": "agents md dosyası",
-      "keywordEn": "agents.md file",
-      "angle": "guide|What to put in an AGENTS.md so coding agents follow your conventions, tests and guardrails.",
-      "style": "story-led",
-      "brief": "Sections: the AGENTS.md convention and how tools (Claude Code, Cursor, Copilot, Codex) read it; sections that pay off (build/test commands, code style, do-not-touch paths, review rules); keeping it short and current; pitfalls of stale instructions. Verify: AGENTS.md adoption across major agents in 2026; how CLAUDE.md relates. Sources: agents.md spec/community docs; tool docs. Story-led: open with a repo an agent kept breaking until the file existed."
-    },
-    {
-      "translationKey": "fix-flaky-tests-for-good",
-      "category": "software-engineering",
-      "titleTr": "Kırılgan Testleri Kalıcı Olarak Düzelt",
-      "titleEn": "How to Fix Flaky Tests for Good",
-      "slugTr": "kirilgan-testleri-kalici-duzelt",
-      "slugEn": "how-to-fix-flaky-tests-for-good",
-      "keywordTr": "kırılgan test flaky test",
-      "keywordEn": "fix flaky tests",
-      "angle": "mistakes|The real causes of flaky tests and a repeatable process to quarantine, diagnose and eliminate them.",
-      "style": "data-led",
-      "brief": "Sections: what makes a test flaky (async timing, shared state, order dependence, real clocks/networks, non-determinism); detection (retries, flake dashboards); the fix playbook; when to quarantine vs delete; measuring flake rate. Verify: common flake taxonomy and rerun costs; CI flake-tracking practices. Sources: Google testing blog; a CI vendor flaky-test report. Distinct from the general unit-testing post by targeting flakiness specifically."
-    },
-    {
-      "translationKey": "react-server-actions-forms-2026",
-      "category": "web-development",
-      "titleTr": "Server Actions: API Route'suz Formlar",
-      "titleEn": "Server Actions: Forms Without API Routes",
-      "slugTr": "server-actions-api-routesuz-formlar",
-      "slugEn": "server-actions-forms-without-api-routes",
-      "keywordTr": "react server actions form",
-      "keywordEn": "react server actions forms",
-      "angle": "how-to|Build mutations and forms with React Server Actions, with validation, pending UI and error handling.",
-      "style": "field-notes",
-      "brief": "Sections: what Server Actions replace (API routes, client fetch); a form end-to-end with useActionState and useFormStatus; progressive enhancement; server-side validation with Zod; revalidation and optimistic UI; security (never trust client input). Verify: Server Actions stable in React 19 / Next.js 15; useActionState/useFormStatus APIs. Sources: React 19 docs; Next.js docs. Distinct from existing RHF+Zod and RSC posts by centering the Actions mutation model."
-    },
     {
       "translationKey": "shadcn-registry-own-components-2026",
       "category": "web-development",

@@ -4668,6 +4668,66 @@
         "slug": "how-claude-chatgpt-gemini-remember-you",
         "title": "How Claude, ChatGPT and Gemini Remember You"
       }
+    },
+    {
+      "translationKey": "ant-apply-cli-claude-agents-as-code",
+      "category": "ai",
+      "tr": {
+        "slug": "ant-apply-nedir-claude-ajanlarini-koddan-yonet",
+        "title": "ant apply Nedir? Claude Ajanlarını Koddan Yönet"
+      },
+      "en": {
+        "slug": "what-is-ant-apply-claude-agents-as-code",
+        "title": "What Is ant apply? Manage Claude Agents as Code"
+      }
+    },
+    {
+      "translationKey": "manage-ai-coding-session-context",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "uzun-ai-kodlama-oturumunda-baglami-koru",
+        "title": "Uzun AI Kodlama Oturumunda Bağlamı Koru"
+      },
+      "en": {
+        "slug": "stop-losing-context-ai-coding-sessions",
+        "title": "Stop Losing Context in Long AI Coding Sessions"
+      }
+    },
+    {
+      "translationKey": "agents-md-repo-setup-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "agents-md-repo-ai-ajanlarina-anlat",
+        "title": "AGENTS.md: Repo'nu AI Ajanlarına Anlat"
+      },
+      "en": {
+        "slug": "agents-md-make-repo-readable-to-ai",
+        "title": "AGENTS.md: Make Your Repo Readable to AI Agents"
+      }
+    },
+    {
+      "translationKey": "fix-flaky-tests-for-good",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "kirilgan-testleri-kalici-duzelt",
+        "title": "Kırılgan Testleri Kalıcı Olarak Düzelt"
+      },
+      "en": {
+        "slug": "how-to-fix-flaky-tests-for-good",
+        "title": "How to Fix Flaky Tests for Good"
+      }
+    },
+    {
+      "translationKey": "react-server-actions-forms-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "server-actions-api-routesuz-formlar",
+        "title": "Server Actions: API Route'suz Formlar"
+      },
+      "en": {
+        "slug": "server-actions-forms-without-api-routes",
+        "title": "Server Actions: Forms Without API Routes"
+      }
     }
   ]
 }
