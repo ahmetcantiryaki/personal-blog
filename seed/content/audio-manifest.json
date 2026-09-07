@@ -3046,5 +3046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3637542,
     "generatedAt": "2026-09-06T06:46:49.473Z"
+  },
+  "en/agents-md-make-repo-readable-to-ai": {
+    "hash": "a25949c3acb04a4f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-agents-md-make-repo-readable-to-ai.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3054489,
+    "generatedAt": "2026-09-07T06:41:01.198Z"
+  },
+  "en/how-to-fix-flaky-tests-for-good": {
+    "hash": "aa69b9506c2e5c56",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-fix-flaky-tests-for-good.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3390737,
+    "generatedAt": "2026-09-07T06:43:36.196Z"
+  },
+  "en/server-actions-forms-without-api-routes": {
+    "hash": "bff602fd9056c994",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-server-actions-forms-without-api-routes.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3198685,
+    "generatedAt": "2026-09-07T06:46:01.962Z"
+  },
+  "en/stop-losing-context-ai-coding-sessions": {
+    "hash": "3d04c491d5473f85",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-stop-losing-context-ai-coding-sessions.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3298368,
+    "generatedAt": "2026-09-07T06:48:32.511Z"
+  },
+  "en/what-is-ant-apply-claude-agents-as-code": {
+    "hash": "2bfb1f0496ceee16",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-ant-apply-claude-agents-as-code.mp3",
+    "seconds": 402,
+    "voice": "en_US-ryan-high",
+    "bytes": 3218956,
+    "generatedAt": "2026-09-07T06:50:58.423Z"
   }
 }
