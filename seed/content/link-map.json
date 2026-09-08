@@ -4728,6 +4728,66 @@
         "slug": "server-actions-forms-without-api-routes",
         "title": "Server Actions: Forms Without API Routes"
       }
+    },
+    {
+      "translationKey": "gemini-3-8-flash-launch-2027-pricing",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-8-flash-nedir-fiyati-neden-artiyor",
+        "title": "Gemini 3.8 Flash Nedir? Fiyatı Neden Artıyor?"
+      },
+      "en": {
+        "slug": "gemini-3-8-flash-explained-why-price-rises-2027",
+        "title": "What Is Gemini 3.8 Flash? Why the Price Rises in 2027"
+      }
+    },
+    {
+      "translationKey": "shadcn-registry-own-components-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "shadcn-registry-bilesenlerine-sahip-ol",
+        "title": "shadcn Registry ile Bileşenlerine Sahip Ol"
+      },
+      "en": {
+        "slug": "own-your-components-shadcn-registry",
+        "title": "Own Your Components With the shadcn Registry"
+      }
+    },
+    {
+      "translationKey": "css-scroll-driven-animations-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-scroll-driven-animasyonlar",
+        "title": "CSS Scroll-Driven Animasyonlar: Pratik Rehber"
+      },
+      "en": {
+        "slug": "scroll-driven-animations-in-css",
+        "title": "Scroll-Driven Animations in CSS: A How-To"
+      }
+    },
+    {
+      "translationKey": "build-internal-developer-portal-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ic-gelistirici-portali-nasil-kurulur",
+        "title": "İç Geliştirici Portalı Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "how-to-build-internal-developer-portal",
+        "title": "How to Build an Internal Developer Portal"
+      }
+    },
+    {
+      "translationKey": "ai-agents-on-call-incident-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ai-ajanlari-nobeti-devralabilir-mi",
+        "title": "AI Ajanları Nöbeti Devralabilir mi?"
+      },
+      "en": {
+        "slug": "can-ai-agents-take-over-on-call",
+        "title": "Can AI Agents Take Over Your On-Call?"
+      }
     }
   ]
 }

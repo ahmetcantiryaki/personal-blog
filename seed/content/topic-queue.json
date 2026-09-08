@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-08",
   "topics": [
-    {
-      "translationKey": "shadcn-registry-own-components-2026",
-      "category": "web-development",
-      "titleTr": "shadcn Registry ile Bileşenlerine Sahip Ol",
-      "titleEn": "Own Your Components With the shadcn Registry",
-      "slugTr": "shadcn-registry-bilesenlerine-sahip-ol",
-      "slugEn": "own-your-components-shadcn-registry",
-      "keywordTr": "shadcn registry bileşen",
-      "keywordEn": "shadcn registry components",
-      "angle": "guide|Use the shadcn CLI and registry to own, theme and distribute your own component library.",
-      "style": "story-led",
-      "brief": "Sections: the copy-in (not dependency) philosophy; the CLI and components.json; building a private registry to share components across projects; theming with CSS variables; keeping components updated without a black-box package. Verify: shadcn registry/CLI capabilities in 2026; how registries distribute components. Sources: ui.shadcn.com docs. Story-led: a team that stopped fighting a UI library and shipped its own design system."
-    },
-    {
-      "translationKey": "css-scroll-driven-animations-2026",
-      "category": "web-development",
-      "titleTr": "CSS Scroll-Driven Animasyonlar: Pratik",
-      "titleEn": "Scroll-Driven Animations in CSS: A How-To",
-      "slugTr": "css-scroll-driven-animasyonlar",
-      "slugEn": "scroll-driven-animations-in-css",
-      "keywordTr": "css scroll animasyon",
-      "keywordEn": "css scroll-driven animations",
-      "angle": "how-to|Build scroll-linked and view-triggered animations in pure CSS with no JavaScript.",
-      "style": "question-driven",
-      "brief": "Sections: the model (animation-timeline with scroll() vs view() timelines); worked examples (a reading progress bar, reveal-on-scroll, subtle parallax); scoping with timeline-scope; browser support and progressive enhancement so no-support browsers still render; honoring prefers-reduced-motion; why these run off the main thread and beat scroll-listener JS on performance. Verify: baseline/support status of scroll-driven animations in 2026; exact scroll() and view() syntax and ranges. Sources: MDN scroll-driven animations guide; web.dev article. Distinct from existing View Transitions, :has() and container-queries posts by covering scroll timelines."
-    },
-    {
-      "translationKey": "build-internal-developer-portal-2026",
-      "category": "devops-cloud",
-      "titleTr": "İç Geliştirici Portalı Nasıl Kurulur",
-      "titleEn": "How to Build an Internal Developer Portal",
-      "slugTr": "ic-gelistirici-portali-nasil-kurulur",
-      "slugEn": "how-to-build-internal-developer-portal",
-      "keywordTr": "iç geliştirici portalı idp",
-      "keywordEn": "internal developer portal",
-      "angle": "guide|Stand up a self-service developer portal with a service catalog, golden paths and scorecards.",
-      "style": "field-notes",
-      "brief": "Sections: what an IDP solves (cognitive load, tribal knowledge); Backstage vs managed options (Port, Cortex); the service catalog and software templates; golden paths and scorecards; incremental rollout without a platform team of 20. Verify: Backstage plugin ecosystem status; IDP adoption trends 2026. Sources: Backstage docs; CNCF platform whitepaper. Distinct from the 'What Is Platform Engineering' deep-dive by being a build guide."
-    },
-    {
-      "translationKey": "ai-agents-on-call-incident-2026",
-      "category": "devops-cloud",
-      "titleTr": "AI Ajanları Nöbeti Devralabilir mi?",
-      "titleEn": "Can AI Agents Take Over Your On-Call?",
-      "slugTr": "ai-ajanlari-nobeti-devralabilir-mi",
-      "slugEn": "can-ai-agents-take-over-on-call",
-      "keywordTr": "ai nöbet olay müdahale",
-      "keywordEn": "ai agents on-call",
-      "angle": "deep-dive|Where AI agents genuinely help incident response today and where handing them the pager is dangerous.",
-      "style": "contrarian",
-      "brief": "Sections: triage, correlation and runbook drafting AI does well; auto-remediation risks (blast radius, bad rollbacks); human-in-the-loop gates; wiring agents to observability and paging safely; audit trails. Verify: current AIOps/agent-in-incident tooling claims; guardrail patterns from CI/CD agent posts. Sources: SRE/on-call vendor writeups; incident.io/PagerDuty AI features. Contrarian: the pager is the last place to remove the human. Distinct from small-team incident-response post."
-    },
     {
       "translationKey": "terraform-to-opentofu-migration-2026",
       "category": "devops-cloud",
