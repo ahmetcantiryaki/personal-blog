@@ -3086,5 +3086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3218956,
     "generatedAt": "2026-09-07T06:50:58.423Z"
+  },
+  "en/can-ai-agents-take-over-on-call": {
+    "hash": "d4ce6bbbaf5cbc5a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-can-ai-agents-take-over-on-call.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3278097,
+    "generatedAt": "2026-09-08T06:44:44.964Z"
+  },
+  "en/gemini-3-8-flash-explained-why-price-rises-2027": {
+    "hash": "4a1d22ba55b43539",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-3-8-flash-explained-why-price-rises-2027.mp3",
+    "seconds": 487,
+    "voice": "en_US-ryan-high",
+    "bytes": 3895423,
+    "generatedAt": "2026-09-08T06:47:30.286Z"
+  },
+  "en/how-to-build-internal-developer-portal": {
+    "hash": "dafb4b1832fb8720",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-build-internal-developer-portal.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3439639,
+    "generatedAt": "2026-09-08T06:49:55.970Z"
+  },
+  "en/own-your-components-shadcn-registry": {
+    "hash": "35c0c053d089c954",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-own-your-components-shadcn-registry.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3517588,
+    "generatedAt": "2026-09-08T06:52:24.734Z"
+  },
+  "en/scroll-driven-animations-in-css": {
+    "hash": "fa6b2076539eb4be",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-scroll-driven-animations-in-css.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3420204,
+    "generatedAt": "2026-09-08T06:54:50.224Z"
   }
 }
