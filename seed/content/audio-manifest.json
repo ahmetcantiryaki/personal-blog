@@ -3126,5 +3126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3420204,
     "generatedAt": "2026-09-08T06:54:50.224Z"
+  },
+  "en/claude-code-skill-doctor-command-explained": {
+    "hash": "1d35ed3542ffc9fc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-skill-doctor-command-explained.mp3",
+    "seconds": 392,
+    "voice": "en_US-ryan-high",
+    "bytes": 3134737,
+    "generatedAt": "2026-09-09T06:41:23.104Z"
+  },
+  "en/first-90-days-at-a-new-dev-job": {
+    "hash": "91a821b8576a6e88",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-90-days-at-a-new-dev-job.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3167129,
+    "generatedAt": "2026-09-09T06:43:48.604Z"
+  },
+  "en/notification-detox-reclaim-your-focus": {
+    "hash": "db479393b26a2b31",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-notification-detox-reclaim-your-focus.mp3",
+    "seconds": 378,
+    "voice": "en_US-ryan-high",
+    "bytes": 3020844,
+    "generatedAt": "2026-09-09T06:46:06.679Z"
+  },
+  "en/practice-interviews-with-ai-mock-sessions": {
+    "hash": "364b50e82be98db7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-practice-interviews-with-ai-mock-sessions.mp3",
+    "seconds": 345,
+    "voice": "en_US-ryan-high",
+    "bytes": 2759410,
+    "generatedAt": "2026-09-09T06:48:11.761Z"
+  },
+  "en/terraform-to-opentofu-should-you-switch": {
+    "hash": "06a7dd1c7fb00f72",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-terraform-to-opentofu-should-you-switch.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3180504,
+    "generatedAt": "2026-09-09T06:50:37.352Z"
   }
 }
