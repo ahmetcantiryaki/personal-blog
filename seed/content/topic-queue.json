@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-09",
   "topics": [
-    {
-      "translationKey": "terraform-to-opentofu-migration-2026",
-      "category": "devops-cloud",
-      "titleTr": "Terraform'dan OpenTofu'ya Geçmeli mi?",
-      "titleEn": "Terraform to OpenTofu: Should You Switch?",
-      "slugTr": "terraformdan-opentofuya-gecmeli-mi",
-      "slugEn": "terraform-to-opentofu-should-you-switch",
-      "keywordTr": "opentofu terraform geçiş",
-      "keywordEn": "opentofu vs terraform migration",
-      "angle": "comparison|Weigh the licensing, features and migration cost of moving from Terraform to OpenTofu.",
-      "style": "question-driven",
-      "brief": "Sections: why OpenTofu forked (BSL license change); feature parity and OpenTofu-only features (state encryption, early variable eval); migration steps and gotchas; when staying on Terraform is fine. Verify: OpenTofu governance under Linux Foundation; state-encryption feature; current version parity in 2026. Sources: opentofu.org docs; HashiCorp license FAQ. Distinct from 'Terraform vs Pulumi' by focusing on the fork/migration decision."
-    },
-    {
-      "translationKey": "ai-mock-interview-prep-2026",
-      "category": "career-productivity",
-      "titleTr": "AI ile Mülakat Provası Nasıl Yapılır",
-      "titleEn": "Practice Interviews With AI Mock Sessions",
-      "slugTr": "ai-ile-mulakat-provasi-nasil-yapilir",
-      "slugEn": "practice-interviews-with-ai-mock-sessions",
-      "keywordTr": "ai mülakat provası",
-      "keywordEn": "ai mock interview practice",
-      "angle": "how-to|Run realistic behavioral and technical mock interviews with an AI, and get useful feedback.",
-      "style": "story-led",
-      "brief": "Sections: setting up a mock-interview prompt/persona; behavioral (STAR) drills; system-design and coding walk-throughs with voice mode; getting specific feedback vs flattery; avoiding over-scripted answers. Verify: voice-mode capabilities of ChatGPT/Gemini/Claude for live practice; STAR method. Sources: assistant voice-mode docs; interview-prep guides. Story-led: a candidate who fixed rambling answers in a week. Distinct from the 30-day prep and system-design-interview posts."
-    },
-    {
-      "translationKey": "notification-detox-focus-2026",
-      "category": "career-productivity",
-      "titleTr": "Bildirim Detoksu: Odağı Geri Kazan",
-      "titleEn": "A Notification Detox to Reclaim Your Focus",
-      "slugTr": "bildirim-detoksu-odagi-geri-kazan",
-      "slugEn": "notification-detox-reclaim-your-focus",
-      "keywordTr": "bildirim detoksu odak",
-      "keywordEn": "notification detox focus",
-      "angle": "how-to|A step-by-step system to cut interruptions and rebuild deep-focus blocks.",
-      "style": "contrarian",
-      "brief": "Sections: the true cost of a ping (attention residue, recovery time); auditing notifications; tiered channels and Do Not Disturb schedules; batching Slack/email; focus modes across phone and desktop; measuring reclaimed time. Verify: attention-residue and task-switching cost research; focus-mode features on iOS/Android/desktop. Sources: Gloria Mark / Sophie Leroy research summaries. Contrarian: productivity apps aren't the fix, fewer inputs are. Distinct from time-management and procrastination posts."
-    },
-    {
-      "translationKey": "first-90-days-new-dev-job",
-      "category": "career-productivity",
-      "titleTr": "Yeni İşte İlk 90 Gün: Yazılımcı Planı",
-      "titleEn": "Your First 90 Days at a New Dev Job",
-      "slugTr": "yeni-iste-ilk-90-gun-yazilimci-plani",
-      "slugEn": "first-90-days-at-a-new-dev-job",
-      "keywordTr": "yeni işte ilk 90 gün",
-      "keywordEn": "first 90 days new job developer",
-      "angle": "checklist|A 30/60/90 plan to ramp, ship early wins and build trust as a new engineer.",
-      "style": "data-led",
-      "brief": "Sections: week-one setup and reading the codebase; a small first PR by day 5; mapping the org and stakeholders; 30/60/90 goals; asking questions without over-relying on teammates; using AI to onboard on an unfamiliar codebase safely. Verify: onboarding ramp benchmarks; first-PR-by-week-one norms. Sources: engineering onboarding guides; DX/DevEx research. Distinct from 'IC to Tech Lead first 90 days' which is about a promotion."
-    },
     {
       "translationKey": "linkedin-ai-ghostwriting-2026",
       "category": "social-media",

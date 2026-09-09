@@ -4788,6 +4788,66 @@
         "slug": "can-ai-agents-take-over-on-call",
         "title": "Can AI Agents Take Over Your On-Call?"
       }
+    },
+    {
+      "translationKey": "claude-code-skill-doctor-plugin-dir-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-skill-doctor-komutu-nedir",
+        "title": "Claude Code'un /skill-doctor Komutu Ne İşe Yarar?"
+      },
+      "en": {
+        "slug": "claude-code-skill-doctor-command-explained",
+        "title": "What Does Claude Code's /skill-doctor Command Do?"
+      }
+    },
+    {
+      "translationKey": "terraform-to-opentofu-migration-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "terraformdan-opentofuya-gecmeli-mi",
+        "title": "Terraform'dan OpenTofu'ya Geçmeli mi?"
+      },
+      "en": {
+        "slug": "terraform-to-opentofu-should-you-switch",
+        "title": "Terraform to OpenTofu: Should You Switch?"
+      }
+    },
+    {
+      "translationKey": "ai-mock-interview-prep-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-mulakat-provasi-nasil-yapilir",
+        "title": "AI ile Mülakat Provası Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "practice-interviews-with-ai-mock-sessions",
+        "title": "Practice Interviews With AI Mock Sessions"
+      }
+    },
+    {
+      "translationKey": "notification-detox-focus-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "bildirim-detoksu-odagi-geri-kazan",
+        "title": "Bildirim Detoksu: Odağı Geri Kazan"
+      },
+      "en": {
+        "slug": "notification-detox-reclaim-your-focus",
+        "title": "A Notification Detox to Reclaim Your Focus"
+      }
+    },
+    {
+      "translationKey": "first-90-days-new-dev-job",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yeni-iste-ilk-90-gun-yazilimci-plani",
+        "title": "Yeni İşte İlk 90 Gün: Yazılımcı Planı"
+      },
+      "en": {
+        "slug": "first-90-days-at-a-new-dev-job",
+        "title": "Your First 90 Days at a New Dev Job"
+      }
     }
   ]
 }
