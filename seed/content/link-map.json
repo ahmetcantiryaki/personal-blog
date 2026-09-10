@@ -4848,6 +4848,66 @@
         "slug": "first-90-days-at-a-new-dev-job",
         "title": "Your First 90 Days at a New Dev Job"
       }
+    },
+    {
+      "translationKey": "gpt-6-astra-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-astra-nedir",
+        "title": "GPT-6 Astra Nedir? Fiyat, Bağlam ve Siber Riski"
+      },
+      "en": {
+        "slug": "what-is-gpt-6-astra",
+        "title": "What Is GPT-6 Astra? Pricing, Context, Cyber Risk"
+      }
+    },
+    {
+      "translationKey": "linkedin-ai-ghostwriting-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "linkedini-ai-ile-yaz-sesini-koru",
+        "title": "LinkedIn'i AI ile Yaz, Sesini Koru"
+      },
+      "en": {
+        "slug": "ghostwrite-linkedin-with-ai-your-voice",
+        "title": "Ghostwrite LinkedIn With AI in Your Voice"
+      }
+    },
+    {
+      "translationKey": "ai-image-tools-social-graphics-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "ai-ile-sosyal-medya-gorselleri-uret",
+        "title": "AI ile Sosyal Medya Görselleri Üret"
+      },
+      "en": {
+        "slug": "make-social-graphics-with-ai-image-tools",
+        "title": "Make Social Graphics With AI Image Tools"
+      }
+    },
+    {
+      "translationKey": "instagram-carousels-saves-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "kaydedilen-instagram-carousel",
+        "title": "Kaydedilen Instagram Carousel'i Nasıl Yaparsın?"
+      },
+      "en": {
+        "slug": "instagram-carousels-people-save",
+        "title": "Instagram Carousels People Actually Save"
+      }
+    },
+    {
+      "translationKey": "repurpose-video-to-shorts-ai-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "uzun-videoyu-ai-ile-shortsa-bol",
+        "title": "Uzun Videoyu AI ile Shorts'a Böl"
+      },
+      "en": {
+        "slug": "turn-long-videos-into-shorts-with-ai",
+        "title": "Turn Long Videos Into Shorts With AI"
+      }
     }
   ]
 }

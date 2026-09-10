@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "topics": [
-    {
-      "translationKey": "linkedin-ai-ghostwriting-2026",
-      "category": "social-media",
-      "titleTr": "LinkedIn'i AI ile Yaz, Sesini Koru",
-      "titleEn": "Ghostwrite LinkedIn With AI in Your Voice",
-      "slugTr": "linkedini-ai-ile-yaz-sesini-koru",
-      "slugEn": "ghostwrite-linkedin-with-ai-your-voice",
-      "keywordTr": "linkedin ai içerik üretme",
-      "keywordEn": "linkedin ai ghostwriting",
-      "angle": "how-to|Train an AI on your voice to draft LinkedIn posts while you keep strategy and editing.",
-      "style": "field-notes",
-      "brief": "Sections: building a voice profile from your best posts; an idea-to-draft pipeline; the human layer (strategy, hooks, editing) that keeps it from sounding generic; a weekly posting cadence; measuring dwell time and comments. Verify: LinkedIn 2026 features (GIFs in comments, AI event highlights); voice-training tool landscape (Oiti, Postiv). Sources: LinkedIn newsroom; ghostwriting-tool comparisons. Distinct from the X personal-brand and 'Claude for social media' posts by being LinkedIn-specific."
-    },
-    {
-      "translationKey": "ai-image-tools-social-graphics-2026",
-      "category": "social-media",
-      "titleTr": "AI ile Sosyal Medya Görselleri Üret",
-      "titleEn": "Make Social Graphics With AI Image Tools",
-      "slugTr": "ai-ile-sosyal-medya-gorselleri-uret",
-      "slugEn": "make-social-graphics-with-ai-image-tools",
-      "keywordTr": "ai sosyal medya görsel",
-      "keywordEn": "ai social media graphics",
-      "angle": "how-to|A workflow for on-brand carousels, thumbnails and quote cards using AI image tools.",
-      "style": "story-led",
-      "brief": "Sections: picking a tool (Gemini image / Nano Banana, ChatGPT images, dedicated design AI); prompting for consistent brand style; editing text-in-image reliably; templates for carousels and thumbnails; batching a week of graphics; licensing and disclosure. Verify: Gemini and ChatGPT image-generation capabilities and text rendering in 2026. Sources: vendor product pages; creator workflow writeups. Distinct from 'Best AI Image Generators' ranking by being a social-graphics workflow."
-    },
-    {
-      "translationKey": "instagram-carousels-saves-2026",
-      "category": "social-media",
-      "titleTr": "Kaydedilen Instagram Carousel'leri",
-      "titleEn": "Instagram Carousels People Actually Save",
-      "slugTr": "kaydedilen-instagram-carousel",
-      "slugEn": "instagram-carousels-people-save",
-      "keywordTr": "instagram carousel stratejisi",
-      "keywordEn": "instagram carousel strategy",
-      "angle": "how-to|Design carousel posts engineered for saves and shares, the signals that drive reach in 2026.",
-      "style": "data-led",
-      "brief": "Sections: why saves/shares beat likes for reach; the cover-slide hook; swipe-completion design; one idea per slide and a strong CTA; text legibility on mobile; posting and repurposing. Verify: Instagram 2026 ranking signals favoring saves/sends; ability to swap in-app audio post-publish; comment/save weighting. Sources: Instagram creator resources; a 2026 social-trends report (Sprout/Hootsuite). Distinct from the Instagram-algorithm overview post by being carousel-specific."
-    },
-    {
-      "translationKey": "repurpose-video-to-shorts-ai-2026",
-      "category": "social-media",
-      "titleTr": "Uzun Videoyu AI ile Shorts'a Böl",
-      "titleEn": "Turn Long Videos Into Shorts With AI",
-      "slugTr": "uzun-videoyu-ai-ile-shortsa-bol",
-      "slugEn": "turn-long-videos-into-shorts-with-ai",
-      "keywordTr": "video shorts ai düzenleme",
-      "keywordEn": "repurpose video to shorts ai",
-      "angle": "how-to|An AI pipeline to slice one long video into a week of Shorts, Reels and TikToks.",
-      "style": "question-driven",
-      "brief": "Sections: auto-detecting highlight moments; captioning and reframing to vertical; hook-first re-editing; platform-specific export (Shorts/Reels/TikTok); a repeatable weekly batch; where AI clipping still needs a human eye. Verify: AI clipping tool capabilities (Opus/Clip tools) and caption accuracy in 2026; vertical reframing. Sources: clipping-tool docs; creator case studies. Distinct from 'blog post into 20 assets' and 'make social videos with AI' by focusing on long-form-to-shorts repurposing."
-    },
     {
       "translationKey": "ai-email-marketing-workflow-2026",
       "category": "digital-marketing",
