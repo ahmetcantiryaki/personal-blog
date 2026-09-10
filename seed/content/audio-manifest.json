@@ -3166,5 +3166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3180504,
     "generatedAt": "2026-09-09T06:50:37.352Z"
+  },
+  "en/ghostwrite-linkedin-with-ai-your-voice": {
+    "hash": "c31b61852dbf622a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ghostwrite-linkedin-with-ai-your-voice.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3466597,
+    "generatedAt": "2026-09-10T06:41:47.267Z"
+  },
+  "en/instagram-carousels-people-save": {
+    "hash": "f97a55540a841c88",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-instagram-carousels-people-save.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3307773,
+    "generatedAt": "2026-09-10T06:44:06.986Z"
+  },
+  "en/make-social-graphics-with-ai-image-tools": {
+    "hash": "fdb2c2bd6acc1457",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-make-social-graphics-with-ai-image-tools.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3523439,
+    "generatedAt": "2026-09-10T06:46:36.947Z"
+  },
+  "en/turn-long-videos-into-shorts-with-ai": {
+    "hash": "1166807f9a3ec6e6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-turn-long-videos-into-shorts-with-ai.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3544546,
+    "generatedAt": "2026-09-10T06:49:07.646Z"
+  },
+  "en/what-is-gpt-6-astra": {
+    "hash": "93c572cad5f66614",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-gpt-6-astra.mp3",
+    "seconds": 445,
+    "voice": "en_US-ryan-high",
+    "bytes": 3559802,
+    "generatedAt": "2026-09-10T06:51:38.734Z"
   }
 }
