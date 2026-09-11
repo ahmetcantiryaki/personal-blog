@@ -3206,5 +3206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3559802,
     "generatedAt": "2026-09-10T06:51:38.734Z"
+  },
+  "en/claude-fourth-unauthorized-access-incident": {
+    "hash": "cb6c7bf29bddcd00",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-fourth-unauthorized-access-incident.mp3",
+    "seconds": 536,
+    "voice": "en_US-ryan-high",
+    "bytes": 4291230,
+    "generatedAt": "2026-09-11T06:33:18.586Z"
+  },
+  "en/email-marketing-with-chatgpt-and-gemini": {
+    "hash": "bf4e62c1d833c991",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-email-marketing-with-chatgpt-and-gemini.mp3",
+    "seconds": 502,
+    "voice": "en_US-ryan-high",
+    "bytes": 4019557,
+    "generatedAt": "2026-09-11T06:36:10.430Z"
+  },
+  "en/scale-ai-content-without-google-penalty": {
+    "hash": "3ff310650efda027",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-scale-ai-content-without-google-penalty.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3747466,
+    "generatedAt": "2026-09-11T06:38:48.560Z"
+  },
+  "en/should-ai-agent-run-your-ads": {
+    "hash": "2821ac70910c0306",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-should-ai-agent-run-your-ads.mp3",
+    "seconds": 472,
+    "voice": "en_US-ryan-high",
+    "bytes": 3778186,
+    "generatedAt": "2026-09-11T06:41:29.844Z"
+  },
+  "en/why-reddit-ranks-how-to-show-up": {
+    "hash": "42dc31bc5c2191f5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-reddit-ranks-how-to-show-up.mp3",
+    "seconds": 550,
+    "voice": "en_US-ryan-high",
+    "bytes": 4399482,
+    "generatedAt": "2026-09-11T06:44:38.780Z"
   }
 }
