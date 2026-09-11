@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-10",
+  "updatedAt": "2026-09-11",
   "topics": [
-    {
-      "translationKey": "ai-email-marketing-workflow-2026",
-      "category": "digital-marketing",
-      "titleTr": "AI ile E-posta Pazarlama İş Akışı",
-      "titleEn": "Run Email Marketing With ChatGPT and Gemini",
-      "slugTr": "ai-ile-e-posta-pazarlama-is-akisi",
-      "slugEn": "email-marketing-with-chatgpt-and-gemini",
-      "keywordTr": "ai e-posta pazarlama",
-      "keywordEn": "ai email marketing workflow",
-      "angle": "how-to|Use AI for subject lines, segmentation, sequences and analysis without sounding robotic.",
-      "style": "field-notes",
-      "brief": "Sections: drafting campaigns and welcome/nurture flows; subject-line and preview-text variants for A/B tests; segmentation and personalization prompts; summarizing campaign analytics; keeping deliverability and voice intact. Verify: subject-line A/B best practices; deliverability basics that AI volume can hurt. Sources: ESP guides (Mailchimp/Beehiiv); the existing deliverability checklist as an internal cross-link. Distinct from Zapier/Make automation and content-marketing posts by centering the email channel."
-    },
-    {
-      "translationKey": "reddit-seo-visibility-2026",
-      "category": "digital-marketing",
-      "titleTr": "Reddit Neden Sıralanıyor ve Nasıl Görünürsün",
-      "titleEn": "Why Reddit Ranks and How to Show Up",
-      "slugTr": "reddit-neden-siralaniyor-nasil-gorunursun",
-      "slugEn": "why-reddit-ranks-how-to-show-up",
-      "keywordTr": "reddit seo görünürlük",
-      "keywordEn": "reddit seo visibility",
-      "angle": "deep-dive|Why Reddit dominates Google and AI answers now, and how brands earn visibility without spam.",
-      "style": "contrarian",
-      "brief": "Sections: why Reddit surged in Google + AI Overviews (content-licensing deal, trust signals); how LLMs cite Reddit; earning genuine mentions vs astroturfing risks; monitoring branded subreddit conversations; contributing value. Verify: Google-Reddit licensing deal and Reddit's ranking surge; Reddit appearing in AI Overviews/ChatGPT citations. Sources: SEO analyses of Reddit visibility; emarketer/GEO coverage. Distinct from the 'Reddit marketing without backlash' post by focusing on search/AI visibility."
-    },
-    {
-      "translationKey": "ai-agents-run-your-ads-2026",
-      "category": "digital-marketing",
-      "titleTr": "Reklamlarını Bir AI Ajanına Bırakır mısın?",
-      "titleEn": "Should You Let an AI Agent Run Your Ads?",
-      "slugTr": "reklamlarini-ai-ajanina-birakir-misin",
-      "slugEn": "should-ai-agent-run-your-ads",
-      "keywordTr": "ai reklam yönetimi ajan",
-      "keywordEn": "ai agent run ads",
-      "angle": "deep-dive|Where AI ad agents (PMax, Advantage+) create value and where they quietly burn budget.",
-      "style": "question-driven",
-      "brief": "Sections: what Google Performance Max and Meta Advantage+ automate; the black-box tradeoff (control vs efficiency); guardrails (exclusions, budget caps, creative inputs, first-party data); measuring incrementality vs attributed conversions; when a human should override. Verify: PMax and Advantage+ 2026 capabilities; incrementality-testing guidance. Sources: Google Ads and Meta docs; independent PPC analyses. Distinct from 'Google Ads vs Meta Ads small budget' by focusing on AI-automation control."
-    },
-    {
-      "translationKey": "scale-ai-content-without-penalty-2026",
-      "category": "digital-marketing",
-      "titleTr": "AI İçeriğini Ceza Yemeden Ölçekle",
-      "titleEn": "Scale AI Content Without a Google Penalty",
-      "slugTr": "ai-icerigini-ceza-yemeden-olcekle",
-      "slugEn": "scale-ai-content-without-google-penalty",
-      "keywordTr": "ai içerik google cezası",
-      "keywordEn": "scale ai content google penalty",
-      "angle": "mistakes|The mistakes that get AI-scaled content demoted, and how to publish at volume safely.",
-      "style": "data-led",
-      "brief": "Sections: Google's stance (scaled-content abuse vs helpful content, not 'AI = bad'); mistakes (thin duplicates, no editing, faked expertise, no first-hand value); the safe pipeline (human editing, original data, E-E-A-T signals, internal links); QA before publishing. Verify: Google scaled-content-abuse policy and March 2024+ core-update guidance still in force 2026; helpful-content signals. Sources: Google Search Central documentation. Distinct from programmatic-SEO and AI-content-marketing posts by focusing on penalty risk."
-    },
     {
       "translationKey": "iphone-18-vs-pixel-11-2026",
       "category": "technology",

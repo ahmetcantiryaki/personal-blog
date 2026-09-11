@@ -4908,6 +4908,66 @@
         "slug": "turn-long-videos-into-shorts-with-ai",
         "title": "Turn Long Videos Into Shorts With AI"
       }
+    },
+    {
+      "translationKey": "claude-fourth-cybersecurity-incident-metr-audit",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-dorduncu-yetkisiz-erisim-vakasi",
+        "title": "Claude'un Dördüncü Yetkisiz Erişim Vakası Nedir?"
+      },
+      "en": {
+        "slug": "claude-fourth-unauthorized-access-incident",
+        "title": "The Fourth Claude Cybersecurity Incident, Explained"
+      }
+    },
+    {
+      "translationKey": "ai-email-marketing-workflow-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-ile-e-posta-pazarlama-is-akisi",
+        "title": "ChatGPT ve Gemini ile E-posta Pazarlaması Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "email-marketing-with-chatgpt-and-gemini",
+        "title": "How to Run Email Marketing With ChatGPT and Gemini"
+      }
+    },
+    {
+      "translationKey": "reddit-seo-visibility-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "reddit-neden-siralaniyor-nasil-gorunursun",
+        "title": "Reddit Google'da Neden Bu Kadar Öne Çıkıyor?"
+      },
+      "en": {
+        "slug": "why-reddit-ranks-how-to-show-up",
+        "title": "Why Does Reddit Rank So High on Google Now?"
+      }
+    },
+    {
+      "translationKey": "ai-agents-run-your-ads-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "reklamlarini-ai-ajanina-birakir-misin",
+        "title": "Reklamlarını AI Ajanına Bırakır Mısın?"
+      },
+      "en": {
+        "slug": "should-ai-agent-run-your-ads",
+        "title": "Should an AI Agent Run Your Ads?"
+      }
+    },
+    {
+      "translationKey": "scale-ai-content-without-penalty-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "ai-icerigini-ceza-yemeden-olcekle",
+        "title": "AI İçeriğini Ölçeklemek Google Cezası Getirir mi?"
+      },
+      "en": {
+        "slug": "scale-ai-content-without-google-penalty",
+        "title": "Does Scaling AI Content Get You Penalized by Google?"
+      }
     }
   ]
 }
