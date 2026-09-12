@@ -3246,5 +3246,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4399482,
     "generatedAt": "2026-09-11T06:44:38.780Z"
+  },
+  "en/anthropic-2026-threat-intelligence-report": {
+    "hash": "ba7bd057c78089fa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-2026-threat-intelligence-report.mp3",
+    "seconds": 452,
+    "voice": "en_US-ryan-high",
+    "bytes": 3613092,
+    "generatedAt": "2026-09-12T06:28:54.268Z"
+  },
+  "en/iphone-18-pro-vs-pixel-11": {
+    "hash": "a9b0a8d17d5d372e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-iphone-18-pro-vs-pixel-11.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3395544,
+    "generatedAt": "2026-09-12T06:31:30.414Z"
+  },
+  "en/keep-startup-ai-costs-under-control": {
+    "hash": "5875da0b01582342",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-keep-startup-ai-costs-under-control.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3202029,
+    "generatedAt": "2026-09-12T06:33:56.504Z"
+  },
+  "en/when-your-ai-agent-pays-agentic-commerce": {
+    "hash": "35986b0204ada11d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-when-your-ai-agent-pays-agentic-commerce.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3171936,
+    "generatedAt": "2026-09-12T06:36:21.495Z"
+  },
+  "en/windows-recall-copilot-privacy-cost": {
+    "hash": "faf8bcff942040c5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-windows-recall-copilot-privacy-cost.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3466388,
+    "generatedAt": "2026-09-12T06:38:59.238Z"
   }
 }
