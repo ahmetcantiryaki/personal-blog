@@ -4968,6 +4968,66 @@
         "slug": "scale-ai-content-without-google-penalty",
         "title": "Does Scaling AI Content Get You Penalized by Google?"
       }
+    },
+    {
+      "translationKey": "anthropic-threat-intelligence-report-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropicin-2026-tehdit-raporunda-neler-var",
+        "title": "Anthropic'in 2026 Tehdit Raporunda Neler Var?"
+      },
+      "en": {
+        "slug": "anthropic-2026-threat-intelligence-report",
+        "title": "What's in Anthropic's 2026 Threat Report?"
+      }
+    },
+    {
+      "translationKey": "iphone-18-vs-pixel-11-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "iphone-18-pro-mu-pixel-11-mi-2026",
+        "title": "iPhone 18 Pro mu Pixel 11 mi? 2026 Rehberi"
+      },
+      "en": {
+        "slug": "iphone-18-pro-vs-pixel-11",
+        "title": "iPhone 18 Pro vs Pixel 11: Which to Buy"
+      }
+    },
+    {
+      "translationKey": "windows-recall-copilot-privacy-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "windows-recall-copilot-gizlilik-bedeli",
+        "title": "Windows Recall ve Copilot: Gizlilik Bedeli Ne?"
+      },
+      "en": {
+        "slug": "windows-recall-copilot-privacy-cost",
+        "title": "Windows Recall and Copilot: The Privacy Cost"
+      }
+    },
+    {
+      "translationKey": "agentic-payments-explained-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-ajanin-odeme-yapinca-agentic-ticaret",
+        "title": "AI Ajanın Ödeme Yapınca: Agentic Ticaret Nedir?"
+      },
+      "en": {
+        "slug": "when-your-ai-agent-pays-agentic-commerce",
+        "title": "When Your AI Agent Pays: Agentic Commerce"
+      }
+    },
+    {
+      "translationKey": "manage-ai-costs-startup-2026",
+      "category": "business",
+      "tr": {
+        "slug": "girisimde-ai-maliyetini-kontrol-et",
+        "title": "Girişimde AI Maliyetini Kontrol Etme Rehberi"
+      },
+      "en": {
+        "slug": "keep-startup-ai-costs-under-control",
+        "title": "Keep Your Startup's AI Costs Under Control"
+      }
     }
   ]
 }

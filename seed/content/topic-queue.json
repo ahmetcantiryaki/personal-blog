@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-11",
+  "updatedAt": "2026-09-12",
   "topics": [
-    {
-      "translationKey": "iphone-18-vs-pixel-11-2026",
-      "category": "technology",
-      "titleTr": "iPhone 18 Pro mu Pixel 11 mi? 2026",
-      "titleEn": "iPhone 18 Pro vs Pixel 11: Which to Buy",
-      "slugTr": "iphone-18-pro-mu-pixel-11-mi-2026",
-      "slugEn": "iphone-18-pro-vs-pixel-11",
-      "keywordTr": "iphone 18 pro pixel 11 karşılaştırma",
-      "keywordEn": "iphone 18 pro vs pixel 11",
-      "angle": "comparison|A buyer's comparison of the 2026 flagships on chips, cameras, AI features and price.",
-      "style": "question-driven",
-      "brief": "Sections: iPhone 18 Pro (variable-aperture camera, A20) and the new Fold/Ultra vs Pixel 11 (Tensor G6 2nm, Gemini suite, Android 17); on-device AI differences; camera and battery; ecosystem lock-in; who each is for. Verify: Apple Sept 9 2026 event lineup (18 Pro/Pro Max/Ultra fold); Pixel 11 specs (Tensor G6, M16 OLED). Sources: Apple/Google event coverage; hands-on reviews. Distinct from 'AI Assistants Android vs iPhone' by being a hardware buyer's guide."
-    },
-    {
-      "translationKey": "windows-recall-copilot-privacy-2026",
-      "category": "technology",
-      "titleTr": "Windows Recall ve Copilot: Gizlilik Bedeli",
-      "titleEn": "Windows Recall and Copilot: The Privacy Cost",
-      "slugTr": "windows-recall-copilot-gizlilik-bedeli",
-      "slugEn": "windows-recall-copilot-privacy-cost",
-      "keywordTr": "windows recall gizlilik",
-      "keywordEn": "windows recall privacy",
-      "angle": "deep-dive|What Recall and Copilot on Windows actually capture, and how to configure them sanely.",
-      "style": "contrarian",
-      "brief": "Sections: how Recall snapshots your screen and where data lives (on-device, encrypted, Copilot+ NPU requirement); the 2024 backlash and the opt-in/Windows Hello changes; sensitive-content filtering and exclusions; disabling or scoping it; enterprise controls. Verify: Recall's current opt-in state, encryption and Copilot+ hardware requirement in 2026; filtering limits. Sources: Microsoft Windows/Recall docs; security researcher analyses. Contrarian: convenience vs a searchable memory of everything you did."
-    },
-    {
-      "translationKey": "agentic-payments-explained-2026",
-      "category": "technology",
-      "titleTr": "AI Ajanın Ödeme Yapınca: Agentic Ticaret",
-      "titleEn": "When Your AI Agent Pays: Agentic Commerce",
-      "slugTr": "ai-ajanin-odeme-yapinca-agentic-ticaret",
-      "slugEn": "when-your-ai-agent-pays-agentic-commerce",
-      "keywordTr": "ai ajan ödeme agentic ticaret",
-      "keywordEn": "agentic commerce ai payments",
-      "angle": "deep-dive|How AI agents now buy on your behalf, the protocols behind it, and how to stay in control.",
-      "style": "story-led",
-      "brief": "Sections: what changed (ChatGPT Instant Checkout's rise and retirement, Google Universal Commerce Protocol, Copilot Checkout, Visa/Mastercard agent tokens); how an agent payment flows; spending limits, approvals and fraud/liability questions; what shoppers should watch. Verify: ACP retired March 2026; Google UCP at NRF 2026; Microsoft Copilot Checkout Jan 8 2026; Visa/Mastercard/Google agent-payment support. Sources: TechCrunch/press coverage; protocol docs. Consumer explainer, distinct from developer commerce-agent brief."
-    },
-    {
-      "translationKey": "manage-ai-costs-startup-2026",
-      "category": "business",
-      "titleTr": "Girişimde AI Maliyetini Kontrol Et",
-      "titleEn": "Keep Your Startup's AI Costs Under Control",
-      "slugTr": "girisimde-ai-maliyetini-kontrol-et",
-      "slugEn": "keep-startup-ai-costs-under-control",
-      "keywordTr": "ai maliyet yönetimi girişim",
-      "keywordEn": "manage ai costs startup",
-      "angle": "checklist|A founder's checklist to keep model, inference and tool costs from eating your margins.",
-      "style": "data-led",
-      "brief": "Sections: mapping AI cost drivers (tokens, model tier, retries, context bloat, agents); routing to cheaper models; caching and prompt trimming; per-customer cost tracking and caps; passing costs through in pricing; budget alerts. Verify: prompt-caching savings; model-tier price gaps (e.g. Gemini Flash-Lite, Sonnet vs Opus); usage-based cost variance. Sources: provider pricing pages; FinOps-for-AI writeups. Complements the 'price AI features' post from the cost side; distinct focus on margin control."
-    },
     {
       "translationKey": "usage-based-pricing-migration-2026",
       "category": "business",
