@@ -3286,5 +3286,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3466388,
     "generatedAt": "2026-09-12T06:38:59.238Z"
+  },
+  "en/gemini-agent-mode-automate-multi-step-work": {
+    "hash": "16c1a0a6647f4a0d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-agent-mode-automate-multi-step-work.mp3",
+    "seconds": 389,
+    "voice": "en_US-ryan-high",
+    "bytes": 3109869,
+    "generatedAt": "2026-09-13T06:33:23.541Z"
+  },
+  "en/move-to-usage-based-pricing-without-churn": {
+    "hash": "cdddff0f34a6b00a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-move-to-usage-based-pricing-without-churn.mp3",
+    "seconds": 434,
+    "voice": "en_US-ryan-high",
+    "bytes": 3468478,
+    "generatedAt": "2026-09-13T06:35:52.341Z"
+  },
+  "en/openai-agents-api-explained": {
+    "hash": "77b4c06b35e1c8cb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openai-agents-api-explained.mp3",
+    "seconds": 487,
+    "voice": "en_US-ryan-high",
+    "bytes": 3894587,
+    "generatedAt": "2026-09-13T06:38:37.447Z"
+  },
+  "en/voice-first-work-dictate-command-ai": {
+    "hash": "4c61bfcb769b2392",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-voice-first-work-dictate-command-ai.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3195341,
+    "generatedAt": "2026-09-13T06:40:53.454Z"
+  },
+  "en/what-seed-investors-want-ai-startups": {
+    "hash": "491c0cc1570980b1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-seed-investors-want-ai-startups.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3378617,
+    "generatedAt": "2026-09-13T06:43:17.819Z"
   }
 }
