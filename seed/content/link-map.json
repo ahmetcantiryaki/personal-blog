@@ -5028,6 +5028,66 @@
         "slug": "keep-startup-ai-costs-under-control",
         "title": "Keep Your Startup's AI Costs Under Control"
       }
+    },
+    {
+      "translationKey": "openai-agents-api-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-agents-api-nedir",
+        "title": "OpenAI Agents API Nedir? Codex Altyapısı API'de"
+      },
+      "en": {
+        "slug": "openai-agents-api-explained",
+        "title": "OpenAI's Agents API: The Codex Harness Behind One Call"
+      }
+    },
+    {
+      "translationKey": "usage-based-pricing-migration-2026",
+      "category": "business",
+      "tr": {
+        "slug": "kullanima-dayali-fiyata-sancisiz-gecis",
+        "title": "Kullanıma Dayalı Fiyata Sancısız Geçiş"
+      },
+      "en": {
+        "slug": "move-to-usage-based-pricing-without-churn",
+        "title": "Move to Usage-Based Pricing Without Churn"
+      }
+    },
+    {
+      "translationKey": "raising-seed-ai-startup-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-girisimine-2026-yatirimci-ne-istiyor",
+        "title": "AI Girişimine 2026'da Yatırımcı Ne İstiyor"
+      },
+      "en": {
+        "slug": "what-seed-investors-want-ai-startups",
+        "title": "What Seed Investors Want From AI Startups"
+      }
+    },
+    {
+      "translationKey": "gemini-agent-mode-workflows-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "gemini-agent-modu-isleri-yaptir",
+        "title": "Gemini Agent Modu: İşleri Uçtan Uca Yaptır"
+      },
+      "en": {
+        "slug": "gemini-agent-mode-automate-multi-step-work",
+        "title": "Gemini Agent Mode: Automate Multi-Step Work"
+      }
+    },
+    {
+      "translationKey": "voice-first-ai-productivity-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "sesle-calis-ai-dikte-komut",
+        "title": "Sesle Çalış: AI ile Dikte ve Komut İş Akışı"
+      },
+      "en": {
+        "slug": "voice-first-work-dictate-command-ai",
+        "title": "Voice-First Work: Dictate and Command With AI"
+      }
     }
   ]
 }

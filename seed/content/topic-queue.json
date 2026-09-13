@@ -2,58 +2,6 @@
   "updatedAt": "2026-09-13",
   "topics": [
     {
-      "translationKey": "usage-based-pricing-migration-2026",
-      "category": "business",
-      "titleTr": "Kullanıma Dayalı Fiyata Sancısız Geçiş",
-      "titleEn": "Move to Usage-Based Pricing Without Churn",
-      "slugTr": "kullanima-dayali-fiyata-sancisiz-gecis",
-      "slugEn": "move-to-usage-based-pricing-without-churn",
-      "keywordTr": "kullanıma dayalı fiyatlandırma geçiş",
-      "keywordEn": "usage-based pricing migration",
-      "angle": "how-to|Migrate from seats to hybrid usage-based pricing while keeping existing customers happy.",
-      "style": "story-led",
-      "brief": "Sections: why AI products break per-seat pricing; hybrid models (platform fee + metered usage/credits); choosing a value metric; grandfathering and communication; the guardrails buyers demand (caps, alerts, prepaid credits); metering and billing infra. Verify: 2026 shift to hybrid/usage-based billing; buyer demand for caps/alerts; ~25% faster growth for frequent repricers. Sources: usage-based-pricing trend reports; billing-platform guides. Distinct from 'SaaS pricing mistakes' and 'free trial vs freemium' by being a migration how-to."
-    },
-    {
-      "translationKey": "raising-seed-ai-startup-2026",
-      "category": "business",
-      "titleTr": "AI Girişimine 2026'da Yatırımcı Ne İstiyor",
-      "titleEn": "What Seed Investors Want From AI Startups",
-      "slugTr": "ai-girisimine-2026-yatirimci-ne-istiyor",
-      "slugEn": "what-seed-investors-want-ai-startups",
-      "keywordTr": "ai girişim tohum yatırım",
-      "keywordEn": "seed investors ai startups",
-      "angle": "deep-dive|What actually gets an AI startup funded in 2026 beyond a demo and a wrapper.",
-      "style": "contrarian",
-      "brief": "Sections: the 'wrapper' skepticism and what counts as a moat (proprietary data, distribution, workflow depth); metrics investors probe (retention, gross margin after inference costs, usage growth); defensibility vs model commoditization; what to show at seed. Verify: 2026 investor concerns on AI margins and moats; wrapper-moat debate. Sources: VC essays (a16z/YC); seed-benchmark reports. Contrarian: a slick demo hurts if margins and retention are thin. Distinct from 'bootstrap vs VC' and 'off-deck signals' posts."
-    },
-    {
-      "translationKey": "gemini-agent-mode-workflows-2026",
-      "category": "career-productivity",
-      "titleTr": "Gemini Agent Modu: İşleri Uçtan Uca Yaptır",
-      "titleEn": "Gemini Agent Mode: Automate Multi-Step Work",
-      "slugTr": "gemini-agent-modu-isleri-yaptir",
-      "slugEn": "gemini-agent-mode-automate-multi-step-work",
-      "keywordTr": "gemini agent modu kullanımı",
-      "keywordEn": "gemini agent mode guide",
-      "angle": "how-to|Use Gemini Agent Mode to run real multi-step tasks across Gmail, Calendar and the web.",
-      "style": "field-notes",
-      "brief": "Sections: what Agent Mode is (built on Project Mariner + Gemini 3 reasoning); a first task walkthrough (triage inbox, draft replies, book time); connecting Workspace apps and Deep Research/Canvas; the confirmation-before-critical-actions model and taking over; limits and failure modes for knowledge workers. Verify: Agent Mode availability/tiers in 2026; confirmation-before-action behavior; Workspace + live browsing tools. Sources: blog.google Gemini Agent post; gemini.google/release-notes. Distinct from compared-assistants posts: a single-tool hands-on workflow, not a roundup."
-    },
-    {
-      "translationKey": "voice-first-ai-productivity-2026",
-      "category": "career-productivity",
-      "titleTr": "Sesle Çalış: AI ile Dikte ve Komut İş Akışı",
-      "titleEn": "Voice-First Work: Dictate and Command With AI",
-      "slugTr": "sesle-calis-ai-dikte-komut",
-      "slugEn": "voice-first-work-dictate-command-ai",
-      "keywordTr": "yapay zeka sesli dikte",
-      "keywordEn": "ai voice dictation workflow",
-      "angle": "how-to|Build a voice-first workflow for drafting and commands using new AI dictation features.",
-      "style": "story-led",
-      "brief": "Sections: why voice beats typing for first drafts and hands-busy moments; Gemini's Fn-key press-and-hold dictation on macOS that transcribes polished text at the cursor; ChatGPT Voice with model/reasoning controls; a day-in-the-life workflow (emails, notes, tasks); editing the transcript and accuracy tips. Verify: Gemini macOS Fn-key dictation (Sept 2026); ChatGPT Voice model selection. Sources: gemini.google/release-notes; OpenAI release notes. Distinct from voice-assistant comparison: a productivity how-to, not a device roundup."
-    },
-    {
       "translationKey": "ai-self-review-brag-doc-2026",
       "category": "career-productivity",
       "titleTr": "AI ile Performans Öz Değerlendirmeni Yaz",
