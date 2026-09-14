@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-09-14",
   "topics": [
-    {
-      "translationKey": "ai-self-review-brag-doc-2026",
-      "category": "career-productivity",
-      "titleTr": "AI ile Performans Öz Değerlendirmeni Yaz",
-      "titleEn": "Write Your Self-Review and Brag Doc With AI",
-      "slugTr": "ai-ile-oz-degerlendirme-yaz",
-      "slugEn": "write-self-review-brag-doc-with-ai",
-      "keywordTr": "yapay zeka performans değerlendirme",
-      "keywordEn": "ai self review brag doc",
-      "angle": "how-to|Turn a year of scattered work into a self-review and brag doc with AI help.",
-      "style": "story-led",
-      "brief": "Sections: keeping a running brag doc and feeding it to AI; prompts that extract impact and quantify results; mapping work to your company's competencies/ladder; drafting a self-review that avoids fluff and owns gaps; a peer-feedback request template. Verify: performance-review best practices; privacy of pasting work context into AI tools. Sources: engineering-management writing on brag docs; Claude/ChatGPT Projects docs. Distinct from 'Managing Up' and salary posts: focused on the self-review artifact."
-    },
-    {
-      "translationKey": "chatgpt-data-plugin-dashboards-2026",
-      "category": "business",
-      "titleTr": "ChatGPT Data ile İş Verinden Gösterge Paneli",
-      "titleEn": "Build Dashboards From Data With ChatGPT Data",
-      "slugTr": "chatgpt-data-is-verisi-gosterge-paneli",
-      "slugEn": "build-dashboards-chatgpt-data-plugin",
-      "keywordTr": "chatgpt data eklentisi",
-      "keywordEn": "chatgpt data plugin dashboards",
-      "angle": "how-to|Use ChatGPT's Data plugin to investigate business metrics and build dashboards.",
-      "style": "data-led",
-      "brief": "Sections: what the Data plugin does in ChatGPT Work/Codex (ask a business question, investigate a change, build an interactive dashboard/report); connecting business data safely; a worked example (why did churn rise?); refining with follow-ups; guardrails on who sees what. Verify: Data plugin scope and availability in ChatGPT Work/Codex (2026); connected-data permissions. Sources: OpenAI ChatGPT Business release notes; help.openai.com. Distinct from spreadsheet-comparison posts: a business-analytics how-to on one new tool."
-    },
-    {
-      "translationKey": "ai-code-ownership-licensing-startups-2026",
-      "category": "business",
-      "titleTr": "AI'nın Yazdığı Kodun Sahibi Kim? Kurucu Rehberi",
-      "titleEn": "Who Owns the Code Your AI Wrote? A Founder Guide",
-      "slugTr": "ai-kodunun-sahibi-kim-hukuk",
-      "slugEn": "who-owns-code-your-ai-wrote",
-      "keywordTr": "yapay zeka kod telif hakkı",
-      "keywordEn": "ai generated code ownership",
-      "angle": "deep-dive|What founders must know about ownership, licensing and IP risk of AI-written code.",
-      "style": "contrarian",
-      "brief": "Sections: can AI output be copyrighted, and who holds it; provider terms (Claude/OpenAI/Google) on output rights and training; license contamination risk from suggested code; what acquirers and investors diligence; practical policy (attribution, scanning, contributor agreements). Verify: 2026 provider output-ownership terms; copyright-office stance on AI authorship; SBOM/license-scan practice. Sources: provider terms of service; US Copyright Office AI guidance. Contrarian thread: 'you own it' is not as settled as founders assume."
-    },
-    {
-      "translationKey": "distribution-partnerships-solo-founder-2026",
-      "category": "business",
-      "titleTr": "Tek Kişilik Girişimde Dağıtım ve İş Ortaklığı",
-      "titleEn": "Distribution and Partnerships for Solo Founders",
-      "slugTr": "solo-girisim-dagitim-is-ortakligi",
-      "slugEn": "distribution-partnerships-solo-founders",
-      "keywordTr": "solo girişim dağıtım kanalları",
-      "keywordEn": "distribution channels solo founder",
-      "angle": "guide|Build distribution through partnerships, integrations and communities when you're a team of one.",
-      "style": "story-led",
-      "brief": "Sections: why distribution beats product for solo founders; low-effort partnership types (integrations, co-marketing, marketplaces, affiliates, bundles); finding and pitching partners without a BD team; structuring a simple rev-share; measuring which channel pays. Verify: marketplace/integration-led growth patterns; affiliate norms in 2026. Sources: indie-founder case studies; SaaS distribution writing. Distinct from 'Cold Outbound' and 'First 10 Customers': focused on partnership/distribution channels, not outbound sales."
-    },
     {
       "translationKey": "gemini-find-hub-remembered-items-2026",
       "category": "technology",

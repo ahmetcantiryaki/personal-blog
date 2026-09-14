@@ -5088,6 +5088,66 @@
         "slug": "voice-first-work-dictate-command-ai",
         "title": "Voice-First Work: Dictate and Command With AI"
       }
+    },
+    {
+      "translationKey": "claude-code-plugin-eval-explained",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-plugin-eval-nasil-kullanilir",
+        "title": "Claude Code'da plugin eval Nasıl Kullanılır?"
+      },
+      "en": {
+        "slug": "how-to-use-claude-code-plugin-eval",
+        "title": "How to Use Claude Code's plugin eval Command"
+      }
+    },
+    {
+      "translationKey": "ai-self-review-brag-doc-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-ile-oz-degerlendirme-yaz",
+        "title": "AI ile Performans Öz Değerlendirmeni Nasıl Yazarsın?"
+      },
+      "en": {
+        "slug": "write-self-review-brag-doc-with-ai",
+        "title": "Write Your Self-Review and Brag Doc With AI"
+      }
+    },
+    {
+      "translationKey": "chatgpt-data-plugin-dashboards-2026",
+      "category": "business",
+      "tr": {
+        "slug": "chatgpt-data-is-verisi-gosterge-paneli",
+        "title": "ChatGPT Data ile İş Verinden Gösterge Paneli Kurma"
+      },
+      "en": {
+        "slug": "build-dashboards-chatgpt-data-plugin",
+        "title": "Build Dashboards From Data With ChatGPT Data"
+      }
+    },
+    {
+      "translationKey": "ai-code-ownership-licensing-startups-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-kodunun-sahibi-kim-hukuk",
+        "title": "AI'nın Yazdığı Kodun Sahibi Kim? Kurucu Rehberi"
+      },
+      "en": {
+        "slug": "who-owns-code-your-ai-wrote",
+        "title": "Who Owns the Code Your AI Wrote? A Founder Guide"
+      }
+    },
+    {
+      "translationKey": "distribution-partnerships-solo-founder-2026",
+      "category": "business",
+      "tr": {
+        "slug": "solo-girisim-dagitim-is-ortakligi",
+        "title": "Tek Kişilik Girişimde Dağıtım ve İş Ortaklığı Kurma"
+      },
+      "en": {
+        "slug": "distribution-partnerships-solo-founders",
+        "title": "Distribution and Partnerships for Solo Founders"
+      }
     }
   ]
 }
