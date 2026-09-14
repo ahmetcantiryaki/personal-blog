@@ -3326,5 +3326,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3378617,
     "generatedAt": "2026-09-13T06:43:17.819Z"
+  },
+  "en/build-dashboards-chatgpt-data-plugin": {
+    "hash": "52446def72b50dce",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-dashboards-chatgpt-data-plugin.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3020217,
+    "generatedAt": "2026-09-14T06:32:54.145Z"
+  },
+  "en/distribution-partnerships-solo-founders": {
+    "hash": "06b3d7620d604cff",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-distribution-partnerships-solo-founders.mp3",
+    "seconds": 384,
+    "voice": "en_US-ryan-high",
+    "bytes": 3073924,
+    "generatedAt": "2026-09-14T06:35:05.240Z"
+  },
+  "en/how-to-use-claude-code-plugin-eval": {
+    "hash": "a9ea4f018bb0623a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-use-claude-code-plugin-eval.mp3",
+    "seconds": 335,
+    "voice": "en_US-ryan-high",
+    "bytes": 2683133,
+    "generatedAt": "2026-09-14T06:36:59.235Z"
+  },
+  "en/who-owns-code-your-ai-wrote": {
+    "hash": "42e389753bb4eab0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-who-owns-code-your-ai-wrote.mp3",
+    "seconds": 389,
+    "voice": "en_US-ryan-high",
+    "bytes": 3108406,
+    "generatedAt": "2026-09-14T06:39:11.944Z"
+  },
+  "en/write-self-review-brag-doc-with-ai": {
+    "hash": "e7db3908243e16c2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-write-self-review-brag-doc-with-ai.mp3",
+    "seconds": 341,
+    "voice": "en_US-ryan-high",
+    "bytes": 2725764,
+    "generatedAt": "2026-09-14T06:41:07.806Z"
   }
 }
