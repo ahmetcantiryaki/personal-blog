@@ -5148,6 +5148,66 @@
         "slug": "distribution-partnerships-solo-founders",
         "title": "Distribution and Partnerships for Solo Founders"
       }
+    },
+    {
+      "translationKey": "claude-for-financial-advisors-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-for-financial-advisors-nedir",
+        "title": "Claude for Financial Advisors Nedir?"
+      },
+      "en": {
+        "slug": "what-is-claude-for-financial-advisors",
+        "title": "What Is Claude for Financial Advisors?"
+      }
+    },
+    {
+      "translationKey": "gemini-find-hub-remembered-items-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-esya-nerede-hatirlatma",
+        "title": "Gemini Eşyanı Nereye Koyduğunu Hatırlıyor"
+      },
+      "en": {
+        "slug": "gemini-remembers-where-you-put-things",
+        "title": "Gemini Now Remembers Where You Put Things"
+      }
+    },
+    {
+      "translationKey": "agentic-web-majority-traffic-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "internetin-yarisi-bot-ne-anlama-geliyor",
+        "title": "İnternetin Yarısı Artık Bot: Senin İçin Anlamı"
+      },
+      "en": {
+        "slug": "bots-half-the-web-what-it-means",
+        "title": "Bots Are Half the Web Now: What It Means"
+      }
+    },
+    {
+      "translationKey": "trusting-ai-agents-account-logins-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "ai-ajanina-hesap-girisi-guven",
+        "title": "AI Ajanına Hesap Girişini Emanet Eder misin?"
+      },
+      "en": {
+        "slug": "let-ai-agent-log-into-accounts",
+        "title": "Should You Let an AI Agent Log Into Accounts?"
+      }
+    },
+    {
+      "translationKey": "instagram-post-publish-editing-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "instagram-yayin-sonrasi-duzenleme",
+        "title": "Instagram'da Yayın Sonrası Düzenleme: Ne Değişti"
+      },
+      "en": {
+        "slug": "edit-instagram-posts-after-publishing",
+        "title": "Edit Instagram Posts After Publishing: What's New"
+      }
     }
   ]
 }

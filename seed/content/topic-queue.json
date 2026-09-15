@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-15",
   "topics": [
-    {
-      "translationKey": "gemini-find-hub-remembered-items-2026",
-      "category": "technology",
-      "titleTr": "Gemini Eşyanı Nereye Koyduğunu Hatırlıyor",
-      "titleEn": "Gemini Now Remembers Where You Put Things",
-      "slugTr": "gemini-esya-nerede-hatirlatma",
-      "slugEn": "gemini-remembers-where-you-put-things",
-      "keywordTr": "gemini find hub hatırlatma",
-      "keywordEn": "gemini find hub remembered",
-      "angle": "guide|How Gemini's Find Hub 'Remembered' feature works and whether it's actually useful.",
-      "style": "field-notes",
-      "brief": "Sections: the new September Android Drop feature ('remember in Find Hub that I put my passport in the drawer', with a photo) and the Remembered tab; setup and voice phrasing; privacy of storing location notes with Google; where it helps vs a sticky note; other Android Drop AI extras. Verify: Sept 2026 Android Drop Find Hub 'Remembered' details; photo attachment. Sources: blog.google Android Drop Sept 2026; 9to5google. A consumer explainer distinct from Gemini-for-Home and Gemini Spark posts."
-    },
-    {
-      "translationKey": "agentic-web-majority-traffic-2026",
-      "category": "technology",
-      "titleTr": "İnternetin Yarısı Artık Bot: Senin İçin Anlamı",
-      "titleEn": "Bots Are Half the Web Now: What It Means",
-      "slugTr": "internetin-yarisi-bot-ne-anlama-geliyor",
-      "slugEn": "bots-half-the-web-what-it-means",
-      "keywordTr": "agentic web bot trafiği",
-      "keywordEn": "agentic web bot traffic",
-      "angle": "deep-dive|Agentic traffic passed 50% of the web in 2026 — what it changes for everyday users.",
-      "style": "data-led",
-      "brief": "Sections: the June 2026 milestone (agent/crawler traffic over half of internet traffic); who the bots are (AI assistants shopping, researching, booking); effects you feel (prices, reviews, fake content, rate limits, CAPTCHAs); how sites respond (agent gates, verified-human flows); what to watch next. Verify: the >50% agentic-traffic figure and date; AI Overviews click impact (~34.5%). Sources: Ahrefs AI search trends; traffic-report coverage. Consumer-tech framing, distinct from the SEO/GEO marketing posts."
-    },
-    {
-      "translationKey": "trusting-ai-agents-account-logins-2026",
-      "category": "technology",
-      "titleTr": "AI Ajanına Hesap Girişini Emanet Eder misin?",
-      "titleEn": "Should You Let an AI Agent Log Into Accounts?",
-      "slugTr": "ai-ajanina-hesap-girisi-guven",
-      "slugEn": "let-ai-agent-log-into-accounts",
-      "keywordTr": "ai ajan hesap güvenliği",
-      "keywordEn": "ai agent account login security",
-      "angle": "guide|The real risks of handing an AI agent your logins, and how to do it more safely.",
-      "style": "question-driven",
-      "brief": "Sections: why agents now log in (ChatGPT browsing/Work account login support after Atlas; Gemini Agent); attack surface (prompt injection, session theft, over-broad scopes); safer patterns (dedicated profiles, passkeys, scoped tokens, confirmation prompts, read-only first); when to just not. Verify: ChatGPT browsing account-login support (2026); agent confirmation controls; prompt-injection risk for browsing agents. Sources: OpenAI Atlas-to-ChatGPT article; security writeups. Distinct from data-privacy posts: focused on login/credential delegation."
-    },
-    {
-      "translationKey": "instagram-post-publish-editing-2026",
-      "category": "social-media",
-      "titleTr": "Instagram'da Yayın Sonrası Düzenleme: Ne Değişti",
-      "titleEn": "Edit Instagram Posts After Publishing: What's New",
-      "slugTr": "instagram-yayin-sonrasi-duzenleme",
-      "slugEn": "edit-instagram-posts-after-publishing",
-      "keywordTr": "instagram yayın sonrası düzenleme",
-      "keywordEn": "edit instagram post after publishing",
-      "angle": "how-to|Use Instagram's new post-publish edits (reorder carousel, swap audio) to lift performance.",
-      "style": "question-driven",
-      "brief": "Sections: the 2026 changes (drag-to-reorder carousel images after publishing; replace in-app audio while keeping likes/comments/shares; First Draft auto-Reel); when re-editing helps vs hurts reach; a test-and-optimize routine; what still can't be changed. Verify: carousel reorder and audio-swap post-publish (2026); whether engagement is retained; First Draft rough-cut timing. Sources: SocialPilot/SocialBee 2026 update roundups. Distinct from 'Carousels People Save' and algorithm posts: a how-to on the new editing tools."
-    },
     {
       "translationKey": "youtube-ai-slop-monetization-2026",
       "category": "social-media",
