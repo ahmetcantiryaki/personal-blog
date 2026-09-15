@@ -3366,5 +3366,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2725764,
     "generatedAt": "2026-09-14T06:41:07.806Z"
+  },
+  "en/bots-half-the-web-what-it-means": {
+    "hash": "2d60a5b96cd83b61",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-bots-half-the-web-what-it-means.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3291263,
+    "generatedAt": "2026-09-15T06:34:39.626Z"
+  },
+  "en/edit-instagram-posts-after-publishing": {
+    "hash": "0e2431ba6f0cbc81",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-edit-instagram-posts-after-publishing.mp3",
+    "seconds": 366,
+    "voice": "en_US-ryan-high",
+    "bytes": 2929519,
+    "generatedAt": "2026-09-15T06:36:06.602Z"
+  },
+  "en/gemini-remembers-where-you-put-things": {
+    "hash": "2ddf129128b6c46f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-remembers-where-you-put-things.mp3",
+    "seconds": 361,
+    "voice": "en_US-ryan-high",
+    "bytes": 2888350,
+    "generatedAt": "2026-09-15T06:37:32.569Z"
+  },
+  "en/let-ai-agent-log-into-accounts": {
+    "hash": "eacba785d9b54ba8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-let-ai-agent-log-into-accounts.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3283531,
+    "generatedAt": "2026-09-15T06:39:10.166Z"
+  },
+  "en/what-is-claude-for-financial-advisors": {
+    "hash": "d656eaa7ebdc4ebc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-claude-for-financial-advisors.mp3",
+    "seconds": 453,
+    "voice": "en_US-ryan-high",
+    "bytes": 3621451,
+    "generatedAt": "2026-09-15T06:40:57.889Z"
   }
 }
