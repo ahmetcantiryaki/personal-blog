@@ -5208,6 +5208,66 @@
         "slug": "edit-instagram-posts-after-publishing",
         "title": "Edit Instagram Posts After Publishing: What's New"
       }
+    },
+    {
+      "translationKey": "gemini-3-8-live-extended-thinking-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-3-8-live-extended-thinking-nedir",
+        "title": "Gemini 3.8 Live Extended Thinking Nedir?"
+      },
+      "en": {
+        "slug": "what-is-gemini-3-8-live-extended-thinking",
+        "title": "What Is Gemini 3.8 Live Extended Thinking?"
+      }
+    },
+    {
+      "translationKey": "youtube-ai-slop-monetization-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "youtube-ai-cop-para-kazanma-2026",
+        "title": "YouTube'un AI Çöpüne Savaşı ve Yeni Para Kuralları"
+      },
+      "en": {
+        "slug": "youtube-ai-slop-crackdown-monetization",
+        "title": "YouTube's AI Slop Crackdown and New Money Rules"
+      }
+    },
+    {
+      "translationKey": "tiktok-shop-ai-seller-tools-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-shop-ai-satis-araclari",
+        "title": "TikTok Shop'un Yeni AI Satış Araçları"
+      },
+      "en": {
+        "slug": "tiktok-shop-ai-tools-for-sellers",
+        "title": "TikTok Shop's New AI Tools for Sellers"
+      }
+    },
+    {
+      "translationKey": "meta-creator-fast-track-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "meta-creator-fast-track-degerlendirme",
+        "title": "Meta Creator Fast Track: Değer mi, Tuzak mı?"
+      },
+      "en": {
+        "slug": "meta-creator-fast-track-worth-it",
+        "title": "Meta Creator Fast Track: Worth It for Creators?"
+      }
+    },
+    {
+      "translationKey": "llms-txt-reality-check-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "llms-txt-ise-yariyor-mu",
+        "title": "llms.txt İşe Yarıyor mu? Kanıtlara Bakış"
+      },
+      "en": {
+        "slug": "does-llms-txt-help-ai-search",
+        "title": "Does llms.txt Actually Help AI Search?"
+      }
     }
   ]
 }

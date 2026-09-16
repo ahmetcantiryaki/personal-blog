@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-15",
+  "updatedAt": "2026-09-16",
   "topics": [
-    {
-      "translationKey": "youtube-ai-slop-monetization-2026",
-      "category": "social-media",
-      "titleTr": "YouTube'un AI Çöpüne Savaşı ve Yeni Para Kuralları",
-      "titleEn": "YouTube's AI Slop Crackdown and New Money Rules",
-      "slugTr": "youtube-ai-cop-para-kazanma-2026",
-      "slugEn": "youtube-ai-slop-crackdown-monetization",
-      "keywordTr": "youtube yapay zeka içerik para kazanma",
-      "keywordEn": "youtube ai content monetization 2026",
-      "angle": "guide|What YouTube's AI-slop crackdown and 2026 monetization changes mean for creators.",
-      "style": "data-led",
-      "brief": "Sections: YouTube stripping monetization from repetitive AI-generated video; the doubled monetization bar for new creators and views counting from the first frame; the 10M qualified Shorts views / 90 days threshold arriving Feb 2027; Shorts in-app shopping; how to stay eligible and use AI without being flagged. Verify: repetitive-AI demonetization policy; doubled bar; 10M Shorts threshold and date. Sources: YouTube Partner Program updates; 2026 creator update roundups. Distinct from generic YouTube-growth posts."
-    },
-    {
-      "translationKey": "tiktok-shop-ai-seller-tools-2026",
-      "category": "social-media",
-      "titleTr": "TikTok Shop'un Yeni AI Satış Araçları",
-      "titleEn": "TikTok Shop's New AI Tools for Sellers",
-      "slugTr": "tiktok-shop-ai-satis-araclari",
-      "slugEn": "tiktok-shop-ai-tools-for-sellers",
-      "keywordTr": "tiktok shop yapay zeka araçları",
-      "keywordEn": "tiktok shop ai seller tools",
-      "angle": "how-to|Use TikTok Shop's AI Dubbing, Fashion Video Maker and List with AI to sell more.",
-      "style": "story-led",
-      "brief": "Sections: the new seller AI suite (AI Dubbing for reach across languages, AI Fashion Video Maker, 'List with AI' for fast product listings) plus TikTok One/Content Suite and Creator AI Search; a workflow to list, localize and film a product; quality/authenticity pitfalls; measuring conversion. Verify: TikTok summit AI seller tools (AI Dubbing, Fashion Video Maker, List with AI); TikTok One Content Suite. Sources: TikTok summit coverage; 2026 social update roundups. Distinct from 'Making Money on TikTok Shop' overview: focused on the new AI tools."
-    },
-    {
-      "translationKey": "meta-creator-fast-track-2026",
-      "category": "social-media",
-      "titleTr": "Meta Creator Fast Track: Değer mi, Tuzak mı?",
-      "titleEn": "Meta Creator Fast Track: Worth It for Creators?",
-      "slugTr": "meta-creator-fast-track-degerlendirme",
-      "slugEn": "meta-creator-fast-track-worth-it",
-      "keywordTr": "meta creator fast track",
-      "keywordEn": "meta creator fast track program",
-      "angle": "guide|How Meta's Creator Fast Track monetization program works and who should join.",
-      "style": "contrarian",
-      "brief": "Sections: what Creator Fast Track is (Meta's new content monetization tied to a Facebook account, spanning Instagram/TikTok/YouTube cross-posters); eligibility and payout model; realistic earnings vs effort; cross-posting mechanics and content-ID risks; alternatives (fan subs, brand deals). Verify: Creator Fast Track scope, eligibility and payout terms (2026); cross-platform requirements. Sources: SocialBee Meta updates Sept 2026; Meta creator announcements. Contrarian angle: cross-posting for a bonus can dilute platform-native reach."
-    },
-    {
-      "translationKey": "llms-txt-reality-check-2026",
-      "category": "digital-marketing",
-      "titleTr": "llms.txt İşe Yarıyor mu? Kanıtlara Bakış",
-      "titleEn": "Does llms.txt Actually Help AI Search?",
-      "slugTr": "llms-txt-ise-yariyor-mu",
-      "slugEn": "does-llms-txt-help-ai-search",
-      "keywordTr": "llms.txt nedir ne işe yarar",
-      "keywordEn": "does llms txt help seo",
-      "angle": "deep-dive|An evidence-based look at whether llms.txt helps AI search or just wastes effort.",
-      "style": "contrarian",
-      "brief": "Sections: what llms.txt is meant to do; the skeptical evidence (Google doesn't use it; OpenAI doesn't require it; one analysis found ~97% of files got zero requests); where it might still matter (agent discovery/context, not ranking); what to do instead for AI visibility. Verify: Google/OpenAI stances; the 97%-no-requests analysis; llms.txt as agent-context file. Sources: Ahrefs and Search Engine Land 2026 AI-search coverage; muneebdev llms.txt analysis. Distinct from GEO/schema/citation-tracking posts: a focused verdict on one tactic."
-    },
     {
       "translationKey": "linkedin-ads-b2b-small-budget-2026",
       "category": "digital-marketing",

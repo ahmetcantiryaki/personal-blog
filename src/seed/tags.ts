@@ -86,6 +86,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'marketing-analytics': { en: 'Marketing Analytics', tr: 'Pazarlama Analitiği' },
   mcp: { en: 'MCP', tr: 'MCP' },
   microservices: { en: 'Microservices', tr: 'Mikroservisler' },
+  monetization: { en: 'Monetization', tr: 'Gelir Elde Etme' },
   monitoring: { en: 'Monitoring', tr: 'İzleme' },
   nextjs: { en: 'Next.js', tr: 'Next.js' },
   nodejs: { en: 'Node.js', tr: 'Node.js' },
