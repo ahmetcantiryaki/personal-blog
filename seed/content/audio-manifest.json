@@ -3406,5 +3406,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3621451,
     "generatedAt": "2026-09-15T06:40:57.889Z"
+  },
+  "en/does-llms-txt-help-ai-search": {
+    "hash": "029384ec80a225bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-does-llms-txt-help-ai-search.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3184266,
+    "generatedAt": "2026-09-16T06:28:16.344Z"
+  },
+  "en/meta-creator-fast-track-worth-it": {
+    "hash": "1badc38fce3cd0c8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-meta-creator-fast-track-worth-it.mp3",
+    "seconds": 414,
+    "voice": "en_US-ryan-high",
+    "bytes": 3313415,
+    "generatedAt": "2026-09-16T06:29:23.671Z"
+  },
+  "en/tiktok-shop-ai-tools-for-sellers": {
+    "hash": "89a1c34f84841958",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-shop-ai-tools-for-sellers.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3448207,
+    "generatedAt": "2026-09-16T06:31:12.907Z"
+  },
+  "en/what-is-gemini-3-8-live-extended-thinking": {
+    "hash": "b2d79da0d1db5976",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-gemini-3-8-live-extended-thinking.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3683727,
+    "generatedAt": "2026-09-16T06:32:27.024Z"
+  },
+  "en/youtube-ai-slop-crackdown-monetization": {
+    "hash": "083d62cb1126db79",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-youtube-ai-slop-crackdown-monetization.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3253438,
+    "generatedAt": "2026-09-16T06:33:33.133Z"
   }
 }
