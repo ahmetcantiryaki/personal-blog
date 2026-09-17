@@ -3446,5 +3446,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3253438,
     "generatedAt": "2026-09-16T06:33:33.133Z"
+  },
+  "en/claude-cowork-chat-merge-explained": {
+    "hash": "25312d6e4e6b80f8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-cowork-chat-merge-explained.mp3",
+    "seconds": 401,
+    "voice": "en_US-ryan-high",
+    "bytes": 3210806,
+    "generatedAt": "2026-09-17T06:35:46.310Z"
+  },
+  "en/comparison-pages-that-rank-convert": {
+    "hash": "104fee7c2331b7ad",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-comparison-pages-that-rank-convert.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3479345,
+    "generatedAt": "2026-09-17T06:38:15.475Z"
+  },
+  "en/fix-inp-interaction-to-next-paint": {
+    "hash": "12c6fa8ab05c2428",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-fix-inp-interaction-to-next-paint.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3429608,
+    "generatedAt": "2026-09-17T06:40:42.208Z"
+  },
+  "en/linkedin-b2b-ads-small-budget": {
+    "hash": "d3d98aac5d93abe1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-linkedin-b2b-ads-small-budget.mp3",
+    "seconds": 457,
+    "voice": "en_US-ryan-high",
+    "bytes": 3660112,
+    "generatedAt": "2026-09-17T06:43:18.479Z"
+  },
+  "en/qwik-resumability-zero-hydration": {
+    "hash": "a47c272717ada38a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-qwik-resumability-zero-hydration.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3460955,
+    "generatedAt": "2026-09-17T06:45:45.406Z"
   }
 }
