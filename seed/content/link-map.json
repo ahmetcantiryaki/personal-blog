@@ -5268,6 +5268,66 @@
         "slug": "does-llms-txt-help-ai-search",
         "title": "Does llms.txt Actually Help AI Search?"
       }
+    },
+    {
+      "translationKey": "claude-cowork-chat-merge-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-cowork-chat-birlesti",
+        "title": "Claude Cowork Chat'e Birleşti: Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "claude-cowork-chat-merge-explained",
+        "title": "Claude Cowork Merges Into Chat: What Changes?"
+      }
+    },
+    {
+      "translationKey": "linkedin-ads-b2b-small-budget-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "kucuk-butce-linkedin-b2b-reklam",
+        "title": "Küçük Bütçeyle LinkedIn B2B Reklamı Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "linkedin-b2b-ads-small-budget",
+        "title": "How Do You Run LinkedIn B2B Ads on a Small Budget?"
+      }
+    },
+    {
+      "translationKey": "comparison-alternatives-pages-seo-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "karsilastirma-sayfalari-seo",
+        "title": "Karşılaştırma Sayfaları Nasıl Sıralanır ve Satar?"
+      },
+      "en": {
+        "slug": "comparison-pages-that-rank-convert",
+        "title": "How Do Comparison Pages Rank and Convert?"
+      }
+    },
+    {
+      "translationKey": "fix-inp-interaction-next-paint-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "inp-etkilesim-gecikmesi-duzelt",
+        "title": "INP Nasıl Düzeltilir? Etkileşim Gecikmesi Çözümü"
+      },
+      "en": {
+        "slug": "fix-inp-interaction-to-next-paint",
+        "title": "How Do You Fix INP? Interaction to Next Paint"
+      }
+    },
+    {
+      "translationKey": "qwik-resumability-worth-it-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "qwik-resumability-deger-mi",
+        "title": "Qwik'in Resumability'si Gerçekten Değer mi?"
+      },
+      "en": {
+        "slug": "qwik-resumability-zero-hydration",
+        "title": "Is Qwik's Resumability Actually Worth It?"
+      }
     }
   ]
 }

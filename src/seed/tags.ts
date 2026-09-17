@@ -107,6 +107,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'prompt-engineering': { en: 'Prompt Engineering', tr: 'Prompt Mühendisliği' },
   python: { en: 'Python', tr: 'Python' },
   'quantum-computing': { en: 'Quantum Computing', tr: 'Kuantum Bilişim' },
+  qwik: { en: 'Qwik', tr: 'Qwik' },
   rag: { en: 'RAG', tr: 'RAG' },
   react: { en: 'React', tr: 'React' },
   refactoring: { en: 'Refactoring', tr: 'Yeniden Düzenleme' },

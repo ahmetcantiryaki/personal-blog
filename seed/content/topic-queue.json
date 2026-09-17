@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-16",
+  "updatedAt": "2026-09-17",
   "topics": [
-    {
-      "translationKey": "linkedin-ads-b2b-small-budget-2026",
-      "category": "digital-marketing",
-      "titleTr": "Küçük Bütçeyle LinkedIn B2B Reklamları",
-      "titleEn": "LinkedIn B2B Ads on a Small Budget",
-      "slugTr": "kucuk-butce-linkedin-b2b-reklam",
-      "slugEn": "linkedin-b2b-ads-small-budget",
-      "keywordTr": "linkedin b2b reklam bütçe",
-      "keywordEn": "linkedin b2b ads small budget",
-      "angle": "how-to|Run LinkedIn B2B ads that generate pipeline without a big budget.",
-      "style": "data-led",
-      "brief": "Sections: when LinkedIn beats Google/Meta for B2B; cheapest-first tactics (document/thought-leader ads, tight job-title + company-size targeting, retargeting site visitors); realistic CPLs and minimum budgets; creative that earns clicks from busy buyers; measuring pipeline not just leads. Verify: 2026 LinkedIn ad formats and typical B2B CPCs/CPLs; minimum daily budget. Sources: LinkedIn Ads docs; 2026 B2B benchmark reports. Distinct from 'Google Ads vs Meta Ads' and 'ChatGPT Ads' posts: LinkedIn-specific, B2B, small-budget."
-    },
-    {
-      "translationKey": "comparison-alternatives-pages-seo-2026",
-      "category": "digital-marketing",
-      "titleTr": "Sıralayan ve Satan Karşılaştırma Sayfaları",
-      "titleEn": "Comparison Pages That Rank and Convert",
-      "slugTr": "karsilastirma-sayfalari-seo",
-      "slugEn": "comparison-pages-that-rank-convert",
-      "keywordTr": "karşılaştırma sayfası seo",
-      "keywordEn": "comparison alternatives pages seo",
-      "angle": "how-to|Build bottom-funnel comparison and 'alternatives' pages that rank and convert.",
-      "style": "story-led",
-      "brief": "Sections: why 'X vs Y' and '[competitor] alternatives' pages are the highest-intent SEO you can own; honest framing that survives scrutiny and gets cited by AI answers; page template (TL;DR verdict, table, use-case fit, migration notes); avoiding thin/duplicate doorway pages; internal linking and updates. Verify: commercial-intent ranking patterns; AI Overviews citing comparison content; doorway-page guidelines. Sources: Ahrefs/Search Engine Land 2026. Distinct from 'Programmatic SEO' and 'Topical Authority': focused on comparison/alternatives pages."
-    },
-    {
-      "translationKey": "fix-inp-interaction-next-paint-2026",
-      "category": "web-development",
-      "titleTr": "INP'yi Düzelt: Etkileşim Gecikmesini Çöz",
-      "titleEn": "Fix INP: Diagnose Interaction to Next Paint",
-      "slugTr": "inp-etkilesim-gecikmesi-duzelt",
-      "slugEn": "fix-inp-interaction-to-next-paint",
-      "keywordTr": "INP iyileştirme",
-      "keywordEn": "fix interaction to next paint",
-      "angle": "how-to|Diagnose and fix poor INP, the Core Web Vital that separates snappy sites from slow ones.",
-      "style": "data-led",
-      "brief": "Sections: what INP measures and why it replaced FID; the three parts (input delay, processing, presentation); finding culprits with the Performance panel and field data; fixes (yield to main thread, break long tasks, scheduler.yield, debounce, move work off the main thread); verifying with RUM. Verify: INP thresholds (good <200ms) and field-vs-lab methodology in 2026; scheduler.yield support. Sources: web.dev INP guidance; Chrome DevRel. Distinct from the Core Web Vitals checklist: a deep how-to on INP specifically."
-    },
-    {
-      "translationKey": "qwik-resumability-worth-it-2026",
-      "category": "web-development",
-      "titleTr": "Qwik ve Resumability: Sıfır Hidrasyon Değer mi?",
-      "titleEn": "Qwik and Resumability: Is Zero Hydration Worth It?",
-      "slugTr": "qwik-resumability-deger-mi",
-      "slugEn": "qwik-resumability-zero-hydration",
-      "keywordTr": "qwik resumability nedir",
-      "keywordEn": "qwik resumability worth it",
-      "angle": "deep-dive|How resumability differs from hydration, and whether Qwik is worth adopting in 2026.",
-      "style": "contrarian",
-      "brief": "Sections: hydration's cost and how resumability skips it by serializing state into HTML; how Qwik lazy-loads handlers on interaction; real wins (instant TTI on large pages) vs costs (ecosystem, mental model, serialization gotchas); where RSC/islands already close the gap; who should actually pick it. Verify: Qwik resumability model in 2026; benchmarks vs hydrated frameworks; ecosystem maturity. Sources: Qwik docs; framework-performance writeups. Contrarian: for most sites, islands/RSC beat switching frameworks. Distinct from Astro/Next and signals posts."
-    },
     {
       "translationKey": "nextjs-partial-prerendering-2026",
       "category": "web-development",
