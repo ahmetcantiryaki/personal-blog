@@ -3486,5 +3486,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3460955,
     "generatedAt": "2026-09-17T06:45:45.406Z"
+  },
+  "en/claude-on-demand-compaction-explained": {
+    "hash": "ab1f4974f17aa923",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-on-demand-compaction-explained.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3547681,
+    "generatedAt": "2026-09-18T06:37:04.413Z"
+  },
+  "en/consumer-driven-contract-testing": {
+    "hash": "7607502e150ed666",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-consumer-driven-contract-testing.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3630437,
+    "generatedAt": "2026-09-18T06:38:39.922Z"
+  },
+  "en/durable-execution-when-you-need-temporal": {
+    "hash": "3422921cf8c50194",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-durable-execution-when-you-need-temporal.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3319057,
+    "generatedAt": "2026-09-18T06:40:14.614Z"
+  },
+  "en/nextjs-partial-prerendering-when-to-use": {
+    "hash": "bb1bc419bf0db538",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-nextjs-partial-prerendering-when-to-use.mp3",
+    "seconds": 372,
+    "voice": "en_US-ryan-high",
+    "bytes": 2980093,
+    "generatedAt": "2026-09-18T06:41:30.296Z"
+  },
+  "en/open-source-ai-coding-agents-compared": {
+    "hash": "8057000e16add644",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-open-source-ai-coding-agents-compared.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3680383,
+    "generatedAt": "2026-09-18T06:44:25.039Z"
   }
 }
