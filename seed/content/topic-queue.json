@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-17",
+  "updatedAt": "2026-09-18",
   "topics": [
-    {
-      "translationKey": "nextjs-partial-prerendering-2026",
-      "category": "web-development",
-      "titleTr": "Next.js Partial Prerendering'i Ne Zaman Kullan",
-      "titleEn": "Next.js Partial Prerendering: When to Use It",
-      "slugTr": "nextjs-partial-prerendering-kullanim",
-      "slugEn": "nextjs-partial-prerendering-when-to-use",
-      "keywordTr": "next.js partial prerendering",
-      "keywordEn": "nextjs partial prerendering",
-      "angle": "how-to|Use Next.js Partial Prerendering to ship a static shell with streamed dynamic holes.",
-      "style": "question-driven",
-      "brief": "Sections: the problem PPR solves (static speed + dynamic data in one route); how it works (static shell + Suspense-wrapped dynamic slots streamed in); enabling it and marking dynamic boundaries; caching and revalidation implications; when ISR/SSR is still the better call. Verify: PPR status (stable vs experimental) in Next.js 2026; Suspense/streaming requirements. Sources: Next.js docs; Vercel posts. Distinct from 'SSR vs SSG vs ISR' and 'Edge Functions and Rendering': focused on PPR and when to reach for it."
-    },
-    {
-      "translationKey": "open-source-ai-coding-agents-2026",
-      "category": "software-engineering",
-      "titleTr": "Açık Kaynak AI Kod Ajanları: Hangisi?",
-      "titleEn": "Open-Source AI Coding Agents: Which to Use?",
-      "slugTr": "acik-kaynak-ai-kod-ajanlari",
-      "slugEn": "open-source-ai-coding-agents-compared",
-      "keywordTr": "açık kaynak ai kod ajanı",
-      "keywordEn": "open source ai coding agents",
-      "angle": "comparison|Compare open-source AI coding agents (OpenCode, OpenHands, Crush) against Codex/Claude Code.",
-      "style": "question-driven",
-      "brief": "Sections: why open-source coding agents matter (control, self-hosting, model choice); field compared: OpenCode (~140k stars), OpenHands (strong SWE-bench), Crush, Qwen Code, plus how they differ from hosted Claude Code/Codex CLI; picking by model backend, sandboxing, MCP support and cost; a quick try-it setup. Verify: 2026 stars/SWE-bench numbers; self-host/model-agnostic claims. Sources: GitHub trending/startupcorners devtools digests; project READMEs. Distinct from 'Claude Code vs Cursor vs Antigravity': focused on open-source agents."
-    },
-    {
-      "translationKey": "durable-execution-temporal-2026",
-      "category": "software-engineering",
-      "titleTr": "Dayanıklı Yürütme ve Temporal'a Ne Zaman Gerek?",
-      "titleEn": "Durable Execution: When You Actually Need Temporal",
-      "slugTr": "dayanikli-yurutme-temporal",
-      "slugEn": "durable-execution-when-you-need-temporal",
-      "keywordTr": "dayanıklı yürütme temporal",
-      "keywordEn": "durable execution temporal",
-      "angle": "deep-dive|What durable execution solves and when a workflow engine like Temporal earns its weight.",
-      "style": "story-led",
-      "brief": "Sections: the failure mode (long-running multi-step processes that must survive crashes, retries and restarts); how durable execution persists progress as code; where it beats cron+queues+outbox; costs (operational weight, learning curve, determinism rules); lighter alternatives for simple cases. Verify: durable-execution/determinism constraints; Temporal vs DBMQ/outbox tradeoffs in 2026. Sources: Temporal docs; durable-execution writeups. Distinct from 'Transactional Outbox', 'Event-Driven Architecture', 'Retries/Backoff': focused on durable execution as a model."
-    },
-    {
-      "translationKey": "consumer-driven-contract-testing-2026",
-      "category": "software-engineering",
-      "titleTr": "Mikroservislerde Tüketici Güdümlü Sözleşme Testi",
-      "titleEn": "Consumer-Driven Contract Testing for Services",
-      "slugTr": "tuketici-gudumlu-sozlesme-testi",
-      "slugEn": "consumer-driven-contract-testing",
-      "keywordTr": "tüketici güdümlü sözleşme testi",
-      "keywordEn": "consumer-driven contract testing",
-      "angle": "how-to|Catch breaking API changes before deploy with consumer-driven contract tests.",
-      "style": "field-notes",
-      "brief": "Sections: why integration tests and versioning aren't enough across services; how consumer-driven contracts work (consumers define expectations, providers verify); a Pact-style workflow with a broker in CI; can-i-deploy gates; pitfalls (flaky contracts, over-specification, ownership). Verify: Pact/broker workflow and can-i-deploy in 2026; contract-vs-schema-registry tradeoffs. Sources: Pact docs; contract-testing guides. Distinct from 'API Versioning', 'REST vs GraphQL', 'Microservices vs Monolith': focused on contract testing practice."
-    },
     {
       "translationKey": "cut-observability-bill-sampling-2026",
       "category": "devops-cloud",

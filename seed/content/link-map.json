@@ -5328,6 +5328,66 @@
         "slug": "qwik-resumability-zero-hydration",
         "title": "Is Qwik's Resumability Actually Worth It?"
       }
+    },
+    {
+      "translationKey": "claude-on-demand-compaction-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-on-demand-compaction-nedir",
+        "title": "Claude'un On-Demand Compaction Özelliği Nedir?"
+      },
+      "en": {
+        "slug": "claude-on-demand-compaction-explained",
+        "title": "What Is Claude's New On-Demand Compaction?"
+      }
+    },
+    {
+      "translationKey": "nextjs-partial-prerendering-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "nextjs-partial-prerendering-kullanim",
+        "title": "Next.js Partial Prerendering'i Ne Zaman Kullan"
+      },
+      "en": {
+        "slug": "nextjs-partial-prerendering-when-to-use",
+        "title": "Next.js Partial Prerendering: When to Use It"
+      }
+    },
+    {
+      "translationKey": "open-source-ai-coding-agents-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "acik-kaynak-ai-kod-ajanlari",
+        "title": "Açık Kaynak AI Kod Ajanları: Hangisi?"
+      },
+      "en": {
+        "slug": "open-source-ai-coding-agents-compared",
+        "title": "Open-Source AI Coding Agents: Which to Use?"
+      }
+    },
+    {
+      "translationKey": "durable-execution-temporal-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "dayanikli-yurutme-temporal",
+        "title": "Dayanıklı Yürütme ve Temporal'a Ne Zaman Gerek?"
+      },
+      "en": {
+        "slug": "durable-execution-when-you-need-temporal",
+        "title": "Durable Execution: When You Actually Need Temporal"
+      }
+    },
+    {
+      "translationKey": "consumer-driven-contract-testing-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "tuketici-gudumlu-sozlesme-testi",
+        "title": "Mikroservislerde Tüketici Güdümlü Sözleşme Testi"
+      },
+      "en": {
+        "slug": "consumer-driven-contract-testing",
+        "title": "Consumer-Driven Contract Testing for Services"
+      }
     }
   ]
 }
