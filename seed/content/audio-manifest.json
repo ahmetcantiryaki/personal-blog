@@ -3526,5 +3526,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3680383,
     "generatedAt": "2026-09-18T06:44:25.039Z"
+  },
+  "en/branching-preview-databases-every-pr": {
+    "hash": "54d44e89f7faa80d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-branching-preview-databases-every-pr.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3731792,
+    "generatedAt": "2026-09-19T06:25:17.495Z"
+  },
+  "en/claude-code-now-supports-agents-md": {
+    "hash": "d07c0019061fb011",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-now-supports-agents-md.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3330133,
+    "generatedAt": "2026-09-19T06:27:47.390Z"
+  },
+  "en/cut-gpu-costs-ai-workloads": {
+    "hash": "0e738729561d11f2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cut-gpu-costs-ai-workloads.mp3",
+    "seconds": 472,
+    "voice": "en_US-ryan-high",
+    "bytes": 3772961,
+    "generatedAt": "2026-09-19T06:30:38.126Z"
+  },
+  "en/cut-observability-bill-sampling-cardinality": {
+    "hash": "9b09f84e8bf2a3a3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cut-observability-bill-sampling-cardinality.mp3",
+    "seconds": 506,
+    "voice": "en_US-ryan-high",
+    "bytes": 4052158,
+    "generatedAt": "2026-09-19T06:33:41.283Z"
+  },
+  "en/gemini-canvas-dashboard-from-raw-data": {
+    "hash": "811b71e1643ac17c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-canvas-dashboard-from-raw-data.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3432742,
+    "generatedAt": "2026-09-19T06:36:15.783Z"
   }
 }
