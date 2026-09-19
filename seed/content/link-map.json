@@ -5388,6 +5388,66 @@
         "slug": "consumer-driven-contract-testing",
         "title": "Consumer-Driven Contract Testing for Services"
       }
+    },
+    {
+      "translationKey": "claude-code-agents-md-fallback-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-agents-md-destegi",
+        "title": "Claude Code Artık AGENTS.md Destekliyor mu?"
+      },
+      "en": {
+        "slug": "claude-code-now-supports-agents-md",
+        "title": "Does Claude Code Now Support AGENTS.md?"
+      }
+    },
+    {
+      "translationKey": "cut-observability-bill-sampling-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "gozlemlenebilirlik-faturasini-dusur",
+        "title": "Gözlemlenebilirlik Faturanı Nasıl Düşürürsün?"
+      },
+      "en": {
+        "slug": "cut-observability-bill-sampling-cardinality",
+        "title": "Cut Your Observability Bill: Sampling and Cardinality"
+      }
+    },
+    {
+      "translationKey": "branching-preview-databases-pr-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "her-pr-icin-onizleme-veritabani",
+        "title": "Her PR için Dallanan Önizleme Veritabanları"
+      },
+      "en": {
+        "slug": "branching-preview-databases-every-pr",
+        "title": "Branching Preview Databases for Every PR"
+      }
+    },
+    {
+      "translationKey": "gpu-cost-control-ai-workloads-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ai-is-yuku-gpu-maliyet-kontrol",
+        "title": "AI İş Yükleri için GPU Maliyetini Kontrol Et"
+      },
+      "en": {
+        "slug": "cut-gpu-costs-ai-workloads",
+        "title": "Cut GPU Costs for AI Workloads: Spot and Scheduling"
+      }
+    },
+    {
+      "translationKey": "gemini-canvas-dashboards-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-canvas-ham-veri-panel",
+        "title": "Gemini Canvas ile Ham Veriden Canlı Panel"
+      },
+      "en": {
+        "slug": "gemini-canvas-dashboard-from-raw-data",
+        "title": "Build a Live Dashboard From Raw Data in Gemini"
+      }
     }
   ]
 }

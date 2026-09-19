@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-19",
   "topics": [
-    {
-      "translationKey": "cut-observability-bill-sampling-2026",
-      "category": "devops-cloud",
-      "titleTr": "Gözlemlenebilirlik Faturanı Nasıl Düşürürsün?",
-      "titleEn": "Cut Your Observability Bill: Sampling and Cardinality",
-      "slugTr": "gozlemlenebilirlik-faturasini-dusur",
-      "slugEn": "cut-observability-bill-sampling-cardinality",
-      "keywordTr": "gözlemlenebilirlik maliyet düşürme",
-      "keywordEn": "reduce observability costs",
-      "angle": "how-to|Slash logging and metrics spend without going blind, using sampling and cardinality control.",
-      "style": "contrarian",
-      "brief": "Sections: why observability bills explode (high-cardinality labels, debug logs, retained raw traces); tactics (tail-based trace sampling, log levels and drop rules, metric cardinality limits, tiered retention, moving to OTel Collector pipelines); what you can safely cut vs must keep for incidents; measuring the savings. Verify: tail-based sampling and cardinality cost drivers in 2026; OTel Collector processors. Sources: OpenTelemetry docs; observability-cost writeups. Distinct from 'Observability 101' and 'FinOps': focused on cutting telemetry cost."
-    },
-    {
-      "translationKey": "branching-preview-databases-pr-2026",
-      "category": "devops-cloud",
-      "titleTr": "Her PR için Dallanan Önizleme Veritabanları",
-      "titleEn": "Branching Preview Databases for Every PR",
-      "slugTr": "her-pr-icin-onizleme-veritabani",
-      "slugEn": "branching-preview-databases-every-pr",
-      "keywordTr": "önizleme veritabanı dallanma",
-      "keywordEn": "database branching preview environments",
-      "angle": "how-to|Give every pull request a real, isolated database using copy-on-write branching.",
-      "style": "field-notes",
-      "brief": "Sections: why shared staging DBs break preview envs; copy-on-write DB branching (Neon-style) and when to use snapshots/containers instead; wiring a branch-per-PR into CI with seed/anonymized data; cost and teardown; migration testing on a branch before merge. Verify: DB branching/copy-on-write approaches and data-masking in 2026; teardown automation. Sources: Neon/Postgres branching docs; preview-env writeups. Distinct from 'Preview Environments for Every PR' (app envs) and 'Database Backups': focused on per-PR database branching."
-    },
-    {
-      "translationKey": "gpu-cost-control-ai-workloads-2026",
-      "category": "devops-cloud",
-      "titleTr": "AI İş Yükleri için GPU Maliyetini Kontrol Et",
-      "titleEn": "Cut GPU Costs for AI Workloads: Spot and Scheduling",
-      "slugTr": "ai-is-yuku-gpu-maliyet-kontrol",
-      "slugEn": "cut-gpu-costs-ai-workloads",
-      "keywordTr": "gpu maliyet optimizasyonu ai",
-      "keywordEn": "gpu cost optimization ai workloads",
-      "angle": "how-to|Cut GPU spend for inference and training with spot, bin-packing and right-sizing.",
-      "style": "data-led",
-      "brief": "Sections: why GPU bills dominate AI infra; tactics (spot/preemptible with checkpointing, MIG/fractional GPUs, bin-packing and autoscaling to zero, batching and quantization, right-sizing model to hardware); queueing and scheduling for bursty jobs; measuring $/token and utilization. Verify: spot-GPU savings and interruption handling; MIG/fractional GPU and scale-to-zero in 2026. Sources: cloud GPU pricing docs; MLOps cost writeups. Distinct from 'Kubernetes Cost Optimization' and 'FinOps': GPU/AI-workload specific."
-    },
-    {
-      "translationKey": "gemini-canvas-dashboards-2026",
-      "category": "ai",
-      "titleTr": "Gemini Canvas ile Ham Veriden Canlı Panel",
-      "titleEn": "Build a Live Dashboard From Raw Data in Gemini",
-      "slugTr": "gemini-canvas-ham-veri-panel",
-      "slugEn": "gemini-canvas-dashboard-from-raw-data",
-      "keywordTr": "gemini canvas gösterge paneli",
-      "keywordEn": "gemini canvas dashboard",
-      "angle": "how-to|Turn messy raw data into an interactive dashboard with Gemini 3's Canvas.",
-      "style": "field-notes",
-      "brief": "Sections: what Canvas does (generate enterprise-quality interactive dashboards from unintuitive data); a walkthrough (upload raw data, prompt for tabs/sortable tables/trend views, refine); exporting or sharing; accuracy checks on AI-inferred metrics; when a real BI tool is still better. Verify: Gemini 3 Canvas dashboard capability and tiers (2026); export/share options. Sources: blog.google Gemini 3 examples; Gemini release notes. Distinct from 'Claude Artifacts pull live data via MCP': a Gemini Canvas how-to for non-analysts."
-    },
     {
       "translationKey": "reasoning-effort-controls-2026",
       "category": "ai",
