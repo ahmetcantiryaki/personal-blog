@@ -5448,6 +5448,66 @@
         "slug": "gemini-canvas-dashboard-from-raw-data",
         "title": "Build a Live Dashboard From Raw Data in Gemini"
       }
+    },
+    {
+      "translationKey": "claude-code-auto-mode-classifier-pricing-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-auto-mode-siniflandirici-ucreti-kalkti",
+        "title": "Claude Code Auto Mode Sınıflandırıcı Ücretini Kaldırdı"
+      },
+      "en": {
+        "slug": "claude-code-auto-mode-classifier-fees-removed",
+        "title": "Claude Code Drops Auto Mode Classifier Fees"
+      }
+    },
+    {
+      "translationKey": "reasoning-effort-controls-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "akil-yurutme-ayari-derin-dusun",
+        "title": "Akıl Yürütme Ayarı: Ne Zaman Derin Düşün?"
+      },
+      "en": {
+        "slug": "tune-reasoning-effort-claude-chatgpt-gemini",
+        "title": "Tune Reasoning Effort in Claude, ChatGPT, Gemini"
+      }
+    },
+    {
+      "translationKey": "fact-check-ai-assistant-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "ai-asistanini-dogrulama-kontrol-listesi",
+        "title": "AI Asistanını Doğrulama Kontrol Listesi"
+      },
+      "en": {
+        "slug": "fact-check-your-ai-assistant-checklist",
+        "title": "How to Fact-Check Your AI Assistant: A Checklist"
+      }
+    },
+    {
+      "translationKey": "claude-mythos-fable-safeguards-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-mythos-fable-guvenlik-katmani",
+        "title": "Claude Mythos ve Fable: Güvenlik Katmanı Farkı"
+      },
+      "en": {
+        "slug": "claude-mythos-vs-fable-safeguard-split",
+        "title": "Claude Mythos vs Fable: The Safeguard Split Explained"
+      }
+    },
+    {
+      "translationKey": "ai-building-itself-rnd-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "kendini-insa-eden-ai-claude-arge",
+        "title": "Kendini İnşa Eden AI: Claude Ar-Ge'nin %26'sını Yapıyor"
+      },
+      "en": {
+        "slug": "ai-building-itself-claude-26-percent-rnd",
+        "title": "AI That Builds Itself: Claude Now Does 26% of R&D"
+      }
     }
   ]
 }

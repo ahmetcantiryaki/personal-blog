@@ -2,58 +2,6 @@
   "updatedAt": "2026-09-20",
   "topics": [
     {
-      "translationKey": "reasoning-effort-controls-2026",
-      "category": "ai",
-      "titleTr": "Akıl Yürütme Ayarı: Ne Zaman Derin Düşün?",
-      "titleEn": "Tune Reasoning Effort in Claude, ChatGPT, Gemini",
-      "slugTr": "akil-yurutme-ayari-derin-dusun",
-      "slugEn": "tune-reasoning-effort-claude-chatgpt-gemini",
-      "keywordTr": "yapay zeka akıl yürütme ayarı",
-      "keywordEn": "ai reasoning effort settings",
-      "angle": "how-to|Use the new reasoning-effort controls to get better answers without burning tokens.",
-      "style": "question-driven",
-      "brief": "Sections: why 'think harder' isn't free (reasoning burns tokens/time/cost); the controls in 2026 (ChatGPT's reasoning-effort slider replacing Instant/Thinking; Gemini Deep Think levels; Claude extended thinking); a decision guide by task (quick lookup vs multi-step analysis vs coding); cost/latency tradeoffs and defaults. Verify: ChatGPT reasoning-effort slider (Aug/Sept 2026); Gemini Deep Think levels; Claude thinking controls. Sources: OpenAI/Gemini release notes; Claude docs. Distinct from the ChatGPT 'Thinking slider' news post: a cross-tool how-to on tuning effort and cost."
-    },
-    {
-      "translationKey": "fact-check-ai-assistant-2026",
-      "category": "ai",
-      "titleTr": "AI Asistanını Doğrulama Kontrol Listesi",
-      "titleEn": "How to Fact-Check Your AI Assistant: A Checklist",
-      "slugTr": "ai-asistanini-dogrulama-kontrol-listesi",
-      "slugEn": "fact-check-your-ai-assistant-checklist",
-      "keywordTr": "yapay zeka doğruluk kontrolü",
-      "keywordEn": "fact check ai assistant",
-      "angle": "checklist|A practical checklist for everyday users to catch AI hallucinations before they bite.",
-      "style": "question-driven",
-      "brief": "Sections: where assistants reliably make things up (citations, numbers, quotes, code APIs, legal/medical); the checklist (demand sources and open them, cross-check across tools, ask for uncertainty, verify quotes/figures at the primary source, beware confident specifics); prompts that reduce fabrication; tools with live search vs memory. Verify: hallucination patterns and citation-fabrication rates in 2026; grounding/search effects. Sources: model-eval and safety writeups; provider help docs. A consumer checklist distinct from the production 'reduce hallucinations' engineering post."
-    },
-    {
-      "translationKey": "claude-mythos-fable-safeguards-2026",
-      "category": "ai",
-      "titleTr": "Claude Mythos ve Fable: Guvenlik Katmani Farki",
-      "titleEn": "Claude Mythos vs Fable: The Safeguard Split Explained",
-      "slugTr": "claude-mythos-fable-guvenlik-katmani",
-      "slugEn": "claude-mythos-vs-fable-safeguard-split",
-      "keywordTr": "claude mythos nedir",
-      "keywordEn": "claude mythos vs fable",
-      "angle": "comparison|Explain why Anthropic ships two identical models with different safeguard tiers and who each is for.",
-      "style": "question-driven",
-      "brief": "Sections: what launched Sept 1 2026 (Fable 5.1 vs Mythos 5.1, same weights); the safeguard difference (Mythos gated to US Cyber and Life Sciences Verification Programs); why an AI lab splits a model by risk tier; who can actually access Mythos and how; what it signals about frontier-model governance. Key claims to verify: identical models/different safeguards; Fable on API/AWS/GCP/Azure; Mythos verification-only; the 75% cache-read price cut. Sources: Anthropic newsroom, releasebot Anthropic feed. Distinct from the existing Fable cache-pricing brief: this is about the safeguard/access split, not cost."
-    },
-    {
-      "translationKey": "ai-building-itself-rnd-2026",
-      "category": "ai",
-      "titleTr": "Kendini Insa Eden AI: Claude Ar-Ge'nin %26'sini Yapiyor",
-      "titleEn": "AI That Builds Itself: Claude Now Does 26% of R&D",
-      "slugTr": "kendini-insa-eden-ai-claude-arge",
-      "slugEn": "ai-building-itself-claude-26-percent-rnd",
-      "keywordTr": "yapay zeka kendini gelistiriyor",
-      "keywordEn": "ai self improvement claude rnd",
-      "angle": "deep-dive|Unpack Anthropic's claim that Claude runs a quarter of its own model R&D and what recursive self-improvement means.",
-      "style": "contrarian",
-      "brief": "Sections: the Sept 2026 claim (Claude leading ~26% of Anthropic's model R&D, completing tasks end-to-end under supervision); what 'end-to-end from a high-level prompt' actually covers vs the hype; the human-in-the-loop reality; the safety debate around recursive self-improvement; what it means for engineers' jobs. Key claims to verify: the 26% figure and its framing; human supervision limits. Sources: US News Sept 17 2026 report, Anthropic statements. Contrarian angle: separate a real workflow shift from AGI marketing."
-    },
-    {
       "translationKey": "alignment-evals-failing-2026",
       "category": "ai",
       "titleTr": "Hizalama Testleri Neden Yetersiz Kaliyor?",
