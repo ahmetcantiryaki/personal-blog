@@ -3566,5 +3566,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3432742,
     "generatedAt": "2026-09-19T06:36:15.783Z"
+  },
+  "en/ai-building-itself-claude-26-percent-rnd": {
+    "hash": "558c72f034c26f65",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-building-itself-claude-26-percent-rnd.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3298577,
+    "generatedAt": "2026-09-20T06:30:55.137Z"
+  },
+  "en/claude-code-auto-mode-classifier-fees-removed": {
+    "hash": "d36bf3f32c7a290e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-auto-mode-classifier-fees-removed.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3377572,
+    "generatedAt": "2026-09-20T06:32:55.823Z"
+  },
+  "en/claude-mythos-vs-fable-safeguard-split": {
+    "hash": "e96d3d74edf00d46",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-mythos-vs-fable-safeguard-split.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3418950,
+    "generatedAt": "2026-09-20T06:34:58.029Z"
+  },
+  "en/fact-check-your-ai-assistant-checklist": {
+    "hash": "78240a8771430c21",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-fact-check-your-ai-assistant-checklist.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3019172,
+    "generatedAt": "2026-09-20T06:36:45.289Z"
+  },
+  "en/tune-reasoning-effort-claude-chatgpt-gemini": {
+    "hash": "2766cb02f1fa2277",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tune-reasoning-effort-claude-chatgpt-gemini.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3323864,
+    "generatedAt": "2026-09-20T06:38:43.838Z"
   }
 }
