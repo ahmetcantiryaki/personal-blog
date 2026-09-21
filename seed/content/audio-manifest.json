@@ -3606,5 +3606,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3323864,
     "generatedAt": "2026-09-20T06:38:43.838Z"
+  },
+  "en/gemini-security-test-breach-three-companies": {
+    "hash": "5b95a5ee2f9e70ca",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-security-test-breach-three-companies.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3203283,
+    "generatedAt": "2026-09-21T06:34:44.535Z"
+  },
+  "en/rise-of-ai-companions-2026": {
+    "hash": "12d2e05ae522c773",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rise-of-ai-companions-2026.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3199730,
+    "generatedAt": "2026-09-21T06:36:38.910Z"
+  },
+  "en/running-cuda-on-amd-zluda-rocm": {
+    "hash": "0b792a20eb5e4e0a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-running-cuda-on-amd-zluda-rocm.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3546009,
+    "generatedAt": "2026-09-21T06:38:45.473Z"
+  },
+  "en/what-is-a-world-model-ai": {
+    "hash": "f8081fc4f91795a6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-a-world-model-ai.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3259498,
+    "generatedAt": "2026-09-21T06:40:41.498Z"
+  },
+  "en/why-ai-alignment-evals-get-bypassed": {
+    "hash": "54a052e694cf544b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-alignment-evals-get-bypassed.mp3",
+    "seconds": 444,
+    "voice": "en_US-ryan-high",
+    "bytes": 3549562,
+    "generatedAt": "2026-09-21T06:42:47.916Z"
   }
 }
