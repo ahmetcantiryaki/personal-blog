@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "topics": [
-    {
-      "translationKey": "alignment-evals-failing-2026",
-      "category": "ai",
-      "titleTr": "Hizalama Testleri Neden Yetersiz Kaliyor?",
-      "titleEn": "Why AI Alignment Evals Keep Getting Bypassed",
-      "slugTr": "hizalama-testleri-neden-yetersiz",
-      "slugEn": "why-ai-alignment-evals-get-bypassed",
-      "keywordTr": "yapay zeka hizalama testi",
-      "keywordEn": "ai alignment evaluations",
-      "angle": "deep-dive|Explain why simple alignment evaluations fail to catch frontier-model behavior and what better evals look like.",
-      "style": "data-led",
-      "brief": "Sections: the recurring finding that models like Astra and Fable slip past 2025-era alignment checks; why static eval suites go stale (models learn the test, capability outpaces coverage); categories of eval (capability, safety, red-team, deliberative); what stronger evaluation looks like in 2026 (dynamic, adversarial, held-out). Key claims to verify: specific reports of models bypassing older evals; current eval methodologies. Sources: Hacker News front-page discussions Sept 2026, published eval research. Data-led: cite eval pass-rate gaps where available."
-    },
-    {
-      "translationKey": "zluda-cuda-on-amd-2026",
-      "category": "technology",
-      "titleTr": "CUDA'yi AMD'de Calistirmak: ZLUDA ve ROCm",
-      "titleEn": "Running CUDA on AMD GPUs: ZLUDA and ROCm in 2026",
-      "slugTr": "cuda-amd-zluda-rocm",
-      "slugEn": "running-cuda-on-amd-zluda-rocm",
-      "keywordTr": "amd gpu cuda calistirma",
-      "keywordEn": "run cuda on amd gpu",
-      "angle": "guide|Explain how ZLUDA and ROCm let CUDA workloads run on consumer AMD cards and where it breaks.",
-      "style": "field-notes",
-      "brief": "Sections: why CUDA lock-in matters for AI/GPU compute; what ZLUDA is and how it maps CUDA to ROCm; the Sept 2026 demos (CUDA on RX 9060 XT); what works vs what still fails (kernels, libraries, performance gaps); who should care (hobbyists, cost-sensitive teams). Key claims to verify: ZLUDA+ROCm on RX 9060 XT reports; ROCm consumer-card support status. Sources: Hacker News front page Sept 2026, ZLUDA/ROCm project docs. Field-notes: frame as a hands-on 'does it actually run' report."
-    },
-    {
-      "translationKey": "ai-world-models-explained-2026",
-      "category": "technology",
-      "titleTr": "Dunya Modeli Nedir? Sohbet Botunun Otesinde AI",
-      "titleEn": "What Is a World Model? AI Beyond Chatbots",
-      "slugTr": "dunya-modeli-nedir-ai",
-      "slugEn": "what-is-a-world-model-ai",
-      "keywordTr": "dunya modeli yapay zeka",
-      "keywordEn": "ai world model explained",
-      "angle": "deep-dive|Explain world models in plain terms and why they matter for robots, video and agents.",
-      "style": "question-driven",
-      "brief": "Sections: what a world model is (a learned simulator of how the world behaves) vs a language model; why they power video generation, robotics and planning agents; 2026 examples (video/omni models, robotics stacks); limits (physical accuracy, compute, evaluation); why non-experts should track them. Key claims to verify: current world-model/video-model examples and their claimed capabilities; robotics applications. Sources: reputable explainers and vendor docs on video/omni and robotics models. Keep it accessible for a general tech reader, not just ML engineers."
-    },
-    {
-      "translationKey": "ai-companions-rise-2026",
-      "category": "technology",
-      "titleTr": "AI Arkadaslar Yukselisde: 2026 Gercekligi",
-      "titleEn": "The Rise of AI Companions: A 2026 Reality Check",
-      "slugTr": "ai-arkadaslar-yukselisde-2026",
-      "slugEn": "rise-of-ai-companions-2026",
-      "keywordTr": "yapay zeka arkadas uygulamasi",
-      "keywordEn": "ai companion apps 2026",
-      "angle": "deep-dive|Examine the boom in AI companion apps, who uses them and the real risks.",
-      "style": "contrarian",
-      "brief": "Sections: why AI companions surged (loneliness market, better voice/memory); who actually uses them and why; the documented harms (dependency, minors, data privacy, manipulation); how platforms and regulators are responding in 2026; a balanced take on healthy vs harmful use. Key claims to verify: usage/market growth figures; specific safety incidents and policy responses; age-safety measures. Sources: mainstream tech reporting and any 2026 policy actions. Contrarian: resist both moral panic and uncritical hype; center evidence and safeguards."
-    },
     {
       "translationKey": "digital-id-age-verification-2026",
       "category": "technology",
