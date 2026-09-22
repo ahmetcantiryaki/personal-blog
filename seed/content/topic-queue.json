@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "topics": [
-    {
-      "translationKey": "digital-id-age-verification-2026",
-      "category": "technology",
-      "titleTr": "Dijital Kimlik ve Yas Dogrulama: 2026'da Neler Degisti?",
-      "titleEn": "Digital ID and Age Checks: What Changed in 2026",
-      "slugTr": "dijital-kimlik-yas-dogrulama-2026",
-      "slugEn": "digital-id-age-verification-2026",
-      "keywordTr": "cevrimici yas dogrulama",
-      "keywordEn": "online age verification laws",
-      "angle": "deep-dive|Explain the spread of online age-verification and digital-ID rules and what they mean for users.",
-      "style": "data-led",
-      "brief": "Sections: the wave of 2026 age-verification and digital-ID laws across regions; how verification actually works (age estimation, ID upload, wallet-based proofs); the privacy tradeoffs (data collection, chilling effects, leaks); what it means for everyday users and small sites that must comply; privacy-preserving approaches (zero-knowledge age proofs). Key claims to verify: which jurisdictions enacted rules in 2026; verification methods and their accuracy/privacy record. Sources: policy trackers and reputable reporting. Data-led: summarize the legal landscape concretely."
-    },
-    {
-      "translationKey": "claude-small-business-workflows-2026",
-      "category": "business",
-      "titleTr": "Kucuk Isletmeler Icin Claude: 43 Is Akisi, 27 Entegrasyon",
-      "titleEn": "Claude for Small Business: 43 Workflows, 27 Connectors",
-      "slugTr": "kucuk-isletmeler-icin-claude-workflow",
-      "slugEn": "claude-for-small-business-workflows",
-      "keywordTr": "kucuk isletme icin claude",
-      "keywordEn": "claude for small business",
-      "angle": "how-to|Show a small-business owner how to automate real back-office and sales tasks with Claude's SMB plugin.",
-      "style": "field-notes",
-      "brief": "Sections: what the Sept 15 2026 update added (43 workflows, 27 connectors incl. Shopify, Salesforce, Xero, Square, Stripe, Zapier); how it runs in Claude (install the SMB plugin, /smb-onboard, connect tools, schedule tasks); three high-value workflows to set up first (weekly financial brief, lead qualification, proposal drafting); the approval-based guardrails before actions execute; limits and costs. Key claims to verify: workflow/connector counts, install numbers, approval controls. Sources: Anthropic SMB blog post, Unite.AI coverage Sept 2026. Field-notes: walk through one real setup."
-    },
-    {
-      "translationKey": "vertical-ai-agents-playbook-2026",
-      "category": "business",
-      "titleTr": "Dikey AI Ajanlari: Niste Kazanan Kurucu Oyun Plani",
-      "titleEn": "Vertical AI Agents: The Niche Founder's Playbook",
-      "slugTr": "dikey-ai-ajanlari-kurucu-oyun-plani",
-      "slugEn": "vertical-ai-agents-founder-playbook",
-      "keywordTr": "dikey yapay zeka ajani",
-      "keywordEn": "vertical ai agent startup",
-      "angle": "guide|Show why domain-specific back-office agents beat generic wrappers and how to build one.",
-      "style": "contrarian",
-      "brief": "Sections: why vertical back-office agents (contract review for small law firms, scheduling/billing for clinics, claims triage, parts procurement) are the durable AI-agent bet in 2026; why domain expertise beats AI expertise; the supervised-chain design (AI does the repetitive layer, humans sign off on money/legal/brand moments); pricing tied to outcomes, not tokens; a validation checklist. Key claims to verify: market sizing and shutdown stats; supervised-chain best practice. Sources: 2026 AI-agent trend reports (ByteByteGo/IBM/Info-Tech style), founder case studies. Contrarian: the moat is the workflow, not the model."
-    },
-    {
-      "translationKey": "ai-agent-startup-graveyard-2026",
-      "category": "business",
-      "titleTr": "AI Ajan Girisimleri Neden Batti? 3.800 Kapanis",
-      "titleEn": "Why 3,800 AI Agent Startups Shut Down",
-      "slugTr": "ai-ajan-girisimleri-neden-batti",
-      "slugEn": "why-ai-agent-startups-shut-down",
-      "keywordTr": "yapay zeka girisimi neden basarisiz",
-      "keywordEn": "why ai startups fail 2026",
-      "angle": "mistakes|Diagnose the common failure patterns behind the wave of dead AI agent startups.",
-      "style": "data-led",
-      "brief": "Sections: the numbers (thousands of AI agent startups shut down in 2025-2026 against a fast-growing market); the recurring failure modes (thin wrappers, no data moat, no distribution, unit economics broken by token costs, buyers not ready); who survived and why (vertical focus, proprietary data, outcome pricing); a pre-launch reality-check list. Key claims to verify: shutdown counts and market-size figures ($8.5B->$52.6B range); named failure causes. Sources: 2026 startup/AI trend roundups. Data-led: lead with the failure statistics and cost math."
-    },
     {
       "translationKey": "founder-ai-legal-checklist-2026",
       "category": "business",

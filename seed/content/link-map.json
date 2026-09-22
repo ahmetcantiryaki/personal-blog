@@ -5568,6 +5568,66 @@
         "slug": "running-cuda-on-amd-zluda-rocm",
         "title": "Running CUDA on AMD GPUs: ZLUDA and ROCm in 2026"
       }
+    },
+    {
+      "translationKey": "claude-code-projects-parallel-sessions-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-projects-paralel-oturumlar",
+        "title": "Claude Code Projects Nedir? Paralel Bulut Oturumları"
+      },
+      "en": {
+        "slug": "claude-code-projects-parallel-cloud-sessions",
+        "title": "What Is Claude Code Projects? Parallel Cloud Sessions"
+      }
+    },
+    {
+      "translationKey": "digital-id-age-verification-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "dijital-kimlik-yas-dogrulama-2026",
+        "title": "Dijital Kimlik ve Yaş Doğrulama: 2026'da Neler Değişti?"
+      },
+      "en": {
+        "slug": "digital-id-age-verification-2026",
+        "title": "Digital ID and Age Checks: What Changed in 2026"
+      }
+    },
+    {
+      "translationKey": "claude-small-business-workflows-2026",
+      "category": "business",
+      "tr": {
+        "slug": "kucuk-isletmeler-icin-claude-workflow",
+        "title": "Küçük İşletmeler İçin Claude: 43 İş Akışı, 27 Entegrasyon"
+      },
+      "en": {
+        "slug": "claude-for-small-business-workflows",
+        "title": "Claude for Small Business: 43 Workflows, 27 Connectors"
+      }
+    },
+    {
+      "translationKey": "vertical-ai-agents-playbook-2026",
+      "category": "business",
+      "tr": {
+        "slug": "dikey-ai-ajanlari-kurucu-oyun-plani",
+        "title": "Dikey AI Ajanları: Nişte Kazanan Kurucu Oyun Planı"
+      },
+      "en": {
+        "slug": "vertical-ai-agents-founder-playbook",
+        "title": "Vertical AI Agents: The Niche Founder's Playbook"
+      }
+    },
+    {
+      "translationKey": "ai-agent-startup-graveyard-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ajan-girisimleri-neden-batti",
+        "title": "AI Ajan Girişimleri Neden Battı? 3.800 Kapanış"
+      },
+      "en": {
+        "slug": "why-ai-agent-startups-shut-down",
+        "title": "Why 3,800 AI Agent Startups Shut Down"
+      }
     }
   ]
 }
