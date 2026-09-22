@@ -3646,5 +3646,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3549562,
     "generatedAt": "2026-09-21T06:42:47.916Z"
+  },
+  "en/claude-code-projects-parallel-cloud-sessions": {
+    "hash": "7aa9a9212b133aa6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-projects-parallel-cloud-sessions.mp3",
+    "seconds": 447,
+    "voice": "en_US-ryan-high",
+    "bytes": 3577147,
+    "generatedAt": "2026-09-22T06:26:22.312Z"
+  },
+  "en/claude-for-small-business-workflows": {
+    "hash": "82d225cea922bf55",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-for-small-business-workflows.mp3",
+    "seconds": 491,
+    "voice": "en_US-ryan-high",
+    "bytes": 3928860,
+    "generatedAt": "2026-09-22T06:29:20.596Z"
+  },
+  "en/digital-id-age-verification-2026": {
+    "hash": "f99c1097c1541cd1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-digital-id-age-verification-2026.mp3",
+    "seconds": 530,
+    "voice": "en_US-ryan-high",
+    "bytes": 4239404,
+    "generatedAt": "2026-09-22T06:32:32.996Z"
+  },
+  "en/vertical-ai-agents-founder-playbook": {
+    "hash": "8ba3765f3646462f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-vertical-ai-agents-founder-playbook.mp3",
+    "seconds": 500,
+    "voice": "en_US-ryan-high",
+    "bytes": 4001376,
+    "generatedAt": "2026-09-22T06:35:37.326Z"
+  },
+  "en/why-ai-agent-startups-shut-down": {
+    "hash": "0af1769318c9e9cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-agent-startups-shut-down.mp3",
+    "seconds": 567,
+    "voice": "en_US-ryan-high",
+    "bytes": 4538871,
+    "generatedAt": "2026-09-22T06:39:03.444Z"
   }
 }
