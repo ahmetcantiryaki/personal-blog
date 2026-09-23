@@ -3686,5 +3686,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4538871,
     "generatedAt": "2026-09-22T06:39:03.444Z"
+  },
+  "en/aeo-vs-seo-vs-geo-difference": {
+    "hash": "1a37c57984ff0e16",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-aeo-vs-seo-vs-geo-difference.mp3",
+    "seconds": 508,
+    "voice": "en_US-ryan-high",
+    "bytes": 4068040,
+    "generatedAt": "2026-09-23T06:30:24.889Z"
+  },
+  "en/claude-opus-5-5-pricing-benchmarks": {
+    "hash": "50005217ce6d62d8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-opus-5-5-pricing-benchmarks.mp3",
+    "seconds": 505,
+    "voice": "en_US-ryan-high",
+    "bytes": 4037529,
+    "generatedAt": "2026-09-23T06:33:30.068Z"
+  },
+  "en/decision-grade-content-ai-recommends": {
+    "hash": "5d08c45abc472201",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-decision-grade-content-ai-recommends.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3686861,
+    "generatedAt": "2026-09-23T06:36:16.800Z"
+  },
+  "en/founder-legal-checklist-shipping-ai": {
+    "hash": "63109f0e28553741",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-founder-legal-checklist-shipping-ai.mp3",
+    "seconds": 518,
+    "voice": "en_US-ryan-high",
+    "bytes": 4142019,
+    "generatedAt": "2026-09-23T06:39:25.587Z"
+  },
+  "en/synthetic-share-of-voice-ai-visibility": {
+    "hash": "237b8b3fa4604a89",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-synthetic-share-of-voice-ai-visibility.mp3",
+    "seconds": 512,
+    "voice": "en_US-ryan-high",
+    "bytes": 4100014,
+    "generatedAt": "2026-09-23T06:42:32.497Z"
   }
 }
