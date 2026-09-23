@@ -122,6 +122,18 @@
       }
     },
     {
+      "translationKey": "aeo-seo-geo-difference-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "aeo-seo-geo-farki-nedir",
+        "title": "AEO, SEO ve GEO Farkı Nedir? 2026 Rehberi"
+      },
+      "en": {
+        "slug": "aeo-vs-seo-vs-geo-difference",
+        "title": "AEO vs SEO vs GEO: What's the Difference in 2026?"
+      }
+    },
+    {
       "translationKey": "affiliate-marketing-ai-2026",
       "category": "digital-marketing",
       "tr": {
@@ -227,6 +239,18 @@
       "en": {
         "slug": "ai-agent-memory-systems",
         "title": "AI Agent Memory: Short-Term to Long-Term"
+      }
+    },
+    {
+      "translationKey": "ai-agent-startup-graveyard-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-ajan-girisimleri-neden-batti",
+        "title": "AI Ajan Girişimleri Neden Battı? 3.800 Kapanış"
+      },
+      "en": {
+        "slug": "why-ai-agent-startups-shut-down",
+        "title": "Why 3,800 AI Agent Startups Shut Down"
       }
     },
     {
@@ -1574,6 +1598,18 @@
       }
     },
     {
+      "translationKey": "claude-code-projects-parallel-sessions-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-projects-paralel-oturumlar",
+        "title": "Claude Code Projects Nedir? Paralel Bulut Oturumları"
+      },
+      "en": {
+        "slug": "claude-code-projects-parallel-cloud-sessions",
+        "title": "What Is Claude Code Projects? Parallel Cloud Sessions"
+      }
+    },
+    {
       "translationKey": "claude-code-restricted-mode",
       "category": "ai",
       "tr": {
@@ -1910,6 +1946,18 @@
       }
     },
     {
+      "translationKey": "claude-opus-5-5-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-opus-5-5-nedir-fiyat-benchmark",
+        "title": "Claude Opus 5.5 Nedir? Fiyat ve Benchmark Karşılaştırması"
+      },
+      "en": {
+        "slug": "claude-opus-5-5-pricing-benchmarks",
+        "title": "What Is Claude Opus 5.5? Pricing and Benchmarks"
+      }
+    },
+    {
       "translationKey": "claude-opus-5-launch",
       "category": "ai",
       "tr": {
@@ -1991,6 +2039,18 @@
       "en": {
         "slug": "claude-skills-explained-for-everyone",
         "title": "Claude Skills Explained: A Guide for Everyone"
+      }
+    },
+    {
+      "translationKey": "claude-small-business-workflows-2026",
+      "category": "business",
+      "tr": {
+        "slug": "kucuk-isletmeler-icin-claude-workflow",
+        "title": "Küçük İşletmeler İçin Claude: 43 İş Akışı, 27 Entegrasyon"
+      },
+      "en": {
+        "slug": "claude-for-small-business-workflows",
+        "title": "Claude for Small Business: 43 Workflows, 27 Connectors"
       }
     },
     {
@@ -2342,6 +2402,18 @@
       }
     },
     {
+      "translationKey": "decision-grade-content-ai-search-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "karar-verdiren-icerik-ai-onerisi",
+        "title": "Karar Verdiren İçerik: AI'nın Önerdiği Sayfalar"
+      },
+      "en": {
+        "slug": "decision-grade-content-ai-recommends",
+        "title": "Decision-Grade Content: Pages AI Actually Recommends"
+      }
+    },
+    {
       "translationKey": "deep-research-showdown-2026",
       "category": "career-productivity",
       "tr": {
@@ -2411,6 +2483,18 @@
       "en": {
         "slug": "developer-salary-negotiation-2026",
         "title": "Salary Negotiation for Developers in 2026"
+      }
+    },
+    {
+      "translationKey": "digital-id-age-verification-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "dijital-kimlik-yas-dogrulama-2026",
+        "title": "Dijital Kimlik ve Yaş Doğrulama: 2026'da Neler Değişti?"
+      },
+      "en": {
+        "slug": "digital-id-age-verification-2026",
+        "title": "Digital ID and Age Checks: What Changed in 2026"
       }
     },
     {
@@ -2747,6 +2831,18 @@
       "en": {
         "slug": "foldable-phones-worth-it-2026",
         "title": "Foldable Phones in 2026: Finally Worth It?"
+      }
+    },
+    {
+      "translationKey": "founder-ai-legal-checklist-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ai-urunu-cikaran-kurucu-hukuki-liste",
+        "title": "AI Ürünü Çıkaran Kurucunun Hukuki Kontrol Listesi"
+      },
+      "en": {
+        "slug": "founder-legal-checklist-shipping-ai",
+        "title": "The Founder's Legal Checklist for Shipping AI"
       }
     },
     {
@@ -4994,6 +5090,18 @@
       }
     },
     {
+      "translationKey": "synthetic-share-of-voice-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "sentetik-ses-payi-ai-arama-olcum",
+        "title": "Sentetik Ses Payı: AI Aramada Görünürlüğünü Ölç"
+      },
+      "en": {
+        "slug": "synthetic-share-of-voice-ai-visibility",
+        "title": "Synthetic Share of Voice: Measure Your AI Visibility"
+      }
+    },
+    {
       "translationKey": "system-design-interview",
       "category": "software-engineering",
       "tr": {
@@ -5282,6 +5390,18 @@
       }
     },
     {
+      "translationKey": "vertical-ai-agents-playbook-2026",
+      "category": "business",
+      "tr": {
+        "slug": "dikey-ai-ajanlari-kurucu-oyun-plani",
+        "title": "Dikey AI Ajanları: Nişte Kazanan Kurucu Oyun Planı"
+      },
+      "en": {
+        "slug": "vertical-ai-agents-founder-playbook",
+        "title": "Vertical AI Agents: The Niche Founder's Playbook"
+      }
+    },
+    {
       "translationKey": "view-transitions-api-guide",
       "category": "web-development",
       "tr": {
@@ -5567,66 +5687,6 @@
       "en": {
         "slug": "running-cuda-on-amd-zluda-rocm",
         "title": "Running CUDA on AMD GPUs: ZLUDA and ROCm in 2026"
-      }
-    },
-    {
-      "translationKey": "claude-code-projects-parallel-sessions-2026",
-      "category": "ai",
-      "tr": {
-        "slug": "claude-code-projects-paralel-oturumlar",
-        "title": "Claude Code Projects Nedir? Paralel Bulut Oturumları"
-      },
-      "en": {
-        "slug": "claude-code-projects-parallel-cloud-sessions",
-        "title": "What Is Claude Code Projects? Parallel Cloud Sessions"
-      }
-    },
-    {
-      "translationKey": "digital-id-age-verification-2026",
-      "category": "technology",
-      "tr": {
-        "slug": "dijital-kimlik-yas-dogrulama-2026",
-        "title": "Dijital Kimlik ve Yaş Doğrulama: 2026'da Neler Değişti?"
-      },
-      "en": {
-        "slug": "digital-id-age-verification-2026",
-        "title": "Digital ID and Age Checks: What Changed in 2026"
-      }
-    },
-    {
-      "translationKey": "claude-small-business-workflows-2026",
-      "category": "business",
-      "tr": {
-        "slug": "kucuk-isletmeler-icin-claude-workflow",
-        "title": "Küçük İşletmeler İçin Claude: 43 İş Akışı, 27 Entegrasyon"
-      },
-      "en": {
-        "slug": "claude-for-small-business-workflows",
-        "title": "Claude for Small Business: 43 Workflows, 27 Connectors"
-      }
-    },
-    {
-      "translationKey": "vertical-ai-agents-playbook-2026",
-      "category": "business",
-      "tr": {
-        "slug": "dikey-ai-ajanlari-kurucu-oyun-plani",
-        "title": "Dikey AI Ajanları: Nişte Kazanan Kurucu Oyun Planı"
-      },
-      "en": {
-        "slug": "vertical-ai-agents-founder-playbook",
-        "title": "Vertical AI Agents: The Niche Founder's Playbook"
-      }
-    },
-    {
-      "translationKey": "ai-agent-startup-graveyard-2026",
-      "category": "business",
-      "tr": {
-        "slug": "ai-ajan-girisimleri-neden-batti",
-        "title": "AI Ajan Girişimleri Neden Battı? 3.800 Kapanış"
-      },
-      "en": {
-        "slug": "why-ai-agent-startups-shut-down",
-        "title": "Why 3,800 AI Agent Startups Shut Down"
       }
     }
   ]
