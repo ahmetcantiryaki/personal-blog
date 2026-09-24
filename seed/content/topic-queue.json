@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-24",
   "topics": [
-    {
-      "translationKey": "npm-12-security-defaults-2026",
-      "category": "devops-cloud",
-      "titleTr": "npm 12 Guvenligi: Kurulum Betikleri Artik Varsayilan Kapali",
-      "titleEn": "npm 12 Security: Install Scripts Off by Default",
-      "slugTr": "npm-12-guvenlik-kurulum-betikleri",
-      "slugEn": "npm-12-security-install-scripts-default",
-      "keywordTr": "npm 12 guvenlik ayarlari",
-      "keywordEn": "npm 12 security install scripts",
-      "angle": "guide|Walk teams through npm 12's breaking security changes and how to adapt CI and installs.",
-      "style": "field-notes",
-      "brief": "Sections: why npm supply-chain attacks (Axios credential theft, ChainDrop worm, 400+ compromised packages) forced change; what npm 12 (July 2026) changed (install scripts blocked by default, other breaking defaults); how to migrate CI/build pipelines that relied on postinstall; layered defenses (lockfile committed, version pinning, provenance, 2FA/passkeys, minimal-permission tokens); when to switch to pnpm/Yarn Berry/Bun. Key claims to verify: npm 12 breaking changes and dates; the named 2025-2026 attacks. Sources: npm release notes, Unit42/Microsoft supply-chain writeups. Field-notes: a real migration checklist."
-    },
-    {
-      "translationKey": "llm-inference-gateway-2026",
-      "category": "devops-cloud",
-      "titleTr": "LLM Ag Gecidi: Uretimde Model Yonlendirme",
-      "titleEn": "LLM Gateways: Routing Models in Production",
-      "slugTr": "llm-ag-gecidi-model-yonlendirme",
-      "slugEn": "llm-gateways-routing-models-production",
-      "keywordTr": "llm ag gecidi nedir",
-      "keywordEn": "llm gateway model routing",
-      "angle": "how-to|Show how to put a gateway in front of multiple LLM providers for routing, cost control and failover.",
-      "style": "story-led",
-      "brief": "Sections: why teams add an LLM gateway (multi-provider routing, failover across Claude/GPT/Gemini, cost caps, caching, rate limits, key management, observability); reference architecture; open-source vs managed options; routing strategies (by task, cost, latency, quality); rollout pitfalls (added latency, single point of failure, prompt-cache invalidation). Key claims to verify: current gateway/router tooling and features; caching/cost-control mechanics. Sources: gateway project docs, production LLM-ops writeups. Distinct from the existing LLM-observability brief: this is the routing/gateway layer, not tracing."
-    },
-    {
-      "translationKey": "zero-trust-small-teams-tailscale-2026",
-      "category": "devops-cloud",
-      "titleTr": "Kucuk Ekipler Icin Sifir Guven Ag: Tailscale ve Otesi",
-      "titleEn": "Zero-Trust Networking for Small Teams in 2026",
-      "slugTr": "kucuk-ekip-sifir-guven-ag-tailscale",
-      "slugEn": "zero-trust-networking-small-teams",
-      "keywordTr": "sifir guven ag kucuk ekip",
-      "keywordEn": "zero trust networking small teams",
-      "angle": "guide|Show a small team how to replace the VPN with an identity-based mesh network.",
-      "style": "field-notes",
-      "brief": "Sections: why the flat-VPN model fails (lateral movement, over-broad access); zero-trust basics (identity per device/user, least privilege, per-service access); building a mesh with WireGuard-based tools (Tailscale/Headscale and alternatives); access control lists, SSO, device posture, audit; migrating from a legacy VPN without downtime. Key claims to verify: current zero-trust mesh tooling and ACL/SSO features; WireGuard fundamentals. Sources: vendor docs and independent zero-trust guides. Field-notes: a real small-team rollout with gotchas."
-    },
-    {
-      "translationKey": "property-based-testing-2026",
-      "category": "software-engineering",
-      "titleTr": "Ozellik Tabanli Test: Aklina Gelmeyen Hatalari Bul",
-      "titleEn": "Property-Based Testing: Find Bugs You Didn't Expect",
-      "slugTr": "ozellik-tabanli-test-hata-bulma",
-      "slugEn": "property-based-testing-find-bugs",
-      "keywordTr": "ozellik tabanli test nedir",
-      "keywordEn": "property based testing guide",
-      "angle": "how-to|Teach property-based testing with practical examples and when to reach for it.",
-      "style": "story-led",
-      "brief": "Sections: what property-based testing is (assert invariants, let the framework generate inputs) vs example-based tests; a worked example (roundtrip encode/decode, sorting invariants); shrinking and why it matters; picking properties that catch real bugs; tooling across languages (Hypothesis, fast-check, jqwik); where it fits alongside unit and contract tests. Key claims to verify: framework capabilities (shrinking, stateful testing). Sources: framework docs and canonical PBT writeups. Distinct from existing unit-test and contract-testing briefs: this is the generative/invariant approach. Story-led: a bug PBT caught that examples missed."
-    },
     {
       "translationKey": "reviewing-ai-generated-prs-2026",
       "category": "software-engineering",

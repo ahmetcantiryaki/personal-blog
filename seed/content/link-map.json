@@ -5688,6 +5688,66 @@
         "slug": "running-cuda-on-amd-zluda-rocm",
         "title": "Running CUDA on AMD GPUs: ZLUDA and ROCm in 2026"
       }
+    },
+    {
+      "translationKey": "claude-inline-tools-prompt-cache-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-inline-tools-nedir",
+        "title": "Claude Inline Tools Nedir? Cache Bozulmadan Araç Ekleme"
+      },
+      "en": {
+        "slug": "claude-inline-tools-explained",
+        "title": "What Are Claude's Inline Tools? Add Tools Without Cache Loss"
+      }
+    },
+    {
+      "translationKey": "npm-12-security-defaults-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "npm-12-guvenlik-kurulum-betikleri",
+        "title": "npm 12 Güvenliği: Kurulum Betikleri Artık Varsayılan Kapalı"
+      },
+      "en": {
+        "slug": "npm-12-security-install-scripts-default",
+        "title": "npm 12 Security: Install Scripts Off by Default"
+      }
+    },
+    {
+      "translationKey": "llm-inference-gateway-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "llm-ag-gecidi-model-yonlendirme",
+        "title": "LLM Ağ Geçidi Nedir? Üretimde Model Yönlendirme"
+      },
+      "en": {
+        "slug": "llm-gateways-routing-models-production",
+        "title": "What Is an LLM Gateway? Routing Models in Production"
+      }
+    },
+    {
+      "translationKey": "zero-trust-small-teams-tailscale-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kucuk-ekip-sifir-guven-ag-tailscale",
+        "title": "Küçük Ekipler İçin Sıfır Güven Ağ: Tailscale ve Ötesi"
+      },
+      "en": {
+        "slug": "zero-trust-networking-small-teams",
+        "title": "Zero-Trust Networking for Small Teams in 2026"
+      }
+    },
+    {
+      "translationKey": "property-based-testing-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ozellik-tabanli-test-hata-bulma",
+        "title": "Özellik Tabanlı Test: Aklına Gelmeyen Hataları Bul"
+      },
+      "en": {
+        "slug": "property-based-testing-find-bugs",
+        "title": "Property-Based Testing: Find Bugs You Didn't Expect"
+      }
     }
   ]
 }
