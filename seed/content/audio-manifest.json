@@ -3726,5 +3726,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4100014,
     "generatedAt": "2026-09-23T06:42:32.497Z"
+  },
+  "en/claude-inline-tools-explained": {
+    "hash": "a7ff3cf0b3c2e110",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-inline-tools-explained.mp3",
+    "seconds": 406,
+    "voice": "en_US-ryan-high",
+    "bytes": 3249467,
+    "generatedAt": "2026-09-24T06:40:17.708Z"
+  },
+  "en/llm-gateways-routing-models-production": {
+    "hash": "13566f2736c89892",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-llm-gateways-routing-models-production.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3259289,
+    "generatedAt": "2026-09-24T06:42:36.834Z"
+  },
+  "en/npm-12-security-install-scripts-default": {
+    "hash": "f6f1c5bc05b76ffc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-npm-12-security-install-scripts-default.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3296697,
+    "generatedAt": "2026-09-24T06:44:57.711Z"
+  },
+  "en/property-based-testing-find-bugs": {
+    "hash": "c161360e5ba4100d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-property-based-testing-find-bugs.mp3",
+    "seconds": 401,
+    "voice": "en_US-ryan-high",
+    "bytes": 3211224,
+    "generatedAt": "2026-09-24T06:47:14.652Z"
+  },
+  "en/zero-trust-networking-small-teams": {
+    "hash": "f183827d636a11c4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-zero-trust-networking-small-teams.mp3",
+    "seconds": 397,
+    "voice": "en_US-ryan-high",
+    "bytes": 3176742,
+    "generatedAt": "2026-09-24T06:49:30.142Z"
   }
 }
