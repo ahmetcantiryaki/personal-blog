@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "topics": [
-    {
-      "translationKey": "reviewing-ai-generated-prs-2026",
-      "category": "software-engineering",
-      "titleTr": "AI'nin Yazdigi PR'lari Incelemek: Insan Kontrol Listesi",
-      "titleEn": "Reviewing AI-Generated Pull Requests: A Checklist",
-      "slugTr": "ai-yazdigi-pr-inceleme-listesi",
-      "slugEn": "reviewing-ai-generated-pull-requests",
-      "keywordTr": "yapay zeka pr inceleme",
-      "keywordEn": "review ai generated pull requests",
-      "angle": "checklist|Give reviewers a checklist for safely merging code written by AI agents.",
-      "style": "contrarian",
-      "brief": "Sections: why AI-authored PRs need a different review lens (plausible-but-wrong code, silent scope creep, hidden dependencies, fabricated tests, license/security risks); a concrete review checklist (verify the diff does what the description says, run the tests, check edge cases and error paths, scan new deps, look for deleted safeguards); how to keep humans accountable as AI writes more code; team norms and CI gates. Key claims to verify: common AI-code failure modes; the rise of AI-authored PRs. Sources: engineering blogs on AI code review, 2026 reports on AI in R&D. Contrarian: 'the AI wrote it' is not a reason to trust it."
-    },
-    {
-      "translationKey": "backpressure-load-shedding-2026",
-      "category": "software-engineering",
-      "titleTr": "Geri Basinc ve Yuk Atma: Servisi Ayakta Tutmak",
-      "titleEn": "Backpressure and Load Shedding: Survive Overload",
-      "slugTr": "geri-basinc-yuk-atma-servis",
-      "slugEn": "backpressure-and-load-shedding",
-      "keywordTr": "geri basinc yuk atma",
-      "keywordEn": "backpressure load shedding",
-      "angle": "deep-dive|Explain how services stay alive under overload with backpressure and load shedding.",
-      "style": "story-led",
-      "brief": "Sections: what happens when demand exceeds capacity (queues grow, latency explodes, cascading failure); backpressure (signal upstream to slow down, bounded queues, flow control); load shedding (drop or degrade low-priority work, admission control, prioritization); patterns (token buckets at the edge, deadlines/timeouts, brownout mode); observability signals to watch. Key claims to verify: mechanics of bounded queues, deadline propagation, admission control. Sources: SRE/queueing-theory references and resilience engineering writeups. Distinct from existing rate-limiting and retries/circuit-breaker briefs: focus on overload survival. Story-led: an outage that shedding would have prevented."
-    },
-    {
-      "translationKey": "web-speech-api-voice-input-2026",
-      "category": "web-development",
-      "titleTr": "Web Speech API: Web Uygulamasina Sesli Giris Ekle",
-      "titleEn": "Web Speech API: Add Voice Input to Your App",
-      "slugTr": "web-speech-api-sesli-giris",
-      "slugEn": "web-speech-api-voice-input",
-      "keywordTr": "web speech api kullanimi",
-      "keywordEn": "web speech api voice input",
-      "angle": "how-to|Show how to add speech recognition and synthesis to a web app with sensible fallbacks.",
-      "style": "field-notes",
-      "brief": "Sections: why voice-first UX is rising in 2026 web apps; the Web Speech API (SpeechRecognition and SpeechSynthesis) and browser support/quirks; a working example (voice search/dictation with interim results); handling permissions, languages, and errors; accessibility wins and pitfalls; when to fall back to a server-side STT API. Key claims to verify: current browser support and API behavior; privacy/permission model. Sources: MDN Web Speech API docs, 2026 frontend trend reports. Field-notes: what breaks across browsers and how to degrade gracefully."
-    },
-    {
-      "translationKey": "css-cascade-layers-2026",
-      "category": "web-development",
-      "titleTr": "CSS @layer: Buyuk Stil Dosyalarini Evcillestir",
-      "titleEn": "CSS Cascade Layers: Tame Big Stylesheets with @layer",
-      "slugTr": "css-cascade-layers-buyuk-stil",
-      "slugEn": "css-cascade-layers-at-layer",
-      "keywordTr": "css cascade layers kullanimi",
-      "keywordEn": "css cascade layers at-layer",
-      "angle": "how-to|Teach @layer to control specificity and integrate third-party CSS cleanly.",
-      "style": "story-led",
-      "brief": "Sections: the specificity problem @layer solves (utility vs component vs override wars, !important creep); how cascade layers work (layer order beats specificity); a practical setup (reset, third-party, components, utilities, overrides); integrating frameworks and design systems; interaction with :where(), imports, and unlayered styles; migration tips. Key claims to verify: @layer ordering rules and browser support in 2026; interaction with specificity. Sources: MDN @layer docs, modern-CSS writeups. Distinct from existing :has()/nesting brief. Story-led: refactoring a tangled stylesheet with layers."
-    },
     {
       "translationKey": "end-to-end-typesafe-apis-2026",
       "category": "web-development",

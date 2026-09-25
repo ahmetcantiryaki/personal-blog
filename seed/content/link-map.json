@@ -5748,6 +5748,66 @@
         "slug": "property-based-testing-find-bugs",
         "title": "Property-Based Testing: Find Bugs You Didn't Expect"
       }
+    },
+    {
+      "translationKey": "claude-enzyme-system-discovery-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-yeni-enzim-sistemi-bulundu",
+        "title": "Claude Yeni Bir Enzim Sistemi mi Buldu?"
+      },
+      "en": {
+        "slug": "claude-discovers-novel-enzyme-system",
+        "title": "Did Claude Just Discover a New Enzyme System?"
+      }
+    },
+    {
+      "translationKey": "reviewing-ai-generated-prs-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-yazdigi-pr-inceleme-listesi",
+        "title": "AI'nin Yazdığı PR'ları İncelemek: İnsan Kontrol Listesi"
+      },
+      "en": {
+        "slug": "reviewing-ai-generated-pull-requests",
+        "title": "Reviewing AI-Generated Pull Requests: A Checklist"
+      }
+    },
+    {
+      "translationKey": "backpressure-load-shedding-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "geri-basinc-yuk-atma-servis",
+        "title": "Geri Basınç ve Yük Atma: Servisi Ayakta Tutmak"
+      },
+      "en": {
+        "slug": "backpressure-and-load-shedding",
+        "title": "Backpressure and Load Shedding: Survive Overload"
+      }
+    },
+    {
+      "translationKey": "web-speech-api-voice-input-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-speech-api-sesli-giris",
+        "title": "Web Speech API: Web Uygulamasına Sesli Giriş Ekle"
+      },
+      "en": {
+        "slug": "web-speech-api-voice-input",
+        "title": "Web Speech API: Add Voice Input to Your App"
+      }
+    },
+    {
+      "translationKey": "css-cascade-layers-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-cascade-layers-buyuk-stil",
+        "title": "CSS @layer: Büyük Stil Dosyalarını Evcilleştir"
+      },
+      "en": {
+        "slug": "css-cascade-layers-at-layer",
+        "title": "CSS Cascade Layers: Tame Big Stylesheets with @layer"
+      }
     }
   ]
 }
