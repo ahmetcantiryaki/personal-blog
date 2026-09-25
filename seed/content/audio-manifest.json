@@ -3766,5 +3766,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3176742,
     "generatedAt": "2026-09-24T06:49:30.142Z"
+  },
+  "en/backpressure-and-load-shedding": {
+    "hash": "f82afc6eaf4283e8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-backpressure-and-load-shedding.mp3",
+    "seconds": 465,
+    "voice": "en_US-ryan-high",
+    "bytes": 3719671,
+    "generatedAt": "2026-09-25T06:36:12.099Z"
+  },
+  "en/claude-discovers-novel-enzyme-system": {
+    "hash": "9864a48356c33e9f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-discovers-novel-enzyme-system.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3796367,
+    "generatedAt": "2026-09-25T06:37:59.918Z"
+  },
+  "en/css-cascade-layers-at-layer": {
+    "hash": "a023449367c0bc70",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-css-cascade-layers-at-layer.mp3",
+    "seconds": 403,
+    "voice": "en_US-ryan-high",
+    "bytes": 3226061,
+    "generatedAt": "2026-09-25T06:39:34.233Z"
+  },
+  "en/reviewing-ai-generated-pull-requests": {
+    "hash": "f0aa37d4014f45ae",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reviewing-ai-generated-pull-requests.mp3",
+    "seconds": 459,
+    "voice": "en_US-ryan-high",
+    "bytes": 3669934,
+    "generatedAt": "2026-09-25T06:41:21.186Z"
+  },
+  "en/web-speech-api-voice-input": {
+    "hash": "a32f30e8b00fb450",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-web-speech-api-voice-input.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3477464,
+    "generatedAt": "2026-09-25T06:43:12.769Z"
   }
 }
