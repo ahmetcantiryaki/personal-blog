@@ -5808,6 +5808,66 @@
         "slug": "css-cascade-layers-at-layer",
         "title": "CSS Cascade Layers: Tame Big Stylesheets with @layer"
       }
+    },
+    {
+      "translationKey": "gpt-6-sol-luna-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-sol-mu-luna-mi-fiyat-benchmark",
+        "title": "GPT-6 Sol mu Luna mı? Fiyat ve Benchmark Karşılaştırması"
+      },
+      "en": {
+        "slug": "gpt-6-sol-vs-luna-pricing-benchmarks",
+        "title": "GPT-6 Sol vs Luna: Pricing and Benchmarks Compared"
+      }
+    },
+    {
+      "translationKey": "end-to-end-typesafe-apis-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "uctan-uca-tip-guvenli-api-trpc",
+        "title": "Uçtan Uca Tip Güvenli API'ler: tRPC ve Ötesi"
+      },
+      "en": {
+        "slug": "end-to-end-type-safe-apis-trpc",
+        "title": "End-to-End Type-Safe APIs: tRPC and Beyond"
+      }
+    },
+    {
+      "translationKey": "cross-platform-posting-system-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "cok-platformda-yayin-dagitim-sistemi",
+        "title": "Tükenmeden Çok Platformda Yayın: Bir Dağıtım Sistemi"
+      },
+      "en": {
+        "slug": "cross-post-multi-platform-system",
+        "title": "Cross-Post Without Burning Out: A Multi-Platform System"
+      }
+    },
+    {
+      "translationKey": "short-video-length-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "kisa-video-ne-kadar-uzun-2026",
+        "title": "Kısa Video Ne Kadar Uzun Olmalı? 2026 Verileri"
+      },
+      "en": {
+        "slug": "how-long-should-short-video-be",
+        "title": "How Long Should a Short Video Be in 2026?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-sketch-creators-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "ciz-ve-paylas-chatgpt-sketch",
+        "title": "Çiz ve Paylaş: Yaratıcılar İçin ChatGPT Sketch"
+      },
+      "en": {
+        "slug": "chatgpt-sketch-for-creators",
+        "title": "Draw It, Post It: ChatGPT Sketch for Creators"
+      }
     }
   ]
 }

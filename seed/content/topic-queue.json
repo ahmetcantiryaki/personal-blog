@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "topics": [
-    {
-      "translationKey": "end-to-end-typesafe-apis-2026",
-      "category": "web-development",
-      "titleTr": "Uctan Uca Tip Guvenli API'ler: tRPC ve Otesi",
-      "titleEn": "End-to-End Type-Safe APIs: tRPC and Beyond",
-      "slugTr": "uctan-uca-tip-guvenli-api-trpc",
-      "slugEn": "end-to-end-type-safe-apis-trpc",
-      "keywordTr": "tip guvenli api trpc",
-      "keywordEn": "end to end type safe api trpc",
-      "angle": "comparison|Compare approaches to sharing types between server and client without a codegen mess.",
-      "style": "question-driven",
-      "brief": "Sections: what end-to-end type safety buys you (refactors that don't break the client, no drift between server and UI); approaches compared (tRPC, typed OpenAPI + codegen, GraphQL + codegen, framework server actions, schema-first with Zod); tradeoffs (monorepo coupling vs public APIs, boundaries, versioning); when each fits; a starter recipe. Key claims to verify: current capabilities of tRPC and typed-OpenAPI tooling in 2026. Sources: tRPC and OpenAPI-typescript docs, framework guides. Distinct from existing REST-vs-GraphQL and RHF+Zod briefs: focus on cross-boundary type sharing."
-    },
-    {
-      "translationKey": "cross-platform-posting-system-2026",
-      "category": "social-media",
-      "titleTr": "Tukenmeden Cok Platformda Yayin: Bir Dagitim Sistemi",
-      "titleEn": "Cross-Post Without Burning Out: A Multi-Platform System",
-      "slugTr": "cok-platformda-yayin-dagitim-sistemi",
-      "slugEn": "cross-post-multi-platform-system",
-      "keywordTr": "cok platform icerik dagitimi",
-      "keywordEn": "multi platform content system",
-      "angle": "how-to|Build a repeatable system to publish one idea across 3-5 platforms without doubling the work.",
-      "style": "field-notes",
-      "brief": "Sections: why 2026 creators grow fastest posting to 3-5 platforms; the reformat-not-repost rule (adapt hook, aspect ratio, captions, length per platform); a weekly system (one shoot -> master edit -> platform-specific cuts -> schedule); tooling and templates; measuring which platform earns the effort; avoiding shadow-ban and duplicate-content traps. Key claims to verify: the 3-5 platform growth finding; platform reformatting norms and length limits. Sources: Sprout Social/Sendible 2026 social trend reports, creator playbooks. Distinct from the 'where to post' and 'batch a month' briefs: this is the distribution workflow. Field-notes: one week's real pipeline."
-    },
-    {
-      "translationKey": "short-video-length-2026",
-      "category": "social-media",
-      "titleTr": "Kisa Video Ne Kadar Uzun Olmali? 2026 Verileri",
-      "titleEn": "How Long Should a Short Video Be in 2026?",
-      "slugTr": "kisa-video-ne-kadar-uzun-2026",
-      "slugEn": "how-long-should-short-video-be",
-      "keywordTr": "kisa video ideal uzunluk",
-      "keywordEn": "ideal short video length 2026",
-      "angle": "guide|Use current data to pick the right length per platform instead of defaulting to 15 seconds.",
-      "style": "data-led",
-      "brief": "Sections: the 2026 shift (60-90s clips often outperform 15s on most platforms); platform length limits and sweet spots (TikTok, Reels up to ~20 min, Shorts up to ~3 min); why longer-but-valuable beats ultra-short (watch time, completion, saves); how length interacts with hook and retention; a decision guide by content type. Key claims to verify: the 60-90s outperformance claim; current platform length caps. Sources: OpusClip/Sprout Social 2026 short-form trend reports. Data-led: lead with retention/length data. Distinct from existing hook/retention briefs: the question here is duration."
-    },
-    {
-      "translationKey": "chatgpt-sketch-creators-2026",
-      "category": "social-media",
-      "titleTr": "Ciz ve Paylas: Yaraticilar Icin ChatGPT Sketch",
-      "titleEn": "Draw It, Post It: ChatGPT Sketch for Creators",
-      "slugTr": "ciz-ve-paylas-chatgpt-sketch",
-      "slugEn": "chatgpt-sketch-for-creators",
-      "keywordTr": "chatgpt sketch nasil kullanilir",
-      "keywordEn": "chatgpt images 2.5 sketch",
-      "angle": "how-to|Show creators how to turn rough sketches into on-brand social graphics with ChatGPT Images 2.5.",
-      "style": "story-led",
-      "brief": "Sections: what ChatGPT Images 2.5 Sketch is (draw a rough layout, @Sketch or the + menu, convert to a finished image, iterate); a reusable canvas workflow for thumbnails, carousels and post graphics; keeping outputs on-brand (reference style, palette, text handling); speed gains vs prompt-only generation; limits and where a real designer still wins; disclosure/authenticity notes. Key claims to verify: how @Sketch works and where it's available; Images 2.5 release Sept 8 2026 and speed improvements. Sources: OpenAI Images 2.5 announcement, hands-on reviews (TechRadar). Distinct from the broad 'AI social graphics' brief: this is the specific Sketch workflow."
-    },
     {
       "translationKey": "gemini-sheets-mobile-2026",
       "category": "career-productivity",
