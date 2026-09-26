@@ -3806,5 +3806,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3477464,
     "generatedAt": "2026-09-25T06:43:12.769Z"
+  },
+  "en/chatgpt-sketch-for-creators": {
+    "hash": "c2c5227aed5fb944",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-sketch-for-creators.mp3",
+    "seconds": 516,
+    "voice": "en_US-ryan-high",
+    "bytes": 4125510,
+    "generatedAt": "2026-09-26T06:32:35.531Z"
+  },
+  "en/cross-post-multi-platform-system": {
+    "hash": "c646bbfd4db41524",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cross-post-multi-platform-system.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3510065,
+    "generatedAt": "2026-09-26T06:35:05.016Z"
+  },
+  "en/end-to-end-type-safe-apis-trpc": {
+    "hash": "65f52dd4eb54cfde",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-end-to-end-type-safe-apis-trpc.mp3",
+    "seconds": 547,
+    "voice": "en_US-ryan-high",
+    "bytes": 4379211,
+    "generatedAt": "2026-09-26T06:38:13.606Z"
+  },
+  "en/gpt-6-sol-vs-luna-pricing-benchmarks": {
+    "hash": "e595f4af874af485",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-6-sol-vs-luna-pricing-benchmarks.mp3",
+    "seconds": 513,
+    "voice": "en_US-ryan-high",
+    "bytes": 4103567,
+    "generatedAt": "2026-09-26T06:41:09.003Z"
+  },
+  "en/how-long-should-short-video-be": {
+    "hash": "08f25ce6d61d1e9b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-long-should-short-video-be.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3436922,
+    "generatedAt": "2026-09-26T06:43:34.590Z"
   }
 }
