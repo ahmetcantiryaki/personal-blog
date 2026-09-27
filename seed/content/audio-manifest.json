@@ -3846,5 +3846,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3436922,
     "generatedAt": "2026-09-26T06:43:34.590Z"
+  },
+  "en/chatgpt-in-microsoft-word-drafting": {
+    "hash": "b73d09f4a0fe5dc7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-in-microsoft-word-drafting.mp3",
+    "seconds": 395,
+    "voice": "en_US-ryan-high",
+    "bytes": 3162532,
+    "generatedAt": "2026-09-27T06:40:34.685Z"
+  },
+  "en/claude-discovers-new-enzyme-system": {
+    "hash": "0833d4e442970e39",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-discovers-new-enzyme-system.mp3",
+    "seconds": 447,
+    "voice": "en_US-ryan-high",
+    "bytes": 3574013,
+    "generatedAt": "2026-09-27T06:43:07.408Z"
+  },
+  "en/connect-work-personal-accounts-chatgpt": {
+    "hash": "3237f4683800224c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-connect-work-personal-accounts-chatgpt.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3167756,
+    "generatedAt": "2026-09-27T06:45:23.593Z"
+  },
+  "en/gemini-in-sheets-mobile-analysis": {
+    "hash": "9b129081183f8e86",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-in-sheets-mobile-analysis.mp3",
+    "seconds": 394,
+    "voice": "en_US-ryan-high",
+    "bytes": 3154590,
+    "generatedAt": "2026-09-27T06:47:38.887Z"
+  },
+  "en/gemini-notebook-context-google-docs": {
+    "hash": "38540a02a5aed45c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-notebook-context-google-docs.mp3",
+    "seconds": 362,
+    "voice": "en_US-ryan-high",
+    "bytes": 2900053,
+    "generatedAt": "2026-09-27T06:49:43.164Z"
   }
 }
