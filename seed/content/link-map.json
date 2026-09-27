@@ -5868,6 +5868,66 @@
         "slug": "chatgpt-sketch-for-creators",
         "title": "Draw It, Post It: ChatGPT Sketch for Creators"
       }
+    },
+    {
+      "translationKey": "claude-art-enzyme-discovery-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-yeni-enzim-sistemi-buldu",
+        "title": "Claude Yeni Bir Enzim Sistemi Keşfetti mi?"
+      },
+      "en": {
+        "slug": "claude-discovers-new-enzyme-system",
+        "title": "Did Claude Just Discover a New Enzyme System?"
+      }
+    },
+    {
+      "translationKey": "gemini-sheets-mobile-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "telefonda-veri-analizi-gemini-sheets",
+        "title": "Telefonda Veri Analizi: Sheets'te Gemini"
+      },
+      "en": {
+        "slug": "gemini-in-sheets-mobile-analysis",
+        "title": "Analyze Data on Your Phone with Gemini in Sheets"
+      }
+    },
+    {
+      "translationKey": "chatgpt-work-personal-accounts-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-is-kisisel-hesap-baglama",
+        "title": "ChatGPT'de İş ve Kişisel Hesapları Birlikte Kullan"
+      },
+      "en": {
+        "slug": "connect-work-personal-accounts-chatgpt",
+        "title": "Connect Work and Personal Accounts in ChatGPT"
+      }
+    },
+    {
+      "translationKey": "chatgpt-microsoft-word-sidebar-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "worde-chatgpt-belge-yazma",
+        "title": "Word'de ChatGPT: Belge Yazmayı Hızlandır"
+      },
+      "en": {
+        "slug": "chatgpt-in-microsoft-word-drafting",
+        "title": "ChatGPT in Microsoft Word: Draft Faster"
+      }
+    },
+    {
+      "translationKey": "gemini-notebook-docs-context-source-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "google-docs-gemini-notebook",
+        "title": "Google Docs'ta Gemini Notebook ile Yaz"
+      },
+      "en": {
+        "slug": "gemini-notebook-context-google-docs",
+        "title": "Ground Google Docs Drafts with Gemini Notebook"
+      }
     }
   ]
 }

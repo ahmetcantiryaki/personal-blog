@@ -2,58 +2,6 @@
   "updatedAt": "2026-09-27",
   "topics": [
     {
-      "translationKey": "gemini-sheets-mobile-2026",
-      "category": "career-productivity",
-      "titleTr": "Telefonda Veri Analizi: Sheets'te Gemini",
-      "titleEn": "Analyze Data on Your Phone with Gemini in Sheets",
-      "slugTr": "telefonda-veri-analizi-gemini-sheets",
-      "slugEn": "gemini-in-sheets-mobile-analysis",
-      "keywordTr": "gemini google sheets mobil",
-      "keywordEn": "gemini in sheets android",
-      "angle": "how-to|Show how to summarize data and build charts from your phone with Gemini in Google Sheets.",
-      "style": "field-notes",
-      "brief": "Sections: what shipped (Gemini in Google Sheets on Android, rollout from Sept 9 2026); how to use it (open a sheet, tap Ask Gemini/the spark icon, prompts like 'Summarize this table' and 'Analyze for insights', generate charts on-device); real field use cases (checking numbers on the go, quick insights, outlier flags); the mobile limits (complex edits, formulas and formatting still need the web); privacy and data notes. Key claims to verify: Android availability and rollout date, supported vs unsupported actions on mobile. Sources: Google Workspace Updates blog, Ubergizmo coverage Sept 2026. Field-notes: what actually works on a phone."
-    },
-    {
-      "translationKey": "chatgpt-work-personal-accounts-2026",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT'de Is ve Kisisel Hesaplari Birlikte Kullan",
-      "titleEn": "Connect Work and Personal Accounts in ChatGPT",
-      "slugTr": "chatgpt-is-kisisel-hesap-baglama",
-      "slugEn": "connect-work-personal-accounts-chatgpt",
-      "keywordTr": "chatgpt coklu hesap baglama",
-      "keywordEn": "chatgpt multiple accounts plugins",
-      "angle": "how-to|Show how to connect multiple accounts to ChatGPT plugins without mixing work and personal data.",
-      "style": "question-driven",
-      "brief": "Sections: what changed (ChatGPT now supports multiple accounts per plugin, beyond just Gmail/Calendar/Contacts, so personal and work accounts coexist in one chat); how to connect and switch accounts safely; a workflow that keeps work and personal data separated (naming, default account, scoping requests); the permission model and low-risk-action defaults to review; pitfalls (accidental cross-account actions, data leakage) and how to audit connections. Key claims to verify: multi-account plugin support and the plugin-permissions default behavior. Sources: OpenAI ChatGPT release notes Sept 2026. How-to: concrete setup plus a safety pass."
-    },
-    {
-      "translationKey": "chatgpt-microsoft-word-sidebar-2026",
-      "category": "career-productivity",
-      "titleTr": "Word'de ChatGPT: Belge Yazmayi Hizlandir",
-      "titleEn": "ChatGPT in Microsoft Word: Draft Faster",
-      "slugTr": "worde-chatgpt-belge-yazma",
-      "slugEn": "chatgpt-in-microsoft-word-drafting",
-      "keywordTr": "word chatgpt eklentisi",
-      "keywordEn": "chatgpt in microsoft word",
-      "angle": "how-to|Use the new ChatGPT sidebar in Word to draft, summarize and reformat documents.",
-      "style": "field-notes",
-      "brief": "Sections: what shipped (ChatGPT now lives in the Microsoft Word sidebar, Sept 2026); setup and where to find it; four real jobs it does well (draft from bullet notes, summarize a long doc, revise selected text, adjust headings/formatting); a field-notes pass on where it saves time vs where it gets in the way; privacy and enterprise-data notes for work docs. Verify: sidebar availability, tiers/plans, supported actions. Sources: OpenAI ChatGPT release notes, OpenAI newsroom Sept 2026."
-    },
-    {
-      "translationKey": "gemini-notebook-docs-context-source-2026",
-      "category": "career-productivity",
-      "titleTr": "Google Docs'ta Gemini Notebook ile Yaz",
-      "titleEn": "Ground Google Docs Drafts with Gemini Notebook",
-      "slugTr": "google-docs-gemini-notebook",
-      "slugEn": "gemini-notebook-context-google-docs",
-      "keywordTr": "gemini notebook google docs",
-      "keywordEn": "gemini notebook in docs",
-      "angle": "how-to|Use a Gemini Notebook as a context source so Docs drafts stay grounded in your sources.",
-      "style": "story-led",
-      "brief": "Sections: the problem (AI drafts that drift from your real sources); what shipped (using a Gemini Notebook / NotebookLM as a context source inside Google Docs, full rollout Sept 23 2026); a walkthrough told as a story of writing one grounded report; how citations and grounding reduce hallucination; limits and when to still check sources by hand. Verify: rollout date, which Workspace tiers, how grounding is surfaced. Sources: Google Workspace Updates blog, Gemini release notes Sept 2026."
-    },
-    {
       "translationKey": "voice-first-productivity-dictation-2026",
       "category": "career-productivity",
       "titleTr": "Sesle Calisma: AI Dikte ile Daha Hizli Yaz",

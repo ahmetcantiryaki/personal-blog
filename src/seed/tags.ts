@@ -81,6 +81,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   kubernetes: { en: 'Kubernetes', tr: 'Kubernetes' },
   learning: { en: 'Learning', tr: 'Öğrenme' },
   'legacy-code': { en: 'Legacy Code', tr: 'Eski Kod' },
+  'life-sciences': { en: 'Life Sciences', tr: 'Yaşam Bilimleri' },
   llm: { en: 'LLM', tr: 'LLM' },
   'machine-learning': { en: 'Machine Learning', tr: 'Makine Öğrenmesi' },
   'marketing-analytics': { en: 'Marketing Analytics', tr: 'Pazarlama Analitiği' },
