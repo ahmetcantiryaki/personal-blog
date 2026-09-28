@@ -3886,5 +3886,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2900053,
     "generatedAt": "2026-09-27T06:49:43.164Z"
+  },
+  "en/chatgpt-voice-mode-plugins": {
+    "hash": "cac13b901919ee0b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-voice-mode-plugins.mp3",
+    "seconds": 436,
+    "voice": "en_US-ryan-high",
+    "bytes": 3491675,
+    "generatedAt": "2026-09-28T06:44:32.357Z"
+  },
+  "en/claude-riemann-hypothesis-bound": {
+    "hash": "8c235449cd113b8f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-riemann-hypothesis-bound.mp3",
+    "seconds": 436,
+    "voice": "en_US-ryan-high",
+    "bytes": 3490003,
+    "generatedAt": "2026-09-28T06:47:11.811Z"
+  },
+  "en/everyday-passkeys-guide": {
+    "hash": "79f0b6b0a25c4917",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-everyday-passkeys-guide.mp3",
+    "seconds": 463,
+    "voice": "en_US-ryan-high",
+    "bytes": 3706297,
+    "generatedAt": "2026-09-28T06:50:01.302Z"
+  },
+  "en/gemini-3-5-transcribe-speech-to-text": {
+    "hash": "9c3b835ce638e7bf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-3-5-transcribe-speech-to-text.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3544546,
+    "generatedAt": "2026-09-28T06:52:43.358Z"
+  },
+  "en/voice-first-productivity-dictation": {
+    "hash": "b98635c22d941a3b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-voice-first-productivity-dictation.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3440893,
+    "generatedAt": "2026-09-28T06:55:21.293Z"
   }
 }
