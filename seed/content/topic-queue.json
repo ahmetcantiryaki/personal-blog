@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "topics": [
-    {
-      "translationKey": "voice-first-productivity-dictation-2026",
-      "category": "career-productivity",
-      "titleTr": "Sesle Calisma: AI Dikte ile Daha Hizli Yaz",
-      "titleEn": "Voice-First Work: Write Faster by Dictation",
-      "slugTr": "sesle-calisma-ai-dikte",
-      "slugEn": "voice-first-productivity-dictation",
-      "keywordTr": "sesli yazma yapay zeka",
-      "keywordEn": "ai voice dictation workflow",
-      "angle": "how-to|Build a voice-first drafting workflow using new AI dictation features like Gemini's Rambler.",
-      "style": "story-led",
-      "brief": "Sections: why voice is back (better speech models, features like Gemini's 'Rambler' that understand how people actually talk); a day-in-the-life story of drafting emails, notes and outlines by voice; the stack (phone + assistant + clean-up prompt); accuracy tips (punctuation, structure, editing pass); accessibility angle and when typing still wins. Verify: Rambler behavior and availability, accuracy across accents/languages incl. Turkish. Sources: Gemini release notes Sept 2026, primary vendor docs."
-    },
-    {
-      "translationKey": "gemini-3-5-transcribe-speech-to-text-2026",
-      "category": "technology",
-      "titleTr": "Gemini 3.5 Transcribe ile Ses Metne Donusur",
-      "titleEn": "Gemini 3.5 Transcribe: Speech to Text Guide",
-      "slugTr": "gemini-3-5-transcribe-ses-metin",
-      "slugEn": "gemini-3-5-transcribe-speech-to-text",
-      "keywordTr": "gemini ses metne cevirme",
-      "keywordEn": "gemini 3.5 transcribe",
-      "angle": "guide|Explain Gemini 3.5 Transcribe and how to use it for accurate, low-latency transcription.",
-      "style": "data-led",
-      "brief": "Sections: what it is (Gemini 3.5 Transcribe, a dedicated low-latency speech-to-text model); the numbers (85+ languages, speaker diarization, word-level timestamps, custom vocabulary biasing); use cases (meeting notes, podcasts, interviews, subtitles); a short how-to via the Gemini API; accuracy vs Whisper-class tools and Turkish support. Verify: language count, diarization/timestamp claims, API availability and pricing. Sources: ai.google.dev Gemini API changelog, Google AI for Developers docs."
-    },
-    {
-      "translationKey": "chatgpt-voice-plugins-live-2026",
-      "category": "technology",
-      "titleTr": "ChatGPT Sesli Modda Eklentiler Nasil Calisir?",
-      "titleEn": "Using Plugins in ChatGPT Voice Mode",
-      "slugTr": "chatgpt-sesli-mod-eklentiler",
-      "slugEn": "chatgpt-voice-mode-plugins",
-      "keywordTr": "chatgpt sesli eklenti",
-      "keywordEn": "chatgpt voice plugins",
-      "angle": "how-to|Show how to use connected apps and plugins during a ChatGPT voice conversation.",
-      "style": "question-driven",
-      "brief": "Sections: the question (can I actually do work by talking to ChatGPT now?); what shipped (Live/Voice now supports plugins and connected apps on web, iOS and Android, with written responses to follow in chat); setup and enabling connectors; three hands-free workflows (check calendar, find emails, trigger an app action); the friction and privacy points of voice + connected accounts. Verify: platform availability, which connectors work in voice. Sources: OpenAI ChatGPT release notes Sept 2026."
-    },
-    {
-      "translationKey": "passkeys-everyday-guide-2026",
-      "category": "technology",
-      "titleTr": "Sifreleri Birak: Passkey'e Gecis Rehberi",
-      "titleEn": "Ditch Passwords: A Practical Passkeys Guide",
-      "slugTr": "passkey-gecis-rehberi",
-      "slugEn": "everyday-passkeys-guide",
-      "keywordTr": "passkey nedir nasil kullanilir",
-      "keywordEn": "how to use passkeys",
-      "angle": "how-to|A plain-language guide to setting up and living with passkeys across your accounts.",
-      "style": "story-led",
-      "brief": "Sections: where we are (FIDO Alliance: 5 billion passkeys, 90% awareness, 49% regular use, World Passkey Day 2026); what a passkey actually is in plain terms; a step-by-step for enabling passkeys on Google/Apple/Microsoft and syncing across devices; recovery and the 'lost phone' fear; when to keep a password as backup. Verify: FIDO 2026 adoption stats, cross-platform sync behavior. Sources: FIDO Alliance World Passkey Day 2026 report, State of Passkeys 2026."
-    },
     {
       "translationKey": "secure-smart-home-privacy-2026",
       "category": "technology",

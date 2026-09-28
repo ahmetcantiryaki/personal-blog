@@ -5928,6 +5928,66 @@
         "slug": "gemini-notebook-context-google-docs",
         "title": "Ground Google Docs Drafts with Gemini Notebook"
       }
+    },
+    {
+      "translationKey": "claude-riemann-hypothesis-bound-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-riemann-hipotezi-siniri",
+        "title": "Claude, Riemann Hipotezi Sınırını Yüzde 67'ye Çıkardı"
+      },
+      "en": {
+        "slug": "claude-riemann-hypothesis-bound",
+        "title": "Claude Just Raised the Riemann Hypothesis Bound to 67%"
+      }
+    },
+    {
+      "translationKey": "voice-first-productivity-dictation-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "sesle-calisma-ai-dikte",
+        "title": "Sesle Çalışma: AI Dikte ile Daha Hızlı Taslak Yaz"
+      },
+      "en": {
+        "slug": "voice-first-productivity-dictation",
+        "title": "Voice-First Work: Draft Faster With AI Dictation"
+      }
+    },
+    {
+      "translationKey": "gemini-3-5-transcribe-speech-to-text-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-3-5-transcribe-ses-metin",
+        "title": "Gemini 3.5 Transcribe ile Ses Metne Dönüşür"
+      },
+      "en": {
+        "slug": "gemini-3-5-transcribe-speech-to-text",
+        "title": "Gemini 3.5 Transcribe: Speech-to-Text Guide"
+      }
+    },
+    {
+      "translationKey": "chatgpt-voice-plugins-live-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "chatgpt-sesli-mod-eklentiler",
+        "title": "ChatGPT Sesli Modda Eklentiler Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "chatgpt-voice-mode-plugins",
+        "title": "Using Plugins in ChatGPT Voice Mode"
+      }
+    },
+    {
+      "translationKey": "passkeys-everyday-guide-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "passkey-gecis-rehberi",
+        "title": "Şifreleri Bırak: Passkey'e Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "everyday-passkeys-guide",
+        "title": "Ditch Passwords: A Practical Passkeys Guide"
+      }
     }
   ]
 }
