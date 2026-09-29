@@ -5988,6 +5988,66 @@
         "slug": "everyday-passkeys-guide",
         "title": "Ditch Passwords: A Practical Passkeys Guide"
       }
+    },
+    {
+      "translationKey": "claude-sonnet-5-5-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-5-nedir",
+        "title": "Claude Sonnet 5.5 Nedir? Aynı Fiyata %30 Daha Hızlı"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-5-explained",
+        "title": "What Is Claude Sonnet 5.5? Same Price, 30% Faster"
+      }
+    },
+    {
+      "translationKey": "secure-smart-home-privacy-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "akilli-ev-gizlilik-kontrol-listesi",
+        "title": "Akıllı Ev Kurulumunda Gizlilik Kontrol Listesi"
+      },
+      "en": {
+        "slug": "smart-home-privacy-checklist",
+        "title": "A Privacy Checklist for Your Smart Home"
+      }
+    },
+    {
+      "translationKey": "geo-generative-engine-optimization-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "geo-icerik-ai-kaynak",
+        "title": "GEO: İçeriğini ChatGPT ve Claude'a Kaynak Yap"
+      },
+      "en": {
+        "slug": "geo-get-cited-by-ai",
+        "title": "GEO: Get Your Content Cited by AI Answers"
+      }
+    },
+    {
+      "translationKey": "email-marketing-ai-reads-first-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "e-postayi-ilk-okuyan-yapay-zeka",
+        "title": "E-postanı İlk Okuyan Artık Yapay Zeka"
+      },
+      "en": {
+        "slug": "email-first-reader-is-ai",
+        "title": "Your Email's First Reader Is Now an AI"
+      }
+    },
+    {
+      "translationKey": "creator-partnerships-vs-influencer-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "influencer-vs-yaratici-ortaklik",
+        "title": "Influencer Kampanyası mı, Uzun Vadeli Ortaklık mı?"
+      },
+      "en": {
+        "slug": "influencer-vs-creator-partnerships",
+        "title": "One-Off Influencers vs Long-Term Creator Deals"
+      }
     }
   ]
 }

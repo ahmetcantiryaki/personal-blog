@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29",
   "topics": [
-    {
-      "translationKey": "secure-smart-home-privacy-2026",
-      "category": "technology",
-      "titleTr": "Akilli Ev Kurulumunda Gizlilik Kontrol Listesi",
-      "titleEn": "A Privacy Checklist for Your Smart Home",
-      "slugTr": "akilli-ev-gizlilik-kontrol-listesi",
-      "slugEn": "smart-home-privacy-checklist",
-      "keywordTr": "akilli ev gizlilik guvenlik",
-      "keywordEn": "secure smart home privacy",
-      "angle": "checklist|A checklist to set up a smart home that protects your data by default.",
-      "style": "field-notes",
-      "brief": "Sections: the reality (default settings favor vendor data collection; agentic AI devices now act proactively); a 10-item checklist (separate IoT VLAN, disable unused mics/cameras, local processing where possible, review data-sharing toggles, strong account auth with passkeys, firmware updates, vendor privacy track record); what to buy vs avoid; the trade-off between convenience and surveillance. Verify: CES 2026 privacy features, local-processing claims. Sources: FIDO/consumer reports, CES 2026 coverage, vendor privacy docs."
-    },
-    {
-      "translationKey": "geo-generative-engine-optimization-2026",
-      "category": "digital-marketing",
-      "titleTr": "GEO: Icerigini ChatGPT ve Claude'a Kaynak Yap",
-      "titleEn": "GEO: Get Your Content Cited by AI Answers",
-      "slugTr": "geo-icerik-ai-kaynak",
-      "slugEn": "geo-get-cited-by-ai",
-      "keywordTr": "uretken arama optimizasyonu geo",
-      "keywordEn": "generative engine optimization",
-      "angle": "guide|Explain GEO/AEO and give a playbook for getting cited by ChatGPT, Claude and Gemini.",
-      "style": "data-led",
-      "brief": "Sections: why it matters (Gartner's 25% search-volume drop hit by mid-2026); definitions (SEO vs AEO vs GEO as a three-layer strategy); the GEO playbook (extractability, verifiability with sourcing, contextual clarity, structured data, brand authority - '80% strategic, 20% technical'); how to measure AI citations; common mistakes. Verify: Gartner stat, GEO vs AEO definitions, citation-tracking tools. Sources: Search Engine Land GEO guide, WRITER enterprise GEO guide, Adobe SEO 2026."
-    },
-    {
-      "translationKey": "email-marketing-ai-reads-first-2026",
-      "category": "digital-marketing",
-      "titleTr": "E-postani Ilk Okuyan Artik Yapay Zeka",
-      "titleEn": "Your Email's First Reader Is Now an AI",
-      "slugTr": "e-postayi-ilk-okuyan-yapay-zeka",
-      "slugEn": "email-first-reader-is-ai",
-      "keywordTr": "gmail yapay zeka ozet e-posta",
-      "keywordEn": "ai email summaries marketing",
-      "angle": "deep-dive|Rethink email copy and structure now that AI summaries read your email before humans do.",
-      "style": "contrarian",
-      "brief": "Sections: the shift (Gmail AI summaries across ~3 billion inboxes since Jan 2026 - the first 'reader' is a model); why clever subject lines and hidden CTAs now backfire; writing for extraction (clear structure, front-loaded value, plain claims); deliverability as technical trust (auth, domain alignment, reputation) and the 87.2% inbox-placement baseline; what still needs human editing (88% of AI copy). Verify: Gmail AI-summary rollout, deliverability and automation-revenue stats. Sources: Hostinger, Mailjet, Knak 2026 email trend reports."
-    },
-    {
-      "translationKey": "creator-partnerships-vs-influencer-2026",
-      "category": "digital-marketing",
-      "titleTr": "Influencer Kampanyasi mi, Uzun Vadeli Ortaklik mi?",
-      "titleEn": "One-Off Influencers vs Long-Term Creator Deals",
-      "slugTr": "influencer-vs-yaratici-ortaklik",
-      "slugEn": "influencer-vs-creator-partnerships",
-      "keywordTr": "yaratici ortaklik pazarlama",
-      "keywordEn": "creator partnerships marketing",
-      "angle": "comparison|Compare one-off influencer campaigns with long-term creator partnerships and when each wins.",
-      "style": "contrarian",
-      "brief": "Sections: the thesis (2026's shift from reach to results; follower count matters less than trust and alignment); side-by-side comparison (cost, control, authenticity, measurement, risk) of one-off campaigns vs long-term co-creator relationships; how brands turn creators into product/community partners; measuring real intent signals over vanity metrics; a small-brand starter plan. Verify: 2026 creator-economy shift claims, measurement frameworks. Sources: Hootsuite social trends 2026, Sprout Social insights, iQfluence trends."
-    },
     {
       "translationKey": "marketing-attribution-ai-search-decline-2026",
       "category": "digital-marketing",
