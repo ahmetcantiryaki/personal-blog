@@ -3926,5 +3926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3440893,
     "generatedAt": "2026-09-28T06:55:21.293Z"
+  },
+  "en/claude-sonnet-5-5-explained": {
+    "hash": "7cd5a14f6ccdaf23",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-5-5-explained.mp3",
+    "seconds": 451,
+    "voice": "en_US-ryan-high",
+    "bytes": 3604941,
+    "generatedAt": "2026-09-29T06:32:16.590Z"
+  },
+  "en/email-first-reader-is-ai": {
+    "hash": "1f8746c992ec476e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-email-first-reader-is-ai.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3426682,
+    "generatedAt": "2026-09-29T06:33:26.288Z"
+  },
+  "en/geo-get-cited-by-ai": {
+    "hash": "b405f384cee7a4f1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-geo-get-cited-by-ai.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3281023,
+    "generatedAt": "2026-09-29T06:34:30.812Z"
+  },
+  "en/influencer-vs-creator-partnerships": {
+    "hash": "63c9f8203a6e425c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-influencer-vs-creator-partnerships.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3291681,
+    "generatedAt": "2026-09-29T06:35:37.151Z"
+  },
+  "en/smart-home-privacy-checklist": {
+    "hash": "3a874315d6c1ede4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-smart-home-privacy-checklist.mp3",
+    "seconds": 365,
+    "voice": "en_US-ryan-high",
+    "bytes": 2921996,
+    "generatedAt": "2026-09-29T06:36:36.020Z"
   }
 }
