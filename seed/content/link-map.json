@@ -6048,6 +6048,66 @@
         "slug": "influencer-vs-creator-partnerships",
         "title": "One-Off Influencers vs Long-Term Creator Deals"
       }
+    },
+    {
+      "translationKey": "gpt-6-1-sol-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-1-sol-nedir",
+        "title": "GPT-6.1 Sol Nedir? Astra Performansı, Beşte Bir Fiyat"
+      },
+      "en": {
+        "slug": "what-is-gpt-6-1-sol",
+        "title": "What Is GPT-6.1 Sol? Near-Astra Power, Fifth the Price"
+      }
+    },
+    {
+      "translationKey": "marketing-attribution-ai-search-decline-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "arama-trafigi-dususu-pazarlama-olcumu",
+        "title": "Arama Trafiği Düşerken Pazarlama Nasıl Ölçülür?"
+      },
+      "en": {
+        "slug": "marketing-attribution-search-decline",
+        "title": "How Do You Measure Marketing as Search Traffic Falls?"
+      }
+    },
+    {
+      "translationKey": "context-engineering-vs-prompt-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "context-engineering-baglam-muhendisligi",
+        "title": "Context Engineering Nedir? Prompttan Farkı Ne?"
+      },
+      "en": {
+        "slug": "context-engineering-vs-prompting",
+        "title": "What Is Context Engineering vs Prompt Engineering?"
+      }
+    },
+    {
+      "translationKey": "spec-driven-development-ai-agents-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "spec-odakli-gelistirme-ai-ajan",
+        "title": "Spec Odaklı Geliştirme Nedir? AI Ajanlarıyla Nasıl İşler?"
+      },
+      "en": {
+        "slug": "spec-driven-development-ai-agents",
+        "title": "What Is Spec-Driven Development With AI Agents?"
+      }
+    },
+    {
+      "translationKey": "kubernetes-finops-cost-optimization-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-maliyet-finops",
+        "title": "Kubernetes Maliyeti Nasıl Düşürülür? FinOps Rehberi"
+      },
+      "en": {
+        "slug": "kubernetes-finops-cost-optimization",
+        "title": "How Do You Cut Kubernetes Costs? A FinOps Playbook"
+      }
     }
   ]
 }

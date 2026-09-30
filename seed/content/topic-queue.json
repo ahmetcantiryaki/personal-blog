@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "topics": [
-    {
-      "translationKey": "marketing-attribution-ai-search-decline-2026",
-      "category": "digital-marketing",
-      "titleTr": "Arama Trafigi Duserken Pazarlama Olcumu",
-      "titleEn": "Measuring Marketing as Search Traffic Falls",
-      "slugTr": "arama-trafigi-dususu-pazarlama-olcumu",
-      "slugEn": "marketing-attribution-search-decline",
-      "keywordTr": "pazarlama atifi olcumleme",
-      "keywordEn": "marketing attribution ai search",
-      "angle": "deep-dive|How to rebuild attribution when zero-click AI answers erode trackable search traffic.",
-      "style": "story-led",
-      "brief": "Sections: the story of a brand whose organic clicks fell while awareness rose (the AI-answer paradox); why last-click attribution breaks under zero-click AI Overviews and 25% lower search volume; alternative signals (branded search lift, direct traffic, assisted conversions, self-reported attribution, media-mix modeling); a lightweight measurement setup for small teams; pitfalls of over-attributing to AI. Verify: search-decline stat, zero-click trends, MMM basics. Sources: Adobe SEO 2026, Search Engine Land, Gartner search forecast."
-    },
-    {
-      "translationKey": "context-engineering-vs-prompt-2026",
-      "category": "software-engineering",
-      "titleTr": "Prompt Degil Baglam: Context Engineering",
-      "titleEn": "Beyond Prompts: What Context Engineering Is",
-      "slugTr": "context-engineering-baglam-muhendisligi",
-      "slugEn": "context-engineering-vs-prompting",
-      "keywordTr": "context engineering nedir",
-      "keywordEn": "context engineering ai agents",
-      "angle": "deep-dive|Explain why context engineering, not prompt engineering, now decides agent reliability.",
-      "style": "contrarian",
-      "brief": "Sections: the claim (the critical skill shifted from prompt to context engineering); definitions and why single clever prompts don't scale to multi-step agents; the two failure modes (context explosion over a whole repo; silent spec-code drift); practical techniques (codified context, retrieval scoping, memory layers, 'mise en place' preparation); how to build information systems that keep agents reliable. Verify: failure-mode definitions, context-engineering practices. Sources: Sourcegraph context-engineering guide, arXiv 2026 papers on agentic coding, Augment Code."
-    },
-    {
-      "translationKey": "spec-driven-development-ai-agents-2026",
-      "category": "software-engineering",
-      "titleTr": "Spec Odakli Gelistirme: AI Ajanlarla Kod Yaz",
-      "titleEn": "Spec-Driven Development with AI Coding Agents",
-      "slugTr": "spec-odakli-gelistirme-ai-ajan",
-      "slugEn": "spec-driven-development-ai-agents",
-      "keywordTr": "spec odakli gelistirme",
-      "keywordEn": "spec-driven development",
-      "angle": "how-to|A practical intro to spec-driven development for teams shipping with AI coding agents.",
-      "style": "field-notes",
-      "brief": "Sections: the shift (agents remove code-writing as the bottleneck, moving work upstream to specs and downstream to verification); what a spec is (a structured, behavior-oriented natural-language artifact); a field-notes workflow (write the spec, let the agent implement, verify against the spec, guard against drift); tooling landscape; where SDD helps and where it's overhead. Verify: SDD definitions, drift-enforcement patterns, tool list. Sources: Jama Software SDD guide, Augment Code spec-driven tools, arXiv 2609.00252."
-    },
-    {
-      "translationKey": "kubernetes-finops-cost-optimization-2026",
-      "category": "devops-cloud",
-      "titleTr": "Kubernetes Maliyetini Dusur: FinOps Rehberi",
-      "titleEn": "Cut Kubernetes Costs: A FinOps Playbook",
-      "slugTr": "kubernetes-maliyet-finops",
-      "slugEn": "kubernetes-finops-cost-optimization",
-      "keywordTr": "kubernetes maliyet optimizasyonu",
-      "keywordEn": "kubernetes cost optimization",
-      "angle": "how-to|A FinOps playbook to rightsize and autoscale Kubernetes without hurting reliability.",
-      "style": "data-led",
-      "brief": "Sections: why now (cloud is the second-biggest cost after salaries; K8s cost-management market $1.75B in 2025 heading to $5.78B by 2030); the levers (rightsizing requests/limits, HPA/VPA autoscaling, spot/committed use, bin-packing, idle cleanup, multi-cloud trade-offs); correlating cost with performance in observability; a monthly FinOps review loop; over-optimization risks. Verify: market-size figures, rightsizing/autoscaling guidance. Sources: Finout, CubeAPM, Gart Kubernetes trends 2026, The Backend Developers."
-    },
     {
       "translationKey": "platform-engineering-idp-guide-2026",
       "category": "devops-cloud",
