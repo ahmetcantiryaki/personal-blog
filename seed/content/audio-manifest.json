@@ -3966,5 +3966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2921996,
     "generatedAt": "2026-09-29T06:36:36.020Z"
+  },
+  "en/context-engineering-vs-prompting": {
+    "hash": "bfe4befaa2ce627e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-context-engineering-vs-prompting.mp3",
+    "seconds": 548,
+    "voice": "en_US-ryan-high",
+    "bytes": 4380674,
+    "generatedAt": "2026-09-30T06:32:19.046Z"
+  },
+  "en/kubernetes-finops-cost-optimization": {
+    "hash": "aba117045802c02b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-finops-cost-optimization.mp3",
+    "seconds": 514,
+    "voice": "en_US-ryan-high",
+    "bytes": 4111717,
+    "generatedAt": "2026-09-30T06:34:45.931Z"
+  },
+  "en/marketing-attribution-search-decline": {
+    "hash": "36eac40a965a4252",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-marketing-attribution-search-decline.mp3",
+    "seconds": 521,
+    "voice": "en_US-ryan-high",
+    "bytes": 4168141,
+    "generatedAt": "2026-09-30T06:37:12.513Z"
+  },
+  "en/spec-driven-development-ai-agents": {
+    "hash": "5378d70433f9becf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-spec-driven-development-ai-agents.mp3",
+    "seconds": 457,
+    "voice": "en_US-ryan-high",
+    "bytes": 3655097,
+    "generatedAt": "2026-09-30T06:39:19.380Z"
+  },
+  "en/what-is-gpt-6-1-sol": {
+    "hash": "36581e4b4dd7acba",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-gpt-6-1-sol.mp3",
+    "seconds": 509,
+    "voice": "en_US-ryan-high",
+    "bytes": 4073892,
+    "generatedAt": "2026-09-30T06:41:43.560Z"
   }
 }
