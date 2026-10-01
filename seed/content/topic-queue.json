@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "topics": [
-    {
-      "translationKey": "platform-engineering-idp-guide-2026",
-      "category": "devops-cloud",
-      "titleTr": "Platform Muhendisligi DevOps'un Yerini mi Aliyor?",
-      "titleEn": "Is Platform Engineering Replacing DevOps?",
-      "slugTr": "platform-muhendisligi-devops",
-      "slugEn": "platform-engineering-vs-devops",
-      "keywordTr": "platform muhendisligi idp",
-      "keywordEn": "platform engineering idp",
-      "angle": "deep-dive|Explain internal developer platforms and whether platform engineering supersedes DevOps.",
-      "style": "question-driven",
-      "brief": "Sections: the question (is DevOps dead?); the trend (est. 80% of orgs adopting platform engineering in 2026, up from ~45%); what an Internal Developer Platform (IDP) is (self-service infra, golden paths, automation, metrics); how it differs from classic DevOps and SRE; what a small team should build first; failure modes (platform as ivory tower). Verify: adoption stat, IDP components, Backstage-class tooling. Sources: EnlightLab DevOps trends 2026, Geeks Solutions platform engineering 2026."
-    },
-    {
-      "translationKey": "shift-left-observability-cicd-2026",
-      "category": "devops-cloud",
-      "titleTr": "Gozlemlenebilirligi CI/CD'ye Tasi: Shift-Left",
-      "titleEn": "Shift-Left Observability in Your CI/CD",
-      "slugTr": "shift-left-gozlemlenebilirlik-cicd",
-      "slugEn": "shift-left-observability-cicd",
-      "keywordTr": "gozlemlenebilirlik cicd",
-      "keywordEn": "shift left observability",
-      "angle": "guide|How to move observability into testing and CI/CD instead of only production firefighting.",
-      "style": "field-notes",
-      "brief": "Sections: the shift (observability moving left, closer to dev and CI/CD, not just prod firefighting); instrumenting earlier (traces in tests, SLOs as code, synthetic checks in pipelines, telemetry in preview environments); developer ownership of signals; correlating cost with performance data; a starter setup with OpenTelemetry; pitfalls (alert fatigue, cardinality blowups). Verify: shift-left observability claims, OTel practices. Sources: Site24x7 K8s observability trends 2026, Fairwinds 2026 playbook."
-    },
-    {
-      "translationKey": "react-compiler-memoization-2026",
-      "category": "web-development",
-      "titleTr": "React Compiler: useMemo'ya Elveda mi?",
-      "titleEn": "React Compiler: Goodbye Manual Memoization?",
-      "slugTr": "react-compiler-otomatik-memoization",
-      "slugEn": "react-compiler-memoization",
-      "keywordTr": "react compiler nedir",
-      "keywordEn": "react compiler memoization",
-      "angle": "how-to|Explain the React Compiler and how to drop manual useMemo/useCallback safely.",
-      "style": "question-driven",
-      "brief": "Sections: the question (do I still need useMemo/useCallback?); what the React Compiler does (build-time optimization that auto-memoizes); how to adopt it (enabling it, the Rules of React it depends on, incremental rollout); what breaks and how to debug; measuring the perf win; when manual memoization still matters. Verify: React Compiler behavior, adoption steps, current stability. Sources: React docs, State of Frontend 2026 (Prepr), LogRocket web-dev trends 2026."
-    },
-    {
-      "translationKey": "astro-nextjs-sveltekit-2026",
-      "category": "web-development",
-      "titleTr": "Astro, Next.js ve SvelteKit: Hangisi?",
-      "titleEn": "Astro vs Next.js vs SvelteKit: Which to Pick",
-      "slugTr": "astro-nextjs-sveltekit-karsilastirma",
-      "slugEn": "astro-nextjs-sveltekit-compared",
-      "keywordTr": "astro nextjs sveltekit karsilastirma",
-      "keywordEn": "astro vs nextjs vs sveltekit",
-      "angle": "comparison|Compare Astro, Next.js and SvelteKit across content sites, apps and performance.",
-      "style": "data-led",
-      "brief": "Sections: the landscape (React/Next.js as default meta-framework; Astro and Svelte gaining on performance and simplicity; server-first mindset); a comparison matrix (rendering model, DX, ecosystem, bundle size, edge support, learning curve); pick-by-use-case (content/marketing site, dashboard app, hybrid); migration notes; where each is overkill. Verify: 2026 adoption/satisfaction data, server components/islands behavior. Sources: State of Frontend 2026, FocusReactive React frameworks 2026, Netguru frontend trends."
-    },
     {
       "translationKey": "edge-deployment-frontend-2026",
       "category": "web-development",

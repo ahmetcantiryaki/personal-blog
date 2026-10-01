@@ -6108,6 +6108,66 @@
         "slug": "kubernetes-finops-cost-optimization",
         "title": "How Do You Cut Kubernetes Costs? A FinOps Playbook"
       }
+    },
+    {
+      "translationKey": "gemini-4-argon-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-4-argon-nedir",
+        "title": "Gemini 4 Argon Nedir? Google'ın Yeni Frontier Modeli"
+      },
+      "en": {
+        "slug": "what-is-gemini-4-argon",
+        "title": "What Is Gemini 4 Argon? Google's New Frontier Model"
+      }
+    },
+    {
+      "translationKey": "platform-engineering-idp-guide-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "platform-muhendisligi-devops",
+        "title": "Platform Mühendisliği DevOps'un Yerini mi Alıyor?"
+      },
+      "en": {
+        "slug": "platform-engineering-vs-devops",
+        "title": "Is Platform Engineering Replacing DevOps?"
+      }
+    },
+    {
+      "translationKey": "shift-left-observability-cicd-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "shift-left-gozlemlenebilirlik-cicd",
+        "title": "Gözlemlenebilirliği CI/CD'ye Taşı: Shift-Left Rehberi"
+      },
+      "en": {
+        "slug": "shift-left-observability-cicd",
+        "title": "Shift-Left Observability in Your CI/CD Pipeline"
+      }
+    },
+    {
+      "translationKey": "react-compiler-memoization-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-compiler-otomatik-memoization",
+        "title": "React Compiler: useMemo'ya Hâlâ İhtiyacın Var mı?"
+      },
+      "en": {
+        "slug": "react-compiler-memoization",
+        "title": "React Compiler: Do You Still Need useMemo?"
+      }
+    },
+    {
+      "translationKey": "astro-nextjs-sveltekit-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "astro-nextjs-sveltekit-karsilastirma",
+        "title": "Astro, Next.js ve SvelteKit: 2026'da Hangisi?"
+      },
+      "en": {
+        "slug": "astro-nextjs-sveltekit-compared",
+        "title": "Astro vs Next.js vs SvelteKit: Which in 2026?"
+      }
     }
   ]
 }
