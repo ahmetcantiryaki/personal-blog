@@ -4006,5 +4006,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4073892,
     "generatedAt": "2026-09-30T06:41:43.560Z"
+  },
+  "en/astro-nextjs-sveltekit-compared": {
+    "hash": "862131cb93423693",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-astro-nextjs-sveltekit-compared.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3263678,
+    "generatedAt": "2026-10-01T06:36:55.379Z"
+  },
+  "en/platform-engineering-vs-devops": {
+    "hash": "f923d09b8bc25b1d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-platform-engineering-vs-devops.mp3",
+    "seconds": 463,
+    "voice": "en_US-ryan-high",
+    "bytes": 3701699,
+    "generatedAt": "2026-10-01T06:39:34.424Z"
+  },
+  "en/react-compiler-memoization": {
+    "hash": "1e5d7b510e0182f4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-compiler-memoization.mp3",
+    "seconds": 426,
+    "voice": "en_US-ryan-high",
+    "bytes": 3405993,
+    "generatedAt": "2026-10-01T06:41:59.324Z"
+  },
+  "en/shift-left-observability-cicd": {
+    "hash": "213f3bec81de3bc5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-shift-left-observability-cicd.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3170473,
+    "generatedAt": "2026-10-01T06:44:14.457Z"
+  },
+  "en/what-is-gemini-4-argon": {
+    "hash": "fc2078fc95d3e1d9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-gemini-4-argon.mp3",
+    "seconds": 499,
+    "voice": "en_US-ryan-high",
+    "bytes": 3994061,
+    "generatedAt": "2026-10-01T06:47:04.878Z"
   }
 }
