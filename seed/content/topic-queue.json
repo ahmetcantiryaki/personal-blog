@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "topics": [
-    {
-      "translationKey": "edge-deployment-frontend-2026",
-      "category": "web-development",
-      "titleTr": "Frontend'i Edge'e Tasimak: Pratik Rehber",
-      "titleEn": "Deploying Your Frontend to the Edge",
-      "slugTr": "frontend-edge-dagitim",
-      "slugEn": "edge-deployment-frontend",
-      "keywordTr": "edge dagitim frontend",
-      "keywordEn": "edge deployment frontend",
-      "angle": "guide|A practical guide to shipping frontend apps to the edge and what it changes.",
-      "style": "field-notes",
-      "brief": "Sections: why edge is now the primary target for frontend apps; what runs at the edge (SSR, middleware, personalization, A/B, auth) vs what shouldn't; cold starts, runtime limits (no full Node APIs), and data-locality gotchas; a deploy walkthrough on an edge platform; measuring TTFB/latency wins; when a regional server is still better. Verify: edge-runtime constraints, 2026 deployment trends. Sources: State of Frontend 2026, LogRocket 8 web-dev trends 2026, Alphonso Labs."
-    },
-    {
-      "translationKey": "instagram-your-algorithm-controls-2026",
-      "category": "social-media",
-      "titleTr": "Instagram 'Senin Algoritman' Ayarlarini Kullan",
-      "titleEn": "Take Control with Instagram's 'Your Algorithm'",
-      "slugTr": "instagram-senin-algoritman-ayarlari",
-      "slugEn": "instagram-your-algorithm-controls",
-      "keywordTr": "instagram algoritma ayarlari",
-      "keywordEn": "instagram your algorithm settings",
-      "angle": "how-to|Use Instagram's new 'Your Algorithm' controls and search-first indexing to grow reach.",
-      "style": "story-led",
-      "brief": "Sections: what changed in 2026 (global 'Your Algorithm' controls to fine-tune feed/Reels; search-first indexing on caption keywords; original content elevated over aggregators; Reels retention heatmaps); a creator's story of tuning their own feed and reading drop-off heatmaps; a keyword-driven caption workflow; posting original vs reposting; measuring with the new analytics. Verify: 'Your Algorithm' rollout, search-first indexing, heatmap feature. Sources: Sotrender 2026 algorithm changes, Emplifi updates, NewEngen Instagram trends Sept 2026."
-    },
-    {
-      "translationKey": "tiktok-predictive-algorithm-seo-2026",
-      "category": "social-media",
-      "titleTr": "TikTok Ongorucu Algoritma: Kesfette Nasil Cikilir?",
-      "titleEn": "TikTok's Predictive Algorithm: How to Get Seen",
-      "slugTr": "tiktok-ongorucu-algoritma-kesfet",
-      "slugEn": "tiktok-predictive-algorithm-seo",
-      "keywordTr": "tiktok algoritma kesfet 2026",
-      "keywordEn": "tiktok algorithm 2026",
-      "angle": "how-to|Adapt to TikTok's predictive, save-driven algorithm and its new Local Feed.",
-      "style": "question-driven",
-      "brief": "Sections: the question (why do some videos explode and mine don't?); how the 2026 algorithm works (predictive/behavioral AI surfacing content before users search; rewards saves, on-screen context, question-answering, 1-3 min storytelling); the new Local Feed for nearby creators/businesses; a TikTok-SEO checklist (spoken + on-screen keywords, hooks, retention); measuring saves over views. Verify: predictive-algorithm and Local Feed claims, ranking signals. Sources: Sotrender, StoryChief social algorithms 2026, DigitalApplied algorithm guide."
-    },
-    {
-      "translationKey": "ai-content-labels-creators-2026",
-      "category": "social-media",
-      "titleTr": "AI Icerik Etiketleri: Ureticiler Ne Yapmali?",
-      "titleEn": "AI Content Labels: What Creators Must Know",
-      "slugTr": "ai-icerik-etiketleri-ureticiler",
-      "slugEn": "ai-content-labels-for-creators",
-      "keywordTr": "yapay zeka icerik etiketi instagram",
-      "keywordEn": "ai content labels instagram",
-      "angle": "guide|Explain platform AI-transparency labels and how creators should disclose AI content.",
-      "style": "contrarian",
-      "brief": "Sections: the change (Instagram and peers rolling out AI-transparency labels identifying AI-generated content); the contrarian take (disclosure can build trust, not kill reach, if handled well); what triggers a label and how detection works; a disclosure policy for creators/brands; reach and credibility implications; ethics and audience expectations. Verify: Instagram AI-label rollout scope, detection/metadata (C2PA) mechanics. Sources: Emplifi social updates 2026, Sotrender 2026, Meta transparency announcements."
-    },
     {
       "translationKey": "solo-founder-ai-agent-stack-2026",
       "category": "business",

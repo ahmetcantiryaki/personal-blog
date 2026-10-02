@@ -446,6 +446,18 @@
       }
     },
     {
+      "translationKey": "ai-content-labels-creators-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "ai-icerik-etiketleri-ureticiler",
+        "title": "AI İçerik Etiketleri Ne Zaman Gerekir?"
+      },
+      "en": {
+        "slug": "ai-content-labels-for-creators",
+        "title": "When Do You Need an AI Content Label?"
+      }
+    },
+    {
       "translationKey": "ai-content-marketing-workflow",
       "category": "digital-marketing",
       "tr": {
@@ -2570,6 +2582,18 @@
       }
     },
     {
+      "translationKey": "edge-deployment-frontend-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "frontend-edge-dagitim",
+        "title": "Frontend'i Edge'e Nasıl Taşırsın? Pratik Rehber"
+      },
+      "en": {
+        "slug": "edge-deployment-frontend",
+        "title": "How Do You Deploy a Frontend to the Edge?"
+      }
+    },
+    {
       "translationKey": "edge-functions-rendering-guide",
       "category": "web-development",
       "tr": {
@@ -3446,6 +3470,18 @@
       }
     },
     {
+      "translationKey": "instagram-your-algorithm-controls-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "instagram-senin-algoritman-ayarlari",
+        "title": "Instagram'da 'Senin Algoritman' Ayarları Nasıl Kullanılır?"
+      },
+      "en": {
+        "slug": "instagram-your-algorithm-controls",
+        "title": "How Do You Use Instagram's 'Your Algorithm' Controls?"
+      }
+    },
+    {
       "translationKey": "investor-update-with-ai",
       "category": "business",
       "tr": {
@@ -4127,6 +4163,18 @@
       "en": {
         "slug": "openai-codex-5-hour-limit-returns",
         "title": "OpenAI Brings Back Codex's 5-Hour Usage Limit"
+      }
+    },
+    {
+      "translationKey": "openai-dots-always-on-agents-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-dots-nedir",
+        "title": "OpenAI Dots Nedir? ChatGPT'nin Her Zaman Açık Ajanları"
+      },
+      "en": {
+        "slug": "what-is-openai-dots",
+        "title": "What Is OpenAI Dots? ChatGPT's Always-On Agents"
       }
     },
     {
@@ -5243,6 +5291,18 @@
       "en": {
         "slug": "tiktok-2026-algorithm-reach",
         "title": "TikTok's 2026 Algorithm: What Actually Gets Reach"
+      }
+    },
+    {
+      "translationKey": "tiktok-predictive-algorithm-seo-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-ongorucu-algoritma-kesfet",
+        "title": "TikTok'un Öngörücü Algoritmasında Nasıl Keşfedilirsin?"
+      },
+      "en": {
+        "slug": "tiktok-predictive-algorithm-seo",
+        "title": "TikTok's Predictive Algorithm: How Do You Get Seen?"
       }
     },
     {
