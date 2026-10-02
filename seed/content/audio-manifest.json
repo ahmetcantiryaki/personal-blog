@@ -4046,5 +4046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3994061,
     "generatedAt": "2026-10-01T06:47:04.878Z"
+  },
+  "en/ai-content-labels-for-creators": {
+    "hash": "10ab7648fda3cb7f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-content-labels-for-creators.mp3",
+    "seconds": 451,
+    "voice": "en_US-ryan-high",
+    "bytes": 3609957,
+    "generatedAt": "2026-10-02T06:36:46.647Z"
+  },
+  "en/edge-deployment-frontend": {
+    "hash": "1f5878178045ec28",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-edge-deployment-frontend.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3532008,
+    "generatedAt": "2026-10-02T06:39:18.000Z"
+  },
+  "en/instagram-your-algorithm-controls": {
+    "hash": "c943003a57fb93f5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-instagram-your-algorithm-controls.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3420204,
+    "generatedAt": "2026-10-02T06:41:43.830Z"
+  },
+  "en/tiktok-predictive-algorithm-seo": {
+    "hash": "34f7f0d731f843e6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-predictive-algorithm-seo.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3513199,
+    "generatedAt": "2026-10-02T06:44:13.575Z"
+  },
+  "en/what-is-openai-dots": {
+    "hash": "3e98ce5a8a4ce2d7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-openai-dots.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3514871,
+    "generatedAt": "2026-10-02T06:46:42.949Z"
   }
 }
