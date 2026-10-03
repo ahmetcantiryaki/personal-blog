@@ -103,6 +103,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   podcasting: { en: 'Podcasting', tr: 'Podcast Yayıncılığı' },
   portfolio: { en: 'Portfolio', tr: 'Portfolyo' },
   postgresql: { en: 'PostgreSQL', tr: 'PostgreSQL' },
+  pricing: { en: 'Pricing', tr: 'Fiyatlandırma' },
   privacy: { en: 'Privacy', tr: 'Gizlilik' },
   productivity: { en: 'Productivity', tr: 'Üretkenlik' },
   'prompt-engineering': { en: 'Prompt Engineering', tr: 'Prompt Mühendisliği' },

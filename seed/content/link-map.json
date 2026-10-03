@@ -1034,6 +1034,18 @@
       }
     },
     {
+      "translationKey": "bootstrap-vs-raise-ai-era-2026",
+      "category": "business",
+      "tr": {
+        "slug": "bootstrap-mi-yatirim-mi-ai",
+        "title": "AI Çağında Bootstrap mı, Yatırım mı?"
+      },
+      "en": {
+        "slug": "bootstrap-vs-raise-ai-era",
+        "title": "Bootstrap or Raise in the AI Agent Era?"
+      }
+    },
+    {
       "translationKey": "bootstrap-vs-vc-2026",
       "category": "business",
       "tr": {
@@ -1571,6 +1583,18 @@
       "en": {
         "slug": "how-do-you-manage-mcp-servers-in-claude-code",
         "title": "How Do You Manage MCP Servers in Claude Code?"
+      }
+    },
+    {
+      "translationKey": "claude-code-mods-explained-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-mods-nedir",
+        "title": "Claude Code Mods Nedir? Ajanı Yeniden Yazan Eklentiler"
+      },
+      "en": {
+        "slug": "what-are-claude-code-mods",
+        "title": "What Are Claude Code Mods? Plugins That Rewrite Claude"
       }
     },
     {
@@ -3902,6 +3926,18 @@
       }
     },
     {
+      "translationKey": "micro-saas-niches-2026",
+      "category": "business",
+      "tr": {
+        "slug": "mikro-saas-fikirleri-2026",
+        "title": "2026'da Kurulacak Mikro-SaaS Fikirleri"
+      },
+      "en": {
+        "slug": "micro-saas-niches-2026",
+        "title": "Micro-SaaS Niches Worth Building in 2026"
+      }
+    },
+    {
       "translationKey": "microservices-vs-monolith",
       "category": "software-engineering",
       "tr": {
@@ -5018,6 +5054,18 @@
       }
     },
     {
+      "translationKey": "solo-founder-ai-agent-stack-2026",
+      "category": "business",
+      "tr": {
+        "slug": "tek-kisilik-girisim-ai-ajan-yigini",
+        "title": "2026'da Tek Kişilik Girişimin AI Ajan Yığınında Ne Var?"
+      },
+      "en": {
+        "slug": "solo-founder-ai-agent-stack",
+        "title": "What's in a Solo Founder's AI Agent Stack in 2026?"
+      }
+    },
+    {
       "translationKey": "solopreneur-ai-stack",
       "category": "business",
       "tr": {
@@ -5411,6 +5459,18 @@
       "en": {
         "slug": "typescript-7-go-native-compiler",
         "title": "TypeScript 7: The Go-Native Compiler, Explained"
+      }
+    },
+    {
+      "translationKey": "usage-based-outcome-pricing-saas-2026",
+      "category": "business",
+      "tr": {
+        "slug": "koltuk-basi-fiyat-kullanima-dayali-saas",
+        "title": "Koltuk Başı Fiyatlama Öldü mü? Kullanıma Dayalı SaaS"
+      },
+      "en": {
+        "slug": "usage-based-outcome-pricing-saas",
+        "title": "Is Per-Seat Pricing Dead? Usage-Based SaaS in 2026"
       }
     },
     {

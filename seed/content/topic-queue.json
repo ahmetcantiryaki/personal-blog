@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "topics": [
-    {
-      "translationKey": "solo-founder-ai-agent-stack-2026",
-      "category": "business",
-      "titleTr": "Tek Kisilik Girisim Icin AI Ajan Yigini",
-      "titleEn": "The Solo Founder's AI Agent Stack",
-      "slugTr": "tek-kisilik-girisim-ai-ajan-yigini",
-      "slugEn": "solo-founder-ai-agent-stack",
-      "keywordTr": "tek kisilik girisim yapay zeka",
-      "keywordEn": "solo founder ai agent stack",
-      "angle": "guide|A practical AI-agent stack that lets one founder run marketing, ops and support.",
-      "style": "data-led",
-      "brief": "Sections: the shift (solo-founded startups hit 36.3% of new companies in 2026; most micro-SaaS earn $5k-$50k/mo with no full-time staff); the stack by function (marketing funnel, support, CI/CD, customer success) with a realistic $300-$500/mo budget; designing agents around one narrow workflow with approval rules; where humans stay in the loop; risks of over-automation. Verify: solo-founder and cost stats, agent-stack economics. Sources: mean.ceo B2B SaaS trends 2026, Forbes AI agent startups, AgentMarketCap."
-    },
-    {
-      "translationKey": "usage-based-outcome-pricing-saas-2026",
-      "category": "business",
-      "titleTr": "Koltuk Basi Fiyat Oldu mu? Kullanima Dayali SaaS",
-      "titleEn": "Is Per-Seat Pricing Dead? Usage-Based SaaS",
-      "slugTr": "koltuk-basi-fiyat-kullanima-dayali-saas",
-      "slugEn": "usage-based-outcome-pricing-saas",
-      "keywordTr": "kullanima dayali fiyatlandirma saas",
-      "keywordEn": "usage based pricing saas",
-      "angle": "deep-dive|Why per-seat pricing is fading for agent-led software and how to design usage/outcome models.",
-      "style": "contrarian",
-      "brief": "Sections: the thesis (per-seat pricing loses appeal when agents, not seats, do the work); the emerging mix (platform fee + usage-based billing + outcome-linked charges); the hard constraint (customers must predict and explain the bill to finance); worked pricing examples and margin math; migration from seats without churn; risks (bill shock, gaming metered usage). Verify: pricing-trend claims, outcome-pricing patterns. Sources: Journeybee SaaS 2026 trends, mean.ceo B2B SaaS edition."
-    },
-    {
-      "translationKey": "micro-saas-niches-2026",
-      "category": "business",
-      "titleTr": "2026'da Kurulacak Mikro-SaaS Fikirleri",
-      "titleEn": "Micro-SaaS Niches Worth Building in 2026",
-      "slugTr": "mikro-saas-fikirleri-2026",
-      "slugEn": "micro-saas-niches-2026",
-      "keywordTr": "mikro saas fikirleri",
-      "keywordEn": "micro saas niches 2026",
-      "angle": "checklist|A vetted checklist of AI-era micro-SaaS niches and how to validate one fast.",
-      "style": "data-led",
-      "brief": "Sections: why micro-SaaS now (tiny teams, AI agents, 60-80% margins); a checklist of promising 2026 niches (vertical AI agents, compliance/ops automation, creator tooling, GEO/AEO tooling, data-cleanup utilities) with why each has demand; a fast validation loop (search demand, willingness to pay, wedge feature); pricing and moat notes; niches to avoid (crowded, no wedge). Verify: niche demand signals, micro-SaaS economics. Sources: Superframeworks top AI SaaS niches 2026, IdeaProof, mean.ceo trends."
-    },
-    {
-      "translationKey": "bootstrap-vs-raise-ai-era-2026",
-      "category": "business",
-      "titleTr": "AI Caginda Bootstrap mi, Yatirim mi?",
-      "titleEn": "Bootstrap or Raise in the AI Agent Era?",
-      "slugTr": "bootstrap-mi-yatirim-mi-ai",
-      "slugEn": "bootstrap-vs-raise-ai-era",
-      "keywordTr": "bootstrap mi yatirim mi",
-      "keywordEn": "bootstrapping vs raising 2026",
-      "angle": "comparison|Compare bootstrapping and raising when AI agents slash the cost of building.",
-      "style": "contrarian",
-      "brief": "Sections: the setup (AI agent stacks cut a founder's cost base 95-98%, changing the raise-or-bootstrap math); a comparison (speed, control, dilution, risk, ceiling) when tiny teams can reach real revenue alone; when VC still makes sense (winner-take-most markets, heavy GTM); a decision framework; the contrarian point that 'default to raise' is often wrong now. Verify: cost-reduction stats, one-person-company revenue examples. Sources: Forbes solo-founder playbook 2026, GreyJournal $1M solo founders, mean.ceo."
-    },
     {
       "translationKey": "claude-life-sciences-verification-2026",
       "category": "ai",
