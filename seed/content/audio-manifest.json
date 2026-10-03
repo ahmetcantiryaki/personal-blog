@@ -4086,5 +4086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3514871,
     "generatedAt": "2026-10-02T06:46:42.949Z"
+  },
+  "en/bootstrap-vs-raise-ai-era": {
+    "hash": "da0a8ed3c42a46e3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-bootstrap-vs-raise-ai-era.mp3",
+    "seconds": 406,
+    "voice": "en_US-ryan-high",
+    "bytes": 3248213,
+    "generatedAt": "2026-10-03T06:40:20.328Z"
+  },
+  "en/micro-saas-niches-2026": {
+    "hash": "ada18e9274f84559",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-micro-saas-niches-2026.mp3",
+    "seconds": 356,
+    "voice": "en_US-ryan-high",
+    "bytes": 2850943,
+    "generatedAt": "2026-10-03T06:42:32.399Z"
+  },
+  "en/solo-founder-ai-agent-stack": {
+    "hash": "23894f8f915f31ce",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-solo-founder-ai-agent-stack.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3747257,
+    "generatedAt": "2026-10-03T06:45:24.142Z"
+  },
+  "en/usage-based-outcome-pricing-saas": {
+    "hash": "1cec23738b2c1d15",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-usage-based-outcome-pricing-saas.mp3",
+    "seconds": 372,
+    "voice": "en_US-ryan-high",
+    "bytes": 2975704,
+    "generatedAt": "2026-10-03T06:47:41.091Z"
+  },
+  "en/what-are-claude-code-mods": {
+    "hash": "2fdad6e9187a6cb3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-are-claude-code-mods.mp3",
+    "seconds": 452,
+    "voice": "en_US-ryan-high",
+    "bytes": 3613719,
+    "generatedAt": "2026-10-03T06:50:25.099Z"
   }
 }
