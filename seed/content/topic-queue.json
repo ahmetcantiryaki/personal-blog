@@ -2,58 +2,6 @@
   "updatedAt": "2026-10-04",
   "topics": [
     {
-      "translationKey": "claude-life-sciences-verification-2026",
-      "category": "ai",
-      "titleTr": "Claude Yasam Bilimleri Dogrulama Programi Nedir?",
-      "titleEn": "Inside Claude's Life Sciences Verification",
-      "slugTr": "claude-yasam-bilimleri-dogrulama",
-      "slugEn": "claude-life-sciences-verification",
-      "keywordTr": "claude yasam bilimleri",
-      "keywordEn": "claude life sciences verification",
-      "angle": "deep-dive|Explain Anthropic's Life Sciences Verification Program and why it matters for AI in science.",
-      "style": "story-led",
-      "brief": "Sections: the context (Anthropic launched a Life Sciences Verification Program, Sept 17 2026, amid Claude's scientific work like a novel enzyme-system discovery); what the program verifies and who it's for (researchers, labs, biotech); how verification balances access with dual-use safety in a sensitive domain; what it signals about AI-for-science guardrails; practical takeaways for teams evaluating AI in regulated research. Verify: program scope, eligibility, launch date. Sources: anthropic.com/news Sept 2026, Anthropic safety posts."
-    },
-    {
-      "translationKey": "on-device-vs-cloud-ai-2026",
-      "category": "ai",
-      "titleTr": "Cihazda mi Bulutta mi? Yapay Zekanin Yeri",
-      "titleEn": "On-Device vs Cloud AI: Where Should It Run?",
-      "slugTr": "cihazda-mi-bulutta-mi-yapay-zeka",
-      "slugEn": "on-device-vs-cloud-ai",
-      "keywordTr": "cihazda yapay zeka bulut",
-      "keywordEn": "on-device vs cloud ai",
-      "angle": "comparison|Compare on-device and cloud AI on privacy, cost, latency and capability.",
-      "style": "question-driven",
-      "brief": "Sections: the question (should this AI feature run on my device or in the cloud?); what's driving on-device AI in 2026 (privacy-conscious design, local processing in phones and smart homes, offline use); a comparison across privacy, latency, cost, model capability and battery; hybrid patterns (local first, cloud for heavy tasks); how to choose for a product or personal setup. Verify: 2026 on-device AI trends, hybrid architectures. Sources: CES 2026 coverage, Android on-device AI reports, vendor docs."
-    },
-    {
-      "translationKey": "claude-for-government-fedramp-2026",
-      "category": "ai",
-      "titleTr": "Kamuda Claude: FedRAMP High Neyi Aciyor?",
-      "titleEn": "Claude for Government: What FedRAMP High Unlocks",
-      "slugTr": "kamuda-claude-fedramp-high",
-      "slugEn": "claude-for-government-fedramp-high",
-      "keywordTr": "kamuda yapay zeka",
-      "keywordEn": "claude for government",
-      "angle": "deep-dive: what the public-sector launch means for regulated AI adoption",
-      "style": "data-led",
-      "brief": "Sections: what Claude for Government is (FedRAMP High authorization, Claude Code CLI + Claude for Microsoft 365 early access); governance, spend controls, audit logs, desktop file support; who it serves (federal/state agencies); current limits; what the launch signals for regulated AI buyers. Verify FedRAMP High authorization, GA timing, and the exact governance feature list. Primary sources: https://www.anthropic.com/news and https://claude.com/blog-category/announcements."
-    },
-    {
-      "translationKey": "ai-assistants-skills-convergence-2026",
-      "category": "ai",
-      "titleTr": "Neden Her Yapay Zeka Artik 'Skills' Kullaniyor?",
-      "titleEn": "Why Every AI Assistant Now Has 'Skills'",
-      "slugTr": "yapay-zeka-skills-yakinsamasi",
-      "slugEn": "ai-assistants-converging-on-skills",
-      "keywordTr": "yapay zeka skills",
-      "keywordEn": "ai skills",
-      "angle": "contrarian: the industry is converging on stackable, reusable skills over bespoke assistants",
-      "style": "contrarian",
-      "brief": "Outline: the shift from bespoke assistants (Gemini Gems, custom GPTs) to stackable, slash-invoked skills as the customization primitive; Gemini retiring Gems for Skills, Claude Skills; what 'stackable + auto-selected' changes for workflows; limits (Gemini's 100-skill cap, feature gaps); argue this is portability, not lock-in. Verify Gemini Gems-to-Skills migration dates and the 100-skill cap. Sources: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/ and TechCrunch's Gems-to-Skills report."
-    },
-    {
       "translationKey": "vercel-ai-sdk-streaming-chat-2026",
       "category": "web-development",
       "titleTr": "Vercel AI SDK ile Akisli Yapay Zeka Sohbeti",

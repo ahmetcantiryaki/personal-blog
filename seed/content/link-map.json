@@ -6288,6 +6288,66 @@
         "slug": "astro-nextjs-sveltekit-compared",
         "title": "Astro vs Next.js vs SvelteKit: Which in 2026?"
       }
+    },
+    {
+      "translationKey": "chatgpt-pro-500-tier-usage-cut-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "openai-chatgpt-pro-500-plani",
+        "title": "OpenAI'ın 500 Dolarlık Planının Bedeli Ne?"
+      },
+      "en": {
+        "slug": "openai-chatgpt-pro-500-tier",
+        "title": "OpenAI's New $500 ChatGPT Tier Comes With a Catch"
+      }
+    },
+    {
+      "translationKey": "claude-life-sciences-verification-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-yasam-bilimleri-dogrulama",
+        "title": "Claude Yaşam Bilimleri Doğrulama Programı Nedir?"
+      },
+      "en": {
+        "slug": "claude-life-sciences-verification",
+        "title": "What Is Claude's Life Sciences Verification Program?"
+      }
+    },
+    {
+      "translationKey": "on-device-vs-cloud-ai-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "cihazda-mi-bulutta-mi-yapay-zeka",
+        "title": "Yapay Zeka Cihazda mı, Bulutta mı Çalışmalı?"
+      },
+      "en": {
+        "slug": "on-device-vs-cloud-ai",
+        "title": "On-Device vs Cloud AI: Where Should It Run?"
+      }
+    },
+    {
+      "translationKey": "claude-for-government-fedramp-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "kamuda-claude-fedramp-high",
+        "title": "Kamuda Claude: FedRAMP High Neyi Açıyor?"
+      },
+      "en": {
+        "slug": "claude-for-government-fedramp-high",
+        "title": "Claude for Government: What FedRAMP High Unlocks"
+      }
+    },
+    {
+      "translationKey": "ai-assistants-skills-convergence-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-skills-yakinsamasi",
+        "title": "Neden Her Yapay Zeka Artık 'Skills' Kullanıyor?"
+      },
+      "en": {
+        "slug": "ai-assistants-converging-on-skills",
+        "title": "Why Every AI Assistant Now Has 'Skills'"
+      }
     }
   ]
 }
