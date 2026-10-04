@@ -4126,5 +4126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3613719,
     "generatedAt": "2026-10-03T06:50:25.099Z"
+  },
+  "en/ai-assistants-converging-on-skills": {
+    "hash": "206eeae4e9e30b04",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-assistants-converging-on-skills.mp3",
+    "seconds": 434,
+    "voice": "en_US-ryan-high",
+    "bytes": 3471195,
+    "generatedAt": "2026-10-04T06:36:09.784Z"
+  },
+  "en/claude-for-government-fedramp-high": {
+    "hash": "c7f7ce9d3873b950",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-for-government-fedramp-high.mp3",
+    "seconds": 451,
+    "voice": "en_US-ryan-high",
+    "bytes": 3604524,
+    "generatedAt": "2026-10-04T06:38:44.706Z"
+  },
+  "en/claude-life-sciences-verification": {
+    "hash": "c77a240bd5d72228",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-life-sciences-verification.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3288546,
+    "generatedAt": "2026-10-04T06:41:05.927Z"
+  },
+  "en/on-device-vs-cloud-ai": {
+    "hash": "73c5e352a27fb54e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-on-device-vs-cloud-ai.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3399515,
+    "generatedAt": "2026-10-04T06:43:31.751Z"
+  },
+  "en/openai-chatgpt-pro-500-tier": {
+    "hash": "4c7e20aaeeb08067",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-openai-chatgpt-pro-500-tier.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3466179,
+    "generatedAt": "2026-10-04T06:46:01.054Z"
   }
 }
