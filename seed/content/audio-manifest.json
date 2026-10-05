@@ -4166,5 +4166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3466179,
     "generatedAt": "2026-10-04T06:46:01.054Z"
+  },
+  "en/claude-sonnet-5-5-vs-gpt-6-1-sol": {
+    "hash": "4aab968c94b287a8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-5-5-vs-gpt-6-1-sol.mp3",
+    "seconds": 509,
+    "voice": "en_US-ryan-high",
+    "bytes": 4072220,
+    "generatedAt": "2026-10-05T06:40:54.977Z"
+  },
+  "en/partial-prerendering-static-dynamic": {
+    "hash": "d2013881e7e2766d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-partial-prerendering-static-dynamic.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3787172,
+    "generatedAt": "2026-10-05T06:42:33.449Z"
+  },
+  "en/shipping-ai-generated-uis-to-production": {
+    "hash": "a79aaf6269e98f5c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-shipping-ai-generated-uis-to-production.mp3",
+    "seconds": 533,
+    "voice": "en_US-ryan-high",
+    "bytes": 4261764,
+    "generatedAt": "2026-10-05T06:44:22.856Z"
+  },
+  "en/spec-driven-coding-claude-code-codex": {
+    "hash": "6fd877738c092262",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-spec-driven-coding-claude-code-codex.mp3",
+    "seconds": 505,
+    "voice": "en_US-ryan-high",
+    "bytes": 4038365,
+    "generatedAt": "2026-10-05T06:46:07.884Z"
+  },
+  "en/streaming-ai-chat-vercel-ai-sdk": {
+    "hash": "0229bfa02bf6c12c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-streaming-ai-chat-vercel-ai-sdk.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3353539,
+    "generatedAt": "2026-10-05T06:48:49.434Z"
   }
 }
