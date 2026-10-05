@@ -6348,6 +6348,66 @@
         "slug": "ai-assistants-converging-on-skills",
         "title": "Why Every AI Assistant Now Has 'Skills'"
       }
+    },
+    {
+      "translationKey": "claude-sonnet-5-5-vs-gpt-6-1-sol",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-5-vs-gpt-6-1-sol-karsilastirma",
+        "title": "Claude Sonnet 5.5 mi GPT-6.1 Sol mu? Hangisini Seçmeli?"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-5-vs-gpt-6-1-sol",
+        "title": "Claude Sonnet 5.5 vs GPT-6.1 Sol: Which Should You Use?"
+      }
+    },
+    {
+      "translationKey": "vercel-ai-sdk-streaming-chat-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "vercel-ai-sdk-akisli-sohbet-arayuzu",
+        "title": "Vercel AI SDK ile Akışlı Yapay Zeka Sohbeti Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "streaming-ai-chat-vercel-ai-sdk",
+        "title": "Build a Streaming AI Chat UI With the Vercel AI SDK"
+      }
+    },
+    {
+      "translationKey": "ship-ai-generated-uis-production-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "yapay-zeka-arayuzlerini-canliya-alma",
+        "title": "Yapay Zekânın Yazdığı Arayüz Canlıya Çıkar mı?"
+      },
+      "en": {
+        "slug": "shipping-ai-generated-uis-to-production",
+        "title": "Can You Ship AI-Generated UIs to Production?"
+      }
+    },
+    {
+      "translationKey": "partial-prerendering-nextjs-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "kismi-on-render-statik-dinamik",
+        "title": "Kısmi Ön Render: Statik ve Dinamik Tek Sayfada Nasıl Olur?"
+      },
+      "en": {
+        "slug": "partial-prerendering-static-dynamic",
+        "title": "Partial Prerendering: Static and Dynamic in One Page"
+      }
+    },
+    {
+      "translationKey": "spec-driven-coding-agents-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-codex-spec-odakli-kodlama",
+        "title": "Claude Code ve Codex ile Spesifikasyon Odaklı Kodlama"
+      },
+      "en": {
+        "slug": "spec-driven-coding-claude-code-codex",
+        "title": "Spec-Driven Coding With Claude Code and Codex"
+      }
     }
   ]
 }

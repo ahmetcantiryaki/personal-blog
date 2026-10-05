@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "topics": [
-    {
-      "translationKey": "vercel-ai-sdk-streaming-chat-2026",
-      "category": "web-development",
-      "titleTr": "Vercel AI SDK ile Akisli Yapay Zeka Sohbeti",
-      "titleEn": "Build a Streaming AI Chat UI With the Vercel AI SDK",
-      "slugTr": "vercel-ai-sdk-akisli-sohbet-arayuzu",
-      "slugEn": "streaming-ai-chat-vercel-ai-sdk",
-      "keywordTr": "vercel ai sdk",
-      "keywordEn": "vercel ai sdk",
-      "angle": "how-to: ship a streaming chat UI with useChat, tool calls, and swappable providers",
-      "style": "field-notes",
-      "brief": "Outline: why the AI SDK (streaming-first React hooks, 25+ providers); scaffold a Next.js route handler; wire useChat on the client; stream tokens; add tool calls; swap providers without rewriting UI; handle errors and cancellation. Verify the AI SDK is the most-downloaded TS AI-UI library 2025-26 and the current useChat API shape. Sources: Vercel AI SDK docs (sdk.vercel.ai) and https://blog.logrocket.com/8-trends-web-dev-2026/."
-    },
-    {
-      "translationKey": "ship-ai-generated-uis-production-2026",
-      "category": "web-development",
-      "titleTr": "Yapay Zekanin Yazdigi Arayuz Canliya Cikar mi?",
-      "titleEn": "Can You Ship AI-Generated UIs to Production?",
-      "slugTr": "yapay-zeka-arayuzlerini-canliya-alma",
-      "slugEn": "shipping-ai-generated-uis-to-production",
-      "keywordTr": "yapay zeka arayuz uretimi",
-      "keywordEn": "ai generated ui",
-      "angle": "question-driven: taking generative UI-builder output into a maintainable codebase",
-      "style": "question-driven",
-      "brief": "Outline: what generative UI builders output (meta-framework/Next.js projects by default); the gap between a slick demo and production code (accessibility, keyboard/focus, state management, design tokens, error states, tests, security); a concrete hardening checklist to run before merge; when to refactor the generated code vs rewrite it from the spec; how to keep humans owning architecture and data flow while agents draft components; and the review habits that stop generated UI debt from compounding. Verify that generative builders default to meta-frameworks and the ~29%-of-code-is-AI-generated stat. Sources: https://blog.logrocket.com/8-trends-web-dev-2026/ and https://www.netguru.com/blog/front-end-trends."
-    },
-    {
-      "translationKey": "partial-prerendering-nextjs-2026",
-      "category": "web-development",
-      "titleTr": "Kismi On Render: Tek Sayfada Statik ve Dinamik",
-      "titleEn": "Partial Prerendering: Static and Dynamic in One Page",
-      "slugTr": "kismi-on-render-statik-dinamik",
-      "slugEn": "partial-prerendering-static-dynamic",
-      "keywordTr": "kismi on render",
-      "keywordEn": "partial prerendering",
-      "angle": "contrarian: the static-vs-dynamic choice is dissolving",
-      "style": "contrarian",
-      "brief": "Outline: why 'static or dynamic' is a false choice; how Partial Prerendering serves a static shell with dynamic holes streamed in via Suspense boundaries; when it actually helps (mostly-static pages with a few personalized slots); caveats and current stability; what it means for caching and TTFB. Verify PPR behavior and its stability status in Next.js. Sources: Next.js docs (nextjs.org) and https://www.smartform.dev/blog/web-development-trends-2026-ai-first-typescript-edge."
-    },
-    {
-      "translationKey": "spec-driven-coding-agents-2026",
-      "category": "software-engineering",
-      "titleTr": "Claude Code ve Codex ile Spec Odakli Kodlama",
-      "titleEn": "Spec-Driven Coding With Claude Code and Codex",
-      "slugTr": "claude-code-codex-spec-odakli-kodlama",
-      "slugEn": "spec-driven-coding-claude-code-codex",
-      "keywordTr": "spesifikasyon odakli gelistirme",
-      "keywordEn": "spec-driven development",
-      "angle": "how-to: write specs coding agents implement reliably",
-      "style": "field-notes",
-      "brief": "Outline: why written specs beat vibe-prompting once agents write most of the code; the anatomy of an implementable spec (acceptance criteria, file boundaries, data contracts, a test plan, explicit non-goals); how to hand that spec to Claude Code or Codex and let it plan before it edits; the review-and-iterate loop when the agent drifts; keeping the spec as living documentation the next agent reads; and the small-PR discipline that keeps changes reviewable. Verify the ~29%-AI-generated-code and ~68%-of-devs-use-AI claims. Sources: https://dhtmlx.com/blog/how-ai-is-reshaping-web-development-in-2026-javascript-frameworks-open-source-and-pm-tools/ and Anthropic's Claude Code docs/changelog."
-    },
     {
       "translationKey": "reviewing-ai-generated-code-2026",
       "category": "software-engineering",
