@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "topics": [
-    {
-      "translationKey": "reviewing-ai-generated-code-2026",
-      "category": "software-engineering",
-      "titleTr": "Kodun Yarisi Yapay Zekadan Gelince Review",
-      "titleEn": "Reviewing Code When Half of It Is AI-Written",
-      "slugTr": "yapay-zeka-kodunu-review-etme",
-      "slugEn": "reviewing-ai-written-code",
-      "keywordTr": "yapay zeka kod incelemesi",
-      "keywordEn": "ai code review",
-      "angle": "contrarian: how review practice changes when most PRs are agent-assisted",
-      "style": "contrarian",
-      "brief": "Outline: new failure modes (plausible-but-wrong, silent scope creep, phantom dependencies); where human review must concentrate (intent, security, data flow, blast radius); diff hygiene for agent PRs; automating the mechanical checks so humans review judgement; team norms and ownership. Verify AI-generated-code share and the GitHub Copilot 55.8%-faster study figure. Sources: https://waveup.com/blog/top-19-ai-tools-for-startups-and-small-businesses/ and dhtmlx 2026 web-dev trends."
-    },
-    {
-      "translationKey": "zero-downtime-db-migrations-2026",
-      "category": "software-engineering",
-      "titleTr": "Kesintisiz Veritabani Gocu: Adim Adim",
-      "titleEn": "Zero-Downtime Database Migrations, Step by Step",
-      "slugTr": "kesintisiz-veritabani-gocu",
-      "slugEn": "zero-downtime-database-migrations",
-      "keywordTr": "kesintisiz veritabani gocu",
-      "keywordEn": "zero downtime migration",
-      "angle": "story-led how-to: ship a schema change without downtime",
-      "style": "story-led",
-      "brief": "Outline, framed around a near-miss on a live table: the expand-contract (parallel-change) pattern; ship additive schema changes first so old and new code both run; double-write to the new column while backfilling existing rows in small batches; feature-flag the read cutover and watch error rates; only then drop the old column in a separate destructive migration; how to roll back at each step; and the tooling (online-DDL, migration runners) that makes it safe. Verify expand-contract sequencing and backfill-batching best practices. Sources: PlanetScale and Stripe engineering write-ups on online schema changes."
-    },
-    {
-      "translationKey": "ai-finops-token-spend-2026",
-      "category": "devops-cloud",
-      "titleTr": "Yapay Zeka FinOps: Token Harcamasini Gorunur Kil",
-      "titleEn": "AI FinOps: Make Token Spend Visible by Team",
-      "slugTr": "yapay-zeka-finops-token-harcamasi",
-      "slugEn": "ai-finops-token-spend-visibility",
-      "keywordTr": "yapay zeka finops",
-      "keywordEn": "ai finops",
-      "angle": "data-led: attribute LLM/token cost to teams, products, and productivity",
-      "style": "data-led",
-      "brief": "Outline: why AI spend escapes classic cloud FinOps (opaque token usage, managed services with no line items); tagging calls by team/feature via an LLM gateway and metering; unit economics (cost per request, per active user); connecting spend to outcomes/productivity; budgets and guardrails. Verify InfoQ's claim that AI token usage is a major unmanaged operational cost and the 73% platform-teams-added-AI figure. Sources: https://www.infoq.com/articles/cloud-devops-trends-2026/ and the FinOps Foundation."
-    },
-    {
-      "translationKey": "opentelemetry-llm-tracing-2026",
-      "category": "devops-cloud",
-      "titleTr": "OpenTelemetry ile LLM Cagrisi Nasil Izlenir?",
-      "titleEn": "How Do You Trace an LLM Call With OpenTelemetry?",
-      "slugTr": "opentelemetry-ile-llm-cagrisi-izleme",
-      "slugEn": "tracing-llm-calls-opentelemetry",
-      "keywordTr": "opentelemetry llm izleme",
-      "keywordEn": "opentelemetry llm",
-      "angle": "how-to: instrument prompts, tokens, tool calls and latency with OTel",
-      "style": "question-driven",
-      "brief": "Outline: why LLM calls are a blind spot in normal tracing; the OpenTelemetry GenAI semantic conventions and how they standardize this; creating spans for the prompt, completion, and each tool call; capturing token counts, model name, and cost as span attributes; linking an agent's multi-step run into one trace; sampling noisy high-volume traces without losing errors; exporting to a backend; and redacting sensitive prompt and PII content before it leaves your service. Verify the GenAI semantic-convention attribute names and current status. Sources: OpenTelemetry GenAI semantic-conventions docs (opentelemetry.io) and https://www.infoq.com/articles/cloud-devops-trends-2026/."
-    },
     {
       "translationKey": "policy-as-code-opa-kyverno-2026",
       "category": "devops-cloud",

@@ -494,6 +494,18 @@
       }
     },
     {
+      "translationKey": "ai-finops-token-spend-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "yapay-zeka-finops-token-harcamasi",
+        "title": "Yapay Zeka Token Harcamasını Nasıl Görünür Kılarsınız?"
+      },
+      "en": {
+        "slug": "ai-finops-token-spend-visibility",
+        "title": "How Do You Make AI Token Spend Visible by Team?"
+      }
+    },
+    {
       "translationKey": "ai-game-dev-stories",
       "category": "technology",
       "tr": {
@@ -2099,6 +2111,18 @@
       "en": {
         "slug": "how-to-use-claude-for-social-media",
         "title": "How to Use Claude for Social Media: Full Guide"
+      }
+    },
+    {
+      "translationKey": "claude-sonnet-4-5-retirement-migration",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-4-5-emekli-sonnet-5-5-gecis",
+        "title": "Claude Sonnet 4.5 Emekli Oluyor: Sonnet 5.5'e Geçiş Rehberi"
+      },
+      "en": {
+        "slug": "claude-sonnet-4-5-retirement-migration-guide",
+        "title": "Claude Sonnet 4.5 Is Retiring: Your Migration Guide to Sonnet 5.5"
       }
     },
     {
@@ -4250,6 +4274,18 @@
       }
     },
     {
+      "translationKey": "opentelemetry-llm-tracing-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "opentelemetry-ile-llm-cagrisi-izleme",
+        "title": "OpenTelemetry ile LLM Çağrısı Nasıl İzlenir?"
+      },
+      "en": {
+        "slug": "tracing-llm-calls-opentelemetry",
+        "title": "How Do You Trace an LLM Call With OpenTelemetry?"
+      }
+    },
+    {
       "translationKey": "optimize-images-web",
       "category": "web-development",
       "tr": {
@@ -4775,6 +4811,18 @@
       "en": {
         "slug": "retries-backoff-circuit-breakers",
         "title": "Retries, Backoff, and Circuit Breakers"
+      }
+    },
+    {
+      "translationKey": "reviewing-ai-generated-code-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yapay-zeka-kodunu-review-etme",
+        "title": "Yapay Zeka Kodunu İncelerken Neye Dikkat Edilir?"
+      },
+      "en": {
+        "slug": "reviewing-ai-written-code",
+        "title": "What Changes When You Review AI-Written Code?"
       }
     },
     {
@@ -6407,6 +6455,18 @@
       "en": {
         "slug": "spec-driven-coding-claude-code-codex",
         "title": "Spec-Driven Coding With Claude Code and Codex"
+      }
+    },
+    {
+      "translationKey": "zero-downtime-db-migrations-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "kesintisiz-veritabani-gocu",
+        "title": "Kesintisiz Veritabanı Göçü Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "zero-downtime-database-migrations",
+        "title": "How Do You Run a Zero-Downtime Database Migration?"
       }
     }
   ]
