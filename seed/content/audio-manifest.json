@@ -4206,5 +4206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3353539,
     "generatedAt": "2026-10-05T06:48:49.434Z"
+  },
+  "en/ai-finops-token-spend-visibility": {
+    "hash": "ceac230be4592b00",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-finops-token-spend-visibility.mp3",
+    "seconds": 368,
+    "voice": "en_US-ryan-high",
+    "bytes": 2944566,
+    "generatedAt": "2026-10-06T06:42:00.263Z"
+  },
+  "en/claude-sonnet-4-5-retirement-migration-guide": {
+    "hash": "6e59334195216150",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-4-5-retirement-migration-guide.mp3",
+    "seconds": 499,
+    "voice": "en_US-ryan-high",
+    "bytes": 3995315,
+    "generatedAt": "2026-10-06T06:44:49.518Z"
+  },
+  "en/reviewing-ai-written-code": {
+    "hash": "60104ad5162a7670",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reviewing-ai-written-code.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3526992,
+    "generatedAt": "2026-10-06T06:47:17.514Z"
+  },
+  "en/tracing-llm-calls-opentelemetry": {
+    "hash": "191e39ddc3cfedd3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tracing-llm-calls-opentelemetry.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3325954,
+    "generatedAt": "2026-10-06T06:49:38.569Z"
+  },
+  "en/zero-downtime-database-migrations": {
+    "hash": "59d8f9ae49a0497a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-zero-downtime-database-migrations.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3433787,
+    "generatedAt": "2026-10-06T06:52:03.610Z"
   }
 }
