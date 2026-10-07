@@ -4246,5 +4246,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3433787,
     "generatedAt": "2026-10-06T06:52:03.610Z"
+  },
+  "en/cell-based-architecture-blast-radius": {
+    "hash": "09166192272e7a39",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cell-based-architecture-blast-radius.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3731165,
+    "generatedAt": "2026-10-07T06:36:54.444Z"
+  },
+  "en/claude-code-effort-parameter-explained": {
+    "hash": "0353c9a2df546b1e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-effort-parameter-explained.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3239018,
+    "generatedAt": "2026-10-07T06:39:12.365Z"
+  },
+  "en/gemini-student-hub-study-system": {
+    "hash": "edd94129f119ba64",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-student-hub-study-system.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3295234,
+    "generatedAt": "2026-10-07T06:41:32.649Z"
+  },
+  "en/plan-your-week-with-ai": {
+    "hash": "84251f640412d9f8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-plan-your-week-with-ai.mp3",
+    "seconds": 336,
+    "voice": "en_US-ryan-high",
+    "bytes": 2691283,
+    "generatedAt": "2026-10-07T06:43:27.570Z"
+  },
+  "en/policy-as-code-opa-vs-kyverno": {
+    "hash": "3de107927b9a22b9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-policy-as-code-opa-vs-kyverno.mp3",
+    "seconds": 436,
+    "voice": "en_US-ryan-high",
+    "bytes": 3489585,
+    "generatedAt": "2026-10-07T06:45:55.702Z"
   }
 }
