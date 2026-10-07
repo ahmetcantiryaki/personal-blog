@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "topics": [
-    {
-      "translationKey": "policy-as-code-opa-kyverno-2026",
-      "category": "devops-cloud",
-      "titleTr": "Kod Olarak Politika: Kubernetes'te OPA vs Kyverno",
-      "titleEn": "Policy as Code: OPA vs Kyverno for Kubernetes",
-      "slugTr": "kod-olarak-politika-opa-kyverno",
-      "slugEn": "policy-as-code-opa-vs-kyverno",
-      "keywordTr": "kubernetes politika kodu",
-      "keywordEn": "policy as code kubernetes",
-      "angle": "comparison: which admission-control policy engine to adopt",
-      "style": "question-driven",
-      "brief": "Outline: what policy-as-code solves (guardrails, compliance, config-drift prevention) and why it matters as AI agents start opening PRs and changing infra; OPA/Gatekeeper with Rego vs Kyverno's Kubernetes-native YAML; the learning curve and tooling of each; authoring and unit-testing policies; enforcing at CI time vs at admission time in the cluster; mutation and generation rules; migration effort and operational cost; and a decision matrix for small teams. Verify current OPA Gatekeeper and Kyverno capabilities and CNCF status. Sources: Kyverno docs (kyverno.io) and Open Policy Agent docs (openpolicyagent.org)."
-    },
-    {
-      "translationKey": "cell-based-architecture-2026",
-      "category": "devops-cloud",
-      "titleTr": "Hucre Tabanli Mimari: Patlama Yaricapini Kucult",
-      "titleEn": "Cell-Based Architecture: Shrink the Blast Radius",
-      "slugTr": "hucre-tabanli-mimari-patlama-yaricapi",
-      "slugEn": "cell-based-architecture-blast-radius",
-      "keywordTr": "hucre tabanli mimari",
-      "keywordEn": "cell-based architecture",
-      "angle": "deep-dive: a resilience pattern that isolates failures",
-      "style": "data-led",
-      "brief": "Outline: what a 'cell' is (an isolated, independently deployable slice of the whole stack); how cells cap blast radius and prevent correlated failure; routing and sharding users to cells; trade-offs (cost, deployment complexity, data partitioning); when a small team should and should not adopt it. Verify AWS and industry definitions of cell-based architecture and the resilience framing. Sources: AWS Well-Architected cell-based write-ups and https://www.infoq.com/articles/cloud-devops-trends-2026/."
-    },
-    {
-      "translationKey": "gemini-student-hub-2026",
-      "category": "career-productivity",
-      "titleTr": "Gemini Ogrenci Merkeziyle Daha Verimli Calis",
-      "titleEn": "Study Smarter With Gemini's New Student Hub",
-      "slugTr": "gemini-ogrenci-merkezi-calisma-sistemi",
-      "slugEn": "gemini-student-hub-study-system",
-      "keywordTr": "gemini ogrenci merkezi",
-      "keywordEn": "gemini student hub",
-      "angle": "how-to: build an active-recall study loop with the Student Hub",
-      "style": "field-notes",
-      "brief": "Outline: what the Student Hub is (study notebook, flashcards, practice quizzes); setting up a subject; turning lecture notes into active recall; a spaced-repetition weekly loop; using it to learn rather than to cheat (honesty guardrails); availability for Google Workspace for Education users. Verify the Student Hub feature set and the Education rollout dates. Sources: https://blog.google/ (Gemini) and Gemini Apps Help (support.google.com/gemini)."
-    },
-    {
-      "translationKey": "plan-week-with-ai-assistant-2026",
-      "category": "career-productivity",
-      "titleTr": "Claude ya da ChatGPT ile Haftani 30 Dakikada Planla",
-      "titleEn": "Plan Your Week With Claude or ChatGPT in 30 Minutes",
-      "slugTr": "claude-chatgpt-ile-hafta-planlama",
-      "slugEn": "plan-your-week-with-ai",
-      "keywordTr": "yapay zeka ile hafta planlama",
-      "keywordEn": "ai weekly planning",
-      "angle": "how-to: a repeatable weekly planning and review ritual with an assistant",
-      "style": "story-led",
-      "brief": "Outline: the Friday-30 ritual; dumping tasks and notes and letting the assistant cluster by priority and effort; time-blocking against the calendar; a reflection prompt that closes the week; stopping it from inventing commitments; saving it as a reusable project/skill so you don't re-prompt. Verify the ChatGPT Projects/memory and Claude Projects features used. Sources: OpenAI ChatGPT release notes (help.openai.com) and Anthropic Claude docs."
-    },
     {
       "translationKey": "ai-inbox-triage-2026",
       "category": "career-productivity",

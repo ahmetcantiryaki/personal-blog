@@ -6468,6 +6468,66 @@
         "slug": "zero-downtime-database-migrations",
         "title": "How Do You Run a Zero-Downtime Database Migration?"
       }
+    },
+    {
+      "translationKey": "claude-code-agent-effort-parameter",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-effort-parametresi-nedir",
+        "title": "Claude Code'un effort Parametresi Ne İşe Yarar?"
+      },
+      "en": {
+        "slug": "claude-code-effort-parameter-explained",
+        "title": "What Does Claude Code's effort Parameter Do?"
+      }
+    },
+    {
+      "translationKey": "policy-as-code-opa-kyverno-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kod-olarak-politika-opa-kyverno",
+        "title": "Kod Olarak Politika: Kubernetes'te OPA mı Kyverno mu?"
+      },
+      "en": {
+        "slug": "policy-as-code-opa-vs-kyverno",
+        "title": "Policy as Code: OPA vs Kyverno for Kubernetes"
+      }
+    },
+    {
+      "translationKey": "cell-based-architecture-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "hucre-tabanli-mimari-patlama-yaricapi",
+        "title": "Hücre Tabanlı Mimari: Patlama Yarıçapını Nasıl Küçültür?"
+      },
+      "en": {
+        "slug": "cell-based-architecture-blast-radius",
+        "title": "Cell-Based Architecture: How It Shrinks the Blast Radius"
+      }
+    },
+    {
+      "translationKey": "gemini-student-hub-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "gemini-ogrenci-merkezi-calisma-sistemi",
+        "title": "Gemini Öğrenci Merkezi'yle Daha Verimli Nasıl Çalışılır?"
+      },
+      "en": {
+        "slug": "gemini-student-hub-study-system",
+        "title": "Study Smarter With Gemini's New Student Hub"
+      }
+    },
+    {
+      "translationKey": "plan-week-with-ai-assistant-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "claude-chatgpt-ile-hafta-planlama",
+        "title": "Claude veya ChatGPT ile Haftanı 30 Dakikada Planla"
+      },
+      "en": {
+        "slug": "plan-your-week-with-ai",
+        "title": "Plan Your Week With Claude or ChatGPT in 30 Minutes"
+      }
     }
   ]
 }
