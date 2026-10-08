@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "topics": [
-    {
-      "translationKey": "ai-inbox-triage-2026",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT ve Gemini ile Kalici E-posta Triyaji",
-      "titleEn": "Inbox Triage With ChatGPT and Gemini: Rules That Stick",
-      "slugTr": "chatgpt-gemini-eposta-triyaji",
-      "slugEn": "inbox-triage-chatgpt-gemini",
-      "keywordTr": "yapay zeka eposta triyaji",
-      "keywordEn": "ai inbox triage",
-      "angle": "how-to: build durable triage rules, not one-off inbox cleanups",
-      "style": "question-driven",
-      "brief": "Outline: why 'clean my inbox' prompts don't last; a triage taxonomy (reply / defer / delegate / drop); wiring Gmail and Outlook via ChatGPT plugins/connectors and Gemini in Workspace; reusable draft-reply templates; a daily ten-minute pass; the privacy limits of letting AI read your mail. Verify ChatGPT multi-account plugin connectors and Gemini Workspace capabilities. Sources: OpenAI help release notes and Google Workspace Updates (workspaceupdates.googleblog.com)."
-    },
-    {
-      "translationKey": "instagram-duplicate-content-2026",
-      "category": "social-media",
-      "titleTr": "Instagram'in Kopya Icerik Erisim Cezasini Asmak",
-      "titleEn": "Beat Instagram's Duplicate-Content Reach Penalty",
-      "slugTr": "instagram-kopya-icerik-erisim-cezasi",
-      "slugEn": "instagram-duplicate-content-penalty",
-      "keywordTr": "instagram kopya icerik",
-      "keywordEn": "instagram duplicate content",
-      "angle": "how-to: avoid near-duplicate detection and repost the right way",
-      "style": "field-notes",
-      "brief": "Outline: Instagram now downranks duplicate and near-duplicate (lightly edited) reposts; the reach cliff for accounts posting fewer than ~4 Reels/week (reportedly ~23% lower reach); how to genuinely re-cut vs re-upload; watermark/source traps when recycling across apps; a weekly cadence that stays above the penalty. Verify the duplicate-detection claim, the ~23% figure, and the 4-Reels threshold. Sources: https://storychief.io/blog/social-media-algorithms-2026 and https://blog.hootsuite.com/social-media-algorithm/."
-    },
-    {
-      "translationKey": "dwell-time-completion-ranking-2026",
-      "category": "social-media",
-      "titleTr": "Izlenme Suresi ve Tamamlama: Sizi Siralayan Sinyaller",
-      "titleEn": "Dwell Time and Completion: The Signals That Rank You",
-      "slugTr": "izlenme-suresi-tamamlama-orani-siralama",
-      "slugEn": "dwell-time-completion-rate-ranking",
-      "keywordTr": "izlenme suresi tamamlama orani",
-      "keywordEn": "dwell time completion rate",
-      "angle": "data-led: why these now outrank likes across platforms",
-      "style": "data-led",
-      "brief": "Outline: the shift from follow-graph to interest-graph recommendation, where content must earn distribution and followers no longer guarantee reach; why dwell time and completion rate are the two most under-reported ranking signals and now outweigh likes on Instagram, TikTok, YouTube, and LinkedIn; how to design hooks, pacing, length, and loops for completion rather than for the like button; where to read these signals in each platform's native analytics; and which vanity metrics to stop optimizing for. Verify the cross-platform dwell/completion weighting claim. Sources: https://storychief.io/blog/social-media-algorithms-2026 and https://www.digitalapplied.com/blog/how-social-media-algorithms-work-2026."
-    },
-    {
-      "translationKey": "tiktok-ai-avatar-influencers-2026",
-      "category": "social-media",
-      "titleTr": "Markalar TikTok'un Yapay Zeka Avatarlarini Kullanmali mi?",
-      "titleEn": "Should Brands Use TikTok's AI Avatar Influencers?",
-      "slugTr": "tiktok-yapay-zeka-avatar-influencer",
-      "slugEn": "tiktok-ai-avatar-influencers-brands",
-      "keywordTr": "yapay zeka avatar influencer",
-      "keywordEn": "ai avatar influencers",
-      "angle": "contrarian: the case for and against synthetic 24/7 hosts",
-      "style": "contrarian",
-      "brief": "Outline: what AI avatar influencers are (synthetic hosts promoting products around the clock, often in livestream shopping); where they help (volume, cost, always-on) vs where they hurt (trust, disclosure duties, AI-content labeling rules); cost vs human creators; a disclosure/compliance checklist before deploying one. Verify TikTok's AI-avatar push and current AI-content labeling requirements. Sources: https://www.socialpilot.co/blog/social-media-updates and the TikTok newsroom."
-    },
     {
       "translationKey": "tiktok-ad-formats-topreach-2026",
       "category": "digital-marketing",

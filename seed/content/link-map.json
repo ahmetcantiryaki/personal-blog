@@ -6528,6 +6528,66 @@
         "slug": "plan-your-week-with-ai",
         "title": "Plan Your Week With Claude or ChatGPT in 30 Minutes"
       }
+    },
+    {
+      "translationKey": "claude-haiku-5-5-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-haiku-5-5-nedir-fiyat-hiz",
+        "title": "Claude Haiku 5.5 Nedir? Fiyat ve Hız Karşılaştırması"
+      },
+      "en": {
+        "slug": "claude-haiku-5-5-price-speed-compared",
+        "title": "What Is Claude Haiku 5.5? Price and Speed Compared"
+      }
+    },
+    {
+      "translationKey": "ai-inbox-triage-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-gemini-eposta-triyaji",
+        "title": "ChatGPT ve Gemini ile Kalıcı E-posta Triyajı"
+      },
+      "en": {
+        "slug": "inbox-triage-chatgpt-gemini",
+        "title": "Inbox Triage With ChatGPT and Gemini: Rules That Stick"
+      }
+    },
+    {
+      "translationKey": "instagram-duplicate-content-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "instagram-kopya-icerik-erisim-cezasi",
+        "title": "Instagram'ın Kopya İçerik Erişim Cezasını Aşmak"
+      },
+      "en": {
+        "slug": "instagram-duplicate-content-penalty",
+        "title": "Beat Instagram's Duplicate-Content Reach Penalty"
+      }
+    },
+    {
+      "translationKey": "dwell-time-completion-ranking-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "izlenme-suresi-tamamlama-orani-siralama",
+        "title": "İzlenme Süresi ve Tamamlama: Sizi Sıralayan Sinyaller"
+      },
+      "en": {
+        "slug": "dwell-time-completion-rate-ranking",
+        "title": "Dwell Time and Completion: The Signals That Rank You"
+      }
+    },
+    {
+      "translationKey": "tiktok-ai-avatar-influencers-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-yapay-zeka-avatar-influencer",
+        "title": "Markalar TikTok'un Yapay Zeka Avatarlarını Kullanmalı mı?"
+      },
+      "en": {
+        "slug": "tiktok-ai-avatar-influencers-brands",
+        "title": "Should Brands Use TikTok's AI Avatar Influencers?"
+      }
     }
   ]
 }
