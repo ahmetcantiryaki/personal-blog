@@ -4326,5 +4326,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3474956,
     "generatedAt": "2026-10-08T06:50:34.919Z"
+  },
+  "en/chatgpt-camera-scan-shop": {
+    "hash": "1c9c644b349e45ec",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-camera-scan-shop.mp3",
+    "seconds": 351,
+    "voice": "en_US-ryan-high",
+    "bytes": 2811864,
+    "generatedAt": "2026-10-09T06:47:40.276Z"
+  },
+  "en/creator-whitelisting-ugc-paid-ads": {
+    "hash": "056c79f07fb463bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-creator-whitelisting-ugc-paid-ads.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3059923,
+    "generatedAt": "2026-10-09T06:49:23.861Z"
+  },
+  "en/livestream-shopping-playbook-small-brands": {
+    "hash": "12e1304beddcd552",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-livestream-shopping-playbook-small-brands.mp3",
+    "seconds": 354,
+    "voice": "en_US-ryan-high",
+    "bytes": 2830045,
+    "generatedAt": "2026-10-09T06:50:59.407Z"
+  },
+  "en/tiktok-new-ad-formats-2026": {
+    "hash": "cac521bbe9b5984c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-new-ad-formats-2026.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3307773,
+    "generatedAt": "2026-10-09T06:52:50.758Z"
+  },
+  "en/what-is-anthropic-cyber-verification-program": {
+    "hash": "21e929de102e9208",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-anthropic-cyber-verification-program.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3570878,
+    "generatedAt": "2026-10-09T06:54:50.640Z"
   }
 }
