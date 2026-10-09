@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "topics": [
-    {
-      "translationKey": "tiktok-ad-formats-topreach-2026",
-      "category": "digital-marketing",
-      "titleTr": "TikTok'un Yeni Reklam Formatlari: TopReach ve Prime Time",
-      "titleEn": "TikTok's New Ad Formats: TopReach, Prime Time, Pulse",
-      "slugTr": "tiktok-yeni-reklam-formatlari",
-      "slugEn": "tiktok-new-ad-formats-2026",
-      "keywordTr": "tiktok reklam formatlari",
-      "keywordEn": "tiktok ad formats",
-      "angle": "guide: what each new format is and when it's worth the buy",
-      "style": "data-led",
-      "brief": "Outline: what each new format is and the job it does: TopReach (one buy combining TopView + TopFeed for full-day reach), Logo Takeover, Prime Time (up to three sequential ads in a 15-minute window), and Pulse Mentions; how to match each to a reach vs performance objective; which budget tiers each format realistically fits and which small advertisers should skip entirely; how to measure incremental lift rather than last-click; and a quick buying framework. Verify each format's definition, pricing model, and availability. Sources: https://www.socialpilot.co/blog/social-media-updates and TikTok for Business."
-    },
-    {
-      "translationKey": "livestream-shopping-playbook-2026",
-      "category": "digital-marketing",
-      "titleTr": "Canli Yayinda Satis: Kucuk Markalar Icin 2026 Rehberi",
-      "titleEn": "Livestream Shopping: A 2026 Playbook for Small Brands",
-      "slugTr": "canli-yayinda-satis-kucuk-marka-rehberi",
-      "slugEn": "livestream-shopping-playbook-small-brands",
-      "keywordTr": "canli yayinda satis",
-      "keywordEn": "livestream shopping",
-      "angle": "guide: run a profitable live shopping session on a small budget",
-      "style": "story-led",
-      "brief": "Outline: why livestream commerce plus in-app mini-apps are turning TikTok and Instagram into entertainment-plus-shopping hybrids; planning a profitable show (hero offers, host energy, a tight run-of-show); the minimum tech and streaming setup a small brand needs; converting viewers in real time with pinned products, limited drops, and urgency; repurposing the recording into short clips that keep selling afterward; and the unit economics that tell you whether to run it again. Verify the TikTok livestream-shopping and mini-app commerce trend. Sources: https://www.socialpilot.co/blog/social-media-updates and https://www.adobe.com/express/learn/blog/2026-social-media-trends."
-    },
-    {
-      "translationKey": "creator-whitelisting-spark-ads-2026",
-      "category": "digital-marketing",
-      "titleTr": "Icerik Ureticisi Whitelisting: UGC'yi Reklama Cevir",
-      "titleEn": "Creator Whitelisting: Turn UGC Into Paid Ads",
-      "slugTr": "icerik-ureticisi-whitelisting-ugc-reklam",
-      "slugEn": "creator-whitelisting-ugc-paid-ads",
-      "keywordTr": "icerik ureticisi whitelisting",
-      "keywordEn": "creator whitelisting",
-      "angle": "how-to: run ads from creators' own handles (Spark Ads / partnership ads)",
-      "style": "field-notes",
-      "brief": "Outline: what whitelisting is (serving ads from the creator's own handle via TikTok Spark Ads / Meta partnership ads); why it outperforms brand-handle ads (social proof, native feel); setting up access and permissions; creative-rights and usage terms to agree up front; measurement; pitfalls (access revocation, disclosure). Verify Spark Ads and Meta partnership-ad mechanics. Sources: TikTok for Business Spark Ads docs and Meta Business Help Center."
-    },
-    {
-      "translationKey": "chatgpt-camera-scan-shopping-2026",
-      "category": "technology",
-      "titleTr": "ChatGPT'nin Yeni Kamerasi: Belge Tara, Fotoyla Alisveris",
-      "titleEn": "ChatGPT's New Camera: Scan Docs and Shop by Photo",
-      "slugTr": "chatgpt-kamera-belge-tarama-alisveris",
-      "slugEn": "chatgpt-camera-scan-shop",
-      "keywordTr": "chatgpt kamera tarama",
-      "keywordEn": "chatgpt camera scanning",
-      "angle": "guide: what the new camera, scanning and shopping tools actually do",
-      "style": "story-led",
-      "brief": "Outline: capturing multiple pages in a row that auto-combine into a single PDF; smarter scanning; virtual try-on for clothes and accessories; a Favorites feature for saving products; real use cases (receipts, documents, shopping) and the limits; privacy of camera data; how to enable it. Verify the October 1, 2026 camera-scanning, virtual try-on, and Favorites updates. Sources: ChatGPT release notes (help.openai.com/en/articles/6825453) and releasebot OpenAI updates."
-    },
     {
       "translationKey": "gemini-live-guided-vision-2026",
       "category": "technology",

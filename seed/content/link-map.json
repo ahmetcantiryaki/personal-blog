@@ -6588,6 +6588,66 @@
         "slug": "tiktok-ai-avatar-influencers-brands",
         "title": "Should Brands Use TikTok's AI Avatar Influencers?"
       }
+    },
+    {
+      "translationKey": "anthropic-cyber-verification-program-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-cyber-verification-program-nedir",
+        "title": "Anthropic'in Cyber Verification Program'ı Nedir?"
+      },
+      "en": {
+        "slug": "what-is-anthropic-cyber-verification-program",
+        "title": "What Is Anthropic's Cyber Verification Program?"
+      }
+    },
+    {
+      "translationKey": "tiktok-ad-formats-topreach-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tiktok-yeni-reklam-formatlari",
+        "title": "TikTok'un Yeni Reklam Formatları: TopReach ve Prime Time"
+      },
+      "en": {
+        "slug": "tiktok-new-ad-formats-2026",
+        "title": "TikTok's New Ad Formats: TopReach, Prime Time, Pulse"
+      }
+    },
+    {
+      "translationKey": "livestream-shopping-playbook-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "canli-yayinda-satis-kucuk-marka-rehberi",
+        "title": "Canlı Yayında Satış: Küçük Markalar İçin 2026 Rehberi"
+      },
+      "en": {
+        "slug": "livestream-shopping-playbook-small-brands",
+        "title": "Livestream Shopping: A 2026 Playbook for Small Brands"
+      }
+    },
+    {
+      "translationKey": "creator-whitelisting-spark-ads-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "icerik-ureticisi-whitelisting-ugc-reklam",
+        "title": "İçerik Üreticisi Whitelisting: UGC'yi Reklama Çevir"
+      },
+      "en": {
+        "slug": "creator-whitelisting-ugc-paid-ads",
+        "title": "Creator Whitelisting: Turn UGC Into Paid Ads"
+      }
+    },
+    {
+      "translationKey": "chatgpt-camera-scan-shopping-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "chatgpt-kamera-belge-tarama-alisveris",
+        "title": "ChatGPT'nin Yeni Kamerası: Belge Tara, Fotoyla Alışveriş"
+      },
+      "en": {
+        "slug": "chatgpt-camera-scan-shop",
+        "title": "ChatGPT's New Camera: Scan Docs and Shop by Photo"
+      }
     }
   ]
 }
