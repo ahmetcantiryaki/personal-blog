@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "topics": [
-    {
-      "translationKey": "gemini-live-guided-vision-2026",
-      "category": "technology",
-      "titleTr": "Gemini Live Rehberli Goruntu Nedir?",
-      "titleEn": "What Is Gemini Live Guided Vision?",
-      "slugTr": "gemini-live-rehberli-goruntu",
-      "slugEn": "gemini-live-guided-vision",
-      "keywordTr": "gemini live rehberli goruntu",
-      "keywordEn": "gemini live guided vision",
-      "angle": "explainer: point your camera and get real-time step-by-step help",
-      "style": "question-driven",
-      "brief": "Outline: what Guided Vision adds to Gemini Live (real-time camera input plus spoken, step-by-step guidance); use cases (repairs, cooking, accessibility, shopping); how it differs from plain image Q&A; device support and the late-September-to-early-October 2026 rollout; the privacy implications of streaming live video to an assistant. Verify the feature scope and rollout window. Sources: https://blog.google/ (Gemini) and releasebot Gemini updates."
-    },
-    {
-      "translationKey": "smart-glasses-consent-etiquette-2026",
-      "category": "technology",
-      "titleTr": "Akilli Gozluk ve Riza: Atladigimiz Gorgu Kurallari",
-      "titleEn": "Smart Glasses and Consent: The Etiquette We Skipped",
-      "slugTr": "akilli-gozluk-riza-gorgu-kurallari",
-      "slugEn": "smart-glasses-consent-etiquette",
-      "keywordTr": "akilli gozluk gizlilik",
-      "keywordEn": "smart glasses privacy",
-      "angle": "contrarian: hardware raced ahead of the consent problem",
-      "style": "contrarian",
-      "brief": "Outline: the three-tier glasses market (AI camera eyewear, tethered AR, standalone AR computers); why always-on cameras break bystander consent; recording-indicator 'theater' vs real social norms; how laws lag the hardware; practical etiquette for wearers, hosts, and venues. Verify the AWE 2026 three tiers, the ~3.34M-to-32M unit forecast, and the rising consent concerns. Sources: https://www.abiresearch.com/blog/consumer-technology-trends-2026 and Next Reality's AWE 2026 coverage."
-    },
-    {
-      "translationKey": "rcs-everywhere-sms-2026",
-      "category": "technology",
-      "titleTr": "Artik Her Yerde RCS: SMS'in Sonu mu?",
-      "titleEn": "RCS Is Everywhere Now: The End of SMS?",
-      "slugTr": "rcs-her-yerde-sms-sonu",
-      "slugEn": "rcs-everywhere-end-of-sms",
-      "keywordTr": "rcs mesajlasma",
-      "keywordEn": "rcs messaging",
-      "angle": "explainer: what cross-platform RCS adoption means for you",
-      "style": "data-led",
-      "brief": "Outline: what RCS adds over SMS (read receipts, typing indicators, high-res media, group features, encryption); the current iPhone-to-Android interop status; the rise of RCS Business Messaging (RBM) for brands; where plain SMS still wins (reliability, fallback); privacy and encryption caveats across platforms. Verify current RCS interop and end-to-end-encryption status across iOS and Android. Sources: GSMA RCS resources and Apple/Google messaging announcements."
-    },
-    {
-      "translationKey": "migrate-gemini-gems-skills-2026",
-      "category": "business",
-      "titleTr": "Gemini Gems'leri 17 Kasim'dan Once Skills'e Tasi",
-      "titleEn": "Migrate Your Gemini Gems to Skills Before Nov 17",
-      "slugTr": "gemini-gems-skills-tasima",
-      "slugEn": "migrate-gemini-gems-to-skills",
-      "keywordTr": "gemini gems skills gecis",
-      "keywordEn": "gemini gems to skills",
-      "angle": "checklist: what changes, what breaks, and what to do before the cutover",
-      "style": "question-driven",
-      "brief": "Outline: the timeline (personal accounts from November 2026, with the app switch on Nov 17; Workspace business/enterprise March 2027; Education June 2027); what auto-migrates and what you must redo; the 100-active-skill cap; capabilities Skills don't yet support (GitHub files, Canvas, Deep Research, Guided Learning, create video/music); how slash-invoked, stackable skills change team workflows; an audit checklist. Verify the dates, the cap, and the unsupported-capability list. Sources: 'About the transition from Gems to skills' (support.google.com/gemini/answer/18560919) and TechCrunch's Gems-to-Skills report."
-    },
     {
       "translationKey": "hire-human-vs-agent-2026",
       "category": "business",

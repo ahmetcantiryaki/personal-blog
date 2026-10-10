@@ -6648,6 +6648,66 @@
         "slug": "chatgpt-camera-scan-shop",
         "title": "ChatGPT's New Camera: Scan Docs and Shop by Photo"
       }
+    },
+    {
+      "translationKey": "chatgpt-gpt-6-intelligent-ui-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-intelligent-ui-nedir",
+        "title": "ChatGPT Intelligent UI Nedir?"
+      },
+      "en": {
+        "slug": "chatgpt-intelligent-ui-explained",
+        "title": "What Is ChatGPT's Intelligent UI?"
+      }
+    },
+    {
+      "translationKey": "gemini-live-guided-vision-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-live-rehberli-goruntu",
+        "title": "Gemini Live Rehberli Görüntü Nedir?"
+      },
+      "en": {
+        "slug": "gemini-live-guided-vision",
+        "title": "What Is Gemini Live Guided Vision?"
+      }
+    },
+    {
+      "translationKey": "smart-glasses-consent-etiquette-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "akilli-gozluk-riza-gorgu-kurallari",
+        "title": "Akıllı Gözlük ve Rıza: Atladığımız Görgü Kuralları"
+      },
+      "en": {
+        "slug": "smart-glasses-consent-etiquette",
+        "title": "Smart Glasses and Consent: The Etiquette We Skipped"
+      }
+    },
+    {
+      "translationKey": "rcs-everywhere-sms-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "rcs-her-yerde-sms-sonu",
+        "title": "Artık Her Yerde RCS: SMS'in Sonu mu?"
+      },
+      "en": {
+        "slug": "rcs-everywhere-end-of-sms",
+        "title": "RCS Is Everywhere Now: The End of SMS?"
+      }
+    },
+    {
+      "translationKey": "migrate-gemini-gems-skills-2026",
+      "category": "business",
+      "tr": {
+        "slug": "gemini-gems-skills-tasima",
+        "title": "Gemini Gem'lerini 17 Kasım'dan Önce Skills'e Taşı"
+      },
+      "en": {
+        "slug": "migrate-gemini-gems-to-skills",
+        "title": "Migrate Your Gemini Gems to Skills Before Nov 17"
+      }
     }
   ]
 }
