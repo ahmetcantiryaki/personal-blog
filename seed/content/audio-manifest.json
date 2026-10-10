@@ -4366,5 +4366,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3570878,
     "generatedAt": "2026-10-09T06:54:50.640Z"
+  },
+  "en/chatgpt-intelligent-ui-explained": {
+    "hash": "9088d7c5434e86dd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-intelligent-ui-explained.mp3",
+    "seconds": 461,
+    "voice": "en_US-ryan-high",
+    "bytes": 3686653,
+    "generatedAt": "2026-10-10T06:36:43.313Z"
+  },
+  "en/gemini-live-guided-vision": {
+    "hash": "7d573e957cb1fe95",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-live-guided-vision.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3328044,
+    "generatedAt": "2026-10-10T06:38:56.799Z"
+  },
+  "en/migrate-gemini-gems-to-skills": {
+    "hash": "d0983ec2799ed85e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-migrate-gemini-gems-to-skills.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3384259,
+    "generatedAt": "2026-10-10T06:41:10.634Z"
+  },
+  "en/rcs-everywhere-end-of-sms": {
+    "hash": "927f1245286a837d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rcs-everywhere-end-of-sms.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3569624,
+    "generatedAt": "2026-10-10T06:43:34.140Z"
+  },
+  "en/smart-glasses-consent-etiquette": {
+    "hash": "bf99297513abf37a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-smart-glasses-consent-etiquette.mp3",
+    "seconds": 477,
+    "voice": "en_US-ryan-high",
+    "bytes": 3819355,
+    "generatedAt": "2026-10-10T06:46:06.801Z"
   }
 }
