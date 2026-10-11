@@ -6708,6 +6708,66 @@
         "slug": "migrate-gemini-gems-to-skills",
         "title": "Migrate Your Gemini Gems to Skills Before Nov 17"
       }
+    },
+    {
+      "translationKey": "claude-usage-policy-update-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-2026-kullanim-politikasinda-ne-degisti",
+        "title": "Claude'un 2026 Kullanım Politikasında Ne Değişti?"
+      },
+      "en": {
+        "slug": "whats-new-in-claudes-2026-usage-policy",
+        "title": "What Changed in Claude's 2026 Usage Policy Update?"
+      }
+    },
+    {
+      "translationKey": "hire-human-vs-agent-2026",
+      "category": "business",
+      "tr": {
+        "slug": "insan-ise-alimi-vs-agent-karar-rehberi",
+        "title": "İnsan mı Yapay Zeka Agent mı İşe Alınmalı?"
+      },
+      "en": {
+        "slug": "hire-human-vs-deploy-agent",
+        "title": "Should You Hire a Person or Deploy an AI Agent?"
+      }
+    },
+    {
+      "translationKey": "selling-ai-regulated-buyers-2026",
+      "category": "business",
+      "tr": {
+        "slug": "regule-alicilara-yapay-zeka-satmak",
+        "title": "Regüle Alıcılara Yapay Zeka Nasıl Satılır?"
+      },
+      "en": {
+        "slug": "selling-ai-to-regulated-buyers",
+        "title": "How Do You Sell AI to Regulated Buyers?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-audio-uploads-notes-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-sesli-yukleme-not-cikarma",
+        "title": "ChatGPT'de Ses Yüklemeyle Nasıl Not Çıkarılır?"
+      },
+      "en": {
+        "slug": "chatgpt-audio-uploads-to-notes",
+        "title": "How Do You Turn a Recording Into Notes With ChatGPT?"
+      }
+    },
+    {
+      "translationKey": "gemini-nano-banana-photo-editing-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "gemini-ile-urun-fotografi-duzenleme",
+        "title": "Gemini'de Ürün Fotoğrafı Nasıl Düzenlenir?"
+      },
+      "en": {
+        "slug": "edit-product-photos-gemini-nano-banana",
+        "title": "How Do You Edit Product Photos by Chatting in Gemini?"
+      }
     }
   ]
 }

@@ -2,58 +2,6 @@
   "updatedAt": "2026-10-11",
   "topics": [
     {
-      "translationKey": "hire-human-vs-agent-2026",
-      "category": "business",
-      "titleTr": "Siradaki Ise Alimin Bir Agent Olabilir: Karar Rehberi",
-      "titleEn": "Your Next Hire Might Be an Agent: A Decision Guide",
-      "slugTr": "insan-ise-alimi-vs-agent-karar-rehberi",
-      "slugEn": "hire-human-vs-deploy-agent",
-      "keywordTr": "insan mi yapay zeka agent mi",
-      "keywordEn": "hire vs ai agent",
-      "angle": "decision guide for lean founders choosing between a hire and an agent",
-      "style": "contrarian",
-      "brief": "Outline: the 'team of three doing the work of ten' claim and where it holds; a decision framework (judgment, accountability, volume, risk, repeatability); tasks agents own well vs human-only work; the hidden costs of agents (oversight, error handling, tooling, drift); a staffing matrix; when you should still hire a person. Verify the lean-team/AI-agent productivity claims. Sources: https://waveup.com/blog/top-19-ai-tools-for-startups-and-small-businesses/ and https://blog.mean.ceo/bootstrapping-startup-trends-october-2026/."
-    },
-    {
-      "translationKey": "selling-ai-regulated-buyers-2026",
-      "category": "business",
-      "titleTr": "Regule Alicilara Yapay Zeka Satmak: Kurucu Rehberi",
-      "titleEn": "Selling AI to Regulated Buyers: A Founder's Primer",
-      "slugTr": "regule-alicilara-yapay-zeka-satmak",
-      "slugEn": "selling-ai-to-regulated-buyers",
-      "keywordTr": "kamuya yapay zeka satmak",
-      "keywordEn": "selling ai to government",
-      "angle": "guide: compliance, procurement and trust for B2G and regulated B2B",
-      "style": "story-led",
-      "brief": "Outline: why regulated buyers (government, health, finance) are opening to AI now (e.g., FedRAMP High via Claude for Government); what they demand (audit logs, data residency, spend controls, human-in-the-loop, SOC 2); navigating long procurement cycles; how a small vendor positions on trust; building on a compliant platform vs reselling. Verify the Claude for Government FedRAMP High launch and its governance features. Sources: https://www.anthropic.com/news and https://www.infoq.com/articles/cloud-devops-trends-2026/ (sovereignty/compliance)."
-    },
-    {
-      "translationKey": "chatgpt-audio-uploads-notes-2026",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Sesli Yukleme ile Kayittan Not Cikarma",
-      "titleEn": "Turn Voice Memos Into Notes With ChatGPT Audio",
-      "slugTr": "chatgpt-sesli-yukleme-not-cikarma",
-      "slugEn": "chatgpt-audio-uploads-to-notes",
-      "keywordTr": "chatgpt ses yukleme not",
-      "keywordEn": "chatgpt audio uploads",
-      "angle": "how-to: turn recordings into usable notes and summaries with ChatGPT",
-      "style": "field-notes",
-      "brief": "Outline: what ChatGPT's Oct 6 2026 audio-upload feature does (transcribe + summarize recordings, Q&A over audio on paid tiers); a step-by-step workflow for meetings, lectures and voice memos; prompt templates for action items and clean summaries; privacy limits and what not to upload; how it compares with dedicated transcription tools. Verify: Oct 6 2026 rollout, paid-tier gating, supported formats and length. Sources: OpenAI ChatGPT release notes (help.openai.com/en/articles/6825453), TechCrunch Oct 7 2026 interface story."
-    },
-    {
-      "translationKey": "gemini-nano-banana-photo-editing-2026",
-      "category": "social-media",
-      "titleTr": "Gemini ile Sohbet Ederek Urun Fotografi Duzenleme",
-      "titleEn": "Edit Product Photos by Chatting in Gemini",
-      "slugTr": "gemini-ile-urun-fotografi-duzenleme",
-      "slugEn": "edit-product-photos-gemini-nano-banana",
-      "keywordTr": "gemini fotograf duzenleme",
-      "keywordEn": "gemini image editing",
-      "angle": "how-to: conversational product-photo editing for creators and small shops",
-      "style": "story-led",
-      "brief": "Outline: what changed in Gemini Nano Banana 2.1 (GA Oct 6 2026, conversational image generation + editing); a real workflow for a product listing (background swap, cleanup, consistent variations); prompt patterns for a steady brand look; cost and quality vs the deprecated 3.5 Flash Image; export and licensing caveats for commercial use. Verify: Nano Banana 2.1 GA date, conversational-editing capability, 3.5 Flash Image deprecation. Sources: Gemini API changelog (ai.google.dev/gemini-api/docs/changelog), Google for Developers blog."
-    },
-    {
       "translationKey": "chatgpt-virtual-try-on-retail-2026",
       "category": "digital-marketing",
       "titleTr": "ChatGPT'de Sanal Deneme: Perakendeci Rehberi",
