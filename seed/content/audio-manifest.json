@@ -4406,5 +4406,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3819355,
     "generatedAt": "2026-10-10T06:46:06.801Z"
+  },
+  "en/chatgpt-audio-uploads-to-notes": {
+    "hash": "13842423b12a670c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-audio-uploads-to-notes.mp3",
+    "seconds": 357,
+    "voice": "en_US-ryan-high",
+    "bytes": 2858048,
+    "generatedAt": "2026-10-11T06:35:45.802Z"
+  },
+  "en/edit-product-photos-gemini-nano-banana": {
+    "hash": "c9cb11451b901b93",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-edit-product-photos-gemini-nano-banana.mp3",
+    "seconds": 410,
+    "voice": "en_US-ryan-high",
+    "bytes": 3278097,
+    "generatedAt": "2026-10-11T06:37:56.719Z"
+  },
+  "en/hire-human-vs-deploy-agent": {
+    "hash": "35cfc6218283299c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-hire-human-vs-deploy-agent.mp3",
+    "seconds": 392,
+    "voice": "en_US-ryan-high",
+    "bytes": 3133484,
+    "generatedAt": "2026-10-11T06:40:01.338Z"
+  },
+  "en/selling-ai-to-regulated-buyers": {
+    "hash": "dfe17ca4d9bb89fa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-selling-ai-to-regulated-buyers.mp3",
+    "seconds": 385,
+    "voice": "en_US-ryan-high",
+    "bytes": 3083328,
+    "generatedAt": "2026-10-11T06:42:05.928Z"
+  },
+  "en/whats-new-in-claudes-2026-usage-policy": {
+    "hash": "72c66deec0ddc612",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-whats-new-in-claudes-2026-usage-policy.mp3",
+    "seconds": 390,
+    "voice": "en_US-ryan-high",
+    "bytes": 3116347,
+    "generatedAt": "2026-10-11T06:44:10.711Z"
   }
 }
