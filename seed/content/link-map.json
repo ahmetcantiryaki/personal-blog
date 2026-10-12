@@ -6768,6 +6768,66 @@
         "slug": "edit-product-photos-gemini-nano-banana",
         "title": "How Do You Edit Product Photos by Chatting in Gemini?"
       }
+    },
+    {
+      "translationKey": "anthropic-cyber-mission-oss-scanner-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "anthropic-cyber-mission-oss-tarayici-nedir",
+        "title": "Anthropic Cyber Mission: Ücretsiz OSS Tarayıcı Ne Yapıyor?"
+      },
+      "en": {
+        "slug": "anthropic-cyber-mission-oss-scanner-explained",
+        "title": "Anthropic's Cyber Mission: What the Free OSS Scanner Does"
+      }
+    },
+    {
+      "translationKey": "chatgpt-virtual-try-on-retail-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "chatgpt-sanal-deneme-perakende",
+        "title": "ChatGPT'de Sanal Deneme: Perakendeci Rehberi"
+      },
+      "en": {
+        "slug": "chatgpt-virtual-try-on-retail",
+        "title": "Virtual Try-On in ChatGPT: A Retailer's Playbook"
+      }
+    },
+    {
+      "translationKey": "ai-defense-against-ai-attacks-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "yapay-zeka-saldirilarina-karsi-savunma",
+        "title": "Yapay Zeka İşinizi Yapay Zeka Saldırılarından Korur mu?"
+      },
+      "en": {
+        "slug": "can-ai-defend-against-ai-attacks",
+        "title": "Can AI Defend Your Business From AI Attacks?"
+      }
+    },
+    {
+      "translationKey": "context-management-ai-coding-agents-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yapay-zeka-kodlama-ajanlarinda-baglam-yonetimi",
+        "title": "Yapay Zeka Kodlama Ajanlarında Bağlam Yönetimi"
+      },
+      "en": {
+        "slug": "context-windows-ai-coding-agents",
+        "title": "Managing Context Windows for AI Coding Agents"
+      }
+    },
+    {
+      "translationKey": "embeddinggemma-2-semantic-search-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "embeddinggemma-2-ile-anlamsal-arama",
+        "title": "EmbeddingGemma 2 ile Cihazda Anlamsal Arama"
+      },
+      "en": {
+        "slug": "private-semantic-search-embeddinggemma-2",
+        "title": "Private Semantic Search With EmbeddingGemma 2"
+      }
     }
   ]
 }
