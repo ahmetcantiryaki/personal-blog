@@ -4446,5 +4446,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3116347,
     "generatedAt": "2026-10-11T06:44:10.711Z"
+  },
+  "en/anthropic-cyber-mission-oss-scanner-explained": {
+    "hash": "3fedcb0664c28f63",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-cyber-mission-oss-scanner-explained.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3524902,
+    "generatedAt": "2026-10-12T06:42:38.154Z"
+  },
+  "en/can-ai-defend-against-ai-attacks": {
+    "hash": "7f0db43380d7d4bd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-can-ai-defend-against-ai-attacks.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3370675,
+    "generatedAt": "2026-10-12T06:43:41.546Z"
+  },
+  "en/chatgpt-virtual-try-on-retail": {
+    "hash": "49fd98c6544495c8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-virtual-try-on-retail.mp3",
+    "seconds": 388,
+    "voice": "en_US-ryan-high",
+    "bytes": 3104017,
+    "generatedAt": "2026-10-12T06:45:12.501Z"
+  },
+  "en/context-windows-ai-coding-agents": {
+    "hash": "636ad5cc268a90b2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-context-windows-ai-coding-agents.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3416651,
+    "generatedAt": "2026-10-12T06:46:16.200Z"
+  },
+  "en/private-semantic-search-embeddinggemma-2": {
+    "hash": "8f84063d8f5a6bde",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-private-semantic-search-embeddinggemma-2.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3514244,
+    "generatedAt": "2026-10-12T06:47:21.482Z"
   }
 }
