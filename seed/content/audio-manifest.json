@@ -4486,5 +4486,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3514244,
     "generatedAt": "2026-10-12T06:47:21.482Z"
+  },
+  "en/30-day-content-calendar-chatgpt": {
+    "hash": "10e5e93de0670975",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-30-day-content-calendar-chatgpt.mp3",
+    "seconds": 381,
+    "voice": "en_US-ryan-high",
+    "bytes": 3049474,
+    "generatedAt": "2026-10-13T06:48:30.552Z"
+  },
+  "en/ai-subscription-sprawl-cost-control": {
+    "hash": "398259b506e4c3ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-subscription-sprawl-cost-control.mp3",
+    "seconds": 397,
+    "voice": "en_US-ryan-high",
+    "bytes": 3179668,
+    "generatedAt": "2026-10-13T06:50:38.558Z"
+  },
+  "en/case-against-raising-vc-2026": {
+    "hash": "14d11956440a1092",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-case-against-raising-vc-2026.mp3",
+    "seconds": 393,
+    "voice": "en_US-ryan-high",
+    "bytes": 3143097,
+    "generatedAt": "2026-10-13T06:52:43.830Z"
+  },
+  "en/claude-sonnet-5-5-cache-price-cut": {
+    "hash": "e525dd989317c8ff",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-sonnet-5-5-cache-price-cut.mp3",
+    "seconds": 398,
+    "voice": "en_US-ryan-high",
+    "bytes": 3181967,
+    "generatedAt": "2026-10-13T06:54:51.525Z"
+  },
+  "en/how-to-price-your-saas-framework": {
+    "hash": "02536dfefd11acb4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-price-your-saas-framework.mp3",
+    "seconds": 366,
+    "voice": "en_US-ryan-high",
+    "bytes": 2931609,
+    "generatedAt": "2026-10-13T06:56:48.701Z"
   }
 }
