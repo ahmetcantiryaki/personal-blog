@@ -6828,6 +6828,66 @@
         "slug": "private-semantic-search-embeddinggemma-2",
         "title": "Private Semantic Search With EmbeddingGemma 2"
       }
+    },
+    {
+      "translationKey": "claude-sonnet-5-5-cache-price-cut-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-sonnet-5-5-onbellek-fiyati-yariya-indi",
+        "title": "Claude Sonnet 5.5 Önbellek Fiyatı Neden Yarıya İndi?"
+      },
+      "en": {
+        "slug": "claude-sonnet-5-5-cache-price-cut",
+        "title": "Why Did Claude Sonnet 5.5 Cache Reads Get 50% Cheaper?"
+      }
+    },
+    {
+      "translationKey": "content-calendar-chatgpt-30-day-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "chatgpt-ile-30-gunluk-icerik-takvimi",
+        "title": "ChatGPT ile 30 Günlük İçerik Takvimi Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "30-day-content-calendar-chatgpt",
+        "title": "How Do You Build a 30-Day Content Calendar With ChatGPT?"
+      }
+    },
+    {
+      "translationKey": "ai-subscription-sprawl-business-2026",
+      "category": "business",
+      "tr": {
+        "slug": "yapay-zeka-abonelik-dagilimi-maliyet",
+        "title": "Ekibinizin Dağınık AI Aboneliği Neden Para Yakıyor?"
+      },
+      "en": {
+        "slug": "ai-subscription-sprawl-cost-control",
+        "title": "Why Is Your Team's AI Subscription Sprawl Costing So Much?"
+      }
+    },
+    {
+      "translationKey": "case-against-vc-2026",
+      "category": "business",
+      "tr": {
+        "slug": "risk-sermayesi-almamak-2026",
+        "title": "2026'da Neden Risk Sermayesi Almamalısınız?"
+      },
+      "en": {
+        "slug": "case-against-raising-vc-2026",
+        "title": "Why Shouldn't You Raise VC Money in 2026?"
+      }
+    },
+    {
+      "translationKey": "saas-pricing-founder-framework-2026",
+      "category": "business",
+      "tr": {
+        "slug": "saas-fiyatlama-kurucu-cercevesi",
+        "title": "SaaS Ürününüzü Nasıl Fiyatlandırmalısınız?"
+      },
+      "en": {
+        "slug": "how-to-price-your-saas-framework",
+        "title": "How Should You Price Your SaaS Product?"
+      }
     }
   ]
 }

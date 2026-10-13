@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-13",
   "topics": [
-    {
-      "translationKey": "content-calendar-chatgpt-30-day-2026",
-      "category": "social-media",
-      "titleTr": "ChatGPT ile 30 Gunluk Icerik Takvimi Olusturma",
-      "titleEn": "Build a 30-Day Content Calendar With ChatGPT",
-      "slugTr": "chatgpt-ile-30-gunluk-icerik-takvimi",
-      "slugEn": "30-day-content-calendar-chatgpt",
-      "keywordTr": "chatgpt icerik takvimi",
-      "keywordEn": "chatgpt content calendar",
-      "angle": "how-to: a repeatable prompt system for a month of posts",
-      "style": "story-led",
-      "brief": "Outline: a repeatable prompt system to plan a month of posts across platforms; brand brief and voice setup; generating pillar themes; mapping themes to TikTok/Reels/LinkedIn formats; batching hooks and captions; a review-and-edit loop so output does not sound generic; repurposing one idea into many formats. Verify current platform format norms (Reels length, LinkedIn document-post performance). Sources: sproutsocial.com social trends 2026, hootsuite research. Stress human-in-the-loop editing to keep audience trust."
-    },
-    {
-      "translationKey": "ai-subscription-sprawl-business-2026",
-      "category": "business",
-      "titleTr": "Ekibinizin Daginik Yapay Zeka Aboneligi Para Yakiyor",
-      "titleEn": "Your Team's AI Subscription Sprawl Is Costing You",
-      "slugTr": "yapay-zeka-abonelik-dagilimi-maliyet",
-      "slugEn": "ai-subscription-sprawl-cost-control",
-      "keywordTr": "yapay zeka abonelik maliyeti",
-      "keywordEn": "ai subscription cost control",
-      "angle": "mistakes: stop overpaying for overlapping AI seats",
-      "style": "contrarian",
-      "brief": "Outline: companies now pay for overlapping Claude, ChatGPT, Gemini and niche seats; the real monthly cost of tool sprawl; auditing who uses what; the 'one daily driver + free tiers' strategy; when one enterprise plan beats many Pro seats; governance (SSO, spend limits, data policy); measuring ROI. Verify current tiers (~$20 Pro, $125 ChatGPT Business premium seat, $500 Pro tier) and enterprise admin controls. Sources: Claude/ChatGPT/Gemini pricing pages, layer3labs business comparison."
-    },
-    {
-      "translationKey": "case-against-vc-2026",
-      "category": "business",
-      "titleTr": "2026'da Risk Sermayesi Almamanin Gerekceleri",
-      "titleEn": "The Case Against Raising VC in 2026",
-      "slugTr": "risk-sermayesi-almamak-2026",
-      "slugEn": "case-against-raising-vc-2026",
-      "keywordTr": "risk sermayesi almamak",
-      "keywordEn": "against raising venture capital",
-      "angle": "deep-dive: why more AI-era founders should stay bootstrapped",
-      "style": "contrarian",
-      "brief": "Outline: why cheap AI tooling lets more founders reach revenue without VC; the dilution and control math; the default-alive mindset; when VC still makes sense (winner-take-all, heavy R&D, land-grab); a decision checklist weighing speed, ownership and risk; cautionary tales both ways. Verify (directional): lean-team productivity claims and current seed dilution norms. Sources: blog.mean.ceo bootstrapping trends Oct 2026, waveup startup tools roundup. Keep it balanced, not dogmatic."
-    },
-    {
-      "translationKey": "saas-pricing-founder-framework-2026",
-      "category": "business",
-      "titleTr": "SaaS Urununuzu Fiyatlama: Kurucu Cercevesi",
-      "titleEn": "How to Price Your SaaS: A Founder's Framework",
-      "slugTr": "saas-fiyatlama-kurucu-cercevesi",
-      "slugEn": "how-to-price-your-saas-framework",
-      "keywordTr": "saas fiyatlandirma",
-      "keywordEn": "saas pricing framework",
-      "angle": "guide: a practical pricing playbook for early SaaS",
-      "style": "data-led",
-      "brief": "Outline: value-based vs cost-plus vs competitor pricing; packaging and tiers; usage vs seat pricing in the AI era and why per-seat is wobbling; running willingness-to-pay research and price tests; passing through AI/inference costs without scaring buyers; common pricing mistakes. Verify (directional): shift toward usage-based pricing, typical trial-to-paid benchmarks. Sources: cut-the-saas pricing pieces, SaaS pricing research. Avoid over-claiming benchmark numbers."
-    },
     {
       "translationKey": "first-time-founder-launch-checklist-2026",
       "category": "business",
