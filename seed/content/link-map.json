@@ -110,6 +110,18 @@
       }
     },
     {
+      "translationKey": "accessible-forms-checklist-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "erisilebilir-form-olusturma-kontrol-listesi",
+        "title": "Erişilebilir Form Oluşturma: Geliştirici Kontrol Listesi"
+      },
+      "en": {
+        "slug": "building-accessible-forms-checklist",
+        "title": "Building Accessible Forms: A Developer's Checklist"
+      }
+    },
+    {
       "translationKey": "advanced-typescript-patterns",
       "category": "software-engineering",
       "tr": {
@@ -863,6 +875,18 @@
       "en": {
         "slug": "what-is-anthropic-enterprise-frontier-safeguards",
         "title": "What Is Anthropic's Enterprise Frontier Safeguards (EFS)?"
+      }
+    },
+    {
+      "translationKey": "anthropic-genesis-mission-funding-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-genesis-mission-150-milyon-dolar",
+        "title": "Anthropic Neden Genesis Mission'a 150 Milyon Dolar Verdi?"
+      },
+      "en": {
+        "slug": "why-anthropic-genesis-mission-150-million",
+        "title": "Why Is Anthropic Giving $150M to the Genesis Mission?"
       }
     },
     {
@@ -2858,6 +2882,18 @@
       }
     },
     {
+      "translationKey": "first-time-founder-launch-checklist-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ilk-girisimci-sirket-kurma-kontrol-listesi",
+        "title": "İlk Kez Girişimci İçin Şirket Kurma Kontrol Listesi"
+      },
+      "en": {
+        "slug": "first-time-founder-launch-checklist",
+        "title": "A First-Time Founder's Company-Launch Checklist"
+      }
+    },
+    {
       "translationKey": "fix-flaky-tests-for-good",
       "category": "software-engineering",
       "tr": {
@@ -3587,6 +3623,18 @@
       "en": {
         "slug": "junior-to-senior-developer",
         "title": "From Junior to Senior Developer: A Roadmap"
+      }
+    },
+    {
+      "translationKey": "kubernetes-alternatives-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "hala-kubernetes-gerekli-mi-2026",
+        "title": "2026'da Hâlâ Kubernetes'e İhtiyacınız Var mı?"
+      },
+      "en": {
+        "slug": "do-you-still-need-kubernetes-2026",
+        "title": "Do You Still Need Kubernetes in 2026?"
       }
     },
     {
@@ -5075,6 +5123,18 @@
       "en": {
         "slug": "smart-home-2026-matter-interoperability",
         "title": "Smart Home 2026: Matter and Interoperability"
+      }
+    },
+    {
+      "translationKey": "smart-ring-vs-smartwatch-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "akilli-yuzuk-mu-akilli-saat-mi-2026",
+        "title": "Akıllı Yüzük mü Akıllı Saat mi? 2026 Alım Rehberi"
+      },
+      "en": {
+        "slug": "smart-ring-vs-smartwatch-2026",
+        "title": "Smart Ring or Smartwatch? A 2026 Buyer's Guide"
       }
     },
     {

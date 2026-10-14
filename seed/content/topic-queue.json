@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
   "topics": [
-    {
-      "translationKey": "first-time-founder-launch-checklist-2026",
-      "category": "business",
-      "titleTr": "Ilk Kez Girisimci Icin Sirket Kurma Kontrol Listesi",
-      "titleEn": "A First-Time Founder's Company-Launch Checklist",
-      "slugTr": "ilk-girisimci-sirket-kurma-kontrol-listesi",
-      "slugEn": "first-time-founder-launch-checklist",
-      "keywordTr": "sirket kurma kontrol listesi",
-      "keywordEn": "startup launch checklist",
-      "angle": "checklist: everything to do before and right after launch",
-      "style": "question-driven",
-      "brief": "Outline: idea validation and a landing-page smoke test; legal/incorporation and contract basics; a minimal finance, banking and tax setup; first website, analytics and email list; a lightweight AI tool stack; a first-10-customers plan; what to skip early. Verify: common validation tactics and incorporation options; flag that legal and tax steps vary by country (note Turkey specifics differ). Sources: waveup startup tools roundup, general first-founder guides. Keep steps generic with a local-law caveat."
-    },
     {
       "translationKey": "email-deliverability-spam-fixes-2026",
       "category": "digital-marketing",
@@ -67,19 +54,6 @@
       "brief": "Outline: tagging and cost visibility; rightsizing and autoscaling; spot and savings-plan commitments; killing idle resources and zombie storage; controlling data-egress and logging costs; a monthly cost-review ritual; where AI-inference costs now hide. Verify: current savings-plan/commitment models and typical waste figures (directional). Sources: cloud provider cost docs, FinOps Foundation guidance. Practical and numbers-light where figures are unverified."
     },
     {
-      "translationKey": "kubernetes-alternatives-2026",
-      "category": "devops-cloud",
-      "titleTr": "2026'da Hala Kubernetes'e Ihtiyaciniz Var mi?",
-      "titleEn": "Do You Still Need Kubernetes in 2026?",
-      "slugTr": "hala-kubernetes-gerekli-mi-2026",
-      "slugEn": "do-you-still-need-kubernetes-2026",
-      "keywordTr": "kubernetes alternatifleri",
-      "keywordEn": "kubernetes alternatives",
-      "angle": "comparison: when simpler platforms beat full Kubernetes",
-      "style": "contrarian",
-      "brief": "Outline: the complexity cost of running Kubernetes; alternatives (managed PaaS, container services, Nomad, serverless, a single VM with Docker Compose); a decision matrix by team size and scale; migration regrets in both directions; what you give up by skipping it. Verify: current managed-platform options and their limits. Sources: infoq.com devops trends 2026, platform engineering discussions. Contrarian but fair about when k8s is the right call."
-    },
-    {
       "translationKey": "secrets-management-practical-guide-2026",
       "category": "devops-cloud",
       "titleTr": "Gizli Bilgi Yonetimini Dogru Yapmak: Pratik Rehber",
@@ -106,19 +80,6 @@
       "brief": "Outline: how passkeys work (public-key, device-bound vs synced); why they beat passwords and OTP against phishing; setting them up across Apple, Google and Microsoft and in password managers; account recovery and the lost-device problem; where support is still patchy. Verify: current passkey/FIDO support across major platforms and browsers. Sources: FIDO Alliance, platform passkey docs. A clear, consumer-friendly explainer with honest caveats."
     },
     {
-      "translationKey": "smart-ring-vs-smartwatch-2026",
-      "category": "technology",
-      "titleTr": "Akilli Yuzuk mu Akilli Saat mi? 2026 Alim Rehberi",
-      "titleEn": "Smart Ring or Smartwatch? A 2026 Buyer's Guide",
-      "slugTr": "akilli-yuzuk-mu-akilli-saat-mi-2026",
-      "slugEn": "smart-ring-vs-smartwatch-2026",
-      "keywordTr": "akilli yuzuk mu akilli saat mi",
-      "keywordEn": "smart ring vs smartwatch",
-      "angle": "comparison: choose a health wearable in 2026",
-      "style": "data-led",
-      "brief": "Outline: what each measures well (HRV, SpO2, sleep, stress); battery, comfort and subscription costs; accuracy caveats and medical-grade limits; privacy of continuous health data; who each form factor suits. Use ABI's smart-ring forecast (3.15M units in 2025 rising past 23M by 2031) as market context. Verify: ABI figures and feature claims per device class. Sources: ABI Research consumer tech trends 2026, independent wearable reviews. Note the data-privacy risk of always-on health sensors."
-    },
-    {
       "translationKey": "matter-smart-home-2026",
       "category": "technology",
       "titleTr": "Matter ile Akilli Ev Artik Sorunsuz mu?",
@@ -143,19 +104,6 @@
       "angle": "how-to: native animated navigation without a framework",
       "style": "field-notes",
       "brief": "Outline: same-document vs cross-document view transitions; a minimal MPA setup with the @view-transition rule; customizing with ::view-transition pseudo-elements; progressive enhancement and prefers-reduced-motion; current browser support and fallbacks; performance notes and common glitches. Verify: current cross-document view-transitions browser support. Sources: MDN View Transitions API, web.dev. Field-notes tone with code-level gotchas and a working example."
-    },
-    {
-      "translationKey": "accessible-forms-checklist-2026",
-      "category": "web-development",
-      "titleTr": "Erisilebilir Form Olusturma: Gelistirici Kontrol Listesi",
-      "titleEn": "Building Accessible Forms: A Developer's Checklist",
-      "slugTr": "erisilebilir-form-olusturma-kontrol-listesi",
-      "slugEn": "building-accessible-forms-checklist",
-      "keywordTr": "erisilebilir form",
-      "keywordEn": "accessible forms",
-      "angle": "checklist: forms that work for everyone",
-      "style": "story-led",
-      "brief": "Outline: labels and programmatic associations; fieldset/legend grouping; error messaging with aria-live and aria-describedby; keyboard order and focus management; accessible validation and required fields; correct autocomplete and input types; testing with a screen reader. Verify: WCAG 2.2 form-related criteria and current ARIA patterns. Sources: WAI-ARIA Authoring Practices, MDN forms accessibility. A practical checklist with real, copy-pasteable code."
     },
     {
       "translationKey": "css-container-queries-production-2026",
