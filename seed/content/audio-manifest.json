@@ -4526,5 +4526,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2931609,
     "generatedAt": "2026-10-13T06:56:48.701Z"
+  },
+  "en/building-accessible-forms-checklist": {
+    "hash": "8e3f79319b736c14",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-building-accessible-forms-checklist.mp3",
+    "seconds": 529,
+    "voice": "en_US-ryan-high",
+    "bytes": 4230835,
+    "generatedAt": "2026-10-14T06:40:48.253Z"
+  },
+  "en/do-you-still-need-kubernetes-2026": {
+    "hash": "1f5b5ad6f85bbc25",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-do-you-still-need-kubernetes-2026.mp3",
+    "seconds": 482,
+    "voice": "en_US-ryan-high",
+    "bytes": 3858225,
+    "generatedAt": "2026-10-14T06:43:22.721Z"
+  },
+  "en/first-time-founder-launch-checklist": {
+    "hash": "202a90f7960cf1c2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-time-founder-launch-checklist.mp3",
+    "seconds": 537,
+    "voice": "en_US-ryan-high",
+    "bytes": 4294365,
+    "generatedAt": "2026-10-14T06:46:14.521Z"
+  },
+  "en/smart-ring-vs-smartwatch-2026": {
+    "hash": "3afb64f13f84de4a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-smart-ring-vs-smartwatch-2026.mp3",
+    "seconds": 541,
+    "voice": "en_US-ryan-high",
+    "bytes": 4326966,
+    "generatedAt": "2026-10-14T06:49:09.473Z"
+  },
+  "en/why-anthropic-genesis-mission-150-million": {
+    "hash": "eab393eba00a36a2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-anthropic-genesis-mission-150-million.mp3",
+    "seconds": 478,
+    "voice": "en_US-ryan-high",
+    "bytes": 3822698,
+    "generatedAt": "2026-10-14T06:51:43.200Z"
   }
 }
