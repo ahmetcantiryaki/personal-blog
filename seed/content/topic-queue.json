@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "topics": [
     {
       "translationKey": "email-deliverability-spam-fixes-2026",
@@ -26,19 +26,6 @@
       "angle": "deep-dive: measure marketing without cross-site tracking",
       "style": "data-led",
       "brief": "Outline: how to measure marketing when third-party cookies and cross-site tracking fade; first-party data and server-side tracking; consent and privacy constraints; modeled and marketing-mix approaches vs last-click; UTM discipline; a pragmatic attribution setup for a small team. Verify: current state of third-party cookie deprecation and consent requirements (note the timeline has shifted repeatedly). Sources: marketing-analytics guides, web analytics platform docs. Be cautious about any fixed deprecation date."
-    },
-    {
-      "translationKey": "idp-build-or-buy-2026",
-      "category": "devops-cloud",
-      "titleTr": "Dahili Gelistirici Platformu: Kurmak mi Satin Almak mi?",
-      "titleEn": "Internal Developer Platforms: Build or Buy?",
-      "slugTr": "dahili-gelistirici-platformu-kurmak-mi-satin-almak-mi",
-      "slugEn": "internal-developer-platform-build-or-buy",
-      "keywordTr": "dahili gelistirici platformu",
-      "keywordEn": "internal developer platform",
-      "angle": "comparison: build an IDP, buy one, or assemble from OSS",
-      "style": "contrarian",
-      "brief": "Outline: what an IDP actually is (golden paths, self-service, paved roads); signs you are ready (platform cognitive load, ticket-queue ops); build vs buy vs assemble-from-OSS (Backstage and friends); total cost and staffing reality; avoiding the platform-as-a-ticket-queue trap. Verify: platform-engineering trends and Backstage adoption. Sources: infoq.com cloud/devops trends 2026, platform engineering community. Keep vendor-neutral and skeptical of over-building."
     },
     {
       "translationKey": "finops-checklist-small-teams-2026",
@@ -130,45 +117,6 @@
       "angle": "mistakes: why high coverage still misses real bugs",
       "style": "contrarian",
       "brief": "Outline: coverage as a vanity metric; testing behavior not implementation; the testing-trophy vs pyramid debate; property-based and boundary testing; avoiding brittle mocks that test the mock; mutation testing to test your tests; what is fine to leave untested. Verify: mutation-testing tools and testing-trophy guidance. Sources: testing best-practice literature, mutation-testing tool docs. Opinionated but grounded in concrete failure modes."
-    },
-    {
-      "translationKey": "legacy-codebase-strangler-fig-2026",
-      "category": "software-engineering",
-      "titleTr": "Eski Kod Tabanini Evcillestirmek: Strangler-Fig",
-      "titleEn": "Taming a Legacy Codebase: The Strangler-Fig Way",
-      "slugTr": "eski-kod-tabani-strangler-fig",
-      "slugEn": "taming-legacy-codebase-strangler-fig",
-      "keywordTr": "eski kod yeniden yapilandirma",
-      "keywordEn": "legacy code strangler fig",
-      "angle": "guide: modernize without a risky big-bang rewrite",
-      "style": "story-led",
-      "brief": "Outline: why big-bang rewrites fail; the strangler-fig pattern explained; writing characterization tests before changing anything; carving seams and anti-corruption layers; routing traffic to the new path incrementally; using AI coding agents safely on legacy code; measuring progress. Verify: strangler-fig and characterization-test definitions (Fowler, Feathers). Sources: Martin Fowler's strangler-fig article, 'Working Effectively with Legacy Code'. Story-led with a realistic migration arc."
-    },
-    {
-      "translationKey": "tiktok-local-feed-local-business-2026",
-      "category": "social-media",
-      "titleTr": "TikTok Yerel Akis: Yerel Isletmeler Icin Rehber",
-      "titleEn": "TikTok's Local Feed: A Playbook for Local Shops",
-      "slugTr": "tiktok-yerel-akis-yerel-isletme-rehberi",
-      "slugEn": "tiktok-local-feed-playbook",
-      "keywordTr": "tiktok yerel akis",
-      "keywordEn": "tiktok local feed",
-      "angle": "how-to: reach nearby customers with TikTok's Local Feed",
-      "style": "question-driven",
-      "brief": "Outline: what the TikTok Local Feed is and how its discovery works; opting into location sharing and the privacy trade-off (18+ rules); content that performs locally (place tags, events, behind-the-counter clips); pairing with TikTok Shop and local search behavior; a simple weekly posting plan for a small shop. Verify: Local Feed availability and location-sharing age rules. Sources: blog.gainapp social updates 2026, sproutsocial trends. Timely and firmly SMB-focused."
-    },
-    {
-      "translationKey": "enterprise-ai-engineering-career-2026",
-      "category": "career-productivity",
-      "titleTr": "2026'da Kurumsal Yapay Zeka Muhendisligine Giris",
-      "titleEn": "Breaking Into Enterprise AI Engineering in 2026",
-      "slugTr": "kurumsal-yapay-zeka-muhendisligine-giris",
-      "slugEn": "breaking-into-enterprise-ai-engineering",
-      "keywordTr": "yapay zeka muhendisi olmak",
-      "keywordEn": "enterprise ai engineer career",
-      "angle": "guide: position yourself for the enterprise AI hiring wave",
-      "style": "story-led",
-      "brief": "Outline: why demand spiked (e.g. Anthropic's $100M, 10,000-engineer push and the enterprise AI talent gap); the skills that matter now (RAG, evals, agents, security, cost control); building a portfolio of shipped AI features; interview prep and what hiring managers screen for; upskilling paths and programs. Verify: Anthropic Frontier Academy / $100M investment (Oct 2 2026) and talent-gap claims. Sources: anthropic.com/news, enterprise AI hiring reports. Encouraging and concrete, not hypey."
     }
   ]
 }

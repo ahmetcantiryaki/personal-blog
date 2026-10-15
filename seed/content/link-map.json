@@ -6948,6 +6948,66 @@
         "slug": "how-to-price-your-saas-framework",
         "title": "How Should You Price Your SaaS Product?"
       }
+    },
+    {
+      "translationKey": "gemini-free-tier-restriction-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "google-gemini-ucretsiz-flash-lite-kisitlama",
+        "title": "Google Gemini Ücretsiz Erişimi Flash-Lite'a Kısıtlandı"
+      },
+      "en": {
+        "slug": "google-gemini-free-tier-flash-lite-restriction",
+        "title": "Google Just Restricted Free Gemini Access to Flash-Lite Only"
+      }
+    },
+    {
+      "translationKey": "idp-build-or-buy-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "dahili-gelistirici-platformu-kurmak-mi-satin-almak-mi",
+        "title": "Dahili Geliştirici Platformu: Kurmak mı Satın Almak mı?"
+      },
+      "en": {
+        "slug": "internal-developer-platform-build-or-buy",
+        "title": "Internal Developer Platforms: Build or Buy?"
+      }
+    },
+    {
+      "translationKey": "legacy-codebase-strangler-fig-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "eski-kod-tabani-strangler-fig",
+        "title": "Eski Kod Tabanını Evcilleştirmek: Strangler-Fig"
+      },
+      "en": {
+        "slug": "taming-legacy-codebase-strangler-fig",
+        "title": "Taming a Legacy Codebase: The Strangler-Fig Way"
+      }
+    },
+    {
+      "translationKey": "tiktok-local-feed-local-business-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "tiktok-yerel-akis-yerel-isletme-rehberi",
+        "title": "TikTok Yerel Akış: Yerel İşletmeler İçin Rehber"
+      },
+      "en": {
+        "slug": "tiktok-local-feed-playbook",
+        "title": "TikTok's Local Feed: A Playbook for Local Shops"
+      }
+    },
+    {
+      "translationKey": "enterprise-ai-engineering-career-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "kurumsal-yapay-zeka-muhendisligine-giris",
+        "title": "2026'da Kurumsal Yapay Zeka Mühendisliğine Giriş"
+      },
+      "en": {
+        "slug": "breaking-into-enterprise-ai-engineering",
+        "title": "Breaking Into Enterprise AI Engineering in 2026"
+      }
     }
   ]
 }
