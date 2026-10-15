@@ -4566,5 +4566,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3822698,
     "generatedAt": "2026-10-14T06:51:43.200Z"
+  },
+  "en/breaking-into-enterprise-ai-engineering": {
+    "hash": "bc94d67fc217e84c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-breaking-into-enterprise-ai-engineering.mp3",
+    "seconds": 537,
+    "voice": "en_US-ryan-high",
+    "bytes": 4294992,
+    "generatedAt": "2026-10-15T06:37:06.838Z"
+  },
+  "en/google-gemini-free-tier-flash-lite-restriction": {
+    "hash": "88d8e5e468f624b6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-google-gemini-free-tier-flash-lite-restriction.mp3",
+    "seconds": 498,
+    "voice": "en_US-ryan-high",
+    "bytes": 3985075,
+    "generatedAt": "2026-10-15T06:39:47.048Z"
+  },
+  "en/internal-developer-platform-build-or-buy": {
+    "hash": "97844a6fc40cd782",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-internal-developer-platform-build-or-buy.mp3",
+    "seconds": 571,
+    "voice": "en_US-ryan-high",
+    "bytes": 4569800,
+    "generatedAt": "2026-10-15T06:42:49.796Z"
+  },
+  "en/taming-legacy-codebase-strangler-fig": {
+    "hash": "1951bad074441648",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-taming-legacy-codebase-strangler-fig.mp3",
+    "seconds": 510,
+    "voice": "en_US-ryan-high",
+    "bytes": 4081833,
+    "generatedAt": "2026-10-15T06:45:30.851Z"
+  },
+  "en/tiktok-local-feed-playbook": {
+    "hash": "a7784077500f9b69",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tiktok-local-feed-playbook.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3424174,
+    "generatedAt": "2026-10-15T06:47:46.777Z"
   }
 }
