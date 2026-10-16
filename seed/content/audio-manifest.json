@@ -4606,5 +4606,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3424174,
     "generatedAt": "2026-10-15T06:47:46.777Z"
+  },
+  "en/anthropic-independent-evaluators-metr-explained": {
+    "hash": "28db45ae826a6bd7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-independent-evaluators-metr-explained.mp3",
+    "seconds": 437,
+    "voice": "en_US-ryan-high",
+    "bytes": 3497526,
+    "generatedAt": "2026-10-16T06:39:23.091Z"
+  },
+  "en/cloud-repatriation-when-it-pays-off": {
+    "hash": "412a3c5d4c96433b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-cloud-repatriation-when-it-pays-off.mp3",
+    "seconds": 438,
+    "voice": "en_US-ryan-high",
+    "bytes": 3506721,
+    "generatedAt": "2026-10-16T06:40:35.193Z"
+  },
+  "en/how-to-run-a-blameless-postmortem": {
+    "hash": "9e59b37f4ff20cde",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-run-a-blameless-postmortem.mp3",
+    "seconds": 371,
+    "voice": "en_US-ryan-high",
+    "bytes": 2971942,
+    "generatedAt": "2026-10-16T06:41:36.295Z"
+  },
+  "en/http3-and-quic-what-changes-for-web-developers": {
+    "hash": "4d8f4ff62c25b491",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-http3-and-quic-what-changes-for-web-developers.mp3",
+    "seconds": 452,
+    "voice": "en_US-ryan-high",
+    "bytes": 3613719,
+    "generatedAt": "2026-10-16T06:42:52.602Z"
+  },
+  "en/what-is-content-decay-how-to-fix-it": {
+    "hash": "0ba8664eef629add",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-content-decay-how-to-fix-it.mp3",
+    "seconds": 367,
+    "voice": "en_US-ryan-high",
+    "bytes": 2937252,
+    "generatedAt": "2026-10-16T06:43:53.862Z"
   }
 }
