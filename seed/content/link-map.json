@@ -7008,6 +7008,66 @@
         "slug": "breaking-into-enterprise-ai-engineering",
         "title": "Breaking Into Enterprise AI Engineering in 2026"
       }
+    },
+    {
+      "translationKey": "anthropic-independent-evaluators-metr-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "anthropic-bagimsiz-denetciler-metr-nedir",
+        "title": "Anthropic'in Bağımsız Denetçi Programı Nedir?"
+      },
+      "en": {
+        "slug": "anthropic-independent-evaluators-metr-explained",
+        "title": "What Is Anthropic's Independent AI Evaluator Program?"
+      }
+    },
+    {
+      "translationKey": "cloud-repatriation-when-it-pays-off-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "bulut-repatriation-ne-zaman-mantikli",
+        "title": "Buluttan Geri Dönüş Ne Zaman Mantıklı?"
+      },
+      "en": {
+        "slug": "cloud-repatriation-when-it-pays-off",
+        "title": "Cloud Repatriation: When Does Moving Back Actually Pay Off?"
+      }
+    },
+    {
+      "translationKey": "blameless-postmortems-guide-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "suclamasiz-postmortem-nasil-yapilir",
+        "title": "Suçlamasız Postmortem Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "how-to-run-a-blameless-postmortem",
+        "title": "How Do You Run a Postmortem That Actually Prevents Repeats?"
+      }
+    },
+    {
+      "translationKey": "content-decay-fix-declining-pages-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "icerik-curumesi-nedir-nasil-onarilir",
+        "title": "İçerik Çürümesi Nedir, Nasıl Onarılır?"
+      },
+      "en": {
+        "slug": "what-is-content-decay-how-to-fix-it",
+        "title": "What Is Content Decay, and How Do You Fix It?"
+      }
+    },
+    {
+      "translationKey": "http3-quic-web-developers-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "http3-ve-quic-web-gelistiriciler-icin-ne-degisiyor",
+        "title": "HTTP/3 ve QUIC: Web Geliştiriciler İçin Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "http3-and-quic-what-changes-for-web-developers",
+        "title": "HTTP/3 and QUIC: What Actually Changes for Web Developers?"
+      }
     }
   ]
 }
