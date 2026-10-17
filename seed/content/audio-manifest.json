@@ -4646,5 +4646,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2937252,
     "generatedAt": "2026-10-16T06:43:53.862Z"
+  },
+  "en/claude-code-idle-compaction-explained": {
+    "hash": "e31a35a403895af5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-idle-compaction-explained.mp3",
+    "seconds": 405,
+    "voice": "en_US-ryan-high",
+    "bytes": 3242989,
+    "generatedAt": "2026-10-17T06:33:42.090Z"
+  },
+  "en/four-day-work-week-tech-2026": {
+    "hash": "ee10d97c1f87d1e4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-four-day-work-week-tech-2026.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3288755,
+    "generatedAt": "2026-10-17T06:35:52.095Z"
+  },
+  "en/karpenter-vs-cluster-autoscaler": {
+    "hash": "e82b6f327379242c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-karpenter-vs-cluster-autoscaler.mp3",
+    "seconds": 390,
+    "voice": "en_US-ryan-high",
+    "bytes": 3119691,
+    "generatedAt": "2026-10-17T06:37:55.423Z"
+  },
+  "en/testing-pyramid-vs-testing-trophy": {
+    "hash": "0adc3547f16027f7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-testing-pyramid-vs-testing-trophy.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3460955,
+    "generatedAt": "2026-10-17T06:40:12.968Z"
+  },
+  "en/what-is-dark-social-why-analytics-miss-it": {
+    "hash": "690adc6e6852a478",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-dark-social-why-analytics-miss-it.mp3",
+    "seconds": 383,
+    "voice": "en_US-ryan-high",
+    "bytes": 3066819,
+    "generatedAt": "2026-10-17T06:42:14.840Z"
   }
 }
