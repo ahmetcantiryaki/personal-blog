@@ -1610,6 +1610,18 @@
       }
     },
     {
+      "translationKey": "claude-code-idle-compaction-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-idle-compaction-nedir",
+        "title": "Claude Code Idle Compaction Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-idle-compaction-explained",
+        "title": "What Is Claude Code's Idle Compaction?"
+      }
+    },
+    {
       "translationKey": "claude-code-managed-mcp-servers",
       "category": "ai",
       "tr": {
@@ -2450,6 +2462,18 @@
       }
     },
     {
+      "translationKey": "dark-social-attribution-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "dark-social-nedir-analitikte-neden-gorunmez",
+        "title": "Dark Social Nedir? Analitikte Neden Görünmüyor?"
+      },
+      "en": {
+        "slug": "what-is-dark-social-why-analytics-miss-it",
+        "title": "What Is Dark Social? Why Analytics Can't See It"
+      }
+    },
+    {
       "translationKey": "database-backup-disaster-recovery",
       "category": "devops-cloud",
       "tr": {
@@ -2951,6 +2975,18 @@
       "en": {
         "slug": "founder-legal-checklist-shipping-ai",
         "title": "The Founder's Legal Checklist for Shipping AI"
+      }
+    },
+    {
+      "translationKey": "four-day-work-week-tech-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "dort-gunluk-calisma-haftasi-teknoloji-2026",
+        "title": "Teknolojide Dört Günlük Çalışma Haftası İşe Yarıyor mu?"
+      },
+      "en": {
+        "slug": "four-day-work-week-tech-2026",
+        "title": "Does the Four-Day Work Week Work in Tech?"
       }
     },
     {
@@ -3623,6 +3659,18 @@
       "en": {
         "slug": "junior-to-senior-developer",
         "title": "From Junior to Senior Developer: A Roadmap"
+      }
+    },
+    {
+      "translationKey": "karpenter-vs-cluster-autoscaler-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "karpenter-mi-cluster-autoscaler-mi",
+        "title": "Karpenter mi Cluster Autoscaler mı: K8s Ölçeklendirme"
+      },
+      "en": {
+        "slug": "karpenter-vs-cluster-autoscaler",
+        "title": "Karpenter vs Cluster Autoscaler: K8s Node Scaling"
       }
     },
     {
@@ -5411,6 +5459,18 @@
       "en": {
         "slug": "test-ai-agents-before-production",
         "title": "How to Test AI Agents Before Production"
+      }
+    },
+    {
+      "translationKey": "testing-pyramid-vs-testing-trophy-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "test-piramidi-mi-test-kupasi-mi",
+        "title": "Test Piramidi mi, Test Kupası mı: 2026'da Hangisi?"
+      },
+      "en": {
+        "slug": "testing-pyramid-vs-testing-trophy",
+        "title": "Testing Pyramid vs Testing Trophy: Which in 2026?"
       }
     },
     {
