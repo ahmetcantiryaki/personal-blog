@@ -4686,5 +4686,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3066819,
     "generatedAt": "2026-10-17T06:42:14.840Z"
+  },
+  "en/gpt-5-5-retired-codex-what-changed": {
+    "hash": "76c84d708508b7a4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-5-5-retired-codex-what-changed.mp3",
+    "seconds": 451,
+    "voice": "en_US-ryan-high",
+    "bytes": 3607031,
+    "generatedAt": "2026-10-18T06:26:45.986Z"
+  },
+  "en/speculation-rules-api-browser-prefetching": {
+    "hash": "ae015b83d93f94a9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-speculation-rules-api-browser-prefetching.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3353957,
+    "generatedAt": "2026-10-18T06:29:00.342Z"
+  },
+  "en/structured-concurrency-explained-python-js": {
+    "hash": "611e7a184ea70170",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-structured-concurrency-explained-python-js.mp3",
+    "seconds": 388,
+    "voice": "en_US-ryan-high",
+    "bytes": 3106943,
+    "generatedAt": "2026-10-18T06:31:04.923Z"
+  },
+  "en/tc39-signals-proposal-native-js-reactivity": {
+    "hash": "2980a5eeca519f80",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-tc39-signals-proposal-native-js-reactivity.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3569624,
+    "generatedAt": "2026-10-18T06:33:27.788Z"
+  },
+  "en/what-is-dagger-container-based-ci-cd": {
+    "hash": "acaa0a9e80e60511",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-dagger-container-based-ci-cd.mp3",
+    "seconds": 380,
+    "voice": "en_US-ryan-high",
+    "bytes": 3042786,
+    "generatedAt": "2026-10-18T06:35:29.179Z"
   }
 }
