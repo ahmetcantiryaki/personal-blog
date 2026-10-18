@@ -7128,6 +7128,66 @@
         "slug": "http3-and-quic-what-changes-for-web-developers",
         "title": "HTTP/3 and QUIC: What Actually Changes for Web Developers?"
       }
+    },
+    {
+      "translationKey": "gpt-5-5-retired-codex-chatgpt-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-5-5-codexten-kaldirildi-ne-degisti",
+        "title": "GPT-5.5 Codex ve ChatGPT'den Kaldırıldı: Ne Değişti?"
+      },
+      "en": {
+        "slug": "gpt-5-5-retired-codex-what-changed",
+        "title": "GPT-5.5 Retired From ChatGPT and Codex: What Changed?"
+      }
+    },
+    {
+      "translationKey": "structured-concurrency-explained-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "structured-concurrency-nedir-python-js",
+        "title": "Structured Concurrency Nedir? Python ve JS'te Kullanımı"
+      },
+      "en": {
+        "slug": "structured-concurrency-explained-python-js",
+        "title": "What Is Structured Concurrency? Python and JS in Practice"
+      }
+    },
+    {
+      "translationKey": "dagger-ci-as-code-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "dagger-nedir-konteyner-tabanli-ci-cd",
+        "title": "Dagger Nedir? Konteynerle Taşınabilir CI/CD"
+      },
+      "en": {
+        "slug": "what-is-dagger-container-based-ci-cd",
+        "title": "What Is Dagger? Portable, Container-Based CI/CD"
+      }
+    },
+    {
+      "translationKey": "tc39-signals-proposal-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "tc39-signals-teklifi-javascript-reaktivite",
+        "title": "TC39 Signals Teklifi: JavaScript'e Yerleşik Reaktivite"
+      },
+      "en": {
+        "slug": "tc39-signals-proposal-native-js-reactivity",
+        "title": "The TC39 Signals Proposal: Native JS Reactivity"
+      }
+    },
+    {
+      "translationKey": "speculation-rules-api-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "speculation-rules-api-tarayici-onceden-yukleme",
+        "title": "Speculation Rules API: Tarayıcı Önceden Nasıl Yükler?"
+      },
+      "en": {
+        "slug": "speculation-rules-api-browser-prefetching",
+        "title": "The Speculation Rules API: How Browsers Prefetch Pages"
+      }
     }
   ]
 }
