@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "topics": [
     {
       "translationKey": "structured-concurrency-explained-2026",
@@ -12,14 +12,23 @@
         "tr": "structured-concurrency-nedir-python-js",
         "en": "structured-concurrency-explained-python-js"
       },
-      "keywords": ["structured concurrency", "asyncio.TaskGroup", "Python 3.11", "ExceptionGroup", "AbortController"],
+      "keywords": [
+        "structured concurrency",
+        "asyncio.TaskGroup",
+        "Python 3.11",
+        "ExceptionGroup",
+        "AbortController"
+      ],
       "angle": "Explain the pattern (a parent task waits for all child tasks; an error in one child cancels its siblings and propagates predictably) versus unstructured fire-and-forget tasks, with concrete Python asyncio.TaskGroup and JS AbortController examples.",
       "style": "technical explainer with code",
       "keyClaimsToVerify": [
         "Python's asyncio.TaskGroup (added 3.11) implements structured concurrency and raises an ExceptionGroup when children fail",
         "The pattern was popularized by Kotlin coroutines and Swift's structured concurrency (async let / TaskGroup)"
       ],
-      "suggestedSources": ["Python docs: asyncio.TaskGroup", "Nathaniel J. Smith, \"Notes on structured concurrency, or: Go statement considered harmful\""]
+      "suggestedSources": [
+        "Python docs: asyncio.TaskGroup",
+        "Nathaniel J. Smith, \"Notes on structured concurrency, or: Go statement considered harmful\""
+      ]
     },
     {
       "translationKey": "dagger-ci-as-code-2026",
@@ -32,11 +41,22 @@
         "tr": "dagger-nedir-konteyner-tabanli-ci-cd",
         "en": "what-is-dagger-container-based-ci-cd"
       },
-      "keywords": ["dagger.io", "CI as code", "portable pipelines", "run CI locally", "containerized pipelines"],
+      "keywords": [
+        "dagger.io",
+        "CI as code",
+        "portable pipelines",
+        "run CI locally",
+        "containerized pipelines"
+      ],
       "angle": "Explain how Dagger lets teams write CI/CD pipelines as real code (Go/Python/TypeScript SDKs) that run identically on a laptop and inside any CI runner, by executing every step in containers.",
       "style": "technical explainer",
-      "keyClaimsToVerify": ["Current Dagger version and SDK language support as of Oct 2026", "Which CI providers/runners it's commonly paired with"],
-      "suggestedSources": ["dagger.io official docs"]
+      "keyClaimsToVerify": [
+        "Current Dagger version and SDK language support as of Oct 2026",
+        "Which CI providers/runners it's commonly paired with"
+      ],
+      "suggestedSources": [
+        "dagger.io official docs"
+      ]
     },
     {
       "translationKey": "tc39-signals-proposal-2026",
@@ -49,11 +69,23 @@
         "tr": "tc39-signals-teklifi-javascript-reaktivite",
         "en": "tc39-signals-proposal-native-js-reactivity"
       },
-      "keywords": ["signals", "reactivity", "Preact Signals", "SolidJS", "Vue reactivity", "TC39 stage"],
+      "keywords": [
+        "signals",
+        "reactivity",
+        "Preact Signals",
+        "SolidJS",
+        "Vue reactivity",
+        "TC39 stage"
+      ],
       "angle": "What signals are, why framework authors across React/Vue/Svelte/Preact/Solid co-authored a shared proposal, and what landing it in the language would mean for cross-framework interop.",
       "style": "technical explainer",
-      "keyClaimsToVerify": ["Current TC39 stage of proposal-signals as of Oct 2026", "Which framework authors are listed as co-champions"],
-      "suggestedSources": ["TC39 proposal-signals GitHub repository"]
+      "keyClaimsToVerify": [
+        "Current TC39 stage of proposal-signals as of Oct 2026",
+        "Which framework authors are listed as co-champions"
+      ],
+      "suggestedSources": [
+        "TC39 proposal-signals GitHub repository"
+      ]
     },
     {
       "translationKey": "speculation-rules-api-2026",
@@ -66,11 +98,22 @@
         "tr": "speculation-rules-api-tarayici-onceden-yukleme",
         "en": "speculation-rules-api-browser-prefetching"
       },
-      "keywords": ["speculation rules", "prerender", "prefetch", "Chrome", "instant navigation"],
+      "keywords": [
+        "speculation rules",
+        "prerender",
+        "prefetch",
+        "Chrome",
+        "instant navigation"
+      ],
       "angle": "The modern, JSON-rule-based replacement for <link rel=prefetch/prerender>: how sites declare rules to prefetch or fully prerender pages for near-instant navigation, and current cross-browser support.",
       "style": "technical explainer",
-      "keyClaimsToVerify": ["Current browser support matrix (Chrome/Edge vs Firefox/Safari) as of Oct 2026"],
-      "suggestedSources": ["web.dev speculation rules documentation", "Chrome for Developers blog"]
+      "keyClaimsToVerify": [
+        "Current browser support matrix (Chrome/Edge vs Firefox/Safari) as of Oct 2026"
+      ],
+      "suggestedSources": [
+        "web.dev speculation rules documentation",
+        "Chrome for Developers blog"
+      ]
     },
     {
       "translationKey": "risc-v-laptops-2026",
@@ -83,11 +126,20 @@
         "tr": "risc-v-dizustuler-2026-gercek-mi",
         "en": "risc-v-laptops-2026-real-or-hype"
       },
-      "keywords": ["RISC-V", "laptop", "open ISA", "ARM alternative"],
+      "keywords": [
+        "RISC-V",
+        "laptop",
+        "open ISA",
+        "ARM alternative"
+      ],
       "angle": "Status check on consumer RISC-V laptop availability and software/ecosystem maturity (Linux distro support, app compatibility) versus ARM and x86, and who they're realistically for today.",
       "style": "news/analysis",
-      "keyClaimsToVerify": ["Needs a full fresh search at write time — no verified facts gathered yet, including whether any mainstream RISC-V laptop has shipped"],
-      "suggestedSources": ["TO BE RESEARCHED AT WRITE TIME"]
+      "keyClaimsToVerify": [
+        "Needs a full fresh search at write time — no verified facts gathered yet, including whether any mainstream RISC-V laptop has shipped"
+      ],
+      "suggestedSources": [
+        "TO BE RESEARCHED AT WRITE TIME"
+      ]
     },
     {
       "translationKey": "vertical-saas-ai-margins-2026",
@@ -100,11 +152,21 @@
         "tr": "dikey-saas-ai-marjlari-neden-dusuyor",
         "en": "why-ai-margins-shrink-vertical-saas"
       },
-      "keywords": ["vertical SaaS", "AI inference cost", "gross margin", "LLM API costs", "usage-based pricing"],
+      "keywords": [
+        "vertical SaaS",
+        "AI inference cost",
+        "gross margin",
+        "LLM API costs",
+        "usage-based pricing"
+      ],
       "angle": "Why bundling per-seat LLM calls into vertical SaaS pricing compresses gross margin versus classic SaaS, and how companies are responding (usage-based pricing, smaller/cheaper models, caching).",
       "style": "analysis",
-      "keyClaimsToVerify": ["Needs fresh data at write time — specific margin/cost figures change fast; find a concrete recent case study or report"],
-      "suggestedSources": ["TO BE RESEARCHED AT WRITE TIME"]
+      "keyClaimsToVerify": [
+        "Needs fresh data at write time — specific margin/cost figures change fast; find a concrete recent case study or report"
+      ],
+      "suggestedSources": [
+        "TO BE RESEARCHED AT WRITE TIME"
+      ]
     },
     {
       "translationKey": "linkedin-algorithm-changes-2026",
@@ -117,11 +179,691 @@
         "tr": "linkedin-algoritmasi-2026-ne-degisti",
         "en": "linkedin-algorithm-changes-2026"
       },
-      "keywords": ["LinkedIn algorithm", "dwell time", "creator mode", "carousel posts", "reach"],
+      "keywords": [
+        "LinkedIn algorithm",
+        "dwell time",
+        "creator mode",
+        "carousel posts",
+        "reach"
+      ],
       "angle": "Summarize LinkedIn's confirmed/believed current ranking signals, which content formats currently get disproportionate reach, and practical advice for creators and company pages.",
       "style": "practical guide",
-      "keyClaimsToVerify": ["Needs fresh search at write time for any 2026-specific LinkedIn algorithm statements or creator reports"],
-      "suggestedSources": ["TO BE RESEARCHED AT WRITE TIME"]
+      "keyClaimsToVerify": [
+        "Needs fresh search at write time for any 2026-specific LinkedIn algorithm statements or creator reports"
+      ],
+      "suggestedSources": [
+        "TO BE RESEARCHED AT WRITE TIME"
+      ]
+    },
+    {
+      "translationKey": "chatgpt-parallel-agents-2026",
+      "category": "ai",
+      "titles": {
+        "tr": "ChatGPT Paralel Ajanlar: Aynı Anda Çoklu Görev",
+        "en": "What Are ChatGPT's Parallel Agents?"
+      },
+      "slugs": {
+        "tr": "chatgpt-paralel-ajanlar-coklu-gorev",
+        "en": "chatgpt-parallel-agents-explained"
+      },
+      "keywords": [
+        "ChatGPT parallel agents",
+        "GPT-6 Pro",
+        "agentic workflows",
+        "multi-agent",
+        "Pro plan"
+      ],
+      "angle": "deep-dive — Explain what GPT-6 Pro's parallel agents do (fan a task out into subtasks that run concurrently), when they beat a single chat thread vs. when they waste tokens, the plan/limit picture, and a concrete research-then-draft workflow. Outline: what changed Oct 2026; how parallelism maps to real tasks; cost/latency tradeoffs; a worked example; limits.",
+      "style": "question-driven",
+      "keyClaimsToVerify": [
+        "GPT-6 Pro parallel agents rolled out mid-Oct 2026 and the plans/limits they are available on",
+        "Whether parallel agents are distinct from the Agents/Codex harness"
+      ],
+      "suggestedSources": [
+        "OpenAI release notes (help.openai.com / openai.com/products/release-notes)"
+      ]
+    },
+    {
+      "translationKey": "codex-next-message-predictions-2026",
+      "category": "ai",
+      "titles": {
+        "tr": "Codex Sonraki Mesaj Tahmini İşe Yarıyor mu?",
+        "en": "Do Codex's Next-Message Predictions Help?"
+      },
+      "slugs": {
+        "tr": "codex-sonraki-mesaj-tahmini",
+        "en": "codex-next-message-predictions"
+      },
+      "keywords": [
+        "Codex",
+        "composer predictions",
+        "next message",
+        "OpenAI",
+        "pair programming"
+      ],
+      "angle": "field-notes — A hands-on read on Codex's beta composer predictions that suggest your next message. Outline: what the feature does and who gets it; moments it saves typing vs. moments it breaks flow; accept/dismiss ergonomics; how to turn it off; verdict for solo vs. team dev.",
+      "style": "field-notes",
+      "keyClaimsToVerify": [
+        "Codex composer/next-message predictions entered beta ~Oct 9 2026 for personal Pro users",
+        "Current availability and how to disable it"
+      ],
+      "suggestedSources": [
+        "OpenAI release notes"
+      ]
+    },
+    {
+      "translationKey": "reliable-json-from-llms-2026",
+      "category": "ai",
+      "titles": {
+        "tr": "LLM'den Güvenilir JSON Nasıl Alınır?",
+        "en": "Why Your LLM's JSON Keeps Breaking"
+      },
+      "slugs": {
+        "tr": "llm-guvenilir-json-nasil-alinir",
+        "en": "reliable-json-from-llms"
+      },
+      "keywords": [
+        "structured outputs",
+        "JSON mode",
+        "function calling",
+        "response schema",
+        "Claude",
+        "GPT",
+        "Gemini"
+      ],
+      "angle": "mistakes — Why free-form 'return JSON' prompts fail (truncation, prose wrappers, invalid escapes, hallucinated fields) and the reliable paths per provider: Claude tool use, OpenAI structured outputs, Gemini response schema. Outline: the failure modes; strict-schema vs. prompt-only; validation + bounded retries; streaming partial JSON; when to just not use an LLM.",
+      "style": "contrarian",
+      "keyClaimsToVerify": [
+        "Current structured-output mechanism names for Claude, OpenAI, and Gemini",
+        "Whether strict schema modes guarantee syntactically valid JSON"
+      ],
+      "suggestedSources": [
+        "Anthropic tool use docs",
+        "OpenAI structured outputs docs"
+      ]
+    },
+    {
+      "translationKey": "semantic-caching-ai-apps-2026",
+      "category": "ai",
+      "titles": {
+        "tr": "Anlamsal Önbellek: AI Uygulama Maliyetini Düşür",
+        "en": "Semantic Caching: Cut AI App Costs"
+      },
+      "slugs": {
+        "tr": "anlamsal-onbellek-ai-maliyet",
+        "en": "semantic-caching-ai-apps"
+      },
+      "keywords": [
+        "semantic cache",
+        "vector similarity",
+        "LLM cost",
+        "embeddings",
+        "cache hit rate"
+      ],
+      "angle": "how-to — What semantic (embedding-similarity) caching is and how it differs from exact-match caching and provider-side prompt caching. Outline: the mechanism (embed query, match by similarity threshold, serve stored answer); where it saves real money; the staleness and false-hit risks; tuning thresholds; when not to use it.",
+      "style": "data-led",
+      "keyClaimsToVerify": [
+        "Typical hit-rate and cost-saving ranges reported for semantic caching",
+        "Current state of libraries like GPTCache / vendor semantic caches"
+      ],
+      "suggestedSources": [
+        "GPTCache documentation",
+        "Vendor benchmarks (verify at write time)"
+      ]
+    },
+    {
+      "translationKey": "web-platform-baseline-guide-2026",
+      "category": "web-development",
+      "titles": {
+        "tr": "Tarayıcı Desteğini Tahmin Etmeyi Bırakın: Baseline",
+        "en": "Stop Guessing Browser Support: Baseline"
+      },
+      "slugs": {
+        "tr": "baseline-tarayici-destegi-rehberi",
+        "en": "web-platform-baseline-guide"
+      },
+      "keywords": [
+        "Web Platform Baseline",
+        "Baseline 2026",
+        "browser support",
+        "caniuse",
+        "interop"
+      ],
+      "angle": "guide — How Web Platform Baseline replaces eyeballing caniuse tables. Outline: Newly vs. Widely available (and the 30-month rule); reading Baseline badges on MDN/web.dev; wiring Baseline into linting (eslint-plugin-baseline) and docs; deciding when a feature is safe to ship without polyfills.",
+      "style": "story-led",
+      "keyClaimsToVerify": [
+        "Current Baseline definitions (Newly vs. Widely = ~30 months after cross-browser support)",
+        "Tooling that consumes Baseline data (webstatus.dev, ESLint plugin)"
+      ],
+      "suggestedSources": [
+        "web.dev/baseline",
+        "webstatus.dev"
+      ]
+    },
+    {
+      "translationKey": "prompt-caching-llm-cost-2026",
+      "category": "software-engineering",
+      "titles": {
+        "tr": "Prompt Önbellekleme LLM Faturanı Nasıl Düşürür?",
+        "en": "How Prompt Caching Cuts Your LLM Bill"
+      },
+      "slugs": {
+        "tr": "prompt-onbellekleme-llm-maliyet",
+        "en": "prompt-caching-cuts-llm-bill"
+      },
+      "keywords": [
+        "prompt caching",
+        "cache read",
+        "Claude",
+        "OpenAI",
+        "Gemini",
+        "context reuse"
+      ],
+      "angle": "how-to — How prompt caching works across Claude, OpenAI, and Gemini: cache writes vs. reads, TTLs, and pricing. Outline: structure prompts with a stable prefix first to maximize hits; what is cacheable; measuring hit rate and savings; Claude's 2026 cache-read price cut; pitfalls (cache invalidation, ordering).",
+      "style": "data-led",
+      "keyClaimsToVerify": [
+        "Each provider's cache pricing and TTL as of Oct 2026",
+        "Claude Sonnet 5.5 cache-read price reduction details"
+      ],
+      "suggestedSources": [
+        "Anthropic prompt caching docs",
+        "OpenAI and Gemini context-caching docs"
+      ]
+    },
+    {
+      "translationKey": "claude-code-fork-subagents-2026",
+      "category": "software-engineering",
+      "titles": {
+        "tr": "Claude Code Fork Alt-Ajanları Nedir?",
+        "en": "Claude Code Fork Subagents, Explained"
+      },
+      "slugs": {
+        "tr": "claude-code-fork-alt-ajanlari",
+        "en": "claude-code-fork-subagents"
+      },
+      "keywords": [
+        "Claude Code",
+        "fork subagents",
+        "parallel agents",
+        "context inheritance",
+        "CLAUDE_CODE_FORK_SUBAGENT"
+      ],
+      "angle": "how-to — What fork subagents are (a subagent that inherits the parent conversation's context instead of starting fresh) and why they became the default in Claude Code 2.1.302. Outline: fork vs. fresh agent; when inherited context helps vs. bloats; running work in parallel; disabling with CLAUDE_CODE_FORK_SUBAGENT=0; practical patterns.",
+      "style": "field-notes",
+      "keyClaimsToVerify": [
+        "Fork subagents became default in Claude Code 2.1.302 (Oct 16 2026)",
+        "The env var to disable them (CLAUDE_CODE_FORK_SUBAGENT=0)"
+      ],
+      "suggestedSources": [
+        "code.claude.com/docs/en/changelog"
+      ]
+    },
+    {
+      "translationKey": "trunk-based-development-2026",
+      "category": "software-engineering",
+      "titles": {
+        "tr": "Trunk-Based Development mi GitFlow mu? (2026)",
+        "en": "Trunk-Based Development vs GitFlow in 2026"
+      },
+      "slugs": {
+        "tr": "trunk-based-development-mi-gitflow-mu",
+        "en": "trunk-based-development-vs-gitflow"
+      },
+      "keywords": [
+        "trunk-based development",
+        "GitFlow",
+        "short-lived branches",
+        "feature flags",
+        "continuous integration"
+      ],
+      "angle": "comparison — Contrast long-lived GitFlow branches with trunk-based development (short-lived branches, feature flags, frequent integration). Outline: how each flows; why DORA-style research links trunk-based to higher delivery performance; the role of flags and CI; where GitFlow still fits (versioned/release-shipped software); a migration path.",
+      "style": "contrarian",
+      "keyClaimsToVerify": [
+        "DORA/Accelerate findings linking trunk-based development to performance",
+        "Accurate definitions of both branching models"
+      ],
+      "suggestedSources": [
+        "DORA / Accelerate research",
+        "trunkbaseddevelopment.com"
+      ]
+    },
+    {
+      "translationKey": "serverless-cold-starts-2026",
+      "category": "devops-cloud",
+      "titles": {
+        "tr": "Sunucusuz Soğuk Başlangıçları Nasıl Azaltırsınız?",
+        "en": "How Do You Kill Serverless Cold Starts?"
+      },
+      "slugs": {
+        "tr": "sunucusuz-soguk-baslangic-azaltma",
+        "en": "kill-serverless-cold-starts"
+      },
+      "keywords": [
+        "serverless",
+        "cold start",
+        "AWS Lambda",
+        "provisioned concurrency",
+        "SnapStart",
+        "bundle size"
+      ],
+      "angle": "how-to — What actually causes cold starts and the levers that shrink them. Outline: anatomy of a cold start; provisioned concurrency and its cost; SnapStart and supported runtimes; smaller bundles and lighter runtimes; keep-warm tradeoffs; and deciding when cold starts even matter for your traffic.",
+      "style": "question-driven",
+      "keyClaimsToVerify": [
+        "Current AWS SnapStart language/runtime support",
+        "Representative cold-start durations by runtime"
+      ],
+      "suggestedSources": [
+        "AWS Lambda documentation",
+        "Independent cold-start benchmarks"
+      ]
+    },
+    {
+      "translationKey": "kubernetes-operators-explained-2026",
+      "category": "devops-cloud",
+      "titles": {
+        "tr": "Kubernetes Operatörleri: Ne Zaman Yazmalı?",
+        "en": "Kubernetes Operators: When to Build One"
+      },
+      "slugs": {
+        "tr": "kubernetes-operatorleri-ne-zaman-yazmali",
+        "en": "kubernetes-operators-when-to-build"
+      },
+      "keywords": [
+        "Kubernetes operator",
+        "CRD",
+        "controller",
+        "reconcile loop",
+        "Operator SDK"
+      ],
+      "angle": "deep-dive — Explain the operator pattern (CRD + controller + reconcile loop) and the problem it solves beyond a Helm chart. Outline: what an operator encodes (day-2 ops as code); build vs. adopt an existing operator; the maintenance cost of owning one; signs you actually need one; starter tooling (Kubebuilder, Operator SDK).",
+      "style": "question-driven",
+      "keyClaimsToVerify": [
+        "Accurate description of the operator/reconcile pattern",
+        "Current state of Kubebuilder and Operator SDK"
+      ],
+      "suggestedSources": [
+        "kubernetes.io documentation",
+        "operatorframework.io"
+      ]
+    },
+    {
+      "translationKey": "ai-meeting-notes-action-items-2026",
+      "category": "career-productivity",
+      "titles": {
+        "tr": "Toplantıyı Eyleme Dönüştür: ChatGPT ve Gemini",
+        "en": "Turn Meetings Into Action Items With AI"
+      },
+      "slugs": {
+        "tr": "toplantiyi-eyleme-donustur-ai",
+        "en": "meetings-into-action-items-with-ai"
+      },
+      "keywords": [
+        "AI meeting notes",
+        "ChatGPT",
+        "Gemini",
+        "action items",
+        "transcription",
+        "follow-up"
+      ],
+      "angle": "how-to — A repeatable workflow to turn a recording or transcript into decisions, owners, and dated action items using ChatGPT audio uploads and Gemini's note tools. Outline: capture options; a prompt template that forces owner+due date; separating decisions from discussion; syncing to a task list; privacy and consent cautions.",
+      "style": "field-notes",
+      "keyClaimsToVerify": [
+        "ChatGPT audio-upload availability and limits by plan",
+        "Gemini note-taking/summary capabilities as of Oct 2026"
+      ],
+      "suggestedSources": [
+        "OpenAI release notes",
+        "Google Workspace / Gemini docs"
+      ]
+    },
+    {
+      "translationKey": "brag-document-before-review-2026",
+      "category": "career-productivity",
+      "titles": {
+        "tr": "Değerlendirme Öncesi Başarı Günlüğü Tutun",
+        "en": "Write a Brag Document Before Your Review"
+      },
+      "slugs": {
+        "tr": "degerlendirme-oncesi-basari-gunlugu",
+        "en": "write-a-brag-document-before-review"
+      },
+      "keywords": [
+        "brag document",
+        "performance review",
+        "promotion",
+        "self-advocacy",
+        "impact log"
+      ],
+      "angle": "how-to — Why a running 'brag document' beats scrambling to remember your wins at review time. Outline: what to log (impact, scope, collaboration, metrics, not just tasks); a lightweight monthly cadence; turning it into a promotion case and a resume; using it in 1:1s. Based on Julia Evans' widely shared framing.",
+      "style": "story-led",
+      "keyClaimsToVerify": [
+        "Julia Evans brag-document framing and structure",
+        "Common performance-review cycles this maps to"
+      ],
+      "suggestedSources": [
+        "Julia Evans, 'Get your work recognized: write a brag document'"
+      ]
+    },
+    {
+      "translationKey": "async-communication-that-works-2026",
+      "category": "career-productivity",
+      "titles": {
+        "tr": "İşe Yarayan Asenkron İletişim Nasıl Kurulur?",
+        "en": "Async Communication That Actually Works"
+      },
+      "slugs": {
+        "tr": "ise-yarayan-asenkron-iletisim",
+        "en": "async-communication-that-works"
+      },
+      "keywords": [
+        "async communication",
+        "remote work",
+        "written culture",
+        "status updates",
+        "meeting reduction"
+      ],
+      "angle": "checklist — The habits that make asynchronous work actually work. Outline: default to writing; decision logs so decisions are findable; explicit reply SLAs; replacing standups with written updates; recording context once; the failure modes (endless threads, hidden decisions, timezone resentment) and how to avoid them.",
+      "style": "field-notes",
+      "keyClaimsToVerify": [
+        "Documented async practices at remote-first companies (GitLab, Automattic)",
+        "Research on meeting load and context switching"
+      ],
+      "suggestedSources": [
+        "GitLab handbook (async communication)",
+        "Verify supporting stats at write time"
+      ]
+    },
+    {
+      "translationKey": "gemini-omni-flash-video-extension-2026",
+      "category": "social-media",
+      "titles": {
+        "tr": "Gemini Omni Flash ile Videonuzu Uzatın",
+        "en": "Extend Your Clips With Gemini Omni Flash"
+      },
+      "slugs": {
+        "tr": "gemini-omni-flash-video-uzatma",
+        "en": "extend-clips-gemini-omni-flash"
+      },
+      "keywords": [
+        "Gemini Omni Flash",
+        "video extension",
+        "generative video",
+        "Reels",
+        "Shorts",
+        "content creation"
+      ],
+      "angle": "how-to — What Gemini Omni Flash's video-extension feature does (generate a continuation at the end of an existing clip) and how a creator uses it for Reels/Shorts. Outline: the feature and its limits; a practical clip-extension workflow; prompt tips for matching style/motion; output caveats; AI-content disclosure and labeling duties.",
+      "style": "story-led",
+      "keyClaimsToVerify": [
+        "Gemini Omni Flash reached GA and added video extension (~Oct 2026)",
+        "Output length/quality limits and any watermark/labeling requirements"
+      ],
+      "suggestedSources": [
+        "blog.google/products/gemini",
+        "Google AI / Gemini API docs"
+      ]
+    },
+    {
+      "translationKey": "stop-the-scroll-first-lines-2026",
+      "category": "social-media",
+      "titles": {
+        "tr": "Akışı Durduran İlk Satırlar Nasıl Yazılır?",
+        "en": "Writing First Lines That Stop the Scroll"
+      },
+      "slugs": {
+        "tr": "akisi-durduran-ilk-satirlar",
+        "en": "first-lines-that-stop-the-scroll"
+      },
+      "keywords": [
+        "hooks",
+        "first line",
+        "scroll stopper",
+        "engagement",
+        "copywriting",
+        "retention"
+      ],
+      "angle": "how-to — Formulas for the first line or frame that earns a stop. Outline: why the opener decides reach; patterns that work (specificity, tension, a number, a pattern-break, an open loop); platform differences (LinkedIn truncation vs. Reels first frame vs. X); writing 10 openers and testing which earns dwell time.",
+      "style": "data-led",
+      "keyClaimsToVerify": [
+        "Effect of the first seconds/line on dwell time and reach",
+        "Preview-truncation lengths per platform"
+      ],
+      "suggestedSources": [
+        "Platform creator documentation",
+        "Verify engagement stats at write time"
+      ]
+    },
+    {
+      "translationKey": "posting-cadence-how-often-2026",
+      "category": "social-media",
+      "titles": {
+        "tr": "2026'da Ne Sıklıkla Paylaşım Yapmalısınız?",
+        "en": "How Often Should You Post in 2026?"
+      },
+      "slugs": {
+        "tr": "ne-siklikla-paylasim-2026",
+        "en": "how-often-should-you-post-2026"
+      },
+      "keywords": [
+        "posting frequency",
+        "cadence",
+        "consistency",
+        "algorithm",
+        "content batching"
+      ],
+      "angle": "comparison — What current platform guidance and creator data suggest for frequency on each major platform, and why consistency beats raw volume. Outline: per-platform frequency ranges; the quality-vs-quantity tradeoff; a sustainable batching system; signs you're posting too much; matching cadence to your capacity.",
+      "style": "question-driven",
+      "keyClaimsToVerify": [
+        "Platform-stated or research-backed frequency guidance for 2026",
+        "Engagement-vs-frequency relationship"
+      ],
+      "suggestedSources": [
+        "Hootsuite / Sprout Social trend reports",
+        "Platform help docs (verify)"
+      ]
+    },
+    {
+      "translationKey": "chatgpt-slides-build-decks-2026",
+      "category": "digital-marketing",
+      "titles": {
+        "tr": "ChatGPT Slides ile Hızlı Sunum Hazırlama",
+        "en": "Build Decks Fast With ChatGPT Slides"
+      },
+      "slugs": {
+        "tr": "chatgpt-slides-ile-sunum-hazirlama",
+        "en": "build-decks-fast-chatgpt-slides"
+      },
+      "keywords": [
+        "ChatGPT Slides",
+        "presentations",
+        "pitch deck",
+        "marketing deck",
+        "AI design"
+      ],
+      "angle": "how-to — Using ChatGPT Slides (launched Oct 2026) to go from a rough outline to a presentable marketing or pitch deck. Outline: structuring the prompt (audience, narrative arc, slide count); keeping brand consistency; editing generated slides; exporting; and where a human still has to take over (data accuracy, design polish).",
+      "style": "field-notes",
+      "keyClaimsToVerify": [
+        "ChatGPT Slides launched ~Oct 16 2026 and availability by plan",
+        "Export formats supported"
+      ],
+      "suggestedSources": [
+        "OpenAI release notes"
+      ]
+    },
+    {
+      "translationKey": "topic-clusters-pillar-pages-2026",
+      "category": "digital-marketing",
+      "titles": {
+        "tr": "Konu Kümeleri ve Sütun Sayfaları ile SEO",
+        "en": "Topic Clusters and Pillar Pages for SEO"
+      },
+      "slugs": {
+        "tr": "konu-kumeleri-ve-sutun-sayfalari",
+        "en": "topic-clusters-and-pillar-pages"
+      },
+      "keywords": [
+        "topic clusters",
+        "pillar page",
+        "internal linking",
+        "content hubs",
+        "topical authority"
+      ],
+      "angle": "how-to — Build a pillar-and-cluster structure that signals topical authority to both Google and AI answer engines. Outline: pick the pillar topic; map the cluster of supporting articles; internal-linking rules (cluster->pillar and back); avoiding keyword cannibalization; measuring whether the hub lifts the whole cluster.",
+      "style": "story-led",
+      "keyClaimsToVerify": [
+        "Topical-authority / topic-cluster model definition",
+        "How clustering + internal linking is understood to help in the AI-search era"
+      ],
+      "suggestedSources": [
+        "HubSpot topic-cluster model",
+        "Verify current SEO guidance at write time"
+      ]
+    },
+    {
+      "translationKey": "cold-email-deliverability-2026",
+      "category": "digital-marketing",
+      "titles": {
+        "tr": "Soğuk E-postanız Neden Spam'e Düşüyor?",
+        "en": "Why Your Cold Email Hits Spam (and Fixes)"
+      },
+      "slugs": {
+        "tr": "soguk-eposta-neden-spam",
+        "en": "why-cold-email-hits-spam"
+      },
+      "keywords": [
+        "cold email",
+        "deliverability",
+        "SPF DKIM DMARC",
+        "spam filters",
+        "domain warmup"
+      ],
+      "angle": "mistakes — The technical and behavioral reasons cold email lands in spam, and a fix checklist. Outline: authentication (SPF, DKIM, DMARC) and the 2024 Gmail/Yahoo bulk-sender rules; domain and inbox warmup; list hygiene and consent; copy triggers; sending volume ramps; measuring deliverability vs. open rate.",
+      "style": "contrarian",
+      "keyClaimsToVerify": [
+        "Gmail/Yahoo 2024 bulk-sender requirements (SPF+DKIM+DMARC, one-click unsubscribe, spam-rate threshold) still in force",
+        "Whether DMARC is now effectively mandatory"
+      ],
+      "suggestedSources": [
+        "Google bulk sender guidelines",
+        "Yahoo sender requirements"
+      ]
+    },
+    {
+      "translationKey": "wifi-7-worth-upgrading-2026",
+      "category": "technology",
+      "titles": {
+        "tr": "Wi-Fi 7'ye Geçmeye Değer mi? (2026)",
+        "en": "Wi-Fi 7 vs 6E: Worth Upgrading in 2026?"
+      },
+      "slugs": {
+        "tr": "wifi-7-gecmeye-deger-mi-2026",
+        "en": "wifi-7-vs-6e-worth-upgrading"
+      },
+      "keywords": [
+        "Wi-Fi 7",
+        "802.11be",
+        "Wi-Fi 6E",
+        "MLO",
+        "320MHz",
+        "multi-link operation"
+      ],
+      "angle": "comparison — What Wi-Fi 7 (802.11be) actually adds over 6E and who benefits in 2026. Outline: the headline features (Multi-Link Operation, 320 MHz channels, 4K-QAM); real-world throughput vs. marketing numbers; device and ISP realities; whether to upgrade router + clients together or wait; home-mesh considerations.",
+      "style": "question-driven",
+      "keyClaimsToVerify": [
+        "Wi-Fi 7 feature set and certification status",
+        "Client-device availability and realistic throughput in 2026"
+      ],
+      "suggestedSources": [
+        "Wi-Fi Alliance",
+        "Independent networking reviews (verify)"
+      ]
+    },
+    {
+      "translationKey": "build-a-homelab-2026",
+      "category": "technology",
+      "titles": {
+        "tr": "2026'da Kendi Ev Sunucunuzu Kurun",
+        "en": "Build Your Own Home Server in 2026"
+      },
+      "slugs": {
+        "tr": "2026-ev-sunucusu-kurmak",
+        "en": "build-your-own-home-server-2026"
+      },
+      "keywords": [
+        "homelab",
+        "home server",
+        "self-hosting",
+        "mini PC",
+        "NAS",
+        "Docker"
+      ],
+      "angle": "guide — Why people run a homelab in 2026 (self-hosted media, backups, ad-blocking, local AI) and how to start without overbuilding. Outline: pick a base (mini PC or NAS); the OS/containers layer (Docker/compose); a starter service set; backups and remote access safely; and the honest power, noise, and maintenance reality.",
+      "style": "story-led",
+      "keyClaimsToVerify": [
+        "Popular self-hosted stacks and starter hardware in 2026",
+        "Typical idle power draw of mini-PC/NAS setups"
+      ],
+      "suggestedSources": [
+        "r/selfhosted",
+        "awesome-selfhosted (verify current picks)"
+      ]
+    },
+    {
+      "translationKey": "annual-vs-monthly-plans-2026",
+      "category": "business",
+      "titles": {
+        "tr": "Yıllık mı Aylık mı? Hangi Planı Öne Çıkarmalı?",
+        "en": "Annual vs Monthly: Which Plan to Push?"
+      },
+      "slugs": {
+        "tr": "yillik-mi-aylik-mi-plan",
+        "en": "annual-vs-monthly-which-plan"
+      },
+      "keywords": [
+        "annual billing",
+        "monthly plans",
+        "SaaS pricing",
+        "churn",
+        "cash flow",
+        "CAC payback"
+      ],
+      "angle": "comparison — The real tradeoffs between pushing annual vs. monthly plans. Outline: annual = upfront cash, lower churn, but higher CAC payback and refund risk; monthly = easier yes, higher churn; how to size the annual discount; defaulting the right one by company stage; the UX of offering both without confusing buyers.",
+      "style": "data-led",
+      "keyClaimsToVerify": [
+        "Typical annual-discount ranges",
+        "Observed churn differences between annual and monthly cohorts"
+      ],
+      "suggestedSources": [
+        "SaaS benchmark reports (ProfitWell/Paddle, ChartMogul) — verify"
+      ]
+    },
+    {
+      "translationKey": "mom-test-customer-interviews-2026",
+      "category": "business",
+      "titles": {
+        "tr": "Anne Testi: Yanıltmayan Müşteri Görüşmeleri",
+        "en": "The Mom Test: Better Customer Interviews"
+      },
+      "slugs": {
+        "tr": "anne-testi-musteri-gorusmeleri",
+        "en": "the-mom-test-customer-interviews"
+      },
+      "keywords": [
+        "The Mom Test",
+        "customer interviews",
+        "validation",
+        "product discovery",
+        "Rob Fitzpatrick"
+      ],
+      "angle": "guide — Why asking 'would you buy this?' produces false positives, and the Mom Test rules that fix it. Outline: talk about their life and past behavior, not your idea; ask about real problems and what they already spend time/money on; avoid compliments and hypotheticals; question templates; red flags; turning answers into decisions.",
+      "style": "contrarian",
+      "keyClaimsToVerify": [
+        "Rob Fitzpatrick's core Mom Test principles are represented accurately",
+        "Common interview mistakes the book names"
+      ],
+      "suggestedSources": [
+        "'The Mom Test' by Rob Fitzpatrick"
+      ]
     }
   ]
 }
