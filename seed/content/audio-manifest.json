@@ -4726,5 +4726,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3042786,
     "generatedAt": "2026-10-18T06:35:29.179Z"
+  },
+  "en/chatgpt-parallel-agents-explained": {
+    "hash": "4e9109ff39033273",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-parallel-agents-explained.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3058669,
+    "generatedAt": "2026-10-19T06:32:25.626Z"
+  },
+  "en/claude-fast-mode-opus-5-5-ga": {
+    "hash": "4baa8d8cc98b0635",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-fast-mode-opus-5-5-ga.mp3",
+    "seconds": 467,
+    "voice": "en_US-ryan-high",
+    "bytes": 3738061,
+    "generatedAt": "2026-10-19T06:34:18.288Z"
+  },
+  "en/linkedin-algorithm-changes-2026": {
+    "hash": "273fa7660e695453",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-linkedin-algorithm-changes-2026.mp3",
+    "seconds": 386,
+    "voice": "en_US-ryan-high",
+    "bytes": 3084582,
+    "generatedAt": "2026-10-19T06:35:53.850Z"
+  },
+  "en/risc-v-laptops-2026-real-or-hype": {
+    "hash": "c500e31f645f5543",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-risc-v-laptops-2026-real-or-hype.mp3",
+    "seconds": 426,
+    "voice": "en_US-ryan-high",
+    "bytes": 3406411,
+    "generatedAt": "2026-10-19T06:37:37.164Z"
+  },
+  "en/why-ai-margins-shrink-vertical-saas": {
+    "hash": "fb922c51d3e1961d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-margins-shrink-vertical-saas.mp3",
+    "seconds": 422,
+    "voice": "en_US-ryan-high",
+    "bytes": 3378826,
+    "generatedAt": "2026-10-19T06:39:19.955Z"
   }
 }
