@@ -7188,6 +7188,66 @@
         "slug": "speculation-rules-api-browser-prefetching",
         "title": "The Speculation Rules API: How Browsers Prefetch Pages"
       }
+    },
+    {
+      "translationKey": "claude-fast-mode-ga-opus-5-5-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-fast-mode-opus-5-5-genel-kullanimda",
+        "title": "Claude Fast Mode Nedir? Opus 5.5'te Artık Herkese Açık"
+      },
+      "en": {
+        "slug": "claude-fast-mode-opus-5-5-ga",
+        "title": "What Is Claude's Fast Mode? Now GA for Opus 5.5"
+      }
+    },
+    {
+      "translationKey": "risc-v-laptops-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "risc-v-dizustuler-2026-gercek-mi",
+        "title": "RISC-V Dizüstüler 2026: Gerçek mi, Abartı mı?"
+      },
+      "en": {
+        "slug": "risc-v-laptops-2026-real-or-hype",
+        "title": "RISC-V Laptops in 2026: Real or Still Hype?"
+      }
+    },
+    {
+      "translationKey": "vertical-saas-ai-margins-2026",
+      "category": "business",
+      "tr": {
+        "slug": "dikey-saas-ai-marjlari-neden-dusuyor",
+        "title": "Dikey SaaS'ta AI Marjları Neden Düşüyor?"
+      },
+      "en": {
+        "slug": "why-ai-margins-shrink-vertical-saas",
+        "title": "Why Are AI Margins Shrinking in Vertical SaaS?"
+      }
+    },
+    {
+      "translationKey": "linkedin-algorithm-changes-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "linkedin-algoritmasi-2026-ne-degisti",
+        "title": "LinkedIn Algoritması 2026'da Ne Değişti?"
+      },
+      "en": {
+        "slug": "linkedin-algorithm-changes-2026",
+        "title": "What Changed in LinkedIn's Algorithm in 2026?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-parallel-agents-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-paralel-ajanlar-coklu-gorev",
+        "title": "ChatGPT Paralel Ajanlar: Aynı Anda Çoklu Görev"
+      },
+      "en": {
+        "slug": "chatgpt-parallel-agents-explained",
+        "title": "What Are ChatGPT's Parallel Agents?"
+      }
     }
   ]
 }
