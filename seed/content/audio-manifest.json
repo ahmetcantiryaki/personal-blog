@@ -4766,5 +4766,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3378826,
     "generatedAt": "2026-10-19T06:39:19.955Z"
+  },
+  "en/claude-code-fork-subagents-now-default": {
+    "hash": "e50370108c5088fa",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-fork-subagents-now-default.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3442146,
+    "generatedAt": "2026-10-20T06:26:45.275Z"
+  },
+  "en/codex-next-message-predictions": {
+    "hash": "4022d892d380d962",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-codex-next-message-predictions.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3337448,
+    "generatedAt": "2026-10-20T06:28:57.210Z"
+  },
+  "en/prompt-caching-cuts-llm-bill": {
+    "hash": "70c52bf99bc4dc25",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-prompt-caching-cuts-llm-bill.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3679756,
+    "generatedAt": "2026-10-20T06:31:23.271Z"
+  },
+  "en/semantic-caching-ai-apps": {
+    "hash": "54b1a6f940ad0a4a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-semantic-caching-ai-apps.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3526365,
+    "generatedAt": "2026-10-20T06:33:42.717Z"
+  },
+  "en/web-platform-baseline-guide": {
+    "hash": "48994b977ed8eabd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-web-platform-baseline-guide.mp3",
+    "seconds": 442,
+    "voice": "en_US-ryan-high",
+    "bytes": 3535142,
+    "generatedAt": "2026-10-20T06:36:04.432Z"
   }
 }
