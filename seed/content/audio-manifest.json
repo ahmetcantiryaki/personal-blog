@@ -4806,5 +4806,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3535142,
     "generatedAt": "2026-10-20T06:36:04.432Z"
+  },
+  "en/kill-serverless-cold-starts": {
+    "hash": "2d697b460af21db8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kill-serverless-cold-starts.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3357301,
+    "generatedAt": "2026-10-21T06:32:58.478Z"
+  },
+  "en/kubernetes-operators-when-to-build": {
+    "hash": "dda8379437c09364",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-operators-when-to-build.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3287084,
+    "generatedAt": "2026-10-21T06:34:01.296Z"
+  },
+  "en/meetings-into-action-items-with-ai": {
+    "hash": "69bdfd3794f698d8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-meetings-into-action-items-with-ai.mp3",
+    "seconds": 368,
+    "voice": "en_US-ryan-high",
+    "bytes": 2940386,
+    "generatedAt": "2026-10-21T06:34:56.213Z"
+  },
+  "en/trunk-based-development-vs-gitflow": {
+    "hash": "08cd3361116bb95a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-trunk-based-development-vs-gitflow.mp3",
+    "seconds": 434,
+    "voice": "en_US-ryan-high",
+    "bytes": 3470777,
+    "generatedAt": "2026-10-21T06:35:59.999Z"
+  },
+  "en/what-are-claude-api-user-profiles": {
+    "hash": "c4c3c8569ce0d5ee",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-are-claude-api-user-profiles.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3631900,
+    "generatedAt": "2026-10-21T06:37:05.597Z"
   }
 }
