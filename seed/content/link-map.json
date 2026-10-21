@@ -7308,6 +7308,66 @@
         "slug": "running-cuda-on-amd-zluda-rocm",
         "title": "Running CUDA on AMD GPUs: ZLUDA and ROCm in 2026"
       }
+    },
+    {
+      "translationKey": "trunk-based-development-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "trunk-based-development-mi-gitflow-mu",
+        "title": "Trunk-Based Development mi GitFlow mu? (2026)"
+      },
+      "en": {
+        "slug": "trunk-based-development-vs-gitflow",
+        "title": "Trunk-Based Development vs GitFlow in 2026"
+      }
+    },
+    {
+      "translationKey": "serverless-cold-starts-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "sunucusuz-soguk-baslangic-azaltma",
+        "title": "Sunucusuz Soğuk Başlangıçları Nasıl Azaltırsınız?"
+      },
+      "en": {
+        "slug": "kill-serverless-cold-starts",
+        "title": "How Do You Kill Serverless Cold Starts?"
+      }
+    },
+    {
+      "translationKey": "kubernetes-operators-explained-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-operatorleri-ne-zaman-yazmali",
+        "title": "Kubernetes Operatörleri: Ne Zaman Yazmalı?"
+      },
+      "en": {
+        "slug": "kubernetes-operators-when-to-build",
+        "title": "Kubernetes Operators: When to Build One"
+      }
+    },
+    {
+      "translationKey": "ai-meeting-notes-action-items-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "toplantiyi-eyleme-donustur-ai",
+        "title": "Toplantıyı Eyleme Dönüştür: ChatGPT ve Gemini"
+      },
+      "en": {
+        "slug": "meetings-into-action-items-with-ai",
+        "title": "Turn Meetings Into Action Items With AI"
+      }
+    },
+    {
+      "translationKey": "claude-api-user-profiles-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-api-user-profiles-nedir",
+        "title": "Claude API User Profiles Nedir?"
+      },
+      "en": {
+        "slug": "what-are-claude-api-user-profiles",
+        "title": "What Are Claude API User Profiles?"
+      }
     }
   ]
 }
