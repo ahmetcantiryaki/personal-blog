@@ -7368,6 +7368,66 @@
         "slug": "what-are-claude-api-user-profiles",
         "title": "What Are Claude API User Profiles?"
       }
+    },
+    {
+      "translationKey": "brag-document-before-review-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "degerlendirme-oncesi-basari-gunlugu",
+        "title": "Değerlendirme Öncesi Başarı Günlüğü Nasıl Tutulur?"
+      },
+      "en": {
+        "slug": "write-a-brag-document-before-review",
+        "title": "How Do You Keep a Brag Document Before Review?"
+      }
+    },
+    {
+      "translationKey": "async-communication-that-works-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ise-yarayan-asenkron-iletisim",
+        "title": "İşe Yarayan Asenkron İletişim Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "async-communication-that-works",
+        "title": "Async Communication That Actually Works"
+      }
+    },
+    {
+      "translationKey": "gemini-omni-flash-video-extension-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "gemini-omni-flash-video-uzatma",
+        "title": "Gemini Omni 1.1 Flash ile Video Nasıl Uzatılır?"
+      },
+      "en": {
+        "slug": "extend-clips-gemini-omni-flash",
+        "title": "How Do You Extend a Video With Gemini Omni 1.1 Flash?"
+      }
+    },
+    {
+      "translationKey": "stop-the-scroll-first-lines-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "akisi-durduran-ilk-satirlar",
+        "title": "Akışı Durduran İlk Satırlar Nasıl Yazılır?"
+      },
+      "en": {
+        "slug": "first-lines-that-stop-the-scroll",
+        "title": "Writing First Lines That Stop the Scroll"
+      }
+    },
+    {
+      "translationKey": "posting-cadence-how-often-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "ne-siklikla-paylasim-2026",
+        "title": "2026'da Ne Sıklıkla Paylaşım Yapmalısınız?"
+      },
+      "en": {
+        "slug": "how-often-should-you-post-2026",
+        "title": "How Often Should You Post in 2026?"
+      }
     }
   ]
 }
