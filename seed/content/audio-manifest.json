@@ -4846,5 +4846,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3631900,
     "generatedAt": "2026-10-21T06:37:05.597Z"
+  },
+  "en/async-communication-that-works": {
+    "hash": "69b6c0ce8fae384a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-async-communication-that-works.mp3",
+    "seconds": 389,
+    "voice": "en_US-ryan-high",
+    "bytes": 3114048,
+    "generatedAt": "2026-10-22T06:35:00.356Z"
+  },
+  "en/extend-clips-gemini-omni-flash": {
+    "hash": "72359e3107b331f5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-extend-clips-gemini-omni-flash.mp3",
+    "seconds": 446,
+    "voice": "en_US-ryan-high",
+    "bytes": 3565862,
+    "generatedAt": "2026-10-22T06:37:25.138Z"
+  },
+  "en/first-lines-that-stop-the-scroll": {
+    "hash": "cd890492dafab83b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-first-lines-that-stop-the-scroll.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3193252,
+    "generatedAt": "2026-10-22T06:39:35.094Z"
+  },
+  "en/how-often-should-you-post-2026": {
+    "hash": "ff977bf897dc67e1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-often-should-you-post-2026.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3305474,
+    "generatedAt": "2026-10-22T06:41:48.742Z"
+  },
+  "en/write-a-brag-document-before-review": {
+    "hash": "607412a541ffdf0b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-write-a-brag-document-before-review.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3257408,
+    "generatedAt": "2026-10-22T06:43:59.572Z"
   }
 }
