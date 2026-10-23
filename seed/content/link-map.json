@@ -7428,6 +7428,66 @@
         "slug": "how-often-should-you-post-2026",
         "title": "How Often Should You Post in 2026?"
       }
+    },
+    {
+      "translationKey": "agent-skills-aaif-donation-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "agent-skills-linux-foundation-ne-degisiyor",
+        "title": "Agent Skills Artık Linux Foundation'da: Ne Değişiyor?"
+      },
+      "en": {
+        "slug": "agent-skills-moves-to-linux-foundation",
+        "title": "Agent Skills Moves to the Linux Foundation: What Changes?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-slides-build-decks-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "chatgpt-slides-ile-sunum-hazirlama",
+        "title": "ChatGPT Slides ile Hızlı Sunum Nasıl Hazırlanır?"
+      },
+      "en": {
+        "slug": "build-decks-fast-chatgpt-slides",
+        "title": "How Do You Build Decks Fast With ChatGPT Slides?"
+      }
+    },
+    {
+      "translationKey": "topic-clusters-pillar-pages-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "konu-kumeleri-ve-sutun-sayfalari",
+        "title": "Konu Kümeleri ve Sütun Sayfaları Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "topic-clusters-and-pillar-pages",
+        "title": "How Do You Build Topic Clusters and Pillar Pages?"
+      }
+    },
+    {
+      "translationKey": "cold-email-deliverability-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "soguk-eposta-neden-spam",
+        "title": "Soğuk E-postanız Neden Spam'e Düşüyor?"
+      },
+      "en": {
+        "slug": "why-cold-email-hits-spam",
+        "title": "Why Does Your Cold Email Hit Spam (and How to Fix It)?"
+      }
+    },
+    {
+      "translationKey": "wifi-7-worth-upgrading-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "wifi-7-gecmeye-deger-mi-2026",
+        "title": "Wi-Fi 7'ye Geçmeye Değer mi? (2026)"
+      },
+      "en": {
+        "slug": "wifi-7-vs-6e-worth-upgrading",
+        "title": "Wi-Fi 7 vs 6E: Is It Worth Upgrading in 2026?"
+      }
     }
   ]
 }
