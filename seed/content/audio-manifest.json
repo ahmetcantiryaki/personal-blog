@@ -4886,5 +4886,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3257408,
     "generatedAt": "2026-10-22T06:43:59.572Z"
+  },
+  "en/agent-skills-moves-to-linux-foundation": {
+    "hash": "c3319b8a5045b577",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-agent-skills-moves-to-linux-foundation.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3510273,
+    "generatedAt": "2026-10-23T06:31:58.199Z"
+  },
+  "en/build-decks-fast-chatgpt-slides": {
+    "hash": "db607739911db37c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-decks-fast-chatgpt-slides.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3420203,
+    "generatedAt": "2026-10-23T06:33:37.634Z"
+  },
+  "en/topic-clusters-and-pillar-pages": {
+    "hash": "e26126dab037a232",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-topic-clusters-and-pillar-pages.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3431905,
+    "generatedAt": "2026-10-23T06:34:43.273Z"
+  },
+  "en/why-cold-email-hits-spam": {
+    "hash": "4aea251b98e99e52",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-cold-email-hits-spam.mp3",
+    "seconds": 381,
+    "voice": "en_US-ryan-high",
+    "bytes": 3049055,
+    "generatedAt": "2026-10-23T06:35:39.088Z"
+  },
+  "en/wifi-7-vs-6e-worth-upgrading": {
+    "hash": "881dd6da13b2806b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-wifi-7-vs-6e-worth-upgrading.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3450714,
+    "generatedAt": "2026-10-23T06:36:42.991Z"
   }
 }
