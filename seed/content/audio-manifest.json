@@ -4926,5 +4926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3450714,
     "generatedAt": "2026-10-23T06:36:42.991Z"
+  },
+  "en/annual-vs-monthly-which-plan": {
+    "hash": "35bcbe09efc4457f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-annual-vs-monthly-which-plan.mp3",
+    "seconds": 395,
+    "voice": "en_US-ryan-high",
+    "bytes": 3158142,
+    "generatedAt": "2026-10-24T06:31:56.683Z"
+  },
+  "en/build-your-own-home-server-2026": {
+    "hash": "71421fc130c7277a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-your-own-home-server-2026.mp3",
+    "seconds": 384,
+    "voice": "en_US-ryan-high",
+    "bytes": 3072878,
+    "generatedAt": "2026-10-24T06:34:03.387Z"
+  },
+  "en/nextjs-16-4-whats-new": {
+    "hash": "5efe9f4ed67a2231",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-nextjs-16-4-whats-new.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3445071,
+    "generatedAt": "2026-10-24T06:36:23.990Z"
+  },
+  "en/postgresql-19-beta-whats-new": {
+    "hash": "051fd74ced74c1e3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-postgresql-19-beta-whats-new.mp3",
+    "seconds": 501,
+    "voice": "en_US-ryan-high",
+    "bytes": 4012451,
+    "generatedAt": "2026-10-24T06:39:09.023Z"
+  },
+  "en/the-mom-test-customer-interviews": {
+    "hash": "50a405f2bcd09244",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-the-mom-test-customer-interviews.mp3",
+    "seconds": 346,
+    "voice": "en_US-ryan-high",
+    "bytes": 2768813,
+    "generatedAt": "2026-10-24T06:41:01.761Z"
   }
 }
