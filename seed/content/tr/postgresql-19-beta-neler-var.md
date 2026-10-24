@@ -85,3 +85,8 @@ Hayır. SQL/PGQ, partition `MERGE`/`SPLIT` ve çevrimiçi checksum açma/kapama 
 ### PostgreSQL 19'da insert işlemleri ne kadar hızlanıyor?
 
 Resmi Beta 1 duyurusuna göre, özellikle foreign key kontrolü olan tablolardaki insert'lerde 2 kata kadar. Bu, tüm yazma iş yüklerine değil, insert sırasındaki foreign key doğrulama yoluna özgü bir iyileştirme.
+
+Kaynaklar:
+- [PostgreSQL 19 Beta 1 Released (postgresql.org)](https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/)
+- [PostgreSQL 19 Release Candidate 1 (postgresql.org)](https://www.postgresql.org/about/news/postgresql-19-rc-1-released-3409/)
+- [Updated PostgreSQL RC / GA dates (postgresql.org mailing list)](https://www.postgresql.org/message-id/f161fbb7-e193-42eb-bec7-4cfc1af74a50@postgresql.org)
