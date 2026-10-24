@@ -7488,6 +7488,66 @@
         "slug": "wifi-7-vs-6e-worth-upgrading",
         "title": "Wi-Fi 7 vs 6E: Is It Worth Upgrading in 2026?"
       }
+    },
+    {
+      "translationKey": "postgresql-19-release-candidate-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "postgresql-19-beta-neler-var",
+        "title": "PostgreSQL 19 Nedir? Sürümde Neler Var?"
+      },
+      "en": {
+        "slug": "postgresql-19-beta-whats-new",
+        "title": "PostgreSQL 19: What's New?"
+      }
+    },
+    {
+      "translationKey": "nextjs-16-4-whats-new-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "nextjs-16-4-neler-degisti",
+        "title": "Next.js 16.4'te Neler Değişti?"
+      },
+      "en": {
+        "slug": "nextjs-16-4-whats-new",
+        "title": "Next.js 16.4: What Changed?"
+      }
+    },
+    {
+      "translationKey": "mom-test-customer-interviews-2026",
+      "category": "business",
+      "tr": {
+        "slug": "anne-testi-musteri-gorusmeleri",
+        "title": "Anne Testi: Yanıltmayan Müşteri Görüşmeleri"
+      },
+      "en": {
+        "slug": "the-mom-test-customer-interviews",
+        "title": "The Mom Test: Better Customer Interviews"
+      }
+    },
+    {
+      "translationKey": "annual-vs-monthly-plans-2026",
+      "category": "business",
+      "tr": {
+        "slug": "yillik-mi-aylik-mi-plan",
+        "title": "Yıllık mı Aylık mı? Hangi Planı Öne Çıkarmalı?"
+      },
+      "en": {
+        "slug": "annual-vs-monthly-which-plan",
+        "title": "Annual vs Monthly: Which Plan to Push?"
+      }
+    },
+    {
+      "translationKey": "build-a-homelab-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "2026-ev-sunucusu-kurmak",
+        "title": "2026'da Kendi Ev Sunucunuzu Kurun"
+      },
+      "en": {
+        "slug": "build-your-own-home-server-2026",
+        "title": "Build Your Own Home Server in 2026"
+      }
     }
   ]
 }
