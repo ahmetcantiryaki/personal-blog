@@ -4966,5 +4966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2768813,
     "generatedAt": "2026-10-24T06:41:01.761Z"
+  },
+  "en/claude-models-on-google-cloud-explained": {
+    "hash": "7d6c4aa5f1c21bb5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-models-on-google-cloud-explained.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3204118,
+    "generatedAt": "2026-10-25T06:26:47.189Z"
+  },
+  "en/gemini-live-translate-travelers-guide": {
+    "hash": "97b232bc004e45ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-live-translate-travelers-guide.mp3",
+    "seconds": 408,
+    "voice": "en_US-ryan-high",
+    "bytes": 3267647,
+    "generatedAt": "2026-10-25T06:29:00.012Z"
+  },
+  "en/how-do-you-red-team-your-llm-app": {
+    "hash": "fb79b4ef8af2efae",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-do-you-red-team-your-llm-app.mp3",
+    "seconds": 471,
+    "voice": "en_US-ryan-high",
+    "bytes": 3765437,
+    "generatedAt": "2026-10-25T06:31:33.857Z"
+  },
+  "en/multi-agent-handoffs-with-claude-agent-sdk": {
+    "hash": "32c640964af8b6bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-multi-agent-handoffs-with-claude-agent-sdk.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3402648,
+    "generatedAt": "2026-10-25T06:33:51.150Z"
+  },
+  "en/rag-evaluation-metrics-that-catch-retrieval-bugs": {
+    "hash": "94f0b431ce8b8486",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-rag-evaluation-metrics-that-catch-retrieval-bugs.mp3",
+    "seconds": 485,
+    "voice": "en_US-ryan-high",
+    "bytes": 3879540,
+    "generatedAt": "2026-10-25T06:36:28.399Z"
   }
 }
