@@ -2,58 +2,6 @@
   "updatedAt": "2026-10-25",
   "topics": [
     {
-      "translationKey": "rag-evaluation-metrics-2026",
-      "category": "ai",
-      "titleTr": "RAG Değerlendirmesi: Hangi Metrikler Önemli?",
-      "titleEn": "RAG Evaluation: Metrics That Catch Retrieval Bugs",
-      "slugTr": "rag-degerlendirmesi-hangi-metrikler-onemli",
-      "slugEn": "rag-evaluation-metrics-that-catch-retrieval-bugs",
-      "keywordTr": "rag değerlendirme metrikleri",
-      "keywordEn": "rag evaluation metrics",
-      "angle": "how-to: measure retrieval and answer quality so you catch RAG regressions before users do",
-      "style": "data-led",
-      "brief": "Outline: why eval beats vibes; retrieval metrics (recall@k, precision@k, MRR, nDCG); answer metrics (faithfulness, answer relevance, context precision via ragas); building a golden question set; gating regressions in CI; pitfalls (tiny sets, test leakage, grading with the same model). Verify: ragas metric definitions, nDCG formula, LLM-as-judge bias. Sources: ragas docs; a vendor RAG eval guide (Pinecone/Weaviate)."
-    },
-    {
-      "translationKey": "multi-agent-handoffs-claude-agent-sdk",
-      "category": "ai",
-      "titleTr": "Claude Agent SDK ile Çok Ajanlı Devir Teslim",
-      "titleEn": "Multi-Agent Handoffs With the Claude Agent SDK",
-      "slugTr": "claude-agent-sdk-ile-cok-ajanli-devir-teslim",
-      "slugEn": "multi-agent-handoffs-with-claude-agent-sdk",
-      "keywordTr": "claude agent sdk çok ajanlı",
-      "keywordEn": "claude agent sdk multi-agent handoff",
-      "angle": "deep-dive: pass context, state, and control between specialized agents without losing information",
-      "style": "field-notes",
-      "brief": "Outline: the handoff problem (lost detail, confirmation bias); patterns (orchestrator-worker, sequential pipeline, shared memory/scratchpad); what to pass (task spec, ruled-out paths, file pointers vs raw dumps); context budgets and boundary summarization; failure modes and retries; a worked subagent example in the Agent SDK. Verify: Agent SDK subagent APIs and context limits. Sources: docs.claude.com Agent SDK; Anthropic multi-agent research post."
-    },
-    {
-      "translationKey": "red-team-llm-app-checklist-2026",
-      "category": "ai",
-      "titleTr": "LLM Uygulamanıza Nasıl Kırmızı Takım Yaparsınız?",
-      "titleEn": "How Do You Red-Team Your LLM App?",
-      "slugTr": "llm-uygulamaniza-nasil-kirmizi-takim-yaparsiniz",
-      "slugEn": "how-do-you-red-team-your-llm-app",
-      "keywordTr": "llm kırmızı takım testi",
-      "keywordEn": "red team llm application",
-      "angle": "checklist: adversarial tests to run before shipping an LLM feature",
-      "style": "contrarian",
-      "brief": "Outline: build a threat model (prompt injection, data exfiltration, jailbreaks, tool misuse, PII leakage); direct vs indirect injection tests; tool/permission abuse; unsafe output handling (XSS from model text); an automated red-team harness plus regression suite; where human sign-off stays. Verify: OWASP LLM Top 10 (2025) categories; indirect prompt injection definition. Sources: OWASP LLM Top 10; Anthropic/Google safety guidance."
-    },
-    {
-      "translationKey": "gemini-live-translate-travel-guide",
-      "category": "technology",
-      "titleTr": "Gemini Canlı Çeviri: Gezginler İçin Rehber",
-      "titleEn": "Gemini Live Translate: A Traveler's Guide",
-      "slugTr": "gemini-canli-ceviri-gezginler-icin-rehber",
-      "slugEn": "gemini-live-translate-travelers-guide",
-      "keywordTr": "gemini canlı çeviri",
-      "keywordEn": "gemini live translate",
-      "angle": "how-to: use real-time voice translation for travel and face-to-face conversations",
-      "style": "story-led",
-      "brief": "Outline: what Live Translate does (70+ auto-detected languages, preserves intonation); setup on phone and compatible earbuds; a quick side conversation vs a hands-free continuous mode; real scenarios (market haggling, taxi, pharmacy, hotel check-in, a work call); latency and the awkward pauses; offline limits and always-on mic privacy; which language pairs are reliable vs rough; etiquette and when a human interpreter still wins. Verify: supported language count, offline availability, earbud support. Sources: blog.google Gemini posts; Gemini app release notes."
-    },
-    {
       "translationKey": "gemini-google-tv-2026-guide",
       "category": "technology",
       "titleTr": "Google TV'de Gemini: 2026'da Neler Yapıyor?",

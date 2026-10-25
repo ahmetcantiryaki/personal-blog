@@ -7548,6 +7548,66 @@
         "slug": "build-your-own-home-server-2026",
         "title": "Build Your Own Home Server in 2026"
       }
+    },
+    {
+      "translationKey": "claude-models-google-cloud-anthropic-managed-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "google-cloudda-claude-nedir-anthropic-yonetimli",
+        "title": "Google Cloud'da Claude: Anthropic mi, Vertex AI mi?"
+      },
+      "en": {
+        "slug": "claude-models-on-google-cloud-explained",
+        "title": "Claude on Google Cloud: Anthropic-Managed vs. Vertex AI"
+      }
+    },
+    {
+      "translationKey": "rag-evaluation-metrics-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "rag-degerlendirmesi-hangi-metrikler-onemli",
+        "title": "RAG Değerlendirmesi: Hangi Metrikler Önemli?"
+      },
+      "en": {
+        "slug": "rag-evaluation-metrics-that-catch-retrieval-bugs",
+        "title": "RAG Evaluation: Metrics That Catch Retrieval Bugs"
+      }
+    },
+    {
+      "translationKey": "multi-agent-handoffs-claude-agent-sdk",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-agent-sdk-ile-cok-ajanli-devir-teslim",
+        "title": "Claude Agent SDK ile Çok Ajanlı Devir Teslim"
+      },
+      "en": {
+        "slug": "multi-agent-handoffs-with-claude-agent-sdk",
+        "title": "Multi-Agent Handoffs With the Claude Agent SDK"
+      }
+    },
+    {
+      "translationKey": "red-team-llm-app-checklist-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "llm-uygulamaniza-nasil-kirmizi-takim-yaparsiniz",
+        "title": "LLM Uygulamanıza Nasıl Kırmızı Takım Yaparsınız?"
+      },
+      "en": {
+        "slug": "how-do-you-red-team-your-llm-app",
+        "title": "How Do You Red-Team Your LLM App?"
+      }
+    },
+    {
+      "translationKey": "gemini-live-translate-travel-guide",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-canli-ceviri-gezginler-icin-rehber",
+        "title": "Gemini Canlı Çeviri: Gezginler İçin Rehber"
+      },
+      "en": {
+        "slug": "gemini-live-translate-travelers-guide",
+        "title": "Gemini Live Translate: A Traveler's Guide"
+      }
     }
   ]
 }
