@@ -5006,5 +5006,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3879540,
     "generatedAt": "2026-10-25T06:36:28.399Z"
+  },
+  "en/claude-code-monitor-tool-bedrock-vertex-foundry": {
+    "hash": "68f928fe8e09e815",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-monitor-tool-bedrock-vertex-foundry.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3727403,
+    "generatedAt": "2026-10-26T06:20:02.598Z"
+  },
+  "en/eink-tablets-and-phones-worth-it-for-focus": {
+    "hash": "bf5fbf4c38a84a35",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-eink-tablets-and-phones-worth-it-for-focus.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3728447,
+    "generatedAt": "2026-10-26T06:21:15.329Z"
+  },
+  "en/gemini-on-google-tv-what-it-does-2026": {
+    "hash": "4725834a885ab985",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-on-google-tv-what-it-does-2026.mp3",
+    "seconds": 394,
+    "voice": "en_US-ryan-high",
+    "bytes": 3156470,
+    "generatedAt": "2026-10-26T06:22:17.437Z"
+  },
+  "en/run-a-competitor-teardown-with-chatgpt-agents": {
+    "hash": "9ea8302dc00fc524",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-run-a-competitor-teardown-with-chatgpt-agents.mp3",
+    "seconds": 402,
+    "voice": "en_US-ryan-high",
+    "bytes": 3216865,
+    "generatedAt": "2026-10-26T06:23:20.463Z"
+  },
+  "en/should-you-switch-to-linux-in-2026": {
+    "hash": "a0e280e43b61a23b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-should-you-switch-to-linux-in-2026.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3385930,
+    "generatedAt": "2026-10-26T06:24:32.903Z"
   }
 }
