@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-26",
   "topics": [
-    {
-      "translationKey": "gemini-google-tv-2026-guide",
-      "category": "technology",
-      "titleTr": "Google TV'de Gemini: 2026'da Neler Yapıyor?",
-      "titleEn": "Gemini on Google TV: What It Does in 2026",
-      "slugTr": "google-tvde-gemini-2026-neler-yapiyor",
-      "slugEn": "gemini-on-google-tv-what-it-does-2026",
-      "keywordTr": "google tv gemini",
-      "keywordEn": "gemini google tv",
-      "angle": "guide: what Gemini adds to your television and whether it is actually useful",
-      "style": "question-driven",
-      "brief": "Outline: conversational search for what to watch ('something funny under 90 minutes'); spoiler-safe episode recaps and summaries; follow-up questions about a show or actor; smart-home control from the couch; family and kids modes and parental limits; the privacy trade of an always-ready TV mic and how to mute it; which devices, TV brands, and regions get it and when; how it compares to the old Google Assistant on TV. Verify: rollout device list, feature set, mic privacy controls. Sources: blog.google; TechCrunch Gemini-for-Google-TV preview."
-    },
-    {
-      "translationKey": "eink-tablets-phones-focus-2026",
-      "category": "technology",
-      "titleTr": "E-Mürekkep Tablet ve Telefonlar: Odağa Değer mi?",
-      "titleEn": "E-Ink Tablets and Phones: Worth It for Focus?",
-      "slugTr": "e-murekkep-tablet-ve-telefonlar-odaga-deger-mi",
-      "slugEn": "eink-tablets-and-phones-worth-it-for-focus",
-      "keywordTr": "e-mürekkep tablet",
-      "keywordEn": "e-ink tablet for focus",
-      "angle": "comparison: e-ink devices vs regular screens for distraction-free reading and writing",
-      "style": "contrarian",
-      "brief": "Outline: how e-ink works and 2026 color/refresh gains; the device landscape (reMarkable, Boox, e-ink phones); the real focus case vs just using OS Focus modes; eye-strain claims examined honestly; battery and offline perks; who should buy and who is wasting money. Verify: color e-ink refresh rates; eye-strain evidence quality. Sources: manufacturer specs; independent hardware reviews."
-    },
-    {
-      "translationKey": "switch-to-linux-2026-guide",
-      "category": "technology",
-      "titleTr": "2026'da Linux'a Geçmeli misiniz?",
-      "titleEn": "Should You Switch to Linux in 2026?",
-      "slugTr": "2026da-linuxa-gecmeli-misiniz",
-      "slugEn": "should-you-switch-to-linux-in-2026",
-      "keywordTr": "linux'a geçiş 2026",
-      "keywordEn": "switch to linux 2026",
-      "angle": "guide: a practical switcher's path after Windows 10 end-of-life",
-      "style": "story-led",
-      "brief": "Outline: why now (Windows 10 EOL, aging but fine hardware, privacy fatigue); picking a distro (Mint, Fedora, Ubuntu) by user type; app equivalents and gaming via Proton; dual-boot vs full switch; what still breaks (a few pro apps, some peripherals); a low-risk one-week trial plan. Verify: Windows 10 EOL date; current Proton compatibility. Sources: ProtonDB; distro documentation."
-    },
-    {
-      "translationKey": "competitor-teardown-chatgpt-agents",
-      "category": "digital-marketing",
-      "titleTr": "ChatGPT Ajanlarıyla Rakip Analizi Yapın",
-      "titleEn": "Run a Competitor Teardown With ChatGPT Agents",
-      "slugTr": "chatgpt-ajanlariyla-rakip-analizi-yapin",
-      "slugEn": "run-a-competitor-teardown-with-chatgpt-agents",
-      "keywordTr": "chatgpt rakip analizi",
-      "keywordEn": "chatgpt competitor analysis",
-      "angle": "how-to: use agents to map a rival's positioning, pricing, SEO, and content gaps",
-      "style": "field-notes",
-      "brief": "Outline: scope the teardown; assign agent tasks (summarize pricing pages, mine reviews, pull ranking keywords, inventory content); turn findings into a positioning and gap map; guardrails (never trust hallucinated numbers, force citations); a reusable Project template you rerun monthly. Verify: current ChatGPT agent capabilities and limits. Sources: OpenAI ChatGPT agent/help docs; one SEO tool's export workflow."
-    },
     {
       "translationKey": "first-party-email-list-cookieless-2026",
       "category": "digital-marketing",

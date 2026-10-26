@@ -7608,6 +7608,66 @@
         "slug": "gemini-live-translate-travelers-guide",
         "title": "Gemini Live Translate: A Traveler's Guide"
       }
+    },
+    {
+      "translationKey": "claude-code-monitor-tool-enterprise-platforms-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-monitor-araci-bedrock-vertex-foundryda",
+        "title": "Claude Code Monitor Bedrock, Vertex, Foundry'de Çalışıyor"
+      },
+      "en": {
+        "slug": "claude-code-monitor-tool-bedrock-vertex-foundry",
+        "title": "Claude Code's Monitor Tool Comes to Bedrock, Vertex, Foundry"
+      }
+    },
+    {
+      "translationKey": "gemini-google-tv-2026-guide",
+      "category": "technology",
+      "tr": {
+        "slug": "google-tvde-gemini-2026-neler-yapiyor",
+        "title": "Google TV'de Gemini: 2026'da Neler Yapıyor?"
+      },
+      "en": {
+        "slug": "gemini-on-google-tv-what-it-does-2026",
+        "title": "Gemini on Google TV: What It Does in 2026"
+      }
+    },
+    {
+      "translationKey": "eink-tablets-phones-focus-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "e-murekkep-tablet-ve-telefonlar-odaga-deger-mi",
+        "title": "E-Mürekkep Tablet ve Telefonlar: Odağa Değer mi?"
+      },
+      "en": {
+        "slug": "eink-tablets-and-phones-worth-it-for-focus",
+        "title": "E-Ink Tablets and Phones: Worth It for Focus?"
+      }
+    },
+    {
+      "translationKey": "switch-to-linux-2026-guide",
+      "category": "technology",
+      "tr": {
+        "slug": "2026da-linuxa-gecmeli-misiniz",
+        "title": "2026'da Linux'a Geçmeli misiniz?"
+      },
+      "en": {
+        "slug": "should-you-switch-to-linux-in-2026",
+        "title": "Should You Switch to Linux in 2026?"
+      }
+    },
+    {
+      "translationKey": "competitor-teardown-chatgpt-agents",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "chatgpt-ajanlariyla-rakip-analizi-yapin",
+        "title": "ChatGPT Ajanlarıyla Rakip Analizi Yapın"
+      },
+      "en": {
+        "slug": "run-a-competitor-teardown-with-chatgpt-agents",
+        "title": "Run a Competitor Teardown With ChatGPT Agents"
+      }
     }
   ]
 }
