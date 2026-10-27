@@ -5046,5 +5046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3385930,
     "generatedAt": "2026-10-26T06:24:32.903Z"
+  },
+  "en/anthropic-ipo-s1-filing-explained": {
+    "hash": "9669afec6bed5b3e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-anthropic-ipo-s1-filing-explained.mp3",
+    "seconds": 447,
+    "voice": "en_US-ryan-high",
+    "bytes": 3576937,
+    "generatedAt": "2026-10-27T06:48:54.575Z"
+  },
+  "en/build-an-email-list-that-survives-cookieless": {
+    "hash": "8d0af3cbd386039d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-an-email-list-that-survives-cookieless.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3520304,
+    "generatedAt": "2026-10-27T06:50:49.584Z"
+  },
+  "en/draft-landing-page-variants-to-ab-test-with-claude": {
+    "hash": "743c6873081a6c69",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-draft-landing-page-variants-to-ab-test-with-claude.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3391781,
+    "generatedAt": "2026-10-27T06:52:42.445Z"
+  },
+  "en/gate-prs-with-claude-code-review-in-ci": {
+    "hash": "90f71de180122bbf",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gate-prs-with-claude-code-review-in-ci.mp3",
+    "seconds": 438,
+    "voice": "en_US-ryan-high",
+    "bytes": 3508601,
+    "generatedAt": "2026-10-27T06:54:38.842Z"
+  },
+  "en/the-utm-naming-mistakes-wrecking-your-reports": {
+    "hash": "04a4e977db0323ce",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-the-utm-naming-mistakes-wrecking-your-reports.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3634825,
+    "generatedAt": "2026-10-27T06:56:41.504Z"
   }
 }
