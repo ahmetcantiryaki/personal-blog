@@ -7668,6 +7668,66 @@
         "slug": "run-a-competitor-teardown-with-chatgpt-agents",
         "title": "Run a Competitor Teardown With ChatGPT Agents"
       }
+    },
+    {
+      "translationKey": "anthropic-ipo-s1-filing-2026",
+      "category": "business",
+      "tr": {
+        "slug": "anthropic-halka-arz-s-1-basvurusu-ant",
+        "title": "Anthropic Neden Halka Arz İçin S-1 Başvurusu Yaptı?"
+      },
+      "en": {
+        "slug": "anthropic-ipo-s1-filing-explained",
+        "title": "Why Did Anthropic File an S-1 for Its IPO?"
+      }
+    },
+    {
+      "translationKey": "first-party-email-list-cookieless-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "cerezsiz-dunyada-dayanikli-eposta-listesi-kurun",
+        "title": "Çerezsiz Dünyada Dayanıklı E-posta Listesi Kurun"
+      },
+      "en": {
+        "slug": "build-an-email-list-that-survives-cookieless",
+        "title": "Build an Email List That Survives Cookieless"
+      }
+    },
+    {
+      "translationKey": "landing-page-variants-claude-ab-test",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "claude-ile-ab-testi-icin-acilis-sayfasi-varyantlari",
+        "title": "Claude ile A/B Testi İçin Açılış Sayfası Varyantları"
+      },
+      "en": {
+        "slug": "draft-landing-page-variants-to-ab-test-with-claude",
+        "title": "Draft Landing-Page Variants to A/B Test With Claude"
+      }
+    },
+    {
+      "translationKey": "utm-campaign-naming-system",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "raporlarinizi-bozan-utm-hatalari-ve-cozumu",
+        "title": "Raporlarınızı Bozan UTM Hataları ve Çözümü"
+      },
+      "en": {
+        "slug": "the-utm-naming-mistakes-wrecking-your-reports",
+        "title": "The UTM Naming Mistakes Wrecking Your Reports"
+      }
+    },
+    {
+      "translationKey": "claude-code-review-ci-gating",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "cida-claude-code-review-ile-pr-kapisi-kurun",
+        "title": "CI'da Claude Code Review ile PR Kapısı Kurun"
+      },
+      "en": {
+        "slug": "gate-prs-with-claude-code-review-in-ci",
+        "title": "Gate PRs With Claude Code Review in CI"
+      }
     }
   ]
 }

@@ -77,6 +77,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   'infrastructure-as-code': { en: 'Infrastructure as Code', tr: 'Kod Olarak Altyapı' },
   integration: { en: 'Integration', tr: 'Entegrasyon' },
   interview: { en: 'Interview', tr: 'Mülakat' },
+  ipo: { en: 'IPO', tr: 'Halka Arz' },
   'job-search': { en: 'Job Search', tr: 'İş Arama' },
   kubernetes: { en: 'Kubernetes', tr: 'Kubernetes' },
   learning: { en: 'Learning', tr: 'Öğrenme' },

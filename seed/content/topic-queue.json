@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "topics": [
-    {
-      "translationKey": "first-party-email-list-cookieless-2026",
-      "category": "digital-marketing",
-      "titleTr": "Çerezsiz Dünyada Dayanıklı E-posta Listesi Kurun",
-      "titleEn": "Build an Email List That Survives Cookieless",
-      "slugTr": "cerezsiz-dunyada-dayanikli-eposta-listesi-kurun",
-      "slugEn": "build-an-email-list-that-survives-cookieless",
-      "keywordTr": "birinci taraf veri e-posta listesi",
-      "keywordEn": "first-party data email list",
-      "angle": "guide: grow owned first-party data as third-party tracking and search clicks shrink",
-      "style": "data-led",
-      "brief": "Outline: why owned first-party data wins in 2026 (privacy rules, cookie decay, AI-overview click loss); lead magnets that still convert (tools, templates, cohort emails) vs tired PDFs; consent and double opt-in done right; progressive profiling instead of long forms; segmentation that lifts engagement; a welcome sequence that proves value fast; measuring list health (deliverability, open/click, churn) and pruning dead contacts. Verify: current third-party cookie status; email engagement benchmarks. Sources: ESP documentation; a recent email benchmark report."
-    },
-    {
-      "translationKey": "landing-page-variants-claude-ab-test",
-      "category": "digital-marketing",
-      "titleTr": "Claude ile A/B Testi İçin Açılış Sayfası Varyantları",
-      "titleEn": "Draft Landing-Page Variants to A/B Test With Claude",
-      "slugTr": "claude-ile-ab-testi-icin-acilis-sayfasi-varyantlari",
-      "slugEn": "draft-landing-page-variants-to-ab-test-with-claude",
-      "keywordTr": "claude açılış sayfası a/b test",
-      "keywordEn": "claude landing page ab test",
-      "angle": "how-to: use Claude to draft hypothesis-driven variant copy, then test it honestly",
-      "style": "data-led",
-      "brief": "Outline: what to vary (headline, hook, CTA, proof, offer); prompting Claude for hypothesis-based variants instead of random ones; wiring variants into a test tool; sample size and significance basics; reading results without fooling yourself; when AI copy underperforms human copy. Verify: A/B significance math; minimum sample size. Sources: a CRO testing guide; a stats-significance reference."
-    },
-    {
-      "translationKey": "utm-campaign-naming-system",
-      "category": "digital-marketing",
-      "titleTr": "Raporlarınızı Bozan UTM Hataları ve Çözümü",
-      "titleEn": "The UTM Naming Mistakes Wrecking Your Reports",
-      "slugTr": "raporlarinizi-bozan-utm-hatalari-ve-cozumu",
-      "slugEn": "the-utm-naming-mistakes-wrecking-your-reports",
-      "keywordTr": "utm adlandırma sistemi",
-      "keywordEn": "utm naming convention",
-      "angle": "mistakes: the naming errors that split your analytics, and the taxonomy that fixes them",
-      "style": "question-driven",
-      "brief": "Outline: how inconsistent UTMs silently fragment reports (Email vs email vs EMAIL become three sources); the five UTM params explained with when each matters; a lowercase, no-space, documented convention with controlled vocabularies for source/medium/campaign; a shared URL builder plus a spreadsheet registry; governance (who owns the rules, how new values get added); auto-lowercasing at ingestion; cleaning or remapping messy historical data without losing attribution. Verify: GA4 UTM handling and case sensitivity. Sources: GA4 documentation; a UTM builder tool's guide."
-    },
-    {
-      "translationKey": "claude-code-review-ci-gating",
-      "category": "devops-cloud",
-      "titleTr": "CI'da Claude Code Review ile PR Kapısı Kurun",
-      "titleEn": "Gate PRs With Claude Code Review in CI",
-      "slugTr": "cida-claude-code-review-ile-pr-kapisi-kurun",
-      "slugEn": "gate-prs-with-claude-code-review-in-ci",
-      "keywordTr": "claude code review ci",
-      "keywordEn": "claude code review ci gating",
-      "angle": "how-to: wire claude ultrareview into GitHub Actions to review every PR automatically",
-      "style": "field-notes",
-      "brief": "Outline: what ultrareview does on a PR; the workspace-trust requirement and the --trust-workspace flag (PR number before the flag); a minimal GitHub Actions job; review levels (Quick/Standard/Deep) per repo; gating vs advisory comments; controlling cost and comment noise; stopping an always-on subscription. Verify: 2.1.309 workspace-trust syntax and review levels. Sources: code.claude.com changelog and CI docs."
-    },
     {
       "translationKey": "reproducible-dev-environments-nix-devcontainers",
       "category": "devops-cloud",
