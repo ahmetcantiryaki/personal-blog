@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "topics": [
-    {
-      "translationKey": "reproducible-dev-environments-nix-devcontainers",
-      "category": "devops-cloud",
-      "titleTr": "Tekrarlanabilir Ortamlar: Dev Container ve Nix",
-      "titleEn": "Reproducible Dev Environments: Dev Containers vs Nix",
-      "slugTr": "tekrarlanabilir-ortamlar-dev-container-ve-nix",
-      "slugEn": "reproducible-dev-environments-dev-containers-vs-nix",
-      "keywordTr": "dev container nix ortam",
-      "keywordEn": "dev containers nix reproducible environment",
-      "angle": "comparison: two ways to make 'works on my machine' disappear",
-      "style": "question-driven",
-      "brief": "Outline: the 'works on my machine' problem and what a broken onboarding day actually costs; Dev Containers (devcontainer.json, Codespaces, local editor support, prebuilt images); the Nix/flakes approach (declarative, pinned, reproducible shells); trade-offs across learning curve, startup speed, team buy-in, and reuse in CI; how to combine them (Nix inside a dev container); the payoff of onboarding a new dev with one command; where each one hurts. Verify: devcontainer spec; nix flakes basics. Sources: containers.dev; nixos.org Nix flakes docs."
-    },
-    {
-      "translationKey": "slos-error-budgets-practical-setup",
-      "category": "devops-cloud",
-      "titleTr": "SLO ve Hata Bütçeleri: Uygulamalı Kurulum",
-      "titleEn": "SLOs and Error Budgets: A Practical Setup",
-      "slugTr": "slo-ve-hata-butceleri-uygulamali-kurulum",
-      "slugEn": "slos-and-error-budgets-a-practical-setup",
-      "keywordTr": "slo hata bütçesi",
-      "keywordEn": "slo error budget",
-      "angle": "guide: pick SLIs, set SLOs, and use error budgets to balance speed and reliability",
-      "style": "data-led",
-      "brief": "Outline: SLI vs SLO vs SLA in plain terms; choosing SLIs that reflect user pain (availability, latency percentiles, freshness, correctness); setting realistic targets from real traffic instead of aspiration; defining the error budget and the math behind multi-window burn-rate alerts; writing the policy (slow or freeze releases when the budget is spent) and getting leadership to honor it; common mistakes (99.99% for everything, averaging latency instead of using percentiles, alerting on symptoms you can't act on). Verify: burn-rate alert math; Google SRE definitions. Sources: Google SRE Workbook (SLOs chapter)."
-    },
-    {
-      "translationKey": "multi-region-postgres-tradeoffs-2026",
-      "category": "devops-cloud",
-      "titleTr": "Çok Bölgeli Postgres: Seçenekler ve Ödünleşimler",
-      "titleEn": "Multi-Region Postgres: Options and Trade-offs",
-      "slugTr": "cok-bolgeli-postgres-secenekler-ve-odunlesimler",
-      "slugEn": "multi-region-postgres-options-and-trade-offs",
-      "keywordTr": "çok bölgeli postgres",
-      "keywordEn": "multi-region postgres",
-      "angle": "deep-dive: read replicas, logical replication, and distributed Postgres compared",
-      "style": "contrarian",
-      "brief": "Outline: the three real reasons to go multi-region (latency for distant users, regional failover, data-residency law) and why none is 'scale'; read replicas plus request routing and the read-your-writes trap; logical replication for selective sync; distributed options (Citus, Neon, Spanner-style) and what they cost in complexity; the hard consistency vs latency trade-off; failover, split-brain, and promotion drills; residency rules that force where rows live. Close with the honest case for staying single-region until pain is proven. Verify: replication-lag behavior; distributed Postgres feature sets. Sources: PostgreSQL docs; two managed-Postgres vendor docs."
-    },
-    {
-      "translationKey": "sales-proposals-fast-chatgpt",
-      "category": "business",
-      "titleTr": "ChatGPT ile Hızlı ve Kazandıran Satış Teklifleri",
-      "titleEn": "Draft Winning Sales Proposals Fast With ChatGPT",
-      "slugTr": "chatgpt-ile-hizli-ve-kazandiran-satis-teklifleri",
-      "slugEn": "draft-winning-sales-proposals-fast-with-chatgpt",
-      "keywordTr": "chatgpt satış teklifi",
-      "keywordEn": "chatgpt sales proposal",
-      "angle": "how-to: a repeatable proposal workflow from discovery notes to a sendable document",
-      "style": "story-led",
-      "brief": "Outline: capture discovery notes cleanly; a proposal template (problem, outcome, scope, price, proof, next step); prompt ChatGPT to draft from notes plus template; tailor tone to the buyer; present pricing with options; a pre-send review checklist; what you must never let AI invent (numbers, client facts). Verify: nothing fact-critical; flag client-data privacy. Sources: a B2B sales proposal playbook."
-    },
     {
       "translationKey": "ai-content-labeling-smb-checklist",
       "category": "business",

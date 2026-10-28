@@ -7728,6 +7728,66 @@
         "slug": "gate-prs-with-claude-code-review-in-ci",
         "title": "Gate PRs With Claude Code Review in CI"
       }
+    },
+    {
+      "translationKey": "anthropic-gsa-40-percent-discount-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "kamu-kurumlari-claude-neden-40-indirimle-aliyor",
+        "title": "Kamu Kurumları Claude'u Neden %40 İndirimle Alıyor?"
+      },
+      "en": {
+        "slug": "why-us-government-gets-40-percent-off-claude",
+        "title": "Why Does the US Government Now Get 40% Off Claude?"
+      }
+    },
+    {
+      "translationKey": "reproducible-dev-environments-nix-devcontainers",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "tekrarlanabilir-ortamlar-dev-container-ve-nix",
+        "title": "Tekrarlanabilir Ortamlar: Dev Container ve Nix"
+      },
+      "en": {
+        "slug": "reproducible-dev-environments-dev-containers-vs-nix",
+        "title": "Reproducible Dev Environments: Dev Containers vs Nix"
+      }
+    },
+    {
+      "translationKey": "slos-error-budgets-practical-setup",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "slo-ve-hata-butceleri-uygulamali-kurulum",
+        "title": "SLO ve Hata Bütçeleri: Uygulamalı Kurulum"
+      },
+      "en": {
+        "slug": "slos-and-error-budgets-a-practical-setup",
+        "title": "SLOs and Error Budgets: A Practical Setup"
+      }
+    },
+    {
+      "translationKey": "multi-region-postgres-tradeoffs-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "cok-bolgeli-postgres-secenekler-ve-odunlesimler",
+        "title": "Çok Bölgeli Postgres: Seçenekler ve Ödünleşimler"
+      },
+      "en": {
+        "slug": "multi-region-postgres-options-and-trade-offs",
+        "title": "Multi-Region Postgres: Options and Trade-offs"
+      }
+    },
+    {
+      "translationKey": "sales-proposals-fast-chatgpt",
+      "category": "business",
+      "tr": {
+        "slug": "chatgpt-ile-hizli-ve-kazandiran-satis-teklifleri",
+        "title": "ChatGPT ile Hızlı ve Kazandıran Satış Teklifleri"
+      },
+      "en": {
+        "slug": "draft-winning-sales-proposals-fast-with-chatgpt",
+        "title": "Draft Winning Sales Proposals Fast With ChatGPT"
+      }
     }
   ]
 }
