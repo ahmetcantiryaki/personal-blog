@@ -5086,5 +5086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3634825,
     "generatedAt": "2026-10-27T06:56:41.504Z"
+  },
+  "en/draft-winning-sales-proposals-fast-with-chatgpt": {
+    "hash": "ba03de4b47237080",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-draft-winning-sales-proposals-fast-with-chatgpt.mp3",
+    "seconds": 442,
+    "voice": "en_US-ryan-high",
+    "bytes": 3538276,
+    "generatedAt": "2026-10-28T06:32:17.463Z"
+  },
+  "en/multi-region-postgres-options-and-trade-offs": {
+    "hash": "f33ddf6bcefa3ad5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-multi-region-postgres-options-and-trade-offs.mp3",
+    "seconds": 447,
+    "voice": "en_US-ryan-high",
+    "bytes": 3577146,
+    "generatedAt": "2026-10-28T06:34:18.845Z"
+  },
+  "en/reproducible-dev-environments-dev-containers-vs-nix": {
+    "hash": "17768e88923e2a28",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-reproducible-dev-environments-dev-containers-vs-nix.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3319474,
+    "generatedAt": "2026-10-28T06:36:10.911Z"
+  },
+  "en/slos-and-error-budgets-a-practical-setup": {
+    "hash": "8f99dc778f918c75",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-slos-and-error-budgets-a-practical-setup.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3531171,
+    "generatedAt": "2026-10-28T06:38:09.971Z"
+  },
+  "en/why-us-government-gets-40-percent-off-claude": {
+    "hash": "d883e21c01934d37",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-us-government-gets-40-percent-off-claude.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3451132,
+    "generatedAt": "2026-10-28T06:40:06.823Z"
   }
 }
