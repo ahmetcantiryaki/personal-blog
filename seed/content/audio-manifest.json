@@ -5126,5 +5126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3451132,
     "generatedAt": "2026-10-28T06:40:06.823Z"
+  },
+  "en/ai-content-labeling-an-smb-compliance-checklist": {
+    "hash": "23b3e072f67df0c2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-content-labeling-an-smb-compliance-checklist.mp3",
+    "seconds": 400,
+    "voice": "en_US-ryan-high",
+    "bytes": 3198057,
+    "generatedAt": "2026-10-29T06:31:34.345Z"
+  },
+  "en/build-a-command-palette-cmd-k-in-react": {
+    "hash": "ca4f11601d86b392",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-a-command-palette-cmd-k-in-react.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3339954,
+    "generatedAt": "2026-10-29T06:33:51.109Z"
+  },
+  "en/founder-burnout-staying-sane-while-you-scale": {
+    "hash": "0144074fd71e2853",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-founder-burnout-staying-sane-while-you-scale.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3166292,
+    "generatedAt": "2026-10-29T06:36:01.034Z"
+  },
+  "en/optimistic-ui-with-reacts-useoptimistic-hook": {
+    "hash": "fb051d98109f7049",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-optimistic-ui-with-reacts-useoptimistic-hook.mp3",
+    "seconds": 459,
+    "voice": "en_US-ryan-high",
+    "bytes": 3669306,
+    "generatedAt": "2026-10-29T06:38:29.910Z"
+  },
+  "en/type-safe-env-vars-and-config-in-typescript": {
+    "hash": "4bc9382af1999022",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-type-safe-env-vars-and-config-in-typescript.mp3",
+    "seconds": 353,
+    "voice": "en_US-ryan-high",
+    "bytes": 2825238,
+    "generatedAt": "2026-10-29T06:40:26.718Z"
   }
 }
