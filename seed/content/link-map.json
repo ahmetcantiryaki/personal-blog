@@ -7788,6 +7788,66 @@
         "slug": "draft-winning-sales-proposals-fast-with-chatgpt",
         "title": "Draft Winning Sales Proposals Fast With ChatGPT"
       }
+    },
+    {
+      "translationKey": "ai-content-labeling-smb-checklist",
+      "category": "business",
+      "tr": {
+        "slug": "yapay-zeka-icerik-etiketleme-kobi-uyum-listesi",
+        "title": "Yapay Zeka İçerik Etiketleme: KOBİ Uyum Listesi"
+      },
+      "en": {
+        "slug": "ai-content-labeling-an-smb-compliance-checklist",
+        "title": "AI Content Labeling: An SMB Compliance Checklist"
+      }
+    },
+    {
+      "translationKey": "founder-burnout-scaling-ai-era",
+      "category": "business",
+      "tr": {
+        "slug": "kurucu-tukenmisligi-buyurken-ayakta-kalmak",
+        "title": "Kurucu Tükenmişliği: Büyürken Ayakta Kalmak"
+      },
+      "en": {
+        "slug": "founder-burnout-staying-sane-while-you-scale",
+        "title": "Founder Burnout: Staying Sane While You Scale"
+      }
+    },
+    {
+      "translationKey": "build-command-palette-react",
+      "category": "web-development",
+      "tr": {
+        "slug": "reactte-komut-paleti-cmd-k-nasil-yapilir",
+        "title": "React'te Komut Paleti (Cmd+K) Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "build-a-command-palette-cmd-k-in-react",
+        "title": "Build a Command Palette (Cmd+K) in React"
+      }
+    },
+    {
+      "translationKey": "optimistic-ui-react-useoptimistic",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-useoptimistic-ile-iyimser-arayuz",
+        "title": "React useOptimistic ile İyimser Arayüz"
+      },
+      "en": {
+        "slug": "optimistic-ui-with-reacts-useoptimistic-hook",
+        "title": "Optimistic UI With React's useOptimistic Hook"
+      }
+    },
+    {
+      "translationKey": "type-safe-env-config-typescript",
+      "category": "web-development",
+      "tr": {
+        "slug": "typescriptte-tip-guvenli-ortam-degiskenleri",
+        "title": "TypeScript'te Tip Güvenli Ortam Değişkenleri"
+      },
+      "en": {
+        "slug": "type-safe-env-vars-and-config-in-typescript",
+        "title": "Type-Safe Env Vars and Config in TypeScript"
+      }
     }
   ]
 }
