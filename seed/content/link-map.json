@@ -7848,6 +7848,66 @@
         "slug": "type-safe-env-vars-and-config-in-typescript",
         "title": "Type-Safe Env Vars and Config in TypeScript"
       }
+    },
+    {
+      "translationKey": "claude-code-blocks-writes-outside-working-dir-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-calisma-dizini-disina-neden-yazamiyor",
+        "title": "Claude Code Artık Çalışma Dizini Dışına Neden Yazamıyor?"
+      },
+      "en": {
+        "slug": "why-cant-claude-code-write-outside-working-directory",
+        "title": "Why Can't Claude Code Write Outside Your Working Directory Anymore?"
+      }
+    },
+    {
+      "translationKey": "instagram-trial-reels-test-hooks",
+      "category": "social-media",
+      "tr": {
+        "slug": "instagram-deneme-reels-paylasmadan-hook-test-et",
+        "title": "Instagram Deneme Reels: Paylaşmadan Hook Test Et"
+      },
+      "en": {
+        "slug": "instagram-trial-reels-test-hooks-before-you-post",
+        "title": "Instagram Trial Reels: Test Hooks Before You Post"
+      }
+    },
+    {
+      "translationKey": "linkedin-document-carousels-saved",
+      "category": "social-media",
+      "tr": {
+        "slug": "kaydedilen-linkedin-belge-karuselleri-nasil-yapilir",
+        "title": "Kaydedilen LinkedIn Belge Karuselleri Nasıl Yapılır"
+      },
+      "en": {
+        "slug": "linkedin-document-carousels-that-get-saved",
+        "title": "LinkedIn Document Carousels That Get Saved"
+      }
+    },
+    {
+      "translationKey": "grow-on-substack-notes-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026da-substack-notesta-kitle-buyutmek",
+        "title": "2026'da Substack Notes'ta Kitle Büyütmek"
+      },
+      "en": {
+        "slug": "grow-an-audience-on-substack-notes-in-2026",
+        "title": "Grow an Audience on Substack Notes in 2026"
+      }
+    },
+    {
+      "translationKey": "chatgpt-locked-chats-private-work",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-kilitli-sohbetler-hassas-isleri-gizleyin",
+        "title": "ChatGPT Kilitli Sohbetler: Hassas İşleri Gizleyin"
+      },
+      "en": {
+        "slug": "chatgpt-locked-chats-keep-sensitive-work-private",
+        "title": "ChatGPT Locked Chats: Keep Sensitive Work Private"
+      }
     }
   ]
 }

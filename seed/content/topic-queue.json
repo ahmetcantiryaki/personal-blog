@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "topics": [
-    {
-      "translationKey": "instagram-trial-reels-test-hooks",
-      "category": "social-media",
-      "titleTr": "Instagram Deneme Reels: Paylaşmadan Hook Test Et",
-      "titleEn": "Instagram Trial Reels: Test Hooks Before You Post",
-      "slugTr": "instagram-deneme-reels-paylasmadan-hook-test-et",
-      "slugEn": "instagram-trial-reels-test-hooks-before-you-post",
-      "keywordTr": "instagram deneme reels",
-      "keywordEn": "instagram trial reels",
-      "angle": "how-to: validate hooks with non-followers using Trial Reels, then promote the winners",
-      "style": "data-led",
-      "brief": "Outline: what Trial Reels are (shown to non-followers first); scheduling them (2026 update); what to test (hook, first frame, topic, format); which signals to read (watch time, sends, replays) and which to ignore; promoting winners to your followers; limits and common misreads. Verify: Trial Reels scheduling and which metrics surface. Sources: Instagram Creators/newsroom; treat vendor-blog stats as unverified."
-    },
-    {
-      "translationKey": "linkedin-document-carousels-saved",
-      "category": "social-media",
-      "titleTr": "Kaydedilen LinkedIn Belge Karuselleri Nasıl Yapılır",
-      "titleEn": "LinkedIn Document Carousels That Get Saved",
-      "slugTr": "kaydedilen-linkedin-belge-karuselleri-nasil-yapilir",
-      "slugEn": "linkedin-document-carousels-that-get-saved",
-      "keywordTr": "linkedin belge karuseli",
-      "keywordEn": "linkedin document carousel",
-      "angle": "how-to: design PDF/document carousels that earn saves and dwell time",
-      "style": "field-notes",
-      "brief": "Outline: why document carousels still pull reach (dwell time, saves); structure (hook slide, one idea per slide, a clear CTA); design specs and tools; going from outline to PDF fast; posting plus a first-comment strategy; measuring saves and dwell instead of likes. Verify: LinkedIn document-post specs; dwell-time claims (mostly vendor-sourced, flag as such). Sources: LinkedIn help; two creator playbooks."
-    },
-    {
-      "translationKey": "grow-on-substack-notes-2026",
-      "category": "social-media",
-      "titleTr": "2026'da Substack Notes'ta Kitle Büyütmek",
-      "titleEn": "Grow an Audience on Substack Notes in 2026",
-      "slugTr": "2026da-substack-notesta-kitle-buyutmek",
-      "slugEn": "grow-an-audience-on-substack-notes-in-2026",
-      "keywordTr": "substack notes kitle",
-      "keywordEn": "substack notes growth",
-      "angle": "guide: use Notes as a discovery engine that feeds your newsletter",
-      "style": "story-led",
-      "brief": "Outline: how Notes differs from X and Threads (recommendation-driven reach, directly wired to subscriptions); the flywheel from a single Note to a free and then paid subscriber; what actually travels (restacks with a take, short insights, teasers, behind-the-scenes) vs link dumps the feed buries; a realistic posting cadence for a solo writer; engaging with other writers to earn restacks; converting readers to your newsletter without being spammy; mistakes (auto-cross-posting from X, no native hook, pitching paid too early). Verify: Notes recommendation and restack mechanics. Sources: Substack docs and company blog."
-    },
-    {
-      "translationKey": "chatgpt-locked-chats-private-work",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Kilitli Sohbetler: Hassas İşleri Gizleyin",
-      "titleEn": "ChatGPT Locked Chats: Keep Sensitive Work Private",
-      "slugTr": "chatgpt-kilitli-sohbetler-hassas-isleri-gizleyin",
-      "slugEn": "chatgpt-locked-chats-keep-sensitive-work-private",
-      "keywordTr": "chatgpt kilitli sohbet",
-      "keywordEn": "chatgpt locked chats",
-      "angle": "how-to: lock, hide, and protect sensitive conversations with a PIN or device auth",
-      "style": "question-driven",
-      "brief": "Outline: what Locked Chats do (hidden from history, pins, and search; opened with a PIN or device auth); how to set them up; when to use them (client data, HR, legal, salary); their limits (not a substitute for enterprise DLP or a private workspace); pairing with work/personal account separation. Verify: Oct 2026 Locked Chats behavior and auth options. Sources: ChatGPT release notes and help center."
-    },
     {
       "translationKey": "learn-language-ai-tutors-big-three",
       "category": "career-productivity",

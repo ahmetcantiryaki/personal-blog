@@ -75,6 +75,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   images: { en: 'Images', tr: 'Görseller' },
   'influencer-marketing': { en: 'Influencer Marketing', tr: 'Influencer Pazarlaması' },
   'infrastructure-as-code': { en: 'Infrastructure as Code', tr: 'Kod Olarak Altyapı' },
+  instagram: { en: 'Instagram', tr: 'Instagram' },
   integration: { en: 'Integration', tr: 'Entegrasyon' },
   interview: { en: 'Interview', tr: 'Mülakat' },
   ipo: { en: 'IPO', tr: 'Halka Arz' },
