@@ -5166,5 +5166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2825238,
     "generatedAt": "2026-10-29T06:40:26.718Z"
+  },
+  "en/chatgpt-locked-chats-keep-sensitive-work-private": {
+    "hash": "01ef155def88116e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-locked-chats-keep-sensitive-work-private.mp3",
+    "seconds": 380,
+    "voice": "en_US-ryan-high",
+    "bytes": 3037352,
+    "generatedAt": "2026-10-30T06:21:19.341Z"
+  },
+  "en/grow-an-audience-on-substack-notes-in-2026": {
+    "hash": "a8e2f4276905df5d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-grow-an-audience-on-substack-notes-in-2026.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3797202,
+    "generatedAt": "2026-10-30T06:22:32.943Z"
+  },
+  "en/instagram-trial-reels-test-hooks-before-you-post": {
+    "hash": "2618f5ef3ea1b5c0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-instagram-trial-reels-test-hooks-before-you-post.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3305473,
+    "generatedAt": "2026-10-30T06:23:36.955Z"
+  },
+  "en/linkedin-document-carousels-that-get-saved": {
+    "hash": "03238e910d3788c4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-linkedin-document-carousels-that-get-saved.mp3",
+    "seconds": 399,
+    "voice": "en_US-ryan-high",
+    "bytes": 3192833,
+    "generatedAt": "2026-10-30T06:24:38.295Z"
+  },
+  "en/why-cant-claude-code-write-outside-working-directory": {
+    "hash": "3760688ce89cbd45",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-cant-claude-code-write-outside-working-directory.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3355837,
+    "generatedAt": "2026-10-30T06:25:41.965Z"
   }
 }
