@@ -5206,5 +5206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3355837,
     "generatedAt": "2026-10-30T06:25:41.965Z"
+  },
+  "en/keep-a-decision-log-to-think-more-clearly": {
+    "hash": "af505f13bba9a118",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-keep-a-decision-log-to-think-more-clearly.mp3",
+    "seconds": 371,
+    "voice": "en_US-ryan-high",
+    "bytes": 2970269,
+    "generatedAt": "2026-10-31T06:27:34.922Z"
+  },
+  "en/learn-a-language-with-claude-chatgpt-and-gemini": {
+    "hash": "f1c6b3fc8e577bf1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-learn-a-language-with-claude-chatgpt-and-gemini.mp3",
+    "seconds": 384,
+    "voice": "en_US-ryan-high",
+    "bytes": 3072460,
+    "generatedAt": "2026-10-31T06:29:17.780Z"
+  },
+  "en/opus-4-8-fast-mode-removal-deadline": {
+    "hash": "35fcdf7b39a5eb28",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-opus-4-8-fast-mode-removal-deadline.mp3",
+    "seconds": 452,
+    "voice": "en_US-ryan-high",
+    "bytes": 3620196,
+    "generatedAt": "2026-10-31T06:31:19.284Z"
+  },
+  "en/soft-deletes-vs-hard-deletes-getting-it-right": {
+    "hash": "62756308198b7e31",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-soft-deletes-vs-hard-deletes-getting-it-right.mp3",
+    "seconds": 378,
+    "voice": "en_US-ryan-high",
+    "bytes": 3023350,
+    "generatedAt": "2026-10-31T06:33:00.737Z"
+  },
+  "en/structured-logging-thats-actually-useful": {
+    "hash": "6acf61ff3ffc9de6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-structured-logging-thats-actually-useful.mp3",
+    "seconds": 391,
+    "voice": "en_US-ryan-high",
+    "bytes": 3132020,
+    "generatedAt": "2026-10-31T06:34:45.678Z"
   }
 }
