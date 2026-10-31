@@ -7908,6 +7908,66 @@
         "slug": "chatgpt-locked-chats-keep-sensitive-work-private",
         "title": "ChatGPT Locked Chats: Keep Sensitive Work Private"
       }
+    },
+    {
+      "translationKey": "claude-code-opus-4-8-fast-mode-deprecation-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "opus-4-8-fast-mode-ne-zaman-kaldiriliyor",
+        "title": "Opus 4.8 Fast Mode Ne Zaman Kaldırılıyor?"
+      },
+      "en": {
+        "slug": "opus-4-8-fast-mode-removal-deadline",
+        "title": "When Is Opus 4.8 Fast Mode Being Removed?"
+      }
+    },
+    {
+      "translationKey": "learn-language-ai-tutors-big-three",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "claude-chatgpt-ve-gemini-ile-dil-ogrenin",
+        "title": "Claude, ChatGPT ve Gemini ile Dil Öğrenin"
+      },
+      "en": {
+        "slug": "learn-a-language-with-claude-chatgpt-and-gemini",
+        "title": "Learn a Language With Claude, ChatGPT, and Gemini"
+      }
+    },
+    {
+      "translationKey": "build-a-decision-log-think-clearly",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "daha-net-dusunmek-icin-karar-gunlugu-tutun",
+        "title": "Daha Net Düşünmek İçin Karar Günlüğü Tutun"
+      },
+      "en": {
+        "slug": "keep-a-decision-log-to-think-more-clearly",
+        "title": "Keep a Decision Log to Think More Clearly"
+      }
+    },
+    {
+      "translationKey": "structured-logging-that-helps",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "gercekten-ise-yarayan-yapilandirilmis-loglama",
+        "title": "Gerçekten İşe Yarayan Yapılandırılmış Loglama"
+      },
+      "en": {
+        "slug": "structured-logging-thats-actually-useful",
+        "title": "Structured Logging That's Actually Useful"
+      }
+    },
+    {
+      "translationKey": "soft-vs-hard-deletes-done-right",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yumusak-ve-kalici-silme-dogru-yaklasim",
+        "title": "Yumuşak ve Kalıcı Silme: Doğru Yaklaşım"
+      },
+      "en": {
+        "slug": "soft-deletes-vs-hard-deletes-getting-it-right",
+        "title": "Soft Deletes vs Hard Deletes: Getting It Right"
+      }
     }
   ]
 }

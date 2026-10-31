@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "topics": [
-    {
-      "translationKey": "learn-language-ai-tutors-big-three",
-      "category": "career-productivity",
-      "titleTr": "Claude, ChatGPT ve Gemini ile Dil Öğrenin",
-      "titleEn": "Learn a Language With Claude, ChatGPT, and Gemini",
-      "slugTr": "claude-chatgpt-ve-gemini-ile-dil-ogrenin",
-      "slugEn": "learn-a-language-with-claude-chatgpt-and-gemini",
-      "keywordTr": "yapay zeka ile dil öğrenme",
-      "keywordEn": "learn a language with ai",
-      "angle": "comparison: voice practice, correction, and roleplay across the three assistants",
-      "style": "data-led",
-      "brief": "Outline: set up a tutor persona and system prompt; use voice mode for speaking practice (pace, accent); correction plus spaced review; roleplay scenarios (ordering, interviews); how the three compare on voice naturalness, correction quality, and memory; limits (never trust grammar blindly); a simple weekly plan. Verify: each tool's voice-mode and memory features. Sources: Claude, ChatGPT, and Gemini product docs."
-    },
-    {
-      "translationKey": "build-a-decision-log-think-clearly",
-      "category": "career-productivity",
-      "titleTr": "Daha Net Düşünmek İçin Karar Günlüğü Tutun",
-      "titleEn": "Keep a Decision Log to Think More Clearly",
-      "slugTr": "daha-net-dusunmek-icin-karar-gunlugu-tutun",
-      "slugEn": "keep-a-decision-log-to-think-more-clearly",
-      "keywordTr": "karar günlüğü",
-      "keywordEn": "decision log",
-      "angle": "guide: record decisions and reasoning to beat hindsight bias and repeat your wins",
-      "style": "story-led",
-      "brief": "Outline: what a decision log is and why memory lies; the entry template (context, options, decision, expected outcome, confidence, review date); where to keep it (notes app, or ADRs in the repo); reviewing predictions against reality; using AI to summarize entries and surface patterns; personal vs team logs. Verify: ADR format; the decision-journal concept. Sources: ADR references; Kahneman on hindsight bias."
-    },
-    {
-      "translationKey": "structured-logging-that-helps",
-      "category": "software-engineering",
-      "titleTr": "Gerçekten İşe Yarayan Yapılandırılmış Loglama",
-      "titleEn": "Structured Logging That's Actually Useful",
-      "slugTr": "gercekten-ise-yarayan-yapilandirilmis-loglama",
-      "slugEn": "structured-logging-thats-actually-useful",
-      "keywordTr": "yapılandırılmış loglama",
-      "keywordEn": "structured logging",
-      "angle": "guide: log JSON with context so you can actually query an incident at 3am",
-      "style": "field-notes",
-      "brief": "Outline: why plain string logs fail under pressure; structured/JSON logging and consistent fields; correlation IDs and trace context; log levels that mean something; what you must never log (PII, secrets, tokens); sampling noisy logs to control cost; connecting logs to traces and metrics. Verify: OpenTelemetry log correlation and context propagation. Sources: OpenTelemetry logs docs; the 12-factor logs principle."
-    },
-    {
-      "translationKey": "soft-vs-hard-deletes-done-right",
-      "category": "software-engineering",
-      "titleTr": "Yumuşak ve Kalıcı Silme: Doğru Yaklaşım",
-      "titleEn": "Soft Deletes vs Hard Deletes: Getting It Right",
-      "slugTr": "yumusak-ve-kalici-silme-dogru-yaklasim",
-      "slugEn": "soft-deletes-vs-hard-deletes-getting-it-right",
-      "keywordTr": "yumuşak silme kalıcı silme",
-      "keywordEn": "soft delete vs hard delete",
-      "angle": "deep-dive: when to soft-delete, the hidden costs, and how to do it safely",
-      "style": "contrarian",
-      "brief": "Outline: the appeal of soft deletes; their hidden costs (broken unique constraints, query noise, 'deleted' data still leaking); partial indexes and strict query hygiene; GDPR right-to-erasure vs keeping soft-deleted rows; archive tables plus scheduled hard-delete jobs; keeping an audit trail. Verify: partial unique index behavior; GDPR Article 17 erasure. Sources: PostgreSQL docs; GDPR Article 17."
-    },
     {
       "translationKey": "time-zones-timestamps-without-bugs",
       "category": "software-engineering",
