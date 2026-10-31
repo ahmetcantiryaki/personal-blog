@@ -5224,27 +5224,27 @@
     "generatedAt": "2026-10-31T06:29:17.780Z"
   },
   "en/opus-4-8-fast-mode-removal-deadline": {
-    "hash": "35fcdf7b39a5eb28",
+    "hash": "79a77b697226ed50",
     "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-opus-4-8-fast-mode-removal-deadline.mp3",
-    "seconds": 452,
+    "seconds": 438,
     "voice": "en_US-ryan-high",
-    "bytes": 3620196,
-    "generatedAt": "2026-10-31T06:31:19.284Z"
+    "bytes": 3506929,
+    "generatedAt": "2026-10-31T06:37:45.855Z"
   },
   "en/soft-deletes-vs-hard-deletes-getting-it-right": {
-    "hash": "62756308198b7e31",
+    "hash": "f199cf3fd922826f",
     "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-soft-deletes-vs-hard-deletes-getting-it-right.mp3",
-    "seconds": 378,
+    "seconds": 379,
     "voice": "en_US-ryan-high",
-    "bytes": 3023350,
-    "generatedAt": "2026-10-31T06:33:00.737Z"
+    "bytes": 3035262,
+    "generatedAt": "2026-10-31T06:39:50.873Z"
   },
   "en/structured-logging-thats-actually-useful": {
-    "hash": "6acf61ff3ffc9de6",
+    "hash": "2ae3b0e0baaa1007",
     "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-structured-logging-thats-actually-useful.mp3",
-    "seconds": 391,
+    "seconds": 412,
     "voice": "en_US-ryan-high",
-    "bytes": 3132020,
-    "generatedAt": "2026-10-31T06:34:45.678Z"
+    "bytes": 3299412,
+    "generatedAt": "2026-10-31T06:42:05.998Z"
   }
 }
