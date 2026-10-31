@@ -15,7 +15,7 @@ Kısa cevap: bir karar günlüğü, verdiğiniz her önemli kararı bağlamı, d
 
 ## Karar günlüğü nedir ve hafıza neden yalan söylüyor?
 
-Karar günlüğü, bir kararı verdiğiniz anda düşüncenizi dondurup yazıya döktüğünüz bir kayıt. Buna ihtiyaç duymanızın nedeni basit: insan hafızası bir kararın sonucunu öğrendikten sonra, o kararı "zaten böyle düşünmüştüm" diye yeniden yazıyor. Retrospektif önyargı, bir olayın sonucunu bildikten sonra o sonucun baştan beri kaçınılmaz veya öngörülebilir göründüğü hissi olarak tanımlanıyor.
+Karar günlüğü, bir kararı verdiğiniz anda düşüncenizi dondurup yazıya döktüğünüz bir kayıt. Buna ihtiyaç duymanızın nedeni basit: insan hafızası bir kararın sonucunu öğrendikten sonra, o kararı "zaten böyle düşünmüştüm" diye yeniden yazıyor. [Retrospektif önyargı](https://en.wikipedia.org/wiki/Hindsight_bias), bir olayın sonucunu bildikten sonra o sonucun baştan beri kaçınılmaz veya öngörülebilir göründüğü hissi olarak tanımlanıyor.
 
 Bu önyargının pratik sonucu şu: bir proje başarısız olduğunda "zaten riskli olduğunu biliyordum" dersiniz, ama o kararı verdiğiniz andaki gerçek güven seviyeniz yazılı değilse bu iddiayı doğrulayamazsınız. Karar günlüğü tam olarak bu boşluğu kapatıyor — kararı verdiğiniz andaki gerçek düşünceniz, sonradan değiştirilemeyecek şekilde kayıt altına alınıyor.
 
@@ -46,7 +46,7 @@ Etkili bir girdi altı alandan oluşuyor: bağlam, değerlendirilen seçenekler,
 
 ## Karar günlüğünü nerede tutmalısınız?
 
-Kişisel kararlar için bir not uygulaması yeterli; mühendislik kararları için repo içinde Mimari Karar Kayıtları (Architecture Decision Record, ADR) daha uygun. ADR formatı 2011'de Michael Nygard tarafından önerildi ve dört sabit bölümden oluşuyor: Durum, Bağlam, Karar ve Sonuçlar; kayıtlar genelde bir-iki sayfayı geçmiyor ve kodla birlikte versiyon kontrolünde tutuluyor.
+Kişisel kararlar için bir not uygulaması yeterli; mühendislik kararları için repo içinde Mimari Karar Kayıtları (Architecture Decision Record, ADR) daha uygun. [ADR formatı](https://adr.github.io/) 2011'de Michael Nygard tarafından önerildi ve dört sabit bölümden oluşuyor: Durum, Bağlam, Karar ve Sonuçlar; kayıtlar genelde bir-iki sayfayı geçmiyor ve kodla birlikte versiyon kontrolünde tutuluyor.
 
 Kişisel karar günlüğü ile ekip ADR'si arasındaki fark, okuyucu kitlesinde yatıyor: kişisel günlük sadece sizin gelecekteki kendinize hitap ediyor, ADR ise aynı kod tabanına dokunacak her mühendise. [API versiyonlama stratejileri](/tr/posts/api-versiyonlama-stratejileri) gibi mimari kararlarda ADR formatını kullanmak, kararın gerekçesini altı ay sonra işe başlayan birine tekrar anlatmak zorunda kalmamanızı sağlıyor.
 
@@ -55,6 +55,8 @@ Kişisel karar günlüğü ile ekip ADR'si arasındaki fark, okuyucu kitlesinde 
 Gözden geçirme tarihi geldiğinde girdiyi tekrar açın ve beklenen sonuçla gerçekte olanı yan yana yazın; aradaki fark, güven seviyenizin ne kadar kalibre olduğunu gösteriyor. Güveniniz 5/5 olduğu kararların üçte biri yanlış çıkıyorsa, bu sizin aşırı özgüvenli tahmin yapma eğiliminizin somut bir kanıtı.
 
 Bu karşılaştırmayı düzenli yapan biri zamanla iki şeyi öğreniyor: hangi tür kararlarda sistematik olarak fazla iyimser olduğunu, ve hangi bağlamlarda ilk sezgisinin aslında güvenilir olduğunu. Bu, [tükenmişliği önlemek](/tr/posts/yazilimci-tukenmisligi) için de dolaylı bir araç — çünkü "neden bu kadar çok yanlış karar verdim" hissi genelde kayıt eksikliğinden, gerçek bir yetersizlikten değil.
+
+Bu kalibrasyon egzersizinin asıl faydası, tek bir kararın doğru çıkıp çıkmadığından çok, zaman içindeki eğilimi görmek. On kararlık bir örneklemde güveniniz tutarlı şekilde gerçek başarı oranınızdan yüksekse, bu sizi bir sonraki büyük kararda biraz daha temkinli bir güven puanı yazmaya itiyor — günlüğün asıl getirisi burada ortaya çıkıyor.
 
 ## AI, karar günlüğünü özetlemek için nasıl kullanılır?
 
@@ -79,6 +81,8 @@ Kendi değerlendirmem: çoğu insan karar günlüğünü ilk iki hafta tutup bı
 Bu yüzden günlüğü bir disiplin değil bir sözleşme gibi düşünmek daha işe yarıyor: her girdiye koyduğunuz gözden geçirme tarihini takvime de eklerseniz, günlük kendiliğinden hatırlatıcıya dönüşüyor ve tutma alışkanlığı sizin motivasyonunuza değil, takvim bildirimine bağlı kalıyor.
 
 Bu küçük değişiklik, günlüğü "bir gün gözden geçiririm" niyetinden çıkarıp somut bir takvim etkinliğine bağlıyor; motivasyona dayanan hiçbir alışkanlık uzun vadede güvenilir olmuyor, ama bir takvim bildirimi her zaman aynı anda çalıyor.
+
+Başlangıçta günlüğü karmaşıklaştırmamak da önemli: ilk hafta sadece üç-dört alanlı basit bir tabloyla başlayıp, hangi alanların gerçekten işinize yaradığını gördükten sonra şablonu genişletmek, baştan on alanlı mükemmel bir şablon tasarlamaya çalışıp hiç başlamamaktan çok daha iyi sonuç veriyor. Şablonu mükemmelleştirmek yerine alışkanlığı oturtmak, ilk ayda asıl hedefiniz olmalı.
 
 ## Sıkça Sorulan Sorular
 

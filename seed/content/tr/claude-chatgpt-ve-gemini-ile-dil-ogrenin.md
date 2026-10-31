@@ -65,6 +65,8 @@ Dil bilgisi konusunda körü körüne güvenmeyin; üçü de bazen yanlış ama 
 
 Kendi değerlendirmem: AI tutor'lar bir insan öğretmenin yerini almıyor, ama günde 20 dakikalık düşük riskli pratik için insan öğretmenden çok daha erişilebilir bir seçenek sunuyor — asıl fark, bu pratiği disiplinli bir rutine çevirip çeviremediğinizde.
 
+Bu üç asistanı bir insan öğretmenin tam yerine koymak yerine, onu tamamlayan bir ara katman olarak görmek daha gerçekçi: haftalık bir insan dersinin arasındaki altı günü, o dersten çıkan hataları pekiştirecek düşük riskli pratiğe çevirmek, AI tutor'un asıl katkısı. Bir insan öğretmen seviyenizi ve çıkmaza girdiğiniz noktaları tanıyor; AI tutor ise o noktaları sınırsız sayıda tekrar etme fırsatı sunuyor.
+
 ## Haftalık pratik planı nasıl kurulur?
 
 Basit bir plan: haftada üç gün 10 dakikalık sesli oturum, iki gün metin sohbetinde düzeltme ve kelime tekrarı, bir gün de 15 dakikalık roleplay senaryosu. Bu toplamda haftada yaklaşık 70-80 dakika, çoğu dil öğrenme uygulamasının önerdiği haftalık sürenin altında ama tutarlı tekrar sayesinde etkili kalıyor. Planı [AI çalışma araçları karşılaştırmasında](/tr/posts/ai-calisma-araclari-karsilastirma-2026) önerilen not alma ve tekrar yöntemleriyle birleştirmek, dil öğrenmeyi daha geniş bir öğrenme sistemine bağlıyor.

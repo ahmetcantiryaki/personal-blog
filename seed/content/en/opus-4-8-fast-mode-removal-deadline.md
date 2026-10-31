@@ -90,8 +90,4 @@ Fast mode is a generally available feature for Opus 5.5, so there is no separate
 
 ### Is this the same as the Opus 4.1 retirement?
 
-No, it is a different event but the same pattern: Opus 4.1 was retired entirely, while this time only Opus 4.8's fast mode feature is being removed, not the model itself. In both cases, though, Anthropic pointed users to the next model generation — Opus 4.8 and Opus 5.5, respectively.
-
-### Is Opus 4.8 itself being retired too?
-
-No, only the fast mode feature is being removed — Opus 4.8 itself keeps working at standard speed. The changelog gives no retirement date for the model; it only states clearly that fast mode on Opus 4.8 ends on November 30, 2026.
+No, it is a different event but the same pattern: Opus 4.1 was retired entirely, while this time only Opus 4.8's fast mode feature is being removed, not the model itself — Opus 4.8 keeps working at standard speed. In both cases, though, Anthropic pointed users to the next model generation — Opus 4.8 and Opus 5.5, respectively — and opened a fixed migration window each time.

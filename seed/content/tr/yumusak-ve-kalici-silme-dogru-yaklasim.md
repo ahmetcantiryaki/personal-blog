@@ -35,7 +35,7 @@ Bu kolaylık, çoğu ekibin soft delete'i düşünmeden her tabloya varsayılan 
 
 ## Kısmi unique index sorunu nasıl çözüyor?
 
-PostgreSQL'de bir kısmi unique index, kısıtlamayı sadece belirli bir koşulu sağlayan satırlara uygulayarak soft-deleted satırları kısıtlamanın dışında tutuyor. Aşağıdaki index, sadece `deleted_at IS NULL` olan (yani aktif) satırlar arasında e-posta benzersizliğini zorunlu kılıyor; silinmiş kullanıcılar aynı e-postayı paylaşabiliyor ama aktif kullanıcılar paylaşamıyor.
+[PostgreSQL'in CREATE INDEX dokümantasyonuna](https://www.postgresql.org/docs/current/sql-createindex.html) göre bir kısmi unique index, kısıtlamayı sadece belirli bir koşulu sağlayan satırlara uygulayarak soft-deleted satırları kısıtlamanın dışında tutuyor. Aşağıdaki index, sadece `deleted_at IS NULL` olan (yani aktif) satırlar arasında e-posta benzersizliğini zorunlu kılıyor; silinmiş kullanıcılar aynı e-postayı paylaşabiliyor ama aktif kullanıcılar paylaşamıyor.
 
 ```sql
 CREATE UNIQUE INDEX users_email_unique
@@ -47,7 +47,7 @@ Bu, MySQL'in aynı sorunu çözmek için kullandığı, silinen satırlarda NULL
 
 ## GDPR'nin silme hakkı soft delete ile karşılanır mı?
 
-Hayır, GDPR Madde 17'nin tanımladığı "silme hakkı" (right to erasure), verinin gerçekten ve geri döndürülemez şekilde kaldırılmasını gerektiriyor; bir `deleted_at` sütunu doldurup veriyi veritabanında tutmak bu gereksinimi karşılamıyor. Bir kullanıcı silme talebinde bulunduğunda, o kullanıcıya ait kişisel verilerin yedeklerden ve arşiv tablolarından da fiilen kaldırılması gerekiyor — sadece ana tablodan "gizlenmesi" yeterli değil.
+Hayır, [GDPR Madde 17'nin](https://gdpr-info.eu/art-17-gdpr/) tanımladığı "silme hakkı" (right to erasure), verinin gerçekten ve geri döndürülemez şekilde kaldırılmasını gerektiriyor; bir `deleted_at` sütunu doldurup veriyi veritabanında tutmak bu gereksinimi karşılamıyor. Bir kullanıcı silme talebinde bulunduğunda, o kullanıcıya ait kişisel verilerin yedeklerden ve arşiv tablolarından da fiilen kaldırılması gerekiyor — sadece ana tablodan "gizlenmesi" yeterli değil.
 
 Bu, [sıfırdan şema migrasyonu](/tr/posts/kesintisiz-sema-migrasyonlari) yapan ekiplerin de dikkat etmesi gereken bir nokta: bir tabloyu soft-delete'ten hard-delete'e geçirirken, eski yedeklerde kalan kişisel verinin de saklama politikasına dahil edilmesi gerekiyor.
 
@@ -82,6 +82,8 @@ Geçiş sırasında en kritik adım, mevcut unique kısıtlamaları kısmi index
 Kullanıcıya doğrudan bir "geri al" özelliği sunduğunuz, kısa ömürlü ve düşük hacimli tablolarda (bir not uygulamasındaki tek bir not gibi) soft delete hâlâ en basit çözüm. Ama büyük hacimli, kişisel veri içeren veya uyumluluk gereksinimi olan tablolarda (kullanıcı hesapları, ödeme kayıtları) varsayılan olarak hard delete'e yönelmek, ileride çıkacak unique kısıtlama hatalarından ve uyumluluk risklerinden kaçınmanın en güvenli yolu.
 
 Kendi değerlendirmem: çoğu ekip soft delete'i "ihtiyatlı" olduğu için seçiyor, ama bu ihtiyat genelde altı ay sonra bozulan bir unique kısıtlama veya bir uyumluluk denetiminde ortaya çıkan bir pişmanlığa dönüşüyor. Varsayılan seçim hard delete olmalı; soft delete sadece gerçekten geri alma ihtiyacı olan yerlerde, bilinçli bir istisna olarak eklenmeli.
+
+Yeni bir şema tasarlarken kendinize sorulması gereken pratik soru şu: "bu satırı kim, ne sıklıkla ve hangi süre içinde geri almak isteyecek?" Cevap "kullanıcı, nadiren, birkaç dakika içinde" ise soft delete mantıklı. Cevap "muhtemelen kimse, ama bir denetçi altı ay sonra sorabilir" ise ihtiyacınız olan şey soft delete değil, ayrı bir denetim tablosu.
 
 ## Sıkça Sorulan Sorular
 

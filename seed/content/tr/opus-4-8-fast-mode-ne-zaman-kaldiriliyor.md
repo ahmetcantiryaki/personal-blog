@@ -57,6 +57,8 @@ Takımların CI/CD'de ajan çalıştırırken model adını kod incelemesi gerek
 
 Geçişi 30 Kasım 2026'dan önce tamamlamak isteyenler için kontrol edilmesi gereken dört yer var: proje kökündeki `.claude/settings.json` dosyasındaki model alanı, CI/CD sağlayıcınızın ortam değişkeni tanımları (GitHub Actions secrets, GitLab CI/CD variables gibi), Docker imajlarına gömülü varsayılan model adları ve ekip üyelerinin yerel `.claude/settings.local.json` dosyaları. Bu dört yerden biri atlanırsa, 30 Kasım sonrası sadece o konfigürasyonu kullanan iş akışı hatayla karşılaşır — bu yüzden geçişi tek bir merkezi değişkende toplamak, dağınık kontrolden çok daha güvenli.
 
+Pratikte bu, ekip içinde tek bir kişinin sorumlu olduğu kısa bir kontrol listesine dönüşüyor: önce staging ortamında model adını değiştirip mevcut test takımını çalıştırmak, ardından prod CI değişkenini güncellemek, son olarak da geliştirici makinelerindeki yerel ayarların aynı değere işaret ettiğini doğrulamak. Bu üç adımı 30 Kasım'dan en az birkaç gün önce tamamlamak, son dakika sürprizlerine karşı makul bir güvenlik payı bırakıyor.
+
 ## Aynı 2.1.316 sürümünde başka ne değişti?
 
 2.1.316, fast mode kaldırmasının yanında üç küçük ama geliştirici iş akışını doğrudan etkileyen değişiklik daha getirdi: `CLAUDE_CODE_DISABLE_ULTRATHINK` ortam değişkeni `ultrathink` anahtar kelimesini kapatıyor, `CLAUDE_CODE_SUBAGENT_EFFORT` alt ajanların çalışma eforu seviyesini belirliyor, ve Team/Enterprise girişleri için sunucu yönetimli ayarlar artık onay istemi olmadan uygulanıyor.
@@ -92,8 +94,4 @@ Fast mode, Opus 5.5 için genel kullanıma açık bir özellik; ayrı bir bayrak
 
 ### Bu, Opus 4.1'in emekliye ayrılmasıyla aynı şey mi?
 
-Hayır, farklı bir olay ama aynı desen: Opus 4.1 tamamen emekliye ayrılırken bu sefer sadece Opus 4.8'in fast mode özelliği kaldırılıyor, modelin kendisi değil. Ancak her iki durumda da Anthropic kullanıcıları bir sonraki nesil modele (sırasıyla Opus 4.8 ve Opus 5.5) yönlendirdi.
-
-### Opus 4.8 modelinin kendisi de kaldırılıyor mu?
-
-Hayır, sadece fast mode özelliği kaldırılıyor; Opus 4.8 modelinin kendisi normal hızda çalışmaya devam edebilir. Değişiklik günlüğünde modelin tamamen emekliye ayrılacağına dair bir tarih belirtilmiyor, sadece fast mode özelliğinin 30 Kasım 2026'da sonlandırılacağı açıkça yazıyor.
+Hayır, farklı bir olay ama aynı desen: Opus 4.1 tamamen emekliye ayrılırken bu sefer sadece Opus 4.8'in fast mode özelliği kaldırılıyor, modelin kendisi değil — Opus 4.8'in kendisi normal hızda çalışmaya devam ediyor. Ancak her iki durumda da Anthropic kullanıcıları bir sonraki nesil modele (sırasıyla Opus 4.8 ve Opus 5.5) yönlendirdi ve her ikisinde de net bir takvim ile geçiş penceresi açtı.

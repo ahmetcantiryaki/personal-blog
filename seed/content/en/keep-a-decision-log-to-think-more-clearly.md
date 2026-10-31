@@ -15,7 +15,7 @@ Short answer: a decision log is a short record you write for every meaningful de
 
 ## What is a decision log and why does memory lie?
 
-A decision log is a record that freezes your thinking at the moment you make a decision and puts it in writing. The reason you need this is simple: human memory rewrites a decision after you learn its outcome, making it feel like "I knew it all along." Hindsight bias is the tendency to see a past event as having been predictable or inevitable once you already know how it turned out.
+A decision log is a record that freezes your thinking at the moment you make a decision and puts it in writing. The reason you need this is simple: human memory rewrites a decision after you learn its outcome, making it feel like "I knew it all along." [Hindsight bias](https://en.wikipedia.org/wiki/Hindsight_bias) is the tendency to see a past event as having been predictable or inevitable once you already know how it turned out.
 
 The practical consequence shows up after a failed project: you say "I knew it was risky," but without a written record of your actual confidence level at the time, you can't verify that claim. A decision log closes exactly that gap — your real thinking at the moment of the decision gets locked in before hindsight can rewrite it.
 
@@ -46,7 +46,7 @@ An effective entry has six fields: context, options considered, the decision mad
 
 ## Where should you keep a decision log?
 
-A notes app works fine for personal decisions; for engineering decisions, an Architecture Decision Record (ADR) stored in the repo fits better. The ADR format was proposed by Michael Nygard in 2011 and uses four fixed sections — Status, Context, Decision, and Consequences — with records typically running one to two pages and living in version control alongside the code.
+A notes app works fine for personal decisions; for engineering decisions, an Architecture Decision Record (ADR) stored in the repo fits better. The [ADR format](https://adr.github.io/) was proposed by Michael Nygard in 2011 and uses four fixed sections — Status, Context, Decision, and Consequences — with records typically running one to two pages and living in version control alongside the code.
 
 The difference between a personal decision log and a team ADR comes down to audience: a personal log speaks only to your future self, while an ADR speaks to every engineer who will later touch the same codebase. Using the ADR format for architectural calls like [API versioning strategies](/en/posts/api-versioning-strategies) means you never have to re-explain the reasoning to someone who joins the team six months later.
 

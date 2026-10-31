@@ -35,7 +35,7 @@ The second cost is that every query needs a `WHERE deleted_at IS NULL` filter; f
 
 ## How does a partial unique index fix the problem?
 
-In PostgreSQL, a partial unique index applies the constraint only to rows meeting a specific condition, which excludes soft-deleted rows from the uniqueness check. The index below enforces email uniqueness only among active rows (`deleted_at IS NULL`) — deleted users can share an email, but active users can't.
+According to [PostgreSQL's CREATE INDEX documentation](https://www.postgresql.org/docs/current/sql-createindex.html), a partial unique index applies the constraint only to rows meeting a specific condition, which excludes soft-deleted rows from the uniqueness check. The index below enforces email uniqueness only among active rows (`deleted_at IS NULL`) — deleted users can share an email, but active users can't.
 
 ```sql
 CREATE UNIQUE INDEX users_email_unique
@@ -47,7 +47,7 @@ This is much cleaner than MySQL's workaround for the same problem, which relies 
 
 ## Does soft delete satisfy GDPR's right to erasure?
 
-No — GDPR Article 17's "right to erasure" requires that data actually be removed, irreversibly; filling in a `deleted_at` column while keeping the data in the database doesn't meet that requirement. When a user submits an erasure request, their personal data needs to be actually removed from backups and archive tables too — hiding it from the main table isn't enough.
+No — [GDPR Article 17's](https://gdpr-info.eu/art-17-gdpr/) "right to erasure" requires that data actually be removed, irreversibly; filling in a `deleted_at` column while keeping the data in the database doesn't meet that requirement. When a user submits an erasure request, their personal data needs to be actually removed from backups and archive tables too — hiding it from the main table isn't enough.
 
 This matters for teams running [zero-downtime schema migrations](/en/posts/zero-downtime-schema-migrations) too: when migrating a table from soft-delete to hard-delete, personal data lingering in old backups needs to be folded into the retention policy as well.
 

@@ -59,7 +59,7 @@ When a team reserves `error` strictly for real, actionable events, the count of 
 
 ## What should never appear in logs?
 
-Personal data (PII), passwords, API keys, full credit card numbers, and session tokens should never be logged under any circumstance — if these leak into your log aggregation system, anyone with log access gets access to that data too. The twelve-factor app methodology's logs principle states that an app should never concern itself with routing or storage of its output stream; it should write the event stream to stdout and let the execution environment handle routing — a separation that also makes the decision of what gets logged centralized and auditable.
+Personal data (PII), passwords, API keys, full credit card numbers, and session tokens should never be logged under any circumstance — if these leak into your log aggregation system, anyone with log access gets access to that data too. [The twelve-factor app methodology's logs principle](https://12factor.net/logs) states that an app should never concern itself with routing or storage of its output stream; it should write the event stream to stdout and let the execution environment handle routing — a separation that also makes the decision of what gets logged centralized and auditable.
 
 A practical safeguard: add a masking layer to your logging library that automatically replaces field names like `password`, `token`, and `ssn` with `***` — far more reliable than trusting human discipline alone.
 
@@ -74,6 +74,8 @@ This mirrors the cost/performance trade-off covered in [caching strategies and i
 Logs, traces, and metrics form the three pillars of observability, and linking them through the same trace_id lets you jump straight from a spike on a metric graph to the exact log lines behind it. In practice, that means clicking a trace in an APM tool automatically surfaces every log line tied to that request.
 
 My take: most teams push structured logging off as a "fix it later" problem, but setting up the format and correlation ID from day one is far cheaper than retroactively reformatting thousands of existing log lines. During a production incident, that difference is the gap between minutes and hours of investigation time.
+
+That gap widens as a team grows. In a five-person team, everyone roughly knows the codebase by heart; in a fifty-service system, the on-call engineer is often looking at a service they have never touched before. Without structured fields, that engineer has to read code first just to guess which fields matter — consistent field names remove that guessing step entirely.
 
 ## Frequently Asked Questions
 

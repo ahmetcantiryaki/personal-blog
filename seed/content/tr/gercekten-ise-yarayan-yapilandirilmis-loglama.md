@@ -59,7 +59,7 @@ Bir ekip `error` seviyesini sadece gerçek, aksiyon gerektiren olaylar için ay�
 
 ## Loglarda asla ne bulunmamalı?
 
-Kişisel verileri (PII), şifreleri, API anahtarlarını, tam kredi kartı numaralarını ve oturum token'larını hiçbir koşulda loglamamalısınız; bu bilgiler log toplama sisteminize sızdığında, log'lara erişimi olan herkes bu verilere de erişmiş oluyor. On İki Faktörlü Uygulama (12-factor app) metodolojisinin log prensibi, uygulamanın logları nereye yazacağına hiç karar vermemesi, bunun yerine olay akışını stdout'a yazıp yönlendirmeyi çalışma ortamına bırakması gerektiğini söylüyor — bu ayrım, hangi verinin loglanacağı kararını da merkezi ve denetlenebilir hale getiriyor.
+Kişisel verileri (PII), şifreleri, API anahtarlarını, tam kredi kartı numaralarını ve oturum token'larını hiçbir koşulda loglamamalısınız; bu bilgiler log toplama sisteminize sızdığında, log'lara erişimi olan herkes bu verilere de erişmiş oluyor. [On İki Faktörlü Uygulama (12-factor app) metodolojisinin log prensibi](https://12factor.net/logs), uygulamanın logları nereye yazacağına hiç karar vermemesi, bunun yerine olay akışını stdout'a yazıp yönlendirmeyi çalışma ortamına bırakması gerektiğini söylüyor — bu ayrım, hangi verinin loglanacağı kararını da merkezi ve denetlenebilir hale getiriyor.
 
 Pratik bir önlem: log kütüphanenize bir maskeleme katmanı ekleyip `password`, `token`, `ssn` gibi alan adlarını otomatik olarak `***` ile değiştirmek, insan hatasına güvenmekten çok daha güvenilir.
 
@@ -82,6 +82,8 @@ Loglar, trace'ler ve metrikler gözlemlenebilirliğin üç ayağını oluşturuy
 Kendi değerlendirmem: çoğu ekip loglamayı "sonra düzeltiriz" diye erteliyor, ama yapılandırılmış format ve korelasyon ID'sini ilk günden kurmak, binlerce log satırını geriye dönük olarak yeniden biçimlendirmekten çok daha ucuz. Bir üretim olayında bu fark, dakikalarla saatler arasındaki araştırma süresine dönüşüyor.
 
 Bu yatırımın geri dönüşü en çok, bir olay sırasında doğru soruyu ilk denemede sorabildiğinizde görülüyor: "hangi endpoint, hangi kullanıcı, ne kadar süre" sorularının üçüne de tek bir sorguda cevap bulduğunuzda, araştırma saatler değil dakikalar sürüyor.
+
+Ekip büyüdükçe bu fark daha da belirginleşiyor: beş kişilik bir ekipte herkes kod tabanını ezbere biliyor olabilir, ama elli servisli bir sistemde nöbetçi mühendis genelde o anda hata veren servisi ilk kez inceliyor. Yapılandırılmış loglar olmadan bu kişi önce kod okuyup hangi alanların önemli olduğunu tahmin etmek zorunda kalıyor; tutarlı alan adları ise bu tahmin aşamasını tamamen ortadan kaldırıyor.
 
 ## Sıkça Sorulan Sorular
 
