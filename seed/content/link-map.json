@@ -7968,6 +7968,66 @@
         "slug": "soft-deletes-vs-hard-deletes-getting-it-right",
         "title": "Soft Deletes vs Hard Deletes: Getting It Right"
       }
+    },
+    {
+      "translationKey": "gpt-6-1-terra-launch-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-1-terra-nedir",
+        "title": "GPT-6.1 Terra Nedir? Daha Ucuz, Daha Hızlı Model"
+      },
+      "en": {
+        "slug": "what-is-gpt-6-1-terra",
+        "title": "What Is GPT-6.1 Terra? OpenAI's Cheaper, Faster Model"
+      }
+    },
+    {
+      "translationKey": "time-zones-timestamps-without-bugs",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "hatasiz-saat-dilimi-ve-zaman-damgasi-yonetimi",
+        "title": "Hatasız Saat Dilimi ve Zaman Damgası Yönetimi"
+      },
+      "en": {
+        "slug": "handle-time-zones-and-timestamps-without-bugs",
+        "title": "Handle Time Zones and Timestamps Without Bugs"
+      }
+    },
+    {
+      "translationKey": "skills-mcp-connectors-decision-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "skills-mi-mcp-mi-connector-mi-karar-rehberi-2026",
+        "title": "Skills mi, MCP mi, Connector mı? Karar Rehberi 2026"
+      },
+      "en": {
+        "slug": "skills-mcp-or-connector-builders-guide-2026",
+        "title": "Skills, MCP, or Connector? A 2026 Builder's Guide"
+      }
+    },
+    {
+      "translationKey": "why-ai-agents-run-in-sandboxes-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-ajanlari-neden-sanal-makinede-calisir",
+        "title": "Yapay Zeka Ajanları Neden Sanal Makinede Çalışır?"
+      },
+      "en": {
+        "slug": "why-ai-agents-run-in-sandboxes-vms",
+        "title": "Why Do AI Agents Run in Sandboxes and VMs?"
+      }
+    },
+    {
+      "translationKey": "css-if-conditional-styling-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-if-ile-kosullu-stil-yazmak",
+        "title": "CSS if() ile Koşullu Stil Yazmak"
+      },
+      "en": {
+        "slug": "conditional-styling-with-css-if",
+        "title": "Conditional Styling with CSS if()"
+      }
     }
   ]
 }
