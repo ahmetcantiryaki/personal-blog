@@ -5246,5 +5246,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3299412,
     "generatedAt": "2026-10-31T06:42:05.998Z"
+  },
+  "en/conditional-styling-with-css-if": {
+    "hash": "a24baae56bcea044",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-conditional-styling-with-css-if.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3520513,
+    "generatedAt": "2026-11-01T06:20:23.697Z"
+  },
+  "en/handle-time-zones-and-timestamps-without-bugs": {
+    "hash": "981e7d9cfab8100b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-handle-time-zones-and-timestamps-without-bugs.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3711729,
+    "generatedAt": "2026-11-01T06:21:34.416Z"
+  },
+  "en/skills-mcp-or-connector-builders-guide-2026": {
+    "hash": "564e290bbeb52696",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-skills-mcp-or-connector-builders-guide-2026.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3390318,
+    "generatedAt": "2026-11-01T06:22:39.858Z"
+  },
+  "en/what-is-gpt-6-1-terra": {
+    "hash": "2b1363b9253abd70",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-gpt-6-1-terra.mp3",
+    "seconds": 468,
+    "voice": "en_US-ryan-high",
+    "bytes": 3743285,
+    "generatedAt": "2026-11-01T06:23:52.341Z"
+  },
+  "en/why-ai-agents-run-in-sandboxes-vms": {
+    "hash": "3a993c9cc1b370f2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-agents-run-in-sandboxes-vms.mp3",
+    "seconds": 419,
+    "voice": "en_US-ryan-high",
+    "bytes": 3348940,
+    "generatedAt": "2026-11-01T06:25:23.492Z"
   }
 }
