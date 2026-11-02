@@ -5286,5 +5286,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3348940,
     "generatedAt": "2026-11-01T06:25:23.492Z"
+  },
+  "en/ai-features-that-fail-silently-avoid-the-traps": {
+    "hash": "d3f87376620cc050",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-features-that-fail-silently-avoid-the-traps.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3418740,
+    "generatedAt": "2026-11-02T06:37:35.756Z"
+  },
+  "en/build-a-native-css-carousel-without-javascript": {
+    "hash": "7ee3179fa86662c1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-a-native-css-carousel-without-javascript.mp3",
+    "seconds": 394,
+    "voice": "en_US-ryan-high",
+    "bytes": 3150828,
+    "generatedAt": "2026-11-02T06:38:38.769Z"
+  },
+  "en/build-live-cursors-and-presence-on-the-web": {
+    "hash": "c9513f9223e68251",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-live-cursors-and-presence-on-the-web.mp3",
+    "seconds": 453,
+    "voice": "en_US-ryan-high",
+    "bytes": 3626465,
+    "generatedAt": "2026-11-02T06:39:51.019Z"
+  },
+  "en/designing-apis-and-tools-for-ai-agents": {
+    "hash": "3e27ac0ce6244fb0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-designing-apis-and-tools-for-ai-agents.mp3",
+    "seconds": 542,
+    "voice": "en_US-ryan-high",
+    "bytes": 4339504,
+    "generatedAt": "2026-11-02T06:41:17.708Z"
+  },
+  "en/how-claude-is-used-in-drug-development-2026": {
+    "hash": "eff73c6a862283d9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-claude-is-used-in-drug-development-2026.mp3",
+    "seconds": 481,
+    "voice": "en_US-ryan-high",
+    "bytes": 3852790,
+    "generatedAt": "2026-11-02T06:42:34.065Z"
   }
 }
