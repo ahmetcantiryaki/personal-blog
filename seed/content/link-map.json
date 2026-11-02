@@ -8028,6 +8028,66 @@
         "slug": "conditional-styling-with-css-if",
         "title": "Conditional Styling with CSS if()"
       }
+    },
+    {
+      "translationKey": "claude-drug-development-partnerships-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-ilac-gelistirmede-nasil-kullaniliyor-2026",
+        "title": "Claude İlaç Geliştirmede Gerçekte Neye Yarıyor?"
+      },
+      "en": {
+        "slug": "how-claude-is-used-in-drug-development-2026",
+        "title": "How Is Claude Actually Being Used in Drug Development?"
+      }
+    },
+    {
+      "translationKey": "css-native-carousels-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "javascriptsiz-native-css-carousel-yapimi",
+        "title": "CSS Carousel JavaScript'siz Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "build-a-native-css-carousel-without-javascript",
+        "title": "How Do You Build a CSS Carousel Without JavaScript?"
+      }
+    },
+    {
+      "translationKey": "ai-feature-progressive-enhancement-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "yapay-zeka-ozelliklerinde-sessiz-hata-tuzaklari",
+        "title": "Yapay Zeka Özellikleri Arayüzde Neden Sessizce Bozulur?"
+      },
+      "en": {
+        "slug": "ai-features-that-fail-silently-avoid-the-traps",
+        "title": "Why Do AI Features Fail Silently in Your UI?"
+      }
+    },
+    {
+      "translationKey": "realtime-presence-cursors-web-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "webde-canli-imlec-ve-varlik-gostergesi-yapimi",
+        "title": "Web'de Canlı İmleç ve Varlık Göstergesi Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "build-live-cursors-and-presence-on-the-web",
+        "title": "How Do You Build Live Cursors and Presence on the Web?"
+      }
+    },
+    {
+      "translationKey": "api-design-for-ai-agents-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yapay-zeka-ajanlari-icin-api-tasarimi",
+        "title": "Yapay Zeka Ajanları İçin API Nasıl Tasarlanır?"
+      },
+      "en": {
+        "slug": "designing-apis-and-tools-for-ai-agents",
+        "title": "How Do You Design APIs for AI Agents?"
+      }
     }
   ]
 }

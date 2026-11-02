@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-02",
   "topics": [
-    {
-      "translationKey": "css-native-carousels-2026",
-      "category": "web-development",
-      "titleTr": "JavaScript'siz Native CSS Carousel Yapımı",
-      "titleEn": "Build a Native CSS Carousel Without JavaScript",
-      "slugTr": "javascriptsiz-native-css-carousel-yapimi",
-      "slugEn": "build-a-native-css-carousel-without-javascript",
-      "keywordTr": "css carousel javascriptsiz",
-      "keywordEn": "native css carousel no javascript",
-      "angle": "how-to: scroll-snap carousels with ::scroll-button and ::scroll-marker",
-      "style": "story-led",
-      "brief": "Outline: the new CSS Carousel primitives — scroll-marker-group, ::scroll-marker, ::scroll-button() — layered on scroll-snap; build an accessible image/testimonial carousel step by step; the keyboard and screen-reader behavior you get for free vs what to add; progressive enhancement for browsers without support; which JS libraries you can now drop. Verify: pseudo-element names and current support; accessibility defaults. Sources: Chrome for Developers CSS carousels; MDN scroll-snap."
-    },
-    {
-      "translationKey": "ai-feature-progressive-enhancement-2026",
-      "category": "web-development",
-      "titleTr": "Yapay Zeka Özelliklerinde Sessiz Hata Tuzakları",
-      "titleEn": "AI Features That Fail Silently: Avoid the Traps",
-      "slugTr": "yapay-zeka-ozelliklerinde-sessiz-hata-tuzaklari",
-      "slugEn": "ai-features-that-fail-silently-avoid-the-traps",
-      "keywordTr": "yapay zeka özellik hata yönetimi arayüz",
-      "keywordEn": "ai feature error handling frontend",
-      "angle": "mistakes: frontend patterns that make AI features feel broken",
-      "style": "contrarian",
-      "brief": "Outline: common failure modes when shipping LLM features in the UI — infinite spinners on timeout, no streaming feedback, swallowed errors, no retry, layout shift from late tokens, no graceful degrade when the model is down; progressive-enhancement patterns: skeletons, optimistic UI, cancel, fallbacks to non-AI paths, rate-limit messaging; accessibility of live regions for streamed text. Verify: streaming UX patterns; aria-live best practice. Sources: web.dev; Vercel AI SDK docs."
-    },
-    {
-      "translationKey": "realtime-presence-cursors-web-2026",
-      "category": "web-development",
-      "titleTr": "Web'de Canlı İmleç ve Varlık Göstergesi Yapımı",
-      "titleEn": "Build Live Cursors and Presence on the Web",
-      "slugTr": "webde-canli-imlec-ve-varlik-gostergesi-yapimi",
-      "slugEn": "build-live-cursors-and-presence-on-the-web",
-      "keywordTr": "canlı imleç varlık web uygulaması",
-      "keywordEn": "realtime presence cursors web app",
-      "angle": "how-to: add multiplayer presence without running your own socket fleet",
-      "style": "story-led",
-      "brief": "Outline: the anatomy of presence — who's online, live cursors, selections; transport options in 2026 (WebSocket vs SSE vs WebTransport) and managed presence services; throttling cursor updates, interpolation, and handling reconnects; conflict-free shared state with CRDTs; privacy and abuse concerns. Build a minimal cursors demo and discuss scaling costs. Verify: WebTransport support; CRDT library maturity. Sources: MDN WebTransport; Yjs/Liveblocks docs."
-    },
-    {
-      "translationKey": "api-design-for-ai-agents-2026",
-      "category": "software-engineering",
-      "titleTr": "Yapay Zeka Ajanları İçin API Tasarımı",
-      "titleEn": "Designing APIs and Tools for AI Agents",
-      "slugTr": "yapay-zeka-ajanlari-icin-api-tasarimi",
-      "slugEn": "designing-apis-and-tools-for-ai-agents",
-      "keywordTr": "yapay zeka ajan api tasarımı",
-      "keywordEn": "api design for ai agents",
-      "angle": "guide: make endpoints and MCP tools that agents call correctly",
-      "style": "data-led",
-      "brief": "Outline: how agent consumption differs from human/client use; naming and descriptions that reduce wrong calls; coarse vs fine-grained tools; returning concise structured results with clear errors; idempotency and confirmation for destructive actions; pagination and token-budget-aware payloads; exposing tools via MCP vs plain REST; evals for tool-call accuracy. Verify: MCP tool-schema conventions; structured-output patterns. Sources: Model Context Protocol docs; Anthropic tool-use/agent guides."
-    },
     {
       "translationKey": "feature-flags-ai-models-2026",
       "category": "software-engineering",
