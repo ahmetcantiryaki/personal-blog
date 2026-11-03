@@ -5326,5 +5326,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3852790,
     "generatedAt": "2026-11-02T06:42:34.065Z"
+  },
+  "en/claude-message-threads-explained": {
+    "hash": "d7db8471c4fc8d45",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-message-threads-explained.mp3",
+    "seconds": 388,
+    "voice": "en_US-ryan-high",
+    "bytes": 3102345,
+    "generatedAt": "2026-11-03T06:20:35.766Z"
+  },
+  "en/data-isolation-for-multi-tenant-saas": {
+    "hash": "29962f526e8e0af0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-data-isolation-for-multi-tenant-saas.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3629391,
+    "generatedAt": "2026-11-03T06:22:42.679Z"
+  },
+  "en/resize-kubernetes-pods-without-restarts": {
+    "hash": "d291f2ebd38bc15d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-resize-kubernetes-pods-without-restarts.mp3",
+    "seconds": 478,
+    "voice": "en_US-ryan-high",
+    "bytes": 3822906,
+    "generatedAt": "2026-11-03T06:24:56.045Z"
+  },
+  "en/roll-out-a-new-ai-model-safely-with-flags": {
+    "hash": "fab584e7a84e6a08",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-roll-out-a-new-ai-model-safely-with-flags.mp3",
+    "seconds": 385,
+    "voice": "en_US-ryan-high",
+    "bytes": 3082700,
+    "generatedAt": "2026-11-03T06:27:40.115Z"
+  },
+  "en/runtime-security-with-ebpf-2026": {
+    "hash": "af6a4cbe77311154",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-runtime-security-with-ebpf-2026.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3364823,
+    "generatedAt": "2026-11-03T06:29:39.052Z"
   }
 }
