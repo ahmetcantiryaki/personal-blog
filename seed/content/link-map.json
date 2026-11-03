@@ -8088,6 +8088,66 @@
         "slug": "designing-apis-and-tools-for-ai-agents",
         "title": "How Do You Design APIs for AI Agents?"
       }
+    },
+    {
+      "translationKey": "claude-message-threads-beta-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-message-threads-ozelligi-nedir",
+        "title": "Claude'un Yeni Message Threads Özelliği Nedir?"
+      },
+      "en": {
+        "slug": "claude-message-threads-explained",
+        "title": "What Are Claude's New Message Threads?"
+      }
+    },
+    {
+      "translationKey": "feature-flags-ai-models-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "yeni-ai-modelini-guvenle-yayina-alma-flagler",
+        "title": "Yeni Bir AI Modeli Güvenle Nasıl Yayına Alınır?"
+      },
+      "en": {
+        "slug": "roll-out-a-new-ai-model-safely-with-flags",
+        "title": "How Do You Roll Out a New AI Model Safely?"
+      }
+    },
+    {
+      "translationKey": "multi-tenant-data-isolation-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "cok-kiracili-saasta-veri-izolasyonu",
+        "title": "Çok Kiracılı SaaS'ta Veri İzolasyonu Nasıl Sağlanır?"
+      },
+      "en": {
+        "slug": "data-isolation-for-multi-tenant-saas",
+        "title": "How Do You Isolate Tenant Data in Multi-Tenant SaaS?"
+      }
+    },
+    {
+      "translationKey": "kubernetes-in-place-pod-resize-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kuberneteste-yeniden-baslatmadan-pod-boyutlandirma",
+        "title": "Kubernetes'te Yeniden Başlatmadan Pod Boyutlandırma"
+      },
+      "en": {
+        "slug": "resize-kubernetes-pods-without-restarts",
+        "title": "Resize Kubernetes Pods Without Restarts"
+      }
+    },
+    {
+      "translationKey": "ebpf-runtime-security-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ebpf-ile-calisma-zamani-guvenligi",
+        "title": "eBPF ile Çalışma Zamanı Güvenliği"
+      },
+      "en": {
+        "slug": "runtime-security-with-ebpf-2026",
+        "title": "Runtime Security with eBPF in 2026"
+      }
     }
   ]
 }

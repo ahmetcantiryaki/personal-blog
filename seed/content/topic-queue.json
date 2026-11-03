@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "topics": [
-    {
-      "translationKey": "feature-flags-ai-models-2026",
-      "category": "software-engineering",
-      "titleTr": "Yeni AI Modelini Güvenle Yayına Alma: Flag'ler",
-      "titleEn": "Roll Out a New AI Model Safely with Flags",
-      "slugTr": "yeni-ai-modelini-guvenle-yayina-alma-flagler",
-      "slugEn": "roll-out-a-new-ai-model-safely-with-flags",
-      "keywordTr": "model sürüm yönetimi feature flag",
-      "keywordEn": "feature flags ai model rollout",
-      "angle": "how-to: canary prompts and models behind flags with eval gates",
-      "style": "question-driven",
-      "brief": "Outline: treat model and prompt versions as deployable units; shadow mode and offline eval gates before traffic; percentage canaries and per-segment flags; automatic rollback on quality/latency/cost regressions; logging prompt+model version with each request for debugging; A/B testing output quality. Verify: shadow-eval patterns; rollback signals (cost/latency/quality). Sources: feature-flagging platform docs; Anthropic/OpenAI eval guides."
-    },
-    {
-      "translationKey": "multi-tenant-data-isolation-2026",
-      "category": "software-engineering",
-      "titleTr": "Çok Kiracılı SaaS'ta Veri İzolasyonu",
-      "titleEn": "Data Isolation for Multi-Tenant SaaS",
-      "slugTr": "cok-kiracili-saasta-veri-izolasyonu",
-      "slugEn": "data-isolation-for-multi-tenant-saas",
-      "keywordTr": "çok kiracılı veri izolasyonu saas",
-      "keywordEn": "multi-tenant data isolation saas",
-      "angle": "comparison: row-level security vs schema-per-tenant vs database-per-tenant",
-      "style": "question-driven",
-      "brief": "Outline: the three isolation models and their blast radius, cost, and noisy-neighbor trade-offs; Postgres row-level security done right (policies, roles, bypass pitfalls); schema-per-tenant migrations and connection pooling; database-per-tenant for compliance; where tenants leak (caches, logs, background jobs, search indexes); choosing by stage and regulatory needs. Verify: Postgres RLS policy semantics; pooling with many schemas. Sources: PostgreSQL RLS docs; multi-tenancy write-ups."
-    },
-    {
-      "translationKey": "kubernetes-in-place-pod-resize-2026",
-      "category": "devops-cloud",
-      "titleTr": "Kubernetes'te Yeniden Başlatmadan Pod Boyutlandırma",
-      "titleEn": "Resize Kubernetes Pods Without Restarts",
-      "slugTr": "kuberneteste-yeniden-baslatmadan-pod-boyutlandirma",
-      "slugEn": "resize-kubernetes-pods-without-restarts",
-      "keywordTr": "kubernetes pod boyutlandırma yeniden başlatmadan",
-      "keywordEn": "kubernetes in-place pod resize",
-      "angle": "how-to: use in-place resource resize to cut waste without disruption",
-      "style": "field-notes",
-      "brief": "Outline: what in-place pod resize (now stable) changes vs the old restart-to-rightsize model; resizePolicy on containers and CPU vs memory behavior (why shrinking memory is risky); combining with VPA recommendations; guardrails and limits; when you still need rolling restarts; measuring savings. Verify: GA/stable version and API fields; VPA in-place integration status. Sources: Kubernetes docs (in-place resize); SIG-Node KEP."
-    },
-    {
-      "translationKey": "ebpf-runtime-security-2026",
-      "category": "devops-cloud",
-      "titleTr": "eBPF ile Çalışma Zamanı Güvenliği",
-      "titleEn": "Runtime Security with eBPF in 2026",
-      "slugTr": "ebpf-ile-calisma-zamani-guvenligi",
-      "slugEn": "runtime-security-with-ebpf-2026",
-      "keywordTr": "ebpf çalışma zamanı güvenlik",
-      "keywordEn": "ebpf runtime security",
-      "angle": "guide: detect and block threats at the kernel with eBPF tooling",
-      "style": "data-led",
-      "brief": "Outline: why eBPF enables low-overhead runtime visibility; syscall and network observability vs enforcement; the tool landscape (Falco, Tetragon, Cilium network policy); writing detection policies for container escapes, crypto-miners, and suspicious exec; performance overhead and false positives; how this complements admission control and SBOM scanning. Verify: Tetragon enforcement capabilities; Falco rule model. Sources: Cilium/Tetragon docs; Falco docs."
-    },
     {
       "translationKey": "internal-mcp-server-company-tools-2026",
       "category": "devops-cloud",
