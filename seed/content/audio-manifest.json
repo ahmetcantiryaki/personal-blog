@@ -5366,5 +5366,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3364823,
     "generatedAt": "2026-11-03T06:29:39.052Z"
+  },
+  "en/ai-careers-you-can-enter-without-coding": {
+    "hash": "9881aadfad8e25e1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-careers-you-can-enter-without-coding.mp3",
+    "seconds": 474,
+    "voice": "en_US-ryan-high",
+    "bytes": 3795321,
+    "generatedAt": "2026-11-04T06:22:43.584Z"
+  },
+  "en/automate-recurring-work-with-scheduled-ai-tasks": {
+    "hash": "2d2758b9e1435bd7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-automate-recurring-work-with-scheduled-ai-tasks.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3804516,
+    "generatedAt": "2026-11-04T06:24:51.284Z"
+  },
+  "en/build-an-internal-mcp-server-for-your-tools": {
+    "hash": "4e0ee416d614bc44",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-an-internal-mcp-server-for-your-tools.mp3",
+    "seconds": 493,
+    "voice": "en_US-ryan-high",
+    "bytes": 3944532,
+    "generatedAt": "2026-11-04T06:27:05.458Z"
+  },
+  "en/catch-infrastructure-drift-before-it-bites": {
+    "hash": "5d2b541d4aec03cb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-catch-infrastructure-drift-before-it-bites.mp3",
+    "seconds": 512,
+    "voice": "en_US-ryan-high",
+    "bytes": 4096252,
+    "generatedAt": "2026-11-04T06:29:23.726Z"
+  },
+  "en/which-skills-matter-when-ai-writes-the-draft": {
+    "hash": "c23b8fac7e2a8aa4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-which-skills-matter-when-ai-writes-the-draft.mp3",
+    "seconds": 379,
+    "voice": "en_US-ryan-high",
+    "bytes": 3031083,
+    "generatedAt": "2026-11-04T06:31:05.330Z"
   }
 }
