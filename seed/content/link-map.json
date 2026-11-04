@@ -8148,6 +8148,66 @@
         "slug": "runtime-security-with-ebpf-2026",
         "title": "Runtime Security with eBPF in 2026"
       }
+    },
+    {
+      "translationKey": "internal-mcp-server-company-tools-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "sirket-araclariniz-icin-ozel-mcp-sunucusu",
+        "title": "Şirket Araçlarınız İçin Özel MCP Sunucusu Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "build-an-internal-mcp-server-for-your-tools",
+        "title": "Build an Internal MCP Server for Your Company Tools"
+      }
+    },
+    {
+      "translationKey": "infrastructure-drift-detection-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "altyapi-kaymasi-drift-nasil-tespit-edilir",
+        "title": "Altyapı Kayması (Drift) Nasıl Tespit Edilir?"
+      },
+      "en": {
+        "slug": "catch-infrastructure-drift-before-it-bites",
+        "title": "Catch Infrastructure Drift Before It Bites"
+      }
+    },
+    {
+      "translationKey": "ai-first-draft-career-skills-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "yapay-zeka-ilk-taslagi-yazinca-hangi-beceriler-kalir",
+        "title": "Yapay Zeka İlk Taslağı Yazınca Hangi Beceriler Kalır?"
+      },
+      "en": {
+        "slug": "which-skills-matter-when-ai-writes-the-draft",
+        "title": "Which Skills Matter When AI Writes the Draft"
+      }
+    },
+    {
+      "translationKey": "non-engineer-ai-careers-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "muhendis-olmadan-yapay-zeka-kariyerleri",
+        "title": "Mühendis Olmadan Yapay Zeka Kariyerleri"
+      },
+      "en": {
+        "slug": "ai-careers-you-can-enter-without-coding",
+        "title": "AI Careers You Can Enter Without Coding"
+      }
+    },
+    {
+      "translationKey": "recurring-ai-tasks-automation-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "zamanlanmis-yapay-zeka-gorevleriyle-otomasyon",
+        "title": "Yapay Zeka Görevleri Nasıl Zamanlanır ve Otomatikleştirilir?"
+      },
+      "en": {
+        "slug": "automate-recurring-work-with-scheduled-ai-tasks",
+        "title": "How Do You Automate Recurring Work With AI?"
+      }
     }
   ]
 }
