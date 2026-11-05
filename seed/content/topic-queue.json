@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "topics": [
-    {
-      "translationKey": "instagram-20-minute-reels-strategy-2026",
-      "category": "social-media",
-      "titleTr": "20 Dakikalık Reels: Uzun İçerik Mantıklı mı?",
-      "titleEn": "20-Minute Reels: Should Creators Go Long?",
-      "slugTr": "20-dakikalik-reels-uzun-icerik-mantikli-mi",
-      "slugEn": "20-minute-reels-should-creators-go-long",
-      "keywordTr": "20 dakikalık reels uzun video",
-      "keywordEn": "20 minute instagram reels strategy",
-      "angle": "deep-dive: when longer Reels help and when they kill retention",
-      "style": "contrarian",
-      "brief": "Outline: Instagram now allows Reels up to 20 minutes — what changed and why; the retention math of long vs short; formats that suit length (tutorials, vlogs, storytelling) vs those that don't; hooks and chaptering for watch-time; repurposing long Reels into clips; how the algorithm weighs completion vs total watch time. Contrarian take: most creators should not chase length. Verify: 20-minute limit and ranking signals. Sources: Instagram/Meta newsroom; creator-data reports."
-    },
-    {
-      "translationKey": "threads-growth-playbook-2026",
-      "category": "social-media",
-      "titleTr": "Threads Büyüme Rehberi 2026",
-      "titleEn": "A Threads Growth Playbook for 2026",
-      "slugTr": "threads-buyume-rehberi-2026",
-      "slugEn": "threads-growth-playbook-2026",
-      "keywordTr": "threads büyüme stratejisi",
-      "keywordEn": "threads growth strategy 2026",
-      "angle": "guide: turn Threads into a real audience and traffic channel",
-      "style": "field-notes",
-      "brief": "Outline: where Threads fits in 2026 vs X and Bluesky; what the feed rewards (replies, conversation, topic follows); a posting cadence and format mix (text hooks, carousels, quotes); using the API/scheduling; driving traffic despite limited link treatment; cross-posting from Instagram without looking lazy; measuring what works. Verify: current ranking signals and link behavior; DAU trends. Sources: Meta/Threads updates; third-party engagement studies."
-    },
-    {
-      "translationKey": "linkedin-creator-marketplace-guide-2026",
-      "category": "social-media",
-      "titleTr": "LinkedIn Creator Marketplace Nasıl Çalışır?",
-      "titleEn": "How LinkedIn's Creator Marketplace Works",
-      "slugTr": "linkedin-creator-marketplace-nasil-calisir",
-      "slugEn": "how-linkedins-creator-marketplace-works",
-      "keywordTr": "linkedin creator marketplace",
-      "keywordEn": "linkedin creator marketplace",
-      "angle": "guide: get discovered as a creator and hire creators as a brand",
-      "style": "question-driven",
-      "brief": "Outline: what the Creator Marketplace in Campaign Manager is and why LinkedIn is betting on creators and video; creator side — eligibility and optimizing your profile and insights (followers/views per post) to get picked; brand side — finding vetted creators, briefing, and measuring B2B impact; how it compares to influencer platforms; realistic expectations. Verify: Marketplace availability and eligibility; the new per-post insights. Sources: LinkedIn Marketing blog/newsroom."
-    },
-    {
-      "translationKey": "multi-camera-livestream-setup-2026",
-      "category": "social-media",
-      "titleTr": "Çok Kameralı Canlı Yayın Kurulumu (TikTok, IG)",
-      "titleEn": "Set Up a Multi-Camera Live Stream (TikTok, IG)",
-      "slugTr": "cok-kamerali-canli-yayin-kurulumu-tiktok-ig",
-      "slugEn": "set-up-a-multi-camera-live-stream-tiktok-ig",
-      "keywordTr": "çok kameralı canlı yayın kurulumu",
-      "keywordEn": "multi-camera livestream setup",
-      "angle": "how-to: add a second camera and switch angles like a pro",
-      "style": "story-led",
-      "brief": "Outline: why multi-angle live boosts watch time for shopping, demos, and events; native options (TikTok Studio's second camera via QR, IG tools) vs a software switcher (OBS, Streamlabs, Ecamm); gear on a budget — phone as second cam, lighting, audio; scene/angle planning and switching; moderation and selling live. Verify: TikTok second-camera QR feature; platform live requirements. Sources: TikTok Newsroom; OBS docs."
-    },
     {
       "translationKey": "social-search-seo-checklist-2026",
       "category": "digital-marketing",

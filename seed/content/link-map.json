@@ -8208,6 +8208,66 @@
         "slug": "automate-recurring-work-with-scheduled-ai-tasks",
         "title": "How Do You Automate Recurring Work With AI?"
       }
+    },
+    {
+      "translationKey": "claude-code-permission-safeguards-nov-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-e-postani-sizdirmadan-once-uyariyor",
+        "title": "Claude Code E-postanı Sızdırmadan Önce Artık Uyarıyor"
+      },
+      "en": {
+        "slug": "claude-code-warns-before-leaking-email",
+        "title": "Claude Code Now Warns You Before It Leaks Your Email"
+      }
+    },
+    {
+      "translationKey": "instagram-20-minute-reels-strategy-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "20-dakikalik-reels-uzun-icerik-mantikli-mi",
+        "title": "20 Dakikalık Reels: Uzun İçerik Mantıklı mı?"
+      },
+      "en": {
+        "slug": "20-minute-reels-should-creators-go-long",
+        "title": "20-Minute Reels: Should Creators Go Long?"
+      }
+    },
+    {
+      "translationKey": "threads-growth-playbook-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "threads-buyume-rehberi-2026",
+        "title": "2026'da Threads'te Nasıl Büyünür?"
+      },
+      "en": {
+        "slug": "threads-growth-playbook-2026",
+        "title": "How Do You Actually Grow on Threads in 2026?"
+      }
+    },
+    {
+      "translationKey": "linkedin-creator-marketplace-guide-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "linkedin-creator-marketplace-nasil-calisir",
+        "title": "LinkedIn Creator Marketplace Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "how-linkedins-creator-marketplace-works",
+        "title": "How LinkedIn's Creator Marketplace Works"
+      }
+    },
+    {
+      "translationKey": "multi-camera-livestream-setup-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "cok-kamerali-canli-yayin-kurulumu-tiktok-ig",
+        "title": "Çok Kameralı Canlı Yayına Nasıl Geçilir?"
+      },
+      "en": {
+        "slug": "set-up-a-multi-camera-live-stream-tiktok-ig",
+        "title": "How Do You Set Up a Multi-Camera Live Stream?"
+      }
     }
   ]
 }
