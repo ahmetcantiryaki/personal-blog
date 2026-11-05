@@ -5406,5 +5406,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3031083,
     "generatedAt": "2026-11-04T06:31:05.330Z"
+  },
+  "en/20-minute-reels-should-creators-go-long": {
+    "hash": "cd47cedeb6388ec0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-20-minute-reels-should-creators-go-long.mp3",
+    "seconds": 376,
+    "voice": "en_US-ryan-high",
+    "bytes": 3007259,
+    "generatedAt": "2026-11-05T06:25:03.032Z"
+  },
+  "en/claude-code-warns-before-leaking-email": {
+    "hash": "63dbfeddd974a274",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-warns-before-leaking-email.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3449251,
+    "generatedAt": "2026-11-05T06:27:32.463Z"
+  },
+  "en/how-linkedins-creator-marketplace-works": {
+    "hash": "f60f6aa574245739",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-linkedins-creator-marketplace-works.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3325326,
+    "generatedAt": "2026-11-05T06:29:54.460Z"
+  },
+  "en/set-up-a-multi-camera-live-stream-tiktok-ig": {
+    "hash": "ce6c7edd77e988cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-set-up-a-multi-camera-live-stream-tiktok-ig.mp3",
+    "seconds": 374,
+    "voice": "en_US-ryan-high",
+    "bytes": 2996183,
+    "generatedAt": "2026-11-05T06:32:03.577Z"
+  },
+  "en/threads-growth-playbook-2026": {
+    "hash": "8c9d89ec860f9652",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-threads-growth-playbook-2026.mp3",
+    "seconds": 404,
+    "voice": "en_US-ryan-high",
+    "bytes": 3236718,
+    "generatedAt": "2026-11-05T06:34:22.290Z"
   }
 }
