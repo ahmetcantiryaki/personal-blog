@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "topics": [
-    {
-      "translationKey": "social-search-seo-checklist-2026",
-      "category": "digital-marketing",
-      "titleTr": "Sosyal Aramada Bulunmak İçin SEO Kontrol Listesi",
-      "titleEn": "Get Found in Social Search: An SEO Checklist",
-      "slugTr": "sosyal-aramada-bulunmak-icin-seo-kontrol-listesi",
-      "slugEn": "get-found-in-social-search-seo-checklist",
-      "keywordTr": "sosyal medya arama seo",
-      "keywordEn": "social search seo checklist",
-      "angle": "checklist: optimize captions, on-screen text, and alt text for in-app search",
-      "style": "data-led",
-      "brief": "Outline: why TikTok, Instagram, YouTube, and Pinterest are now search engines; a checklist — keyword-rich spoken + on-screen text, searchable captions, alt text, consistent topics, hashtags that describe not spam, profile copy; platform-specific notes (TikTok search, IG keyword search, YouTube/Shorts); measuring search-driven reach; pitfalls. Verify: each platform's search-ranking cues. Sources: platform creator docs; social-search studies."
-    },
-    {
-      "translationKey": "seo-audit-gemini-search-console-2026",
-      "category": "digital-marketing",
-      "titleTr": "Gemini ve Search Console ile SEO Denetimi",
-      "titleEn": "Run an SEO Audit with Gemini and Search Console",
-      "slugTr": "gemini-ve-search-console-ile-seo-denetimi",
-      "slugEn": "run-an-seo-audit-with-gemini-and-search-console",
-      "keywordTr": "gemini seo denetimi search console",
-      "keywordEn": "seo audit gemini search console",
-      "angle": "how-to: find decaying pages and quick wins with Gemini + GSC data",
-      "style": "field-notes",
-      "brief": "Outline: export Search Console performance (queries, pages, CTR, position) to Sheets; use Gemini in Workspace to spot decaying pages, striking-distance keywords (positions 8-20), cannibalization, and low-CTR titles; generate prioritized fixes and rewritten titles/meta; verify suggestions against the data (don't trust blindly); turn it into a monthly routine. Verify: Gemini Sheets/Workspace capabilities; GSC export fields. Sources: Google Search Console Help; Gemini in Workspace docs."
-    },
-    {
-      "translationKey": "holiday-campaign-planning-chatgpt-2026",
-      "category": "digital-marketing",
-      "titleTr": "ChatGPT ile Yılbaşı Kampanyası Planlama",
-      "titleEn": "Plan a Holiday Campaign with ChatGPT",
-      "slugTr": "chatgpt-ile-yilbasi-kampanyasi-planlama",
-      "slugEn": "plan-a-holiday-campaign-with-chatgpt",
-      "keywordTr": "yılbaşı kampanya planı chatgpt",
-      "keywordEn": "holiday campaign planning chatgpt",
-      "angle": "guide: build a seasonal calendar, creatives, and budget with ChatGPT",
-      "style": "story-led",
-      "brief": "Outline: scope the campaign (goal, audience, offer); use ChatGPT Projects to build a dated content calendar across email/social/ads; generate variant creatives, subject lines, and product copy with a brand-voice file; draft a budget and channel split; create a UTM plan and a post-campaign review template; what to never outsource to AI (claims, pricing, legal). Verify: ChatGPT Projects/Slides features. Sources: OpenAI help/release notes; seasonal benchmarks."
-    },
-    {
-      "translationKey": "lead-scoring-claude-crm-2026",
-      "category": "digital-marketing",
-      "titleTr": "Claude ile Potansiyel Müşteri Skorlama",
-      "titleEn": "Score and Route Leads with Claude",
-      "slugTr": "claude-ile-potansiyel-musteri-skorlama",
-      "slugEn": "score-and-route-leads-with-claude",
-      "keywordTr": "claude ile lead skorlama crm",
-      "keywordEn": "lead scoring with claude crm",
-      "angle": "deep-dive: a transparent, rules-plus-AI scoring workflow for small teams",
-      "style": "question-driven",
-      "brief": "Outline: why small teams struggle with lead scoring; define an ICP and signals (firmographic, behavioral, intent); export CRM/form data and have Claude score and explain each lead against a rubric you control; route hot leads and draft first-touch outreach; keep a human in the loop and audit for bias/hallucinated fields; measure against closed-won. Verify: Claude file/data handling; privacy of CRM data. Sources: Claude docs; CRM export guides."
-    },
     {
       "translationKey": "ai-data-center-energy-explained-2026",
       "category": "technology",

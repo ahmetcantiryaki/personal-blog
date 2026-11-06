@@ -8268,6 +8268,66 @@
         "slug": "set-up-a-multi-camera-live-stream-tiktok-ig",
         "title": "How Do You Set Up a Multi-Camera Live Stream?"
       }
+    },
+    {
+      "translationKey": "claude-api-ip-allowlisting-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-api-ip-izin-listesi-kurulumu",
+        "title": "Claude API'de IP İzin Listesi Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "how-to-set-up-ip-allowlisting-claude-api",
+        "title": "How Do You Set Up IP Allowlisting for the Claude API?"
+      }
+    },
+    {
+      "translationKey": "social-search-seo-checklist-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "sosyal-aramada-bulunmak-icin-seo-kontrol-listesi",
+        "title": "Sosyal Aramada Bulunmak İçin SEO Kontrol Listesi"
+      },
+      "en": {
+        "slug": "get-found-in-social-search-seo-checklist",
+        "title": "Get Found in Social Search: An SEO Checklist"
+      }
+    },
+    {
+      "translationKey": "seo-audit-gemini-search-console-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "gemini-ve-search-console-ile-seo-denetimi",
+        "title": "Gemini ve Search Console ile SEO Denetimi"
+      },
+      "en": {
+        "slug": "run-an-seo-audit-with-gemini-and-search-console",
+        "title": "Run an SEO Audit with Gemini and Search Console"
+      }
+    },
+    {
+      "translationKey": "holiday-campaign-planning-chatgpt-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "chatgpt-ile-yilbasi-kampanyasi-planlama",
+        "title": "ChatGPT ile Yılbaşı Kampanyası Planlama"
+      },
+      "en": {
+        "slug": "plan-a-holiday-campaign-with-chatgpt",
+        "title": "Plan a Holiday Campaign with ChatGPT"
+      }
+    },
+    {
+      "translationKey": "lead-scoring-claude-crm-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "claude-ile-potansiyel-musteri-skorlama",
+        "title": "Claude ile Potansiyel Müşteri Skorlama"
+      },
+      "en": {
+        "slug": "score-and-route-leads-with-claude",
+        "title": "Score and Route Leads with Claude"
+      }
     }
   ]
 }
