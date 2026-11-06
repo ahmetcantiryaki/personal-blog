@@ -5446,5 +5446,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3236718,
     "generatedAt": "2026-11-05T06:34:22.290Z"
+  },
+  "en/get-found-in-social-search-seo-checklist": {
+    "hash": "6c6ba6c5e28b53e0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-get-found-in-social-search-seo-checklist.mp3",
+    "seconds": 392,
+    "voice": "en_US-ryan-high",
+    "bytes": 3132856,
+    "generatedAt": "2026-11-06T06:25:08.177Z"
+  },
+  "en/how-to-set-up-ip-allowlisting-claude-api": {
+    "hash": "294fac9eaef27c83",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-set-up-ip-allowlisting-claude-api.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3398678,
+    "generatedAt": "2026-11-06T06:26:46.073Z"
+  },
+  "en/plan-a-holiday-campaign-with-chatgpt": {
+    "hash": "8c43c06c53d8d131",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-plan-a-holiday-campaign-with-chatgpt.mp3",
+    "seconds": 343,
+    "voice": "en_US-ryan-high",
+    "bytes": 2741019,
+    "generatedAt": "2026-11-06T06:29:10.659Z"
+  },
+  "en/run-an-seo-audit-with-gemini-and-search-console": {
+    "hash": "fd4efb5cdd62bd11",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-run-an-seo-audit-with-gemini-and-search-console.mp3",
+    "seconds": 365,
+    "voice": "en_US-ryan-high",
+    "bytes": 2922413,
+    "generatedAt": "2026-11-06T06:30:35.557Z"
+  },
+  "en/score-and-route-leads-with-claude": {
+    "hash": "33e3f2cde4b126dd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-score-and-route-leads-with-claude.mp3",
+    "seconds": 353,
+    "voice": "en_US-ryan-high",
+    "bytes": 2824820,
+    "generatedAt": "2026-11-06T06:31:57.409Z"
   }
 }
