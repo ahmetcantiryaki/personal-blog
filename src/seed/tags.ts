@@ -127,6 +127,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   rust: { en: 'Rust', tr: 'Rust' },
   saas: { en: 'SaaS', tr: 'SaaS' },
   sales: { en: 'Sales', tr: 'Satış' },
+  'scam-prevention': { en: 'Scam Prevention', tr: 'Dolandırıcılıktan Korunma' },
   'self-hosting': { en: 'Self-Hosting', tr: 'Kendi Sunucunda Barındırma' },
   seo: { en: 'SEO', tr: 'SEO' },
   'server-components': { en: 'Server Components', tr: 'Sunucu Bileşenleri' },

@@ -8328,6 +8328,66 @@
         "slug": "score-and-route-leads-with-claude",
         "title": "Score and Route Leads with Claude"
       }
+    },
+    {
+      "translationKey": "ai-data-center-energy-explained-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "yapay-zekanin-enerji-faturasi-veri-merkezleri",
+        "title": "Yapay Zeka Neden Bu Kadar Elektrik Harcıyor?"
+      },
+      "en": {
+        "slug": "ais-energy-bill-data-centers-explained",
+        "title": "Why Does AI Use So Much Electricity?"
+      }
+    },
+    {
+      "translationKey": "laptop-for-local-ai-buying-guide-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "yerel-yapay-zeka-icin-laptop-alma-rehberi",
+        "title": "Yerel Yapay Zeka İçin Laptop Alırken Ne Önemli?"
+      },
+      "en": {
+        "slug": "buying-a-laptop-for-local-ai-2026",
+        "title": "What Specs Matter When Buying a Laptop for Local AI?"
+      }
+    },
+    {
+      "translationKey": "ai-voice-clone-scam-protection-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "yapay-zeka-ses-klonu-dolandiriciligindan-korunma",
+        "title": "Aileni AI Ses Klonu Dolandırıcılığından Nasıl Korursun?"
+      },
+      "en": {
+        "slug": "protect-your-family-from-ai-voice-clone-scams",
+        "title": "How Do You Protect Your Family From AI Voice-Clone Scams?"
+      }
+    },
+    {
+      "translationKey": "proof-based-fundraising-2026",
+      "category": "business",
+      "tr": {
+        "slug": "kanita-dayali-yatirim-slaytlarin-sonu-mu",
+        "title": "Yatırımcılar Artık Neden Kanıt İstiyor, Slayt Değil?"
+      },
+      "en": {
+        "slug": "proof-based-fundraising-pitch-decks-end",
+        "title": "Why Do Investors Want Proof, Not Just a Pitch Deck, in 2026?"
+      }
+    },
+    {
+      "translationKey": "ai-saas-financial-model-chatgpt-2026",
+      "category": "business",
+      "tr": {
+        "slug": "chatgpt-ile-saas-finansal-modeli-kurmak",
+        "title": "ChatGPT İle SaaS Finansal Modeli Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "build-a-saas-financial-model-with-chatgpt",
+        "title": "How Do You Build a SaaS Financial Model With ChatGPT?"
+      }
     }
   ]
 }
