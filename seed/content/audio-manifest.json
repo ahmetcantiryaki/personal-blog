@@ -5486,5 +5486,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 2824820,
     "generatedAt": "2026-11-06T06:31:57.409Z"
+  },
+  "en/ais-energy-bill-data-centers-explained": {
+    "hash": "a15a4330da478b59",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ais-energy-bill-data-centers-explained.mp3",
+    "seconds": 426,
+    "voice": "en_US-ryan-high",
+    "bytes": 3412261,
+    "generatedAt": "2026-11-07T06:29:02.474Z"
+  },
+  "en/build-a-saas-financial-model-with-chatgpt": {
+    "hash": "2bd3c0bc343f6f63",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-build-a-saas-financial-model-with-chatgpt.mp3",
+    "seconds": 372,
+    "voice": "en_US-ryan-high",
+    "bytes": 2973613,
+    "generatedAt": "2026-11-07T06:29:57.931Z"
+  },
+  "en/buying-a-laptop-for-local-ai-2026": {
+    "hash": "1e0868531134e2d9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-buying-a-laptop-for-local-ai-2026.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3017917,
+    "generatedAt": "2026-11-07T06:30:57.902Z"
+  },
+  "en/proof-based-fundraising-pitch-decks-end": {
+    "hash": "a7f2e21495e95e97",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-proof-based-fundraising-pitch-decks-end.mp3",
+    "seconds": 404,
+    "voice": "en_US-ryan-high",
+    "bytes": 3236718,
+    "generatedAt": "2026-11-07T06:31:57.038Z"
+  },
+  "en/protect-your-family-from-ai-voice-clone-scams": {
+    "hash": "53e6253b55ee40c0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-protect-your-family-from-ai-voice-clone-scams.mp3",
+    "seconds": 375,
+    "voice": "en_US-ryan-high",
+    "bytes": 3002452,
+    "generatedAt": "2026-11-07T06:32:51.743Z"
   }
 }
