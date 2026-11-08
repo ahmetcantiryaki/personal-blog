@@ -8388,6 +8388,66 @@
         "slug": "build-a-saas-financial-model-with-chatgpt",
         "title": "How Do You Build a SaaS Financial Model With ChatGPT?"
       }
+    },
+    {
+      "translationKey": "claude-personal-finance-feature-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-personal-finance-ozelligi-nedir",
+        "title": "Claude Personal Finance Özelliği Nedir, Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "claude-personal-finance-feature-explained",
+        "title": "What Is Claude's Personal Finance Feature?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-images-2-6-gifs-references",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-images-2-6-gif-ve-referans",
+        "title": "ChatGPT Images 2.6: GIF Yap ve Referans Kullan"
+      },
+      "en": {
+        "slug": "chatgpt-images-2-6-gifs-and-references",
+        "title": "ChatGPT Images 2.6: Make GIFs and Reuse References"
+      }
+    },
+    {
+      "translationKey": "gemini-create-edit-files-in-chat",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-sohbette-dosya-olusturma-duzenleme",
+        "title": "Gemini Artık Sohbette Dosya Oluşturup Düzenliyor"
+      },
+      "en": {
+        "slug": "gemini-create-edit-files-in-chat",
+        "title": "Gemini Can Now Create and Edit Files in Chat"
+      }
+    },
+    {
+      "translationKey": "prompting-101-better-answers-any-ai",
+      "category": "ai",
+      "tr": {
+        "slug": "prompt-101-daha-iyi-yanit-alma",
+        "title": "Prompt 101: Her Yapay Zekâdan Daha İyi Yanıt Alın"
+      },
+      "en": {
+        "slug": "prompting-101-better-answers-any-ai",
+        "title": "Prompting 101: Get Better Answers From Any AI"
+      }
+    },
+    {
+      "translationKey": "modern-css-color-oklch-color-mix",
+      "category": "web-development",
+      "tr": {
+        "slug": "csste-modern-renk-oklch-color-mix",
+        "title": "CSS'te Modern Renk: OKLCH ve color-mix()"
+      },
+      "en": {
+        "slug": "modern-css-color-oklch-color-mix",
+        "title": "Modern Color in CSS: OKLCH and color-mix()"
+      }
     }
   ]
 }

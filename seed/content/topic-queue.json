@@ -2,58 +2,6 @@
   "updatedAt": "2026-11-08",
   "topics": [
     {
-      "translationKey": "chatgpt-images-2-6-gifs-references",
-      "category": "ai",
-      "titleTr": "ChatGPT Images 2.6: GIF Yap ve Referans Kullan",
-      "titleEn": "ChatGPT Images 2.6: Make GIFs and Reuse References",
-      "slugTr": "chatgpt-images-2-6-gif-ve-referans",
-      "slugEn": "chatgpt-images-2-6-gifs-and-references",
-      "keywordTr": "chatgpt images 2.6 gif",
-      "keywordEn": "chatgpt images 2.6",
-      "angle": "how-to | create animated GIFs and reuse saved reference images for on-brand visuals",
-      "style": "story-led",
-      "brief": "Outline: what's new in Images 2.6 (animated GIF output, saved reference images reusable across chats, ~50% faster generation); where it's available (Free/Go/Plus/Pro and Codex) and the gradual rollout; a worked creator example turning a brand mascot into a GIF sticker set; prompt tips for keeping characters consistent; limits vs a dedicated motion tool. Claims to verify: GIF support, reusable references, the 50% speed figure, and plan availability against OpenAI's 4 Nov 2026 release note. Sources: help.openai.com ChatGPT release notes; openai.com/news."
-    },
-    {
-      "translationKey": "gemini-create-edit-files-in-chat",
-      "category": "ai",
-      "titleTr": "Gemini Artik Sohbette Dosya Olusturup Duzenliyor",
-      "titleEn": "Gemini Can Now Create and Edit Files in Chat",
-      "slugTr": "gemini-sohbette-dosya-olusturma-duzenleme",
-      "slugEn": "gemini-create-edit-files-in-chat",
-      "keywordTr": "gemini dosya olusturma",
-      "keywordEn": "gemini create files in chat",
-      "angle": "how-to | generate, preview and edit documents and spreadsheets directly inside the Gemini app",
-      "style": "field-notes",
-      "brief": "Outline: the new in-app file flow (generate, preview, iterate, export to Docs/Sheets/Slides) and how it differs from Canvas and from pasting into Workspace; a step-by-step for building a one-page report and a budget sheet from a prompt; round-trip editing and version pitfalls; data and privacy notes for business accounts. Claims to verify: in-app create/preview/edit availability, export targets, and rollout scope against Google's Nov 2026 Workspace recap. Sources: workspaceupdates.googleblog.com; blog.google/products/gemini."
-    },
-    {
-      "translationKey": "prompting-101-better-answers-any-ai",
-      "category": "ai",
-      "titleTr": "Prompt 101: Her Yapay Zekadan Daha Iyi Yanit Alin",
-      "titleEn": "Prompting 101: Get Better Answers From Any AI",
-      "slugTr": "prompt-101-daha-iyi-yanit-alma",
-      "slugEn": "prompting-101-better-answers-any-ai",
-      "keywordTr": "prompt yazma",
-      "keywordEn": "how to write prompts",
-      "angle": "guide | a non-developer playbook for clearer prompts across Claude, ChatGPT and Gemini",
-      "style": "question-driven",
-      "brief": "Outline for non-technical readers: why vague prompts fail; a simple role-context-task-format pattern; giving examples and constraints; asking for the reasoning or a checklist; iterating instead of restarting; when to use custom instructions, memory or a project. Three side-by-side before/after rewrites for everyday tasks (email, summary, plan). Claims to verify: current custom-instruction and memory behaviour in each tool. Sources: docs.claude.com prompt guidance; OpenAI help center custom instructions. Keep it tool-agnostic and beginner-friendly, distinct from developer prompt-pattern posts."
-    },
-    {
-      "translationKey": "modern-css-color-oklch-color-mix",
-      "category": "web-development",
-      "titleTr": "CSS'te Modern Renk: OKLCH ve color-mix()",
-      "titleEn": "Modern Color in CSS: OKLCH and color-mix()",
-      "slugTr": "csste-modern-renk-oklch-color-mix",
-      "slugEn": "modern-css-color-oklch-color-mix",
-      "keywordTr": "css oklch renk",
-      "keywordEn": "css oklch color-mix",
-      "angle": "how-to | build accessible, themeable palettes with perceptual color functions",
-      "style": "field-notes",
-      "brief": "Outline: why hex/HSL break down for theming and contrast; OKLCH explained (lightness, chroma, hue) with practical values; generating tints/shades and hover states with color-mix(); wide-gamut (display-p3) and graceful fallbacks; deriving a dark theme by flipping lightness; contrast checks for WCAG. Include a small token system example. Claims to verify: browser support via Baseline, relative color syntax status, and display-p3 behaviour. Sources: MDN color_value and color-mix docs; web.dev Baseline. Distinct from the existing cascade-layers and container-query posts."
-    },
-    {
       "translationKey": "css-subgrid-align-nested-grids",
       "category": "web-development",
       "titleTr": "CSS Subgrid: Ic Ice Gridleri Hizalayin",
