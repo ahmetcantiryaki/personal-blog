@@ -5526,5 +5526,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3002452,
     "generatedAt": "2026-11-07T06:32:51.743Z"
+  },
+  "en/chatgpt-images-2-6-gifs-and-references": {
+    "hash": "8afd7a592a036238",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-images-2-6-gifs-and-references.mp3",
+    "seconds": 460,
+    "voice": "en_US-ryan-high",
+    "bytes": 3682054,
+    "generatedAt": "2026-11-08T06:26:13.446Z"
+  },
+  "en/claude-personal-finance-feature-explained": {
+    "hash": "baed497ba85acd52",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-personal-finance-feature-explained.mp3",
+    "seconds": 389,
+    "voice": "en_US-ryan-high",
+    "bytes": 3110704,
+    "generatedAt": "2026-11-08T06:27:29.549Z"
+  },
+  "en/gemini-create-edit-files-in-chat": {
+    "hash": "9a4949b47c6ec83b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-create-edit-files-in-chat.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3256363,
+    "generatedAt": "2026-11-08T06:28:50.199Z"
+  },
+  "en/modern-css-color-oklch-color-mix": {
+    "hash": "22fd5057fe383a3c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-modern-css-color-oklch-color-mix.mp3",
+    "seconds": 442,
+    "voice": "en_US-ryan-high",
+    "bytes": 3535559,
+    "generatedAt": "2026-11-08T06:30:34.917Z"
+  },
+  "en/prompting-101-better-answers-any-ai": {
+    "hash": "7e79a6a7c40a7a8a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-prompting-101-better-answers-any-ai.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3709012,
+    "generatedAt": "2026-11-08T06:32:04.314Z"
   }
 }
