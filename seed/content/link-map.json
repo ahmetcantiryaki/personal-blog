@@ -8448,6 +8448,66 @@
         "slug": "modern-css-color-oklch-color-mix",
         "title": "Modern Color in CSS: OKLCH and color-mix()"
       }
+    },
+    {
+      "translationKey": "css-subgrid-align-nested-grids",
+      "category": "web-development",
+      "tr": {
+        "slug": "css-subgrid-ic-ice-grid-hizalama",
+        "title": "CSS Subgrid ile İç İçe Gridler Nasıl Hizalanır?"
+      },
+      "en": {
+        "slug": "css-subgrid-align-nested-grids",
+        "title": "How Does CSS Subgrid Align Nested Grids?"
+      }
+    },
+    {
+      "translationKey": "fix-mobile-viewport-dvh-svh-safe-areas",
+      "category": "web-development",
+      "tr": {
+        "slug": "mobil-viewport-dvh-svh-guvenli-alan",
+        "title": "Mobilde 100vh Neden Taşar? dvh ve svh ile Çözüm"
+      },
+      "en": {
+        "slug": "fix-mobile-viewport-dvh-svh-safe-areas",
+        "title": "Why Does 100vh Overflow on Mobile? Fix It With dvh"
+      }
+    },
+    {
+      "translationKey": "database-sharding-when-and-how",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "veritabani-sharding-ne-zaman-nasil",
+        "title": "Veritabanı Sharding Ne Zaman Gerekir, Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "database-sharding-when-and-how",
+        "title": "When Do You Actually Need Database Sharding?"
+      }
+    },
+    {
+      "translationKey": "ddd-bounded-contexts-in-practice",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ddd-bounded-context-pratik",
+        "title": "DDD'de Bounded Context Nedir, Nasıl Çizilir?"
+      },
+      "en": {
+        "slug": "ddd-bounded-contexts-in-practice",
+        "title": "What Is a Bounded Context in DDD, and How Do You Draw One?"
+      }
+    },
+    {
+      "translationKey": "pay-down-tech-debt-without-freezing",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ozellik-durdurmadan-teknik-borc-odeme",
+        "title": "Özellikleri Durdurmadan Teknik Borç Nasıl Ödenir?"
+      },
+      "en": {
+        "slug": "pay-down-tech-debt-without-freezing",
+        "title": "How Do You Pay Down Tech Debt Without Freezing Features?"
+      }
     }
   ]
 }
