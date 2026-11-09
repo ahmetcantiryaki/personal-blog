@@ -5566,5 +5566,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3709012,
     "generatedAt": "2026-11-08T06:32:04.314Z"
+  },
+  "en/css-subgrid-align-nested-grids": {
+    "hash": "87b1612c32325f09",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-css-subgrid-align-nested-grids.mp3",
+    "seconds": 430,
+    "voice": "en_US-ryan-high",
+    "bytes": 3440056,
+    "generatedAt": "2026-11-09T06:34:44.944Z"
+  },
+  "en/database-sharding-when-and-how": {
+    "hash": "a4c1b540024fa6bb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-database-sharding-when-and-how.mp3",
+    "seconds": 413,
+    "voice": "en_US-ryan-high",
+    "bytes": 3307145,
+    "generatedAt": "2026-11-09T06:38:15.454Z"
+  },
+  "en/ddd-bounded-contexts-in-practice": {
+    "hash": "3a4d8c467df21152",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ddd-bounded-contexts-in-practice.mp3",
+    "seconds": 464,
+    "voice": "en_US-ryan-high",
+    "bytes": 3710266,
+    "generatedAt": "2026-11-09T06:40:24.276Z"
+  },
+  "en/fix-mobile-viewport-dvh-svh-safe-areas": {
+    "hash": "1fbf9ab528f4ca5e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-fix-mobile-viewport-dvh-svh-safe-areas.mp3",
+    "seconds": 431,
+    "voice": "en_US-ryan-high",
+    "bytes": 3448415,
+    "generatedAt": "2026-11-09T06:42:23.514Z"
+  },
+  "en/pay-down-tech-debt-without-freezing": {
+    "hash": "6de9c59a2806e9ad",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-pay-down-tech-debt-without-freezing.mp3",
+    "seconds": 429,
+    "voice": "en_US-ryan-high",
+    "bytes": 3433368,
+    "generatedAt": "2026-11-09T06:44:22.961Z"
   }
 }
