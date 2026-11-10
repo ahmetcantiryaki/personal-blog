@@ -5606,5 +5606,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3433368,
     "generatedAt": "2026-11-09T06:44:22.961Z"
+  },
+  "en/claude-chatgpt-gemini-for-writing-2026": {
+    "hash": "363db0906ea4abfb",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-chatgpt-gemini-for-writing-2026.mp3",
+    "seconds": 421,
+    "voice": "en_US-ryan-high",
+    "bytes": 3367958,
+    "generatedAt": "2026-11-10T06:35:21.772Z"
+  },
+  "en/claude-fable-5-2-mythos-5-2-launch": {
+    "hash": "b71e20f43fd386c3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-fable-5-2-mythos-5-2-launch.mp3",
+    "seconds": 566,
+    "voice": "en_US-ryan-high",
+    "bytes": 4525496,
+    "generatedAt": "2026-11-10T06:38:27.978Z"
+  },
+  "en/keyless-ci-oidc-instead-of-secrets": {
+    "hash": "4214315c8d55dc60",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-keyless-ci-oidc-instead-of-secrets.mp3",
+    "seconds": 420,
+    "voice": "en_US-ryan-high",
+    "bytes": 3359180,
+    "generatedAt": "2026-11-10T06:40:45.227Z"
+  },
+  "en/kubernetes-rbac-least-privilege": {
+    "hash": "7b1eb3411b9a2745",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-rbac-least-privilege.mp3",
+    "seconds": 411,
+    "voice": "en_US-ryan-high",
+    "bytes": 3287083,
+    "generatedAt": "2026-11-10T06:42:58.555Z"
+  },
+  "en/load-testing-in-ci-catch-regressions": {
+    "hash": "f067c75e601b51f6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-load-testing-in-ci-catch-regressions.mp3",
+    "seconds": 426,
+    "voice": "en_US-ryan-high",
+    "bytes": 3408709,
+    "generatedAt": "2026-11-10T06:45:16.592Z"
   }
 }
