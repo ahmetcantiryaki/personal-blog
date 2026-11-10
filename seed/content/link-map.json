@@ -8508,6 +8508,66 @@
         "slug": "pay-down-tech-debt-without-freezing",
         "title": "How Do You Pay Down Tech Debt Without Freezing Features?"
       }
+    },
+    {
+      "translationKey": "claude-fable-mythos-5-2-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-fable-5-2-mythos-5-2-nedir",
+        "title": "Claude Fable 5.2 ve Mythos 5.2 Nedir? Ne Değişti?"
+      },
+      "en": {
+        "slug": "claude-fable-5-2-mythos-5-2-launch",
+        "title": "What Are Claude Fable 5.2 and Mythos 5.2? What Changed?"
+      }
+    },
+    {
+      "translationKey": "load-testing-in-ci-catch-regressions",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "cida-yuk-testi-regresyon",
+        "title": "CI'da Yük Testi: Regresyon Nasıl Erken Yakalanır?"
+      },
+      "en": {
+        "slug": "load-testing-in-ci-catch-regressions",
+        "title": "How Do You Catch Performance Regressions in CI?"
+      }
+    },
+    {
+      "translationKey": "keyless-ci-oidc-instead-of-secrets",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "anahtarsiz-ci-oidc",
+        "title": "CI'da Anahtarsız Dağıtım: OIDC Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "keyless-ci-oidc-instead-of-secrets",
+        "title": "How Do You Set Up Keyless CI With OIDC?"
+      }
+    },
+    {
+      "translationKey": "kubernetes-rbac-least-privilege",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-rbac-en-az-yetki",
+        "title": "Kubernetes RBAC'ta En Az Yetki Nasıl Uygulanır?"
+      },
+      "en": {
+        "slug": "kubernetes-rbac-least-privilege",
+        "title": "How Do You Apply Least Privilege in Kubernetes RBAC?"
+      }
+    },
+    {
+      "translationKey": "claude-chatgpt-gemini-for-writing-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "2026-yazarlik-icin-claude-chatgpt-gemini",
+        "title": "Yazarlık İçin Claude mı, ChatGPT mi, Gemini mi?"
+      },
+      "en": {
+        "slug": "claude-chatgpt-gemini-for-writing-2026",
+        "title": "Claude vs ChatGPT vs Gemini: Which Is Best for Writing?"
+      }
     }
   ]
 }

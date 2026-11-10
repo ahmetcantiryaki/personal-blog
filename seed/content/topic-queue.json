@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "topics": [
-    {
-      "translationKey": "load-testing-in-ci-catch-regressions",
-      "category": "devops-cloud",
-      "titleTr": "CI'da Yuk Testi: Regresyonlari Erken Yakalayin",
-      "titleEn": "Load Testing in CI: Catch Regressions Early",
-      "slugTr": "cida-yuk-testi-regresyon",
-      "slugEn": "load-testing-in-ci-catch-regressions",
-      "keywordTr": "ci yuk testi",
-      "keywordEn": "load testing in ci",
-      "angle": "how-to | wire performance tests into the pipeline so latency regressions fail the build",
-      "style": "contrarian",
-      "brief": "Outline: why one-off load tests miss slow creep; picking a tool (k6, Gatling, Locust) and writing a smoke-sized scenario; running it against ephemeral preview environments; defining thresholds and SLO-based pass/fail so a regression breaks CI; keeping runs fast and non-flaky; trending p95/p99 over time. Claims to verify: k6 thresholds and CI exit codes; realistic CI-sized load vs full stress tests. Sources: k6 docs (grafana.com/docs/k6); Gatling docs. Emphasize gating on relative regression, not absolute numbers."
-    },
-    {
-      "translationKey": "keyless-ci-oidc-instead-of-secrets",
-      "category": "devops-cloud",
-      "titleTr": "Anahtarsiz CI: Uzun Omurlu Sir Yerine OIDC",
-      "titleEn": "Keyless CI: Use OIDC Instead of Long-Lived Secrets",
-      "slugTr": "anahtarsiz-ci-oidc",
-      "slugEn": "keyless-ci-oidc-instead-of-secrets",
-      "keywordTr": "github actions oidc",
-      "keywordEn": "github actions oidc keyless",
-      "angle": "how-to | replace stored cloud keys in CI with short-lived OIDC tokens",
-      "style": "data-led",
-      "brief": "Outline: why long-lived cloud keys in CI are a top breach vector; how OIDC federation works (CI issues a signed token, cloud trusts it, mints short-lived creds); step-by-step for GitHub Actions to AWS/GCP/Azure with scoped trust conditions; locking trust to repo, branch and environment; pitfalls (over-broad subjects, forks). Claims to verify: current GitHub OIDC claims and cloud trust-policy syntax. Sources: GitHub Actions OIDC docs; AWS IAM roles for GitHub OIDC. Include a least-privilege checklist and audit tips."
-    },
-    {
-      "translationKey": "kubernetes-rbac-least-privilege",
-      "category": "devops-cloud",
-      "titleTr": "Kubernetes RBAC: En Az Yetki Ilkesini Uygulayin",
-      "titleEn": "Kubernetes RBAC: Least-Privilege Access Done Right",
-      "slugTr": "kubernetes-rbac-en-az-yetki",
-      "slugEn": "kubernetes-rbac-least-privilege",
-      "keywordTr": "kubernetes rbac",
-      "keywordEn": "kubernetes rbac least privilege",
-      "angle": "checklist | design Roles, bindings and service accounts that grant only what is needed",
-      "style": "field-notes",
-      "brief": "Outline: RBAC primitives (Role vs ClusterRole, RoleBinding, ServiceAccount) in plain terms; common over-grants (cluster-admin, wildcard verbs, default SA tokens); a least-privilege recipe per workload and per human; auditing with kubectl auth can-i and tools like rbac-tool; pairing RBAC with namespaces and admission policy. Claims to verify: default service-account token behaviour in current Kubernetes, aggregated ClusterRoles. Sources: kubernetes.io RBAC authorization docs; CNCF security guidance. Deliver as an actionable hardening checklist, distinct from the eBPF and policy-as-code posts."
-    },
-    {
-      "translationKey": "claude-chatgpt-gemini-for-writing-2026",
-      "category": "career-productivity",
-      "titleTr": "2026: Yazarlik Icin Claude, ChatGPT, Gemini",
-      "titleEn": "Claude vs ChatGPT vs Gemini for Writing in 2026",
-      "slugTr": "2026-yazarlik-icin-claude-chatgpt-gemini",
-      "slugEn": "claude-chatgpt-gemini-for-writing-2026",
-      "keywordTr": "yazarlik icin yapay zeka",
-      "keywordEn": "best ai for writing",
-      "angle": "comparison | which assistant fits drafting, editing and long-form work",
-      "style": "question-driven",
-      "brief": "Outline: a fair test across tasks writers actually do (first drafts, line editing, tone matching, long-form structure, fact-checking, style memory); where each model shines and stumbles; voice and over-polishing tendencies; context limits for book-length work; custom instructions/projects for a persistent style guide; privacy for client work. Claims to verify: current context windows and memory features for Claude, ChatGPT, Gemini. Sources: docs.claude.com; model release notes. Keep it writing-specific and reproducible, distinct from the creator and spreadsheet comparisons already published."
-    },
     {
       "translationKey": "how-to-mentor-junior-developers",
       "category": "career-productivity",
