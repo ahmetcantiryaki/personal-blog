@@ -8568,6 +8568,66 @@
         "slug": "claude-chatgpt-gemini-for-writing-2026",
         "title": "Claude vs ChatGPT vs Gemini: Which Is Best for Writing?"
       }
+    },
+    {
+      "translationKey": "claude-code-mcp-tasks-background-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-mcp-gorevleri-arka-planda",
+        "title": "Claude Code'da MCP Görevleri Artık Arka Planda mı Çalışıyor?"
+      },
+      "en": {
+        "slug": "claude-code-mcp-tasks-background",
+        "title": "Does Claude Code Run MCP Tool Calls in the Background Now?"
+      }
+    },
+    {
+      "translationKey": "how-to-mentor-junior-developers",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "junior-gelistirici-mentorluk",
+        "title": "Junior Geliştiricilere İyi Mentorluk Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "how-to-mentor-junior-developers",
+        "title": "How to Mentor Junior Developers Well"
+      }
+    },
+    {
+      "translationKey": "make-your-first-open-source-contribution",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ilk-acik-kaynak-katkisi",
+        "title": "İlk Açık Kaynak Katkınızı Nasıl Yaparsınız?"
+      },
+      "en": {
+        "slug": "make-your-first-open-source-contribution",
+        "title": "Make Your First Open-Source Contribution"
+      }
+    },
+    {
+      "translationKey": "ai-voiceovers-for-video-tools-ethics",
+      "category": "social-media",
+      "tr": {
+        "slug": "video-icin-yapay-zeka-seslendirme",
+        "title": "Video İçin Yapay Zeka Seslendirme: Araçlar ve Etik"
+      },
+      "en": {
+        "slug": "ai-voiceovers-for-video-tools-ethics",
+        "title": "AI Voiceovers for Video: Tools and Ethics"
+      }
+    },
+    {
+      "translationKey": "creator-monetization-2026-income-streams",
+      "category": "social-media",
+      "tr": {
+        "slug": "2026-icerik-uretici-6-kazanc-yolu",
+        "title": "2026 İçerik Üretici Geliri: 6 Kazanç Yolu"
+      },
+      "en": {
+        "slug": "creator-monetization-2026-income-streams",
+        "title": "Creator Monetization in 2026: 6 Income Streams"
+      }
     }
   ]
 }

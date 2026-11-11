@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "topics": [
-    {
-      "translationKey": "how-to-mentor-junior-developers",
-      "category": "career-productivity",
-      "titleTr": "Junior Gelistiricilere Iyi Mentorluk Nasil Yapilir",
-      "titleEn": "How to Mentor Junior Developers Well",
-      "slugTr": "junior-gelistirici-mentorluk",
-      "slugEn": "how-to-mentor-junior-developers",
-      "keywordTr": "junior gelistirici mentorluk",
-      "keywordEn": "mentoring junior developers",
-      "angle": "guide | help new engineers grow fast without doing the work for them",
-      "style": "story-led",
-      "brief": "Outline: what juniors need now that AI writes boilerplate (judgment, debugging, reading code, asking good questions); structuring the first 90 days; code review as teaching, not gatekeeping; pairing and the 'struggle budget'; giving feedback that builds autonomy; measuring growth. A short story of a stuck junior and a better intervention. Claims to verify: entry-level hiring pressure and the shift in junior tasks from 2026 labour data. Sources: Stanford HAI AI Index 2026; LinkedIn Economic Graph engineer report. Pair with the junior-to-senior roadmap post."
-    },
-    {
-      "translationKey": "make-your-first-open-source-contribution",
-      "category": "career-productivity",
-      "titleTr": "Ilk Acik Kaynak Katkinizi Nasil Yaparsiniz",
-      "titleEn": "Make Your First Open-Source Contribution",
-      "slugTr": "ilk-acik-kaynak-katkisi",
-      "slugEn": "make-your-first-open-source-contribution",
-      "keywordTr": "acik kaynak katki",
-      "keywordEn": "first open source contribution",
-      "angle": "how-to | go from reader to merged PR without the intimidation",
-      "style": "question-driven",
-      "brief": "Outline: why contributing beats another side project for your portfolio and network; finding beginner-friendly issues (good-first-issue, docs, tests); reading CONTRIBUTING and setting up locally; scoping a small first PR; writing a clear description and responding to review; handling rejection gracefully; building a streak. Mention using AI to understand an unfamiliar codebase without pasting secrets. Claims to verify: current good-first-issue norms and CLA/DCO basics. Sources: opensource.guide; GitHub docs on contributing. Keep it encouraging and concrete, with a first-week plan."
-    },
-    {
-      "translationKey": "ai-voiceovers-for-video-tools-ethics",
-      "category": "social-media",
-      "titleTr": "Video Icin Yapay Zeka Seslendirme: Araclar, Etik",
-      "titleEn": "AI Voiceovers for Video: Tools and Ethics",
-      "slugTr": "video-icin-yapay-zeka-seslendirme",
-      "slugEn": "ai-voiceovers-for-video-tools-ethics",
-      "keywordTr": "yapay zeka seslendirme",
-      "keywordEn": "ai voiceover for video",
-      "angle": "guide | produce natural narration for shorts without a mic or a pro VO budget",
-      "style": "contrarian",
-      "brief": "Outline: where AI narration genuinely works (faceless explainers, localization, accessibility) and where a real voice still wins; a quick workflow (script, generate, pace to b-roll, caption); comparing options on naturalness, languages and licensing; the ethics and rules (disclosure, voice cloning consent, platform synthetic-media labels); keeping a consistent channel voice. Claims to verify: current platform AI-content labeling rules (TikTok, YouTube, Instagram) and voice-clone consent norms. Sources: YouTube and TikTok synthetic-media/labeling policies. Distinct from the faceless-AI-content and avatar posts."
-    },
-    {
-      "translationKey": "creator-monetization-2026-income-streams",
-      "category": "social-media",
-      "titleTr": "2026 Icerik Uretici Geliri: 6 Kazanc Yolu",
-      "titleEn": "Creator Monetization in 2026: 6 Income Streams",
-      "slugTr": "2026-icerik-uretici-6-kazanc-yolu",
-      "slugEn": "creator-monetization-2026-income-streams",
-      "keywordTr": "icerik uretici para kazanma",
-      "keywordEn": "creator monetization 2026",
-      "angle": "guide | diversify beyond platform payouts without burning out your audience",
-      "style": "data-led",
-      "brief": "Outline: why platform ad payouts are volatile and how top creators stack income; six streams (brand deals/UGC, memberships/subscriptions, digital products, affiliates, services/consulting, live shopping) with rough effort-vs-return and when each makes sense at different audience sizes; sequencing them; owning the audience via email/DM lists. Claims to verify: current creator-fund/payout terms and any 2026 program changes across YouTube, TikTok, Instagram. Sources: platform creator-monetization help pages; a 2026 creator economy report. Complement existing single-stream posts (TikTok Shop, digital products) rather than repeat them."
-    },
     {
       "translationKey": "handle-dms-and-comments-with-ai",
       "category": "social-media",
