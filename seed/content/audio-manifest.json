@@ -5646,5 +5646,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3408709,
     "generatedAt": "2026-11-10T06:45:16.592Z"
+  },
+  "en/ai-voiceovers-for-video-tools-ethics": {
+    "hash": "0130a0511b14c245",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-voiceovers-for-video-tools-ethics.mp3",
+    "seconds": 427,
+    "voice": "en_US-ryan-high",
+    "bytes": 3413306,
+    "generatedAt": "2026-11-11T06:26:28.964Z"
+  },
+  "en/claude-code-mcp-tasks-background": {
+    "hash": "6371dde429aefd0d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-mcp-tasks-background.mp3",
+    "seconds": 417,
+    "voice": "en_US-ryan-high",
+    "bytes": 3333267,
+    "generatedAt": "2026-11-11T06:28:22.947Z"
+  },
+  "en/creator-monetization-2026-income-streams": {
+    "hash": "bdfe38b7eed7add6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-creator-monetization-2026-income-streams.mp3",
+    "seconds": 414,
+    "voice": "en_US-ryan-high",
+    "bytes": 3310906,
+    "generatedAt": "2026-11-11T06:30:16.995Z"
+  },
+  "en/how-to-mentor-junior-developers": {
+    "hash": "2f54147d619eb006",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-how-to-mentor-junior-developers.mp3",
+    "seconds": 437,
+    "voice": "en_US-ryan-high",
+    "bytes": 3499406,
+    "generatedAt": "2026-11-11T06:32:15.919Z"
+  },
+  "en/make-your-first-open-source-contribution": {
+    "hash": "b6e2c54b64e551bc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-make-your-first-open-source-contribution.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3018544,
+    "generatedAt": "2026-11-11T06:33:58.859Z"
   }
 }
