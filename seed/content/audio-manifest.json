@@ -5686,5 +5686,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3018544,
     "generatedAt": "2026-11-11T06:33:58.859Z"
+  },
+  "en/claude-code-fast-mode-vertex-ai": {
+    "hash": "87b0d11c024112dd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-fast-mode-vertex-ai.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3329714,
+    "generatedAt": "2026-11-12T06:24:16.593Z"
+  },
+  "en/handle-dms-and-comments-with-ai": {
+    "hash": "ec310b81bb78ac9f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-handle-dms-and-comments-with-ai.mp3",
+    "seconds": 414,
+    "voice": "en_US-ryan-high",
+    "bytes": 3313832,
+    "generatedAt": "2026-11-12T06:25:44.478Z"
+  },
+  "en/lifecycle-email-onboarding-to-winback": {
+    "hash": "80540aca6bbbe7d7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-lifecycle-email-onboarding-to-winback.mp3",
+    "seconds": 426,
+    "voice": "en_US-ryan-high",
+    "bytes": 3408082,
+    "generatedAt": "2026-11-12T06:27:15.056Z"
+  },
+  "en/localize-your-content-with-ai": {
+    "hash": "94e3ef2fa370d1db",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-localize-your-content-with-ai.mp3",
+    "seconds": 424,
+    "voice": "en_US-ryan-high",
+    "bytes": 3394498,
+    "generatedAt": "2026-11-12T06:28:44.065Z"
+  },
+  "en/pricing-page-design-that-converts": {
+    "hash": "3ae95e0abc500ae5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-pricing-page-design-that-converts.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3388647,
+    "generatedAt": "2026-11-12T06:30:13.440Z"
   }
 }
