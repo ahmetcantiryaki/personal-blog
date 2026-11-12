@@ -8628,6 +8628,66 @@
         "slug": "creator-monetization-2026-income-streams",
         "title": "Creator Monetization in 2026: 6 Income Streams"
       }
+    },
+    {
+      "translationKey": "claude-code-fast-mode-vertex-ai-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-fast-mode-vertex-ai-destegi",
+        "title": "Claude Code Fast Mode Artık Vertex AI'da Çalışıyor"
+      },
+      "en": {
+        "slug": "claude-code-fast-mode-vertex-ai",
+        "title": "Claude Code Fast Mode Now Works on Vertex AI"
+      }
+    },
+    {
+      "translationKey": "handle-dms-and-comments-with-ai",
+      "category": "social-media",
+      "tr": {
+        "slug": "dm-ve-yorumlari-yapay-zeka-ile-yonetme",
+        "title": "DM ve Yorumları Yapay Zekayla Ölçekte Yönetin"
+      },
+      "en": {
+        "slug": "handle-dms-and-comments-with-ai",
+        "title": "Handle DMs and Comments at Scale With AI"
+      }
+    },
+    {
+      "translationKey": "localize-your-content-with-ai",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "icerigi-yapay-zeka-ile-yerellestirme",
+        "title": "İçeriği Yapay Zekayla Doğru Şekilde Yerelleştirin"
+      },
+      "en": {
+        "slug": "localize-your-content-with-ai",
+        "title": "Localize Your Content With AI, the Right Way"
+      }
+    },
+    {
+      "translationKey": "lifecycle-email-onboarding-to-winback",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "yasam-dongusu-e-posta-karsilama-geri-kazanma",
+        "title": "Yaşam Döngüsü E-postası: Karşılamadan Geri Kazanmaya"
+      },
+      "en": {
+        "slug": "lifecycle-email-onboarding-to-winback",
+        "title": "Lifecycle Email: Onboarding to Win-Back Flows"
+      }
+    },
+    {
+      "translationKey": "pricing-page-design-that-converts",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "donusturen-fiyatlandirma-sayfasi",
+        "title": "Dönüştüren Fiyatlandırma Sayfası Tasarımı"
+      },
+      "en": {
+        "slug": "pricing-page-design-that-converts",
+        "title": "Pricing Page Design That Converts"
+      }
     }
   ]
 }

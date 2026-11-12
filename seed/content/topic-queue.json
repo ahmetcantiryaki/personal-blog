@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "topics": [
-    {
-      "translationKey": "handle-dms-and-comments-with-ai",
-      "category": "social-media",
-      "titleTr": "DM ve Yorumlari Yapay Zeka ile Olcekte Yonetin",
-      "titleEn": "Handle DMs and Comments at Scale With AI",
-      "slugTr": "dm-ve-yorumlari-yapay-zeka-ile-yonetme",
-      "slugEn": "handle-dms-and-comments-with-ai",
-      "keywordTr": "dm yonetimi yapay zeka",
-      "keywordEn": "manage dms comments with ai",
-      "angle": "how-to | triage and reply to social inboxes fast while keeping a human voice",
-      "style": "field-notes",
-      "brief": "Outline: the hidden cost of unanswered DMs and comments (reach, trust, lost sales); a triage system (auto-sort questions, leads, support, spam); drafting on-brand replies with a saved brand-voice prompt and approving before send; saved replies and routing to a human for anything sensitive; measuring response time and conversion. Guardrails against tone-deaf auto-replies and FTC/disclosure issues. Claims to verify: native creator inbox tools and third-party options; platform automation limits. Sources: platform business/creator inbox docs. Keep a human-in-the-loop stance, distinct from the no-code support-chatbot post."
-    },
-    {
-      "translationKey": "localize-your-content-with-ai",
-      "category": "digital-marketing",
-      "titleTr": "Icerigi Yapay Zeka ile Dogru Sekilde Yerellestirin",
-      "titleEn": "Localize Your Content With AI, the Right Way",
-      "slugTr": "icerigi-yapay-zeka-ile-yerellestirme",
-      "slugEn": "localize-your-content-with-ai",
-      "keywordTr": "yapay zeka ile yerellestirme",
-      "keywordEn": "ai content localization",
-      "angle": "how-to | translate and adapt marketing content for new markets without sounding machine-made",
-      "style": "question-driven",
-      "brief": "Outline: translation vs localization (idioms, tone, currency, examples, legal); a workflow using AI for first-pass translation plus a glossary and brand-voice prompt, then human review; hreflang and multilingual SEO so pages rank in each market; keyword research per language (search intent differs); QA for cultural missteps. Measuring whether localized pages convert. Claims to verify: current hreflang guidance and multilingual indexing behaviour; machine-translation-at-scale quality caveats from Google. Sources: Google Search Central multilingual docs; a localization-quality study. Distinct from the consumer Gemini Live Translate post."
-    },
-    {
-      "translationKey": "lifecycle-email-onboarding-to-winback",
-      "category": "digital-marketing",
-      "titleTr": "Yasam Dongusu E-postasi: Karsilama ve Geri Kazanma",
-      "titleEn": "Lifecycle Email: Onboarding to Win-Back Flows",
-      "slugTr": "yasam-dongusu-e-posta-karsilama-geri-kazanma",
-      "slugEn": "lifecycle-email-onboarding-to-winback",
-      "keywordTr": "yasam dongusu e-posta",
-      "keywordEn": "lifecycle email flows",
-      "angle": "guide | design the automated email flows that actually move revenue",
-      "style": "story-led",
-      "brief": "Outline: beyond broadcasts, the core automated flows (welcome/onboarding, activation nudges, abandoned cart/browse, post-purchase, re-engagement, win-back); what each should say and when to send; segmentation and triggers; writing for the first-reader-is-an-AI inbox and deliverability basics; metrics per flow (open proxy issues post-MPP, click, revenue). A small-brand build order. Claims to verify: current open-rate reliability after Apple MPP; deliverability authentication basics. Sources: ESP lifecycle guides; email deliverability references. Distinct from list-building and deliverability posts already live."
-    },
-    {
-      "translationKey": "pricing-page-design-that-converts",
-      "category": "digital-marketing",
-      "titleTr": "Donusturen Fiyatlandirma Sayfasi Tasarimi",
-      "titleEn": "Pricing Page Design That Converts",
-      "slugTr": "donusturen-fiyatlandirma-sayfasi",
-      "slugEn": "pricing-page-design-that-converts",
-      "keywordTr": "fiyatlandirma sayfasi tasarimi",
-      "keywordEn": "pricing page design",
-      "angle": "mistakes | the pricing-page errors that cost signups and how to fix them",
-      "style": "data-led",
-      "brief": "Outline: the pricing page as a decision moment, not a table; common mistakes (too many tiers, jargon feature lists, hidden CTA, no anchor, decision paralysis); proven patterns (3 tiers, highlighted plan, annual toggle, social proof, FAQ handling objections); clarity on usage/overage in an AI-pricing world; accessibility and mobile. How to test changes safely. Claims to verify: choice-overload and anchoring effects; any current CRO benchmarks (cite cautiously). Sources: NN/g pricing-page research; a CRO case study. Complement existing landing-page and comparison-page posts without repeating them."
-    },
     {
       "translationKey": "youtube-seo-rank-your-videos-2026",
       "category": "digital-marketing",
