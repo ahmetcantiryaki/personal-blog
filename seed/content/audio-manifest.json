@@ -5726,5 +5726,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3388647,
     "generatedAt": "2026-11-12T06:30:13.440Z"
+  },
+  "en/back-up-your-digital-life-3-2-1": {
+    "hash": "2c7e5158889c4378",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-back-up-your-digital-life-3-2-1.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3259288,
+    "generatedAt": "2026-11-13T06:18:42.637Z"
+  },
+  "en/do-you-still-need-a-vpn-2026": {
+    "hash": "9a48b5a0130603cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-do-you-still-need-a-vpn-2026.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3511109,
+    "generatedAt": "2026-11-13T06:19:49.352Z"
+  },
+  "en/what-is-code-mode-claude-code": {
+    "hash": "0525dfe38146f861",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-code-mode-claude-code.mp3",
+    "seconds": 438,
+    "voice": "en_US-ryan-high",
+    "bytes": 3506302,
+    "generatedAt": "2026-11-13T06:20:51.953Z"
+  },
+  "en/why-phone-battery-degrades-slow-it": {
+    "hash": "aad5499efee46bec",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-phone-battery-degrades-slow-it.mp3",
+    "seconds": 472,
+    "voice": "en_US-ryan-high",
+    "bytes": 3778812,
+    "generatedAt": "2026-11-13T06:22:02.619Z"
+  },
+  "en/youtube-seo-rank-your-videos-2026": {
+    "hash": "b7eeb4d50b1b704f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-youtube-seo-rank-your-videos-2026.mp3",
+    "seconds": 387,
+    "voice": "en_US-ryan-high",
+    "bytes": 3095030,
+    "generatedAt": "2026-11-13T06:23:00.873Z"
   }
 }
