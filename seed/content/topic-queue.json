@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "topics": [
-    {
-      "translationKey": "youtube-seo-rank-your-videos-2026",
-      "category": "digital-marketing",
-      "titleTr": "2026 YouTube SEO: Videolarinizi Ust Siralara Tasiyin",
-      "titleEn": "YouTube SEO: Rank Your Videos in 2026",
-      "slugTr": "2026-youtube-seo-video-siralamasi",
-      "slugEn": "youtube-seo-rank-your-videos-2026",
-      "keywordTr": "youtube seo",
-      "keywordEn": "youtube seo 2026",
-      "angle": "checklist | optimize titles, metadata and retention so videos get recommended and found",
-      "style": "data-led",
-      "brief": "Outline: how YouTube search and suggested differ from Google SEO; keyword and topic research (YouTube search, Google Trends, autocomplete); titles, descriptions, chapters and transcripts that help discovery; thumbnails and CTR; the retention signals that actually drive reach; using AI to draft metadata and chapter outlines from a transcript; appearing in Google video results. Claims to verify: current ranking-signal guidance from YouTube/Google and transcript indexing. Sources: YouTube Creators ranking docs; Google Search video best practices. Position as video-SEO, distinct from the channel-growth post in social."
-    },
-    {
-      "translationKey": "why-phone-battery-degrades-slow-it",
-      "category": "technology",
-      "titleTr": "Telefon Bataryasi Neden Eskir ve Nasil Yavaslatilir",
-      "titleEn": "Why Your Phone Battery Degrades (and How to Slow It)",
-      "slugTr": "telefon-bataryasi-neden-eskir",
-      "slugEn": "why-phone-battery-degrades-slow-it",
-      "keywordTr": "telefon batarya saglik",
-      "keywordEn": "phone battery degradation",
-      "angle": "mistakes | the charging habits that age your battery and the ones that actually help",
-      "style": "question-driven",
-      "brief": "Outline: how lithium-ion aging works (charge cycles, heat, voltage stress); myth-busting (overnight charging, draining to 0, fast charging, closing apps); what helps (80% charge caps, avoiding heat, optimized/adaptive charging, keeping it mid-range); reading battery health on iOS and Android; when replacement beats a new phone; e-waste angle. Claims to verify: 80% longevity guidance, heat effects, and OS adaptive-charging behaviour from manufacturer docs. Sources: Apple battery and performance support; Android/Pixel battery guidance. Practical, evergreen consumer explainer."
-    },
-    {
-      "translationKey": "do-you-still-need-a-vpn-2026",
-      "category": "technology",
-      "titleTr": "2026da Hala VPN Gerekli mi?",
-      "titleEn": "Do You Still Need a VPN in 2026?",
-      "slugTr": "2026da-hala-vpn-gerekli-mi",
-      "slugEn": "do-you-still-need-a-vpn-2026",
-      "keywordTr": "vpn gerekli mi",
-      "keywordEn": "do you need a vpn",
-      "angle": "guide | cut through VPN marketing and decide when one actually helps",
-      "style": "contrarian",
-      "brief": "Outline: what a VPN does and doesn't do now that most of the web is HTTPS; legitimate uses (public Wi-Fi caution, bypassing geo-blocks, hiding IP from sites, ISP tracking, travel) vs overblown fears; the trust shift from ISP to VPN provider (logging, jurisdiction, audits); free-VPN risks; alternatives (encrypted DNS, passkeys, Apple Private Relay). How to pick one if you need it. Claims to verify: HTTPS adoption share and any independent VPN no-logs audit findings. Sources: Mozilla/Cloudflare HTTPS stats; a reputable VPN audit report. Skeptical, practical tone."
-    },
-    {
-      "translationKey": "back-up-your-digital-life-3-2-1",
-      "category": "technology",
-      "titleTr": "Dijital Hayatinizi Yedekleyin: 3-2-1 Plani",
-      "titleEn": "Back Up Your Digital Life: A 3-2-1 Plan",
-      "slugTr": "dijital-hayatinizi-yedekleyin-3-2-1",
-      "slugEn": "back-up-your-digital-life-3-2-1",
-      "keywordTr": "veri yedekleme plani",
-      "keywordEn": "personal backup 3-2-1",
-      "angle": "checklist | protect photos and documents against loss, theft and ransomware",
-      "style": "story-led",
-      "brief": "Outline: the 3-2-1 rule (three copies, two media, one offsite) in plain terms; why cloud sync is not a backup; a concrete setup (local external drive + encrypted cloud backup + periodic offline copy) for phone and computer; protecting against ransomware and account lockout with versioning and a recovery kit; testing a restore. A short story of a lost-photos scare. Claims to verify: sync-vs-backup distinction and ransomware versioning behaviour of major services. Sources: backup best-practice guides; provider versioning docs. Consumer-focused, distinct from the server/DB disaster-recovery posts."
-    },
     {
       "translationKey": "gan-chargers-usb-c-pd-buy-smarter",
       "category": "technology",

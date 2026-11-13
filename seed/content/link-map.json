@@ -8688,6 +8688,66 @@
         "slug": "pricing-page-design-that-converts",
         "title": "Pricing Page Design That Converts"
       }
+    },
+    {
+      "translationKey": "claude-code-code-mode-launch",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-code-mode-nedir",
+        "title": "Claude Code'daki Code Mode Nedir?"
+      },
+      "en": {
+        "slug": "what-is-code-mode-claude-code",
+        "title": "What Is Code Mode in Claude Code?"
+      }
+    },
+    {
+      "translationKey": "youtube-seo-rank-your-videos-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "2026-youtube-seo-video-siralamasi",
+        "title": "YouTube SEO 2026: Videonuzu Nasıl Üst Sıraya Taşırsınız?"
+      },
+      "en": {
+        "slug": "youtube-seo-rank-your-videos-2026",
+        "title": "How Do You Rank Higher with YouTube SEO in 2026?"
+      }
+    },
+    {
+      "translationKey": "why-phone-battery-degrades-slow-it",
+      "category": "technology",
+      "tr": {
+        "slug": "telefon-bataryasi-neden-eskir",
+        "title": "Telefon Bataryası Neden Eskir ve Nasıl Yavaşlatılır?"
+      },
+      "en": {
+        "slug": "why-phone-battery-degrades-slow-it",
+        "title": "Why Your Phone Battery Degrades (and How to Slow It)"
+      }
+    },
+    {
+      "translationKey": "do-you-still-need-a-vpn-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "2026da-hala-vpn-gerekli-mi",
+        "title": "2026'da Hâlâ VPN Gerekli mi?"
+      },
+      "en": {
+        "slug": "do-you-still-need-a-vpn-2026",
+        "title": "Do You Still Need a VPN in 2026?"
+      }
+    },
+    {
+      "translationKey": "back-up-your-digital-life-3-2-1",
+      "category": "technology",
+      "tr": {
+        "slug": "dijital-hayatinizi-yedekleyin-3-2-1",
+        "title": "Dijital Hayatınızı Yedekleyin: 3-2-1 Planı"
+      },
+      "en": {
+        "slug": "back-up-your-digital-life-3-2-1",
+        "title": "Back Up Your Digital Life: A 3-2-1 Plan"
+      }
     }
   ]
 }
