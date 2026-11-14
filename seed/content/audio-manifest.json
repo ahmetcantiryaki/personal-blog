@@ -5766,5 +5766,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3095030,
     "generatedAt": "2026-11-13T06:23:00.873Z"
+  },
+  "en/gan-chargers-usb-c-pd-buy-smarter": {
+    "hash": "d2b734dd1a3b6bd3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gan-chargers-usb-c-pd-buy-smarter.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3801799,
+    "generatedAt": "2026-11-14T06:25:36.862Z"
+  },
+  "en/hire-faster-with-ai-jd-to-screening": {
+    "hash": "30f6deaad14a5b17",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-hire-faster-with-ai-jd-to-screening.mp3",
+    "seconds": 479,
+    "voice": "en_US-ryan-high",
+    "bytes": 3836699,
+    "generatedAt": "2026-11-14T06:28:14.901Z"
+  },
+  "en/password-managers-vs-passkeys-2026": {
+    "hash": "72ea7e34099a70bc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-password-managers-vs-passkeys-2026.mp3",
+    "seconds": 517,
+    "voice": "en_US-ryan-high",
+    "bytes": 4137838,
+    "generatedAt": "2026-11-14T06:31:03.282Z"
+  },
+  "en/saas-onboarding-that-activates-week-one": {
+    "hash": "0b18a5669cd128a6",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-saas-onboarding-that-activates-week-one.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3724895,
+    "generatedAt": "2026-11-14T06:33:34.780Z"
+  },
+  "en/synthesize-customer-interviews-with-ai": {
+    "hash": "59a2145083e0b120",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-synthesize-customer-interviews-with-ai.mp3",
+    "seconds": 472,
+    "voice": "en_US-ryan-high",
+    "bytes": 3777140,
+    "generatedAt": "2026-11-14T06:36:07.338Z"
   }
 }
