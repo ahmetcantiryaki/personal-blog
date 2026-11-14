@@ -8748,6 +8748,66 @@
         "slug": "back-up-your-digital-life-3-2-1",
         "title": "Back Up Your Digital Life: A 3-2-1 Plan"
       }
+    },
+    {
+      "translationKey": "gan-chargers-usb-c-pd-buy-smarter",
+      "category": "technology",
+      "tr": {
+        "slug": "gan-sarj-usb-c-pd-satin-alma",
+        "title": "GaN Şarj Cihazı ve USB-C PD: Nasıl Akıllı Alınır?"
+      },
+      "en": {
+        "slug": "gan-chargers-usb-c-pd-buy-smarter",
+        "title": "GaN Chargers and USB-C PD: How to Buy Smarter"
+      }
+    },
+    {
+      "translationKey": "password-managers-vs-passkeys-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "2026-parola-yoneticisi-mi-passkey-mi",
+        "title": "2026'da Parola Yöneticisi mi, Passkey mi?"
+      },
+      "en": {
+        "slug": "password-managers-vs-passkeys-2026",
+        "title": "Password Managers vs. Passkeys in 2026"
+      }
+    },
+    {
+      "translationKey": "synthesize-customer-interviews-with-ai",
+      "category": "business",
+      "tr": {
+        "slug": "musteri-gorusmelerini-yapay-zeka-ile-sentezleme",
+        "title": "Müşteri Görüşmelerini Yapay Zekayla Nasıl Sentezlersiniz?"
+      },
+      "en": {
+        "slug": "synthesize-customer-interviews-with-ai",
+        "title": "How Do You Synthesize Customer Interviews With AI?"
+      }
+    },
+    {
+      "translationKey": "hire-faster-with-ai-jd-to-screening",
+      "category": "business",
+      "tr": {
+        "slug": "yapay-zeka-ile-ise-alim-ilandan-elemeye",
+        "title": "Yapay Zekayla Daha Hızlı İşe Alım: İlandan Elemeye"
+      },
+      "en": {
+        "slug": "hire-faster-with-ai-jd-to-screening",
+        "title": "Hire Faster With AI: From Job Ads to Screening"
+      }
+    },
+    {
+      "translationKey": "saas-onboarding-that-activates-week-one",
+      "category": "business",
+      "tr": {
+        "slug": "ilk-haftada-aktive-eden-saas-karsilama",
+        "title": "İlk Haftada Aktive Eden SaaS Karşılama Nasıl Kurulur?"
+      },
+      "en": {
+        "slug": "saas-onboarding-that-activates-week-one",
+        "title": "SaaS Onboarding That Activates Users in Week One"
+      }
     }
   ]
 }
