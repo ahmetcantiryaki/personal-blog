@@ -5806,5 +5806,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3777140,
     "generatedAt": "2026-11-14T06:36:07.338Z"
+  },
+  "en/ai-evaluation-awareness-explained": {
+    "hash": "b38e1f6efe61cf8f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-evaluation-awareness-explained.mp3",
+    "seconds": 390,
+    "voice": "en_US-ryan-high",
+    "bytes": 3119690,
+    "generatedAt": "2026-11-15T06:24:31.373Z"
+  },
+  "en/ai-group-chats-chatgpt-gemini": {
+    "hash": "dc7ab966bff1182b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-group-chats-chatgpt-gemini.mp3",
+    "seconds": 406,
+    "voice": "en_US-ryan-high",
+    "bytes": 3247167,
+    "generatedAt": "2026-11-15T06:25:34.434Z"
+  },
+  "en/chatgpt-business-hub-profile": {
+    "hash": "94a64d59e85ccd59",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-business-hub-profile.mp3",
+    "seconds": 466,
+    "voice": "en_US-ryan-high",
+    "bytes": 3728656,
+    "generatedAt": "2026-11-15T06:26:46.392Z"
+  },
+  "en/claude-fable-5-2-beyond-coding": {
+    "hash": "d3fb84b939729cb1",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-fable-5-2-beyond-coding.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3399723,
+    "generatedAt": "2026-11-15T06:27:53.567Z"
+  },
+  "en/native-css-nesting-guide": {
+    "hash": "d01d3682f3323092",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-native-css-nesting-guide.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3300039,
+    "generatedAt": "2026-11-15T06:28:59.628Z"
   }
 }
