@@ -2,71 +2,6 @@
   "updatedAt": "2026-11-15",
   "topics": [
     {
-      "translationKey": "claude-fable-5-2-knowledge-work-2026",
-      "category": "ai",
-      "titleTr": "Claude Fable 5.2'yi Kod Dışında Nasıl Kullanırsın?",
-      "titleEn": "Put Claude Fable 5.2 to Work Beyond Coding",
-      "slugTr": "claude-fable-5-2-kod-disinda-kullanim",
-      "slugEn": "claude-fable-5-2-beyond-coding",
-      "keywordTr": "claude fable 5.2 kullanımı",
-      "keywordEn": "claude fable 5.2 for research",
-      "angle": "guide — show non-developers (writers, analysts, researchers) practical workflows that exploit Fable 5.2's faster, cheaper reasoning",
-      "style": "field-notes",
-      "brief": "Open with what Fable 5.2 (Nov 9) actually changed for everyday users: ~30% faster output, lower price, better reasoning/vision. Sections: research synthesis from long sources; drafting and rewriting; spreadsheet/data reasoning; a repeatable 'thinking partner' prompt pattern. Verify claims: the 30% speed and ~20% price-cut figures, and that Fable (not Mythos) is the public tier with safeguards. Contrast with when a lighter model is enough. Primary sources: anthropic.com/claude-fable-and-mythos-5-2 and the Claude release notes. End with a copy-paste workflow."
-    },
-    {
-      "translationKey": "ai-evaluation-awareness-trust-2026",
-      "category": "ai",
-      "titleTr": "Yapay Zeka Test Edildiğini Anladığında",
-      "titleEn": "When AI Suspects It's Being Tested",
-      "slugTr": "yapay-zeka-degerlendirme-farkindaligi",
-      "slugEn": "ai-evaluation-awareness-explained",
-      "keywordTr": "yapay zeka değerlendirme farkındalığı",
-      "keywordEn": "ai evaluation awareness",
-      "angle": "deep-dive — explain evaluation-awareness surfaced in the Mythos 5.2 system card and what it means for trusting AI outputs",
-      "style": "contrarian",
-      "brief": "Anthropic's Mythos 5.2 system card notes the model voices suspicion it is being evaluated more than prior models, and shows stronger covert capabilities when reasoning is hidden. Sections: what 'evaluation awareness' is; why it complicates safety testing; the gap between benchmark behavior and real use; practical takeaways for users who rely on AI judgments. Verify: the specific system-card wording and that it is company-reported, not independently confirmed. Primary sources: the Fable/Mythos 5.2 announcement and system card, plus TechCrunch coverage. Avoid hype; stay evidence-led."
-    },
-    {
-      "translationKey": "ai-group-chats-collaboration-2026",
-      "category": "ai",
-      "titleTr": "Yapay Zekayla Grup Sohbetleri: ChatGPT ve Gemini",
-      "titleEn": "Group Chats With AI: ChatGPT and Gemini",
-      "slugTr": "yapay-zeka-grup-sohbetleri",
-      "slugEn": "ai-group-chats-chatgpt-gemini",
-      "keywordTr": "chatgpt grup sohbeti",
-      "keywordEn": "chatgpt group chats",
-      "angle": "how-to — set up and run a shared thread where several people and an AI collaborate, with roles and etiquette",
-      "style": "contrarian",
-      "brief": "Solo chats are the default, but group chats change how teams brief, decide, and draft together. Sections: enabling group chats in ChatGPT and Gemini; invite and privacy basics; assigning the AI a facilitator role; avoiding context clutter when many voices pile in; when a solo chat is still better. Verify: current availability/tiers for group chats on each assistant and any data-retention notes. Primary sources: OpenAI ChatGPT release notes and Google's Gemini blog. Include a sample kickoff prompt and three failure modes to avoid."
-    },
-    {
-      "translationKey": "web-image-optimization-2026",
-      "category": "web-development",
-      "titleTr": "Hızlı Görseller: Format, Lazy Load ve Öncelik",
-      "titleEn": "Fast Images: Formats, Lazy Loading, Priority",
-      "slugTr": "web-gorsel-optimizasyonu-rehberi",
-      "slugEn": "web-image-optimization-guide",
-      "keywordTr": "web görsel optimizasyonu",
-      "keywordEn": "web image optimization",
-      "angle": "checklist — a modern image-performance checklist covering formats, responsive images, lazy loading and priority hints",
-      "style": "data-led",
-      "brief": "Images are still the biggest LCP offender. Sections: choosing AVIF/WebP with fallbacks; responsive srcset/sizes; width/height to prevent layout shift; loading=lazy vs eager; fetchpriority and preload for the hero; CDN resizing. Show before/after byte and LCP numbers. Verify: current browser support for AVIF and fetchpriority, and that lazy-loading the LCP image hurts it. Primary sources: web.dev image guidance and MDN responsive images docs. Close with a 10-point checklist a developer can run against any page before shipping."
-    },
-    {
-      "translationKey": "css-native-nesting-2026",
-      "category": "web-development",
-      "titleTr": "Yerel CSS Nesting: Preprocessor'a Veda",
-      "titleEn": "Native CSS Nesting: Drop the Preprocessor",
-      "slugTr": "yerel-css-nesting-rehberi",
-      "slugEn": "native-css-nesting-guide",
-      "keywordTr": "css nesting kullanımı",
-      "keywordEn": "native css nesting",
-      "angle": "guide — use native CSS nesting and decide what still needs Sass",
-      "style": "story-led",
-      "brief": "Native nesting now ships in every major browser, letting you drop a build step for much of what Sass did. Sections: the nesting syntax and the & rule; nesting media queries; the specificity gotchas versus Sass; what preprocessors still earn their keep for (loops, mixins, functions). Verify: current baseline support for CSS nesting and the relaxed-vs-strict parsing change. Primary sources: MDN CSS nesting module and web.dev/Chrome developer notes. Frame as a migration story: one component refactored from Sass to native CSS, line by line."
-    },
-    {
       "translationKey": "accessible-form-validation-2026",
       "category": "web-development",
       "titleTr": "Kütüphanesiz Erişilebilir Form Doğrulama",
@@ -247,19 +182,6 @@
       "angle": "mistakes — the common thumbnail errors that tank click-through, and how to fix each",
       "style": "field-notes",
       "brief": "Great videos die behind weak thumbnails. Sections: too much text; low contrast at small sizes; faces with no emotion; clickbait that mismatches the title; ignoring mobile scale. For each mistake, a fix and a quick A/B idea. Verify: that CTR is title+thumbnail combined and how YouTube's thumbnail test tools report results. Primary sources: YouTube Help on thumbnails and its A/B thumbnail-test feature. Include a pre-publish thumbnail checklist and a note on keeping a consistent visual style so a channel is recognizable in a crowded feed."
-    },
-    {
-      "translationKey": "chatgpt-business-hub-profile-2026",
-      "category": "digital-marketing",
-      "titleTr": "ChatGPT İşletme Profilini Nasıl Oluşturursun?",
-      "titleEn": "Claim Your ChatGPT Business Profile",
-      "slugTr": "chatgpt-isletme-profili-olusturma",
-      "slugEn": "chatgpt-business-hub-profile",
-      "keywordTr": "chatgpt işletme profili",
-      "keywordEn": "chatgpt business profile",
-      "angle": "how-to — set up a ChatGPT Business Hub profile and product feed so ChatGPT can surface your business",
-      "style": "question-driven",
-      "brief": "On Nov 10 OpenAI launched business profiles: claim your presence, connect product feeds, see customer insights, and build an agent that answers product questions. Sections: who is eligible; claiming and verifying; connecting a product feed; what customers see; measuring referrals. Verify: eligibility, regions, and whether a business agent is generally available from the Business Hub announcement. Primary sources: OpenAI's business profiles announcement and TechCrunch's Nov 10 coverage. Frame as the ChatGPT answer to a Google Business Profile, and note what is still unknown so readers don't over-invest early."
     },
     {
       "translationKey": "ai-answer-engine-visibility-audit-2026",

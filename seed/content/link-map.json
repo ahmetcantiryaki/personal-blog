@@ -8808,6 +8808,66 @@
         "slug": "saas-onboarding-that-activates-week-one",
         "title": "SaaS Onboarding That Activates Users in Week One"
       }
+    },
+    {
+      "translationKey": "chatgpt-business-hub-profile-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "chatgpt-isletme-profili-olusturma",
+        "title": "ChatGPT İşletme Profili Nasıl Oluşturulur?"
+      },
+      "en": {
+        "slug": "chatgpt-business-hub-profile",
+        "title": "How Do You Claim Your Business Profile on ChatGPT?"
+      }
+    },
+    {
+      "translationKey": "claude-fable-5-2-knowledge-work-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-fable-5-2-kod-disinda-kullanim",
+        "title": "Claude Fable 5.2 Kodlama Dışında Nasıl Kullanılır?"
+      },
+      "en": {
+        "slug": "claude-fable-5-2-beyond-coding",
+        "title": "How Do You Use Claude Fable 5.2 Beyond Coding?"
+      }
+    },
+    {
+      "translationKey": "ai-evaluation-awareness-trust-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-degerlendirme-farkindaligi",
+        "title": "Yapay Zeka Test Edildiğini Anladığında Ne Olur?"
+      },
+      "en": {
+        "slug": "ai-evaluation-awareness-explained",
+        "title": "What Happens When an AI Model Knows It's Being Tested?"
+      }
+    },
+    {
+      "translationKey": "ai-group-chats-collaboration-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "yapay-zeka-grup-sohbetleri",
+        "title": "ChatGPT Grup Sohbetlerini Neden Kapattı?"
+      },
+      "en": {
+        "slug": "ai-group-chats-chatgpt-gemini",
+        "title": "Why Did ChatGPT Shut Down Group Chats?"
+      }
+    },
+    {
+      "translationKey": "css-native-nesting-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "yerel-css-nesting-rehberi",
+        "title": "Yerel CSS Nesting Nasıl Kullanılır?"
+      },
+      "en": {
+        "slug": "native-css-nesting-guide",
+        "title": "How Do You Use Native CSS Nesting?"
+      }
     }
   ]
 }
