@@ -5846,5 +5846,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3300039,
     "generatedAt": "2026-11-15T06:28:59.628Z"
+  },
+  "en/accessible-form-validation": {
+    "hash": "38f4b8b395276e99",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-accessible-form-validation.mp3",
+    "seconds": 440,
+    "voice": "en_US-ryan-high",
+    "bytes": 3522812,
+    "generatedAt": "2026-11-16T06:24:54.617Z"
+  },
+  "en/claude-code-sandboxed-bash-permissions-change": {
+    "hash": "37f50ab3f7a84539",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-sandboxed-bash-permissions-change.mp3",
+    "seconds": 416,
+    "voice": "en_US-ryan-high",
+    "bytes": 3331804,
+    "generatedAt": "2026-11-16T06:26:19.502Z"
+  },
+  "en/job-table-vs-kafka-small-teams": {
+    "hash": "47f648f55031d61c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-job-table-vs-kafka-small-teams.mp3",
+    "seconds": 383,
+    "voice": "en_US-ryan-high",
+    "bytes": 3065982,
+    "generatedAt": "2026-11-16T06:27:38.519Z"
+  },
+  "en/kubernetes-pod-security-admission": {
+    "hash": "bfbabc5a540a26c7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-pod-security-admission.mp3",
+    "seconds": 482,
+    "voice": "en_US-ryan-high",
+    "bytes": 3860314,
+    "generatedAt": "2026-11-16T06:30:39.652Z"
+  },
+  "en/write-a-better-readme": {
+    "hash": "182bc27ead5f0580",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-write-a-better-readme.mp3",
+    "seconds": 433,
+    "voice": "en_US-ryan-high",
+    "bytes": 3463043,
+    "generatedAt": "2026-11-16T06:32:06.058Z"
   }
 }
