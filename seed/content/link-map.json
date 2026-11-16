@@ -8868,6 +8868,66 @@
         "slug": "native-css-nesting-guide",
         "title": "How Do You Use Native CSS Nesting?"
       }
+    },
+    {
+      "translationKey": "claude-code-sandboxed-bash-permissions-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-sandbox-bash-izinleri",
+        "title": "Claude Code Sandbox Bash İzinleri Neden Değişti?"
+      },
+      "en": {
+        "slug": "claude-code-sandboxed-bash-permissions-change",
+        "title": "Why Did Claude Code Change Sandboxed Bash Permissions?"
+      }
+    },
+    {
+      "translationKey": "accessible-form-validation-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "erisilebilir-form-dogrulama",
+        "title": "Kütüphanesiz Erişilebilir Form Doğrulama Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "accessible-form-validation",
+        "title": "How to Build Accessible Form Validation Without a Library"
+      }
+    },
+    {
+      "translationKey": "job-queue-vs-kafka-small-teams-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "is-kuyrugu-mu-kafka-mi",
+        "title": "Kafka mı Gerek, Yoksa İş Tablosu mu?"
+      },
+      "en": {
+        "slug": "job-table-vs-kafka-small-teams",
+        "title": "Do You Need Kafka, or a Job Table?"
+      }
+    },
+    {
+      "translationKey": "write-readme-that-gets-used-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "iyi-readme-nasil-yazilir",
+        "title": "Gerçekten Okunan Bir README Nasıl Yazılır?"
+      },
+      "en": {
+        "slug": "write-a-better-readme",
+        "title": "Write a README People Actually Read"
+      }
+    },
+    {
+      "translationKey": "kubernetes-pod-security-admission-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-pod-security-temelleri",
+        "title": "Kubernetes Pod Security Nasıl Sıkılaştırılır?"
+      },
+      "en": {
+        "slug": "kubernetes-pod-security-admission",
+        "title": "How Do You Lock Down Kubernetes with Pod Security?"
+      }
     }
   ]
 }
