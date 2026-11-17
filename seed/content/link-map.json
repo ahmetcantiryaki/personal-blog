@@ -8928,6 +8928,66 @@
         "slug": "kubernetes-pod-security-admission",
         "title": "How Do You Lock Down Kubernetes with Pod Security?"
       }
+    },
+    {
+      "translationKey": "claude-code-agent-teams-code-mode-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-agent-takimlari-code-mode",
+        "title": "Agent Teams Code Mode ile Nasıl Çalışır?"
+      },
+      "en": {
+        "slug": "claude-code-agent-teams-code-mode",
+        "title": "How Do Agent Teams Use Code Mode in Claude Code?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-voice-gpt-live-migration-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-ses-gpt-live-gecis",
+        "title": "ChatGPT Eski Ses Modu Kapanıyor: GPT-Live'a Geç"
+      },
+      "en": {
+        "slug": "chatgpt-voice-gpt-live-migration",
+        "title": "ChatGPT Voice Retires Dec 11: Move to GPT-Live"
+      }
+    },
+    {
+      "translationKey": "gemini-rambler-voice-typing-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "gemini-rambler-sesle-yazma",
+        "title": "Gemini Rambler: Dolgu Sözcüksüz Sesle Yazma"
+      },
+      "en": {
+        "slug": "gemini-rambler-voice-typing",
+        "title": "Gemini Rambler: Dictate Clean First Drafts"
+      }
+    },
+    {
+      "translationKey": "solo-weekly-review-25-minutes-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "haftalik-degerlendirme-rituel",
+        "title": "25 Dakikada Haftalık Değerlendirme Ritüeli"
+      },
+      "en": {
+        "slug": "solo-weekly-review-ritual",
+        "title": "A Solo Weekly Review in 25 Minutes"
+      }
+    },
+    {
+      "translationKey": "beat-context-switching-deep-work-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "baglam-degisimini-yen-derin-calisma",
+        "title": "Bağlam Değişimini Yen: 2026'da Derin Çalışma"
+      },
+      "en": {
+        "slug": "beat-context-switching-deep-work",
+        "title": "Beat Context-Switching: Deep Work in 2026"
+      }
     }
   ]
 }

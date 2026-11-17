@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "topics": [
-    {
-      "translationKey": "chatgpt-voice-gpt-live-migration-2026",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Eski Ses Modu Kapanıyor: GPT-Live'a Geç",
-      "titleEn": "ChatGPT Voice Retires Dec 11: Move to GPT-Live",
-      "slugTr": "chatgpt-ses-gpt-live-gecis",
-      "slugEn": "chatgpt-voice-gpt-live-migration",
-      "keywordTr": "gpt-live geçiş",
-      "keywordEn": "gpt-live migration",
-      "angle": "how-to — migrate your voice workflow before Advanced/Standard Voice retire on Dec 11, 2026",
-      "style": "question-driven",
-      "brief": "OpenAI retires Advanced and Standard Voice on December 11, 2026, leaving GPT-Live. Sections: what changes and what carries over; re-recording custom instructions and voice choice; hands-free workflows (notes, commuting, brainstorming) rebuilt on GPT-Live; fallbacks when voice misbehaves. Verify: the exact retirement date and which tiers GPT-Live covers from the ChatGPT release notes. Primary sources: OpenAI's ChatGPT release notes and help center voice article. Keep it practical: a pre-Dec-11 checklist, then a tested daily voice routine so nobody loses their setup overnight."
-    },
-    {
-      "translationKey": "gemini-rambler-voice-typing-2026",
-      "category": "career-productivity",
-      "titleTr": "Gemini Rambler: Dolgu Sözcüksüz Sesle Yazma",
-      "titleEn": "Gemini Rambler: Dictate Clean First Drafts",
-      "slugTr": "gemini-rambler-sesle-yazma",
-      "slugEn": "gemini-rambler-voice-typing",
-      "keywordTr": "gemini rambler sesle yazma",
-      "keywordEn": "gemini rambler voice typing",
-      "angle": "how-to — use Gemini's Rambler voice-typing to turn messy speech into clean drafts, hands-free",
-      "style": "field-notes",
-      "brief": "Google's November Pixel Drop added Rambler, a voice-typing mode that strips filler and structures speech into clean text. Sections: enabling Rambler and where it works; dictating an email, a doc outline, and meeting follow-ups; editing by voice; accuracy limits and privacy. Verify: device/rollout scope (which Pixels and regions) and whether it is on-device from the Pixel Drop coverage. Primary sources: Google's Pixel feature-drop post and Android Police's reporting. Include a short before/after of rambling speech becoming a tidy paragraph, and three tasks where dictation beats typing."
-    },
-    {
-      "translationKey": "solo-weekly-review-25-minutes-2026",
-      "category": "career-productivity",
-      "titleTr": "25 Dakikada Haftalık Değerlendirme Ritüeli",
-      "titleEn": "A Solo Weekly Review in 25 Minutes",
-      "slugTr": "haftalik-degerlendirme-rituel",
-      "slugEn": "solo-weekly-review-ritual",
-      "keywordTr": "haftalık değerlendirme",
-      "keywordEn": "weekly review system",
-      "angle": "checklist — a lightweight weekly planning ritual that clears the mind and sets next week, distinct from a performance self-review",
-      "style": "question-driven",
-      "brief": "Why do good intentions dissolve by Tuesday? Usually no weekly reset. Sections: the 25-minute timebox; clear the inboxes (email, notes, open loops); review calendar past and ahead; pick three outcomes; park everything else. Show a one-page template and how to keep it from ballooning. Verify: nothing contentious — frame GTD's weekly-review idea in plain terms and keep tool-agnostic. Primary sources: David Allen's weekly-review concept and one practitioner writeup. Contrast explicitly with a quarterly brag-doc review so readers don't conflate planning with self-evaluation."
-    },
-    {
-      "translationKey": "beat-context-switching-deep-work-2026",
-      "category": "career-productivity",
-      "titleTr": "Bağlam Değişimini Yen: 2026'da Derin Çalışma",
-      "titleEn": "Beat Context-Switching: Deep Work in 2026",
-      "slugTr": "baglam-degisimini-yen-derin-calisma",
-      "slugEn": "beat-context-switching-deep-work",
-      "keywordTr": "bağlam değişimi odak",
-      "keywordEn": "reduce context switching",
-      "angle": "deep-dive — the real cost of context-switching and a system to protect focused blocks",
-      "style": "data-led",
-      "brief": "Context-switching quietly eats a developer's day. Sections: what research says about attention residue and recovery time; auditing your switches for a week; batching comms; designing two daily deep-work blocks; taming notifications and the AI-assistant tab-hopping trap. Verify: the attention-residue findings (Sophie Leroy) and any specific minutes-lost stats, flagged as estimates. Primary sources: Leroy's attention-residue paper and Cal Newport's deep-work framing. Avoid productivity-guru fluff; give a measurable one-week experiment with a simple log so readers can see their own switching cost."
-    },
     {
       "translationKey": "telegram-whatsapp-channels-audience-2026",
       "category": "social-media",
