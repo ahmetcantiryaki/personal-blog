@@ -5886,5 +5886,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3463043,
     "generatedAt": "2026-11-16T06:32:06.058Z"
+  },
+  "en/beat-context-switching-deep-work": {
+    "hash": "a6a2f514aa0ba930",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-beat-context-switching-deep-work.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3514870,
+    "generatedAt": "2026-11-17T06:17:33.173Z"
+  },
+  "en/chatgpt-voice-gpt-live-migration": {
+    "hash": "a30c1312f31502ef",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-voice-gpt-live-migration.mp3",
+    "seconds": 434,
+    "voice": "en_US-ryan-high",
+    "bytes": 3471820,
+    "generatedAt": "2026-11-17T06:19:30.300Z"
+  },
+  "en/claude-code-agent-teams-code-mode": {
+    "hash": "1b2ab76573870087",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-agent-teams-code-mode.mp3",
+    "seconds": 445,
+    "voice": "en_US-ryan-high",
+    "bytes": 3562100,
+    "generatedAt": "2026-11-17T06:21:30.847Z"
+  },
+  "en/gemini-rambler-voice-typing": {
+    "hash": "36c11619f2d8a1b9",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-rambler-voice-typing.mp3",
+    "seconds": 448,
+    "voice": "en_US-ryan-high",
+    "bytes": 3584669,
+    "generatedAt": "2026-11-17T06:23:31.686Z"
+  },
+  "en/solo-weekly-review-ritual": {
+    "hash": "d11235679d5d37d4",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-solo-weekly-review-ritual.mp3",
+    "seconds": 401,
+    "voice": "en_US-ryan-high",
+    "bytes": 3207252,
+    "generatedAt": "2026-11-17T06:25:19.426Z"
   }
 }
