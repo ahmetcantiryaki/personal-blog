@@ -5926,5 +5926,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3207252,
     "generatedAt": "2026-11-17T06:25:19.426Z"
+  },
+  "en/edit-short-video-for-retention": {
+    "hash": "0ac9b1cf53c46d26",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-edit-short-video-for-retention.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3786962,
+    "generatedAt": "2026-11-18T06:27:23.515Z"
+  },
+  "en/gemini-ai-calling-app-tasks": {
+    "hash": "a4198182ee802c4a",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-ai-calling-app-tasks.mp3",
+    "seconds": 465,
+    "voice": "en_US-ryan-high",
+    "bytes": 3724059,
+    "generatedAt": "2026-11-18T06:29:57.003Z"
+  },
+  "en/lead-magnet-in-an-afternoon": {
+    "hash": "5c6fe99d6917d1db",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-lead-magnet-in-an-afternoon.mp3",
+    "seconds": 475,
+    "voice": "en_US-ryan-high",
+    "bytes": 3799709,
+    "generatedAt": "2026-11-18T06:32:32.512Z"
+  },
+  "en/thumbnail-mistakes-ctr": {
+    "hash": "d17dae7e28baf9ab",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-thumbnail-mistakes-ctr.mp3",
+    "seconds": 489,
+    "voice": "en_US-ryan-high",
+    "bytes": 3911514,
+    "generatedAt": "2026-11-18T06:35:12.438Z"
+  },
+  "en/webinars-that-convert-playbook": {
+    "hash": "05324519e728bb9e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-webinars-that-convert-playbook.mp3",
+    "seconds": 473,
+    "voice": "en_US-ryan-high",
+    "bytes": 3784245,
+    "generatedAt": "2026-11-18T06:37:48.672Z"
   }
 }
