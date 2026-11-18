@@ -162,6 +162,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   webgpu: { en: 'WebGPU', tr: 'WebGPU' },
   'well-being': { en: 'Well-Being', tr: 'İyi Oluş' },
   workflow: { en: 'Workflow', tr: 'İş Akışı' },
+  youtube: { en: 'YouTube', tr: 'YouTube' },
   zig: { en: 'Zig', tr: 'Zig' },
 }
 

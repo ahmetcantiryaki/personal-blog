@@ -8988,6 +8988,66 @@
         "slug": "beat-context-switching-deep-work",
         "title": "Beat Context-Switching: Deep Work in 2026"
       }
+    },
+    {
+      "translationKey": "short-video-retention-editing-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "izlenme-suresi-icin-video-kurgu",
+        "title": "İzlenme Süresi İçin Kurgu: Görüntülenme Değil"
+      },
+      "en": {
+        "slug": "edit-short-video-for-retention",
+        "title": "Edit for Watch Time, Not Just Views"
+      }
+    },
+    {
+      "translationKey": "youtube-thumbnail-ctr-mistakes-2026",
+      "category": "social-media",
+      "tr": {
+        "slug": "kapak-gorseli-hatalari-ctr",
+        "title": "Tıklama Oranını Düşüren Kapak Görseli Hataları"
+      },
+      "en": {
+        "slug": "thumbnail-mistakes-ctr",
+        "title": "Thumbnail Mistakes That Kill Your CTR"
+      }
+    },
+    {
+      "translationKey": "webinars-that-convert-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "donusturen-webinar-oyun-plani",
+        "title": "Dönüştüren Webinar: Yalın Bir Oyun Planı"
+      },
+      "en": {
+        "slug": "webinars-that-convert-playbook",
+        "title": "Webinars That Convert: A Lean Playbook"
+      }
+    },
+    {
+      "translationKey": "lead-magnets-that-convert-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "lead-magnet-nasil-hazirlanir",
+        "title": "Bir Öğleden Sonrada Dönüştüren Lead Magnet"
+      },
+      "en": {
+        "slug": "lead-magnet-in-an-afternoon",
+        "title": "Build a Lead Magnet in an Afternoon"
+      }
+    },
+    {
+      "translationKey": "gemini-ai-calling-app-tasks-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-arama-uygulama-gorevleri",
+        "title": "Gemini Artık Senin Yerine Arıyor ve İş Yapıyor"
+      },
+      "en": {
+        "slug": "gemini-ai-calling-app-tasks",
+        "title": "Gemini Can Now Call and Do Tasks for You"
+      }
     }
   ]
 }
