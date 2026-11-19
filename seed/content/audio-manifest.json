@@ -5966,5 +5966,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3784245,
     "generatedAt": "2026-11-18T06:37:48.672Z"
+  },
+  "en/c2pa-content-credentials": {
+    "hash": "18630bad3cc78c31",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-c2pa-content-credentials.mp3",
+    "seconds": 425,
+    "voice": "en_US-ryan-high",
+    "bytes": 3400140,
+    "generatedAt": "2026-11-19T06:36:53.011Z"
+  },
+  "en/chatgpt-wallet-merchant-readiness": {
+    "hash": "89d85f5bc56fa7e3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-wallet-merchant-readiness.mp3",
+    "seconds": 423,
+    "voice": "en_US-ryan-high",
+    "bytes": 3381750,
+    "generatedAt": "2026-11-19T06:38:31.269Z"
+  },
+  "en/right-to-repair-2026": {
+    "hash": "8d2d397c84d7a01c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-right-to-repair-2026.mp3",
+    "seconds": 490,
+    "voice": "en_US-ryan-high",
+    "bytes": 3916738,
+    "generatedAt": "2026-11-19T06:40:40.756Z"
+  },
+  "en/validate-one-person-micro-saas": {
+    "hash": "166a414d9bf7906d",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-validate-one-person-micro-saas.mp3",
+    "seconds": 454,
+    "voice": "en_US-ryan-high",
+    "bytes": 3636705,
+    "generatedAt": "2026-11-19T06:42:25.163Z"
+  },
+  "en/what-anthropics-ipo-means-for-claude-users": {
+    "hash": "7f942e9076efde53",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-anthropics-ipo-means-for-claude-users.mp3",
+    "seconds": 517,
+    "voice": "en_US-ryan-high",
+    "bytes": 4137420,
+    "generatedAt": "2026-11-19T06:44:26.342Z"
   }
 }
