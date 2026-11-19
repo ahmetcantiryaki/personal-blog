@@ -124,6 +124,7 @@ const TAG_TITLES: Readonly<Record<string, { en: string; tr: string }>> = {
   rendering: { en: 'Rendering', tr: 'Render' },
   'responsive-design': { en: 'Responsive Design', tr: 'Duyarlı Tasarım' },
   rest: { en: 'REST', tr: 'REST' },
+  'right-to-repair': { en: 'Right to Repair', tr: 'Onarım Hakkı' },
   roadmap: { en: 'Roadmap', tr: 'Yol Haritası' },
   rust: { en: 'Rust', tr: 'Rust' },
   saas: { en: 'SaaS', tr: 'SaaS' },

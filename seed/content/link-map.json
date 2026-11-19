@@ -9048,6 +9048,66 @@
         "slug": "gemini-ai-calling-app-tasks",
         "title": "Gemini Can Now Call and Do Tasks for You"
       }
+    },
+    {
+      "translationKey": "anthropic-ipo-priced-record-2026",
+      "category": "business",
+      "tr": {
+        "slug": "anthropic-halka-arzi-claude-icin-ne-anlama-geliyor",
+        "title": "Anthropic Halka Arzı Claude İçin Ne Anlama Geliyor?"
+      },
+      "en": {
+        "slug": "what-anthropics-ipo-means-for-claude-users",
+        "title": "What Anthropic's IPO Means for Claude Users"
+      }
+    },
+    {
+      "translationKey": "right-to-repair-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "onarim-hakki-2026",
+        "title": "2026'da Onarım Hakkı: Neleri Kendin Tamir Edebilirsin?"
+      },
+      "en": {
+        "slug": "right-to-repair-2026",
+        "title": "Right to Repair in 2026: What You Can Fix"
+      }
+    },
+    {
+      "translationKey": "c2pa-content-credentials-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "c2pa-icerik-kimlik-bilgileri",
+        "title": "C2PA: Bir Fotoğrafın Gerçek Olduğunu Kanıtlamak"
+      },
+      "en": {
+        "slug": "c2pa-content-credentials",
+        "title": "C2PA: Proving a Photo Is Real"
+      }
+    },
+    {
+      "translationKey": "chatgpt-wallet-merchant-readiness-2026",
+      "category": "business",
+      "tr": {
+        "slug": "chatgpt-wallet-magaza-hazirligi",
+        "title": "Mağazan ChatGPT Wallet'a Hazır mı?"
+      },
+      "en": {
+        "slug": "chatgpt-wallet-merchant-readiness",
+        "title": "Is Your Store Ready for ChatGPT Wallet?"
+      }
+    },
+    {
+      "translationKey": "micro-saas-validation-one-person-2026",
+      "category": "business",
+      "tr": {
+        "slug": "tek-kisilik-micro-saas-dogrulama",
+        "title": "Tek Kişilik Micro-SaaS Fikrini Nasıl Doğrularsın?"
+      },
+      "en": {
+        "slug": "validate-one-person-micro-saas",
+        "title": "Validate a One-Person Micro-SaaS in 2026"
+      }
     }
   ]
 }

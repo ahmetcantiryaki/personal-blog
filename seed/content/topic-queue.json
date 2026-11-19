@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "topics": [
-    {
-      "translationKey": "right-to-repair-2026",
-      "category": "technology",
-      "titleTr": "2026'da Onarım Hakkı: Neleri Kendin Tamir Edebilirsin?",
-      "titleEn": "Right to Repair in 2026: What You Can Fix",
-      "slugTr": "onarim-hakki-2026",
-      "slugEn": "right-to-repair-2026",
-      "keywordTr": "onarım hakkı 2026",
-      "keywordEn": "right to repair 2026",
-      "angle": "guide — where right-to-repair laws now stand and how to actually repair your own devices",
-      "style": "contrarian",
-      "brief": "Repair is finally getting easier, but the picture is uneven. Sections: what recent EU and US state right-to-repair rules require (parts, manuals, pairing); phones and laptops you can realistically fix; parts-pairing traps that still block DIY; tools and first repairs worth trying. Verify: the EU repairability/ecodesign rules and which US states' laws are in force, flagged with dates. Primary sources: the EU's right-to-repair directive pages and iFixit's repairability reporting. Make the counterpoint that 'repairable on paper' isn't always repairable in practice, with concrete examples."
-    },
-    {
-      "translationKey": "c2pa-content-credentials-2026",
-      "category": "technology",
-      "titleTr": "C2PA: Bir Fotoğrafın Gerçek Olduğunu Kanıtlamak",
-      "titleEn": "C2PA: Proving a Photo Is Real",
-      "slugTr": "c2pa-icerik-kimlik-bilgileri",
-      "slugEn": "c2pa-content-credentials",
-      "keywordTr": "c2pa içerik kimliği",
-      "keywordEn": "c2pa content credentials",
-      "angle": "deep-dive — how Content Credentials (C2PA) attach provenance to media and where they break down",
-      "style": "data-led",
-      "brief": "As deepfakes spread, provenance beats detection. Sections: what C2PA/Content Credentials record; how a camera or AI tool signs an image and how edits update the manifest; checking credentials in a viewer; the weak points (stripped metadata, screenshots, unsigned sources). Verify: which cameras, platforms and AI tools now support C2PA, and that metadata can be removed, breaking the chain. Primary sources: the C2PA specification site and the Content Authenticity Initiative. Contrast with watermarking approaches and explain why neither alone solves trust, closing with what a cautious reader should check."
-    },
-    {
-      "translationKey": "chatgpt-wallet-merchant-readiness-2026",
-      "category": "business",
-      "titleTr": "Mağazanı AI Alışveriş Ajanlarına Hazırla",
-      "titleEn": "Get Your Store Ready for AI Shopping Agents",
-      "slugTr": "chatgpt-wallet-magaza-hazirligi",
-      "slugEn": "chatgpt-wallet-merchant-readiness",
-      "keywordTr": "chatgpt wallet mağaza",
-      "keywordEn": "chatgpt wallet for merchants",
-      "angle": "guide — what merchants must do so an AI agent (ChatGPT Wallet / agentic checkout) can buy from them",
-      "style": "field-notes",
-      "brief": "ChatGPT Wallet (Nov 13) lets agents buy on a user's behalf after approval; stores that aren't agent-readable get skipped. Sections: structured product data and feeds; a checkout an agent can complete; the Agentic Commerce Protocol basics; trust signals (returns, reviews) agents weigh; measuring agent-driven orders. Verify: Wallet rollout scope and how agentic checkout authenticates from the launch coverage. Primary sources: OpenAI's agentic commerce documentation and reporting on ChatGPT Wallet. Frame it as early but strategic, and separate confirmed capabilities from speculation so founders don't overbuild."
-    },
-    {
-      "translationKey": "micro-saas-validation-one-person-2026",
-      "category": "business",
-      "titleTr": "Tek Kişilik Micro-SaaS Fikrini Nasıl Doğrularsın?",
-      "titleEn": "Validate a One-Person Micro-SaaS in 2026",
-      "slugTr": "tek-kisilik-micro-saas-dogrulama",
-      "slugEn": "validate-one-person-micro-saas",
-      "keywordTr": "micro saas fikir doğrulama",
-      "keywordEn": "micro saas validation",
-      "angle": "how-to — validate a niche micro-SaaS before writing code, as a solo founder",
-      "style": "story-led",
-      "brief": "Most micro-SaaS fail from building before validating. Sections: finding a painful niche problem; talking to ten potential users without leading them; a landing-page smoke test with a waitlist; a concierge/manual MVP before automation; the signal threshold to greenlight building. Verify: the Mom Test interview principles and realistic smoke-test conversion ranges, flagged as rough. Primary sources: Rob Fitzpatrick's The Mom Test and a credible indie-hacker validation writeup. Keep it concrete with a two-week validation sprint and the kill criteria that tell a founder to walk away early."
-    },
     {
       "translationKey": "kvkk-gdpr-saas-compliance-checklist-2026",
       "category": "business",
