@@ -6006,5 +6006,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 4137420,
     "generatedAt": "2026-11-19T06:44:26.342Z"
+  },
+  "en/claude-code-code-review-severity-levels": {
+    "hash": "4c07091f84208579",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-code-review-severity-levels.mp3",
+    "seconds": 373,
+    "voice": "en_US-ryan-high",
+    "bytes": 2986361,
+    "generatedAt": "2026-11-20T06:30:11.294Z"
+  },
+  "en/falling-ai-token-prices-margins": {
+    "hash": "fe16b578b7c7ab06",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-falling-ai-token-prices-margins.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3056369,
+    "generatedAt": "2026-11-20T06:31:15.580Z"
+  },
+  "en/google-november-2026-core-update": {
+    "hash": "cffa1cf95ffce580",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-google-november-2026-core-update.mp3",
+    "seconds": 393,
+    "voice": "en_US-ryan-high",
+    "bytes": 3141006,
+    "generatedAt": "2026-11-20T06:32:19.602Z"
+  },
+  "en/kvkk-gdpr-saas-compliance-checklist": {
+    "hash": "25856e7aa6063872",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kvkk-gdpr-saas-compliance-checklist.mp3",
+    "seconds": 474,
+    "voice": "en_US-ryan-high",
+    "bytes": 3791141,
+    "generatedAt": "2026-11-20T06:34:21.477Z"
+  },
+  "en/what-is-claude-linked-billing": {
+    "hash": "ee5130a5a3afc481",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-claude-linked-billing.mp3",
+    "seconds": 388,
+    "voice": "en_US-ryan-high",
+    "bytes": 3105061,
+    "generatedAt": "2026-11-20T06:35:26.355Z"
   }
 }
