@@ -9108,6 +9108,66 @@
         "slug": "validate-one-person-micro-saas",
         "title": "Validate a One-Person Micro-SaaS in 2026"
       }
+    },
+    {
+      "translationKey": "claude-linked-billing-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-linked-billing-nedir",
+        "title": "Claude Linked Billing Nedir, Kime Yarar?"
+      },
+      "en": {
+        "slug": "what-is-claude-linked-billing",
+        "title": "What Is Claude's Linked Billing Feature?"
+      }
+    },
+    {
+      "translationKey": "kvkk-gdpr-saas-compliance-checklist-2026",
+      "category": "business",
+      "tr": {
+        "slug": "kvkk-gdpr-saas-uyum-listesi",
+        "title": "Yeni SaaS İçin KVKK ve GDPR Uyum Listesi"
+      },
+      "en": {
+        "slug": "kvkk-gdpr-saas-compliance-checklist",
+        "title": "KVKK & GDPR: A New SaaS Compliance Checklist"
+      }
+    },
+    {
+      "translationKey": "falling-ai-token-prices-margins-2026",
+      "category": "business",
+      "tr": {
+        "slug": "ucuzlayan-ai-token-fiyatlari-marj",
+        "title": "Ucuzlayan AI Marjını Nasıl Etkiler?"
+      },
+      "en": {
+        "slug": "falling-ai-token-prices-margins",
+        "title": "Cheaper AI, Thinner Margins? Price Your App"
+      }
+    },
+    {
+      "translationKey": "claude-code-code-review-severity-levels-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-code-review-onem-seviyeleri",
+        "title": "Claude Code'un /code-review'u Nasıl Değişti?"
+      },
+      "en": {
+        "slug": "claude-code-code-review-severity-levels",
+        "title": "How Did Claude Code's /code-review Change?"
+      }
+    },
+    {
+      "translationKey": "google-november-2026-core-update",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "google-kasim-2026-cekirdek-guncellemesi",
+        "title": "Google Kasım 2026 Çekirdek Güncellemesi Nedir?"
+      },
+      "en": {
+        "slug": "google-november-2026-core-update",
+        "title": "What Is Google's November 2026 Core Update?"
+      }
     }
   ]
 }

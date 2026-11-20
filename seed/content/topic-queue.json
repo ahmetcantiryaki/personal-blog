@@ -1,31 +1,4 @@
 {
-  "updatedAt": "2026-11-19",
-  "topics": [
-    {
-      "translationKey": "kvkk-gdpr-saas-compliance-checklist-2026",
-      "category": "business",
-      "titleTr": "Yeni SaaS İçin KVKK ve GDPR Uyum Listesi",
-      "titleEn": "KVKK & GDPR: A New SaaS Compliance Checklist",
-      "slugTr": "kvkk-gdpr-saas-uyum-listesi",
-      "slugEn": "kvkk-gdpr-saas-compliance-checklist",
-      "keywordTr": "saas kvkk uyum listesi",
-      "keywordEn": "saas gdpr compliance checklist",
-      "angle": "checklist — the privacy basics a new SaaS must cover under Turkey's KVKK and the EU GDPR",
-      "style": "question-driven",
-      "brief": "A startup can ship fast and still avoid privacy landmines. Sections: lawful basis and consent; privacy policy and data-processing records; data subject rights (access, deletion); processor agreements with your vendors; KVKK's VERBIS registration and data-localization nuances versus GDPR. Verify: whether VERBIS registration applies to your size, and cross-border transfer rules, flagged as not legal advice. Primary sources: Turkey's KVKK authority (kvkk.gov.tr) and the official GDPR text/EU guidance. Deliver a prioritized checklist for a pre-revenue SaaS, separating must-do-now from can-wait items."
-    },
-    {
-      "translationKey": "falling-ai-token-prices-margins-2026",
-      "category": "business",
-      "titleTr": "Ucuzlayan AI Marjını Nasıl Etkiler?",
-      "titleEn": "Cheaper AI, Thinner Margins? Price Your App",
-      "slugTr": "ucuzlayan-ai-token-fiyatlari-marj",
-      "slugEn": "falling-ai-token-prices-margins",
-      "keywordTr": "ai token fiyatları marj",
-      "keywordEn": "ai token prices margins",
-      "angle": "comparison — how falling model prices (Fable 5.2, Gemini Flash) reshape the unit economics of an AI product",
-      "style": "data-led",
-      "brief": "Fable 5.2 shipped ~20% cheaper and Flash-class models keep falling, yet many AI products still lose money per user. Sections: mapping cost per request to your pricing; why cheaper tokens don't guarantee margin (retries, context, tool calls); choosing a model tier per task; caching and routing to protect gross margin; pricing models that survive price swings. Verify: the Fable 5.2 price-cut figure and current Flash-class pricing, dated. Primary sources: Anthropic and Google pricing pages. Close with a simple unit-economics worksheet a founder can fill in for their own app."
-    }
-  ]
+  "updatedAt": "2026-11-20",
+  "topics": []
 }
