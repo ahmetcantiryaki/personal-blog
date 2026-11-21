@@ -6046,5 +6046,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3105061,
     "generatedAt": "2026-11-20T06:35:26.355Z"
+  },
+  "en/claude-code-easel-chart-mod": {
+    "hash": "a64c9d2e16fe348c",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-easel-chart-mod.mp3",
+    "seconds": 361,
+    "voice": "en_US-ryan-high",
+    "bytes": 2891275,
+    "generatedAt": "2026-11-21T06:23:37.840Z"
+  },
+  "en/google-ai-mode-vs-ai-overviews": {
+    "hash": "41eab4002facfebd",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-google-ai-mode-vs-ai-overviews.mp3",
+    "seconds": 469,
+    "voice": "en_US-ryan-high",
+    "bytes": 3754152,
+    "generatedAt": "2026-11-21T06:25:01.894Z"
+  },
+  "en/kubernetes-in-place-pod-resize": {
+    "hash": "1cdd5b9cc69310d5",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-in-place-pod-resize.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3255736,
+    "generatedAt": "2026-11-21T06:26:13.914Z"
+  },
+  "en/return-to-office-mandates-2026": {
+    "hash": "30651c11fdbe02cc",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-return-to-office-mandates-2026.mp3",
+    "seconds": 449,
+    "voice": "en_US-ryan-high",
+    "bytes": 3593656,
+    "generatedAt": "2026-11-21T06:27:34.086Z"
+  },
+  "en/what-is-baseline-web-platform": {
+    "hash": "9384d8e803186b53",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-what-is-baseline-web-platform.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3483105,
+    "generatedAt": "2026-11-21T06:29:02.538Z"
   }
 }
