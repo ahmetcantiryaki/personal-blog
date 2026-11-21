@@ -9168,6 +9168,66 @@
         "slug": "google-november-2026-core-update",
         "title": "What Is Google's November 2026 Core Update?"
       }
+    },
+    {
+      "translationKey": "claude-code-easel-mod-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-easel-grafik-modu",
+        "title": "Claude Code'un Easel Modu Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-easel-chart-mod",
+        "title": "What Is Claude Code's Easel Mod?"
+      }
+    },
+    {
+      "translationKey": "k8s-in-place-pod-resize-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-pod-yeniden-baslatmadan-boyutlandirma",
+        "title": "Kubernetes 1.35'te Pod Boyutu Nasıl Değişir?"
+      },
+      "en": {
+        "slug": "kubernetes-in-place-pod-resize",
+        "title": "How Do You Resize Pods in Kubernetes 1.35?"
+      }
+    },
+    {
+      "translationKey": "baseline-web-platform-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "web-platformunda-baseline-nedir",
+        "title": "Web Platformunda 'Baseline' Nedir?"
+      },
+      "en": {
+        "slug": "what-is-baseline-web-platform",
+        "title": "What Does 'Baseline' Mean for Web Features?"
+      }
+    },
+    {
+      "translationKey": "return-to-office-mandates-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "2026-ofise-donus-zorunlulugu",
+        "title": "2026'da Ofise Dönüş Zorunluluğu Neden Artıyor?"
+      },
+      "en": {
+        "slug": "return-to-office-mandates-2026",
+        "title": "Why Are Return-to-Office Mandates Rising in 2026?"
+      }
+    },
+    {
+      "translationKey": "google-ai-mode-vs-overviews-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "google-ai-mode-nedir-ai-overviews-farki",
+        "title": "Google AI Mode Nedir, AI Overviews'tan Farkı Ne?"
+      },
+      "en": {
+        "slug": "google-ai-mode-vs-ai-overviews",
+        "title": "What Is Google AI Mode vs. AI Overviews?"
+      }
     }
   ]
 }
