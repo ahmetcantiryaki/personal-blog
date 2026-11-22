@@ -9228,6 +9228,66 @@
         "slug": "google-ai-mode-vs-ai-overviews",
         "title": "What Is Google AI Mode vs. AI Overviews?"
       }
+    },
+    {
+      "translationKey": "claude-code-easel-charts-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "claude-code-easel-grafik",
+        "title": "Claude Code Easel Nedir? Terminalde Grafik Çizme"
+      },
+      "en": {
+        "slug": "claude-code-easel-charts",
+        "title": "What Is Claude Code's Easel? Charts in the Terminal"
+      }
+    },
+    {
+      "translationKey": "gpt-6-2-astra-vs-sol-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gpt-6-2-astra-mi-sol-mu",
+        "title": "GPT-6.2 Astra mı Sol mu? Hangisini Seçmeli?"
+      },
+      "en": {
+        "slug": "gpt-6-2-astra-vs-sol",
+        "title": "GPT-6.2 Astra vs. Sol: Which One Should You Use?"
+      }
+    },
+    {
+      "translationKey": "chatgpt-plan-api-credits-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "chatgpt-plani-api-kredisi",
+        "title": "ChatGPT Planınız Artık API Kredisi Veriyor"
+      },
+      "en": {
+        "slug": "chatgpt-plan-api-credits",
+        "title": "Your ChatGPT Plan Now Includes API Credits"
+      }
+    },
+    {
+      "translationKey": "gemini-deferred-tier-async-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-deferred-katmani-async",
+        "title": "Gemini Deferred Katmanı: Yarı Fiyatına Async İşlem"
+      },
+      "en": {
+        "slug": "gemini-deferred-tier-async",
+        "title": "Gemini's Deferred Tier: Cheaper Async AI Jobs"
+      }
+    },
+    {
+      "translationKey": "gemini-live-language-switching-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "gemini-live-konusurken-dil-degistirme",
+        "title": "Gemini Live Artık Konuşurken Dil Değiştiriyor"
+      },
+      "en": {
+        "slug": "gemini-live-language-switching",
+        "title": "Gemini Live Now Switches Languages Mid-Conversation"
+      }
     }
   ]
 }

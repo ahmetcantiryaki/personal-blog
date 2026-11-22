@@ -2,58 +2,6 @@
   "updatedAt": "2026-11-22",
   "topics": [
     {
-      "translationKey": "gpt-6-2-astra-vs-sol-2026",
-      "category": "ai",
-      "titleTr": "GPT-6.2 Astra mı Sol mu? Hangisini Seçmeli?",
-      "titleEn": "GPT-6.2 Astra vs Sol: Which Should You Pick?",
-      "slugTr": "gpt-6-2-astra-mi-sol-mu",
-      "slugEn": "gpt-6-2-astra-vs-sol",
-      "keywordTr": "GPT-6.2 Astra Sol karşılaştırma",
-      "keywordEn": "GPT-6.2 Astra vs Sol",
-      "angle": "comparison|help readers choose between OpenAI's two newest Nov 2026 models by cost, speed and reasoning.",
-      "style": "data-led",
-      "brief": "Open with the Nov 17 2026 launch of GPT-6.2 Astra and Sol in ChatGPT Work and Codex. Sections: what each model targets; the headline claim that Sol lands within ~0.5 pts of Astra at max reasoning for roughly one-fifth the cost; reasoning-effort and latency trade-offs; when to default to Sol vs reach for Astra; migration notes from 6.1. Verify: launch date, the within-half-a-point/one-fifth-cost figures, which plans get access. Primary sources: OpenAI release notes; 9to5Mac GPT-6.2 coverage."
-    },
-    {
-      "translationKey": "chatgpt-plan-api-credits-2026",
-      "category": "ai",
-      "titleTr": "ChatGPT Planınız Artık API Kredisi Veriyor",
-      "titleEn": "Your ChatGPT Plan Now Includes API Credits",
-      "slugTr": "chatgpt-plani-api-kredisi",
-      "slugEn": "chatgpt-plan-api-credits",
-      "keywordTr": "ChatGPT API kredisi",
-      "keywordEn": "ChatGPT plan API credits",
-      "angle": "how-to|show Pro/Business subscribers how to claim and spend the new monthly API credits on a first build.",
-      "style": "field-notes",
-      "brief": "Frame around the Nov 2026 perk: $100-$500/month in API credits bundled with Pro and Business plans. Sections: who qualifies and how to find the credits; setting up an API key; a small weekend build (summarizer or Slack bot) that fits inside the free allowance; watching burn rate so you don't overshoot. Verify: the exact credit tiers, eligibility, whether credits expire monthly. Primary sources: OpenAI release notes / help center; Releasebot OpenAI tracker."
-    },
-    {
-      "translationKey": "gemini-deferred-tier-async-2026",
-      "category": "ai",
-      "titleTr": "Gemini Deferred Katmanı: Yarı Fiyatına Async",
-      "titleEn": "Gemini's Deferred Tier: Half-Price Async AI",
-      "slugTr": "gemini-deferred-katmani-async",
-      "slugEn": "gemini-deferred-tier-async",
-      "keywordTr": "Gemini Deferred katmanı",
-      "keywordEn": "Gemini Deferred tier async",
-      "angle": "guide|explain when to route Gemini API calls through the cheaper asynchronous Deferred tier.",
-      "style": "data-led",
-      "brief": "Built on the Nov 12 2026 Gemini Enterprise Agent Platform update: a Deferred tier billed ~50% below Standard PayGo for async calls, plus a unified 1,048,576-token input/output limit. Sections: what 'deferred/async' means for latency; workloads that tolerate it (batch summarization, overnight enrichment, evals); a rough cost model vs Standard; code sketch for submitting and polling a deferred job. Verify: the 50% discount, the unified token limit, tier availability. Primary source: Google Cloud Gemini Enterprise Agent Platform release notes."
-    },
-    {
-      "translationKey": "gemini-live-language-switching-2026",
-      "category": "ai",
-      "titleTr": "Gemini Live Artık Konuşurken Dil Değiştiriyor",
-      "titleEn": "Gemini Live Now Switches Languages Mid-Call",
-      "slugTr": "gemini-live-konusurken-dil-degistirme",
-      "slugEn": "gemini-live-language-switching",
-      "keywordTr": "Gemini Live dil değiştirme",
-      "keywordEn": "Gemini Live language switching",
-      "angle": "deep-dive|unpack the new multilingual Gemini Live and what seamless mid-conversation switching unlocks.",
-      "style": "story-led",
-      "brief": "Lead with a bilingual user flipping between Turkish and English in one Gemini Live session without re-prompting. Sections: what changed (Gemini Live reportedly handling ~97 languages with mid-conversation switching); real use cases (customer support, travel, language practice); limits and where it still stumbles; how it compares to ChatGPT voice and translate apps. Verify the 97-language claim and mid-conversation switching against an authoritative Google source before publishing; flag if only third-party blogs confirm it. Primary sources: Google Gemini app release notes; blog.google."
-    },
-    {
       "translationKey": "ai-code-review-workflow-trust-2026",
       "category": "software-engineering",
       "titleTr": "AI Koduna Güvenmiyoruz: Bir İnceleme Akışı",
@@ -65,19 +13,6 @@
       "angle": "how-to|give teams a concrete review pipeline for AI-generated pull requests they don't fully trust.",
       "style": "contrarian",
       "brief": "Anchor on the reported finding that ~96% of developers don't fully trust AI-generated code. Sections: why distrust is rational (plausible-but-wrong diffs, silent API misuse); a staged review flow (automated tests + lint, diff-focused human review, adversarial 'what breaks' pass, provenance notes in the PR); where to spend human attention vs automate; metrics to track regressions. Verify the 96% stat and its source survey. Primary sources: Built In AI-coding article; Temporal State of Development 2026 report."
-    },
-    {
-      "translationKey": "claude-code-easel-charts-2026",
-      "category": "software-engineering",
-      "titleTr": "Claude Code Easel: Terminalde Grafik Çizin",
-      "titleEn": "Claude Code's Easel: Charts in the Terminal",
-      "slugTr": "claude-code-easel-grafik",
-      "slugEn": "claude-code-easel-charts",
-      "keywordTr": "Claude Code Easel grafik",
-      "keywordEn": "Claude Code Easel charts",
-      "angle": "how-to|show how the new built-in Easel mod draws charts on demand and for MCP metrics.",
-      "style": "story-led",
-      "brief": "Open with asking Claude Code to 'chart this' and getting an inline visualization. Sections: what Easel is (built-in mod in v2.1.330, Nov 20 2026, drawing charts on request and for MCP metrics results); which plans/OSes get it (Pro/Max, Team/Enterprise where offered, macOS/Linux); turning automatic charts off in /config; practical uses (visualizing token spend, test timings, log counts). Verify version number, plan gating, the /config toggle. Primary source: code.claude.com/docs/en/changelog (2.1.330)."
     },
     {
       "translationKey": "remix-3-leaves-react-2026",
