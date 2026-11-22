@@ -6086,5 +6086,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3483105,
     "generatedAt": "2026-11-21T06:29:02.538Z"
+  },
+  "en/chatgpt-plan-api-credits": {
+    "hash": "ea5aeba008984e33",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-plan-api-credits.mp3",
+    "seconds": 382,
+    "voice": "en_US-ryan-high",
+    "bytes": 3056996,
+    "generatedAt": "2026-11-22T06:27:27.506Z"
+  },
+  "en/claude-code-easel-charts": {
+    "hash": "3962ce8cf79b47d8",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-easel-charts.mp3",
+    "seconds": 441,
+    "voice": "en_US-ryan-high",
+    "bytes": 3529081,
+    "generatedAt": "2026-11-22T06:30:02.637Z"
+  },
+  "en/gemini-deferred-tier-async": {
+    "hash": "193457fe973492b0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-deferred-tier-async.mp3",
+    "seconds": 415,
+    "voice": "en_US-ryan-high",
+    "bytes": 3318429,
+    "generatedAt": "2026-11-22T06:32:27.482Z"
+  },
+  "en/gemini-live-language-switching": {
+    "hash": "2c8b51c1b8ebf17f",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-live-language-switching.mp3",
+    "seconds": 449,
+    "voice": "en_US-ryan-high",
+    "bytes": 3595536,
+    "generatedAt": "2026-11-22T06:33:55.117Z"
+  },
+  "en/gpt-6-2-astra-vs-sol": {
+    "hash": "859eef5986e6d750",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpt-6-2-astra-vs-sol.mp3",
+    "seconds": 443,
+    "voice": "en_US-ryan-high",
+    "bytes": 3546426,
+    "generatedAt": "2026-11-22T06:35:19.891Z"
   }
 }
