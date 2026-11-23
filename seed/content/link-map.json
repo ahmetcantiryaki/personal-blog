@@ -9288,6 +9288,66 @@
         "slug": "gemini-live-language-switching",
         "title": "Gemini Live Now Switches Languages Mid-Conversation"
       }
+    },
+    {
+      "translationKey": "gemini-mac-computer-use-2026",
+      "category": "technology",
+      "tr": {
+        "slug": "gemini-mac-bilgisayar-kullanimi",
+        "title": "Gemini Mac'te Bilgisayarı Kullanıyor: Ne Yapıyor?"
+      },
+      "en": {
+        "slug": "gemini-mac-computer-use",
+        "title": "Gemini's Computer Use for Mac: What It Actually Does"
+      }
+    },
+    {
+      "translationKey": "ai-code-review-workflow-trust-2026",
+      "category": "software-engineering",
+      "tr": {
+        "slug": "ai-koduna-guven-inceleme-akisi",
+        "title": "Geliştiricilerin %96'sı AI Koduna Güvenmiyor: Çözüm"
+      },
+      "en": {
+        "slug": "ai-code-review-workflow-trust",
+        "title": "96% Don't Trust AI Code: A Review Flow That Works"
+      }
+    },
+    {
+      "translationKey": "remix-3-leaves-react-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "remix-3-react-i-birakti",
+        "title": "Remix 3 React'i Bıraktı: Sizin İçin Anlamı Ne?"
+      },
+      "en": {
+        "slug": "remix-3-leaves-react",
+        "title": "Remix 3 Drops React: What It Means for You"
+      }
+    },
+    {
+      "translationKey": "react-20-whats-coming-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "react-20-neler-geliyor",
+        "title": "React 20 Gerçekten Geliyor mu? Kesin Olanlar"
+      },
+      "en": {
+        "slug": "react-20-whats-coming",
+        "title": "Is React 20 Really Coming? What's Confirmed"
+      }
+    },
+    {
+      "translationKey": "why-ai-tools-pick-react-2026",
+      "category": "web-development",
+      "tr": {
+        "slug": "ai-araclari-neden-react-seciyor",
+        "title": "AI Kodlama Araçları Neden Hep React Seçiyor?"
+      },
+      "en": {
+        "slug": "why-ai-tools-pick-react",
+        "title": "Why Do AI Coding Tools Always Pick React?"
+      }
     }
   ]
 }

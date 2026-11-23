@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "topics": [
-    {
-      "translationKey": "ai-code-review-workflow-trust-2026",
-      "category": "software-engineering",
-      "titleTr": "AI Koduna Güvenmiyoruz: Bir İnceleme Akışı",
-      "titleEn": "96% Distrust AI Code: Build a Review Flow",
-      "slugTr": "ai-koduna-guven-inceleme-akisi",
-      "slugEn": "ai-code-review-workflow-trust",
-      "keywordTr": "AI kod inceleme akışı",
-      "keywordEn": "AI code review workflow",
-      "angle": "how-to|give teams a concrete review pipeline for AI-generated pull requests they don't fully trust.",
-      "style": "contrarian",
-      "brief": "Anchor on the reported finding that ~96% of developers don't fully trust AI-generated code. Sections: why distrust is rational (plausible-but-wrong diffs, silent API misuse); a staged review flow (automated tests + lint, diff-focused human review, adversarial 'what breaks' pass, provenance notes in the PR); where to spend human attention vs automate; metrics to track regressions. Verify the 96% stat and its source survey. Primary sources: Built In AI-coding article; Temporal State of Development 2026 report."
-    },
-    {
-      "translationKey": "remix-3-leaves-react-2026",
-      "category": "web-development",
-      "titleTr": "Remix 3 React'i Bıraktı: Bu Ne Anlama Geliyor?",
-      "titleEn": "Remix 3 Leaves React Behind: What It Means",
-      "slugTr": "remix-3-react-i-birakti",
-      "slugEn": "remix-3-leaves-react",
-      "keywordTr": "Remix 3 React",
-      "keywordEn": "Remix 3 without React",
-      "angle": "deep-dive|examine Remix 3's pivot to web-platform micro-packages and whether to follow.",
-      "style": "contrarian",
-      "brief": "Frame the surprise: Remix 3 reportedly steps away from React toward micro-packages built on web-platform primitives. Sections: what Remix 3 actually ships and why the team made the call; the broader 'back to the platform' current (web components, native APIs) vs React's server-components direction; who benefits and who shouldn't rip out React; migration realities. Verify Remix 3's scope and the React-removal claim against the Remix team's own posts. Primary sources: Remix blog/docs; Netlify 2025 web frameworks review; The New Stack React-vs-native-web piece."
-    },
-    {
-      "translationKey": "react-20-whats-coming-2026",
-      "category": "web-development",
-      "titleTr": "React 20: Neler Geliyor, Neler Bozuluyor?",
-      "titleEn": "React 20: What's Coming and What Breaks",
-      "slugTr": "react-20-neler-geliyor",
-      "slugEn": "react-20-whats-coming",
-      "keywordTr": "React 20 yenilikler",
-      "keywordEn": "React 20 new features",
-      "angle": "guide|preview React 20's direction and the migration gotchas from 19.x.",
-      "style": "question-driven",
-      "brief": "Written as an evergreen 'what to expect' with 19.2 as the baseline and React 20 in development. Sections: confirmed vs rumored changes (lean hard on the official roadmap, label anything unconfirmed); server components maturation; likely deprecations and breaking changes; a pre-upgrade checklist for app and library authors. Verify every version claim against React's own release blog and RFCs; do not state a ship date that isn't official. Primary sources: react.dev blog / release notes; React RFCs repo."
-    },
-    {
-      "translationKey": "why-ai-tools-pick-react-2026",
-      "category": "web-development",
-      "titleTr": "AI Araçları Neden Hep React Seçiyor?",
-      "titleEn": "Why AI Coding Tools Always Reach for React",
-      "slugTr": "ai-araclari-neden-react-seciyor",
-      "slugEn": "why-ai-tools-pick-react",
-      "keywordTr": "AI React önyargısı",
-      "keywordEn": "AI tools React bias",
-      "angle": "deep-dive|explain the training-data bias that makes AI assistants default to React/Next.js.",
-      "style": "question-driven",
-      "brief": "Pose the question every non-React dev notices: ask for a web UI and the model scaffolds React. Sections: why (models trained on a corpus dominated by React/Next.js code); the risk of a self-reinforcing monoculture that starves Svelte, Solid, Astro, HTMX; how to steer assistants toward your real stack with prompts, system rules and examples; when the default is actually fine. Verify the training-bias framing against cited reporting. Primary sources: The New Stack 'AI's React bias vs native web'; LogRocket 2026 web-dev trends."
-    },
     {
       "translationKey": "kubernetes-idle-costs-keda-2026",
       "category": "devops-cloud",
