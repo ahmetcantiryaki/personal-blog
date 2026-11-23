@@ -6126,5 +6126,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3546426,
     "generatedAt": "2026-11-22T06:35:19.891Z"
+  },
+  "en/ai-code-review-workflow-trust": {
+    "hash": "ba7a2ba123625515",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-ai-code-review-workflow-trust.mp3",
+    "seconds": 396,
+    "voice": "en_US-ryan-high",
+    "bytes": 3169636,
+    "generatedAt": "2026-11-23T06:23:01.188Z"
+  },
+  "en/gemini-mac-computer-use": {
+    "hash": "c5d53c24d6ee55a2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gemini-mac-computer-use.mp3",
+    "seconds": 412,
+    "voice": "en_US-ryan-high",
+    "bytes": 3298785,
+    "generatedAt": "2026-11-23T06:24:38.909Z"
+  },
+  "en/react-20-whats-coming": {
+    "hash": "bc4e22e633ca2759",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-react-20-whats-coming.mp3",
+    "seconds": 407,
+    "voice": "en_US-ryan-high",
+    "bytes": 3260124,
+    "generatedAt": "2026-11-23T06:26:16.007Z"
+  },
+  "en/remix-3-leaves-react": {
+    "hash": "2a57e62ec911145e",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-remix-3-leaves-react.mp3",
+    "seconds": 377,
+    "voice": "en_US-ryan-high",
+    "bytes": 3018335,
+    "generatedAt": "2026-11-23T06:27:45.578Z"
+  },
+  "en/why-ai-tools-pick-react": {
+    "hash": "e4f6d72f5bef176b",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-why-ai-tools-pick-react.mp3",
+    "seconds": 381,
+    "voice": "en_US-ryan-high",
+    "bytes": 3045502,
+    "generatedAt": "2026-11-23T06:29:17.076Z"
   }
 }
