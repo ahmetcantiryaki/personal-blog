@@ -9348,6 +9348,66 @@
         "slug": "why-ai-tools-pick-react",
         "title": "Why Do AI Coding Tools Always Pick React?"
       }
+    },
+    {
+      "translationKey": "claude-code-enterprise-cloud-parity-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-kurumsal-bulut-ozellikleri",
+        "title": "Claude Code Bedrock, GCP, Foundry'de Ne Çalışıyor?"
+      },
+      "en": {
+        "slug": "claude-code-enterprise-cloud-parity",
+        "title": "Claude Code on Bedrock, GCP, Foundry: What Works?"
+      }
+    },
+    {
+      "translationKey": "kubernetes-idle-costs-keda-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-bosta-maliyet-keda",
+        "title": "KEDA ile Boşta Kubernetes Maliyeti Nasıl Kesilir?"
+      },
+      "en": {
+        "slug": "kubernetes-idle-costs-keda",
+        "title": "How Do You Cut Idle Kubernetes Costs With KEDA?"
+      }
+    },
+    {
+      "translationKey": "gpu-costs-kubernetes-inference-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "kubernetes-gpu-cikarim-maliyeti",
+        "title": "Kubernetes'te AI Çıkarım GPU Maliyeti Nasıl Düşürülür?"
+      },
+      "en": {
+        "slug": "gpu-costs-kubernetes-inference",
+        "title": "How Do You Cut GPU Costs for AI Inference on K8s?"
+      }
+    },
+    {
+      "translationKey": "finops-platform-engineering-merge-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "finops-platform-ekibi-birlesme",
+        "title": "FinOps Platform Mühendisliğine mi Taşınıyor?"
+      },
+      "en": {
+        "slug": "finops-platform-engineering-merge",
+        "title": "Is FinOps Merging Into Platform Engineering?"
+      }
+    },
+    {
+      "translationKey": "claude-code-ci-automated-fixes-2026",
+      "category": "devops-cloud",
+      "tr": {
+        "slug": "ci-claude-code-otomatik-duzeltme",
+        "title": "CI'da Claude Code ile Otomatik Düzeltme Nasıl Yapılır?"
+      },
+      "en": {
+        "slug": "claude-code-ci-automated-fixes",
+        "title": "Run Claude Code in CI for Automated Fixes"
+      }
     }
   ]
 }

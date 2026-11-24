@@ -1,58 +1,6 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "topics": [
-    {
-      "translationKey": "kubernetes-idle-costs-keda-2026",
-      "category": "devops-cloud",
-      "titleTr": "KEDA ile Boştaki Kubernetes Maliyetini Kesin",
-      "titleEn": "Kill Idle Kubernetes Costs with KEDA",
-      "slugTr": "kubernetes-bosta-maliyet-keda",
-      "slugEn": "kubernetes-idle-costs-keda",
-      "keywordTr": "Kubernetes boşta maliyet KEDA",
-      "keywordEn": "Kubernetes idle cost KEDA",
-      "angle": "how-to|cut spend from idle and over-provisioned workloads with event-driven and scheduled scaling.",
-      "style": "field-notes",
-      "brief": "Grounded in the 2026 shift from k8s adoption to optimization, with idle workloads named the top waste source. Sections: find idle spend (namespace/pod-level cost attribution); scale to zero with KEDA event-driven autoscaling; park non-prod with kube-downscaler on a schedule; pair with Karpenter for right-sized nodes; guardrails so scaling-to-zero doesn't break latency SLOs. Verify tool behaviors and any cited savings. Primary sources: KubeCon EU 2026 recaps; Coralogix / SUSE Kubernetes cost-optimization guides."
-    },
-    {
-      "translationKey": "gpu-costs-kubernetes-inference-2026",
-      "category": "devops-cloud",
-      "titleTr": "Kubernetes'te AI Çıkarım GPU Maliyetini Kesin",
-      "titleEn": "Taming GPU Costs for AI Inference on K8s",
-      "slugTr": "kubernetes-gpu-cikarim-maliyeti",
-      "slugEn": "gpu-costs-kubernetes-inference",
-      "keywordTr": "Kubernetes GPU çıkarım maliyeti",
-      "keywordEn": "Kubernetes GPU inference cost",
-      "angle": "deep-dive|control the GPU bill when serving generative AI inference on Kubernetes.",
-      "style": "data-led",
-      "brief": "Start from the stat that a majority of orgs hosting generative models run at least some inference on Kubernetes, pushing GPU discipline onto platform teams. Sections: why GPUs break classic autoscaling (cold starts, fractional sharing); tactics (MIG/time-slicing, request batching, autoscaling on queue depth, spot GPUs with checkpointing); measuring cost-per-1k-tokens served; when managed inference beats self-hosting. Verify the two-thirds figure and GPU-sharing claims. Primary sources: Coralogix Kubernetes cost guide; CIO 'Kubernetes costs keep rising' piece."
-    },
-    {
-      "translationKey": "finops-platform-engineering-merge-2026",
-      "category": "devops-cloud",
-      "titleTr": "FinOps Platform Ekibinin İşi Olduğunda",
-      "titleEn": "When FinOps Becomes the Platform Team's Job",
-      "slugTr": "finops-platform-ekibi-birlesme",
-      "slugEn": "finops-platform-engineering-merge",
-      "keywordTr": "FinOps platform mühendisliği",
-      "keywordEn": "FinOps platform engineering",
-      "angle": "deep-dive|argue cost ownership is moving from a separate FinOps function into platform teams.",
-      "style": "contrarian",
-      "brief": "Contrarian take: FinOps as a standalone team is dissolving into platform engineering in 2026. Sections: the evidence (survey data on rising TCO and AI-based cost tooling; recaps calling FinOps 'no longer separate'); what changes for platform engineers (cost as a golden-path default, showback/chargeback in the IDP, budget-aware templates); the risk of making engineers reluctant cost cops; where a central FinOps role still earns its seat. Verify the 88%/92% TCO/AI-tooling figures and the convergence claim. Primary sources: Futurum 'Platform Engineering and FinOps Converge'; CIO Kubernetes-costs piece."
-    },
-    {
-      "translationKey": "claude-code-ci-automated-fixes-2026",
-      "category": "devops-cloud",
-      "titleTr": "CI'da Claude Code ile Otomatik Düzeltmeler",
-      "titleEn": "Run Claude Code in CI for Automated Fixes",
-      "slugTr": "ci-claude-code-otomatik-duzeltme",
-      "slugEn": "claude-code-ci-automated-fixes",
-      "keywordTr": "Claude Code CI otomasyon",
-      "keywordEn": "Claude Code CI automation",
-      "angle": "how-to|wire Claude Code into a pipeline to auto-fix lint, flaky tests and small regressions.",
-      "style": "story-led",
-      "brief": "Open with a red build fixed before the engineer finished coffee. Sections: when CI automation pays off vs noise; running Claude Code headless in a pipeline with a scoped permission mode and auto mode; safe guardrails (open a PR, never force-merge; sandboxed bash; no secret access); reviewing the bot's diffs; what to automate (formatting, obvious test fixes) vs leave to humans. Verify auto-mode/sandbox behavior and permission flags. Primary source: code.claude.com/docs/en/changelog (auto mode, Code Mode, sandbox entries)."
-    },
     {
       "translationKey": "is-ai-burning-out-developers-2026",
       "category": "career-productivity",
