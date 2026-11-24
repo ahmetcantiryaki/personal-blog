@@ -6166,5 +6166,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3045502,
     "generatedAt": "2026-11-23T06:29:17.076Z"
+  },
+  "en/claude-code-ci-automated-fixes": {
+    "hash": "160e9e7b9eff89ff",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-ci-automated-fixes.mp3",
+    "seconds": 402,
+    "voice": "en_US-ryan-high",
+    "bytes": 3213313,
+    "generatedAt": "2026-11-24T06:26:26.272Z"
+  },
+  "en/claude-code-enterprise-cloud-parity": {
+    "hash": "9c1edaf40a6d0aa0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-enterprise-cloud-parity.mp3",
+    "seconds": 439,
+    "voice": "en_US-ryan-high",
+    "bytes": 3511736,
+    "generatedAt": "2026-11-24T06:28:50.383Z"
+  },
+  "en/finops-platform-engineering-merge": {
+    "hash": "fa6bd4b14d32cebe",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-finops-platform-engineering-merge.mp3",
+    "seconds": 435,
+    "voice": "en_US-ryan-high",
+    "bytes": 3479762,
+    "generatedAt": "2026-11-24T06:31:13.167Z"
+  },
+  "en/gpu-costs-kubernetes-inference": {
+    "hash": "5b6a53a5fbb54418",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-gpu-costs-kubernetes-inference.mp3",
+    "seconds": 434,
+    "voice": "en_US-ryan-high",
+    "bytes": 3470567,
+    "generatedAt": "2026-11-24T06:33:36.346Z"
+  },
+  "en/kubernetes-idle-costs-keda": {
+    "hash": "c0151108b97d6990",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-kubernetes-idle-costs-keda.mp3",
+    "seconds": 428,
+    "voice": "en_US-ryan-high",
+    "bytes": 3425009,
+    "generatedAt": "2026-11-24T06:35:58.062Z"
   }
 }
