@@ -6206,5 +6206,45 @@
     "voice": "en_US-ryan-high",
     "bytes": 3425009,
     "generatedAt": "2026-11-24T06:35:58.062Z"
+  },
+  "en/chatgpt-space-pages-files": {
+    "hash": "f121236af85388c3",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-chatgpt-space-pages-files.mp3",
+    "seconds": 379,
+    "voice": "en_US-ryan-high",
+    "bytes": 3035053,
+    "generatedAt": "2026-11-25T06:29:18.092Z"
+  },
+  "en/claude-code-mcp-server-skills": {
+    "hash": "d59c78b69c3fbfd2",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-claude-code-mcp-server-skills.mp3",
+    "seconds": 391,
+    "voice": "en_US-ryan-high",
+    "bytes": 3131184,
+    "generatedAt": "2026-11-25T06:31:27.957Z"
+  },
+  "en/is-ai-burning-out-developers": {
+    "hash": "466e39364a00edc0",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-is-ai-burning-out-developers.mp3",
+    "seconds": 414,
+    "voice": "en_US-ryan-high",
+    "bytes": 3309443,
+    "generatedAt": "2026-11-25T06:33:44.780Z"
+  },
+  "en/one-post-every-channel-ai": {
+    "hash": "097242be6ab20510",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-one-post-every-channel-ai.mp3",
+    "seconds": 394,
+    "voice": "en_US-ryan-high",
+    "bytes": 3155216,
+    "generatedAt": "2026-11-25T06:35:56.209Z"
+  },
+  "en/writing-code-to-steering-dev-role": {
+    "hash": "1169d0ec484523d7",
+    "url": "https://github.com/ahmetcantiryaki/personal-blog/releases/download/audio-library/en-writing-code-to-steering-dev-role.mp3",
+    "seconds": 373,
+    "voice": "en_US-ryan-high",
+    "bytes": 2985316,
+    "generatedAt": "2026-11-25T06:38:00.402Z"
   }
 }
