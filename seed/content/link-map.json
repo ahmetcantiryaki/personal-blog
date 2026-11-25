@@ -9408,6 +9408,66 @@
         "slug": "claude-code-ci-automated-fixes",
         "title": "Run Claude Code in CI for Automated Fixes"
       }
+    },
+    {
+      "translationKey": "claude-code-mcp-server-skills-2026",
+      "category": "ai",
+      "tr": {
+        "slug": "claude-code-mcp-sunucu-skilleri",
+        "title": "Claude Code'da MCP Sunucu Skill'leri Nedir?"
+      },
+      "en": {
+        "slug": "claude-code-mcp-server-skills",
+        "title": "What Are Claude Code's New MCP Server Skills?"
+      }
+    },
+    {
+      "translationKey": "is-ai-burning-out-developers-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "ai-gelistiricileri-tuketiyor-mu",
+        "title": "AI Geliştiricileri Sessizce Tüketiyor mu?"
+      },
+      "en": {
+        "slug": "is-ai-burning-out-developers",
+        "title": "Is AI Quietly Burning Out Developers?"
+      }
+    },
+    {
+      "translationKey": "writing-code-to-steering-dev-role-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "kod-yazmaktan-yonetmeye-yeni-rol",
+        "title": "Kod Yazmaktan Yönetmeye: Yeni Geliştirici Rolü"
+      },
+      "en": {
+        "slug": "writing-code-to-steering-dev-role",
+        "title": "From Writing Code to Steering It: New Role"
+      }
+    },
+    {
+      "translationKey": "chatgpt-space-pages-files-2026",
+      "category": "career-productivity",
+      "tr": {
+        "slug": "chatgpt-space-sayfalar-dosyalar",
+        "title": "ChatGPT Space: Sayfalar, Slaytlar Tek Yerde"
+      },
+      "en": {
+        "slug": "chatgpt-space-pages-files",
+        "title": "ChatGPT Space: Pages, Slides & Files in One"
+      }
+    },
+    {
+      "translationKey": "one-post-every-channel-ai-2026",
+      "category": "digital-marketing",
+      "tr": {
+        "slug": "tek-icerik-tum-kanallar-ai",
+        "title": "Tek İçerik, Tüm Kanallar: AI ile Yeniden Kullan"
+      },
+      "en": {
+        "slug": "one-post-every-channel-ai",
+        "title": "One Post, Every Channel: AI Repurposing"
+      }
     }
   ]
 }

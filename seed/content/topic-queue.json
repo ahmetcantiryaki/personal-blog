@@ -1,84 +1,6 @@
 {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "topics": [
-    {
-      "translationKey": "is-ai-burning-out-developers-2026",
-      "category": "career-productivity",
-      "titleTr": "AI Geliştiricileri Sessizce Tüketiyor mu?",
-      "titleEn": "Is AI Quietly Burning Out Developers?",
-      "slugTr": "ai-gelistiricileri-tuketiyor-mu",
-      "slugEn": "is-ai-burning-out-developers",
-      "keywordTr": "AI geliştirici tükenmişlik",
-      "keywordEn": "AI developer burnout",
-      "angle": "deep-dive|weigh evidence that AI raises output but also a new kind of burnout, with fixes.",
-      "style": "question-driven",
-      "brief": "Hold two facts together: most engineers report AI improved productivity, yet studies link AI job demands to higher burnout. Sections: the paradox (more shipped, more review/oversight load, intensified pace); what a 2026 study found drives burnout (workload intensification, org pressure) and what reduces it (autonomy over how AI is used, real learning); team practices to protect focus and ownership. Verify the Oregon State study details and the productivity-survey figures. Primary sources: Oregon State AI-burnout study; TechRadar 'developers more powerful, why aren't they happy'; Thoughtworks DX post."
-    },
-    {
-      "translationKey": "writing-code-to-steering-dev-role-2026",
-      "category": "career-productivity",
-      "titleTr": "Kod Yazmaktan Yönetmeye: Yeni Geliştirici Rolü",
-      "titleEn": "From Writing Code to Steering It: New Role",
-      "slugTr": "kod-yazmaktan-yonetmeye-yeni-rol",
-      "slugEn": "writing-code-to-steering-dev-role",
-      "keywordTr": "geliştirici rolü değişimi",
-      "keywordEn": "developer role shift AI",
-      "angle": "deep-dive|map how the core dev skill is shifting from writing to planning, synthesis and review.",
-      "style": "question-driven",
-      "brief": "Ask what the job becomes when writing code stops being the bottleneck. Sections: the shift toward structuring a plan, reviewing AI output and synthesizing across systems as the high-value work; evidence (reports that most engineers now write less code; the 'new identity of a developer'); skills to grow deliberately (problem framing, system design, communication, taste); advice for juniors pushed into senior-shaped work early. Verify the 77%/'spend less time writing code' figures. Primary sources: GitHub Blog 'new identity of a developer'; Built In; Atlassian developer-workflow research."
-    },
-    {
-      "translationKey": "chatgpt-space-pages-files-2026",
-      "category": "career-productivity",
-      "titleTr": "ChatGPT Space: Sayfalar, Slaytlar Tek Yerde",
-      "titleEn": "ChatGPT Space: Pages, Slides & Files in One",
-      "slugTr": "chatgpt-space-sayfalar-dosyalar",
-      "slugEn": "chatgpt-space-pages-files",
-      "keywordTr": "ChatGPT Space kullanımı",
-      "keywordEn": "ChatGPT Space guide",
-      "angle": "how-to|tour the new ChatGPT Space that replaces Library and organize a real project in it.",
-      "style": "field-notes",
-      "brief": "Built on the Nov 20 2026 rollout of ChatGPT Space to Plus users 18+, replacing Library as the home for pages, slides and files. Sections: what moved and where to find things now; pages that refresh from connected apps; bringing Slides into Space; a worked example (organizing a product-launch project end to end); who has access across web/desktop/mobile. Verify the rollout date, plan eligibility and the Library replacement. Primary sources: OpenAI release notes; Tom's Guide self-updating-documents coverage."
-    },
-    {
-      "translationKey": "linkedin-pdf-carousels-2026",
-      "category": "social-media",
-      "titleTr": "LinkedIn'de PDF Karuselleri Neden Kazanıyor?",
-      "titleEn": "Why PDF Carousels Win on LinkedIn Now",
-      "slugTr": "linkedin-pdf-karusel-2026",
-      "slugEn": "linkedin-pdf-carousels-2026",
-      "keywordTr": "LinkedIn PDF karusel",
-      "keywordEn": "LinkedIn PDF carousel",
-      "angle": "how-to|show why document posts top LinkedIn dwell time and how to build one that performs.",
-      "style": "data-led",
-      "brief": "Anchor on reports that PDF/document carousels became LinkedIn's highest dwell-time format in 2026 and that the algorithm now rewards saves, comments and shares over likes, weighting the first three lines heavily. Sections: why dwell time matters; anatomy of a strong carousel (hook slide, one idea per page, a saveable payoff); posting cadence and the native-upload gotcha; measuring saves and dwell. Verify the dwell-time and ranking-signal claims; label vendor stats as unverified. Primary sources: StoryChief / Somin 2026 algorithm guides; LinkedIn's own creator updates."
-    },
-    {
-      "translationKey": "tiktok-search-engine-optimize-2026",
-      "category": "social-media",
-      "titleTr": "TikTok Artık Arama Motoru: Ona Göre Optimize Et",
-      "titleEn": "TikTok Is a Search Engine: Optimize for It",
-      "slugTr": "tiktok-arama-motoru-optimize",
-      "slugEn": "tiktok-search-engine-optimize",
-      "keywordTr": "TikTok arama optimizasyonu",
-      "keywordEn": "TikTok search optimization",
-      "angle": "how-to|treat TikTok as a discovery/search surface and optimize videos to be found, not just served.",
-      "style": "contrarian",
-      "brief": "Contrarian frame: stop chasing the For You feed and start ranking in TikTok search, which a 2026 Adobe study says consumers now use like a search engine. Sections: how TikTok surfaces searchable content (spoken keywords, on-screen text, captions, the new creator keyword controls); a keyword-first scripting workflow; evergreen 'how-to' formats that keep earning views; measuring search-driven traffic. Verify the Adobe 'TikTok as search engine' finding and the keyword-control feature. Primary sources: The Gain Blog social updates; StoryChief 2026 algorithm guide."
-    },
-    {
-      "translationKey": "instagram-dm-shares-ranking-2026",
-      "category": "social-media",
-      "titleTr": "Instagram Artık DM Paylaşımına Göre Sıralıyor",
-      "titleEn": "Instagram Now Ranks You on DM Shares",
-      "slugTr": "instagram-dm-paylasim-siralama",
-      "slugEn": "instagram-dm-shares-ranking",
-      "keywordTr": "Instagram DM paylaşım sıralama",
-      "keywordEn": "Instagram DM shares ranking",
-      "angle": "deep-dive|unpack why sends-per-view is now a top Instagram signal and how to earn shares.",
-      "style": "data-led",
-      "brief": "Lead with the 2026 claim that shares per view, especially DM sends, are among Instagram's most important ranking inputs, alongside more weight for original photos and carousels. Sections: why 'send to a friend' beats a like; content built to be shared (relatable, useful, save-and-send formats); the originality penalty for recycled/watermarked content; a check so you don't optimize for vanity reach. Verify the sends-per-view and originality-priority claims against Instagram's own statements; flag single-source stats. Primary sources: Somin / StoryChief 2026 algorithm guides; Instagram @creators updates."
-    },
     {
       "translationKey": "chatgpt-weekly-reels-workflow-2026",
       "category": "social-media",
@@ -104,19 +26,6 @@
       "angle": "how-to|batch-produce a month of on-brand marketing copy in a single structured ChatGPT session.",
       "style": "field-notes",
       "brief": "Show a batching session that beats one-off prompting. Sections: a prompt scaffold (role, context, task, format, constraints) reused per asset; generating a month of emails, ad variants and landing blurbs from one campaign brief; keeping voice consistent with a pasted brand profile or custom GPT; a QA checklist before anything ships; where ChatGPT shouldn't go (analytics, attribution, real-time campaign calls). Verify the prompt-structure and limits framing. Primary sources: Dupple 2026 ChatGPT-for-marketing guide; ClickUp marketing use-cases; OpenAI Academy."
-    },
-    {
-      "translationKey": "one-post-every-channel-ai-2026",
-      "category": "digital-marketing",
-      "titleTr": "Tek İçerik, Tüm Kanallar: AI ile Yeniden Kullan",
-      "titleEn": "One Post, Every Channel: AI Repurposing",
-      "slugTr": "tek-icerik-tum-kanallar-ai",
-      "slugEn": "one-post-every-channel-ai",
-      "keywordTr": "AI içerik yeniden kullanım",
-      "keywordEn": "AI content repurposing",
-      "angle": "checklist|a repeatable checklist to turn one strong piece into assets for every channel with AI.",
-      "style": "story-led",
-      "brief": "Open with the insight that the biggest AI time-save in marketing is reformatting one strong piece across channels, not generating from scratch. A checklist-style evergreen: pick the hero asset; extract the core argument; derive a newsletter, a LinkedIn carousel, an X thread, an Instagram caption and a short-video script; adapt tone per platform; add a human polish and fact-check pass; schedule. Keep it channel-text repurposing (not video-to-shorts). Verify the 'repurpose beats generate' framing. Primary sources: Upwork ChatGPT-in-marketing; WebFX use-cases; Brevo ChatGPT-for-marketers."
     },
     {
       "translationKey": "readers-smell-ai-copy-trust-2026",
@@ -208,19 +117,6 @@
       "angle": "deep-dive|explain the two-market split in venture and which story founders should actually tell.",
       "style": "contrarian",
       "brief": "Contrarian thesis: venture has split into AI and non-AI markets, and many founders pitch the wrong one. Sections: the evidence (AI's Series A valuation premium; non-AI investment at multi-year lows; froth concentrated at early/growth stages); how to position if you're AI-native vs AI-enabled vs deliberately not-AI; red flags of bubble-chasing; the durable-revenue counsel VCs keep repeating. Verify the valuation-premium and non-AI-low figures and the bubble-stage framing. Primary sources: CRV 'what investors look for 2026'; Fortune VC-concentration piece; GeekWire bubble roundtable."
-    },
-    {
-      "translationKey": "chatgpt-business-hub-storefront-2026",
-      "category": "business",
-      "titleTr": "ChatGPT Business Hub: Vitrininizi Sahiplenin",
-      "titleEn": "ChatGPT Business Hub: Claim Your Storefront",
-      "slugTr": "chatgpt-business-hub-vitrin",
-      "slugEn": "chatgpt-business-hub-storefront",
-      "keywordTr": "ChatGPT Business Hub",
-      "keywordEn": "ChatGPT Business Hub",
-      "angle": "how-to|help small businesses claim their ChatGPT presence, connect product feeds and read insights.",
-      "style": "field-notes",
-      "brief": "Built on the Nov 10 2026 Business Hub launch letting businesses claim their presence, connect product feeds and view customer insights. Sections: why a ChatGPT storefront matters as shopping moves into chat; claiming and verifying your business; connecting a product feed and keeping it clean; reading the customer insights; how this sits next to ChatGPT Wallet/agentic checkout for merchants. Verify the launch date, what data the Hub exposes and feed requirements. Primary sources: OpenAI release notes / Business Hub announcement; Releasebot OpenAI tracker."
     }
   ]
 }
